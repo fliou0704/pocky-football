@@ -1,0 +1,78 @@
+name: Build and deploy Pocky Football
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # Monday/Tuesday recap and Friday after Thursday games, 14:00 UTC.
+    - cron: '0 14 * * 1,2,5'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Test exporter
+        run: python -m unittest discover -s tests -v
+
+      - name: Refresh ESPN data
+        env:
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          SWID: ${{ secrets.SWID }}
+        run: |
+          if [[ -n "$ESPN_S2" && -n "$SWID" ]]; then
+            python generate.py --league pocky-football
+          elif [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
+            echo "ESPN secrets absent; deploying the checked-in generated data."
+          else
+            echo "Set ESPN_S2 and SWID repository secrets for scheduled or manual refreshes." >&2
+            exit 1
+          fi
+
+      - uses: pnpm/action-setup@v6
+        with:
+          version: 11.19.0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: pnpm
+          cache-dependency-path: frontend/pnpm-lock.yaml
+
+      - name: Install frontend dependencies
+        working-directory: frontend
+        run: pnpm install --frozen-lockfile
+
+      - name: Test and build frontend
+        working-directory: frontend
+        run: |
+          pnpm test
+          pnpm build
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: frontend/dist
+      - id: deployment
+        uses: actions/deploy-pages@v4

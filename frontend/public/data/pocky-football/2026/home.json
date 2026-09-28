@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "state": {
+    "phase": "regular",
+    "currentWeek": 3,
+    "lastCompletedWeek": 2,
+    "regularSeasonWeeks": 14
+  },
+  "currentMatchups": [
+    {
+      "week": 3,
+      "homeTeamId": 1,
+      "awayTeamId": 2,
+      "homeScore": 75.64,
+      "awayScore": 155.34,
+      "status": "live",
+      "bracket": "regular",
+      "winnerTeamId": null
+    },
+    {
+      "week": 3,
+      "homeTeamId": 11,
+      "awayTeamId": 15,
+      "homeScore": 69.5,
+      "awayScore": 143.94,
+      "status": "live",
+      "bracket": "regular",
+      "winnerTeamId": null
+    },
+    {
+      "week": 3,
+      "homeTeamId": 6,
+      "awayTeamId": 16,
+      "homeScore": 144.34,
+      "awayScore": 106.2,
+      "status": "live",
+      "bracket": "regular",
+      "winnerTeamId": null
+    },
+    {
+      "week": 3,
+      "homeTeamId": 5,
+      "awayTeamId": 12,
+      "homeScore": 110.3,
+      "awayScore": 112.04,
+      "status": "live",
+      "bracket": "regular",
+      "winnerTeamId": null
+    },
+    {
+      "week": 3,
+      "homeTeamId": 13,
+      "awayTeamId": 3,
+      "homeScore": 120.56,
+      "awayScore": 108.76,
+      "status": "live",
+      "bracket": "regular",
+      "winnerTeamId": null
+    }
+  ],
+  "recap": {
+    "week": 2,
+    "phase": "regular",
+    "topTeam": {
+      "teamId": 15,
+      "points": 159.36
+    },
+    "closestMatchup": {
+      "week": 2,
+      "homeTeamId": 16,
+      "awayTeamId": 12,
+      "homeScore": 144.76,
+      "awayScore": 116.88,
+      "status": "final",
+      "bracket": "regular",
+      "winnerTeamId": 16
+    },
+    "topPlayers": [
+      {
+        "playerId": 4430878,
+        "name": "Jaxon Smith-Njigba",
+        "teamId": 2,
+        "points": 42.5,
+        "slot": "WR",
+        "bench": false
+      },
+      {
+        "playerId": 3918298,
+        "name": "Josh Allen",
+        "teamId": 3,
+        "points": 40.82,
+        "slot": "QB",
+        "bench": false
+      },
+      {
+        "playerId": 16800,
+        "name": "Davante Adams",
+        "teamId": 15,
+        "points": 39.5,
+        "slot": "WR",
+        "bench": false
+      },
+      {
+        "playerId": 4241389,
+        "name": "CeeDee Lamb",
+        "teamId": 16,
+        "points": 35.3,
+        "slot": "WR",
+        "bench": false
+      },
+      {
+        "playerId": 4374302,
+        "name": "Amon-Ra St. Brown",
+        "teamId": 11,
+        "points": 35.2,
+        "slot": "WR",
+        "bench": false
+      }
+    ],
+    "matches": []
+  }
+}
