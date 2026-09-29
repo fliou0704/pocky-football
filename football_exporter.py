@@ -1,4 +1,4 @@
-"""ESPN football to the small Stage 1 standings contract."""
+"""ESPN football to season-scoped public JSON contracts."""
 
 import json
 import math
@@ -30,6 +30,9 @@ def read_config(slug, path=CONFIG_PATH, public_root=PUBLIC_ROOT):
         raise ValueError("leagueId must be a positive integer")
     if type(config.get("season")) is not int or config["season"] < 2000:
         raise ValueError("season must be an integer year")
+    first = config.get("firstSeason", config["season"])
+    if type(first) is not int or first < 2000 or first > config["season"]:
+        raise ValueError("firstSeason must be an integer year no later than season")
     credential_names = config.get("credentials", {})
     for key in ("espnS2Env", "swidEnv"):
         name = credential_names.get(key)
@@ -149,22 +152,31 @@ def generate(slug, config_path=CONFIG_PATH, output=PUBLIC_DATA):
         raise ValueError("Missing environment variables: " + ", ".join(missing))
     from espn_api.football import League
 
-    league = League(
-        league_id=config["leagueId"],
-        year=config["season"],
-        espn_s2=os.environ.get(s2_name) if s2_name else None,
-        swid=os.environ.get(swid_name) if swid_name else None,
-    )
-    payload = normalize(league, config, slug, logo_resolver=verified_logo)
+    from football_seasons import build_season
     from football_home import build_home, validate_home
-
-    home = build_home(league, payload)
-    validate_home(home, payload)
-    destination = Path(output) / slug / str(config["season"]) / "league.json"
-    write_json(destination, payload)
-    write_json(destination.parent / "home.json", home)
+    logo_cache = {}
+    def cached_logo(url):
+        if url not in logo_cache:
+            logo_cache[url] = verified_logo(url)
+        return logo_cache[url]
+    years = list(range(int(config.get("firstSeason", config["season"])), config["season"] + 1))
+    destination = None
+    for year in years:
+        league = League(league_id=config["leagueId"], year=year,
+                        espn_s2=os.environ.get(s2_name) if s2_name else None,
+                        swid=os.environ.get(swid_name) if swid_name else None)
+        payload, teams = build_season(league, config, slug, cached_logo)
+        folder = Path(output) / slug / str(year)
+        write_json(folder / "league.json", payload)
+        write_json(folder / "teams.json", teams)
+        if year == config["season"]:
+            home = build_home(league, payload)
+            validate_home(home, payload)
+            write_json(folder / "home.json", home)
+            destination = folder / "league.json"
     write_json(Path(output) / "site.json", {
         "schemaVersion": 1,
         "leaguePath": f"{slug}/{config['season']}/league.json",
+        "seasons": list(reversed(years)),
     })
     return destination

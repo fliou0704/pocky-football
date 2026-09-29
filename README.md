@@ -52,6 +52,10 @@ The Stage 0 diagnostic `inspect_espn_football.py` remains separate from generati
 
 This project is designed for its own GitHub repository and project site. The workflow in `.github/workflows/pages.yml` builds and deploys the site on pushes to `main`, by manual dispatch, and on Monday, Tuesday, and Friday at 14:00 UTC. Scheduled and manual runs regenerate ESPN data on GitHub; push runs also regenerate when credentials are available, or deploy the checked-in generated JSON when they are not.
 
+Standings and Teams include ESPN seasons 2021 through the configured current season. Each run regenerates one small `league.json` (season-specific standings) and one `teams.json` (season-specific weekly matchups and team overviews) per year. The active season also gets `home.json`. Historical data is checked in as a reproducible snapshot, while GitHub Actions refreshes it from ESPN when secrets are present. No browser request uses ESPN credentials. Team IDs are meaningful **within a season**; do not infer permanent franchise identity across years.
+
+`teams.json` includes normalized matchups so later H2H and Record Book exporters can use source data directly. It marks single-team playoff entries as byes with no opponent. Historical player rosters are intentionally omitted: ESPN's season-end roster does not prove who was rostered in an earlier week. A later player-history feature should use historical box scores for that purpose. Manual logo overrides currently apply only to the configured active season because ESPN can reuse a team ID for a different historical team.
+
 1. Create a separate GitHub repository for Pocky Football and push this folder to its `main` branch. Never add `.env`.
 2. In repository **Settings → Secrets and variables → Actions**, create repository secrets named `ESPN_S2` and `SWID`.
 3. In **Settings → Pages**, select **GitHub Actions** as the build and deployment source.
