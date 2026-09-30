@@ -80,3 +80,41 @@ tbody .rank { color:var(--brand-strong); font-weight:800; }
 .skip:focus { position:fixed; z-index:100; top:8px; left:8px; display:block; padding:10px 12px; color:var(--ink); background:white; border:2px solid var(--brand); }
 @media (max-width:359px) { .header-inner,.site-menu,.page-shell { padding-inline:12px; } .brand { font-size:1rem; } .brand-mark { width:29px; height:29px; } }
 @media (min-width:720px) { .header-inner { min-height:76px; padding-inline:32px; } .brand { font-size:1.25rem; } .menu-button { display:none; } .site-menu,.site-menu.open { position:static; display:flex; align-items:center; gap:22px; padding:0; border:0; } .page-shell { padding:42px 32px 72px; } .page-header { margin-bottom:48px; } .home-section { margin-bottom:56px; } .recap-highlights,.scoreboard { grid-template-columns:repeat(2,minmax(0,1fr)); } .desktop-standings { display:table; } .mobile-standings { display:none; } .team img,.team-logo-fallback { width:40px; height:40px; } }
+.team-link { color:inherit; text-decoration:none; }
+.team-link:hover .team-name { color:var(--brand-strong); text-decoration:underline; }
+.select-control { display:grid; gap:5px; color:var(--muted); font-size:.68rem; font-weight:800; letter-spacing:.05em; text-transform:uppercase; }
+.select-control select { min-width:130px; max-width:100%; padding:9px 12px; border:1px solid var(--border); border-radius:7px; background:var(--surface); color:var(--ink); font:inherit; font-size:.86rem; letter-spacing:normal; text-transform:none; }
+.team-identity { display:flex; flex-wrap:wrap; align-items:center; gap:16px; margin-bottom:40px; border-top:4px solid var(--brand); }
+.team-identity > .team .team-name { display:none; }
+.team-identity > .team img,.team-identity > .team .team-logo-fallback { width:72px; height:72px; font-size:1.6rem; }
+.team-identity-copy { flex:1 1 220px; min-width:0; }
+.team-identity-copy h2 { margin:0; font-size:clamp(1.7rem,5vw,2.5rem); line-height:1.05; overflow-wrap:anywhere; }
+.team-identity-copy p:last-child { margin:7px 0 0; color:var(--muted); font-size:.8rem; }
+.team-overview { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0; margin:0; }
+.team-overview > div { padding:12px; border-bottom:1px solid var(--border); }
+.team-overview dt { color:var(--muted); font-size:.68rem; font-weight:800; letter-spacing:.05em; text-transform:uppercase; }
+.team-overview dd { margin:5px 0 0; font-size:clamp(1.25rem,4vw,1.8rem); font-weight:900; font-variant-numeric:tabular-nums; }
+.weekly-table-wrap { display:none; }
+.weekly-mobile { margin:0; padding:0; list-style:none; }
+.weekly-mobile li { padding:14px 16px; border-bottom:1px solid var(--border); }
+.weekly-mobile li:last-child { border:0; }
+.weekly-mobile li > div { display:flex; justify-content:space-between; gap:10px; font-size:.8rem; }
+.weekly-mobile li p { margin:5px 0 9px; color:var(--muted); font-size:.85rem; overflow-wrap:anywhere; }
+.weekly-mobile li span { color:var(--muted); text-align:right; }
+.weekly-table th,.weekly-table td { width:auto; padding:12px 8px; font-size:.78rem; }
+.weekly-table th:nth-child(2) { width:30%; }
+.weekly-table small { font-size:.55rem; white-space:normal; }
+.playoff-row { background:var(--surface-muted); }
+.roster-group + .roster-group { margin-top:26px; }
+.roster-group h3 { margin:0 0 7px; padding-bottom:8px; border-bottom:2px solid var(--brand); font-size:.9rem; text-transform:uppercase; }
+.roster-group ul { margin:0; padding:0; list-style:none; }
+.roster-group li { display:flex; justify-content:space-between; gap:12px; padding:10px 0; border-bottom:1px solid var(--border); font-size:.86rem; }
+.roster-group li:last-child { border:0; }
+.roster-group li > strong { text-align:right; white-space:nowrap; }
+.roster-group small { margin-top:4px; }
+.archive-note { color:var(--muted); font-size:.8rem; line-height:1.5; }
+.desktop-standings { table-layout:auto; }
+.desktop-standings th:nth-child(2) { width:32%; }
+.desktop-standings .team-name { overflow-wrap:normal; }
+@media (max-width:719px) { .page-header { flex-wrap:wrap; align-items:flex-start; } .page-header > .select-control { margin-left:auto; } }
+@media (min-width:720px) { .team-identity { gap:22px; padding:24px; margin-bottom:56px; } .team-identity > .team img,.team-identity > .team .team-logo-fallback { width:96px; height:96px; } .team-overview { grid-template-columns:repeat(4,minmax(0,1fr)); } .team-overview > div { padding:16px; } .weekly-table-wrap { display:block; } .weekly-mobile { display:none; } }

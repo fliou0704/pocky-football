@@ -5,118 +5,161 @@
     "slug": "pocky-football",
     "sport": "football",
     "season": 2026,
-    "name": "Pocky Football"
+    "name": "Pocky Football",
+    "complete": false,
+    "regularSeasonWeeks": 14,
+    "playoffTeams": 6
   },
   "standings": [
     {
       "teamId": 11,
       "name": "Choose Olave",
+      "abbreviation": "TAKK",
+      "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg",
+      "owner": "ESPNFAN0840271406",
       "rank": 1,
+      "finalRank": null,
+      "division": "West",
       "wins": 2,
       "losses": 0,
       "ties": 0,
       "pointsFor": 296.6,
-      "pointsAgainst": 226.06,
-      "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+      "pointsAgainst": 226.06
     },
     {
       "teamId": 3,
       "name": "Good Christians Hate Sinners",
+      "abbreviation": "SMN",
+      "logo": null,
+      "owner": "ESPNFAN5379669965",
       "rank": 2,
+      "finalRank": null,
+      "division": "East",
       "wins": 2,
       "losses": 0,
       "ties": 0,
       "pointsFor": 239.98,
-      "pointsAgainst": 187.8,
-      "logo": null
+      "pointsAgainst": 187.8
     },
     {
       "teamId": 15,
       "name": "Gibb me dak",
+      "abbreviation": "GMD",
+      "logo": null,
+      "owner": "Pliou0912",
       "rank": 3,
+      "finalRank": null,
+      "division": "East",
       "wins": 1,
       "losses": 1,
       "ties": 0,
       "pointsFor": 286.16,
-      "pointsAgainst": 229.16,
-      "logo": null
+      "pointsAgainst": 229.16
     },
     {
       "teamId": 2,
       "name": "Juwan's Team",
+      "abbreviation": "JS",
+      "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg",
+      "owner": "Joo's Bracket",
       "rank": 4,
+      "finalRank": null,
+      "division": "West",
       "wins": 1,
       "losses": 1,
       "ties": 0,
       "pointsFor": 264.34,
-      "pointsAgainst": 234.22,
-      "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+      "pointsAgainst": 234.22
     },
     {
       "teamId": 16,
       "name": "Eat the Booty Like Groceries",
+      "abbreviation": "SN",
+      "logo": null,
+      "owner": "MLBMaster77",
       "rank": 5,
+      "finalRank": null,
+      "division": "West",
       "wins": 1,
       "losses": 1,
       "ties": 0,
       "pointsFor": 250.28,
-      "pointsAgainst": 223.94,
-      "logo": null
+      "pointsAgainst": 223.94
     },
     {
       "teamId": 12,
       "name": "semanto gay and kissed allen ",
+      "abbreviation": "Gay",
+      "logo": null,
+      "owner": "ESPNfan95592865",
       "rank": 6,
+      "finalRank": null,
+      "division": "West",
       "wins": 1,
       "losses": 1,
       "ties": 0,
       "pointsFor": 243.74,
-      "pointsAgainst": 271.56,
-      "logo": "https://i.postimg.cc/9Qbrf5ht/IMG-3740.jpg"
+      "pointsAgainst": 271.56
     },
     {
       "teamId": 6,
       "name": "LOVE MEEEE",
+      "abbreviation": "JMH",
+      "logo": null,
+      "owner": "espn53929708",
       "rank": 7,
+      "finalRank": null,
+      "division": "East",
       "wins": 1,
       "losses": 1,
       "ties": 0,
       "pointsFor": 239.4,
-      "pointsAgainst": 291.92,
-      "logo": null
+      "pointsAgainst": 291.92
     },
     {
       "teamId": 5,
       "name": "The Concep",
+      "abbreviation": "BOSH",
+      "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg",
+      "owner": "ESPNFAN6997939875",
       "rank": 8,
+      "finalRank": null,
+      "division": "East",
       "wins": 1,
       "losses": 1,
       "ties": 0,
       "pointsFor": 210.88,
-      "pointsAgainst": 221.74,
-      "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+      "pointsAgainst": 221.74
     },
     {
       "teamId": 1,
       "name": "Brian's Original Fried Haddock",
+      "abbreviation": "MELS",
+      "logo": null,
+      "owner": "frankliou0704",
       "rank": 9,
+      "finalRank": null,
+      "division": "West",
       "wins": 0,
       "losses": 2,
       "ties": 0,
       "pointsFor": 223.46,
-      "pointsAgainst": 289.74,
-      "logo": null
+      "pointsAgainst": 289.74
     },
     {
       "teamId": 13,
       "name": "The Trenches PerryG",
+      "abbreviation": "PG",
+      "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+      "owner": "ESPNFAN5701051563",
       "rank": 10,
+      "finalRank": null,
+      "division": "East",
       "wins": 0,
       "losses": 2,
       "ties": 0,
       "pointsFor": 179.08,
-      "pointsAgainst": 257.78,
-      "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+      "pointsAgainst": 257.78
     }
   ]
 }

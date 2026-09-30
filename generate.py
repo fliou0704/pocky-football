@@ -1,4 +1,4 @@
-"""Generate the selected football league's Stage 1 site data."""
+"""Generate the selected football league's site data."""
 
 import argparse
 import sys
