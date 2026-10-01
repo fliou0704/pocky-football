@@ -1,0 +1,37 @@
+.record-book { padding-bottom:40px; }
+.rb-notice,.rb-rule,.rb-pending { color:var(--muted); font-size:.8rem; line-height:1.6; }
+.rb-records { display:grid; gap:16px; }
+.rb-record { padding:20px; }
+.rb-kicker { color:var(--brand-strong); font-size:.75rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; margin:0 0 16px; }
+.rb-leader { display:flex; align-items:center; justify-content:space-between; gap:16px; min-width:0; }
+.rb-holder { min-width:0; }
+.rb-holder small { display:block; color:var(--muted); margin-top:4px; font-size:.75rem; }
+.rb-holder .team-name { overflow-wrap:anywhere; }
+.rb-player { display:block; margin-bottom:6px; }
+.rb-value { font-size:1.1rem; font-variant-numeric:tabular-nums; text-align:right; flex:none; }
+.rb-value small { font-size:.65rem; color:var(--muted); }
+.rb-tie { color:var(--brand-strong); font-size:.75rem; font-weight:700; }
+.record-book details summary { display:flex; align-items:center; justify-content:space-between; cursor:pointer; list-style:none; color:var(--brand-strong); font-size:.8rem; font-weight:800; padding:14px 0; }
+.record-book details summary::-webkit-details-marker { display:none; }
+.rb-record details { border-top:1px solid var(--border); margin-top:16px; }
+.rb-record details > ul,.rb-position ul,.rb-roster ol { list-style:none; padding:0; margin:0; }
+.rb-record details li { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:12px 0; border-top:1px solid var(--border); }
+.rb-record details li > strong { font-size:.85rem; text-align:right; flex:none; }
+.rb-timeline { overflow-x:auto; }
+.rb-timeline ol { display:flex; justify-content:space-around; list-style:none; padding:0; margin:0; min-width:520px; gap:16px; }
+.rb-timeline li { display:grid; justify-items:center; gap:8px; text-align:center; width:150px; }
+.rb-timeline li > span { color:var(--brand-strong); font-size:.8rem; font-weight:800; }
+.rb-timeline .team { flex-direction:column; }
+.rb-timeline .team img,.rb-timeline .team-logo-fallback { width:48px; height:48px; }
+.rb-timeline .team-name { font-size:.8rem; }
+.rb-premier { display:grid; gap:20px; }
+.rb-award { border-top:3px solid var(--brand); background:var(--surface-muted); }
+.rb-award .rb-leader + .rb-leader { margin-top:16px; }
+.rb-roster li { display:grid; grid-template-columns:44px minmax(0,1fr) auto; gap:12px; align-items:center; padding:14px 0; border-top:1px solid var(--border); }
+.rb-roster li > strong { font-size:.85rem; }
+.rb-roster li > strong small { font-size:.65rem; color:var(--muted); }
+.rb-position > details > summary { font-size:1rem; }
+.rb-position li { display:grid; grid-template-columns:64px minmax(0,1fr); gap:16px; padding:16px 0; border-top:1px solid var(--border); }
+.rb-position .rb-leader + .rb-leader { margin-top:14px; }
+@media(max-width:719px) { .rb-record { padding:16px; } .rb-value { font-size:.95rem; max-width:120px; } .rb-record details li > strong { max-width:110px; } .rb-roster li > strong small { display:block; } }
+@media(max-width:359px) { .rb-leader { gap:8px; } .rb-value { max-width:95px; font-size:.85rem; } .rb-position li { grid-template-columns:40px minmax(0,1fr); gap:8px; } }

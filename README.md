@@ -54,7 +54,7 @@ npm install
 npm run dev
 ```
 
-Open the local URL printed by Vite. Home, Standings, and Teams work; the other navigation destinations are labeled as unavailable. The Home page shows the current fantasy week, current matchups, the last completed weekly recap, and standings. A completed season shows its final week recap and regular-season standings. Regenerating with another configured slug updates the independent copy of the site.
+Open the local URL printed by Vite. Home, Standings, Teams, H2H, and Record Book work; Players remains unavailable. The Home page shows the current fantasy week, current matchups, the last completed weekly recap, and standings. A completed season shows its final week recap and regular-season standings. Regenerating with another configured slug updates the independent copy of the site.
 
 ## Tests
 
@@ -90,3 +90,7 @@ Theoretical H2H follows Basketball Brawl's regular-season-only rule: both teams 
 Team IDs are season identifiers, not verified franchises. A shared ID aggregates only seasons where both selected IDs exist; reused IDs can refer to different owners or teams. No name/owner-based predecessor mapping is used. Rows retain each season's own name and available logo; selectors use current names and the existing logo fallback.
 
 Weekly lineup detail lives in `<season>/lineups/<week>.json`, shared across pairs and modes. Each file contains `schemaVersion`, `season`, `week`, and `teams` keyed by fantasy team ID. Player rows contain only `playerId`, `name`, `slot`, `nflTeam`, `position`, and actual weekly `points` (null when unavailable). These come from ESPN historical scoreboard box-score rosters, including bench and IR, and retain source order. React orders slots QB, RB, WR, TE, FLEX, D/ST, K, BE, IR while preserving repeated-slot order. Detail requests are lazy and cached; missing detail affects only the expanded panel.
+
+## Record Book (Stage 2E)
+
+Record Book renders precomputed All-Time and 2021–2026 records, season honors, tied holders, and expandable details. Python reuses normalized matchup and weekly lineup snapshots. Executed fantasy activity is generated separately with explicitly qualified coverage; transaction records are deferred. See [Stage 2E rules, source investigation, and contracts](STAGE-2E-RECORD-BOOK.md).

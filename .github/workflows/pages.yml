@@ -36,7 +36,7 @@ jobs:
       - name: Test exporter
         run: python -m unittest discover -s tests -v
 
-      - name: Refresh ESPN data
+      - name: Refresh ESPN data, activity and records
         env:
           ESPN_S2: ${{ secrets.ESPN_S2 }}
           SWID: ${{ secrets.SWID }}
@@ -49,6 +49,9 @@ jobs:
             echo "Set ESPN_S2 and SWID repository secrets for scheduled or manual refreshes." >&2
             exit 1
           fi
+
+      - name: Rebuild Record Book from normalized snapshots
+        run: python -c "import json; from pathlib import Path; from football_record_book import build_record_book; site=json.loads(Path('frontend/public/data/site.json').read_text()); build_record_book('frontend/public/data', site['leaguePath'].split('/')[0], site['seasons'])"
 
       - uses: pnpm/action-setup@v6
         with:
