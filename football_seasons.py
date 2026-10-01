@@ -4,6 +4,7 @@ from collections import defaultdict
 import math
 
 from football_home import BRACKET
+from football_history import former_players, owner_name, playoff_labels, roster_history
 
 
 def _number(value):
@@ -49,7 +50,7 @@ def build_season(league, config, slug, logo_resolver):
             "teamId": team.team_id, "name": team.team_name,
             "abbreviation": team.team_abbrev,
             "logo": overrides.get(str(team.team_id)) or logo_resolver(team.logo_url),
-            "owner": owner.get("displayName") if owner else None,
+            "owner": owner_name(owner, config.get("ownerNameOverrides", {}), league.year, team.team_id),
             "rank": team.standing, "finalRank": team.final_standing if complete and team.final_standing else None,
             "division": team.division_name or None,
             "wins": team.wins, "losses": team.losses, "ties": team.ties,
@@ -94,6 +95,8 @@ def build_season(league, config, slug, logo_resolver):
                          "winnerTeamId": winner_id, "bracket": BRACKET.get(item.get("playoffTierType"), "other"),
                          "phase": "regular" if week <= regular_weeks else "playoffs"})
     matchups.sort(key=lambda match: (match["week"], match["homeTeamId"]))
+    playoff_labels(matchups, regular_weeks, int(league.settings.playoff_team_count))
+    history = roster_history(league, min(int(league.scoringPeriodId), int(league.finalScoringPeriod)))
     weekly_scores = defaultdict(list)
     for match in matchups:
         if match["status"] == "bye":
@@ -104,6 +107,7 @@ def build_season(league, config, slug, logo_resolver):
                        for team_id, score in scores} for week, scores in weekly_scores.items()
                 if all(score is not None for _, score in scores)}
     team_data = {}
+    rows_by_id = {row["teamId"]: row for row in team_rows}
     for source, row in zip(teams, team_rows):
         team_id = row["teamId"]
         weeks = []
@@ -122,16 +126,20 @@ def build_season(league, config, slug, logo_resolver):
                 losses += result == "L"
                 ties += result == "T"
             weeks.append({"week": match["week"], "opponentTeamId": opponent_id,
+                          "opponentLogo": rows_by_id[opponent_id]["logo"] if opponent_id is not None else None,
                           "score": score, "opponentScore": opponent_score, "result": result,
                           "status": match["status"], "phase": match["phase"], "bracket": match["bracket"],
+                          "roundLabel": match["roundLabel"], "isPlayoff": match["isPlayoff"], "isBye": match["isBye"],
                           "cumulativeRecord": {"wins": wins, "losses": losses, "ties": ties} if match["phase"] == "regular" and result in ("W", "L", "T") else None,
                           "scoreRank": rankings.get(match["week"], {}).get(team_id) if match["status"] == "final" else None})
         scored = [week["score"] for week in weeks if week["phase"] == "regular" and week["status"] == "final"]
+        current_roster = _roster(source)
         team_data[str(team_id)] = {"teamId": team_id, "weeks": weeks,
                                    "averageScore": round(sum(scored) / len(scored), 2) if scored else None,
                                    "highScore": max(scored) if scored else None,
                                    "lowScore": min(scored) if scored else None,
-                                   "roster": _roster(source) if not complete else None}
+                                   "roster": current_roster, "rosterLabel": "Final Roster" if complete else "Current Roster",
+                                   "formerPlayers": former_players(history, team_id, current_roster)}
     teams_data = {"schemaVersion": 1, "leagueId": league.league_id, "season": league.year,
                   "complete": complete, "teams": team_data, "matchups": matchups}
     validate_season(league_data, teams_data)
@@ -140,6 +148,7 @@ def build_season(league, config, slug, logo_resolver):
 
 def validate_season(league_data, teams_data):
     ids = {row["teamId"] for row in league_data["standings"]}
+    logos = {row["teamId"]: row["logo"] for row in league_data["standings"]}
     if teams_data["season"] != league_data["league"]["season"] or set(map(int, teams_data["teams"])) != ids:
         raise ValueError("Season contracts disagree on teams")
     for match in teams_data["matchups"]:
@@ -149,3 +158,18 @@ def validate_season(league_data, teams_data):
             raise ValueError("Invalid playoff bye")
         if match["homeTeamId"] == match["awayTeamId"]:
             raise ValueError("Self matchup")
+        if match["isBye"] != (match["status"] == "bye") or match["isPlayoff"] and not match["roundLabel"]:
+            raise ValueError("Invalid playoff label or bye")
+    for team_id, team in teams_data["teams"].items():
+        if team["rosterLabel"] != ("Final Roster" if teams_data["complete"] else "Current Roster"):
+            raise ValueError("Incorrect roster label")
+        roster_ids = {player["playerId"] for player in team["roster"]}
+        former_ids = [player["playerId"] for player in team["formerPlayers"]]
+        if roster_ids.intersection(former_ids) or len(former_ids) != len(set(former_ids)):
+            raise ValueError("Former player overlaps or repeats")
+        for week in team["weeks"]:
+            opponent = week["opponentTeamId"]
+            if week["isBye"] and (opponent is not None or week["opponentLogo"] is not None):
+                raise ValueError("Bye has an opponent")
+            if opponent is not None and week["opponentLogo"] != logos[opponent]:
+                raise ValueError("Opponent logo differs from season standings")

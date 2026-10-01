@@ -32,11 +32,11 @@ def league(complete):
         schedule[1]["home"]["totalPoints"] = 90
         schedule[1]["away"]["totalPoints"] = 90
         schedule[1]["winner"] = "TIE"
-    request = NS(league_get=lambda params: {"schedule": schedule})
+    request = NS(league_get=lambda params, headers=None: {"schedule": schedule if headers is None else []})
     return NS(league_id=123, year=2025 if complete else 2026,
               scoringPeriodId=5 if complete else 2, finalScoringPeriod=3,
               currentMatchupPeriod=3 if complete else 2,
-              settings=NS(reg_season_count=2, name="League", playoff_team_count=2),
+              settings=NS(reg_season_count=2, name="League", playoff_team_count=2, matchup_periods={1:[1],2:[2],3:[3]}),
               teams=[team(1, 1), team(9, 2)], espn_request=request)
 
 
@@ -62,7 +62,7 @@ class SeasonTests(unittest.TestCase):
         self.assertEqual(teams["teams"]["1"]["weeks"][1]["result"], "T")
         bye = teams["teams"]["1"]["weeks"][2]
         self.assertEqual((bye["result"], bye["opponentTeamId"], bye["phase"]), ("BYE", None, "playoffs"))
-        self.assertIsNone(teams["teams"]["1"]["roster"])
+        self.assertEqual(teams["teams"]["1"]["rosterLabel"], "Final Roster")
         validate_season(standings, teams)
 
     def test_current_logo_override_does_not_replace_historical_team(self):
@@ -75,7 +75,7 @@ class SeasonTests(unittest.TestCase):
     def test_generated_current_and_historical_contracts(self):
         root = Path(__file__).resolve().parents[1] / "frontend/public/data/pocky-football"
         seasons = {}
-        for year in (2021, 2025, 2026):
+        for year in (2021, 2022, 2025, 2026):
             folder = root / str(year)
             standings = json.loads((folder / "league.json").read_text())
             teams = json.loads((folder / "teams.json").read_text())
@@ -86,11 +86,15 @@ class SeasonTests(unittest.TestCase):
                 self.assertTrue(standings["league"]["complete"])
                 self.assertTrue(all(row["finalRank"] is not None for row in standings["standings"]))
                 self.assertTrue(any(match["status"] == "bye" for match in teams["matchups"]))
+                self.assertTrue(all(data["rosterLabel"] == "Final Roster" and data["roster"] for data in teams["teams"].values()))
+                self.assertTrue(any(data["formerPlayers"] for data in teams["teams"].values()))
+                self.assertIn("Championship", {match["roundLabel"] for match in teams["matchups"]})
             else:
                 self.assertFalse(standings["league"]["complete"])
                 self.assertTrue(all(row["finalRank"] is None for row in standings["standings"]))
                 self.assertTrue(any(data["roster"] for data in teams["teams"].values()))
         self.assertNotEqual(seasons[2021], seasons[2026])
+        self.assertEqual(len(seasons[2022]), 14)
 
 
 if __name__ == "__main__":

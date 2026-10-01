@@ -4,720 +4,22 @@
   "season": 2026,
   "complete": false,
   "teams": {
-    "11": {
-      "teamId": 11,
-      "weeks": [
-        {
-          "week": 1,
-          "opponentTeamId": 2,
-          "score": 143.96,
-          "opponentScore": 135.16,
-          "result": "W",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": {
-            "wins": 1,
-            "losses": 0,
-            "ties": 0
-          },
-          "scoreRank": 1
-        },
-        {
-          "week": 2,
-          "opponentTeamId": 1,
-          "score": 152.64,
-          "opponentScore": 90.9,
-          "result": "W",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": {
-            "wins": 2,
-            "losses": 0,
-            "ties": 0
-          },
-          "scoreRank": 2
-        },
-        {
-          "week": 3,
-          "opponentTeamId": 15,
-          "score": 91.8,
-          "opponentScore": 153.94,
-          "result": "—",
-          "status": "live",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 4,
-          "opponentTeamId": 16,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 5,
-          "opponentTeamId": 5,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 6,
-          "opponentTeamId": 3,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 7,
-          "opponentTeamId": 12,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 8,
-          "opponentTeamId": 6,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 9,
-          "opponentTeamId": 13,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 10,
-          "opponentTeamId": 2,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 11,
-          "opponentTeamId": 1,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 12,
-          "opponentTeamId": 15,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 13,
-          "opponentTeamId": 16,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 14,
-          "opponentTeamId": 5,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        }
-      ],
-      "averageScore": 148.3,
-      "highScore": 152.64,
-      "lowScore": 143.96,
-      "roster": [
-        {
-          "playerId": 4374302,
-          "name": "Amon-Ra St. Brown",
-          "nflTeam": "DET",
-          "position": "WR",
-          "slot": "WR",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 75.8
-        },
-        {
-          "playerId": 4429160,
-          "name": "De'Von Achane",
-          "nflTeam": "MIA",
-          "position": "RB",
-          "slot": "RB",
-          "group": "starter",
-          "injuryStatus": "INJURY_RESERVE",
-          "seasonPoints": 24.6
-        },
-        {
-          "playerId": 4361370,
-          "name": "Chris Olave",
-          "nflTeam": "NO",
-          "position": "WR",
-          "slot": "WR",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 70.5
-        },
-        {
-          "playerId": 4241478,
-          "name": "DeVonta Smith",
-          "nflTeam": "PHI",
-          "position": "WR",
-          "slot": "RB/WR/TE",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 48.5
-        },
-        {
-          "playerId": 4259545,
-          "name": "D'Andre Swift",
-          "nflTeam": "CHI",
-          "position": "RB",
-          "slot": "RB",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 56.1
-        },
-        {
-          "playerId": 4426348,
-          "name": "Jayden Daniels",
-          "nflTeam": "WSH",
-          "position": "QB",
-          "slot": "IR",
-          "group": "ir",
-          "injuryStatus": "OUT",
-          "seasonPoints": 32.4
-        },
-        {
-          "playerId": 5083076,
-          "name": "Harold Fannin Jr.",
-          "nflTeam": "CLE",
-          "position": "TE",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 38.6
-        },
-        {
-          "playerId": 4432708,
-          "name": "Marvin Harrison Jr.",
-          "nflTeam": "ARI",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 11.3
-        },
-        {
-          "playerId": 4430027,
-          "name": "Sam LaPorta",
-          "nflTeam": "DET",
-          "position": "TE",
-          "slot": "TE",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 34.4
-        },
-        {
-          "playerId": 4038815,
-          "name": "Rico Dowdle",
-          "nflTeam": "PIT",
-          "position": "RB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "OUT",
-          "seasonPoints": 10.5
-        },
-        {
-          "playerId": 3042519,
-          "name": "Aaron Jones Sr.",
-          "nflTeam": "MIN",
-          "position": "RB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 34.7
-        },
-        {
-          "playerId": 3121023,
-          "name": "Dallas Goedert",
-          "nflTeam": "PHI",
-          "position": "TE",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "OUT",
-          "seasonPoints": 25.1
-        },
-        {
-          "playerId": 3917315,
-          "name": "Kyler Murray",
-          "nflTeam": "MIN",
-          "position": "QB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 10.04
-        },
-        {
-          "playerId": 4360689,
-          "name": "Tyler Shough",
-          "nflTeam": "NO",
-          "position": "QB",
-          "slot": "QB",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 69.38
-        },
-        {
-          "playerId": -16021,
-          "name": "Eagles D/ST",
-          "nflTeam": "PHI",
-          "position": "D/ST",
-          "slot": "D/ST",
-          "group": "starter",
-          "injuryStatus": "NORMAL",
-          "seasonPoints": 8.0
-        },
-        {
-          "playerId": 2971573,
-          "name": "Ka'imi Fairbairn",
-          "nflTeam": "HOU",
-          "position": "K",
-          "slot": "K",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 20.0
-        }
-      ]
-    },
-    "3": {
-      "teamId": 3,
-      "weeks": [
-        {
-          "week": 1,
-          "opponentTeamId": 16,
-          "score": 107.06,
-          "opponentScore": 105.52,
-          "result": "W",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": {
-            "wins": 1,
-            "losses": 0,
-            "ties": 0
-          },
-          "scoreRank": 8
-        },
-        {
-          "week": 2,
-          "opponentTeamId": 5,
-          "score": 132.92,
-          "opponentScore": 82.28,
-          "result": "W",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": {
-            "wins": 2,
-            "losses": 0,
-            "ties": 0
-          },
-          "scoreRank": 4
-        },
-        {
-          "week": 3,
-          "opponentTeamId": 13,
-          "score": 108.76,
-          "opponentScore": 120.56,
-          "result": "—",
-          "status": "live",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 4,
-          "opponentTeamId": 12,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 5,
-          "opponentTeamId": 6,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 6,
-          "opponentTeamId": 11,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 7,
-          "opponentTeamId": 2,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 8,
-          "opponentTeamId": 1,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 9,
-          "opponentTeamId": 15,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 10,
-          "opponentTeamId": 16,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 11,
-          "opponentTeamId": 5,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 12,
-          "opponentTeamId": 13,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 13,
-          "opponentTeamId": 12,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 14,
-          "opponentTeamId": 6,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        }
-      ],
-      "averageScore": 119.99,
-      "highScore": 132.92,
-      "lowScore": 107.06,
-      "roster": [
-        {
-          "playerId": 4242335,
-          "name": "Jonathan Taylor",
-          "nflTeam": "IND",
-          "position": "RB",
-          "slot": "RB",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 63.5
-        },
-        {
-          "playerId": 3117251,
-          "name": "Christian McCaffrey",
-          "nflTeam": "SF",
-          "position": "RB",
-          "slot": "RB",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 58.0
-        },
-        {
-          "playerId": 4428331,
-          "name": "Rashee Rice",
-          "nflTeam": "KC",
-          "position": "WR",
-          "slot": "WR",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 38.0
-        },
-        {
-          "playerId": 3918298,
-          "name": "Josh Allen",
-          "nflTeam": "BUF",
-          "position": "QB",
-          "slot": "QB",
-          "group": "starter",
-          "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 93.94
-        },
-        {
-          "playerId": 4612826,
-          "name": "Ladd McConkey",
-          "nflTeam": "LAC",
-          "position": "WR",
-          "slot": "WR",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 36.3
-        },
-        {
-          "playerId": 3121422,
-          "name": "Terry McLaurin",
-          "nflTeam": "WSH",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 30.1
-        },
-        {
-          "playerId": 4360248,
-          "name": "Kyle Pitts Sr.",
-          "nflTeam": "ATL",
-          "position": "TE",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 4.0
-        },
-        {
-          "playerId": 4432710,
-          "name": "TreVeyon Henderson",
-          "nflTeam": "NE",
-          "position": "RB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 17.5
-        },
-        {
-          "playerId": 4371733,
-          "name": "Kenny Gainwell",
-          "nflTeam": "TB",
-          "position": "RB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 10.3
-        },
-        {
-          "playerId": 4431611,
-          "name": "Caleb Williams",
-          "nflTeam": "CHI",
-          "position": "QB",
-          "slot": "IR",
-          "group": "ir",
-          "injuryStatus": "OUT",
-          "seasonPoints": 44.98
-        },
-        {
-          "playerId": 4688813,
-          "name": "Josh Downs",
-          "nflTeam": "IND",
-          "position": "WR",
-          "slot": "RB/WR/TE",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 32.6
-        },
-        {
-          "playerId": 3116365,
-          "name": "Mark Andrews",
-          "nflTeam": "BAL",
-          "position": "TE",
-          "slot": "TE",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 25.2
-        },
-        {
-          "playerId": 4574716,
-          "name": "Harrison Mevis",
-          "nflTeam": "LAR",
-          "position": "K",
-          "slot": "K",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 20.0
-        },
-        {
-          "playerId": 4429086,
-          "name": "Michael Mayer",
-          "nflTeam": "LV",
-          "position": "TE",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 26.7
-        },
-        {
-          "playerId": 4569559,
-          "name": "Devaughn Vele",
-          "nflTeam": "NO",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 38.2
-        },
-        {
-          "playerId": -16025,
-          "name": "49ers D/ST",
-          "nflTeam": "SF",
-          "position": "D/ST",
-          "slot": "D/ST",
-          "group": "starter",
-          "injuryStatus": "NORMAL",
-          "seasonPoints": 18.0
-        },
-        {
-          "playerId": 4428850,
-          "name": "Dontayvion Wicks",
-          "nflTeam": "PHI",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 32.9
-        }
-      ]
-    },
     "15": {
       "teamId": 15,
       "weeks": [
         {
           "week": 1,
           "opponentTeamId": 12,
+          "opponentLogo": null,
           "score": 126.8,
           "opponentScore": 126.86,
           "result": "L",
           "status": "final",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": {
             "wins": 0,
             "losses": 1,
@@ -728,12 +30,16 @@
         {
           "week": 2,
           "opponentTeamId": 6,
+          "opponentLogo": null,
           "score": 159.36,
           "opponentScore": 102.3,
           "result": "W",
           "status": "final",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": {
             "wins": 1,
             "losses": 1,
@@ -744,149 +50,201 @@
         {
           "week": 3,
           "opponentTeamId": 11,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg",
           "score": 153.94,
           "opponentScore": 91.8,
-          "result": "—",
-          "status": "live",
+          "result": "W",
+          "status": "final",
           "phase": "regular",
           "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 2,
+            "losses": 1,
+            "ties": 0
+          },
+          "scoreRank": 2
         },
         {
           "week": 4,
           "opponentTeamId": 2,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 5,
           "opponentTeamId": 1,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 6,
           "opponentTeamId": 13,
+          "opponentLogo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 7,
           "opponentTeamId": 16,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 8,
           "opponentTeamId": 5,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 9,
           "opponentTeamId": 3,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 10,
           "opponentTeamId": 12,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 11,
           "opponentTeamId": 6,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 12,
           "opponentTeamId": 11,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 13,
           "opponentTeamId": 2,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 14,
           "opponentTeamId": 1,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         }
       ],
-      "averageScore": 143.08,
+      "averageScore": 146.7,
       "highScore": 159.36,
       "lowScore": 126.8,
       "roster": [
@@ -915,9 +273,9 @@
           "name": "Nico Collins",
           "nflTeam": "HOU",
           "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "OUT",
+          "slot": "RB/WR/TE",
+          "group": "starter",
+          "injuryStatus": "QUESTIONABLE",
           "seasonPoints": 21.2
         },
         {
@@ -955,9 +313,9 @@
           "name": "Tony Pollard",
           "nflTeam": "TEN",
           "position": "RB",
-          "slot": "RB/WR/TE",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "QUESTIONABLE",
           "seasonPoints": 25.5
         },
         {
@@ -997,7 +355,7 @@
           "position": "WR",
           "slot": "BE",
           "group": "bench",
-          "injuryStatus": "ACTIVE",
+          "injuryStatus": "QUESTIONABLE",
           "seasonPoints": 35.4
         },
         {
@@ -1017,7 +375,7 @@
           "position": "WR",
           "slot": "BE",
           "group": "bench",
-          "injuryStatus": "OUT",
+          "injuryStatus": "INJURY_RESERVE",
           "seasonPoints": 6.4
         },
         {
@@ -1050,7 +408,9 @@
           "injuryStatus": "ACTIVE",
           "seasonPoints": 26.0
         }
-      ]
+      ],
+      "rosterLabel": "Current Roster",
+      "formerPlayers": []
     },
     "2": {
       "teamId": 2,
@@ -1058,12 +418,16 @@
         {
           "week": 1,
           "opponentTeamId": 11,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg",
           "score": 135.16,
           "opponentScore": 143.96,
           "result": "L",
           "status": "final",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": {
             "wins": 0,
             "losses": 1,
@@ -1074,12 +438,16 @@
         {
           "week": 2,
           "opponentTeamId": 13,
+          "opponentLogo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
           "score": 129.18,
           "opponentScore": 90.26,
           "result": "W",
           "status": "final",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": {
             "wins": 1,
             "losses": 1,
@@ -1090,150 +458,202 @@
         {
           "week": 3,
           "opponentTeamId": 1,
+          "opponentLogo": null,
           "score": 155.34,
           "opponentScore": 75.64,
-          "result": "—",
-          "status": "live",
+          "result": "W",
+          "status": "final",
           "phase": "regular",
           "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 2,
+            "losses": 1,
+            "ties": 0
+          },
+          "scoreRank": 1
         },
         {
           "week": 4,
           "opponentTeamId": 15,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 5,
           "opponentTeamId": 16,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 6,
           "opponentTeamId": 5,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 7,
           "opponentTeamId": 3,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 8,
           "opponentTeamId": 12,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 9,
           "opponentTeamId": 6,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 10,
           "opponentTeamId": 11,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 11,
           "opponentTeamId": 13,
+          "opponentLogo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 12,
           "opponentTeamId": 1,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 13,
           "opponentTeamId": 15,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 14,
           "opponentTeamId": 16,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         }
       ],
-      "averageScore": 132.17,
-      "highScore": 135.16,
+      "averageScore": 139.89,
+      "highScore": 155.34,
       "lowScore": 129.18,
       "roster": [
         {
@@ -1273,7 +693,7 @@
           "position": "RB",
           "slot": "RB/WR/TE",
           "group": "starter",
-          "injuryStatus": "ACTIVE",
+          "injuryStatus": "QUESTIONABLE",
           "seasonPoints": 41.1
         },
         {
@@ -1293,7 +713,7 @@
           "position": "WR",
           "slot": "BE",
           "group": "bench",
-          "injuryStatus": "ACTIVE",
+          "injuryStatus": "QUESTIONABLE",
           "seasonPoints": 33.6
         },
         {
@@ -1406,6 +826,1764 @@
           "injuryStatus": "DOUBTFUL",
           "seasonPoints": 19.3
         }
+      ],
+      "rosterLabel": "Current Roster",
+      "formerPlayers": [
+        {
+          "playerId": 3116165,
+          "name": "Chris Godwin Jr.",
+          "weeks": [
+            1,
+            2
+          ]
+        },
+        {
+          "playerId": 4710714,
+          "name": "De'Zhaun Stribling",
+          "weeks": [
+            1
+          ]
+        },
+        {
+          "playerId": 4034949,
+          "name": "Eddy Pineiro",
+          "weeks": [
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    "11": {
+      "teamId": 11,
+      "weeks": [
+        {
+          "week": 1,
+          "opponentTeamId": 2,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg",
+          "score": 143.96,
+          "opponentScore": 135.16,
+          "result": "W",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 1,
+            "losses": 0,
+            "ties": 0
+          },
+          "scoreRank": 1
+        },
+        {
+          "week": 2,
+          "opponentTeamId": 1,
+          "opponentLogo": null,
+          "score": 152.64,
+          "opponentScore": 90.9,
+          "result": "W",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 2,
+            "losses": 0,
+            "ties": 0
+          },
+          "scoreRank": 2
+        },
+        {
+          "week": 3,
+          "opponentTeamId": 15,
+          "opponentLogo": null,
+          "score": 91.8,
+          "opponentScore": 153.94,
+          "result": "L",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 2,
+            "losses": 1,
+            "ties": 0
+          },
+          "scoreRank": 9
+        },
+        {
+          "week": 4,
+          "opponentTeamId": 16,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 5,
+          "opponentTeamId": 5,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 6,
+          "opponentTeamId": 3,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 7,
+          "opponentTeamId": 12,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 8,
+          "opponentTeamId": 6,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 9,
+          "opponentTeamId": 13,
+          "opponentLogo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 10,
+          "opponentTeamId": 2,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 11,
+          "opponentTeamId": 1,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 12,
+          "opponentTeamId": 15,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 13,
+          "opponentTeamId": 16,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 14,
+          "opponentTeamId": 5,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        }
+      ],
+      "averageScore": 129.47,
+      "highScore": 152.64,
+      "lowScore": 91.8,
+      "roster": [
+        {
+          "playerId": 4374302,
+          "name": "Amon-Ra St. Brown",
+          "nflTeam": "DET",
+          "position": "WR",
+          "slot": "WR",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 75.8
+        },
+        {
+          "playerId": 4429160,
+          "name": "De'Von Achane",
+          "nflTeam": "MIA",
+          "position": "RB",
+          "slot": "RB",
+          "group": "starter",
+          "injuryStatus": "INJURY_RESERVE",
+          "seasonPoints": 24.6
+        },
+        {
+          "playerId": 4361370,
+          "name": "Chris Olave",
+          "nflTeam": "NO",
+          "position": "WR",
+          "slot": "WR",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 70.5
+        },
+        {
+          "playerId": 4241478,
+          "name": "DeVonta Smith",
+          "nflTeam": "PHI",
+          "position": "WR",
+          "slot": "RB/WR/TE",
+          "group": "starter",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonPoints": 48.5
+        },
+        {
+          "playerId": 4259545,
+          "name": "D'Andre Swift",
+          "nflTeam": "CHI",
+          "position": "RB",
+          "slot": "RB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 56.1
+        },
+        {
+          "playerId": 4426348,
+          "name": "Jayden Daniels",
+          "nflTeam": "WSH",
+          "position": "QB",
+          "slot": "IR",
+          "group": "ir",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonPoints": 32.4
+        },
+        {
+          "playerId": 5083076,
+          "name": "Harold Fannin Jr.",
+          "nflTeam": "CLE",
+          "position": "TE",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 38.6
+        },
+        {
+          "playerId": 4432708,
+          "name": "Marvin Harrison Jr.",
+          "nflTeam": "ARI",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 11.3
+        },
+        {
+          "playerId": 4430027,
+          "name": "Sam LaPorta",
+          "nflTeam": "DET",
+          "position": "TE",
+          "slot": "TE",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 34.4
+        },
+        {
+          "playerId": 4038815,
+          "name": "Rico Dowdle",
+          "nflTeam": "PIT",
+          "position": "RB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "OUT",
+          "seasonPoints": 10.5
+        },
+        {
+          "playerId": 3042519,
+          "name": "Aaron Jones Sr.",
+          "nflTeam": "MIN",
+          "position": "RB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 34.7
+        },
+        {
+          "playerId": 3121023,
+          "name": "Dallas Goedert",
+          "nflTeam": "PHI",
+          "position": "TE",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "DOUBTFUL",
+          "seasonPoints": 25.1
+        },
+        {
+          "playerId": 3917315,
+          "name": "Kyler Murray",
+          "nflTeam": "MIN",
+          "position": "QB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 10.04
+        },
+        {
+          "playerId": 4360689,
+          "name": "Tyler Shough",
+          "nflTeam": "NO",
+          "position": "QB",
+          "slot": "QB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 69.38
+        },
+        {
+          "playerId": -16021,
+          "name": "Eagles D/ST",
+          "nflTeam": "PHI",
+          "position": "D/ST",
+          "slot": "D/ST",
+          "group": "starter",
+          "injuryStatus": "NORMAL",
+          "seasonPoints": 8.0
+        },
+        {
+          "playerId": 2971573,
+          "name": "Ka'imi Fairbairn",
+          "nflTeam": "HOU",
+          "position": "K",
+          "slot": "K",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 20.0
+        }
+      ],
+      "rosterLabel": "Current Roster",
+      "formerPlayers": []
+    },
+    "6": {
+      "teamId": 6,
+      "weeks": [
+        {
+          "week": 1,
+          "opponentTeamId": 1,
+          "opponentLogo": null,
+          "score": 137.1,
+          "opponentScore": 132.56,
+          "result": "W",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 1,
+            "losses": 0,
+            "ties": 0
+          },
+          "scoreRank": 2
+        },
+        {
+          "week": 2,
+          "opponentTeamId": 15,
+          "opponentLogo": null,
+          "score": 102.3,
+          "opponentScore": 159.36,
+          "result": "L",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 1,
+            "losses": 1,
+            "ties": 0
+          },
+          "scoreRank": 7
+        },
+        {
+          "week": 3,
+          "opponentTeamId": 16,
+          "opponentLogo": null,
+          "score": 144.34,
+          "opponentScore": 118.82,
+          "result": "W",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 2,
+            "losses": 1,
+            "ties": 0
+          },
+          "scoreRank": 3
+        },
+        {
+          "week": 4,
+          "opponentTeamId": 5,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 5,
+          "opponentTeamId": 3,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 6,
+          "opponentTeamId": 12,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 7,
+          "opponentTeamId": 13,
+          "opponentLogo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 8,
+          "opponentTeamId": 11,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 9,
+          "opponentTeamId": 2,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 10,
+          "opponentTeamId": 1,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 11,
+          "opponentTeamId": 15,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 12,
+          "opponentTeamId": 16,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 13,
+          "opponentTeamId": 5,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 14,
+          "opponentTeamId": 3,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        }
+      ],
+      "averageScore": 127.91,
+      "highScore": 144.34,
+      "lowScore": 102.3,
+      "roster": [
+        {
+          "playerId": 4430807,
+          "name": "Bijan Robinson",
+          "nflTeam": "ATL",
+          "position": "RB",
+          "slot": "RB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 77.7
+        },
+        {
+          "playerId": 4870808,
+          "name": "Jeremiyah Love",
+          "nflTeam": "ARI",
+          "position": "RB",
+          "slot": "RB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 42.4
+        },
+        {
+          "playerId": 4361307,
+          "name": "Trey McBride",
+          "nflTeam": "ARI",
+          "position": "TE",
+          "slot": "TE",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 59.1
+        },
+        {
+          "playerId": 4429615,
+          "name": "Zay Flowers",
+          "nflTeam": "BAL",
+          "position": "WR",
+          "slot": "WR",
+          "group": "starter",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonPoints": 41.4
+        },
+        {
+          "playerId": 4685472,
+          "name": "Tetairoa McMillan",
+          "nflTeam": "CAR",
+          "position": "WR",
+          "slot": "WR",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 29.3
+        },
+        {
+          "playerId": 4871023,
+          "name": "Carnell Tate",
+          "nflTeam": "TEN",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 25.3
+        },
+        {
+          "playerId": 3040151,
+          "name": "George Kittle",
+          "nflTeam": "SF",
+          "position": "TE",
+          "slot": "RB/WR/TE",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 47.4
+        },
+        {
+          "playerId": 4697815,
+          "name": "Rachaad White",
+          "nflTeam": "WSH",
+          "position": "RB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonPoints": 30.1
+        },
+        {
+          "playerId": 4426385,
+          "name": "Zach Charbonnet",
+          "nflTeam": "SEA",
+          "position": "RB",
+          "slot": "IR",
+          "group": "ir",
+          "injuryStatus": "OUT",
+          "seasonPoints": 0.0
+        },
+        {
+          "playerId": 4568490,
+          "name": "RJ Harvey",
+          "nflTeam": "DEN",
+          "position": "RB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 18.8
+        },
+        {
+          "playerId": 3953687,
+          "name": "Brandon Aubrey",
+          "nflTeam": "DAL",
+          "position": "K",
+          "slot": "K",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 29.0
+        },
+        {
+          "playerId": -16007,
+          "name": "Broncos D/ST",
+          "nflTeam": "DEN",
+          "position": "D/ST",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "NORMAL",
+          "seasonPoints": 20.0
+        },
+        {
+          "playerId": 2973405,
+          "name": "Kalif Raymond",
+          "nflTeam": "CHI",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 46.4
+        },
+        {
+          "playerId": 4685720,
+          "name": "Bryce Young",
+          "nflTeam": "CAR",
+          "position": "QB",
+          "slot": "QB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 69.16
+        },
+        {
+          "playerId": 4832800,
+          "name": "Denzel Boston",
+          "nflTeam": "CLE",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 42.5
+        },
+        {
+          "playerId": 3054850,
+          "name": "Alvin Kamara",
+          "nflTeam": "NO",
+          "position": "RB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 12.3
+        },
+        {
+          "playerId": -16016,
+          "name": "Vikings D/ST",
+          "nflTeam": "MIN",
+          "position": "D/ST",
+          "slot": "D/ST",
+          "group": "starter",
+          "injuryStatus": "NORMAL",
+          "seasonPoints": 40.0
+        }
+      ],
+      "rosterLabel": "Current Roster",
+      "formerPlayers": [
+        {
+          "playerId": 3046779,
+          "name": "Jared Goff",
+          "weeks": [
+            1
+          ]
+        },
+        {
+          "playerId": 4689114,
+          "name": "Jaxson Dart",
+          "weeks": [
+            1,
+            2
+          ]
+        },
+        {
+          "playerId": 4870795,
+          "name": "Makai Lemon",
+          "weeks": [
+            1,
+            2
+          ]
+        },
+        {
+          "playerId": 4682648,
+          "name": "Malachi Fields",
+          "weeks": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    "12": {
+      "teamId": 12,
+      "weeks": [
+        {
+          "week": 1,
+          "opponentTeamId": 15,
+          "opponentLogo": null,
+          "score": 126.86,
+          "opponentScore": 126.8,
+          "result": "W",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 1,
+            "losses": 0,
+            "ties": 0
+          },
+          "scoreRank": 6
+        },
+        {
+          "week": 2,
+          "opponentTeamId": 16,
+          "opponentLogo": null,
+          "score": 116.88,
+          "opponentScore": 144.76,
+          "result": "L",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 1,
+            "losses": 1,
+            "ties": 0
+          },
+          "scoreRank": 6
+        },
+        {
+          "week": 3,
+          "opponentTeamId": 5,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg",
+          "score": 112.04,
+          "opponentScore": 110.3,
+          "result": "W",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 2,
+            "losses": 1,
+            "ties": 0
+          },
+          "scoreRank": 6
+        },
+        {
+          "week": 4,
+          "opponentTeamId": 3,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 5,
+          "opponentTeamId": 13,
+          "opponentLogo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 6,
+          "opponentTeamId": 6,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 7,
+          "opponentTeamId": 11,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 8,
+          "opponentTeamId": 2,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 9,
+          "opponentTeamId": 1,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 10,
+          "opponentTeamId": 15,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 11,
+          "opponentTeamId": 16,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 12,
+          "opponentTeamId": 5,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 13,
+          "opponentTeamId": 3,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 14,
+          "opponentTeamId": 13,
+          "opponentLogo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        }
+      ],
+      "averageScore": 118.59,
+      "highScore": 126.86,
+      "lowScore": 112.04,
+      "roster": [
+        {
+          "playerId": 3929630,
+          "name": "Saquon Barkley",
+          "nflTeam": "PHI",
+          "position": "RB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 21.0
+        },
+        {
+          "playerId": 3043078,
+          "name": "Derrick Henry",
+          "nflTeam": "BAL",
+          "position": "RB",
+          "slot": "RB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 74.9
+        },
+        {
+          "playerId": 4430737,
+          "name": "Kyren Williams",
+          "nflTeam": "LAR",
+          "position": "RB",
+          "slot": "RB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 53.0
+        },
+        {
+          "playerId": 4426354,
+          "name": "George Pickens",
+          "nflTeam": "DAL",
+          "position": "WR",
+          "slot": "WR",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 31.0
+        },
+        {
+          "playerId": 4426388,
+          "name": "Jameson Williams",
+          "nflTeam": "DET",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 22.7
+        },
+        {
+          "playerId": 4431299,
+          "name": "Rome Odunze",
+          "nflTeam": "CHI",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 21.9
+        },
+        {
+          "playerId": 16737,
+          "name": "Mike Evans",
+          "nflTeam": "SF",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonPoints": 37.7
+        },
+        {
+          "playerId": 3139477,
+          "name": "Patrick Mahomes",
+          "nflTeam": "KC",
+          "position": "QB",
+          "slot": "QB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 66.58
+        },
+        {
+          "playerId": 2976212,
+          "name": "Stefon Diggs",
+          "nflTeam": "WSH",
+          "position": "WR",
+          "slot": "WR",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 44.5
+        },
+        {
+          "playerId": 15847,
+          "name": "Travis Kelce",
+          "nflTeam": "KC",
+          "position": "TE",
+          "slot": "TE",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 49.1
+        },
+        {
+          "playerId": 4373678,
+          "name": "Khalil Shakir",
+          "nflTeam": "BUF",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 17.4
+        },
+        {
+          "playerId": 4683062,
+          "name": "Xavier Worthy",
+          "nflTeam": "KC",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 22.3
+        },
+        {
+          "playerId": 2473037,
+          "name": "Jason Myers",
+          "nflTeam": "SEA",
+          "position": "K",
+          "slot": "K",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 23.0
+        },
+        {
+          "playerId": -16012,
+          "name": "Chiefs D/ST",
+          "nflTeam": "KC",
+          "position": "D/ST",
+          "slot": "D/ST",
+          "group": "starter",
+          "injuryStatus": "NORMAL",
+          "seasonPoints": 22.0
+        },
+        {
+          "playerId": 4832955,
+          "name": "Emmett Johnson",
+          "nflTeam": "KC",
+          "position": "RB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 16.0
+        },
+        {
+          "playerId": 4362921,
+          "name": "Tyquan Thornton",
+          "nflTeam": "KC",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 16.8
+        }
+      ],
+      "rosterLabel": "Current Roster",
+      "formerPlayers": [
+        {
+          "playerId": 15818,
+          "name": "Keenan Allen",
+          "weeks": [
+            1,
+            2
+          ]
+        },
+        {
+          "playerId": 4373626,
+          "name": "Tyler Allgeier",
+          "weeks": [
+            1
+          ]
+        }
+      ]
+    },
+    "3": {
+      "teamId": 3,
+      "weeks": [
+        {
+          "week": 1,
+          "opponentTeamId": 16,
+          "opponentLogo": null,
+          "score": 107.06,
+          "opponentScore": 105.52,
+          "result": "W",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 1,
+            "losses": 0,
+            "ties": 0
+          },
+          "scoreRank": 8
+        },
+        {
+          "week": 2,
+          "opponentTeamId": 5,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg",
+          "score": 132.92,
+          "opponentScore": 82.28,
+          "result": "W",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 2,
+            "losses": 0,
+            "ties": 0
+          },
+          "scoreRank": 4
+        },
+        {
+          "week": 3,
+          "opponentTeamId": 13,
+          "opponentLogo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+          "score": 108.76,
+          "opponentScore": 120.56,
+          "result": "L",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 2,
+            "losses": 1,
+            "ties": 0
+          },
+          "scoreRank": 8
+        },
+        {
+          "week": 4,
+          "opponentTeamId": 12,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 5,
+          "opponentTeamId": 6,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 6,
+          "opponentTeamId": 11,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 7,
+          "opponentTeamId": 2,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 8,
+          "opponentTeamId": 1,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 9,
+          "opponentTeamId": 15,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 10,
+          "opponentTeamId": 16,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 11,
+          "opponentTeamId": 5,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 12,
+          "opponentTeamId": 13,
+          "opponentLogo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 13,
+          "opponentTeamId": 12,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 14,
+          "opponentTeamId": 6,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        }
+      ],
+      "averageScore": 116.25,
+      "highScore": 132.92,
+      "lowScore": 107.06,
+      "roster": [
+        {
+          "playerId": 4242335,
+          "name": "Jonathan Taylor",
+          "nflTeam": "IND",
+          "position": "RB",
+          "slot": "RB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 63.5
+        },
+        {
+          "playerId": 3117251,
+          "name": "Christian McCaffrey",
+          "nflTeam": "SF",
+          "position": "RB",
+          "slot": "RB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 58.0
+        },
+        {
+          "playerId": 4428331,
+          "name": "Rashee Rice",
+          "nflTeam": "KC",
+          "position": "WR",
+          "slot": "WR",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 38.0
+        },
+        {
+          "playerId": 3918298,
+          "name": "Josh Allen",
+          "nflTeam": "BUF",
+          "position": "QB",
+          "slot": "QB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 93.94
+        },
+        {
+          "playerId": 4612826,
+          "name": "Ladd McConkey",
+          "nflTeam": "LAC",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonPoints": 36.3
+        },
+        {
+          "playerId": 3121422,
+          "name": "Terry McLaurin",
+          "nflTeam": "WSH",
+          "position": "WR",
+          "slot": "RB/WR/TE",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 30.1
+        },
+        {
+          "playerId": 4360248,
+          "name": "Kyle Pitts Sr.",
+          "nflTeam": "ATL",
+          "position": "TE",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 4.0
+        },
+        {
+          "playerId": 4432710,
+          "name": "TreVeyon Henderson",
+          "nflTeam": "NE",
+          "position": "RB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 17.5
+        },
+        {
+          "playerId": 4431611,
+          "name": "Caleb Williams",
+          "nflTeam": "CHI",
+          "position": "QB",
+          "slot": "IR",
+          "group": "ir",
+          "injuryStatus": "DOUBTFUL",
+          "seasonPoints": 44.98
+        },
+        {
+          "playerId": 4688813,
+          "name": "Josh Downs",
+          "nflTeam": "IND",
+          "position": "WR",
+          "slot": "WR",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 32.6
+        },
+        {
+          "playerId": 3116365,
+          "name": "Mark Andrews",
+          "nflTeam": "BAL",
+          "position": "TE",
+          "slot": "TE",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 25.2
+        },
+        {
+          "playerId": 4574716,
+          "name": "Harrison Mevis",
+          "nflTeam": "LAR",
+          "position": "K",
+          "slot": "K",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 20.0
+        },
+        {
+          "playerId": 4429086,
+          "name": "Michael Mayer",
+          "nflTeam": "LV",
+          "position": "TE",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 26.7
+        },
+        {
+          "playerId": 4569559,
+          "name": "Devaughn Vele",
+          "nflTeam": "NO",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 38.2
+        },
+        {
+          "playerId": -16025,
+          "name": "49ers D/ST",
+          "nflTeam": "SF",
+          "position": "D/ST",
+          "slot": "D/ST",
+          "group": "starter",
+          "injuryStatus": "NORMAL",
+          "seasonPoints": 18.0
+        },
+        {
+          "playerId": 4428850,
+          "name": "Dontayvion Wicks",
+          "nflTeam": "PHI",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 32.9
+        },
+        {
+          "playerId": 4711533,
+          "name": "Ollie Gordon II",
+          "nflTeam": "MIA",
+          "position": "RB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 15.2
+        }
+      ],
+      "rosterLabel": "Current Roster",
+      "formerPlayers": [
+        {
+          "playerId": 4361741,
+          "name": "Brock Purdy",
+          "weeks": [
+            1
+          ]
+        },
+        {
+          "playerId": -16005,
+          "name": "Browns D/ST",
+          "weeks": [
+            1
+          ]
+        },
+        {
+          "playerId": 4371733,
+          "name": "Kenny Gainwell",
+          "weeks": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "playerId": 4428557,
+          "name": "Tyjae Spears",
+          "weeks": [
+            1
+          ]
+        }
       ]
     },
     "16": {
@@ -1414,12 +2592,16 @@
         {
           "week": 1,
           "opponentTeamId": 3,
+          "opponentLogo": null,
           "score": 105.52,
           "opponentScore": 107.06,
           "result": "L",
           "status": "final",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": {
             "wins": 0,
             "losses": 1,
@@ -1430,12 +2612,16 @@
         {
           "week": 2,
           "opponentTeamId": 12,
+          "opponentLogo": null,
           "score": 144.76,
           "opponentScore": 116.88,
           "result": "W",
           "status": "final",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": {
             "wins": 1,
             "losses": 1,
@@ -1446,149 +2632,201 @@
         {
           "week": 3,
           "opponentTeamId": 6,
+          "opponentLogo": null,
           "score": 118.82,
           "opponentScore": 144.34,
-          "result": "—",
-          "status": "live",
+          "result": "L",
+          "status": "final",
           "phase": "regular",
           "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 1,
+            "losses": 2,
+            "ties": 0
+          },
+          "scoreRank": 5
         },
         {
           "week": 4,
           "opponentTeamId": 11,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 5,
           "opponentTeamId": 2,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 6,
           "opponentTeamId": 1,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 7,
           "opponentTeamId": 15,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 8,
           "opponentTeamId": 13,
+          "opponentLogo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 9,
           "opponentTeamId": 5,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 10,
           "opponentTeamId": 3,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 11,
           "opponentTeamId": 12,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 12,
           "opponentTeamId": 6,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 13,
           "opponentTeamId": 11,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 14,
           "opponentTeamId": 2,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         }
       ],
-      "averageScore": 125.14,
+      "averageScore": 123.03,
       "highScore": 144.76,
       "lowScore": 105.52,
       "roster": [
@@ -1752,709 +2990,9 @@
           "injuryStatus": "ACTIVE",
           "seasonPoints": 12.0
         }
-      ]
-    },
-    "12": {
-      "teamId": 12,
-      "weeks": [
-        {
-          "week": 1,
-          "opponentTeamId": 15,
-          "score": 126.86,
-          "opponentScore": 126.8,
-          "result": "W",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": {
-            "wins": 1,
-            "losses": 0,
-            "ties": 0
-          },
-          "scoreRank": 6
-        },
-        {
-          "week": 2,
-          "opponentTeamId": 16,
-          "score": 116.88,
-          "opponentScore": 144.76,
-          "result": "L",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": {
-            "wins": 1,
-            "losses": 1,
-            "ties": 0
-          },
-          "scoreRank": 6
-        },
-        {
-          "week": 3,
-          "opponentTeamId": 5,
-          "score": 112.04,
-          "opponentScore": 110.3,
-          "result": "—",
-          "status": "live",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 4,
-          "opponentTeamId": 3,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 5,
-          "opponentTeamId": 13,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 6,
-          "opponentTeamId": 6,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 7,
-          "opponentTeamId": 11,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 8,
-          "opponentTeamId": 2,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 9,
-          "opponentTeamId": 1,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 10,
-          "opponentTeamId": 15,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 11,
-          "opponentTeamId": 16,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 12,
-          "opponentTeamId": 5,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 13,
-          "opponentTeamId": 3,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 14,
-          "opponentTeamId": 13,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        }
       ],
-      "averageScore": 121.87,
-      "highScore": 126.86,
-      "lowScore": 116.88,
-      "roster": [
-        {
-          "playerId": 3929630,
-          "name": "Saquon Barkley",
-          "nflTeam": "PHI",
-          "position": "RB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 21.0
-        },
-        {
-          "playerId": 3043078,
-          "name": "Derrick Henry",
-          "nflTeam": "BAL",
-          "position": "RB",
-          "slot": "RB",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 74.9
-        },
-        {
-          "playerId": 4430737,
-          "name": "Kyren Williams",
-          "nflTeam": "LAR",
-          "position": "RB",
-          "slot": "RB",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 53.0
-        },
-        {
-          "playerId": 4426354,
-          "name": "George Pickens",
-          "nflTeam": "DAL",
-          "position": "WR",
-          "slot": "WR",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 31.0
-        },
-        {
-          "playerId": 4426388,
-          "name": "Jameson Williams",
-          "nflTeam": "DET",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 22.7
-        },
-        {
-          "playerId": 4431299,
-          "name": "Rome Odunze",
-          "nflTeam": "CHI",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 21.9
-        },
-        {
-          "playerId": 16737,
-          "name": "Mike Evans",
-          "nflTeam": "SF",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 37.7
-        },
-        {
-          "playerId": 3139477,
-          "name": "Patrick Mahomes",
-          "nflTeam": "KC",
-          "position": "QB",
-          "slot": "QB",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 66.58
-        },
-        {
-          "playerId": 2976212,
-          "name": "Stefon Diggs",
-          "nflTeam": "WSH",
-          "position": "WR",
-          "slot": "WR",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 44.5
-        },
-        {
-          "playerId": 15847,
-          "name": "Travis Kelce",
-          "nflTeam": "KC",
-          "position": "TE",
-          "slot": "TE",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 49.1
-        },
-        {
-          "playerId": 4373678,
-          "name": "Khalil Shakir",
-          "nflTeam": "BUF",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 17.4
-        },
-        {
-          "playerId": 4683062,
-          "name": "Xavier Worthy",
-          "nflTeam": "KC",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 22.3
-        },
-        {
-          "playerId": 2473037,
-          "name": "Jason Myers",
-          "nflTeam": "SEA",
-          "position": "K",
-          "slot": "K",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 23.0
-        },
-        {
-          "playerId": -16012,
-          "name": "Chiefs D/ST",
-          "nflTeam": "KC",
-          "position": "D/ST",
-          "slot": "D/ST",
-          "group": "starter",
-          "injuryStatus": "NORMAL",
-          "seasonPoints": 22.0
-        },
-        {
-          "playerId": 4832955,
-          "name": "Emmett Johnson",
-          "nflTeam": "KC",
-          "position": "RB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 16.0
-        },
-        {
-          "playerId": 4362921,
-          "name": "Tyquan Thornton",
-          "nflTeam": "KC",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 16.8
-        }
-      ]
-    },
-    "6": {
-      "teamId": 6,
-      "weeks": [
-        {
-          "week": 1,
-          "opponentTeamId": 1,
-          "score": 137.1,
-          "opponentScore": 132.56,
-          "result": "W",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": {
-            "wins": 1,
-            "losses": 0,
-            "ties": 0
-          },
-          "scoreRank": 2
-        },
-        {
-          "week": 2,
-          "opponentTeamId": 15,
-          "score": 102.3,
-          "opponentScore": 159.36,
-          "result": "L",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": {
-            "wins": 1,
-            "losses": 1,
-            "ties": 0
-          },
-          "scoreRank": 7
-        },
-        {
-          "week": 3,
-          "opponentTeamId": 16,
-          "score": 144.34,
-          "opponentScore": 118.82,
-          "result": "—",
-          "status": "live",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 4,
-          "opponentTeamId": 5,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 5,
-          "opponentTeamId": 3,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 6,
-          "opponentTeamId": 12,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 7,
-          "opponentTeamId": 13,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 8,
-          "opponentTeamId": 11,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 9,
-          "opponentTeamId": 2,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 10,
-          "opponentTeamId": 1,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 11,
-          "opponentTeamId": 15,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 12,
-          "opponentTeamId": 16,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 13,
-          "opponentTeamId": 5,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 14,
-          "opponentTeamId": 3,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        }
-      ],
-      "averageScore": 119.7,
-      "highScore": 137.1,
-      "lowScore": 102.3,
-      "roster": [
-        {
-          "playerId": 4430807,
-          "name": "Bijan Robinson",
-          "nflTeam": "ATL",
-          "position": "RB",
-          "slot": "RB",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 77.7
-        },
-        {
-          "playerId": 4870808,
-          "name": "Jeremiyah Love",
-          "nflTeam": "ARI",
-          "position": "RB",
-          "slot": "RB",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 42.4
-        },
-        {
-          "playerId": 4361307,
-          "name": "Trey McBride",
-          "nflTeam": "ARI",
-          "position": "TE",
-          "slot": "TE",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 59.1
-        },
-        {
-          "playerId": 4429615,
-          "name": "Zay Flowers",
-          "nflTeam": "BAL",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 41.4
-        },
-        {
-          "playerId": 4685472,
-          "name": "Tetairoa McMillan",
-          "nflTeam": "CAR",
-          "position": "WR",
-          "slot": "WR",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 29.3
-        },
-        {
-          "playerId": 4871023,
-          "name": "Carnell Tate",
-          "nflTeam": "TEN",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 25.3
-        },
-        {
-          "playerId": 3040151,
-          "name": "George Kittle",
-          "nflTeam": "SF",
-          "position": "TE",
-          "slot": "RB/WR/TE",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 47.4
-        },
-        {
-          "playerId": 4697815,
-          "name": "Rachaad White",
-          "nflTeam": "WSH",
-          "position": "RB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 30.1
-        },
-        {
-          "playerId": 4426385,
-          "name": "Zach Charbonnet",
-          "nflTeam": "SEA",
-          "position": "RB",
-          "slot": "IR",
-          "group": "ir",
-          "injuryStatus": "OUT",
-          "seasonPoints": 0.0
-        },
-        {
-          "playerId": 4568490,
-          "name": "RJ Harvey",
-          "nflTeam": "DEN",
-          "position": "RB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 18.8
-        },
-        {
-          "playerId": 3953687,
-          "name": "Brandon Aubrey",
-          "nflTeam": "DAL",
-          "position": "K",
-          "slot": "K",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 29.0
-        },
-        {
-          "playerId": -16007,
-          "name": "Broncos D/ST",
-          "nflTeam": "DEN",
-          "position": "D/ST",
-          "slot": "D/ST",
-          "group": "starter",
-          "injuryStatus": "NORMAL",
-          "seasonPoints": 20.0
-        },
-        {
-          "playerId": 4682648,
-          "name": "Malachi Fields",
-          "nflTeam": "NYG",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 13.4
-        },
-        {
-          "playerId": 2973405,
-          "name": "Kalif Raymond",
-          "nflTeam": "CHI",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 46.4
-        },
-        {
-          "playerId": 4685720,
-          "name": "Bryce Young",
-          "nflTeam": "CAR",
-          "position": "QB",
-          "slot": "QB",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 69.16
-        },
-        {
-          "playerId": 4832800,
-          "name": "Denzel Boston",
-          "nflTeam": "CLE",
-          "position": "WR",
-          "slot": "WR",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 42.5
-        },
-        {
-          "playerId": 3054850,
-          "name": "Alvin Kamara",
-          "nflTeam": "NO",
-          "position": "RB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 12.3
-        }
-      ]
+      "rosterLabel": "Current Roster",
+      "formerPlayers": []
     },
     "5": {
       "teamId": 5,
@@ -2462,12 +3000,16 @@
         {
           "week": 1,
           "opponentTeamId": 13,
+          "opponentLogo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
           "score": 128.6,
           "opponentScore": 88.82,
           "result": "W",
           "status": "final",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": {
             "wins": 1,
             "losses": 0,
@@ -2478,12 +3020,16 @@
         {
           "week": 2,
           "opponentTeamId": 3,
+          "opponentLogo": null,
           "score": 82.28,
           "opponentScore": 132.92,
           "result": "L",
           "status": "final",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": {
             "wins": 1,
             "losses": 1,
@@ -2494,149 +3040,201 @@
         {
           "week": 3,
           "opponentTeamId": 12,
+          "opponentLogo": null,
           "score": 110.3,
           "opponentScore": 112.04,
-          "result": "—",
-          "status": "live",
+          "result": "L",
+          "status": "final",
           "phase": "regular",
           "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 1,
+            "losses": 2,
+            "ties": 0
+          },
+          "scoreRank": 7
         },
         {
           "week": 4,
           "opponentTeamId": 6,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 5,
           "opponentTeamId": 11,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 6,
           "opponentTeamId": 2,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 7,
           "opponentTeamId": 1,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 8,
           "opponentTeamId": 15,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 9,
           "opponentTeamId": 16,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 10,
           "opponentTeamId": 13,
+          "opponentLogo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 11,
           "opponentTeamId": 3,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 12,
           "opponentTeamId": 12,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 13,
           "opponentTeamId": 6,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 14,
           "opponentTeamId": 11,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         }
       ],
-      "averageScore": 105.44,
+      "averageScore": 107.06,
       "highScore": 128.6,
       "lowScore": 82.28,
       "roster": [
@@ -2645,9 +3243,9 @@
           "name": "Puka Nacua",
           "nflTeam": "LAR",
           "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "OUT",
+          "slot": "RB/WR/TE",
+          "group": "starter",
+          "injuryStatus": "QUESTIONABLE",
           "seasonPoints": 12.4
         },
         {
@@ -2675,8 +3273,8 @@
           "name": "Emeka Egbuka",
           "nflTeam": "TB",
           "position": "WR",
-          "slot": "WR",
-          "group": "starter",
+          "slot": "BE",
+          "group": "bench",
           "injuryStatus": "ACTIVE",
           "seasonPoints": 32.8
         },
@@ -2725,7 +3323,7 @@
           "name": "Christian Watson",
           "nflTeam": "GB",
           "position": "WR",
-          "slot": "RB/WR/TE",
+          "slot": "WR",
           "group": "starter",
           "injuryStatus": "ACTIVE",
           "seasonPoints": 69.4
@@ -2801,16 +3399,434 @@
           "seasonPoints": 28.0
         },
         {
+          "playerId": 5083315,
+          "name": "Kenyon Sadiq",
+          "nflTeam": "NYJ",
+          "position": "TE",
+          "slot": "TE",
+          "group": "starter",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonPoints": 38.6
+        }
+      ],
+      "rosterLabel": "Current Roster",
+      "formerPlayers": [
+        {
           "playerId": 3117256,
           "name": "Dalton Schultz",
-          "nflTeam": "HOU",
+          "weeks": [
+            3
+          ]
+        }
+      ]
+    },
+    "13": {
+      "teamId": 13,
+      "weeks": [
+        {
+          "week": 1,
+          "opponentTeamId": 5,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg",
+          "score": 88.82,
+          "opponentScore": 128.6,
+          "result": "L",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 0,
+            "losses": 1,
+            "ties": 0
+          },
+          "scoreRank": 10
+        },
+        {
+          "week": 2,
+          "opponentTeamId": 2,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg",
+          "score": 90.26,
+          "opponentScore": 129.18,
+          "result": "L",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 0,
+            "losses": 2,
+            "ties": 0
+          },
+          "scoreRank": 9
+        },
+        {
+          "week": 3,
+          "opponentTeamId": 3,
+          "opponentLogo": null,
+          "score": 120.56,
+          "opponentScore": 108.76,
+          "result": "W",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 1,
+            "losses": 2,
+            "ties": 0
+          },
+          "scoreRank": 4
+        },
+        {
+          "week": 4,
+          "opponentTeamId": 1,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 5,
+          "opponentTeamId": 12,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 6,
+          "opponentTeamId": 15,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 7,
+          "opponentTeamId": 6,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 8,
+          "opponentTeamId": 16,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 9,
+          "opponentTeamId": 11,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 10,
+          "opponentTeamId": 5,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 11,
+          "opponentTeamId": 2,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 12,
+          "opponentTeamId": 3,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 13,
+          "opponentTeamId": 1,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        },
+        {
+          "week": 14,
+          "opponentTeamId": 12,
+          "opponentLogo": null,
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null
+        }
+      ],
+      "averageScore": 99.88,
+      "highScore": 120.56,
+      "lowScore": 88.82,
+      "roster": [
+        {
+          "playerId": 4362628,
+          "name": "Ja'Marr Chase",
+          "nflTeam": "CIN",
+          "position": "WR",
+          "slot": "WR",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 54.5
+        },
+        {
+          "playerId": 4426502,
+          "name": "Drake London",
+          "nflTeam": "ATL",
+          "position": "WR",
+          "slot": "WR",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 42.8
+        },
+        {
+          "playerId": 4432665,
+          "name": "Brock Bowers",
+          "nflTeam": "LV",
+          "position": "TE",
+          "slot": "RB/WR/TE",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 27.6
+        },
+        {
+          "playerId": 4427366,
+          "name": "Breece Hall",
+          "nflTeam": "NYJ",
+          "position": "RB",
+          "slot": "RB",
+          "group": "starter",
+          "injuryStatus": "DOUBTFUL",
+          "seasonPoints": 42.5
+        },
+        {
+          "playerId": 4685702,
+          "name": "Quinshon Judkins",
+          "nflTeam": "CLE",
+          "position": "RB",
+          "slot": "RB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 26.7
+        },
+        {
+          "playerId": 4431452,
+          "name": "Drake Maye",
+          "nflTeam": "NE",
+          "position": "QB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 21.6
+        },
+        {
+          "playerId": 4685278,
+          "name": "Luther Burden III",
+          "nflTeam": "CHI",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 35.5
+        },
+        {
+          "playerId": 4035687,
+          "name": "Michael Pittman Jr.",
+          "nflTeam": "PIT",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 12.4
+        },
+        {
+          "playerId": 4047650,
+          "name": "DK Metcalf",
+          "nflTeam": "PIT",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 26.8
+        },
+        {
+          "playerId": 4572680,
+          "name": "Tucker Kraft",
+          "nflTeam": "GB",
           "position": "TE",
           "slot": "TE",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 39.5
+          "seasonPoints": 19.6
+        },
+        {
+          "playerId": 4360310,
+          "name": "Trevor Lawrence",
+          "nflTeam": "JAX",
+          "position": "QB",
+          "slot": "QB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 52.04
+        },
+        {
+          "playerId": 4426338,
+          "name": "Bo Nix",
+          "nflTeam": "DEN",
+          "position": "QB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 43.7
+        },
+        {
+          "playerId": 4361050,
+          "name": "Isaiah Likely",
+          "nflTeam": "NYG",
+          "position": "TE",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 39.4
+        },
+        {
+          "playerId": 3126486,
+          "name": "Deebo Samuel Sr.",
+          "nflTeam": "SF",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 39.9
+        },
+        {
+          "playerId": -16023,
+          "name": "Steelers D/ST",
+          "nflTeam": "PIT",
+          "position": "D/ST",
+          "slot": "D/ST",
+          "group": "starter",
+          "injuryStatus": "NORMAL",
+          "seasonPoints": 31.0
+        },
+        {
+          "playerId": 4689936,
+          "name": "Jake Bates",
+          "nflTeam": "DET",
+          "position": "K",
+          "slot": "K",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 21.0
         }
-      ]
+      ],
+      "rosterLabel": "Current Roster",
+      "formerPlayers": []
     },
     "1": {
       "teamId": 1,
@@ -2818,12 +3834,16 @@
         {
           "week": 1,
           "opponentTeamId": 6,
+          "opponentLogo": null,
           "score": 132.56,
           "opponentScore": 137.1,
           "result": "L",
           "status": "final",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": {
             "wins": 0,
             "losses": 1,
@@ -2834,12 +3854,16 @@
         {
           "week": 2,
           "opponentTeamId": 11,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg",
           "score": 90.9,
           "opponentScore": 152.64,
           "result": "L",
           "status": "final",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": {
             "wins": 0,
             "losses": 2,
@@ -2850,151 +3874,203 @@
         {
           "week": 3,
           "opponentTeamId": 2,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg",
           "score": 75.64,
           "opponentScore": 155.34,
-          "result": "—",
-          "status": "live",
+          "result": "L",
+          "status": "final",
           "phase": "regular",
           "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 0,
+            "losses": 3,
+            "ties": 0
+          },
+          "scoreRank": 10
         },
         {
           "week": 4,
           "opponentTeamId": 13,
+          "opponentLogo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 5,
           "opponentTeamId": 15,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 6,
           "opponentTeamId": 16,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 7,
           "opponentTeamId": 5,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 8,
           "opponentTeamId": 3,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 9,
           "opponentTeamId": 12,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 10,
           "opponentTeamId": 6,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 11,
           "opponentTeamId": 11,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 12,
           "opponentTeamId": 2,
+          "opponentLogo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 13,
           "opponentTeamId": 13,
+          "opponentLogo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         },
         {
           "week": 14,
           "opponentTeamId": 15,
+          "opponentLogo": null,
           "score": null,
           "opponentScore": null,
           "result": "—",
           "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
           "cumulativeRecord": null,
           "scoreRank": null
         }
       ],
-      "averageScore": 111.73,
+      "averageScore": 99.7,
       "highScore": 132.56,
-      "lowScore": 90.9,
+      "lowScore": 75.64,
       "roster": [
         {
           "playerId": 4262921,
@@ -3043,7 +4119,7 @@
           "position": "QB",
           "slot": "QB",
           "group": "starter",
-          "injuryStatus": "ACTIVE",
+          "injuryStatus": "QUESTIONABLE",
           "seasonPoints": 60.2
         },
         {
@@ -3053,7 +4129,7 @@
           "position": "RB",
           "slot": "RB/WR/TE",
           "group": "starter",
-          "injuryStatus": "ACTIVE",
+          "injuryStatus": "QUESTIONABLE",
           "seasonPoints": 14.0
         },
         {
@@ -3166,351 +4242,15 @@
           "injuryStatus": "ACTIVE",
           "seasonPoints": 10.9
         }
-      ]
-    },
-    "13": {
-      "teamId": 13,
-      "weeks": [
-        {
-          "week": 1,
-          "opponentTeamId": 5,
-          "score": 88.82,
-          "opponentScore": 128.6,
-          "result": "L",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": {
-            "wins": 0,
-            "losses": 1,
-            "ties": 0
-          },
-          "scoreRank": 10
-        },
-        {
-          "week": 2,
-          "opponentTeamId": 2,
-          "score": 90.26,
-          "opponentScore": 129.18,
-          "result": "L",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": {
-            "wins": 0,
-            "losses": 2,
-            "ties": 0
-          },
-          "scoreRank": 9
-        },
-        {
-          "week": 3,
-          "opponentTeamId": 3,
-          "score": 120.56,
-          "opponentScore": 108.76,
-          "result": "—",
-          "status": "live",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 4,
-          "opponentTeamId": 1,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 5,
-          "opponentTeamId": 12,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 6,
-          "opponentTeamId": 15,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 7,
-          "opponentTeamId": 6,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 8,
-          "opponentTeamId": 16,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 9,
-          "opponentTeamId": 11,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 10,
-          "opponentTeamId": 5,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 11,
-          "opponentTeamId": 2,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 12,
-          "opponentTeamId": 3,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 13,
-          "opponentTeamId": 1,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        },
-        {
-          "week": 14,
-          "opponentTeamId": 12,
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "cumulativeRecord": null,
-          "scoreRank": null
-        }
       ],
-      "averageScore": 89.54,
-      "highScore": 90.26,
-      "lowScore": 88.82,
-      "roster": [
+      "rosterLabel": "Current Roster",
+      "formerPlayers": [
         {
-          "playerId": 4362628,
-          "name": "Ja'Marr Chase",
-          "nflTeam": "CIN",
-          "position": "WR",
-          "slot": "WR",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 54.5
-        },
-        {
-          "playerId": 4426502,
-          "name": "Drake London",
-          "nflTeam": "ATL",
-          "position": "WR",
-          "slot": "WR",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 42.8
-        },
-        {
-          "playerId": 4432665,
-          "name": "Brock Bowers",
-          "nflTeam": "LV",
-          "position": "TE",
-          "slot": "RB/WR/TE",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 27.6
-        },
-        {
-          "playerId": 4427366,
-          "name": "Breece Hall",
-          "nflTeam": "NYJ",
-          "position": "RB",
-          "slot": "RB",
-          "group": "starter",
-          "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 42.5
-        },
-        {
-          "playerId": 4685702,
-          "name": "Quinshon Judkins",
-          "nflTeam": "CLE",
-          "position": "RB",
-          "slot": "RB",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 26.7
-        },
-        {
-          "playerId": 4431452,
-          "name": "Drake Maye",
-          "nflTeam": "NE",
-          "position": "QB",
-          "slot": "QB",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 21.6
-        },
-        {
-          "playerId": 4685278,
-          "name": "Luther Burden III",
-          "nflTeam": "CHI",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 35.5
-        },
-        {
-          "playerId": 4035687,
-          "name": "Michael Pittman Jr.",
-          "nflTeam": "PIT",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 12.4
-        },
-        {
-          "playerId": 4047650,
-          "name": "DK Metcalf",
-          "nflTeam": "PIT",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 26.8
-        },
-        {
-          "playerId": 4572680,
-          "name": "Tucker Kraft",
-          "nflTeam": "GB",
-          "position": "TE",
-          "slot": "TE",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 19.6
-        },
-        {
-          "playerId": 4360310,
-          "name": "Trevor Lawrence",
-          "nflTeam": "JAX",
-          "position": "QB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 52.04
-        },
-        {
-          "playerId": 4426338,
-          "name": "Bo Nix",
-          "nflTeam": "DEN",
-          "position": "QB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 43.7
-        },
-        {
-          "playerId": 4361050,
-          "name": "Isaiah Likely",
-          "nflTeam": "NYG",
-          "position": "TE",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 39.4
-        },
-        {
-          "playerId": 3126486,
-          "name": "Deebo Samuel Sr.",
-          "nflTeam": "SF",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 39.9
-        },
-        {
-          "playerId": -16023,
-          "name": "Steelers D/ST",
-          "nflTeam": "PIT",
-          "position": "D/ST",
-          "slot": "D/ST",
-          "group": "starter",
-          "injuryStatus": "NORMAL",
-          "seasonPoints": 31.0
-        },
-        {
-          "playerId": 4689936,
-          "name": "Jake Bates",
-          "nflTeam": "DET",
-          "position": "K",
-          "slot": "K",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 21.0
+          "playerId": -16027,
+          "name": "Buccaneers D/ST",
+          "weeks": [
+            2
+          ]
         }
       ]
     }
@@ -3525,7 +4265,10 @@
       "status": "final",
       "winnerTeamId": 6,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 1,
@@ -3536,7 +4279,10 @@
       "status": "final",
       "winnerTeamId": 11,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 1,
@@ -3547,7 +4293,10 @@
       "status": "final",
       "winnerTeamId": 3,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 1,
@@ -3558,7 +4307,10 @@
       "status": "final",
       "winnerTeamId": 12,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 1,
@@ -3569,7 +4321,10 @@
       "status": "final",
       "winnerTeamId": 5,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 2,
@@ -3580,7 +4335,10 @@
       "status": "final",
       "winnerTeamId": 3,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 2,
@@ -3591,7 +4349,10 @@
       "status": "final",
       "winnerTeamId": 11,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 2,
@@ -3602,7 +4363,10 @@
       "status": "final",
       "winnerTeamId": 2,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 2,
@@ -3613,7 +4377,10 @@
       "status": "final",
       "winnerTeamId": 15,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 2,
@@ -3624,7 +4391,10 @@
       "status": "final",
       "winnerTeamId": 16,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 3,
@@ -3632,10 +4402,13 @@
       "awayTeamId": 2,
       "homeScore": 75.64,
       "awayScore": 155.34,
-      "status": "live",
-      "winnerTeamId": null,
+      "status": "final",
+      "winnerTeamId": 2,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 3,
@@ -3643,10 +4416,13 @@
       "awayTeamId": 12,
       "homeScore": 110.3,
       "awayScore": 112.04,
-      "status": "live",
-      "winnerTeamId": null,
+      "status": "final",
+      "winnerTeamId": 12,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 3,
@@ -3654,10 +4430,13 @@
       "awayTeamId": 16,
       "homeScore": 144.34,
       "awayScore": 118.82,
-      "status": "live",
-      "winnerTeamId": null,
+      "status": "final",
+      "winnerTeamId": 6,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 3,
@@ -3665,10 +4444,13 @@
       "awayTeamId": 15,
       "homeScore": 91.8,
       "awayScore": 153.94,
-      "status": "live",
-      "winnerTeamId": null,
+      "status": "final",
+      "winnerTeamId": 15,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 3,
@@ -3676,10 +4458,13 @@
       "awayTeamId": 3,
       "homeScore": 120.56,
       "awayScore": 108.76,
-      "status": "live",
-      "winnerTeamId": null,
+      "status": "final",
+      "winnerTeamId": 13,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 4,
@@ -3690,7 +4475,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 4,
@@ -3701,7 +4489,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 4,
@@ -3712,7 +4503,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 4,
@@ -3723,7 +4517,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 4,
@@ -3734,7 +4531,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 5,
@@ -3745,7 +4545,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 5,
@@ -3756,7 +4559,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 5,
@@ -3767,7 +4573,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 5,
@@ -3778,7 +4587,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 5,
@@ -3789,7 +4601,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 6,
@@ -3800,7 +4615,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 6,
@@ -3811,7 +4629,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 6,
@@ -3822,7 +4643,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 6,
@@ -3833,7 +4657,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 6,
@@ -3844,7 +4671,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 7,
@@ -3855,7 +4685,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 7,
@@ -3866,7 +4699,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 7,
@@ -3877,7 +4713,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 7,
@@ -3888,7 +4727,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 7,
@@ -3899,7 +4741,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 8,
@@ -3910,7 +4755,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 8,
@@ -3921,7 +4769,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 8,
@@ -3932,7 +4783,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 8,
@@ -3943,7 +4797,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 8,
@@ -3954,7 +4811,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 9,
@@ -3965,7 +4825,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 9,
@@ -3976,7 +4839,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 9,
@@ -3987,7 +4853,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 9,
@@ -3998,7 +4867,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 9,
@@ -4009,7 +4881,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 10,
@@ -4020,7 +4895,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 10,
@@ -4031,7 +4909,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 10,
@@ -4042,7 +4923,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 10,
@@ -4053,7 +4937,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 10,
@@ -4064,7 +4951,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 11,
@@ -4075,7 +4965,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 11,
@@ -4086,7 +4979,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 11,
@@ -4097,7 +4993,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 11,
@@ -4108,7 +5007,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 11,
@@ -4119,7 +5021,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 12,
@@ -4130,7 +5035,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 12,
@@ -4141,7 +5049,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 12,
@@ -4152,7 +5063,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 12,
@@ -4163,7 +5077,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 12,
@@ -4174,7 +5091,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 13,
@@ -4185,7 +5105,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 13,
@@ -4196,7 +5119,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 13,
@@ -4207,7 +5133,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 13,
@@ -4218,7 +5147,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 13,
@@ -4229,7 +5161,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 14,
@@ -4240,7 +5175,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 14,
@@ -4251,7 +5189,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 14,
@@ -4262,7 +5203,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 14,
@@ -4273,7 +5217,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     },
     {
       "week": 14,
@@ -4284,7 +5231,10 @@
       "status": "upcoming",
       "winnerTeamId": null,
       "bracket": "regular",
-      "phase": "regular"
+      "phase": "regular",
+      "roundLabel": null,
+      "isPlayoff": false,
+      "isBye": false
     }
   ]
 }

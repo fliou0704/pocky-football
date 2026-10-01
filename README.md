@@ -14,7 +14,7 @@ Install Python dependencies with `python -m pip install -r requirements.txt`. Th
 python generate.py --league pocky-football
 ```
 
-The exporter writes `frontend/public/data/<slug>/<season>/league.json` for standings, `home.json` for weekly Home content, and a small `frontend/public/data/site.json` pointing the frontend at the selected league. The normalized JSON contains no credentials. Regenerate it to refresh ESPN scores; the page does not make live ESPN requests. Current scores use ESPN's `totalPointsLive` field because the package's basic `scoreboard()` returned zero while the week was active. ESPN's matchup `winner` marks final results; otherwise a matchup with live scoring is shown as in progress and one without scoring is upcoming.
+The exporter writes `frontend/public/data/<slug>/<season>/league.json` for standings, `teams.json` for season-specific team views, `home.json` for weekly Home content in the active season, and a small `frontend/public/data/site.json` pointing the frontend at the selected league. The normalized JSON contains no credentials. Regenerate it to refresh ESPN scores; the page does not make live ESPN requests. Current scores use ESPN's `totalPointsLive` field because the package's basic `scoreboard()` returned zero while the week was active. ESPN's matchup `winner` marks final results; otherwise a matchup with live scoring is shown as in progress and one without scoring is upcoming.
 
 ## Team logos
 
@@ -30,6 +30,20 @@ To override a team logo, put a PNG, JPEG, WebP, or SVG in `frontend/public/team-
 
 The path is relative to `frontend/public/`. Regenerate data after editing configuration. Local overrides take priority over ESPN URLs, including on GitHub Pages.
 
+## Owner names and roster history
+
+ESPN first and last names are used when present; otherwise the ESPN display name is the fallback. To correct a name without editing React, add `ownerNameOverrides` to the league entry in `leagues.json`, keyed by **season, then team ID**:
+
+```json
+"ownerNameOverrides": {
+  "2025": { "3": "Preferred Owner Name" }
+}
+```
+
+Regenerate data after editing the configuration. The override has first priority. Season and team ID are paired because a team ID can be reused by a different owner in another season. The public JSON contains only the chosen owner name, not ESPN member IDs, logins, or email addresses.
+
+`teams.json` keeps the season-end roster for completed years, labeled **Final Roster**, and ESPN's active roster for the current year. Weekly ESPN scoreboard roster snapshots establish which players belonged to each fantasy team, including starters, bench, and IR. A player seen in those snapshots but absent from that team's current/final roster appears under **Dropped / Former Players** with the weeks observed. This is membership evidence, not a transaction log or a complete account of every player's season points. A traded player can therefore appear for both teams in the appropriate lists.
+
 ## Run the page
 
 Install Node.js, then from this folder:
@@ -40,7 +54,7 @@ npm install
 npm run dev
 ```
 
-Open the local URL printed by Vite. Home and Standings work; the other navigation destinations are labeled as unavailable. The Home page shows the current fantasy week, current matchups, the last completed weekly recap, and standings. A completed season shows its final week recap and regular-season standings. Regenerating with another configured slug updates the independent copy of the site.
+Open the local URL printed by Vite. Home, Standings, and Teams work; the other navigation destinations are labeled as unavailable. The Home page shows the current fantasy week, current matchups, the last completed weekly recap, and standings. A completed season shows its final week recap and regular-season standings. Regenerating with another configured slug updates the independent copy of the site.
 
 ## Tests
 
@@ -54,7 +68,7 @@ This project is designed for its own GitHub repository and project site. The wor
 
 Standings and Teams include ESPN seasons 2021 through the configured current season. Each run regenerates one small `league.json` (season-specific standings) and one `teams.json` (season-specific weekly matchups and team overviews) per year. The active season also gets `home.json`. Historical data is checked in as a reproducible snapshot, while GitHub Actions refreshes it from ESPN when secrets are present. No browser request uses ESPN credentials. Team IDs are meaningful **within a season**; do not infer permanent franchise identity across years.
 
-`teams.json` includes normalized matchups so later H2H and Record Book exporters can use source data directly. It marks single-team playoff entries as byes with no opponent. Historical player rosters are intentionally omitted: ESPN's season-end roster does not prove who was rostered in an earlier week. A later player-history feature should use historical box scores for that purpose. Manual logo overrides currently apply only to the configured active season because ESPN can reuse a team ID for a different historical team.
+`teams.json` includes normalized matchups so later H2H and Record Book exporters can use source data directly. It marks single-team playoff entries as byes with no opponent. Manual logo overrides currently apply only to the configured active season because ESPN can reuse a team ID for a different historical team. Schedule playoff labels are generated in Python from each season's regular-season length, winners-bracket rounds, playoff team count, and semifinal losers. ESPN's two consolation ladder types remain distinct.
 
 1. Create a separate GitHub repository for Pocky Football and push this folder to its `main` branch. Never add `.env`.
 2. In repository **Settings → Secrets and variables → Actions**, create repository secrets named `ESPN_S2` and `SWID`.
