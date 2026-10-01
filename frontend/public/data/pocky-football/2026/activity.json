@@ -1,0 +1,4286 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "generatedAt": "2026-10-01T16:49:40.324661+00:00",
+  "coverage": {
+    "complete": false,
+    "status": "partial",
+    "sources": [
+      "mTransactions2",
+      "kona_playercard"
+    ],
+    "queriedThroughPeriod": 4,
+    "successfulPeriods": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "failedPeriods": [],
+    "requestedPlayerCount": 179,
+    "returnedPlayerCount": 179,
+    "missingPlayerCount": 0,
+    "failedCardPlayerCount": 0,
+    "unknownPlayerNames": 0,
+    "sourceEventCount": 268,
+    "executedMovementCount": 182,
+    "firstTimestamp": "2026-09-08T23:52:26.964000+00:00",
+    "lastTimestamp": "2026-10-01T00:13:42.150000+00:00",
+    "usesFaab": false,
+    "limitation": "Explicit scoring-period sweep plus known-player card histories; ESPN supplies no verified total count. Unobserved player-only events, missing trade details and archived omissions remain possible. Transaction records are deferred."
+  },
+  "events": [
+    {
+      "id": "event-0031d87276a93c4f0e3b",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 1,
+          "playersAdded": [
+            {
+              "playerId": 4360569,
+              "name": "Jordan Mason"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-029a32a4ddfa7e2c7478",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 1,
+          "playersAdded": [
+            {
+              "playerId": 3128429,
+              "name": "Courtland Sutton"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-03610c0e26e5f7aab909",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 5,
+          "playersAdded": [
+            {
+              "playerId": 4429025,
+              "name": "Quentin Johnston"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-05c51e778d7aae4619f5",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 15,
+          "playersAdded": [
+            {
+              "playerId": 4362249,
+              "name": "Jayden Reed"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-07a0f93a426953f2be9c",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 12,
+          "playersAdded": [
+            {
+              "playerId": 2976212,
+              "name": "Stefon Diggs"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-0de7bca52c3671a1a40b",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 15,
+          "playersAdded": [
+            {
+              "playerId": 4569173,
+              "name": "Rhamondre Stevenson"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-101a1e8dcde408aecec0",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 11,
+          "playersAdded": [
+            {
+              "playerId": -16021,
+              "name": "Eagles D/ST"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-1050777ddb11ae4a0a52",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": 4612826,
+              "name": "Ladd McConkey"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-116be258faa72c0d1679",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 13,
+          "playersAdded": [
+            {
+              "playerId": 4035687,
+              "name": "Michael Pittman Jr."
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-1344ff19fa6c7f35b4dc",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 1,
+          "playersAdded": [
+            {
+              "playerId": 4385690,
+              "name": "Dalton Kincaid"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-135228b7d2739d21795d",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 15,
+          "playersAdded": [
+            {
+              "playerId": 3916148,
+              "name": "Tony Pollard"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-18f4403b5703ad7fd7fd",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 16,
+          "playersAdded": [
+            {
+              "playerId": 4431459,
+              "name": "Tyler Warren"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-1a6e54f60d43ec46c5bf",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 11,
+          "playersAdded": [
+            {
+              "playerId": 4429160,
+              "name": "De'Von Achane"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-1b1f8767d97bf46a80b5",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 11,
+          "playersAdded": [
+            {
+              "playerId": 4360689,
+              "name": "Tyler Shough"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-1b25e015abc1c87f69f6",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 16,
+          "playersAdded": [
+            {
+              "playerId": 4569587,
+              "name": "Wan'Dale Robinson"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-1e7c3cb0ea6239f13241",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [
+            {
+              "playerId": 4871023,
+              "name": "Carnell Tate"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-2020ef67ee6558cce7f1",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [
+            {
+              "playerId": -16007,
+              "name": "Broncos D/ST"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-21bc4bc5efb1bf25cd6e",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": 3116165,
+              "name": "Chris Godwin Jr."
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-25361de16333e7035ae3",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 12,
+          "playersAdded": [
+            {
+              "playerId": 4683062,
+              "name": "Xavier Worthy"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-25de3bb6fd63511e3e3a",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 5,
+          "playersAdded": [
+            {
+              "playerId": 4426515,
+              "name": "Puka Nacua"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-2dda2567f35143478e1a",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 1,
+          "playersAdded": [
+            {
+              "playerId": 4239996,
+              "name": "Travis Etienne Jr."
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-2e693ff2e33af51a0d84",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 15,
+          "playersAdded": [
+            {
+              "playerId": 4429795,
+              "name": "Jahmyr Gibbs"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-2ffb35fb766226cd7792",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 12,
+          "playersAdded": [
+            {
+              "playerId": 4426354,
+              "name": "George Pickens"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-31557128fdde240b5cf1",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 12,
+          "playersAdded": [
+            {
+              "playerId": 4430737,
+              "name": "Kyren Williams"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-31784e2dae41646e20e7",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 16,
+          "playersAdded": [
+            {
+              "playerId": 4038941,
+              "name": "Justin Herbert"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-320cbca40ec695ea8da7",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 16,
+          "playersAdded": [
+            {
+              "playerId": 4040715,
+              "name": "Jalen Hurts"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-3283d772f2dfb24eaf42",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 13,
+          "playersAdded": [
+            {
+              "playerId": 4685702,
+              "name": "Quinshon Judkins"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-3336b61b60a5c52c84ef",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 11,
+          "playersAdded": [
+            {
+              "playerId": 4241478,
+              "name": "DeVonta Smith"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-345fcc90ca55ac550976",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 15,
+          "playersAdded": [
+            {
+              "playerId": 4366031,
+              "name": "Tank Dell"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-347a8f9b9cbef0cb19c3",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [
+            {
+              "playerId": 4430807,
+              "name": "Bijan Robinson"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-352e4e74364de8b7eff6",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": 4242335,
+              "name": "Jonathan Taylor"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-35c39aef04c6ae78451e",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [
+            {
+              "playerId": 4568490,
+              "name": "RJ Harvey"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-360377eaf0fa53939004",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": 3929645,
+              "name": "Juwan Johnson"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-38dd422d763a17657043",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": 4688813,
+              "name": "Josh Downs"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-3e167312dcf852601430",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 16,
+          "playersAdded": [
+            {
+              "playerId": 4696981,
+              "name": "Cam Skattebo"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-3faf5d962d64a52f54fc",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 12,
+          "playersAdded": [
+            {
+              "playerId": 3139477,
+              "name": "Patrick Mahomes"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-42e36929bd0500b33e21",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 1,
+          "playersAdded": [
+            {
+              "playerId": 4595348,
+              "name": "Malik Nabers"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-43736a510eabf90bbf79",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 1,
+          "playersAdded": [
+            {
+              "playerId": 4429096,
+              "name": "Blake Corum"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-4373cd07f7bf11b10f30",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 11,
+          "playersAdded": [
+            {
+              "playerId": 4432708,
+              "name": "Marvin Harrison Jr."
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-4574ab6220b502aa592a",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": 3915416,
+              "name": "DJ Moore"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-462212bc0cc701f9abcf",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 12,
+          "playersAdded": [
+            {
+              "playerId": 4426388,
+              "name": "Jameson Williams"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-481118c1eeaf41b9d1e9",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 12,
+          "playersAdded": [
+            {
+              "playerId": 4373626,
+              "name": "Tyler Allgeier"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-4850a0e85989e956e111",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 16,
+          "playersAdded": [
+            {
+              "playerId": 4241389,
+              "name": "CeeDee Lamb"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-4ca13bbd5fe74b009844",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 12,
+          "playersAdded": [
+            {
+              "playerId": 15818,
+              "name": "Keenan Allen"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-4d778a477d30c96463e7",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [
+            {
+              "playerId": 4426385,
+              "name": "Zach Charbonnet"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-5266fa147103dbf0164a",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": 4360248,
+              "name": "Kyle Pitts Sr."
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-536d6c5950ccd05eda91",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": 4710714,
+              "name": "De'Zhaun Stribling"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-5614b48f2c448be9f875",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 13,
+          "playersAdded": [
+            {
+              "playerId": 4047650,
+              "name": "DK Metcalf"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-56a208b7dc9f33a86dee",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 15,
+          "playersAdded": [
+            {
+              "playerId": 4242355,
+              "name": "Jake Ferguson"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-574c5490ac2aac69897e",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 5,
+          "playersAdded": [
+            {
+              "playerId": 4723086,
+              "name": "Colston Loveland"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-5858ec749fbc2cadd9f5",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 11,
+          "playersAdded": [
+            {
+              "playerId": 3917315,
+              "name": "Kyler Murray"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-5993c4d5a8793b1ef22d",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 15,
+          "playersAdded": [
+            {
+              "playerId": 2577417,
+              "name": "Dak Prescott"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-5a95247a79416ead93ff",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 15,
+          "playersAdded": [
+            {
+              "playerId": 4241416,
+              "name": "Chuba Hubbard"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-5b098d555206918927e8",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 16,
+          "playersAdded": [
+            {
+              "playerId": 4701936,
+              "name": "Matthew Golden"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-5ef88a69b7a723874724",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 13,
+          "playersAdded": [
+            {
+              "playerId": 4361050,
+              "name": "Isaiah Likely"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-5f3e786794c17aabfae7",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 16,
+          "playersAdded": [
+            {
+              "playerId": 4362081,
+              "name": "Cameron Dicker"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-5fb16b7778ac6d381ddc",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 11,
+          "playersAdded": [
+            {
+              "playerId": 4426348,
+              "name": "Jayden Daniels"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-5fddeb1fa78fac5dd0cf",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": 4574716,
+              "name": "Harrison Mevis"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-6263676ebc73fd8e8a20",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 1,
+          "playersAdded": [
+            {
+              "playerId": 3916387,
+              "name": "Lamar Jackson"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-63955283a5af30b86310",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": 4362238,
+              "name": "Chase Brown"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-691e4166b8a9286a8be4",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": -16005,
+              "name": "Browns D/ST"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-692b15e2cd65c3e65b53",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 15,
+          "playersAdded": [
+            {
+              "playerId": 3916433,
+              "name": "Jakobi Meyers"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-6a3c8caff42e0945a082",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": 3121422,
+              "name": "Terry McLaurin"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-6a9ceb2493010e468488",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 1,
+          "playersAdded": [
+            {
+              "playerId": 4379399,
+              "name": "James Cook III"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-6de720406dc7a97c1d42",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 16,
+          "playersAdded": [
+            {
+              "playerId": 4685382,
+              "name": "Omarion Hampton"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-707e4a31f5af0bcfba79",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 5,
+          "playersAdded": [
+            {
+              "playerId": -16033,
+              "name": "Ravens D/ST"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-7230406f7d4df550ec40",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": 4596448,
+              "name": "Bucky Irving"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-73fb905cef9b73675e88",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": 4432710,
+              "name": "TreVeyon Henderson"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-74ebb0fb67179db59bfe",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 16,
+          "playersAdded": [
+            {
+              "playerId": 4695883,
+              "name": "Jalen Coker"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-75e97bd0daaae01f5c3a",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 1,
+          "playersAdded": [
+            {
+              "playerId": 4686361,
+              "name": "Cam Little"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-75fd51cb96df2bf563e6",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": 3117251,
+              "name": "Christian McCaffrey"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-797037c44cd04b094cbf",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": 4702555,
+              "name": "Jonah Coleman"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-79c07b7be58c5ab64239",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [
+            {
+              "playerId": 4682648,
+              "name": "Malachi Fields"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-7a53bfea2f3de6be554a",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 11,
+          "playersAdded": [
+            {
+              "playerId": 3121023,
+              "name": "Dallas Goedert"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-7b79c65fa96202ae3d54",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 16,
+          "playersAdded": [
+            {
+              "playerId": 4361432,
+              "name": "Romeo Doubs"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-7c4b6fcac5c8ea4eeb1c",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": 4428557,
+              "name": "Tyjae Spears"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-7e89dcdf2ffb17b0d795",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [
+            {
+              "playerId": 4685472,
+              "name": "Tetairoa McMillan"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-813c08eb66d61d3eb3dc",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": 4047365,
+              "name": "Josh Jacobs"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-87b8c224aa5def130c0c",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 11,
+          "playersAdded": [
+            {
+              "playerId": 5083076,
+              "name": "Harold Fannin Jr."
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-88c53f95cb6e80312862",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": 3918298,
+              "name": "Josh Allen"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-8b53bd52dc73d6f006aa",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 16,
+          "playersAdded": [
+            {
+              "playerId": 4569618,
+              "name": "Garrett Wilson"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-8db95613150ebea2d81b",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 11,
+          "playersAdded": [
+            {
+              "playerId": 4259545,
+              "name": "D'Andre Swift"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-8e2fe1309328ecd8dfe0",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": 4428331,
+              "name": "Rashee Rice"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-92a01f5f03b0a09fc7ad",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": 4567048,
+              "name": "Kenneth Walker III"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-9393767d83608825da3f",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 12,
+          "playersAdded": [
+            {
+              "playerId": 4431299,
+              "name": "Rome Odunze"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-950c7dbbb5820b910412",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [
+            {
+              "playerId": 3040151,
+              "name": "George Kittle"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-9757ef7b13ad666e4754",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 15,
+          "playersAdded": [
+            {
+              "playerId": 16800,
+              "name": "Davante Adams"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-9b1ecd5d5e58e810897a",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 11,
+          "playersAdded": [
+            {
+              "playerId": 2971573,
+              "name": "Ka'imi Fairbairn"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-9dcde8ce1b427e2b62b0",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [
+            {
+              "playerId": 4361307,
+              "name": "Trey McBride"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-9f0074a2afd2a8a58560",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 11,
+          "playersAdded": [
+            {
+              "playerId": 4430027,
+              "name": "Sam LaPorta"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-9f732210ac2fcb14baf2",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 1,
+          "playersAdded": [
+            {
+              "playerId": 4362619,
+              "name": "Chris Rodriguez Jr."
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-a1815ffbc3c2157c8f97",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 12,
+          "playersAdded": [
+            {
+              "playerId": 3929630,
+              "name": "Saquon Barkley"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-a1c29048c53974801c3d",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [
+            {
+              "playerId": 4429615,
+              "name": "Zay Flowers"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-a1c8addc564499569b88",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 1,
+          "playersAdded": [
+            {
+              "playerId": 4262921,
+              "name": "Justin Jefferson"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-a7f5fe150e543a75236e",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 5,
+          "playersAdded": [
+            {
+              "playerId": 4248528,
+              "name": "Christian Watson"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-a921e6d9ce376159d4c8",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 5,
+          "playersAdded": [
+            {
+              "playerId": 4432620,
+              "name": "Parker Washington"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-ac442c513d90514b1f5e",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 16,
+          "playersAdded": [
+            {
+              "playerId": 4360078,
+              "name": "Alec Pierce"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-ae8f87d43e473d455406",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": 4371733,
+              "name": "Kenny Gainwell"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-aed7c191577bf5fcab16",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 11,
+          "playersAdded": [
+            {
+              "playerId": 4038815,
+              "name": "Rico Dowdle"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-b108054111c270cc7dfe",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 13,
+          "playersAdded": [
+            {
+              "playerId": 3126486,
+              "name": "Deebo Samuel Sr."
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-b172a715192618997edf",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 13,
+          "playersAdded": [
+            {
+              "playerId": 4572680,
+              "name": "Tucker Kraft"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-b1905ff8e5990dc9fd71",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 13,
+          "playersAdded": [
+            {
+              "playerId": -16023,
+              "name": "Steelers D/ST"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-b1ce8f2431298496fc45",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 5,
+          "playersAdded": [
+            {
+              "playerId": 12483,
+              "name": "Matthew Stafford"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-b1f6e1804335ca389379",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 13,
+          "playersAdded": [
+            {
+              "playerId": 4362628,
+              "name": "Ja'Marr Chase"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-b42015f31266f6439016",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [
+            {
+              "playerId": 4697815,
+              "name": "Rachaad White"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-b47258db106b613f2669",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 12,
+          "playersAdded": [
+            {
+              "playerId": 15847,
+              "name": "Travis Kelce"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-b53ed05860b3cee01c1a",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 13,
+          "playersAdded": [
+            {
+              "playerId": 4689936,
+              "name": "Jake Bates"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-b68999ff77fcc8840460",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 5,
+          "playersAdded": [
+            {
+              "playerId": 4567750,
+              "name": "Emeka Egbuka"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-b919cb2865b3fb0bc699",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": 4432773,
+              "name": "Brian Thomas Jr."
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-b94148e4fa1f085c292f",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 16,
+          "playersAdded": [
+            {
+              "playerId": 4608686,
+              "name": "Kyle Monangai"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-baf82f1d9261c338b4c5",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 5,
+          "playersAdded": [
+            {
+              "playerId": 3055899,
+              "name": "Harrison Butker"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-bc124b3e893c3cb01473",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 13,
+          "playersAdded": [
+            {
+              "playerId": 4360310,
+              "name": "Trevor Lawrence"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-bdc89a1a87817c7a90e6",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": 4361741,
+              "name": "Brock Purdy"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-bddb41297f0b1fbd2f1a",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 13,
+          "playersAdded": [
+            {
+              "playerId": 4427366,
+              "name": "Breece Hall"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-bedb0295f46d10e26602",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 15,
+          "playersAdded": [
+            {
+              "playerId": 17427,
+              "name": "Cairo Santos"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-bfb2825333dd8558066e",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": -16034,
+              "name": "Texans D/ST"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-c00a9e399ed4a516c5a6",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": 4034949,
+              "name": "Eddy Pineiro"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-c0bb9289efb540f913ca",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [
+            {
+              "playerId": 3046779,
+              "name": "Jared Goff"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-c31819d34d26301d03d0",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 16,
+          "playersAdded": [
+            {
+              "playerId": 4882093,
+              "name": "Bhayshul Tuten"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-c569b3eab6df677239fb",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": 3915511,
+              "name": "Joe Burrow"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-c82f3522adafe2d0d835",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 1,
+          "playersAdded": [
+            {
+              "playerId": 4360761,
+              "name": "Michael Wilson"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-c957ff7e993c7d7b265b",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [
+            {
+              "playerId": 4870808,
+              "name": "Jeremiyah Love"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-c963c6541f1145a7caea",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [
+            {
+              "playerId": 3953687,
+              "name": "Brandon Aubrey"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-ca147218db60fd3250df",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 15,
+          "playersAdded": [
+            {
+              "playerId": 4239993,
+              "name": "Tee Higgins"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-cc8bc0887ea060254936",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 5,
+          "playersAdded": [
+            {
+              "playerId": 4678008,
+              "name": "Jonathon Brooks"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-cd4c35a856d2c230b6d1",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 11,
+          "playersAdded": [
+            {
+              "playerId": 4361370,
+              "name": "Chris Olave"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-cd63475f0fba43e2dfd3",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": 4430878,
+              "name": "Jaxon Smith-Njigba"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-cf7ffd3eaf4fcc8f9d2b",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 1,
+          "playersAdded": [
+            {
+              "playerId": 4685512,
+              "name": "Jadarian Price"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-d05c332ebd0397c05946",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 13,
+          "playersAdded": [
+            {
+              "playerId": 4432665,
+              "name": "Brock Bowers"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-d18c7978d207e1b9fd08",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 15,
+          "playersAdded": [
+            {
+              "playerId": -16026,
+              "name": "Seahawks D/ST"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-d1ea5c31c607e29feb5c",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 13,
+          "playersAdded": [
+            {
+              "playerId": 4431452,
+              "name": "Drake Maye"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-d2b05a33f9dd3f3f071b",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": 4569987,
+              "name": "Jaylen Warren"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-d3b0e08053d4435acb98",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": 4372016,
+              "name": "Jaylen Waddle"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-d57edddfcac830625134",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 5,
+          "playersAdded": [
+            {
+              "playerId": 4890973,
+              "name": "Ashton Jeanty"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-d718940084de641db30f",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 12,
+          "playersAdded": [
+            {
+              "playerId": 4373678,
+              "name": "Khalil Shakir"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-d91714918d7040c6e0f1",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 12,
+          "playersAdded": [
+            {
+              "playerId": -16012,
+              "name": "Chiefs D/ST"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-d97d3a3b24b0e0d8926f",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 16,
+          "playersAdded": [
+            {
+              "playerId": -16017,
+              "name": "Patriots D/ST"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-daa37014a8563ad43304",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 13,
+          "playersAdded": [
+            {
+              "playerId": 4426502,
+              "name": "Drake London"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-db67169f7c6051c0742f",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [
+            {
+              "playerId": 4689114,
+              "name": "Jaxson Dart"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-ddf3eae71818022559c7",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 5,
+          "playersAdded": [
+            {
+              "playerId": 4361579,
+              "name": "Javonte Williams"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-deddcf976923c716d337",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 5,
+          "playersAdded": [
+            {
+              "playerId": 4575131,
+              "name": "Jacory Croskey-Merritt"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-df27454db462402b37e5",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 5,
+          "playersAdded": [
+            {
+              "playerId": 4035538,
+              "name": "David Montgomery"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-df70dd5a08f7c3298151",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": 3116365,
+              "name": "Mark Andrews"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-e102ecc0a06157a44300",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 11,
+          "playersAdded": [
+            {
+              "playerId": 4374302,
+              "name": "Amon-Ra St. Brown"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-e25a3317d391520b434f",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 5,
+          "playersAdded": [
+            {
+              "playerId": 4241985,
+              "name": "J.K. Dobbins"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-e5d3ff81729da0edbaab",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 1,
+          "playersAdded": [
+            {
+              "playerId": -16014,
+              "name": "Rams D/ST"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-e8d81d0bce1375fc6eea",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 13,
+          "playersAdded": [
+            {
+              "playerId": 4426338,
+              "name": "Bo Nix"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-eaabc4fb8e4215ea5404",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 1,
+          "playersAdded": [
+            {
+              "playerId": 4429205,
+              "name": "Jordan Addison"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-ebc1e5fc53dea7be58e1",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 1,
+          "playersAdded": [
+            {
+              "playerId": 4429059,
+              "name": "Woody Marks"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-ec5d79ace7b5d90a742b",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 12,
+          "playersAdded": [
+            {
+              "playerId": 2473037,
+              "name": "Jason Myers"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-ec7e99f2f3b9ad6b986b",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 15,
+          "playersAdded": [
+            {
+              "playerId": 4258173,
+              "name": "Nico Collins"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-ee0369e751b0dcf37135",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": 4431611,
+              "name": "Caleb Williams"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-ef86636a3d3b343b8f11",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 13,
+          "playersAdded": [
+            {
+              "playerId": 4685278,
+              "name": "Luther Burden III"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-efcdc3515c78b117260d",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 12,
+          "playersAdded": [
+            {
+              "playerId": 16737,
+              "name": "Mike Evans"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-f23212d4b397509e6ff8",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 5,
+          "playersAdded": [
+            {
+              "playerId": 4870653,
+              "name": "KC Concepcion"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-f3ae211e05dc3288740f",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 12,
+          "playersAdded": [
+            {
+              "playerId": 3043078,
+              "name": "Derrick Henry"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-f455a3bd0fa3d767ecb1",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 15,
+          "playersAdded": [
+            {
+              "playerId": 4047646,
+              "name": "A.J. Brown"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-f73b38928afba68110c0",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 11,
+          "playersAdded": [
+            {
+              "playerId": 3042519,
+              "name": "Aaron Jones Sr."
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-fe345b796e22045b1e5d",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [
+            {
+              "playerId": 4870795,
+              "name": "Makai Lemon"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-fe5092555f34cdbd4a3d",
+      "season": 2026,
+      "timestamp": "2026-09-08T23:52:26.964000+00:00",
+      "timestampKind": "proposed",
+      "type": "draft",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 15,
+          "playersAdded": [
+            {
+              "playerId": 4429023,
+              "name": "MarShawn Lloyd"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-204768271be7ebadbf52",
+      "season": 2026,
+      "timestamp": "2026-09-10T16:21:08.304000+00:00",
+      "timestampKind": "proposed",
+      "type": "free_agent_add",
+      "week": 1,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": 4429086,
+              "name": "Michael Mayer"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-2ef2be7e37eb838ea18c",
+      "season": 2026,
+      "timestamp": "2026-09-16T07:19:41.650000+00:00",
+      "timestampKind": "processed",
+      "type": "waiver_add",
+      "week": 2,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": 4569559,
+              "name": "Devaughn Vele"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": 4361741,
+              "name": "Brock Purdy"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": "PROCESS"
+    },
+    {
+      "id": "event-57ebe05edc384e8aaff2",
+      "season": 2026,
+      "timestamp": "2026-09-16T07:19:41.650000+00:00",
+      "timestampKind": "processed",
+      "type": "waiver_add",
+      "week": 2,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": 4696044,
+              "name": "Kaelon Black"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": 4710714,
+              "name": "De'Zhaun Stribling"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": "PROCESS"
+    },
+    {
+      "id": "event-599c7e4d93aec160c05a",
+      "season": 2026,
+      "timestamp": "2026-09-16T07:19:41.650000+00:00",
+      "timestampKind": "processed",
+      "type": "waiver_add",
+      "week": 2,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [
+            {
+              "playerId": 2973405,
+              "name": "Kalif Raymond"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": 3046779,
+              "name": "Jared Goff"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": "PROCESS"
+    },
+    {
+      "id": "event-e1e9c18dddf17d8025de",
+      "season": 2026,
+      "timestamp": "2026-09-16T07:19:41.650000+00:00",
+      "timestampKind": "processed",
+      "type": "waiver_add",
+      "week": 2,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [
+            {
+              "playerId": 4685720,
+              "name": "Bryce Young"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": "PROCESS"
+    },
+    {
+      "id": "event-4f7c9dde4fad6b59adc2",
+      "season": 2026,
+      "timestamp": "2026-09-16T21:22:51.795000+00:00",
+      "timestampKind": "proposed",
+      "type": "free_agent_add",
+      "week": 2,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 12,
+          "playersAdded": [
+            {
+              "playerId": 4832955,
+              "name": "Emmett Johnson"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": 4373626,
+              "name": "Tyler Allgeier"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-5feede3c9468841c462e",
+      "season": 2026,
+      "timestamp": "2026-09-18T02:41:18.985000+00:00",
+      "timestampKind": "proposed",
+      "type": "drop",
+      "week": 2,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [],
+          "playersDropped": [
+            {
+              "playerId": 4428557,
+              "name": "Tyjae Spears"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-f9c2a8ba42c9c79ae699",
+      "season": 2026,
+      "timestamp": "2026-09-18T02:41:31.458000+00:00",
+      "timestampKind": "proposed",
+      "type": "free_agent_add",
+      "week": 2,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": -16025,
+              "name": "49ers D/ST"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": -16005,
+              "name": "Browns D/ST"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-ad688209fdce6c3ab1ce",
+      "season": 2026,
+      "timestamp": "2026-09-18T03:21:07.501000+00:00",
+      "timestampKind": "proposed",
+      "type": "free_agent_add",
+      "week": 2,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 1,
+          "playersAdded": [
+            {
+              "playerId": -16027,
+              "name": "Buccaneers D/ST"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-8d771294c7d6fd16a146",
+      "season": 2026,
+      "timestamp": "2026-09-23T07:36:26.147000+00:00",
+      "timestampKind": "processed",
+      "type": "waiver_add",
+      "week": 3,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 1,
+          "playersAdded": [
+            {
+              "playerId": 4887558,
+              "name": "Emanuel Wilson"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": -16027,
+              "name": "Buccaneers D/ST"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": "PROCESS"
+    },
+    {
+      "id": "event-9c2bf6220067871bdd4f",
+      "season": 2026,
+      "timestamp": "2026-09-23T07:36:26.148000+00:00",
+      "timestampKind": "processed",
+      "type": "waiver_add",
+      "week": 3,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 5,
+          "playersAdded": [
+            {
+              "playerId": 3117256,
+              "name": "Dalton Schultz"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": "PROCESS"
+    },
+    {
+      "id": "event-a5f6e65a070877853c05",
+      "season": 2026,
+      "timestamp": "2026-09-23T07:36:26.148000+00:00",
+      "timestampKind": "processed",
+      "type": "waiver_add",
+      "week": 3,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [
+            {
+              "playerId": 4832800,
+              "name": "Denzel Boston"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": 4870795,
+              "name": "Makai Lemon"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": "PROCESS"
+    },
+    {
+      "id": "event-49248ab49235d3b4a6a9",
+      "season": 2026,
+      "timestamp": "2026-09-23T22:12:13.481000+00:00",
+      "timestampKind": "proposed",
+      "type": "drop",
+      "week": 3,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [],
+          "playersDropped": [
+            {
+              "playerId": 4689114,
+              "name": "Jaxson Dart"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-e6d2454630fd90e4a8b8",
+      "season": 2026,
+      "timestamp": "2026-09-24T19:14:32.929000+00:00",
+      "timestampKind": "proposed",
+      "type": "free_agent_add",
+      "week": 3,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": 4360234,
+              "name": "Evan McPherson"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": 4034949,
+              "name": "Eddy Pineiro"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-3e6286b3958f68c70117",
+      "season": 2026,
+      "timestamp": "2026-09-25T14:41:42.860000+00:00",
+      "timestampKind": "proposed",
+      "type": "free_agent_add",
+      "week": 3,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [
+            {
+              "playerId": 3054850,
+              "name": "Alvin Kamara"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-c1fa31af70475c06220f",
+      "season": 2026,
+      "timestamp": "2026-09-26T19:06:38.957000+00:00",
+      "timestampKind": "proposed",
+      "type": "free_agent_add",
+      "week": 3,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": 4361741,
+              "name": "Brock Purdy"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-62e5249215e731a1958c",
+      "season": 2026,
+      "timestamp": "2026-09-26T19:08:11.302000+00:00",
+      "timestampKind": "proposed",
+      "type": "free_agent_add",
+      "week": 3,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": 4570037,
+              "name": "Terrance Ferguson"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": 3116165,
+              "name": "Chris Godwin Jr."
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-4b11ede3d1ff3b78a618",
+      "season": 2026,
+      "timestamp": "2026-09-26T23:04:22.356000+00:00",
+      "timestampKind": "proposed",
+      "type": "free_agent_add",
+      "week": 3,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 12,
+          "playersAdded": [
+            {
+              "playerId": 4362921,
+              "name": "Tyquan Thornton"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": 15818,
+              "name": "Keenan Allen"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-7c95a9133f48692f361a",
+      "season": 2026,
+      "timestamp": "2026-09-27T16:47:58.236000+00:00",
+      "timestampKind": "proposed",
+      "type": "free_agent_add",
+      "week": 3,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": 4428850,
+              "name": "Dontayvion Wicks"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-ed36ce74cc914a5a7e25",
+      "season": 2026,
+      "timestamp": "2026-09-30T07:56:05.811000+00:00",
+      "timestampKind": "processed",
+      "type": "waiver_add",
+      "week": 4,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 5,
+          "playersAdded": [
+            {
+              "playerId": 5083315,
+              "name": "Kenyon Sadiq"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": 3117256,
+              "name": "Dalton Schultz"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": "PROCESS"
+    },
+    {
+      "id": "event-f10cd3ddd74f5896aaf9",
+      "season": 2026,
+      "timestamp": "2026-09-30T07:56:05.812000+00:00",
+      "timestampKind": "processed",
+      "type": "waiver_add",
+      "week": 4,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [
+            {
+              "playerId": -16016,
+              "name": "Vikings D/ST"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": 4682648,
+              "name": "Malachi Fields"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": "PROCESS"
+    },
+    {
+      "id": "event-eafed04d8a04a76888d6",
+      "season": 2026,
+      "timestamp": "2026-10-01T00:13:42.150000+00:00",
+      "timestampKind": "proposed",
+      "type": "free_agent_add",
+      "week": 4,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": 4711533,
+              "name": "Ollie Gordon II"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": 4371733,
+              "name": "Kenny Gainwell"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    }
+  ]
+}

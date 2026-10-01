@@ -161,6 +161,8 @@ def generate(slug, config_path=CONFIG_PATH, output=PUBLIC_DATA):
         raise ValueError("Missing environment variables: " + ", ".join(missing))
     from espn_api.football import League
 
+    from football_activity import generate_activity
+    from football_record_book import build_record_book
     from football_seasons import build_season
     from football_home import build_home, validate_home
     logo_cache = {}
@@ -182,6 +184,7 @@ def generate(slug, config_path=CONFIG_PATH, output=PUBLIC_DATA):
             team_seasons.setdefault(str(team['teamId']), []).append(year)
         write_json(folder / "league.json", payload)
         write_json(folder / "teams.json", teams)
+        generate_activity(league.espn_request, folder, year, {t["teamId"] for t in payload["standings"]})
         if year == config["season"]:
             home = build_home(league, payload)
             validate_home(home, payload)
@@ -189,11 +192,13 @@ def generate(slug, config_path=CONFIG_PATH, output=PUBLIC_DATA):
             destination = folder / "league.json"
     from football_h2h import build_h2h
     build_h2h(output, slug, years, config['season'])
+    build_record_book(output, slug, years)
     write_json(Path(output) / "site.json", {
         "schemaVersion": 1,
         "leaguePath": f"{slug}/{config['season']}/league.json",
         "seasons": list(reversed(years)),
         "teamSeasons": team_seasons,
         "h2hPath": f"{slug}/h2h.json",
+        "recordBookPath": f"{slug}/record-book.json",
     })
     return destination
