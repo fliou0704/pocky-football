@@ -48,6 +48,15 @@ def read_config(slug, path=CONFIG_PATH, public_root=PUBLIC_ROOT):
             raise ValueError("Logo overrides must point to files in frontend/public/team-logos")
         if not (Path(public_root) / relative).is_file():
             raise ValueError(f"Logo override for team {team_id} does not exist")
+    owner_overrides = config.get("ownerNameOverrides", {})
+    if not isinstance(owner_overrides, dict):
+        raise ValueError("ownerNameOverrides must map seasons to team IDs and names")
+    for year, names in owner_overrides.items():
+        if not re.fullmatch(r"20[0-9]{2}", year) or not isinstance(names, dict):
+            raise ValueError("ownerNameOverrides must map seasons to team IDs and names")
+        for team_id, name in names.items():
+            if not re.fullmatch(r"[1-9][0-9]*", team_id) or not isinstance(name, str) or not name.strip():
+                raise ValueError("Each owner override needs a team ID and nonempty name")
     return config
 
 

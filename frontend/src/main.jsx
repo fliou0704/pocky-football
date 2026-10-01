@@ -81,8 +81,8 @@ function Standings({ league, title = 'Standings', linkTeams = false }) {
   </div></Section>;
 }
 
-function Header({ name, page }) {
-  const [open, setOpen] = useState(false);
+function Header({ name, page, currentTeams, currentSeason }) {
+  const [open, setOpen] = useState(false), [teamsOpen, setTeamsOpen] = useState(false);
   const close = () => setOpen(false);
   return <header className="masthead"><div className="header-inner">
     <a className="brand" href="#/" onClick={close}><span className="brand-mark" aria-hidden="true"/>{name}</a>
@@ -90,12 +90,12 @@ function Header({ name, page }) {
     <nav id="site-menu" className={`site-menu ${open ? 'open' : ''}`} aria-label="Main navigation">
       <a href="#/" aria-current={page === 'home' ? 'page' : undefined} onClick={close}>Home</a>
       <a href="#/standings" aria-current={page === 'standings' ? 'page' : undefined} onClick={close}>Standings</a>
-      <a href="#/teams" aria-current={page === 'teams' ? 'page' : undefined} onClick={close}>Teams</a><span aria-disabled="true">H2H</span><span aria-disabled="true">Record Book</span><span aria-disabled="true">Players</span>
+      <div className="teams-menu"><button type="button" aria-expanded={teamsOpen} aria-controls="teams-options" aria-current={page === 'teams' ? 'page' : undefined} onClick={() => setTeamsOpen(!teamsOpen)}>Teams <span aria-hidden="true">▾</span></button>
+        {teamsOpen && <div id="teams-options" className="teams-options">{currentTeams.map(team => <a key={team.teamId} href={`#/teams/${currentSeason}/${team.teamId}`} onClick={() => { setTeamsOpen(false); close(); }}>{team.name}</a>)}</div>}</div><span aria-disabled="true">H2H</span><span aria-disabled="true">Record Book</span><span aria-disabled="true">Players</span>
     </nav>
   </div></header>;
 }
 
-const labelBracket = bracket => ({championship: 'Championship', placement: 'Placement', consolation: 'Consolation'})[bracket] || 'Playoffs';
 const points = value => value == null ? '—' : value.toFixed(2);
 
 function TeamPage({ league, teamsData, selectedId, onTeamChange }) {
@@ -104,28 +104,30 @@ function TeamPage({ league, teamsData, selectedId, onTeamChange }) {
   const data = teamsData.teams[String(selected.teamId)];
   const completed = data.weeks.filter(week => week.phase === 'regular' && week.status === 'final');
   return <>
-    <div className="team-identity content-card"><Team team={selected}/><div className="team-identity-copy"><p className="page-eyebrow">{selected.division ? `${selected.division} Division` : 'Fantasy team'}</p><h2>{selected.name}</h2>{selected.owner && <p>Owner · {selected.owner}</p>}</div>
+    <div className="team-identity content-card"><Team team={selected}/><div className="team-identity-copy"><p className="page-eyebrow">Fantasy team</p><h2>{selected.name}</h2>{selected.owner && <p>Owner · {selected.owner}</p>}</div>
       <label className="select-control">Team<select aria-label="Team" value={selected.teamId} onChange={event => onTeamChange(Number(event.target.value))}>{all.map(team => <option key={team.teamId} value={team.teamId}>{team.name}</option>)}</select></label></div>
     <Section title="Overview" meta={`${league.league.season} season`}><div className="content-card"><dl className="team-overview">
       <div><dt>Record</dt><dd>{formatRecord(selected)}</dd></div><div><dt>Regular rank</dt><dd>{selected.rank}</dd></div>{league.league.complete && <div><dt>Final finish</dt><dd>{selected.finalRank ?? '—'}</dd></div>}
       <div><dt>Points for</dt><dd>{points(selected.pointsFor)}</dd></div><div><dt>Points against</dt><dd>{points(selected.pointsAgainst)}</dd></div>
       <div><dt>Average / game</dt><dd>{points(data.averageScore)}</dd></div><div><dt>High week</dt><dd>{points(data.highScore)}</dd></div><div><dt>Low week</dt><dd>{points(data.lowScore)}</dd></div>
     </dl></div></Section>
-    <Section title="Weekly Performance" meta="Regular season and playoffs"><div className="content-card table-card">
-      <div className="weekly-table-wrap"><table className="weekly-table"><caption className="sr-only">Weekly performance for {selected.name}</caption><thead><tr><th>Week</th><th>Opponent</th><th>Result</th><th className="numeric">Score</th><th className="numeric">Opp.</th><th>Record</th><th className="numeric">Score rank</th></tr></thead><tbody>
-      {data.weeks.map(week => <tr key={week.week} className={week.phase === 'playoffs' ? 'playoff-row' : ''}><td><strong>{week.week}</strong>{week.phase === 'playoffs' && <small>{labelBracket(week.bracket)}</small>}</td><th scope="row">{week.status === 'bye' ? 'Bye' : all.find(team => team.teamId === week.opponentTeamId)?.name || '—'}</th><td>{week.result === '—' && week.status === 'live' ? 'Live' : week.result}</td><td className="numeric">{points(week.score)}</td><td className="numeric">{points(week.opponentScore)}</td><td>{week.cumulativeRecord ? formatRecord(week.cumulativeRecord) : '—'}</td><td className="numeric">{week.scoreRank ?? '—'}</td></tr>)}
-      </tbody></table></div><ol className="weekly-mobile">{data.weeks.map(week => <li key={week.week}><div><strong>Week {week.week}{week.phase === 'playoffs' ? ` · ${labelBracket(week.bracket)}` : ''}</strong><span>{week.result === '—' && week.status === 'live' ? 'Live' : week.result}</span></div><p>{week.status === 'bye' ? 'Bye' : `vs ${all.find(team => team.teamId === week.opponentTeamId)?.name || '—'}`}</p><div><strong>{points(week.score)}{week.status === 'bye' ? '' : ` – ${points(week.opponentScore)}`}</strong><span>{week.scoreRank ? `#${week.scoreRank} weekly score` : week.cumulativeRecord ? formatRecord(week.cumulativeRecord) : ''}</span></div></li>)}</ol>
+    <Section title="Schedule" meta="Regular season and playoffs"><div className="content-card table-card">
+      <div className="weekly-table-wrap"><table className="weekly-table"><caption className="sr-only">Schedule for {selected.name}</caption><thead><tr><th>Week</th><th>Opponent</th><th>Result</th><th className="numeric">Score</th><th className="numeric">Opp.</th><th>Record</th><th className="numeric">Score rank</th></tr></thead><tbody>
+      {data.weeks.map(week => <tr key={week.week} className={week.isPlayoff ? 'playoff-row' : ''}><td><strong>{week.week}</strong>{week.roundLabel && <small>{week.roundLabel}</small>}</td><th scope="row">{week.isBye ? 'Bye' : <Team team={all.find(team => team.teamId === week.opponentTeamId)}/>}</th><td>{week.result === '—' && week.status === 'live' ? 'Live' : week.result}</td><td className="numeric">{points(week.score)}</td><td className="numeric">{points(week.opponentScore)}</td><td>{week.cumulativeRecord ? formatRecord(week.cumulativeRecord) : '—'}</td><td className="numeric">{week.scoreRank ?? '—'}</td></tr>)}
+      </tbody></table></div><ol className="weekly-mobile">{data.weeks.map(week => <li key={week.week}><div><strong>Week {week.week}{week.roundLabel ? ` · ${week.roundLabel}` : ''}</strong><span>{week.result === '—' && week.status === 'live' ? 'Live' : week.result}</span></div><p>{week.isBye ? 'Bye' : <Team team={all.find(team => team.teamId === week.opponentTeamId)}/>}</p><div><strong>{points(week.score)}{week.isBye ? '' : ` – ${points(week.opponentScore)}`}</strong><span>{week.scoreRank ? `#${week.scoreRank} weekly score` : week.cumulativeRecord ? formatRecord(week.cumulativeRecord) : ''}</span></div></li>)}</ol>
       </div></Section>
-    {data.roster && <Section title="Current Roster" meta="Live season membership"><div className="content-card">{[['starter', 'Starters'], ['bench', 'Bench'], ['ir', 'Injured Reserve']].map(([group, title]) => { const rows = data.roster.filter(player => player.group === group); return rows.length > 0 && <div className="roster-group" key={group}><h3>{title}</h3><ul>{rows.map(player => <li key={player.playerId}><div><strong>{player.name}</strong><small>{player.nflTeam} · {player.position} · {player.slot}{player.injuryStatus && player.injuryStatus !== 'ACTIVE' ? ` · ${player.injuryStatus}` : ''}</small></div><strong>{points(player.seasonPoints)}<small>Season FPTS</small></strong></li>)}</ul></div>; })}</div></Section>}
-    {league.league.complete && <p className="archive-note">Historical rosters are omitted because a season-end roster does not represent each week's lineup. Weekly results come from that season's matchups.</p>}
+    <Section title={data.rosterLabel} meta={league.league.complete ? 'Season-end membership' : 'Live season membership'}><div className="content-card">{[['starter', 'Starters'], ['bench', 'Bench'], ['ir', 'Injured Reserve']].map(([group, title]) => { const rows = data.roster.filter(player => player.group === group); return rows.length > 0 && <div className="roster-group" key={group}><h3>{title}</h3><ul>{rows.map(player => <li key={player.playerId}><div><strong>{player.name}</strong><small>{player.nflTeam} · {player.position} · {player.slot}{player.injuryStatus && player.injuryStatus !== 'ACTIVE' ? ` · ${player.injuryStatus}` : ''}</small></div><strong>{points(player.seasonPoints)}<small>Season FPTS</small></strong></li>)}</ul></div>; })}</div></Section>
+    {data.formerPlayers.length > 0 && <Section title="Dropped / Former Players" meta="Seen on this team in weekly ESPN rosters"><div className="content-card roster-group"><ul>{data.formerPlayers.map(player => <li key={player.playerId}><div><strong>{player.name}</strong><small>Weeks {player.weeks.join(', ')}</small></div></li>)}</ul></div></Section>}
+    {league.league.complete && <p className="archive-note">Final Roster shows season-end membership. Former players were found in weekly roster snapshots; neither list represents every weekly lineup.</p>}
   </>;
 }
 
 function App() {
-  const [manifest, setManifest] = useState(null), [data, setData] = useState(null), [home, setHome] = useState(null), [error, setError] = useState(null);
+  const [manifest, setManifest] = useState(null), [data, setData] = useState(null), [home, setHome] = useState(null), [currentLeague, setCurrentLeague] = useState(null), [error, setError] = useState(null);
   const [hash, setHash] = useState(window.location.hash);
   useEffect(() => { const update = () => setHash(window.location.hash); window.addEventListener('hashchange', update); return () => window.removeEventListener('hashchange', update); }, []);
   useEffect(() => { let active = true; getData('site.json').then(value => { if (active) setManifest(value); }).catch(problem => { if (active) setError(problem.message); }); return () => { active = false; }; }, []);
+  useEffect(() => { if (!manifest) return; let active = true; getData(manifest.leaguePath).then(value => { if (active) setCurrentLeague(value); }).catch(problem => { if (active) setError(problem.message); }); return () => { active = false; }; }, [manifest]);
   const currentSeason = manifest?.seasons?.[0];
   const route = routeFromHash(hash, currentSeason);
   const season = manifest?.seasons?.includes(route.season) ? route.season : currentSeason;
@@ -146,13 +148,13 @@ function App() {
     }
   }, [data, route.page, route.teamId, season]);
   if (error) return <main className="page-shell"><p role="alert">{error}. Regenerate the league data and reload.</p></main>;
-  if (!data || !manifest || route.page === 'home' && !home) return <main className="page-shell"><p role="status">Loading league…</p></main>;
+  if (!data || !manifest || !currentLeague || route.page === 'home' && !home) return <main className="page-shell"><p role="status">Loading league…</p></main>;
   const {league, teamsData} = data;
   const teams = new Map(league.standings.map(team => [team.teamId, team]));
   const page = route.page;
   const meta = page === 'home' ? home.state.phase === 'offseason' ? 'Season complete' : `Week ${home.state.currentWeek}` : league.league.complete ? 'Season complete' : 'Current season';
   const changeSeason = year => { window.location.hash = page === 'teams' ? `#/teams/${year}/${route.teamId || ''}` : `#/standings/${year}`; };
-  return <><a className="skip" href="#main">Skip to content</a><Header name={league.league.name} page={page}/><main id="main" className="page-shell homepage">
+  return <><a className="skip" href="#main">Skip to content</a><Header name={league.league.name} page={page} currentTeams={currentLeague.standings} currentSeason={currentSeason}/><main id="main" className="page-shell homepage">
     <header className="page-header"><div><p className="page-eyebrow">{league.league.name}</p><h1>{page === 'home' ? `${league.league.season} Season` : page === 'teams' ? 'Teams' : 'Standings'}</h1></div>
       {page === 'home' ? <p className="page-meta">{meta}</p> : <label className="select-control">Season<select aria-label="Season" value={season} onChange={event => changeSeason(Number(event.target.value))}>{manifest.seasons.map(year => <option key={year} value={year}>{year}</option>)}</select></label>}</header>
     {page === 'standings' ? <Standings league={league} linkTeams/> : page === 'teams' ? teamsData && <TeamPage league={league} teamsData={teamsData} selectedId={route.teamId} onTeamChange={id => { window.location.hash = `#/teams/${season}/${id}`; }}/> : <><Matchups home={home} teams={teams}/><Recap recap={home.recap} teams={teams}/><Standings league={league} title={home.state.phase === 'offseason' ? 'Final Regular-Season Standings' : 'Standings'} linkTeams/></>}
