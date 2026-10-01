@@ -72,4 +72,4 @@ def build_h2h(output, slug, years, current_year):
         write_json(root / 'h2h' / f'{first}-{second}.json', {'schemaVersion': 1,
                    **{mode: {str(first): forward[mode], str(second): reverse[mode]} for mode in ('historical', 'theoretical')}})
     write_json(root / 'h2h.json', {'schemaVersion': 1, 'teams': teams, 'supportedSeasons': sorted(years, reverse=True),
-               'pairPath': f'{slug}/h2h/', 'theoreticalRule': 'Final regular-season scores from the same season and week only.'})
+               'pairPath': f'{slug}/h2h/', 'lineupPath': f'{slug}/', 'theoreticalRule': 'Final regular-season scores from the same season and week only.'})

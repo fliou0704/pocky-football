@@ -1,10 +1,29 @@
 import unittest
 from types import SimpleNamespace as NS
 
-from football_history import former_players, owner_name, playoff_labels, roster_history, schedule_presentation
+from football_history import lineup_entry, former_players, owner_name, playoff_labels, roster_history, schedule_presentation
 
 
 class HistoryTests(unittest.TestCase):
+    def test_historical_lineup_actual_week_and_slots(self):
+        entry = {'playerId': 17, 'lineupSlotId': 23, 'playerPoolEntry': {'player': {
+            'fullName': 'Sample', 'proTeamId': 2, 'defaultPositionId': 2,
+            'stats': [{'scoringPeriodId': 4, 'statSourceId': 1, 'statSplitTypeId': 1, 'appliedTotal': 20},
+                      {'scoringPeriodId': 3, 'statSourceId': 0, 'statSplitTypeId': 1, 'appliedTotal': 30},
+                      {'scoringPeriodId': 4, 'statSourceId': 0, 'statSplitTypeId': 1, 'appliedTotal': 12.125}]}}}
+        result = lineup_entry(entry, 4)
+        self.assertEqual(result['slot'], 'FLEX')
+        self.assertEqual(result['points'], 12.12)
+        self.assertEqual(result['name'], 'Sample')
+        self.assertEqual(result['position'], 'RB')
+        entry['playerPoolEntry']['player']['defaultPositionId'] = 3
+        self.assertEqual(lineup_entry(entry, 4)['position'], 'WR')
+        self.assertIsNone(lineup_entry(entry, 5)['points'])
+        entry['lineupSlotId'] = 20
+        self.assertEqual(lineup_entry(entry, 4)['slot'], 'BE')
+        entry['lineupSlotId'] = 21
+        self.assertEqual(lineup_entry(entry, 4)['slot'], 'IR')
+
     def test_owner_override_real_name_and_display_fallback(self):
         owner = {"firstName": "Ada", "lastName": "Lovelace", "displayName": "username"}
         self.assertEqual(owner_name(owner, {}, 2025, 3), "Ada Lovelace")
