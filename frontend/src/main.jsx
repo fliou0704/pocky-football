@@ -4,6 +4,7 @@ import { formatRecord } from './record.js';
 import { assetUrl } from './asset-url.js';
 import { routeFromHash, selectedTeamId } from './season-route.js';
 import { TEAM_TABS, orderedRoster, validTeamSeasons, resolveTeamSeason } from './team-view.js';
+import TeamDraft from './TeamDraft.jsx';
 import RecordBookPage from './RecordBookPage.jsx';
 import H2HPage from './H2HPage.jsx';
 import { h2hHash } from './h2h-view.js';
@@ -14,7 +15,7 @@ async function getData(path) {
   const response = await fetch(`${dataBase}${path}`);
   if (!response.ok) throw new Error('Site data is unavailable');
   const value = await response.json();
-  if (value.schemaVersion !== 1) throw new Error('Unsupported site data');
+  if (![1,2].includes(value.schemaVersion)) throw new Error('Unsupported site data');
   return value;
 }
 
@@ -102,8 +103,7 @@ function Header({ name, page, currentTeams, currentSeason, h2hPair = [] }) {
 
 const points = value => value == null ? '—' : value.toFixed(2);
 
-function TeamPage({ league, teamsData, selectedId, onTeamChange }) {
-  const [activeTab, setActiveTab] = useState(TEAM_TABS[0]);
+function TeamPage({ league, teamsData, selectedId, onTeamChange, draftPath, activeTab, setActiveTab }) {
   const all = league.standings;
   const selected = all.find(team => team.teamId === selectedTeamId(all, selectedId));
   const data = teamsData.teams[String(selected.teamId)];
@@ -111,13 +111,13 @@ function TeamPage({ league, teamsData, selectedId, onTeamChange }) {
   return <>
     <div className="team-identity content-card"><Team team={selected}/><div className="team-identity-copy"><p className="page-eyebrow">Fantasy team</p><h2>{selected.name}</h2>{selected.owner && <p>Owner · {selected.owner}</p>}</div>
       <label className="select-control">Team<select aria-label="Team" value={selected.teamId} onChange={event => onTeamChange(Number(event.target.value))}>{all.map(team => <option key={team.teamId} value={team.teamId}>{team.name}</option>)}</select></label></div>
-    <div className="team-tabs" role="tablist" aria-label="Team details">{TEAM_TABS.map(tab => <button key={tab} id={`tab-${tab}`} role="tab" aria-selected={activeTab === tab} aria-controls={`panel-${tab}`} onClick={() => setActiveTab(tab)}>{tab}</button>)}</div>
-    {activeTab === 'Schedule' && <div role="tabpanel" id="panel-Schedule" aria-labelledby="tab-Schedule">
     <Section title="Overview" meta={`${league.league.season} season`}><div className="content-card"><dl className="team-overview">
       <div><dt>Record</dt><dd>{formatRecord(selected)}</dd></div><div><dt>Regular rank</dt><dd>{selected.rank}</dd></div>{league.league.complete && <div><dt>Final finish</dt><dd>{selected.finalRank ?? '—'}</dd></div>}
       <div><dt>Points for</dt><dd>{points(selected.pointsFor)}</dd></div><div><dt>Points against</dt><dd>{points(selected.pointsAgainst)}</dd></div>
       <div><dt>Average / game</dt><dd>{points(data.averageScore)}</dd></div><div><dt>High week</dt><dd>{points(data.highScore)}</dd></div><div><dt>Low week</dt><dd>{points(data.lowScore)}</dd></div>
     </dl></div></Section>
+    <div className="team-tabs" role="tablist" aria-label="Team details">{TEAM_TABS.map(tab => <button key={tab} id={`tab-${tab}`} role="tab" aria-selected={activeTab === tab} aria-controls={`panel-${tab}`} onClick={() => setActiveTab(tab)}>{tab}</button>)}</div>
+    {activeTab === 'Schedule' && <div role="tabpanel" id="panel-Schedule" aria-labelledby="tab-Schedule">
     <Section title="Schedule" meta="Regular season and playoffs"><div className="content-card table-card">
       <div className="weekly-table-wrap"><table className="weekly-table"><caption className="sr-only">Schedule for {selected.name}</caption><thead><tr><th>Week</th><th>Opponent</th><th>Result</th><th className="numeric">Score</th><th className="numeric">Opp.</th><th>Record</th><th className="numeric">Score rank</th></tr></thead><tbody>
       {data.weeks.map(week => <tr key={week.week} className={week.isPlayoff ? 'playoff-row' : ''}><td><strong>{week.week}</strong>{week.displayRoundLabel && <small>{week.displayRoundLabel}</small>}</td><th scope="row">{week.isBye ? 'Bye' : <Team team={all.find(team => team.teamId === week.opponentTeamId)}/>}</th><td>{week.result === '—' && week.status === 'live' ? 'Live' : week.result}</td><td className="numeric">{points(week.score)}</td><td className="numeric">{points(week.opponentScore)}</td><td>{week.cumulativeRecord ? formatRecord(week.cumulativeRecord) : '—'}</td><td className="numeric">{week.scoreRank ?? '—'}</td></tr>)}
@@ -129,10 +129,12 @@ function TeamPage({ league, teamsData, selectedId, onTeamChange }) {
     {data.formerPlayers.length > 0 && <Section title="Dropped / Former Players" meta="Seen on this team in weekly ESPN rosters"><div className="content-card roster-group"><ul>{data.formerPlayers.map(player => <li key={player.playerId}><div><strong>{player.name}</strong><small>Weeks {player.weeks.join(', ')}</small></div></li>)}</ul></div></Section>}
     {league.league.complete && <p className="archive-note">Final Roster shows season-end membership. Former players were found in weekly roster snapshots; neither list represents every weekly lineup.</p>}
     </div>}
+    {activeTab === 'Draft' && <div role="tabpanel" id="panel-Draft" aria-labelledby="tab-Draft"><Section title="Draft" meta={`${league.league.season} selections`}><TeamDraft key={league.league.season} season={league.league.season} teamId={selected.teamId} path={draftPath} loadData={getData}/></Section></div>}
   </>;
 }
 
 function App() {
+  const [teamTab,setTeamTab]=useState(TEAM_TABS[0]);
   const [manifest, setManifest] = useState(null), [data, setData] = useState(null), [home, setHome] = useState(null), [currentLeague, setCurrentLeague] = useState(null), [error, setError] = useState(null);
   const [hash, setHash] = useState(window.location.hash);
   useEffect(() => { const update = () => setHash(window.location.hash); window.addEventListener('hashchange', update); return () => window.removeEventListener('hashchange', update); }, []);
@@ -172,8 +174,8 @@ function App() {
   const changeSeason = year => { window.location.hash = page === 'teams' ? `#/teams/${year}/${route.teamId || ''}` : `#/standings/${year}`; };
   return <><a className="skip" href="#main">Skip to content</a><Header name={league.league.name} page={page} currentTeams={currentLeague.standings} currentSeason={currentSeason} h2hPair={page === 'h2h' ? [route.firstId, route.secondId] : []}/><main id="main" className="page-shell homepage">
     <header className="page-header"><div><p className="page-eyebrow">{league.league.name}</p><h1>{page === 'home' ? `${league.league.season} Season` : page === 'teams' ? 'Teams' : page === 'record-book' ? 'Record Book' : page === 'h2h' ? `${route.mode === 'theoretical' ? 'Theoretical' : 'Historical'} H2H` : 'Standings'}</h1></div>
-      {page === 'record-book' ? <label className="select-control">Season<select aria-label="Record Book season" value={recordYear} onChange={event => changeRecordYear(event.target.value)}><option value="All-Time">All-Time</option>{manifest.seasons.map(year => <option key={year} value={year}>{year}{year === currentSeason && !currentLeague.league.complete ? ' · In progress' : ''}</option>)}</select></label> : page === 'h2h' ? <p className="page-meta">{route.mode === 'theoretical' ? 'Regular-season comparison' : 'Actual matchups'}</p> : page === 'home' ? <p className="page-meta">{meta}</p> : <label className="select-control">Season<select aria-label="Season" value={season} onChange={event => changeSeason(Number(event.target.value))}>{(page === 'teams' ? validTeamSeasons(manifest, route.teamId) : manifest.seasons).map(year => <option key={year} value={year}>{year}</option>)}</select></label>}</header>
-    {page === 'record-book' ? <RecordBookPage path={manifest.recordBookPath} loadData={getData} year={recordYear} Team={Team} Section={Section}/> : page === 'h2h' ? <H2HPage mode={route.mode} selectedFirst={route.firstId} selectedSecond={route.secondId} onPairChange={(a,b) => { window.location.hash = h2hHash(route.mode,a,b); }} path={manifest.h2hPath} loadData={getData} Team={Team} Section={Section}/> : page === 'standings' ? <Standings league={league} linkTeams/> : page === 'teams' ? teamsData && <TeamPage league={league} teamsData={teamsData} selectedId={route.teamId} onTeamChange={id => { window.location.hash = `#/teams/${season}/${id}`; }}/> : <><Matchups home={home} teams={teams}/><Recap recap={home.recap} teams={teams}/><Standings league={league} title={home.state.phase === 'offseason' ? 'Final Regular-Season Standings' : 'Standings'} linkTeams/></>}
+      {page === 'record-book' ? null : page === 'h2h' ? <p className="page-meta">{route.mode === 'theoretical' ? 'Regular-season comparison' : 'Actual matchups'}</p> : page === 'home' ? <p className="page-meta">{meta}</p> : <label className="select-control">Season<select aria-label="Season" value={season} onChange={event => changeSeason(Number(event.target.value))}>{(page === 'teams' ? validTeamSeasons(manifest, route.teamId) : manifest.seasons).map(year => <option key={year} value={year}>{year}</option>)}</select></label>}</header>
+    {page === 'record-book' ? <RecordBookPage path={manifest.recordBookPath} loadData={getData} year={recordYear} onYearChange={changeRecordYear} Team={Team} Section={Section}/> : page === 'h2h' ? <H2HPage mode={route.mode} selectedFirst={route.firstId} selectedSecond={route.secondId} onPairChange={(a,b) => { window.location.hash = h2hHash(route.mode,a,b); }} path={manifest.h2hPath} loadData={getData} Team={Team} Section={Section}/> : page === 'standings' ? <Standings league={league} linkTeams/> : page === 'teams' ? teamsData && <TeamPage activeTab={teamTab} setActiveTab={setTeamTab} draftPath={manifest.leaguePath.replace(/\d+\/league\.json$/, `${season}/draft.json`)} league={league} teamsData={teamsData} selectedId={route.teamId} onTeamChange={id => { window.location.hash = `#/teams/${season}/${id}`; }}/> : <><Matchups home={home} teams={teams}/><Recap recap={home.recap} teams={teams}/><Standings league={league} title={home.state.phase === 'offseason' ? 'Final Regular-Season Standings' : 'Standings'} linkTeams/></>}
   </main></>;
 }
 createRoot(document.getElementById('root')).render(<App/>);

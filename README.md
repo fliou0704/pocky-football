@@ -93,4 +93,4 @@ Weekly lineup detail lives in `<season>/lineups/<week>.json`, shared across pair
 
 ## Record Book (Stage 2E)
 
-Record Book renders precomputed All-Time and 2021–2026 records, season honors, tied holders, and expandable details. Python reuses normalized matchup and weekly lineup snapshots. Executed fantasy activity is generated separately with explicitly qualified coverage; transaction records are deferred. See [Stage 2E rules, source investigation, and contracts](STAGE-2E-RECORD-BOOK.md).
+Record Book renders precomputed All-Time rankings and completed-season honors (currently 2021–2025). Team pages include authoritative historical Draft selections. Ranked matchup awards share H2H weekly lineup details; player-season and Best Pickup awards use actual weekly scoring and audited acquisition stints. See [Team and Record Book refinement](TEAM-RECORD-BOOK-REFINEMENT.md) for contracts, tie/filter rules, coverage qualifications and tests, and [historical activity audit](HISTORICAL-ACTIVITY-AUDIT.md) for source validation. The original [Stage 2E report](STAGE-2E-RECORD-BOOK.md) describes the earlier implementation.

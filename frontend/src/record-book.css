@@ -35,3 +35,18 @@
 .rb-position .rb-leader + .rb-leader { margin-top:14px; }
 @media(max-width:719px) { .rb-record { padding:16px; } .rb-value { font-size:.95rem; max-width:120px; } .rb-record details li > strong { max-width:110px; } .rb-roster li > strong small { display:block; } }
 @media(max-width:359px) { .rb-leader { gap:8px; } .rb-value { max-width:95px; font-size:.85rem; } .rb-position li { grid-template-columns:40px minmax(0,1fr); gap:8px; } }
+.record-book > .home-section { margin-top:34px; }
+.rb-season { width:max-content; margin-left:auto; margin-top:-16px; margin-bottom:28px; }
+.rb-ranking { list-style:none; margin:0; padding:0; }
+.rb-ranking > li + li { border-top:1px solid var(--border); }
+.rb-ranked-row { display:grid; grid-template-columns:30px minmax(0,1fr) auto; gap:14px; align-items:center; width:100%; padding:16px 0; text-align:left; border:0; background:transparent; color:inherit; font:inherit; }
+button.rb-ranked-row { cursor:pointer; }
+button.rb-ranked-row:hover { background:var(--surface-muted); }
+.rb-rank { font-size:.75rem; font-weight:800; color:var(--muted); }
+.rb-record { padding:0 20px; overflow:hidden; }
+.rb-expand { display:flex; align-items:center; justify-content:space-between; width:100%; border:0; border-top:1px solid var(--border); background:transparent; color:var(--brand-strong); font:inherit; font-size:.8rem; font-weight:800; padding:14px 0; cursor:pointer; }
+.rb-record .h2h-details { margin:0 -20px; }
+.rb-value small { display:block; margin-top:6px; }
+.rb-roster-group h3 { margin:0; padding:12px 0; color:var(--brand-strong); font-size:.8rem; text-transform:uppercase; letter-spacing:.06em; }
+.rb-record .rb-pending { padding:20px 0; }
+@media(max-width:719px) { .rb-record { padding:0 14px; } .rb-ranked-row { grid-template-columns:24px minmax(0,1fr) auto; gap:8px; } .rb-record .h2h-details { margin:0 -14px; } .rb-value { max-width:105px; } .rb-season { margin-top:0; } }

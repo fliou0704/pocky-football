@@ -78,5 +78,11 @@ def generate_draft(client, folder, season, names, team_ids):
     from pathlib import Path
     raw = client.league_get(params={'view':['mDraftDetail','mSettings']})
     data = normalize_draft(raw, season, names, team_ids)
+    import json
+    scoring=Path(folder)/'player-scoring.json'
+    if scoring.exists():
+        source=json.loads(scoring.read_text())
+        positions={int(k):v for k,v in source.get('playerPositions',{}).items()} or {p['playerId']:p['position'] for p in source['players']}
+        for pick in data['picks']:pick['position']=positions.get(pick['playerId'])
     write_json(Path(folder)/'draft.json',data)
     return data

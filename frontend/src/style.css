@@ -177,3 +177,9 @@ button.h2h-result:hover,button.h2h-result[aria-expanded="true"] { background:var
 .h2h-lineup small { font-size:.6rem; }
 .h2h-lineup > p { padding:12px; }
 @media(max-width:719px) { .h2h-lineups { grid-template-columns:minmax(0,1fr); } .h2h-record > .team img,.h2h-record > .team .team-logo-fallback { width:48px; height:48px; } }
+.draft-table { width:100%; border-collapse:collapse; font-size:.85rem; }
+.draft-table th,.draft-table td { padding:14px 16px; text-align:left; border-bottom:1px solid var(--border); }
+.draft-table thead { color:var(--muted); background:var(--surface-muted); font-size:.72rem; }
+.draft-table small { display:block; margin-top:4px; font-size:.65rem; color:var(--muted); white-space:nowrap; }
+.draft-table tbody th { width:100%; }
+@media(max-width:479px) { .draft-table th,.draft-table td { padding:12px 8px; } .draft-table { font-size:.78rem; } .team-tabs { display:flex; } .team-tabs button { flex:1; } }
