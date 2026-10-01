@@ -4,6 +4,7 @@ import { formatRecord } from './record.js';
 import { assetUrl } from './asset-url.js';
 import { routeFromHash, selectedTeamId } from './season-route.js';
 import { TEAM_TABS, orderedRoster, validTeamSeasons, resolveTeamSeason } from './team-view.js';
+import H2HPage from './H2HPage.jsx';
 import './style.css';
 
 const dataBase = `${import.meta.env.BASE_URL}data/`;
@@ -83,7 +84,7 @@ function Standings({ league, title = 'Standings', linkTeams = false }) {
 }
 
 function Header({ name, page, currentTeams, currentSeason }) {
-  const [open, setOpen] = useState(false), [teamsOpen, setTeamsOpen] = useState(false);
+  const [open, setOpen] = useState(false), [teamsOpen, setTeamsOpen] = useState(false), [h2hOpen, setH2hOpen] = useState(false);
   const close = () => setOpen(false);
   return <header className="masthead"><div className="header-inner">
     <a className="brand" href="#/" onClick={close}><span className="brand-mark" aria-hidden="true"/>{name}</a>
@@ -91,8 +92,8 @@ function Header({ name, page, currentTeams, currentSeason }) {
     <nav id="site-menu" className={`site-menu ${open ? 'open' : ''}`} aria-label="Main navigation">
       <a href="#/" aria-current={page === 'home' ? 'page' : undefined} onClick={close}>Home</a>
       <a href="#/standings" aria-current={page === 'standings' ? 'page' : undefined} onClick={close}>Standings</a>
-      <div className="teams-menu"><button type="button" aria-expanded={teamsOpen} aria-controls="teams-options" aria-current={page === 'teams' ? 'page' : undefined} onClick={() => setTeamsOpen(!teamsOpen)}>Teams <span aria-hidden="true">▾</span></button>
-        {teamsOpen && <div id="teams-options" className="teams-options">{currentTeams.map(team => <a key={team.teamId} href={`#/teams/${currentSeason}/${team.teamId}`} onClick={() => { setTeamsOpen(false); close(); }}>{team.name}</a>)}</div>}</div><span aria-disabled="true">H2H</span><span aria-disabled="true">Record Book</span><span aria-disabled="true">Players</span>
+      <div className="teams-menu"><button type="button" aria-expanded={teamsOpen} aria-controls="teams-options" aria-current={page === 'teams' ? 'page' : undefined} onClick={() => { setTeamsOpen(!teamsOpen); setH2hOpen(false); }}>Teams <span aria-hidden="true">▾</span></button>
+        {teamsOpen && <div id="teams-options" className="teams-options">{currentTeams.map(team => <a key={team.teamId} href={`#/teams/${currentSeason}/${team.teamId}`} onClick={() => { setTeamsOpen(false); close(); }}>{team.name}</a>)}</div>}</div><div className="teams-menu"><button type="button" aria-expanded={h2hOpen} aria-controls="h2h-options" aria-current={page === 'h2h' ? 'page' : undefined} onClick={() => { setH2hOpen(!h2hOpen); setTeamsOpen(false); }}>H2H <span aria-hidden="true">▾</span></button>{h2hOpen && <div id="h2h-options" className="teams-options">{['historical','theoretical'].map(mode => <a key={mode} href={`#/h2h/${mode}`} onClick={() => { setH2hOpen(false); close(); }}>{mode === 'historical' ? 'Historical' : 'Theoretical'}</a>)}</div>}</div><span aria-disabled="true">Record Book</span><span aria-disabled="true">Players</span>
     </nav>
   </div></header>;
 }
@@ -166,9 +167,9 @@ function App() {
   const meta = page === 'home' ? home.state.phase === 'offseason' ? 'Season complete' : `Week ${home.state.currentWeek}` : league.league.complete ? 'Season complete' : 'Current season';
   const changeSeason = year => { window.location.hash = page === 'teams' ? `#/teams/${year}/${route.teamId || ''}` : `#/standings/${year}`; };
   return <><a className="skip" href="#main">Skip to content</a><Header name={league.league.name} page={page} currentTeams={currentLeague.standings} currentSeason={currentSeason}/><main id="main" className="page-shell homepage">
-    <header className="page-header"><div><p className="page-eyebrow">{league.league.name}</p><h1>{page === 'home' ? `${league.league.season} Season` : page === 'teams' ? 'Teams' : 'Standings'}</h1></div>
-      {page === 'home' ? <p className="page-meta">{meta}</p> : <label className="select-control">Season<select aria-label="Season" value={season} onChange={event => changeSeason(Number(event.target.value))}>{(page === 'teams' ? validTeamSeasons(manifest, route.teamId) : manifest.seasons).map(year => <option key={year} value={year}>{year}</option>)}</select></label>}</header>
-    {page === 'standings' ? <Standings league={league} linkTeams/> : page === 'teams' ? teamsData && <TeamPage league={league} teamsData={teamsData} selectedId={route.teamId} onTeamChange={id => { window.location.hash = `#/teams/${season}/${id}`; }}/> : <><Matchups home={home} teams={teams}/><Recap recap={home.recap} teams={teams}/><Standings league={league} title={home.state.phase === 'offseason' ? 'Final Regular-Season Standings' : 'Standings'} linkTeams/></>}
+    <header className="page-header"><div><p className="page-eyebrow">{league.league.name}</p><h1>{page === 'home' ? `${league.league.season} Season` : page === 'teams' ? 'Teams' : page === 'h2h' ? `${route.mode === 'theoretical' ? 'Theoretical' : 'Historical'} H2H` : 'Standings'}</h1></div>
+      {page === 'h2h' ? <p className="page-meta">{route.mode === 'theoretical' ? 'Regular-season comparison' : 'Actual matchups'}</p> : page === 'home' ? <p className="page-meta">{meta}</p> : <label className="select-control">Season<select aria-label="Season" value={season} onChange={event => changeSeason(Number(event.target.value))}>{(page === 'teams' ? validTeamSeasons(manifest, route.teamId) : manifest.seasons).map(year => <option key={year} value={year}>{year}</option>)}</select></label>}</header>
+    {page === 'h2h' ? <H2HPage mode={route.mode} path={manifest.h2hPath} loadData={getData} Team={Team} Section={Section}/> : page === 'standings' ? <Standings league={league} linkTeams/> : page === 'teams' ? teamsData && <TeamPage league={league} teamsData={teamsData} selectedId={route.teamId} onTeamChange={id => { window.location.hash = `#/teams/${season}/${id}`; }}/> : <><Matchups home={home} teams={teams}/><Recap recap={home.recap} teams={teams}/><Standings league={league} title={home.state.phase === 'offseason' ? 'Final Regular-Season Standings' : 'Standings'} linkTeams/></>}
   </main></>;
 }
 createRoot(document.getElementById('root')).render(<App/>);

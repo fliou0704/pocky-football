@@ -76,3 +76,15 @@ Standings and Teams include ESPN seasons 2021 through the configured current sea
 4. Run the workflow from **Actions → Build and deploy Pocky Football → Run workflow**, or push to `main`.
 
 The Vite base path is derived from GitHub's repository name, so assets, JSON, logo overrides, and hash navigation work under `https://<owner>.github.io/<repository>/`. A local build uses `/`; set `VITE_BASE_PATH=/repository/` to test the project path locally. The Pages artifact contains only the static frontend and generated JSON, never the repository's `.env` or the Actions secrets.
+
+## Head-to-head (Stage 2D)
+
+The H2H menu links directly to Historical and Theoretical views. Both use two current-season team selectors, a record summary, and newest-first rows, following Basketball Brawl's current H2H layout. Selecting a team removes that ID from the opposite selector. Initial selections are the two lowest current-season IDs.
+
+`football_h2h.py` reads existing `league.json` and `teams.json` snapshots. It writes `data/<slug>/h2h.json` (current selector teams and season coverage), plus one `h2h/<lower-ID>-<higher-ID>.json` file per pair with both perspectives, summaries, season summaries, and rows. Regular generation also rebuilds H2H after season data refreshes; React only chooses a precomputed view and optional season filter.
+
+Historical H2H counts completed actual matchups, including regular, championship, placement, and consolation games. It retains ties, season-specific names/logos, decimal scores, and detailed playoff round labels. Byes and self-matchups never count. Unlike Basketball Brawl's legacy historical list, consolation meetings remain visible so the list agrees with the overall record; ties are explicitly represented rather than treated as losses. Player breakdown expansion is omitted because this contract uses existing team scores, not weekly player detail data.
+
+Theoretical H2H follows Basketball Brawl's regular-season-only rule: both teams must have finite completed scores in the same season and fantasy week. Live/upcoming weeks, byes, and every playoff/consolation week are excluded. Zero is a valid completed score. Each eligible week counts once; `actualMeeting` marks overlaps with real games. Summary and season records are computed in Python.
+
+Team IDs are season identifiers, not verified franchises. A shared ID aggregates only seasons where both selected IDs exist; reused IDs can refer to different owners or teams. No name/owner-based predecessor mapping is used. Rows retain each season's own name and available logo; selectors use current names and the existing logo fallback.

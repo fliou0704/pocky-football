@@ -186,10 +186,13 @@ def generate(slug, config_path=CONFIG_PATH, output=PUBLIC_DATA):
             validate_home(home, payload)
             write_json(folder / "home.json", home)
             destination = folder / "league.json"
+    from football_h2h import build_h2h
+    build_h2h(output, slug, years, config['season'])
     write_json(Path(output) / "site.json", {
         "schemaVersion": 1,
         "leaguePath": f"{slug}/{config['season']}/league.json",
         "seasons": list(reversed(years)),
         "teamSeasons": team_seasons,
+        "h2hPath": f"{slug}/h2h.json",
     })
     return destination

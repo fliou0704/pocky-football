@@ -1,8 +1,8 @@
 export function routeFromHash(hash, currentSeason) {
   const parts = hash.replace(/^#\/?/, '').split('/');
-  const page = ['standings', 'teams'].includes(parts[0]) ? parts[0] : 'home';
+  const page = ['standings', 'teams', 'h2h'].includes(parts[0]) ? parts[0] : 'home';
   const year = Number(parts[1]);
-  return { page, season: Number.isInteger(year) && year > 2000 ? year : currentSeason,
+  return { page, ...(page === 'h2h' ? {mode: parts[1] === 'theoretical' ? 'theoretical' : 'historical'} : {}), season: Number.isInteger(year) && year > 2000 ? year : currentSeason,
            teamId: page === 'teams' && /^\d+$/.test(parts[2] || '') ? Number(parts[2]) : null };
 }
 
