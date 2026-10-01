@@ -1,4 +1,4 @@
-export const TEAM_TABS = ['Schedule', 'Roster'];
+export const TEAM_TABS = ['Schedule', 'Roster', 'Draft'];
 const slotOrder = ['QB', 'RB', 'WR', 'TE', 'FLEX', 'D/ST', 'K', 'BE', 'IR'];
 export function slotLabel(slot) {
   return ({'RB/WR/TE': 'FLEX', BN: 'BE'})[slot] || slot;
@@ -16,4 +16,8 @@ export function validTeamSeasons(manifest, teamId) {
 export function resolveTeamSeason(manifest, teamId, requested) {
   const valid = validTeamSeasons(manifest, teamId);
   return valid.includes(requested) ? requested : valid[0] ?? requested;
+}
+
+export function teamDraft(draft, season, teamId) {
+  return draft?.season === season && Array.isArray(draft.picks) ? draft.picks.filter(p => p.teamId === teamId).sort((a,b) => a.overallPick - b.overallPick) : [];
 }

@@ -6,3 +6,6 @@ export function recordValue(record, holder) {
   if (record.unit === 'games') return `${holder.value} games`;
   return `${holder.value.toFixed(2)} FPTS`;
 }
+export function rankedEntryKey(holder) {
+  return [holder.season,holder.week || holder.endWeek || '',holder.team?.teamId || '',holder.playerId || '',holder.acquiredAt || ''].join('-');
+}

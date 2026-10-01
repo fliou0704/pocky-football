@@ -73,7 +73,7 @@ class RecordBookTests(unittest.TestCase):
 
     def test_player_starter_bench_ir_and_missing_points(self):
         self.assertEqual(self.records['player-high']['value'],100)
-        self.assertEqual(self.records['starter-high']['value'],100)
+        self.assertNotIn('starter-high',self.records)
         self.assertEqual(self.records['bench-high']['value'],40)
         self.assertEqual(self.records['bench-high']['holders'][0]['slot'],'BE')
         self.assertFalse(any(p['name']=='Missing' for p in self.c['players']))

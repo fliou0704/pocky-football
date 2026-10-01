@@ -185,6 +185,17 @@ def generate(slug, config_path=CONFIG_PATH, output=PUBLIC_DATA):
         write_json(folder / "league.json", payload)
         write_json(folder / "teams.json", teams)
         generate_activity(league.espn_request, folder, year, {t["teamId"] for t in payload["standings"]})
+        from football_player_scoring import generate_player_scoring,enrich_lineups
+        if not (folder/'player-scoring.json').exists() or not payload['league']['complete']:
+            generate_player_scoring(league.espn_request,folder,year)
+        else:
+            cached_scoring=json.loads((folder/'player-scoring.json').read_text())
+            comparison=enrich_lineups(folder,cached_scoring)
+            if comparison['scoreConflicts']:
+                generate_player_scoring(league.espn_request,folder,year)
+            else:
+                cached_scoring['coverage']['lineupComparison']=comparison
+                write_json(folder/'player-scoring.json',cached_scoring)
         if year == config["season"]:
             home = build_home(league, payload)
             validate_home(home, payload)

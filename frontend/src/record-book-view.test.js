@@ -19,3 +19,13 @@ test('record presentation retains ties and unequal schedule comparison',()=>{
   assert.equal(recordValue({unit:'points'},{value:0}),'0.00 FPTS');
   assert.equal(recordValue({unit:'games'},{value:4}),'4 games');
 });
+
+test('incomplete Record Book year falls back to All-Time and is absent from choices',()=>{
+ const data={years:[2025,2024],allTime:{id:'all'},seasons:{2025:{id:'2025'},2024:{id:'2024'}}};
+ assert.equal(recordView(data,'2026').id,'all');assert.equal(data.years.includes(2026),false);
+});
+test('ranked result keys distinguish both sides and player stints',async()=>{
+ const {rankedEntryKey}=await import('./record-book-view.js');
+ assert.notEqual(rankedEntryKey({season:2021,week:1,team:{teamId:1}}),rankedEntryKey({season:2021,week:1,team:{teamId:2}}));
+ assert.notEqual(rankedEntryKey({season:2021,playerId:10,acquiredAt:'first'}),rankedEntryKey({season:2021,playerId:10,acquiredAt:'second'}));
+});

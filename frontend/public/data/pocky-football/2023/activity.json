@@ -1,15 +1,41 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "season": 2023,
-  "generatedAt": "2026-10-01T16:49:27.522882+00:00",
+  "generatedAt": "2026-10-01T18:04:30.466832+00:00",
   "coverage": {
     "complete": false,
-    "status": "partial",
+    "status": "likely_complete",
+    "scope": "Executed player roster movements through the observed transaction period; excludes failed/pending claims and lineup-only changes.",
     "sources": [
       "mTransactions2",
-      "kona_playercard"
+      "kona_playercard",
+      "mTeam.transactionCounter"
     ],
+    "cardOnlyTradeExplanation": "Period feed acceptance placeholders have no executed status/items and distinct source IDs; executed playercard transfers supply the movement.",
     "queriedThroughPeriod": 19,
+    "requestedPeriods": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
     "successfulPeriods": [
       0,
       1,
@@ -30,20 +56,320 @@
       16,
       17,
       18,
-      19
+      19,
+      20
     ],
     "failedPeriods": [],
+    "sourceSweepCompleted": true,
+    "playerUniverseSweepCompleted": true,
+    "playerUniverseReturnedCount": 1132,
+    "knownPlayerCoverageCompleted": true,
     "requestedPlayerCount": 274,
-    "returnedPlayerCount": 274,
+    "returnedPlayerCount": 1132,
     "missingPlayerCount": 0,
     "failedCardPlayerCount": 0,
     "unknownPlayerNames": 0,
     "sourceEventCount": 459,
+    "sourceUniqueCounts": {
+      "period": 458,
+      "playercard": 361
+    },
+    "sourceAppearances": 929,
+    "repeatedSourceIdAppearancesMerged": 470,
+    "overlappingSourceIds": 360,
+    "playercardOnlyExecutedCounts": {
+      "trade": 1
+    },
+    "executedPayloadConflictCount": 0,
+    "excludedSourceCounts": {
+      "FUTURE_ROSTER:EXECUTED": 60,
+      "TRADE_ACCEPT:unspecified": 1,
+      "TRADE_DECLINE:EXECUTED": 2,
+      "TRADE_PROPOSAL:CANCELED": 7,
+      "TRADE_PROPOSAL:PENDING": 1,
+      "TRADE_VETO:EXECUTED": 1,
+      "WAIVER:CANCELED": 4,
+      "WAIVER:FAILED_INVALIDPLAYERSOURCE": 10,
+      "WAIVER:FAILED_PLAYERALREADYDROPPED": 1,
+      "WAIVER:FAILED_ROSTERLIMIT": 3,
+      "WAIVER:PENDING": 8
+    },
     "executedMovementCount": 361,
     "firstTimestamp": "2023-08-21T02:48:25.168000+00:00",
     "lastTimestamp": "2023-12-31T17:03:51.040000+00:00",
     "usesFaab": false,
-    "limitation": "Explicit scoring-period sweep plus known-player card histories; ESPN supplies no verified total count. Unobserved player-only events, missing trade details and archived omissions remain possible. Transaction records are deferred."
+    "independentCounters": {
+      "available": true,
+      "allTotalsMatch": false,
+      "dropsAndTradesMatch": true,
+      "teams": [
+        {
+          "teamId": 1,
+          "source": {
+            "acquisitions": 10,
+            "drops": 10,
+            "trades": 0
+          },
+          "observed": {
+            "acquisitions": 10,
+            "drops": 10,
+            "trades": 0
+          },
+          "acquisitionPeriodDifferences": []
+        },
+        {
+          "teamId": 2,
+          "source": {
+            "acquisitions": 18,
+            "drops": 18,
+            "trades": 0
+          },
+          "observed": {
+            "acquisitions": 19,
+            "drops": 18,
+            "trades": 0
+          },
+          "acquisitionPeriodDifferences": [
+            {
+              "period": 1,
+              "source": 0,
+              "observed": 1
+            }
+          ]
+        },
+        {
+          "teamId": 3,
+          "source": {
+            "acquisitions": 10,
+            "drops": 9,
+            "trades": 0
+          },
+          "observed": {
+            "acquisitions": 10,
+            "drops": 9,
+            "trades": 0
+          },
+          "acquisitionPeriodDifferences": []
+        },
+        {
+          "teamId": 5,
+          "source": {
+            "acquisitions": 21,
+            "drops": 24,
+            "trades": 1
+          },
+          "observed": {
+            "acquisitions": 24,
+            "drops": 24,
+            "trades": 1
+          },
+          "acquisitionPeriodDifferences": [
+            {
+              "period": 1,
+              "source": 1,
+              "observed": 4
+            }
+          ]
+        },
+        {
+          "teamId": 6,
+          "source": {
+            "acquisitions": 10,
+            "drops": 10,
+            "trades": 0
+          },
+          "observed": {
+            "acquisitions": 11,
+            "drops": 10,
+            "trades": 0
+          },
+          "acquisitionPeriodDifferences": [
+            {
+              "period": 1,
+              "source": 0,
+              "observed": 1
+            }
+          ]
+        },
+        {
+          "teamId": 7,
+          "source": {
+            "acquisitions": 19,
+            "drops": 18,
+            "trades": 0
+          },
+          "observed": {
+            "acquisitions": 19,
+            "drops": 18,
+            "trades": 0
+          },
+          "acquisitionPeriodDifferences": []
+        },
+        {
+          "teamId": 9,
+          "source": {
+            "acquisitions": 4,
+            "drops": 4,
+            "trades": 1
+          },
+          "observed": {
+            "acquisitions": 4,
+            "drops": 4,
+            "trades": 1
+          },
+          "acquisitionPeriodDifferences": []
+        },
+        {
+          "teamId": 11,
+          "source": {
+            "acquisitions": 11,
+            "drops": 10,
+            "trades": 0
+          },
+          "observed": {
+            "acquisitions": 11,
+            "drops": 10,
+            "trades": 0
+          },
+          "acquisitionPeriodDifferences": []
+        },
+        {
+          "teamId": 12,
+          "source": {
+            "acquisitions": 13,
+            "drops": 14,
+            "trades": 0
+          },
+          "observed": {
+            "acquisitions": 14,
+            "drops": 14,
+            "trades": 0
+          },
+          "acquisitionPeriodDifferences": [
+            {
+              "period": 1,
+              "source": 0,
+              "observed": 1
+            }
+          ]
+        },
+        {
+          "teamId": 13,
+          "source": {
+            "acquisitions": 0,
+            "drops": 0,
+            "trades": 0
+          },
+          "observed": {
+            "acquisitions": 0,
+            "drops": 0,
+            "trades": 0
+          },
+          "acquisitionPeriodDifferences": []
+        },
+        {
+          "teamId": 15,
+          "source": {
+            "acquisitions": 9,
+            "drops": 9,
+            "trades": 0
+          },
+          "observed": {
+            "acquisitions": 9,
+            "drops": 9,
+            "trades": 0
+          },
+          "acquisitionPeriodDifferences": []
+        },
+        {
+          "teamId": 16,
+          "source": {
+            "acquisitions": 10,
+            "drops": 10,
+            "trades": 0
+          },
+          "observed": {
+            "acquisitions": 10,
+            "drops": 10,
+            "trades": 0
+          },
+          "acquisitionPeriodDifferences": []
+        }
+      ],
+      "teamCoverageCompleted": true
+    },
+    "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published.",
+    "communicationFeed": {
+      "status": "unavailable",
+      "usedForExecutedMovements": false
+    },
+    "draft": {
+      "sourceDrafted": true,
+      "sourceInProgress": false,
+      "teamCount": 12,
+      "expectedRounds": 16,
+      "expectedSelections": 192,
+      "observedSelections": 192,
+      "authoritativeOrder": true,
+      "roundsSource": "rosterSettings.lineupSlotCounts excluding IR/ER",
+      "draftSlotSource": "settings.draftSettings.pickOrder",
+      "issues": [],
+      "missingPlayerNames": 0,
+      "complete": true,
+      "path": "draft.json"
+    },
+    "independentCountAgreement": {
+      "drops": true,
+      "trades": true,
+      "acquisitions": false
+    }
+  },
+  "validation": {
+    "duplicateEventIds": [],
+    "semanticDuplicateGroups": [],
+    "issues": [],
+    "ownership": {
+      "arrivalsChecked": 335,
+      "departuresChecked": 138,
+      "reAcquisitionsChecked": 60,
+      "anomalies": [],
+      "scope": "Executed movement chain including drafts; internal sanity check, not an independent roster reconstruction."
+    },
+    "draftAssignments": {
+      "matchesAuthoritativeBoard": true,
+      "draftSelections": 192,
+      "activityAssignments": 192
+    },
+    "lineupWindows": {
+      "rosterEntriesChecked": 3335,
+      "weeksChecked": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "anomalies": [],
+      "scope": "Player ownership anywhere within scoring period; precise historical snapshot timestamps are unavailable."
+    },
+    "previousSnapshot": {
+      "duplicateIds": 0,
+      "semanticDuplicateGroups": 0,
+      "newEventIds": 0,
+      "removedEventIds": 0
+    }
   },
   "events": [
     {
@@ -5456,7 +5782,25 @@
         }
       ],
       "faab": null,
-      "waiverType": null
+      "waiverType": null,
+      "transfers": [
+        {
+          "playerId": 4374302,
+          "name": "Amon-Ra St. Brown",
+          "fromTeamId": 9,
+          "toTeamId": 5
+        },
+        {
+          "playerId": 3045147,
+          "name": "James Conner",
+          "fromTeamId": 5,
+          "toTeamId": 9
+        }
+      ],
+      "assetCoverage": {
+        "draftPickTransfersObserved": 0,
+        "budgetTransfersObserved": 0
+      }
     },
     {
       "id": "event-d141dd0546ed7cf55110",

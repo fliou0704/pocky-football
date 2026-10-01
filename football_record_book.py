@@ -24,14 +24,14 @@ def eligible(match):
             and numeric(match['homeScore']) and numeric(match['awayScore']))
 
 
-def record(key, label, rows, minimum=False, unit='points', rule=None):
+def record(key, label, rows, minimum=False, unit='points', rule=None, limit=10):
     """Preserve every exact tied holder with stable season/week/team/player ordering."""
-    value = (min if minimum else max)((row['value'] for row in rows), default=None)
-    holders = sorted((r for r in rows if r['value'] == value),
-                     key=lambda r: (r['season'], r.get('week', r.get('endWeek', 0)),
-                                    r['team']['teamId'], r.get('playerId', 0), r.get('slot', '')))
-    return {'id': key, 'label': label, 'value': float(value) if value is not None else None,
-            'unit': unit, 'rule': rule, 'holders': [{**h, 'value': float(h['value'])} for h in holders]}
+    from football_record_rankings import ranked
+    leaders=ranked(rows,limit,minimum)
+    holders=[r for r in leaders if r['rank']==1]
+    return {'id':key,'label':label,'value':holders[0]['value'] if holders else None,
+            'unit':unit,'rule':rule,'holders':holders,'leaders':leaders,'limit':limit,
+            'matchupDetails':key in ('team-high','team-low','margin-high','margin-low')}
 
 
 def streak_rows(year, team, weeks):
@@ -55,7 +55,7 @@ def streak_rows(year, team, weeks):
     return rows
 
 
-def season_candidates(year, league, data, lineups):
+def season_candidates(year, league, data, lineups, scoring=None, activity=None):
     teams = {t['teamId']: t for t in league['standings']}
     matches = [m for m in data['matchups'] if eligible(m)]
     regular = [m for m in matches if m['phase'] == 'regular']
@@ -70,7 +70,8 @@ def season_candidates(year, league, data, lineups):
             weekly.append({'season': year, 'week': m['week'], 'team': identity(teams[team_id]),
                            'opponent': identity(teams[opponent_id]), 'value': m[f'{side}Score'],
                            'opponentScore': m[f'{other}Score'], 'isPlayoff': m['phase'] != 'regular',
-                           'roundLabel': m.get('roundLabel')})
+                           'roundLabel': m.get('roundLabel'),'bracket':m.get('bracket'),
+                           'matchup':{'season':year,'week':m['week'],'teamA':identity(teams[team_id]),'teamB':identity(teams[opponent_id])}})
         winner = m.get('winnerTeamId')
         margin = round(abs(m['homeScore'] - m['awayScore']), 2)
         side = 'away' if winner == m['awayTeamId'] else 'home'
@@ -79,7 +80,7 @@ def season_candidates(year, league, data, lineups):
                         'opponent': identity(teams[m[f'{other}TeamId']]), 'score': m[f'{side}Score'],
                         'opponentScore': m[f'{other}Score'], 'value': margin,
                         'isTie': winner is None, 'isPlayoff': m['phase'] != 'regular',
-                        'roundLabel': m.get('roundLabel')})
+                        'roundLabel': m.get('roundLabel'),'matchup':{'season':year,'week':m['week'],'teamA':identity(teams[m[f'{side}TeamId']]),'teamB':identity(teams[m[f'{other}TeamId']])}})
     for team in teams.values():
         weeks = data['teams'][str(team['teamId'])]['weeks']
         streaks.extend(streak_rows(year, team, weeks))
@@ -112,6 +113,14 @@ def season_candidates(year, league, data, lineups):
                           'opponent': identity(teams[m[f'{other}TeamId']]),
                           **{k: p[k] for k in ('playerId', 'name', 'nflTeam', 'position', 'slot')},
                           'value': p['points'], 'isPlayoff': m['phase'] != 'regular'}
+                if scoring:
+                    from football_record_rankings import nfl_game
+                    source=next((x for x in scoring['players'] if x['playerId']==p['playerId']),None)
+                    game=nfl_game(scoring,source,m['week']) if source else None
+                    if game:
+                        nfl_team=source['nflTeamsByWeek'][str(m['week'])]
+                        holder['nflTeam']=nfl_team
+                        holder['nflOpponent']=game['away'] if game['home']==nfl_team else game['home']
                 players.append(holder)
                 if m['phase'] == 'regular' and p['slot'] in STARTERS:
                     starter_totals[p['playerId']].append(holder)
@@ -139,41 +148,50 @@ def season_candidates(year, league, data, lineups):
             choice = leaders[0]; selected.add(choice['playerId'])
             fantasy_team.append({**choice, 'awardSlot': 'FLEX' if slot == 'RB/WR/TE' else slot,
                                  'tiedAlternates': [p for p in leaders[1:]]})
-    return {'allFantasyTeam': fantasy_team, 'weekly': weekly, 'margins': margins, 'totals': season_totals, 'records': seasons,
+    bench=sorted((p for p in mvps if p['playerId'] not in selected),key=lambda p:(-p['value'],p['playerId']))[:7]
+    fantasy_team.extend({**p,'awardSlot':'BE','tiedAlternates':[]} for p in bench)
+    from football_record_rankings import player_seasons,pickup_rows
+    return {'playerSeasons':player_seasons(year,scoring,league['league']['complete']),
+            'playerSeasonCoverage':{'configuredWeeks':scoring['weeks'] if scoring else [],'sourcePlayers':len(scoring['players']) if scoring else 0,'eligiblePlayerSeasons':len(player_seasons(year,scoring,league['league']['complete'])), 'qualification':'Numeric actual scores for every scheduled NFL game within configured fantasy weeks; explicit NFL byes allowed. Missing played-week scores exclude a player-season.'},
+            'pickups':pickup_rows(year,activity,scoring,{i:identity(t) for i,t in teams.items()}), 'allFantasyTeam': fantasy_team, 'weekly': weekly, 'margins': margins, 'totals': season_totals, 'records': seasons,
             'streaks': streaks, 'players': players, 'mvps': mvps, 'champion': champion,
             'regularSeasonComplete': regular_complete, 'complete': league['league']['complete'],
             'missingLineupWeeks': sorted(missing_weeks), 'missingPlayerPoints': missing_points}
 
 
-def view(candidates):
+def view(candidates, individual=False):
     collect = lambda key: [row for c in candidates.values() for row in c[key]]
     weekly, margins, totals, records, streaks, players = [collect(k) for k in ('weekly', 'margins', 'totals', 'records', 'streaks', 'players')]
+    player_limit=5 if individual else 10
     weekly_rule = 'Completed regular-season and playoff matchups; byes excluded.'
     season_rule = 'Completed regular seasons only; playoff points excluded.'
     team_records = [
         record('team-high', 'Highest Team Score', weekly, rule=weekly_rule),
-        record('team-low', 'Lowest Team Score', weekly, minimum=True, rule=weekly_rule),
+        record('team-low', 'Lowest Team Score', [r for r in weekly if not r['isPlayoff'] or r.get('bracket')=='championship'], minimum=True, rule=weekly_rule),
         record('margin-high', 'Largest Margin of Victory', [r for r in margins if not r['isTie']], rule=weekly_rule),
         record('margin-low', 'Closest Matchup', margins, minimum=True, rule=weekly_rule + ' Ties count as a zero-point margin.'),
-        record('season-high', 'Most Points in a Season', totals, rule=season_rule),
-        record('season-low', 'Fewest Points in a Season', totals, minimum=True, rule=season_rule),
-        record('record-best', 'Best Regular-Season Record', records, unit='record', rule=season_rule + ' Ranked by win percentage; a tie counts as half a win.'),
-        record('record-worst', 'Worst Regular-Season Record', records, minimum=True, unit='record', rule=season_rule + ' Ranked by win percentage; a tie counts as half a win.'),
-        record('streak-win', 'Longest Winning Streak', [r for r in streaks if r['result'] == 'W'], unit='games', rule='Within one season, regular-season completed games only. Ties interrupt; byes do not count; unfinalized games interrupt.'),
-        record('streak-loss', 'Longest Losing Streak', [r for r in streaks if r['result'] == 'L'], unit='games', rule='Within one season, regular-season completed games only. Ties interrupt; byes do not count; unfinalized games interrupt.'),
+        record('season-high', 'Most Points in a Season', totals, limit=5, rule=season_rule),
+        record('season-low', 'Fewest Points in a Season', totals, minimum=True, limit=5, rule=season_rule),
+        record('record-best', 'Best Regular-Season Record', records, unit='record', limit=5, rule=season_rule + ' Ranked by win percentage; a tie counts as half a win.'),
+        record('record-worst', 'Worst Regular-Season Record', records, minimum=True, unit='record', limit=5, rule=season_rule + ' Ranked by win percentage; a tie counts as half a win.'),
+        record('streak-win', 'Longest Winning Streak', [r for r in streaks if r['result'] == 'W'], unit='games', limit=5, rule='Within one season, regular-season completed games only. Ties interrupt; byes do not count; unfinalized games interrupt.'),
+        record('streak-loss', 'Longest Losing Streak', [r for r in streaks if r['result'] == 'L'], unit='games', limit=5, rule='Within one season, regular-season completed games only. Ties interrupt; byes do not count; unfinalized games interrupt.'),
     ]
-    player_records = [
-        record('player-high', 'Highest Player Score in One Week', players, rule='All roster slots in completed matchups; missing actual points excluded.'),
-        record('starter-high', 'Highest Starter Score in One Week', [p for p in players if p['slot'] in STARTERS], rule='Historical starter slots only; BE and IR excluded.'),
-        record('bench-high', 'Highest Bench Score in One Week', [p for p in players if p['slot'] in ('BE', 'BN')], rule='Bench only; IR excluded.'),
-    ]
+    if individual:
+        team_records=[r for r in team_records if r['id'] not in ('season-high','season-low','record-best','record-worst')]
+    player_records=[record('player-high','Highest Player Score in One Week',players,limit=player_limit),
+                    record('bench-high','Highest Bench Score in One Week',[p for p in players if p['slot'] in ('BE','BN')],limit=player_limit)]
+    player_records.insert(1,record('player-season-high','Highest Scoring Player in a Season',collect('playerSeasons'),limit=player_limit))
+    if individual:
+        pickups=collect('pickups')
+        if pickups:player_records.append(record('best-pickup','Best Pickup',pickups,limit=5))
     return {'teamRecords': team_records, 'playerRecords': player_records,
-            'negativeStarterWeeks': sorted([p for p in players if p['slot'] in STARTERS and p['value'] < 0], key=lambda p:(-p['season'], -p['week'], p['team']['teamId'], p['playerId'])),
-            'positionRecords': [record(f'position-{pos}', pos, [p for p in players if p['position'] == pos], rule='All roster slots in completed matchups.') for pos in POSITIONS],
+            'negativeStarterWeeks': [] if individual else sorted([p for p in players if p['slot'] in STARTERS and p['position']!='D/ST' and p['value'] < 0], key=lambda p:(-p['season'], -p['week'], p['team']['teamId'], p['playerId'])),
+            'positionRecords': [record(f'position-{pos}', f'Highest {pos} Score in One Week', [p for p in players if p['position'] == pos], limit=player_limit) for pos in POSITIONS],
             'champions': [{'season': y, 'team': c['champion']} for y, c in sorted(candidates.items()) if c['champion']],
             'mvp': record('mvp', 'Most Valuable Player', collect('mvps'), rule='Regular-season starter contributions to fantasy teams; excludes bench, IR and playoffs. Current season is season-to-date.'),
             'allFantasyTeam': next(iter(candidates.values()))['allFantasyTeam'] if len(candidates) == 1 else [],
-            'coverage': [{'season': y, **{k:c[k] for k in ('complete', 'regularSeasonComplete', 'missingLineupWeeks', 'missingPlayerPoints')}} for y,c in sorted(candidates.items())]}
+            'coverage': [{'season': y, **{k:c[k] for k in ('complete', 'regularSeasonComplete', 'missingLineupWeeks', 'missingPlayerPoints','playerSeasonCoverage')}} for y,c in sorted(candidates.items())]}
 
 
 def build_record_book(output, slug, years):
@@ -184,8 +202,11 @@ def build_record_book(output, slug, years):
         folder = root / str(year)
         read = lambda path: json.loads(path.read_text())
         lineups = {int(p.stem): read(p) for p in (folder / 'lineups').glob('*.json')}
-        candidates[year] = season_candidates(year, read(folder / 'league.json'), read(folder / 'teams.json'), lineups)
-    payload = {'schemaVersion': 1, 'years': sorted(years, reverse=True), 'defaultYear': 'All-Time',
-               'allTime': view(candidates), 'seasons': {str(y): view({y:candidates[y]}) for y in years}}
+        scoring=read(folder/'player-scoring.json') if (folder/'player-scoring.json').exists() else None
+        activity=read(folder/'activity.json') if (folder/'activity.json').exists() else None
+        candidates[year] = season_candidates(year, read(folder / 'league.json'), read(folder / 'teams.json'), lineups,scoring,activity)
+    completed=[y for y in years if candidates[y]['complete']]
+    payload = {'schemaVersion': 2, 'lineupPath':slug+'/', 'years': sorted(completed, reverse=True), 'defaultYear': 'All-Time',
+               'allTime': view(candidates), 'seasons': {str(y): view({y:candidates[y]},individual=True) for y in completed}}
     write_json(root / 'record-book.json', payload)
     return payload
