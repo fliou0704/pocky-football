@@ -4,7 +4,7 @@ from collections import defaultdict
 import math
 
 from football_home import BRACKET
-from football_history import former_players, owner_name, playoff_labels, roster_history
+from football_history import former_players, owner_name, playoff_labels, roster_history, schedule_presentation
 
 
 def _number(value):
@@ -132,6 +132,7 @@ def build_season(league, config, slug, logo_resolver):
                           "roundLabel": match["roundLabel"], "isPlayoff": match["isPlayoff"], "isBye": match["isBye"],
                           "cumulativeRecord": {"wins": wins, "losses": losses, "ties": ties} if match["phase"] == "regular" and result in ("W", "L", "T") else None,
                           "scoreRank": rankings.get(match["week"], {}).get(team_id) if match["status"] == "final" else None})
+        schedule_presentation(weeks)
         scored = [week["score"] for week in weeks if week["phase"] == "regular" and week["status"] == "final"]
         current_roster = _roster(source)
         team_data[str(team_id)] = {"teamId": team_id, "weeks": weeks,
