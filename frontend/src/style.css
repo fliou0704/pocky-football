@@ -124,6 +124,11 @@ tbody .rank { color:var(--brand-strong); font-weight:800; }
 .roster-group li:last-child { border:0; }
 .roster-group li > strong { text-align:right; white-space:nowrap; }
 .roster-group small { margin-top:4px; }
+.team-tabs { display:flex; gap:8px; margin-bottom:24px; border-bottom:1px solid var(--border); }
+.team-tabs button { padding:12px 20px; border:0; border-bottom:3px solid transparent; background:transparent; color:var(--muted); font:inherit; font-weight:750; cursor:pointer; }
+.team-tabs button[aria-selected="true"] { border-bottom-color:var(--brand); color:var(--brand-strong); }
+.lineup-slot { flex:0 0 46px; color:var(--brand-strong); font-size:.8rem; font-weight:850; padding-top:2px; }
+.lineup-player { flex:1; min-width:0; }
 .archive-note { color:var(--muted); font-size:.8rem; line-height:1.5; }
 .desktop-standings { table-layout:auto; }
 .desktop-standings th:nth-child(2) { width:32%; }

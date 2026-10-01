@@ -1,7 +1,7 @@
 import unittest
 from types import SimpleNamespace as NS
 
-from football_history import former_players, owner_name, playoff_labels, roster_history
+from football_history import former_players, owner_name, playoff_labels, roster_history, schedule_presentation
 
 
 class HistoryTests(unittest.TestCase):
@@ -27,6 +27,16 @@ class HistoryTests(unittest.TestCase):
                          ["Playoff Bye — First Round", "Playoffs — First Round", "Playoffs — Semifinal",
                           "Championship", "Third Place", "Winners Consolation", "Losers Consolation"])
         self.assertTrue(games[0]["isBye"])
+
+    def test_elimination_presentation_preserves_path_and_third_place(self):
+        weeks = [
+            {"week": 15, "bracket": "championship", "isPlayoff": True, "result": "L", "roundLabel": "Playoffs — First Round"},
+            {"week": 16, "bracket": "placement", "isPlayoff": True, "result": "W", "roundLabel": "Winners Consolation"},
+            {"week": 17, "bracket": "placement", "isPlayoff": True, "result": "W", "roundLabel": "Third Place"},
+        ]
+        schedule_presentation(weeks)
+        self.assertEqual([w["displayRoundLabel"] for w in weeks], ["Playoffs — First Round", "Eliminated", "Third Place"])
+        self.assertEqual(weeks[1]["roundLabel"], "Winners Consolation")
 
     def test_weekly_rosters_dedupe_and_player_moving_teams(self):
         def side(team_id, player_ids):

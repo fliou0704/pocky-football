@@ -51,6 +51,20 @@ def playoff_labels(matchups, regular_weeks, playoff_teams):
         match["isBye"] = match["status"] == "bye"
 
 
+def schedule_presentation(weeks):
+    """Keep bracket labels intact; simplify games after loss/nonqualification."""
+    eliminated = False
+    for week in sorted(weeks, key=lambda row: row['week']):
+        consolation = week['bracket'] in ('placement', 'consolation')
+        # ESPN's losers ladder explicitly identifies teams outside the title bracket.
+        if week['isPlayoff'] and week['bracket'] == 'consolation':
+            eliminated = True
+        week['displayRoundLabel'] = ('Eliminated' if eliminated and consolation
+                                     and week['roundLabel'] != 'Third Place' else week['roundLabel'])
+        if week['isPlayoff'] and week['bracket'] == 'championship' and week['result'] == 'L':
+            eliminated = True
+
+
 def roster_history(league, last_week):
     """Full weekly roster snapshots, including bench and IR, from ESPN scoreboard."""
     seen = defaultdict(lambda: defaultdict(lambda: {"weeks": set(), "name": None}))
