@@ -45,7 +45,7 @@ class ActivityTests(unittest.TestCase):
         calls=[]
         class Client:
             def league_get(self,params):
-                if params['view']==['mStatus','mSettings']:
+                if isinstance(params['view'],list):
                     return {'status':{'latestScoringPeriod':2,'transactionScoringPeriod':3,'finalScoringPeriod':2},
                             'settings':{'acquisitionSettings':{'isUsingAcquisitionBudget':False}}}
                 calls.append(params['scoringPeriodId'])
@@ -54,7 +54,7 @@ class ActivityTests(unittest.TestCase):
             def get_player_card(self,ids,max_period):
                 return {'players':[{'id':i,'player':{'fullName':str(i)},'transactions':[transaction()]} for i in ids]}
         result=collect_activity(Client(),2021,{10:'A'},{1})
-        self.assertEqual(calls,[0,1,2,3])
+        self.assertEqual(calls,[0,1,2,3,4])
         self.assertFalse(result['coverage']['complete'])
         self.assertEqual(result['coverage']['failedPeriods'],[2])
         self.assertEqual(len(result['events']),1)
