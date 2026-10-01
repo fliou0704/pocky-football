@@ -175,10 +175,11 @@ def generate(slug, config_path=CONFIG_PATH, output=PUBLIC_DATA):
         league = League(league_id=config["leagueId"], year=year,
                         espn_s2=os.environ.get(s2_name) if s2_name else None,
                         swid=os.environ.get(swid_name) if swid_name else None)
-        payload, teams = build_season(league, config, slug, cached_logo)
+        folder = Path(output) / slug / str(year)
+        payload, teams = build_season(league, config, slug, cached_logo,
+                                      lambda week, detail: write_json(folder / 'lineups' / f'{week}.json', detail))
         for team in payload['standings']:
             team_seasons.setdefault(str(team['teamId']), []).append(year)
-        folder = Path(output) / slug / str(year)
         write_json(folder / "league.json", payload)
         write_json(folder / "teams.json", teams)
         if year == config["season"]:

@@ -159,3 +159,21 @@ tbody .rank { color:var(--brand-strong); font-weight:800; }
 .h2h-score > span { display:block; margin-top:5px; color:var(--muted); font-size:.72rem; }
 .h2h-winner .team-name { color:var(--brand-strong); }
 @media(max-width:719px) { .h2h-side { padding:16px 10px; } .h2h-side .team { flex-direction:column; align-items:flex-start; } .h2h-side .team img,.h2h-side .team-logo-fallback { width:48px; height:48px; } .h2h-record { gap:10px; padding:14px 10px; } .h2h-record > .team { flex-direction:column; } .h2h-result { padding:14px 10px; gap:8px; grid-template-columns:minmax(0,1fr) minmax(130px,1.4fr) minmax(0,1fr); } .h2h-result .team { flex-direction:column; } .h2h-result .team-name { font-size:.7rem; text-align:center; } .h2h-score > strong { font-size:.9rem; } .h2h-score small { font-size:.55rem; } }
+.h2h-record > .team img,.h2h-record > .team .team-logo-fallback { width:56px; height:56px; }
+.h2h-selection-prompt { margin:20px 0; color:var(--muted); }
+.h2h-entry { border-bottom:1px solid var(--border); }
+.h2h-entry:last-child { border-bottom:0; }
+button.h2h-result { width:100%; border:0; background:var(--surface); color:var(--ink); font:inherit; text-align:left; cursor:pointer; }
+button.h2h-result:hover,button.h2h-result[aria-expanded="true"] { background:var(--surface-muted); }
+.h2h-details { padding:16px; background:var(--surface-muted); border-top:1px solid var(--border); }
+.h2h-detail-message { margin:0; color:var(--muted); font-size:.85rem; }
+.h2h-lineups { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:16px; }
+.h2h-lineup { min-width:0; background:white; border-top:3px solid var(--brand); }
+.h2h-lineup header { padding:12px; border-bottom:1px solid var(--border); }
+.h2h-lineup ul { list-style:none; margin:0; padding:0; }
+.h2h-lineup li { display:grid; grid-template-columns:42px minmax(0,1fr) auto; gap:8px; align-items:center; padding:9px 12px; border-bottom:1px solid var(--border); font-size:.8rem; }
+.h2h-lineup li > strong { font-variant-numeric:tabular-nums; }
+.h2h-lineup .lineup-slot { font-size:.72rem; }
+.h2h-lineup small { font-size:.6rem; }
+.h2h-lineup > p { padding:12px; }
+@media(max-width:719px) { .h2h-lineups { grid-template-columns:minmax(0,1fr); } .h2h-record > .team img,.h2h-record > .team .team-logo-fallback { width:48px; height:48px; } }

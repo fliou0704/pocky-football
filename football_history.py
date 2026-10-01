@@ -65,10 +65,24 @@ def schedule_presentation(weeks):
             eliminated = True
 
 
-def roster_history(league, last_week):
+def lineup_entry(entry, week):
+    from espn_api.football.constant import POSITION_MAP, PRO_TEAM_MAP
+    player = (entry.get('playerPoolEntry') or {}).get('player') or {}
+    actual = next((stat for stat in player.get('stats', []) if stat.get('scoringPeriodId') == week
+                   and stat.get('statSourceId') == 0 and stat.get('statSplitTypeId') == 1), None)
+    slot = POSITION_MAP.get(entry.get('lineupSlotId'), 'Unknown')
+    return {'playerId': entry.get('playerId'), 'name': player.get('fullName', 'Unknown player'),
+            'slot': {'RB/WR/TE': 'FLEX', 'BN': 'BE'}.get(slot, slot),
+            'nflTeam': PRO_TEAM_MAP.get(player.get('proTeamId'), '—'),
+            'position': {1: 'QB', 2: 'RB', 3: 'WR', 4: 'TE', 5: 'K', 16: 'D/ST'}.get(player.get('defaultPositionId'), '—'),
+            'points': round(float(actual['appliedTotal']), 2) if actual and actual.get('appliedTotal') is not None else None}
+
+
+def roster_history(league, last_week, detail_writer=None):
     """Full weekly roster snapshots, including bench and IR, from ESPN scoreboard."""
     seen = defaultdict(lambda: defaultdict(lambda: {"weeks": set(), "name": None}))
     for week in range(1, last_week + 1):
+        lineups = {}
         period = next((int(period) for period, weeks in league.settings.matchup_periods.items() if week in weeks), week)
         filters = {"schedule": {"filterMatchupPeriodIds": {"value": [period]}}}
         raw = league.espn_request.league_get(
@@ -82,6 +96,8 @@ def roster_history(league, last_week):
                 if team_id is None:
                     continue
                 roster = team.get("rosterForCurrentScoringPeriod") or {}
+                if detail_writer is not None:
+                    lineups[str(team_id)] = [lineup_entry(entry, week) for entry in roster.get('entries', [])]
                 for entry in roster.get("entries", []):
                     player_id = entry.get("playerId")
                     player = (entry.get("playerPoolEntry") or {}).get("player") or {}
@@ -90,6 +106,8 @@ def roster_history(league, last_week):
                     record = seen[team_id][player_id]
                     record["weeks"].add(week)
                     record["name"] = player["fullName"]
+        if detail_writer is not None:
+            detail_writer(week, {'schemaVersion': 1, 'season': league.year, 'week': week, 'teams': lineups})
     return seen
 
 

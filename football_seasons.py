@@ -31,7 +31,7 @@ def _roster(team):
     return rows
 
 
-def build_season(league, config, slug, logo_resolver):
+def build_season(league, config, slug, logo_resolver, detail_writer=None):
     complete = int(league.scoringPeriodId) > int(league.finalScoringPeriod)
     regular_weeks = int(league.settings.reg_season_count)
     teams = sorted(league.teams, key=lambda team: team.standing)
@@ -96,7 +96,7 @@ def build_season(league, config, slug, logo_resolver):
                          "phase": "regular" if week <= regular_weeks else "playoffs"})
     matchups.sort(key=lambda match: (match["week"], match["homeTeamId"]))
     playoff_labels(matchups, regular_weeks, int(league.settings.playoff_team_count))
-    history = roster_history(league, min(int(league.scoringPeriodId), int(league.finalScoringPeriod)))
+    history = roster_history(league, min(int(league.scoringPeriodId), int(league.finalScoringPeriod)), detail_writer)
     weekly_scores = defaultdict(list)
     for match in matchups:
         if match["status"] == "bye":
