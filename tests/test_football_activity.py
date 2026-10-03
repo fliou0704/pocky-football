@@ -15,6 +15,14 @@ def transaction(kind='WAIVER',status='EXECUTED'):
 
 
 class ActivityTests(unittest.TestCase):
+    def test_drop_moves_to_free_agent_pool_and_never_adds_null_team(self):
+        for destination in (0,None):
+            raw={**transaction('ROSTER'),'items':[{'type':'DROP','playerId':11,'fromTeamId':1,'toTeamId':destination}]}
+            event=normalize_transaction(raw,2025,{11:'Dropped'},{1,2})
+            self.assertEqual(event['type'],'drop');self.assertEqual(len(event['teams']),1)
+            self.assertEqual(event['teams'][0]['teamId'],1);self.assertEqual(event['teams'][0]['playersAdded'],[])
+            self.assertEqual(event['teams'][0]['playersDropped'][0]['playerId'],11)
+
     def test_minimal_executed_add_drop_and_faab(self):
         event=normalize_transaction(transaction(),2025,{10:'Added',11:'Dropped'},{1,2},True)
         self.assertEqual(event['type'],'waiver_add')

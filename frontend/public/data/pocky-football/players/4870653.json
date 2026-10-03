@@ -47,29 +47,29 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 3,
-        "points": 18.9,
-        "average": 6.3,
+        "weeks": 4,
+        "points": 30.3,
+        "average": 7.57,
         "high": {
           "season": 2026,
-          "week": 2,
-          "points": 8.2
+          "week": 4,
+          "points": 11.4
         },
         "starts": 0,
         "starterPoints": null
       },
       "seasonStats": {
-        "gp": 3,
-        "points": 18.9,
-        "fppg": 6.3,
+        "gp": 0,
+        "points": 0,
+        "fppg": null,
         "nflStats": {
-          "receptions": 12.0,
-          "recYards": 80.0,
+          "receptions": 17.0,
+          "recYards": 144.0,
           "recTD": 0,
           "rushYards": 9.0
         },
         "participationComplete": true,
-        "scope": "NFL weeks covered by this fantasy season"
+        "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
       },
       "weeks": [
         {
@@ -96,6 +96,7 @@
           },
           "season": 2026,
           "week": 1,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 7.8,
           "nflTeam": "CLE",
@@ -138,6 +139,7 @@
           },
           "season": 2026,
           "week": 2,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 8.2,
           "nflTeam": "CLE",
@@ -180,6 +182,7 @@
           },
           "season": 2026,
           "week": 3,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 2.9,
           "nflTeam": "CLE",
@@ -199,7 +202,7 @@
           ]
         },
         {
-          "gameState": "live",
+          "gameState": "played",
           "nflStats": {
             "passAttempts": 0,
             "passYards": 0,
@@ -222,8 +225,9 @@
           },
           "season": 2026,
           "week": 4,
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "upcoming",
+          "status": "final",
+          "points": 11.4,
           "nflTeam": "CLE",
           "nflOpponent": "PIT",
           "rosters": []
@@ -233,6 +237,7 @@
           "nflStats": {},
           "season": 2026,
           "week": 5,
+          "fantasyStatus": "upcoming",
           "status": "upcoming",
           "points": null,
           "nflTeam": "CLE",
@@ -244,6 +249,7 @@
           "nflStats": {},
           "season": 2026,
           "week": 6,
+          "fantasyStatus": "upcoming",
           "status": "upcoming",
           "points": null,
           "nflTeam": "CLE",
@@ -255,6 +261,7 @@
           "nflStats": {},
           "season": 2026,
           "week": 7,
+          "fantasyStatus": "upcoming",
           "status": "upcoming",
           "points": null,
           "nflTeam": "CLE",
@@ -266,6 +273,7 @@
           "nflStats": {},
           "season": 2026,
           "week": 8,
+          "fantasyStatus": "upcoming",
           "status": "upcoming",
           "points": null,
           "nflTeam": "CLE",
@@ -277,6 +285,7 @@
           "nflStats": {},
           "season": 2026,
           "week": 9,
+          "fantasyStatus": "upcoming",
           "status": "upcoming",
           "points": null,
           "nflTeam": "CLE",
@@ -288,6 +297,7 @@
           "nflStats": {},
           "season": 2026,
           "week": 10,
+          "fantasyStatus": "upcoming",
           "status": "upcoming",
           "points": null,
           "nflTeam": "CLE",
@@ -299,6 +309,7 @@
           "nflStats": {},
           "season": 2026,
           "week": 11,
+          "fantasyStatus": "upcoming",
           "status": "upcoming",
           "points": null,
           "nflTeam": "CLE",
@@ -310,6 +321,7 @@
           "nflStats": {},
           "season": 2026,
           "week": 12,
+          "fantasyStatus": "upcoming",
           "status": "upcoming",
           "points": null,
           "nflTeam": "CLE",
@@ -321,6 +333,7 @@
           "nflStats": {},
           "season": 2026,
           "week": 13,
+          "fantasyStatus": "upcoming",
           "status": "upcoming",
           "points": null,
           "nflTeam": "CLE",
@@ -332,10 +345,59 @@
           "nflStats": {},
           "season": 2026,
           "week": 14,
+          "fantasyStatus": "upcoming",
           "status": "upcoming",
           "points": null,
           "nflTeam": "CLE",
           "nflOpponent": "ATL",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 15,
+          "fantasyStatus": "upcoming",
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "CLE",
+          "nflOpponent": "NYG",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 16,
+          "fantasyStatus": "upcoming",
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "CLE",
+          "nflOpponent": "BAL",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 17,
+          "fantasyStatus": "upcoming",
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "CLE",
+          "nflOpponent": "IND",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 18,
+          "fantasyStatus": "upcoming",
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "CLE",
+          "nflOpponent": "CIN",
           "rosters": []
         }
       ],
@@ -388,13 +450,13 @@
     }
   ],
   "career": {
-    "weeks": 3,
-    "points": 18.9,
-    "average": 6.3,
+    "weeks": 4,
+    "points": 30.3,
+    "average": 7.57,
     "high": {
       "season": 2026,
-      "week": 2,
-      "points": 8.2
+      "week": 4,
+      "points": 11.4
     },
     "starts": 0,
     "starterPoints": null

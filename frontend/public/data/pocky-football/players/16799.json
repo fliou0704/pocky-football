@@ -47,9 +47,9 @@
       "season": 2022,
       "complete": true,
       "summary": {
-        "weeks": 16,
+        "weeks": 17,
         "points": 84.9,
-        "average": 5.31,
+        "average": 4.99,
         "high": {
           "season": 2022,
           "week": 6,
@@ -59,17 +59,17 @@
         "starterPoints": 46.0
       },
       "seasonStats": {
-        "gp": null,
-        "points": 84.9,
-        "fppg": null,
+        "gp": 6,
+        "points": 46.0,
+        "fppg": 7.67,
         "nflStats": {
-          "receptions": null,
-          "recYards": null,
-          "recTD": null,
-          "rushYards": null
+          "receptions": 33.0,
+          "recYards": 339.0,
+          "recTD": 3.0,
+          "rushYards": 0
         },
-        "participationComplete": false,
-        "scope": "NFL weeks covered by this fantasy season"
+        "participationComplete": true,
+        "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
       },
       "weeks": [
         {
@@ -96,6 +96,7 @@
           },
           "season": 2022,
           "week": 1,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 2.2,
           "nflTeam": "LAR",
@@ -138,6 +139,7 @@
           },
           "season": 2022,
           "week": 2,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 15.3,
           "nflTeam": "LAR",
@@ -180,6 +182,7 @@
           },
           "season": 2022,
           "week": 3,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 4.3,
           "nflTeam": "LAR",
@@ -222,6 +225,7 @@
           },
           "season": 2022,
           "week": 4,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 2.7,
           "nflTeam": "LAR",
@@ -264,6 +268,7 @@
           },
           "season": 2022,
           "week": 5,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 4.2,
           "nflTeam": "LAR",
@@ -306,6 +311,7 @@
           },
           "season": 2022,
           "week": 6,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 17.3,
           "nflTeam": "LAR",
@@ -329,6 +335,7 @@
           "nflStats": {},
           "season": 2022,
           "week": 7,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "LAR",
@@ -371,6 +378,7 @@
           },
           "season": 2022,
           "week": 8,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 10.4,
           "nflTeam": "LAR",
@@ -413,6 +421,7 @@
           },
           "season": 2022,
           "week": 9,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 5.4,
           "nflTeam": "LAR",
@@ -455,6 +464,7 @@
           },
           "season": 2022,
           "week": 10,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 8.4,
           "nflTeam": "LAR",
@@ -497,6 +507,7 @@
           },
           "season": 2022,
           "week": 11,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 14.7,
           "nflTeam": "LAR",
@@ -516,7 +527,7 @@
           ]
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -539,6 +550,7 @@
           },
           "season": 2022,
           "week": 12,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "LAR",
@@ -558,7 +570,7 @@
           ]
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -581,6 +593,7 @@
           },
           "season": 2022,
           "week": 13,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "LAR",
@@ -588,7 +601,7 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -611,6 +624,7 @@
           },
           "season": 2022,
           "week": 14,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "LAR",
@@ -618,7 +632,7 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -641,6 +655,7 @@
           },
           "season": 2022,
           "week": 15,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "LAR",
@@ -648,7 +663,7 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -671,6 +686,7 @@
           },
           "season": 2022,
           "week": 16,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "LAR",
@@ -678,7 +694,7 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -701,10 +717,42 @@
           },
           "season": 2022,
           "week": 17,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "LAR",
           "nflOpponent": "LAC",
+          "rosters": []
+        },
+        {
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
+          "season": 2022,
+          "week": 18,
+          "fantasyStatus": "upcoming",
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "SEA",
           "rosters": []
         }
       ],
@@ -777,9 +825,9 @@
       "season": 2021,
       "complete": true,
       "summary": {
-        "weeks": 16,
-        "points": 80.8,
-        "average": 5.05,
+        "weeks": 17,
+        "points": 87.0,
+        "average": 5.12,
         "high": {
           "season": 2021,
           "week": 9,
@@ -789,17 +837,17 @@
         "starterPoints": 37.5
       },
       "seasonStats": {
-        "gp": null,
-        "points": 80.8,
-        "fppg": null,
+        "gp": 6,
+        "points": 37.5,
+        "fppg": 6.25,
         "nflStats": {
-          "receptions": null,
-          "recYards": null,
-          "recTD": null,
-          "rushYards": null
+          "receptions": 38.0,
+          "recYards": 410.0,
+          "recTD": 1.0,
+          "rushYards": 0
         },
-        "participationComplete": false,
-        "scope": "NFL weeks covered by this fantasy season"
+        "participationComplete": true,
+        "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
       },
       "weeks": [
         {
@@ -826,6 +874,7 @@
           },
           "season": 2021,
           "week": 1,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 9.5,
           "nflTeam": "CHI",
@@ -868,6 +917,7 @@
           },
           "season": 2021,
           "week": 2,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 10.4,
           "nflTeam": "CHI",
@@ -910,6 +960,7 @@
           },
           "season": 2021,
           "week": 3,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 4.7,
           "nflTeam": "CHI",
@@ -952,6 +1003,7 @@
           },
           "season": 2021,
           "week": 4,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 9.3,
           "nflTeam": "CHI",
@@ -994,6 +1046,7 @@
           },
           "season": 2021,
           "week": 5,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 7.2,
           "nflTeam": "CHI",
@@ -1036,6 +1089,7 @@
           },
           "season": 2021,
           "week": 6,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 9.3,
           "nflTeam": "CHI",
@@ -1078,6 +1132,7 @@
           },
           "season": 2021,
           "week": 7,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 3.6,
           "nflTeam": "CHI",
@@ -1120,6 +1175,7 @@
           },
           "season": 2021,
           "week": 8,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 5.1,
           "nflTeam": "CHI",
@@ -1162,6 +1218,7 @@
           },
           "season": 2021,
           "week": 9,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 10.8,
           "nflTeam": "CHI",
@@ -1185,6 +1242,7 @@
           "nflStats": {},
           "season": 2021,
           "week": 10,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "CHI",
@@ -1204,7 +1262,7 @@
           ]
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -1227,6 +1285,7 @@
           },
           "season": 2021,
           "week": 11,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "CHI",
@@ -1246,7 +1305,7 @@
           ]
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -1269,6 +1328,7 @@
           },
           "season": 2021,
           "week": 12,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "CHI",
@@ -1288,7 +1348,7 @@
           ]
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -1311,6 +1371,7 @@
           },
           "season": 2021,
           "week": 13,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "CHI",
@@ -1353,6 +1414,7 @@
           },
           "season": 2021,
           "week": 14,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 3.4,
           "nflTeam": "CHI",
@@ -1372,7 +1434,7 @@
           ]
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -1395,6 +1457,7 @@
           },
           "season": 2021,
           "week": 15,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "CHI",
@@ -1414,7 +1477,7 @@
           ]
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -1437,6 +1500,7 @@
           },
           "season": 2021,
           "week": 16,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "CHI",
@@ -1479,6 +1543,7 @@
           },
           "season": 2021,
           "week": 17,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 7.5,
           "nflTeam": "CHI",
@@ -1496,6 +1561,37 @@
               "nflOpponent": "NYG"
             }
           ]
+        },
+        {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 2.0,
+            "recYards": 22.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
+          "season": 2021,
+          "week": 18,
+          "fantasyStatus": "upcoming",
+          "status": "final",
+          "points": 6.2,
+          "nflTeam": "CHI",
+          "nflOpponent": "MIN",
+          "rosters": []
         }
       ],
       "ownership": [
@@ -1561,9 +1657,9 @@
     }
   ],
   "career": {
-    "weeks": 32,
-    "points": 165.7,
-    "average": 5.18,
+    "weeks": 34,
+    "points": 171.9,
+    "average": 5.06,
     "high": {
       "season": 2022,
       "week": 6,

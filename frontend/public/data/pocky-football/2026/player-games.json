@@ -1,6 +1,26 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "season": 2026,
+  "weeks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
   "source": "ESPN actual weekly playercard stats; participation stat 210",
   "players": {
     "4685278": {
@@ -28,7 +48,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872963"
+        "eventId": "401872963",
+        "points": 19.8,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -54,7 +76,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872937"
+        "eventId": "401872937",
+        "points": 6.2,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -80,7 +104,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872661"
+        "eventId": "401872661",
+        "points": 9.5,
+        "actualRecord": true
       }
     },
     "4574716": {
@@ -108,7 +134,9 @@
         },
         "nflTeam": "LAR",
         "hasActualStats": true,
-        "eventId": "401872962"
+        "eventId": "401872962",
+        "points": 16.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -134,7 +162,9 @@
         },
         "nflTeam": "LAR",
         "hasActualStats": true,
-        "eventId": "401872947"
+        "eventId": "401872947",
+        "points": 3.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -160,7 +190,9 @@
         },
         "nflTeam": "LAR",
         "hasActualStats": true,
-        "eventId": "401872657"
+        "eventId": "401872657",
+        "points": 1.0,
+        "actualRecord": true
       }
     },
     "4572680": {
@@ -188,7 +220,9 @@
         },
         "nflTeam": "GB",
         "hasActualStats": true,
-        "eventId": "401872948"
+        "eventId": "401872948",
+        "points": 6.6,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -214,7 +248,9 @@
         },
         "nflTeam": "GB",
         "hasActualStats": true,
-        "eventId": "401872936"
+        "eventId": "401872936",
+        "points": 3.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -240,7 +276,9 @@
         },
         "nflTeam": "GB",
         "hasActualStats": true,
-        "eventId": "401872927"
+        "eventId": "401872927",
+        "points": 9.5,
+        "actualRecord": true
       }
     },
     "15818": {
@@ -268,7 +306,9 @@
         },
         "nflTeam": "IND",
         "hasActualStats": true,
-        "eventId": "401872951"
+        "eventId": "401872951",
+        "points": 18.3,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -294,7 +334,9 @@
         },
         "nflTeam": "IND",
         "hasActualStats": true,
-        "eventId": "401872945"
+        "eventId": "401872945",
+        "points": 1.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -320,7 +362,9 @@
         },
         "nflTeam": "IND",
         "hasActualStats": true,
-        "eventId": "401872659"
+        "eventId": "401872659",
+        "points": 9.2,
+        "actualRecord": true
       }
     },
     "3917315": {
@@ -348,7 +392,9 @@
         },
         "nflTeam": "MIN",
         "hasActualStats": true,
-        "eventId": "401872959"
+        "eventId": "401872959",
+        "points": 10.42,
+        "actualRecord": true
       },
       "2": {
         "played": false,
@@ -375,6 +421,8 @@
         "nflTeam": "MIN",
         "hasActualStats": false,
         "eventId": "401872937",
+        "points": 0.0,
+        "actualRecord": true,
         "participationSource": "espn_eventlog"
       },
       "1": {
@@ -401,7 +449,9 @@
         },
         "nflTeam": "MIN",
         "hasActualStats": true,
-        "eventId": "401872927"
+        "eventId": "401872927",
+        "points": -0.38,
+        "actualRecord": true
       }
     },
     "4429205": {
@@ -429,7 +479,9 @@
         },
         "nflTeam": "MIN",
         "hasActualStats": true,
-        "eventId": "401872959"
+        "eventId": "401872959",
+        "points": 20.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -455,7 +507,9 @@
         },
         "nflTeam": "MIN",
         "hasActualStats": true,
-        "eventId": "401872937"
+        "eventId": "401872937",
+        "points": 4.1,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -481,7 +535,9 @@
         },
         "nflTeam": "MIN",
         "hasActualStats": true,
-        "eventId": "401872927"
+        "eventId": "401872927",
+        "points": 0.0,
+        "actualRecord": true
       }
     },
     "4568490": {
@@ -509,7 +565,9 @@
         },
         "nflTeam": "DEN",
         "hasActualStats": true,
-        "eventId": "401872962"
+        "eventId": "401872962",
+        "points": 10.7,
+        "actualRecord": true
       },
       "2": {
         "played": false,
@@ -536,6 +594,8 @@
         "nflTeam": "DEN",
         "hasActualStats": false,
         "eventId": "401872940",
+        "points": 0.0,
+        "actualRecord": true,
         "participationSource": "espn_eventlog"
       },
       "1": {
@@ -562,7 +622,9 @@
         },
         "nflTeam": "DEN",
         "hasActualStats": true,
-        "eventId": "401872931"
+        "eventId": "401872931",
+        "points": 8.1,
+        "actualRecord": true
       }
     },
     "15847": {
@@ -590,7 +652,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872952"
+        "eventId": "401872952",
+        "points": 13.9,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -616,7 +680,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872945"
+        "eventId": "401872945",
+        "points": 25.1,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -642,7 +708,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872931"
+        "eventId": "401872931",
+        "points": 10.1,
+        "actualRecord": true
       }
     },
     "4431299": {
@@ -670,7 +738,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872963"
+        "eventId": "401872963",
+        "points": 7.4,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -696,7 +766,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872937"
+        "eventId": "401872937",
+        "points": 7.3,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -722,7 +794,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872661"
+        "eventId": "401872661",
+        "points": 7.2,
+        "actualRecord": true
       }
     },
     "4431452": {
@@ -750,7 +824,9 @@
         },
         "nflTeam": "NE",
         "hasActualStats": true,
-        "eventId": "401872957"
+        "eventId": "401872957",
+        "points": 3.76,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -776,7 +852,9 @@
         },
         "nflTeam": "NE",
         "hasActualStats": true,
-        "eventId": "401872946"
+        "eventId": "401872946",
+        "points": 8.02,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -802,7 +880,9 @@
         },
         "nflTeam": "NE",
         "hasActualStats": true,
-        "eventId": "401872656"
+        "eventId": "401872656",
+        "points": 9.82,
+        "actualRecord": true
       }
     },
     "4427366": {
@@ -830,7 +910,9 @@
         },
         "nflTeam": "NYJ",
         "hasActualStats": true,
-        "eventId": "401872954"
+        "eventId": "401872954",
+        "points": 8.5,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -856,7 +938,9 @@
         },
         "nflTeam": "NYJ",
         "hasActualStats": true,
-        "eventId": "401872936"
+        "eventId": "401872936",
+        "points": 14.2,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -882,7 +966,9 @@
         },
         "nflTeam": "NYJ",
         "hasActualStats": true,
-        "eventId": "401872924"
+        "eventId": "401872924",
+        "points": 19.8,
+        "actualRecord": true
       }
     },
     "3929645": {
@@ -910,7 +996,9 @@
         },
         "nflTeam": "NO",
         "hasActualStats": true,
-        "eventId": "401872961"
+        "eventId": "401872961",
+        "points": 23.3,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -936,7 +1024,9 @@
         },
         "nflTeam": "NO",
         "hasActualStats": true,
-        "eventId": "401872938"
+        "eventId": "401872938",
+        "points": 10.6,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -962,7 +1052,9 @@
         },
         "nflTeam": "NO",
         "hasActualStats": true,
-        "eventId": "401872923"
+        "eventId": "401872923",
+        "points": 14.4,
+        "actualRecord": true
       }
     },
     "4431459": {
@@ -990,7 +1082,9 @@
         },
         "nflTeam": "IND",
         "hasActualStats": true,
-        "eventId": "401872951"
+        "eventId": "401872951",
+        "points": 14.7,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -1016,7 +1110,9 @@
         },
         "nflTeam": "IND",
         "hasActualStats": true,
-        "eventId": "401872945"
+        "eventId": "401872945",
+        "points": 14.4,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -1042,7 +1138,9 @@
         },
         "nflTeam": "IND",
         "hasActualStats": true,
-        "eventId": "401872659"
+        "eventId": "401872659",
+        "points": 10.3,
+        "actualRecord": true
       }
     },
     "3929630": {
@@ -1070,7 +1168,9 @@
         },
         "nflTeam": "PHI",
         "hasActualStats": true,
-        "eventId": "401872963"
+        "eventId": "401872963",
+        "points": 9.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -1096,7 +1196,9 @@
         },
         "nflTeam": "PHI",
         "hasActualStats": true,
-        "eventId": "401872939"
+        "eventId": "401872939",
+        "points": 3.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -1122,7 +1224,9 @@
         },
         "nflTeam": "PHI",
         "hasActualStats": true,
-        "eventId": "401872929"
+        "eventId": "401872929",
+        "points": 9.0,
+        "actualRecord": true
       }
     },
     "4361741": {
@@ -1150,7 +1254,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872958"
+        "eventId": "401872958",
+        "points": 31.28,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -1176,7 +1282,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872942"
+        "eventId": "401872942",
+        "points": 28.48,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -1202,7 +1310,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872657"
+        "eventId": "401872657",
+        "points": 21.1,
+        "actualRecord": true
       }
     },
     "4832800": {
@@ -1230,7 +1340,9 @@
         },
         "nflTeam": "CLE",
         "hasActualStats": true,
-        "eventId": "401872964"
+        "eventId": "401872964",
+        "points": 12.9,
+        "actualRecord": true
       },
       "3": {
         "played": true,
@@ -1256,7 +1368,9 @@
         },
         "nflTeam": "CLE",
         "hasActualStats": true,
-        "eventId": "401872949"
+        "eventId": "401872949",
+        "points": 8.1,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -1282,7 +1396,9 @@
         },
         "nflTeam": "CLE",
         "hasActualStats": true,
-        "eventId": "401872935"
+        "eventId": "401872935",
+        "points": 20.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -1308,7 +1424,9 @@
         },
         "nflTeam": "CLE",
         "hasActualStats": true,
-        "eventId": "401872922"
+        "eventId": "401872922",
+        "points": 13.9,
+        "actualRecord": true
       }
     },
     "4372016": {
@@ -1336,7 +1454,9 @@
         },
         "nflTeam": "DEN",
         "hasActualStats": true,
-        "eventId": "401872962"
+        "eventId": "401872962",
+        "points": 6.4,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -1362,7 +1482,9 @@
         },
         "nflTeam": "DEN",
         "hasActualStats": true,
-        "eventId": "401872940"
+        "eventId": "401872940",
+        "points": 21.8,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -1388,7 +1510,9 @@
         },
         "nflTeam": "DEN",
         "hasActualStats": true,
-        "eventId": "401872931"
+        "eventId": "401872931",
+        "points": 1.2,
+        "actualRecord": true
       }
     },
     "4685382": {
@@ -1416,7 +1540,9 @@
         },
         "nflTeam": "LAC",
         "hasActualStats": true,
-        "eventId": "401872953"
+        "eventId": "401872953",
+        "points": 5.6,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -1442,7 +1568,9 @@
         },
         "nflTeam": "LAC",
         "hasActualStats": true,
-        "eventId": "401872941"
+        "eventId": "401872941",
+        "points": 17.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -1468,7 +1596,9 @@
         },
         "nflTeam": "LAC",
         "hasActualStats": true,
-        "eventId": "401872926"
+        "eventId": "401872926",
+        "points": 8.3,
+        "actualRecord": true
       }
     },
     "4366031": {
@@ -1496,7 +1626,9 @@
         },
         "nflTeam": "HOU",
         "hasActualStats": false,
-        "eventId": "401872951"
+        "eventId": "401872951",
+        "points": 0.0,
+        "actualRecord": true
       },
       "2": {
         "played": null,
@@ -1522,7 +1654,9 @@
         },
         "nflTeam": "HOU",
         "hasActualStats": false,
-        "eventId": "401872934"
+        "eventId": "401872934",
+        "points": 0.0,
+        "actualRecord": true
       },
       "1": {
         "played": null,
@@ -1548,7 +1682,9 @@
         },
         "nflTeam": "HOU",
         "hasActualStats": false,
-        "eventId": "401872660"
+        "eventId": "401872660",
+        "points": 0.0,
+        "actualRecord": true
       }
     },
     "4697815": {
@@ -1576,7 +1712,9 @@
         },
         "nflTeam": "WSH",
         "hasActualStats": true,
-        "eventId": "401872955"
+        "eventId": "401872955",
+        "points": 11.1,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -1602,7 +1740,9 @@
         },
         "nflTeam": "WSH",
         "hasActualStats": true,
-        "eventId": "401872944"
+        "eventId": "401872944",
+        "points": 14.3,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -1628,7 +1768,9 @@
         },
         "nflTeam": "WSH",
         "hasActualStats": true,
-        "eventId": "401872929"
+        "eventId": "401872929",
+        "points": 4.7,
+        "actualRecord": true
       }
     },
     "4259545": {
@@ -1656,7 +1798,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872963"
+        "eventId": "401872963",
+        "points": 10.8,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -1682,7 +1826,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872937"
+        "eventId": "401872937",
+        "points": 12.9,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -1708,7 +1854,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872661"
+        "eventId": "401872661",
+        "points": 32.4,
+        "actualRecord": true
       }
     },
     "4701936": {
@@ -1736,7 +1884,9 @@
         },
         "nflTeam": "GB",
         "hasActualStats": true,
-        "eventId": "401872948"
+        "eventId": "401872948",
+        "points": 21.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -1762,7 +1912,9 @@
         },
         "nflTeam": "GB",
         "hasActualStats": true,
-        "eventId": "401872936"
+        "eventId": "401872936",
+        "points": 9.8,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -1788,7 +1940,9 @@
         },
         "nflTeam": "GB",
         "hasActualStats": true,
-        "eventId": "401872927"
+        "eventId": "401872927",
+        "points": 15.5,
+        "actualRecord": true
       }
     },
     "4431611": {
@@ -1817,6 +1971,8 @@
         "nflTeam": "CHI",
         "hasActualStats": false,
         "eventId": "401872963",
+        "points": 0.0,
+        "actualRecord": true,
         "participationSource": "espn_eventlog"
       },
       "2": {
@@ -1843,7 +1999,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872937"
+        "eventId": "401872937",
+        "points": 7.72,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -1869,7 +2027,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872661"
+        "eventId": "401872661",
+        "points": 37.26,
+        "actualRecord": true
       }
     },
     "3915416": {
@@ -1897,7 +2057,9 @@
         },
         "nflTeam": "BUF",
         "hasActualStats": true,
-        "eventId": "401872953"
+        "eventId": "401872953",
+        "points": 12.7,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -1923,7 +2085,9 @@
         },
         "nflTeam": "BUF",
         "hasActualStats": true,
-        "eventId": "401872932"
+        "eventId": "401872932",
+        "points": -0.1,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -1949,7 +2113,9 @@
         },
         "nflTeam": "BUF",
         "hasActualStats": true,
-        "eventId": "401872660"
+        "eventId": "401872660",
+        "points": 21.0,
+        "actualRecord": true
       }
     },
     "4595348": {
@@ -1977,7 +2143,9 @@
         },
         "nflTeam": "NYG",
         "hasActualStats": true,
-        "eventId": "401872956"
+        "eventId": "401872956",
+        "points": 7.6,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -2003,7 +2171,9 @@
         },
         "nflTeam": "NYG",
         "hasActualStats": true,
-        "eventId": "401872947"
+        "eventId": "401872947",
+        "points": 1.1,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -2029,7 +2199,9 @@
         },
         "nflTeam": "NYG",
         "hasActualStats": true,
-        "eventId": "401872930"
+        "eventId": "401872930",
+        "points": 12.9,
+        "actualRecord": true
       }
     },
     "4685472": {
@@ -2057,7 +2229,9 @@
         },
         "nflTeam": "CAR",
         "hasActualStats": true,
-        "eventId": "401872949"
+        "eventId": "401872949",
+        "points": 3.7,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -2083,7 +2257,9 @@
         },
         "nflTeam": "CAR",
         "hasActualStats": true,
-        "eventId": "401872933"
+        "eventId": "401872933",
+        "points": 15.1,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -2109,7 +2285,9 @@
         },
         "nflTeam": "CAR",
         "hasActualStats": true,
-        "eventId": "401872661"
+        "eventId": "401872661",
+        "points": 10.5,
+        "actualRecord": true
       }
     },
     "3043078": {
@@ -2137,7 +2315,9 @@
         },
         "nflTeam": "BAL",
         "hasActualStats": true,
-        "eventId": "401872960"
+        "eventId": "401872960",
+        "points": 21.9,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -2163,7 +2343,9 @@
         },
         "nflTeam": "BAL",
         "hasActualStats": true,
-        "eventId": "401872938"
+        "eventId": "401872938",
+        "points": 17.7,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -2189,7 +2371,9 @@
         },
         "nflTeam": "BAL",
         "hasActualStats": true,
-        "eventId": "401872659"
+        "eventId": "401872659",
+        "points": 35.3,
+        "actualRecord": true
       }
     },
     "3915511": {
@@ -2217,7 +2401,9 @@
         },
         "nflTeam": "CIN",
         "hasActualStats": true,
-        "eventId": "401872950"
+        "eventId": "401872950",
+        "points": 22.58,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -2243,7 +2429,9 @@
         },
         "nflTeam": "CIN",
         "hasActualStats": true,
-        "eventId": "401872934"
+        "eventId": "401872934",
+        "points": 16.18,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -2269,7 +2457,9 @@
         },
         "nflTeam": "CIN",
         "hasActualStats": true,
-        "eventId": "401872925"
+        "eventId": "401872925",
+        "points": 14.16,
+        "actualRecord": true
       }
     },
     "4882093": {
@@ -2297,7 +2487,9 @@
         },
         "nflTeam": "JAX",
         "hasActualStats": true,
-        "eventId": "401872957"
+        "eventId": "401872957",
+        "points": 17.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -2323,7 +2515,9 @@
         },
         "nflTeam": "JAX",
         "hasActualStats": true,
-        "eventId": "401872940"
+        "eventId": "401872940",
+        "points": 14.2,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -2349,7 +2543,9 @@
         },
         "nflTeam": "JAX",
         "hasActualStats": true,
-        "eventId": "401872922"
+        "eventId": "401872922",
+        "points": 9.8,
+        "actualRecord": true
       }
     },
     "4832955": {
@@ -2377,7 +2573,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872952"
+        "eventId": "401872952",
+        "points": 1.7,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -2403,7 +2601,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872945"
+        "eventId": "401872945",
+        "points": 5.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -2429,7 +2629,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872931"
+        "eventId": "401872931",
+        "points": 8.8,
+        "actualRecord": true
       }
     },
     "4685512": {
@@ -2457,7 +2659,9 @@
         },
         "nflTeam": "SEA",
         "hasActualStats": true,
-        "eventId": "401872955"
+        "eventId": "401872955",
+        "points": 1.2,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -2483,7 +2687,9 @@
         },
         "nflTeam": "SEA",
         "hasActualStats": true,
-        "eventId": "401872943"
+        "eventId": "401872943",
+        "points": 5.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -2509,7 +2715,9 @@
         },
         "nflTeam": "SEA",
         "hasActualStats": true,
-        "eventId": "401872656"
+        "eventId": "401872656",
+        "points": 7.8,
+        "actualRecord": true
       }
     },
     "2973405": {
@@ -2537,7 +2745,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872963"
+        "eventId": "401872963",
+        "points": 21.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -2563,7 +2773,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872937"
+        "eventId": "401872937",
+        "points": 9.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -2589,7 +2801,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872661"
+        "eventId": "401872661",
+        "points": 16.4,
+        "actualRecord": true
       }
     },
     "4695883": {
@@ -2617,7 +2831,9 @@
         },
         "nflTeam": "CAR",
         "hasActualStats": true,
-        "eventId": "401872949"
+        "eventId": "401872949",
+        "points": 3.8,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -2643,7 +2859,9 @@
         },
         "nflTeam": "CAR",
         "hasActualStats": true,
-        "eventId": "401872933"
+        "eventId": "401872933",
+        "points": 14.6,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -2669,7 +2887,9 @@
         },
         "nflTeam": "CAR",
         "hasActualStats": true,
-        "eventId": "401872661"
+        "eventId": "401872661",
+        "points": 33.8,
+        "actualRecord": true
       }
     },
     "4362081": {
@@ -2697,7 +2917,9 @@
         },
         "nflTeam": "LAC",
         "hasActualStats": true,
-        "eventId": "401872953"
+        "eventId": "401872953",
+        "points": 9.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -2723,7 +2945,9 @@
         },
         "nflTeam": "LAC",
         "hasActualStats": true,
-        "eventId": "401872941"
+        "eventId": "401872941",
+        "points": 1.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -2749,7 +2973,9 @@
         },
         "nflTeam": "LAC",
         "hasActualStats": true,
-        "eventId": "401872926"
+        "eventId": "401872926",
+        "points": 2.0,
+        "actualRecord": true
       }
     },
     "4685702": {
@@ -2777,7 +3003,9 @@
         },
         "nflTeam": "CLE",
         "hasActualStats": true,
-        "eventId": "401872964"
+        "eventId": "401872964",
+        "points": 21.6,
+        "actualRecord": true
       },
       "3": {
         "played": true,
@@ -2803,7 +3031,9 @@
         },
         "nflTeam": "CLE",
         "hasActualStats": true,
-        "eventId": "401872949"
+        "eventId": "401872949",
+        "points": 9.9,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -2829,7 +3059,9 @@
         },
         "nflTeam": "CLE",
         "hasActualStats": true,
-        "eventId": "401872935"
+        "eventId": "401872935",
+        "points": 9.8,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -2855,7 +3087,9 @@
         },
         "nflTeam": "CLE",
         "hasActualStats": true,
-        "eventId": "401872922"
+        "eventId": "401872922",
+        "points": 7.0,
+        "actualRecord": true
       }
     },
     "4374302": {
@@ -2883,7 +3117,9 @@
         },
         "nflTeam": "DET",
         "hasActualStats": true,
-        "eventId": "401872954"
+        "eventId": "401872954",
+        "points": 11.9,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -2909,7 +3145,9 @@
         },
         "nflTeam": "DET",
         "hasActualStats": true,
-        "eventId": "401872932"
+        "eventId": "401872932",
+        "points": 35.2,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -2935,7 +3173,9 @@
         },
         "nflTeam": "DET",
         "hasActualStats": true,
-        "eventId": "401872923"
+        "eventId": "401872923",
+        "points": 28.7,
+        "actualRecord": true
       }
     },
     "3121023": {
@@ -2964,6 +3204,8 @@
         "nflTeam": "PHI",
         "hasActualStats": false,
         "eventId": "401872963",
+        "points": 0.0,
+        "actualRecord": true,
         "participationSource": "espn_eventlog"
       },
       "2": {
@@ -2990,7 +3232,9 @@
         },
         "nflTeam": "PHI",
         "hasActualStats": true,
-        "eventId": "401872939"
+        "eventId": "401872939",
+        "points": 1.4,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -3016,7 +3260,9 @@
         },
         "nflTeam": "PHI",
         "hasActualStats": true,
-        "eventId": "401872929"
+        "eventId": "401872929",
+        "points": 23.7,
+        "actualRecord": true
       }
     },
     "4429615": {
@@ -3044,7 +3290,9 @@
         },
         "nflTeam": "BAL",
         "hasActualStats": true,
-        "eventId": "401872960"
+        "eventId": "401872960",
+        "points": 15.4,
+        "actualRecord": true
       },
       "2": {
         "played": false,
@@ -3071,6 +3319,8 @@
         "nflTeam": "BAL",
         "hasActualStats": false,
         "eventId": "401872938",
+        "points": 0.0,
+        "actualRecord": true,
         "participationSource": "espn_eventlog"
       },
       "1": {
@@ -3097,7 +3347,9 @@
         },
         "nflTeam": "BAL",
         "hasActualStats": true,
-        "eventId": "401872659"
+        "eventId": "401872659",
+        "points": 26.0,
+        "actualRecord": true
       }
     },
     "2971573": {
@@ -3125,7 +3377,9 @@
         },
         "nflTeam": "HOU",
         "hasActualStats": true,
-        "eventId": "401872951"
+        "eventId": "401872951",
+        "points": 5.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -3151,7 +3405,9 @@
         },
         "nflTeam": "HOU",
         "hasActualStats": true,
-        "eventId": "401872934"
+        "eventId": "401872934",
+        "points": 6.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -3177,7 +3433,9 @@
         },
         "nflTeam": "HOU",
         "hasActualStats": true,
-        "eventId": "401872660"
+        "eventId": "401872660",
+        "points": 9.0,
+        "actualRecord": true
       }
     },
     "4429795": {
@@ -3205,7 +3463,9 @@
         },
         "nflTeam": "DET",
         "hasActualStats": true,
-        "eventId": "401872954"
+        "eventId": "401872954",
+        "points": 41.4,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -3231,7 +3491,9 @@
         },
         "nflTeam": "DET",
         "hasActualStats": true,
-        "eventId": "401872932"
+        "eventId": "401872932",
+        "points": 23.3,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -3257,7 +3519,9 @@
         },
         "nflTeam": "DET",
         "hasActualStats": true,
-        "eventId": "401872923"
+        "eventId": "401872923",
+        "points": 33.6,
+        "actualRecord": true
       }
     },
     "4241389": {
@@ -3285,7 +3549,9 @@
         },
         "nflTeam": "DAL",
         "hasActualStats": true,
-        "eventId": "401872960"
+        "eventId": "401872960",
+        "points": 20.2,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -3311,7 +3577,9 @@
         },
         "nflTeam": "DAL",
         "hasActualStats": true,
-        "eventId": "401872944"
+        "eventId": "401872944",
+        "points": 35.3,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -3337,7 +3605,9 @@
         },
         "nflTeam": "DAL",
         "hasActualStats": true,
-        "eventId": "401872930"
+        "eventId": "401872930",
+        "points": 15.4,
+        "actualRecord": true
       }
     },
     "3139477": {
@@ -3365,7 +3635,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872952"
+        "eventId": "401872952",
+        "points": 15.94,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -3391,7 +3663,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872945"
+        "eventId": "401872945",
+        "points": 28.98,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -3417,7 +3691,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872931"
+        "eventId": "401872931",
+        "points": 21.66,
+        "actualRecord": true
       }
     },
     "4696044": {
@@ -3445,7 +3721,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872958"
+        "eventId": "401872958",
+        "points": 1.7,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -3471,7 +3749,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872942"
+        "eventId": "401872942",
+        "points": 2.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -3497,7 +3777,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872657"
+        "eventId": "401872657",
+        "points": 8.0,
+        "actualRecord": true
       }
     },
     "4362238": {
@@ -3525,7 +3807,9 @@
         },
         "nflTeam": "CIN",
         "hasActualStats": true,
-        "eventId": "401872950"
+        "eventId": "401872950",
+        "points": 8.9,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -3551,7 +3835,9 @@
         },
         "nflTeam": "CIN",
         "hasActualStats": true,
-        "eventId": "401872934"
+        "eventId": "401872934",
+        "points": 11.2,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -3577,7 +3863,9 @@
         },
         "nflTeam": "CIN",
         "hasActualStats": true,
-        "eventId": "401872925"
+        "eventId": "401872925",
+        "points": 18.8,
+        "actualRecord": true
       }
     },
     "4567048": {
@@ -3605,7 +3893,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872952"
+        "eventId": "401872952",
+        "points": 21.3,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -3631,7 +3921,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872945"
+        "eventId": "401872945",
+        "points": 23.8,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -3657,7 +3949,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872931"
+        "eventId": "401872931",
+        "points": 34.1,
+        "actualRecord": true
       }
     },
     "4362249": {
@@ -3686,6 +3980,8 @@
         "nflTeam": "GB",
         "hasActualStats": false,
         "eventId": "401872948",
+        "points": 0.0,
+        "actualRecord": true,
         "participationSource": "espn_eventlog"
       },
       "2": {
@@ -3712,7 +4008,9 @@
         },
         "nflTeam": "GB",
         "hasActualStats": true,
-        "eventId": "401872936"
+        "eventId": "401872936",
+        "points": 1.4,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -3738,7 +4036,9 @@
         },
         "nflTeam": "GB",
         "hasActualStats": true,
-        "eventId": "401872927"
+        "eventId": "401872927",
+        "points": 5.0,
+        "actualRecord": true
       }
     },
     "4241416": {
@@ -3766,7 +4066,9 @@
         },
         "nflTeam": "CAR",
         "hasActualStats": true,
-        "eventId": "401872949"
+        "eventId": "401872949",
+        "points": 15.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -3792,7 +4094,9 @@
         },
         "nflTeam": "CAR",
         "hasActualStats": true,
-        "eventId": "401872933"
+        "eventId": "401872933",
+        "points": 14.4,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -3818,7 +4122,9 @@
         },
         "nflTeam": "CAR",
         "hasActualStats": true,
-        "eventId": "401872661"
+        "eventId": "401872661",
+        "points": 23.7,
+        "actualRecord": true
       }
     },
     "4360078": {
@@ -3846,7 +4152,9 @@
         },
         "nflTeam": "IND",
         "hasActualStats": false,
-        "eventId": "401872951"
+        "eventId": "401872951",
+        "points": 0.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -3872,7 +4180,9 @@
         },
         "nflTeam": "IND",
         "hasActualStats": true,
-        "eventId": "401872945"
+        "eventId": "401872945",
+        "points": 2.1,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -3898,7 +4208,9 @@
         },
         "nflTeam": "IND",
         "hasActualStats": true,
-        "eventId": "401872659"
+        "eventId": "401872659",
+        "points": 10.1,
+        "actualRecord": true
       }
     },
     "4685720": {
@@ -3926,7 +4238,9 @@
         },
         "nflTeam": "CAR",
         "hasActualStats": true,
-        "eventId": "401872949"
+        "eventId": "401872949",
+        "points": 13.64,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -3952,7 +4266,9 @@
         },
         "nflTeam": "CAR",
         "hasActualStats": true,
-        "eventId": "401872933"
+        "eventId": "401872933",
+        "points": 24.08,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -3978,7 +4294,9 @@
         },
         "nflTeam": "CAR",
         "hasActualStats": true,
-        "eventId": "401872661"
+        "eventId": "401872661",
+        "points": 31.44,
+        "actualRecord": true
       }
     },
     "4575131": {
@@ -4006,7 +4324,9 @@
         },
         "nflTeam": "WSH",
         "hasActualStats": true,
-        "eventId": "401872955"
+        "eventId": "401872955",
+        "points": 5.3,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -4032,7 +4352,9 @@
         },
         "nflTeam": "WSH",
         "hasActualStats": true,
-        "eventId": "401872944"
+        "eventId": "401872944",
+        "points": 5.8,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -4058,7 +4380,9 @@
         },
         "nflTeam": "WSH",
         "hasActualStats": true,
-        "eventId": "401872929"
+        "eventId": "401872929",
+        "points": 12.6,
+        "actualRecord": true
       }
     },
     "5083076": {
@@ -4086,7 +4410,9 @@
         },
         "nflTeam": "CLE",
         "hasActualStats": true,
-        "eventId": "401872964"
+        "eventId": "401872964",
+        "points": 11.7,
+        "actualRecord": true
       },
       "3": {
         "played": true,
@@ -4112,7 +4438,9 @@
         },
         "nflTeam": "CLE",
         "hasActualStats": true,
-        "eventId": "401872949"
+        "eventId": "401872949",
+        "points": 24.1,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -4138,7 +4466,9 @@
         },
         "nflTeam": "CLE",
         "hasActualStats": true,
-        "eventId": "401872935"
+        "eventId": "401872935",
+        "points": 10.4,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -4164,7 +4494,9 @@
         },
         "nflTeam": "CLE",
         "hasActualStats": true,
-        "eventId": "401872922"
+        "eventId": "401872922",
+        "points": 4.1,
+        "actualRecord": true
       }
     },
     "4569173": {
@@ -4192,7 +4524,9 @@
         },
         "nflTeam": "NE",
         "hasActualStats": true,
-        "eventId": "401872957"
+        "eventId": "401872957",
+        "points": 6.8,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -4218,7 +4552,9 @@
         },
         "nflTeam": "NE",
         "hasActualStats": true,
-        "eventId": "401872946"
+        "eventId": "401872946",
+        "points": 3.6,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -4244,7 +4580,9 @@
         },
         "nflTeam": "NE",
         "hasActualStats": true,
-        "eventId": "401872656"
+        "eventId": "401872656",
+        "points": 14.5,
+        "actualRecord": true
       }
     },
     "4360310": {
@@ -4272,7 +4610,9 @@
         },
         "nflTeam": "JAX",
         "hasActualStats": true,
-        "eventId": "401872957"
+        "eventId": "401872957",
+        "points": 19.78,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -4298,7 +4638,9 @@
         },
         "nflTeam": "JAX",
         "hasActualStats": true,
-        "eventId": "401872940"
+        "eventId": "401872940",
+        "points": 6.16,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -4324,7 +4666,9 @@
         },
         "nflTeam": "JAX",
         "hasActualStats": true,
-        "eventId": "401872922"
+        "eventId": "401872922",
+        "points": 26.1,
+        "actualRecord": true
       }
     },
     "4040715": {
@@ -4352,7 +4696,9 @@
         },
         "nflTeam": "PHI",
         "hasActualStats": true,
-        "eventId": "401872963"
+        "eventId": "401872963",
+        "points": 12.62,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -4378,7 +4724,9 @@
         },
         "nflTeam": "PHI",
         "hasActualStats": true,
-        "eventId": "401872939"
+        "eventId": "401872939",
+        "points": 16.16,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -4404,7 +4752,9 @@
         },
         "nflTeam": "PHI",
         "hasActualStats": true,
-        "eventId": "401872929"
+        "eventId": "401872929",
+        "points": 24.72,
+        "actualRecord": true
       }
     },
     "4689936": {
@@ -4432,7 +4782,9 @@
         },
         "nflTeam": "DET",
         "hasActualStats": true,
-        "eventId": "401872954"
+        "eventId": "401872954",
+        "points": 7.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -4458,7 +4810,9 @@
         },
         "nflTeam": "DET",
         "hasActualStats": true,
-        "eventId": "401872932"
+        "eventId": "401872932",
+        "points": 7.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -4484,7 +4838,9 @@
         },
         "nflTeam": "DET",
         "hasActualStats": true,
-        "eventId": "401872923"
+        "eventId": "401872923",
+        "points": 7.0,
+        "actualRecord": true
       }
     },
     "4360234": {
@@ -4512,7 +4868,9 @@
         },
         "nflTeam": "CIN",
         "hasActualStats": true,
-        "eventId": "401872950"
+        "eventId": "401872950",
+        "points": 11.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -4538,7 +4896,9 @@
         },
         "nflTeam": "CIN",
         "hasActualStats": true,
-        "eventId": "401872934"
+        "eventId": "401872934",
+        "points": 12.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -4564,7 +4924,9 @@
         },
         "nflTeam": "CIN",
         "hasActualStats": true,
-        "eventId": "401872925"
+        "eventId": "401872925",
+        "points": 19.0,
+        "actualRecord": true
       }
     },
     "4360248": {
@@ -4592,7 +4954,9 @@
         },
         "nflTeam": "ATL",
         "hasActualStats": true,
-        "eventId": "401872948"
+        "eventId": "401872948",
+        "points": 1.5,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -4618,7 +4982,9 @@
         },
         "nflTeam": "ATL",
         "hasActualStats": true,
-        "eventId": "401872933"
+        "eventId": "401872933",
+        "points": 2.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -4644,7 +5010,9 @@
         },
         "nflTeam": "ATL",
         "hasActualStats": true,
-        "eventId": "401872658"
+        "eventId": "401872658",
+        "points": 0.0,
+        "actualRecord": true
       }
     },
     "4241478": {
@@ -4672,7 +5040,9 @@
         },
         "nflTeam": "PHI",
         "hasActualStats": true,
-        "eventId": "401872963"
+        "eventId": "401872963",
+        "points": 12.5,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -4698,7 +5068,9 @@
         },
         "nflTeam": "PHI",
         "hasActualStats": true,
-        "eventId": "401872939"
+        "eventId": "401872939",
+        "points": 27.7,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -4724,7 +5096,9 @@
         },
         "nflTeam": "PHI",
         "hasActualStats": true,
-        "eventId": "401872929"
+        "eventId": "401872929",
+        "points": 8.3,
+        "actualRecord": true
       }
     },
     "4430027": {
@@ -4752,7 +5126,9 @@
         },
         "nflTeam": "DET",
         "hasActualStats": true,
-        "eventId": "401872954"
+        "eventId": "401872954",
+        "points": 7.4,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -4778,7 +5154,9 @@
         },
         "nflTeam": "DET",
         "hasActualStats": true,
-        "eventId": "401872932"
+        "eventId": "401872932",
+        "points": 17.2,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -4804,7 +5182,9 @@
         },
         "nflTeam": "DET",
         "hasActualStats": true,
-        "eventId": "401872923"
+        "eventId": "401872923",
+        "points": 9.8,
+        "actualRecord": true
       }
     },
     "3117256": {
@@ -4832,7 +5212,9 @@
         },
         "nflTeam": "HOU",
         "hasActualStats": true,
-        "eventId": "401872951"
+        "eventId": "401872951",
+        "points": 6.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -4858,7 +5240,9 @@
         },
         "nflTeam": "HOU",
         "hasActualStats": true,
-        "eventId": "401872934"
+        "eventId": "401872934",
+        "points": 26.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -4884,7 +5268,9 @@
         },
         "nflTeam": "HOU",
         "hasActualStats": true,
-        "eventId": "401872660"
+        "eventId": "401872660",
+        "points": 7.5,
+        "actualRecord": true
       }
     },
     "3117251": {
@@ -4912,7 +5298,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872958"
+        "eventId": "401872958",
+        "points": 21.6,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -4938,7 +5326,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872942"
+        "eventId": "401872942",
+        "points": 22.6,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -4964,7 +5354,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872657"
+        "eventId": "401872657",
+        "points": 13.8,
+        "actualRecord": true
       }
     },
     "4038815": {
@@ -4993,6 +5385,8 @@
         "nflTeam": "PIT",
         "hasActualStats": false,
         "eventId": "401872964",
+        "points": 0.0,
+        "actualRecord": true,
         "participationSource": "espn_eventlog"
       },
       "3": {
@@ -5020,6 +5414,8 @@
         "nflTeam": "PIT",
         "hasActualStats": false,
         "eventId": "401872950",
+        "points": 0.0,
+        "actualRecord": true,
         "participationSource": "espn_eventlog"
       },
       "2": {
@@ -5046,7 +5442,9 @@
         },
         "nflTeam": "PIT",
         "hasActualStats": true,
-        "eventId": "401872946"
+        "eventId": "401872946",
+        "points": 6.4,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -5072,7 +5470,9 @@
         },
         "nflTeam": "PIT",
         "hasActualStats": true,
-        "eventId": "401872658"
+        "eventId": "401872658",
+        "points": 4.1,
+        "actualRecord": true
       }
     },
     "12483": {
@@ -5100,7 +5500,9 @@
         },
         "nflTeam": "LAR",
         "hasActualStats": true,
-        "eventId": "401872962"
+        "eventId": "401872962",
+        "points": 20.9,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -5126,7 +5528,9 @@
         },
         "nflTeam": "LAR",
         "hasActualStats": true,
-        "eventId": "401872947"
+        "eventId": "401872947",
+        "points": 26.98,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -5152,7 +5556,9 @@
         },
         "nflTeam": "LAR",
         "hasActualStats": true,
-        "eventId": "401872657"
+        "eventId": "401872657",
+        "points": 4.1,
+        "actualRecord": true
       }
     },
     "5083315": {
@@ -5180,7 +5586,9 @@
         },
         "nflTeam": "NYJ",
         "hasActualStats": true,
-        "eventId": "401872954"
+        "eventId": "401872954",
+        "points": 23.5,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -5206,7 +5614,9 @@
         },
         "nflTeam": "NYJ",
         "hasActualStats": true,
-        "eventId": "401872936"
+        "eventId": "401872936",
+        "points": 3.7,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -5232,7 +5642,9 @@
         },
         "nflTeam": "NYJ",
         "hasActualStats": true,
-        "eventId": "401872924"
+        "eventId": "401872924",
+        "points": 11.4,
+        "actualRecord": true
       }
     },
     "4702555": {
@@ -5260,7 +5672,9 @@
         },
         "nflTeam": "DEN",
         "hasActualStats": false,
-        "eventId": "401872962"
+        "eventId": "401872962",
+        "points": 0.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -5286,7 +5700,9 @@
         },
         "nflTeam": "DEN",
         "hasActualStats": true,
-        "eventId": "401872940"
+        "eventId": "401872940",
+        "points": 14.8,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -5312,7 +5728,9 @@
         },
         "nflTeam": "DEN",
         "hasActualStats": true,
-        "eventId": "401872931"
+        "eventId": "401872931",
+        "points": 0.0,
+        "actualRecord": true
       }
     },
     "4890973": {
@@ -5340,7 +5758,9 @@
         },
         "nflTeam": "LV",
         "hasActualStats": true,
-        "eventId": "401872961"
+        "eventId": "401872961",
+        "points": 12.3,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -5366,7 +5786,9 @@
         },
         "nflTeam": "LV",
         "hasActualStats": true,
-        "eventId": "401872941"
+        "eventId": "401872941",
+        "points": 10.3,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -5392,7 +5814,9 @@
         },
         "nflTeam": "LV",
         "hasActualStats": true,
-        "eventId": "401872928"
+        "eventId": "401872928",
+        "points": 32.7,
+        "actualRecord": true
       }
     },
     "4678008": {
@@ -5420,7 +5844,9 @@
         },
         "nflTeam": "CAR",
         "hasActualStats": false,
-        "eventId": "401872949"
+        "eventId": "401872949",
+        "points": 0.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -5446,7 +5872,9 @@
         },
         "nflTeam": "CAR",
         "hasActualStats": true,
-        "eventId": "401872933"
+        "eventId": "401872933",
+        "points": 2.1,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -5472,7 +5900,9 @@
         },
         "nflTeam": "CAR",
         "hasActualStats": true,
-        "eventId": "401872661"
+        "eventId": "401872661",
+        "points": 7.2,
+        "actualRecord": true
       }
     },
     "3121422": {
@@ -5500,7 +5930,9 @@
         },
         "nflTeam": "WSH",
         "hasActualStats": true,
-        "eventId": "401872955"
+        "eventId": "401872955",
+        "points": 19.7,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -5526,7 +5958,9 @@
         },
         "nflTeam": "WSH",
         "hasActualStats": true,
-        "eventId": "401872944"
+        "eventId": "401872944",
+        "points": 7.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -5552,7 +5986,9 @@
         },
         "nflTeam": "WSH",
         "hasActualStats": true,
-        "eventId": "401872929"
+        "eventId": "401872929",
+        "points": 3.4,
+        "actualRecord": true
       }
     },
     "4360569": {
@@ -5580,7 +6016,9 @@
         },
         "nflTeam": "MIN",
         "hasActualStats": false,
-        "eventId": "401872959"
+        "eventId": "401872959",
+        "points": 0.0,
+        "actualRecord": true
       },
       "2": {
         "played": null,
@@ -5606,7 +6044,9 @@
         },
         "nflTeam": "MIN",
         "hasActualStats": false,
-        "eventId": "401872937"
+        "eventId": "401872937",
+        "points": 0.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -5632,7 +6072,9 @@
         },
         "nflTeam": "MIN",
         "hasActualStats": true,
-        "eventId": "401872927"
+        "eventId": "401872927",
+        "points": 11.9,
+        "actualRecord": true
       }
     },
     "4038941": {
@@ -5660,7 +6102,9 @@
         },
         "nflTeam": "LAC",
         "hasActualStats": true,
-        "eventId": "401872953"
+        "eventId": "401872953",
+        "points": 12.74,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -5686,7 +6130,9 @@
         },
         "nflTeam": "LAC",
         "hasActualStats": true,
-        "eventId": "401872941"
+        "eventId": "401872941",
+        "points": 7.88,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -5712,7 +6158,9 @@
         },
         "nflTeam": "LAC",
         "hasActualStats": true,
-        "eventId": "401872926"
+        "eventId": "401872926",
+        "points": 13.26,
+        "actualRecord": true
       }
     },
     "4258173": {
@@ -5741,6 +6189,8 @@
         "nflTeam": "HOU",
         "hasActualStats": false,
         "eventId": "401872951",
+        "points": 0.0,
+        "actualRecord": true,
         "participationSource": "espn_eventlog"
       },
       "2": {
@@ -5768,6 +6218,8 @@
         "nflTeam": "HOU",
         "hasActualStats": false,
         "eventId": "401872934",
+        "points": 0.0,
+        "actualRecord": true,
         "participationSource": "espn_eventlog"
       },
       "1": {
@@ -5794,7 +6246,9 @@
         },
         "nflTeam": "HOU",
         "hasActualStats": true,
-        "eventId": "401872660"
+        "eventId": "401872660",
+        "points": 21.2,
+        "actualRecord": true
       }
     },
     "4362619": {
@@ -5822,7 +6276,9 @@
         },
         "nflTeam": "JAX",
         "hasActualStats": true,
-        "eventId": "401872957"
+        "eventId": "401872957",
+        "points": 9.7,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -5848,7 +6304,9 @@
         },
         "nflTeam": "JAX",
         "hasActualStats": true,
-        "eventId": "401872940"
+        "eventId": "401872940",
+        "points": 1.3,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -5874,7 +6332,9 @@
         },
         "nflTeam": "JAX",
         "hasActualStats": true,
-        "eventId": "401872922"
+        "eventId": "401872922",
+        "points": 2.3,
+        "actualRecord": true
       }
     },
     "4362628": {
@@ -5902,7 +6362,9 @@
         },
         "nflTeam": "CIN",
         "hasActualStats": true,
-        "eventId": "401872950"
+        "eventId": "401872950",
+        "points": 24.8,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -5928,7 +6390,9 @@
         },
         "nflTeam": "CIN",
         "hasActualStats": true,
-        "eventId": "401872934"
+        "eventId": "401872934",
+        "points": 26.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -5954,7 +6418,9 @@
         },
         "nflTeam": "CIN",
         "hasActualStats": true,
-        "eventId": "401872925"
+        "eventId": "401872925",
+        "points": 3.2,
+        "actualRecord": true
       }
     },
     "3055899": {
@@ -5982,7 +6448,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872952"
+        "eventId": "401872952",
+        "points": 5.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -6008,7 +6476,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872945"
+        "eventId": "401872945",
+        "points": 16.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -6034,7 +6504,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872931"
+        "eventId": "401872931",
+        "points": 7.0,
+        "actualRecord": true
       }
     },
     "4034949": {
@@ -6062,7 +6534,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872958"
+        "eventId": "401872958",
+        "points": 8.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -6088,7 +6562,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872942"
+        "eventId": "401872942",
+        "points": 5.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -6114,7 +6590,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872657"
+        "eventId": "401872657",
+        "points": 10.0,
+        "actualRecord": true
       }
     },
     "3916148": {
@@ -6142,7 +6620,9 @@
         },
         "nflTeam": "TEN",
         "hasActualStats": true,
-        "eventId": "401872956"
+        "eventId": "401872956",
+        "points": 13.6,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -6168,7 +6648,9 @@
         },
         "nflTeam": "TEN",
         "hasActualStats": true,
-        "eventId": "401872939"
+        "eventId": "401872939",
+        "points": 7.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -6194,7 +6676,9 @@
         },
         "nflTeam": "TEN",
         "hasActualStats": true,
-        "eventId": "401872924"
+        "eventId": "401872924",
+        "points": 4.4,
+        "actualRecord": true
       }
     },
     "16737": {
@@ -6222,7 +6706,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872958"
+        "eventId": "401872958",
+        "points": 12.4,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -6248,7 +6734,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872942"
+        "eventId": "401872942",
+        "points": 8.4,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -6274,7 +6762,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872657"
+        "eventId": "401872657",
+        "points": 16.9,
+        "actualRecord": true
       }
     },
     "4710714": {
@@ -6302,7 +6792,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": false,
-        "eventId": "401872958"
+        "eventId": "401872958",
+        "points": 0.0,
+        "actualRecord": true
       },
       "2": {
         "played": null,
@@ -6328,7 +6820,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": false,
-        "eventId": "401872942"
+        "eventId": "401872942",
+        "points": 0.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -6354,7 +6848,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872657"
+        "eventId": "401872657",
+        "points": 0.0,
+        "actualRecord": true
       }
     },
     "4569559": {
@@ -6382,7 +6878,9 @@
         },
         "nflTeam": "NO",
         "hasActualStats": true,
-        "eventId": "401872961"
+        "eventId": "401872961",
+        "points": 6.9,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -6408,7 +6906,9 @@
         },
         "nflTeam": "NO",
         "hasActualStats": true,
-        "eventId": "401872938"
+        "eventId": "401872938",
+        "points": 11.4,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -6434,7 +6934,9 @@
         },
         "nflTeam": "NO",
         "hasActualStats": true,
-        "eventId": "401872923"
+        "eventId": "401872923",
+        "points": 19.9,
+        "actualRecord": true
       }
     },
     "-16005": {
@@ -6462,7 +6964,9 @@
         },
         "nflTeam": "CLE",
         "hasActualStats": true,
-        "eventId": "401872964"
+        "eventId": "401872964",
+        "points": 8.0,
+        "actualRecord": true
       },
       "3": {
         "played": true,
@@ -6488,7 +6992,9 @@
         },
         "nflTeam": "CLE",
         "hasActualStats": true,
-        "eventId": "401872949"
+        "eventId": "401872949",
+        "points": 4.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -6514,7 +7020,9 @@
         },
         "nflTeam": "CLE",
         "hasActualStats": true,
-        "eventId": "401872935"
+        "eventId": "401872935",
+        "points": 5.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -6540,7 +7048,9 @@
         },
         "nflTeam": "CLE",
         "hasActualStats": true,
-        "eventId": "401872922"
+        "eventId": "401872922",
+        "points": -1.0,
+        "actualRecord": true
       }
     },
     "-16007": {
@@ -6568,7 +7078,9 @@
         },
         "nflTeam": "DEN",
         "hasActualStats": true,
-        "eventId": "401872962"
+        "eventId": "401872962",
+        "points": 9.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -6594,7 +7106,9 @@
         },
         "nflTeam": "DEN",
         "hasActualStats": true,
-        "eventId": "401872940"
+        "eventId": "401872940",
+        "points": 9.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -6620,7 +7134,9 @@
         },
         "nflTeam": "DEN",
         "hasActualStats": true,
-        "eventId": "401872931"
+        "eventId": "401872931",
+        "points": 2.0,
+        "actualRecord": true
       }
     },
     "16800": {
@@ -6648,7 +7164,9 @@
         },
         "nflTeam": "LAR",
         "hasActualStats": true,
-        "eventId": "401872962"
+        "eventId": "401872962",
+        "points": 20.7,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -6674,7 +7192,9 @@
         },
         "nflTeam": "LAR",
         "hasActualStats": true,
-        "eventId": "401872947"
+        "eventId": "401872947",
+        "points": 39.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -6700,7 +7220,9 @@
         },
         "nflTeam": "LAR",
         "hasActualStats": true,
-        "eventId": "401872657"
+        "eventId": "401872657",
+        "points": 5.6,
+        "actualRecord": true
       }
     },
     "-16012": {
@@ -6728,7 +7250,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872952"
+        "eventId": "401872952",
+        "points": 7.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -6754,7 +7278,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872945"
+        "eventId": "401872945",
+        "points": 1.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -6780,7 +7306,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872931"
+        "eventId": "401872931",
+        "points": 14.0,
+        "actualRecord": true
       }
     },
     "-16014": {
@@ -6808,7 +7336,9 @@
         },
         "nflTeam": "LAR",
         "hasActualStats": true,
-        "eventId": "401872962"
+        "eventId": "401872962",
+        "points": 5.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -6834,7 +7364,9 @@
         },
         "nflTeam": "LAR",
         "hasActualStats": true,
-        "eventId": "401872947"
+        "eventId": "401872947",
+        "points": 11.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -6860,7 +7392,9 @@
         },
         "nflTeam": "LAR",
         "hasActualStats": true,
-        "eventId": "401872657"
+        "eventId": "401872657",
+        "points": 1.0,
+        "actualRecord": true
       }
     },
     "-16016": {
@@ -6888,7 +7422,9 @@
         },
         "nflTeam": "MIN",
         "hasActualStats": true,
-        "eventId": "401872959"
+        "eventId": "401872959",
+        "points": 19.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -6914,7 +7450,9 @@
         },
         "nflTeam": "MIN",
         "hasActualStats": true,
-        "eventId": "401872937"
+        "eventId": "401872937",
+        "points": 16.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -6940,7 +7478,9 @@
         },
         "nflTeam": "MIN",
         "hasActualStats": true,
-        "eventId": "401872927"
+        "eventId": "401872927",
+        "points": 5.0,
+        "actualRecord": true
       }
     },
     "-16017": {
@@ -6968,7 +7508,9 @@
         },
         "nflTeam": "NE",
         "hasActualStats": true,
-        "eventId": "401872957"
+        "eventId": "401872957",
+        "points": 0.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -6994,7 +7536,9 @@
         },
         "nflTeam": "NE",
         "hasActualStats": true,
-        "eventId": "401872946"
+        "eventId": "401872946",
+        "points": 20.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -7020,7 +7564,9 @@
         },
         "nflTeam": "NE",
         "hasActualStats": true,
-        "eventId": "401872656"
+        "eventId": "401872656",
+        "points": 7.0,
+        "actualRecord": true
       }
     },
     "-16021": {
@@ -7048,7 +7594,9 @@
         },
         "nflTeam": "PHI",
         "hasActualStats": true,
-        "eventId": "401872963"
+        "eventId": "401872963",
+        "points": -1.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -7074,7 +7622,9 @@
         },
         "nflTeam": "PHI",
         "hasActualStats": true,
-        "eventId": "401872939"
+        "eventId": "401872939",
+        "points": 4.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -7100,7 +7650,9 @@
         },
         "nflTeam": "PHI",
         "hasActualStats": true,
-        "eventId": "401872929"
+        "eventId": "401872929",
+        "points": 5.0,
+        "actualRecord": true
       }
     },
     "-16023": {
@@ -7128,7 +7680,9 @@
         },
         "nflTeam": "PIT",
         "hasActualStats": true,
-        "eventId": "401872964"
+        "eventId": "401872964",
+        "points": 5.0,
+        "actualRecord": true
       },
       "3": {
         "played": true,
@@ -7154,7 +7708,9 @@
         },
         "nflTeam": "PIT",
         "hasActualStats": true,
-        "eventId": "401872950"
+        "eventId": "401872950",
+        "points": 4.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -7180,7 +7736,9 @@
         },
         "nflTeam": "PIT",
         "hasActualStats": true,
-        "eventId": "401872946"
+        "eventId": "401872946",
+        "points": 8.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -7206,7 +7764,9 @@
         },
         "nflTeam": "PIT",
         "hasActualStats": true,
-        "eventId": "401872658"
+        "eventId": "401872658",
+        "points": 19.0,
+        "actualRecord": true
       }
     },
     "-16025": {
@@ -7234,7 +7794,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872958"
+        "eventId": "401872958",
+        "points": 0.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -7260,7 +7822,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872942"
+        "eventId": "401872942",
+        "points": 9.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -7286,7 +7850,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872657"
+        "eventId": "401872657",
+        "points": 9.0,
+        "actualRecord": true
       }
     },
     "-16026": {
@@ -7314,7 +7880,9 @@
         },
         "nflTeam": "SEA",
         "hasActualStats": true,
-        "eventId": "401872955"
+        "eventId": "401872955",
+        "points": 4.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -7340,7 +7908,9 @@
         },
         "nflTeam": "SEA",
         "hasActualStats": true,
-        "eventId": "401872943"
+        "eventId": "401872943",
+        "points": 10.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -7366,7 +7936,9 @@
         },
         "nflTeam": "SEA",
         "hasActualStats": true,
-        "eventId": "401872656"
+        "eventId": "401872656",
+        "points": 14.0,
+        "actualRecord": true
       }
     },
     "4360689": {
@@ -7394,7 +7966,9 @@
         },
         "nflTeam": "NO",
         "hasActualStats": true,
-        "eventId": "401872961"
+        "eventId": "401872961",
+        "points": 23.8,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -7420,7 +7994,9 @@
         },
         "nflTeam": "NO",
         "hasActualStats": true,
-        "eventId": "401872938"
+        "eventId": "401872938",
+        "points": 22.38,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -7446,7 +8022,9 @@
         },
         "nflTeam": "NO",
         "hasActualStats": true,
-        "eventId": "401872923"
+        "eventId": "401872923",
+        "points": 23.2,
+        "actualRecord": true
       }
     },
     "-16027": {
@@ -7474,7 +8052,9 @@
         },
         "nflTeam": "TB",
         "hasActualStats": true,
-        "eventId": "401872959"
+        "eventId": "401872959",
+        "points": 7.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -7500,7 +8080,9 @@
         },
         "nflTeam": "TB",
         "hasActualStats": true,
-        "eventId": "401872935"
+        "eventId": "401872935",
+        "points": 4.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -7526,7 +8108,9 @@
         },
         "nflTeam": "TB",
         "hasActualStats": true,
-        "eventId": "401872925"
+        "eventId": "401872925",
+        "points": 8.0,
+        "actualRecord": true
       }
     },
     "-16033": {
@@ -7554,7 +8138,9 @@
         },
         "nflTeam": "BAL",
         "hasActualStats": true,
-        "eventId": "401872960"
+        "eventId": "401872960",
+        "points": 1.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -7580,7 +8166,9 @@
         },
         "nflTeam": "BAL",
         "hasActualStats": true,
-        "eventId": "401872938"
+        "eventId": "401872938",
+        "points": 5.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -7606,7 +8194,9 @@
         },
         "nflTeam": "BAL",
         "hasActualStats": true,
-        "eventId": "401872659"
+        "eventId": "401872659",
+        "points": 8.0,
+        "actualRecord": true
       }
     },
     "-16034": {
@@ -7634,7 +8224,9 @@
         },
         "nflTeam": "HOU",
         "hasActualStats": true,
-        "eventId": "401872951"
+        "eventId": "401872951",
+        "points": 10.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -7660,7 +8252,9 @@
         },
         "nflTeam": "HOU",
         "hasActualStats": true,
-        "eventId": "401872934"
+        "eventId": "401872934",
+        "points": 7.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -7686,7 +8280,9 @@
         },
         "nflTeam": "HOU",
         "hasActualStats": true,
-        "eventId": "401872660"
+        "eventId": "401872660",
+        "points": -4.0,
+        "actualRecord": true
       }
     },
     "4569587": {
@@ -7714,7 +8310,9 @@
         },
         "nflTeam": "TEN",
         "hasActualStats": true,
-        "eventId": "401872956"
+        "eventId": "401872956",
+        "points": 18.7,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -7740,7 +8338,9 @@
         },
         "nflTeam": "TEN",
         "hasActualStats": true,
-        "eventId": "401872939"
+        "eventId": "401872939",
+        "points": 1.9,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -7766,7 +8366,9 @@
         },
         "nflTeam": "TEN",
         "hasActualStats": true,
-        "eventId": "401872924"
+        "eventId": "401872924",
+        "points": 8.8,
+        "actualRecord": true
       }
     },
     "4870653": {
@@ -7794,7 +8396,9 @@
         },
         "nflTeam": "CLE",
         "hasActualStats": true,
-        "eventId": "401872964"
+        "eventId": "401872964",
+        "points": 11.4,
+        "actualRecord": true
       },
       "3": {
         "played": true,
@@ -7820,7 +8424,9 @@
         },
         "nflTeam": "CLE",
         "hasActualStats": true,
-        "eventId": "401872949"
+        "eventId": "401872949",
+        "points": 2.9,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -7846,7 +8452,9 @@
         },
         "nflTeam": "CLE",
         "hasActualStats": true,
-        "eventId": "401872935"
+        "eventId": "401872935",
+        "points": 8.2,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -7872,7 +8480,9 @@
         },
         "nflTeam": "CLE",
         "hasActualStats": true,
-        "eventId": "401872922"
+        "eventId": "401872922",
+        "points": 7.8,
+        "actualRecord": true
       }
     },
     "4047365": {
@@ -7900,7 +8510,9 @@
         },
         "nflTeam": "GB",
         "hasActualStats": false,
-        "eventId": "401872948"
+        "eventId": "401872948",
+        "points": 0.0,
+        "actualRecord": true
       },
       "2": {
         "played": null,
@@ -7926,7 +8538,9 @@
         },
         "nflTeam": "GB",
         "hasActualStats": false,
-        "eventId": "401872936"
+        "eventId": "401872936",
+        "points": 0.0,
+        "actualRecord": true
       },
       "1": {
         "played": null,
@@ -7952,7 +8566,9 @@
         },
         "nflTeam": "GB",
         "hasActualStats": false,
-        "eventId": "401872927"
+        "eventId": "401872927",
+        "points": 0.0,
+        "actualRecord": true
       }
     },
     "4723086": {
@@ -7980,7 +8596,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872963"
+        "eventId": "401872963",
+        "points": 7.1,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -8006,7 +8624,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872937"
+        "eventId": "401872937",
+        "points": 1.3,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -8032,7 +8652,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872661"
+        "eventId": "401872661",
+        "points": 0.0,
+        "actualRecord": true
       }
     },
     "2976212": {
@@ -8060,7 +8682,9 @@
         },
         "nflTeam": "WSH",
         "hasActualStats": true,
-        "eventId": "401872955"
+        "eventId": "401872955",
+        "points": 7.3,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -8086,7 +8710,9 @@
         },
         "nflTeam": "WSH",
         "hasActualStats": true,
-        "eventId": "401872944"
+        "eventId": "401872944",
+        "points": 21.7,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -8112,7 +8738,9 @@
         },
         "nflTeam": "WSH",
         "hasActualStats": true,
-        "eventId": "401872929"
+        "eventId": "401872929",
+        "points": 15.5,
+        "actualRecord": true
       }
     },
     "3918298": {
@@ -8140,7 +8768,9 @@
         },
         "nflTeam": "BUF",
         "hasActualStats": true,
-        "eventId": "401872953"
+        "eventId": "401872953",
+        "points": 17.46,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -8166,7 +8796,9 @@
         },
         "nflTeam": "BUF",
         "hasActualStats": true,
-        "eventId": "401872932"
+        "eventId": "401872932",
+        "points": 40.82,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -8192,7 +8824,9 @@
         },
         "nflTeam": "BUF",
         "hasActualStats": true,
-        "eventId": "401872660"
+        "eventId": "401872660",
+        "points": 35.66,
+        "actualRecord": true
       }
     },
     "4426338": {
@@ -8220,7 +8854,9 @@
         },
         "nflTeam": "DEN",
         "hasActualStats": true,
-        "eventId": "401872962"
+        "eventId": "401872962",
+        "points": 24.14,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -8246,7 +8882,9 @@
         },
         "nflTeam": "DEN",
         "hasActualStats": true,
-        "eventId": "401872940"
+        "eventId": "401872940",
+        "points": 14.12,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -8272,7 +8910,9 @@
         },
         "nflTeam": "DEN",
         "hasActualStats": true,
-        "eventId": "401872931"
+        "eventId": "401872931",
+        "points": 5.44,
+        "actualRecord": true
       }
     },
     "4426348": {
@@ -8301,6 +8941,8 @@
         "nflTeam": "WSH",
         "hasActualStats": false,
         "eventId": "401872955",
+        "points": 0.0,
+        "actualRecord": true,
         "participationSource": "espn_eventlog"
       },
       "2": {
@@ -8327,7 +8969,9 @@
         },
         "nflTeam": "WSH",
         "hasActualStats": true,
-        "eventId": "401872944"
+        "eventId": "401872944",
+        "points": 14.74,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -8353,7 +8997,9 @@
         },
         "nflTeam": "WSH",
         "hasActualStats": true,
-        "eventId": "401872929"
+        "eventId": "401872929",
+        "points": 17.66,
+        "actualRecord": true
       }
     },
     "4426354": {
@@ -8381,7 +9027,9 @@
         },
         "nflTeam": "DAL",
         "hasActualStats": true,
-        "eventId": "401872960"
+        "eventId": "401872960",
+        "points": 15.2,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -8407,7 +9055,9 @@
         },
         "nflTeam": "DAL",
         "hasActualStats": true,
-        "eventId": "401872944"
+        "eventId": "401872944",
+        "points": 10.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -8433,7 +9083,9 @@
         },
         "nflTeam": "DAL",
         "hasActualStats": true,
-        "eventId": "401872930"
+        "eventId": "401872930",
+        "points": 5.8,
+        "actualRecord": true
       }
     },
     "4239993": {
@@ -8461,7 +9113,9 @@
         },
         "nflTeam": "CIN",
         "hasActualStats": true,
-        "eventId": "401872950"
+        "eventId": "401872950",
+        "points": 21.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -8487,7 +9141,9 @@
         },
         "nflTeam": "CIN",
         "hasActualStats": true,
-        "eventId": "401872934"
+        "eventId": "401872934",
+        "points": 14.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -8513,7 +9169,9 @@
         },
         "nflTeam": "CIN",
         "hasActualStats": true,
-        "eventId": "401872925"
+        "eventId": "401872925",
+        "points": 8.9,
+        "actualRecord": true
       }
     },
     "4239996": {
@@ -8541,7 +9199,9 @@
         },
         "nflTeam": "NO",
         "hasActualStats": true,
-        "eventId": "401872961"
+        "eventId": "401872961",
+        "points": 9.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -8567,7 +9227,9 @@
         },
         "nflTeam": "NO",
         "hasActualStats": true,
-        "eventId": "401872938"
+        "eventId": "401872938",
+        "points": 7.1,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -8593,7 +9255,9 @@
         },
         "nflTeam": "NO",
         "hasActualStats": true,
-        "eventId": "401872923"
+        "eventId": "401872923",
+        "points": 14.8,
+        "actualRecord": true
       }
     },
     "4569618": {
@@ -8621,7 +9285,9 @@
         },
         "nflTeam": "NYJ",
         "hasActualStats": true,
-        "eventId": "401872954"
+        "eventId": "401872954",
+        "points": 26.7,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -8647,7 +9313,9 @@
         },
         "nflTeam": "NYJ",
         "hasActualStats": true,
-        "eventId": "401872936"
+        "eventId": "401872936",
+        "points": 16.7,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -8673,7 +9341,9 @@
         },
         "nflTeam": "NYJ",
         "hasActualStats": true,
-        "eventId": "401872924"
+        "eventId": "401872924",
+        "points": 13.9,
+        "actualRecord": true
       }
     },
     "4686361": {
@@ -8701,7 +9371,9 @@
         },
         "nflTeam": "JAX",
         "hasActualStats": true,
-        "eventId": "401872957"
+        "eventId": "401872957",
+        "points": 4.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -8727,7 +9399,9 @@
         },
         "nflTeam": "JAX",
         "hasActualStats": true,
-        "eventId": "401872940"
+        "eventId": "401872940",
+        "points": 7.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -8753,7 +9427,9 @@
         },
         "nflTeam": "JAX",
         "hasActualStats": true,
-        "eventId": "401872922"
+        "eventId": "401872922",
+        "points": 12.0,
+        "actualRecord": true
       }
     },
     "3916387": {
@@ -8781,7 +9457,9 @@
         },
         "nflTeam": "BAL",
         "hasActualStats": true,
-        "eventId": "401872960"
+        "eventId": "401872960",
+        "points": 20.44,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -8807,7 +9485,9 @@
         },
         "nflTeam": "BAL",
         "hasActualStats": true,
-        "eventId": "401872938"
+        "eventId": "401872938",
+        "points": 14.8,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -8833,7 +9513,9 @@
         },
         "nflTeam": "BAL",
         "hasActualStats": true,
-        "eventId": "401872659"
+        "eventId": "401872659",
+        "points": 24.96,
+        "actualRecord": true
       }
     },
     "4428331": {
@@ -8861,7 +9543,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872952"
+        "eventId": "401872952",
+        "points": 15.8,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -8887,7 +9571,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872945"
+        "eventId": "401872945",
+        "points": 12.3,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -8913,7 +9599,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872931"
+        "eventId": "401872931",
+        "points": 9.9,
+        "actualRecord": true
       }
     },
     "4360761": {
@@ -8941,7 +9629,9 @@
         },
         "nflTeam": "ARI",
         "hasActualStats": true,
-        "eventId": "401872958"
+        "eventId": "401872958",
+        "points": 25.9,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -8967,7 +9657,9 @@
         },
         "nflTeam": "ARI",
         "hasActualStats": true,
-        "eventId": "401872943"
+        "eventId": "401872943",
+        "points": 3.8,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -8993,7 +9685,9 @@
         },
         "nflTeam": "ARI",
         "hasActualStats": true,
-        "eventId": "401872926"
+        "eventId": "401872926",
+        "points": 10.6,
+        "actualRecord": true
       }
     },
     "4241985": {
@@ -9021,7 +9715,9 @@
         },
         "nflTeam": "DEN",
         "hasActualStats": true,
-        "eventId": "401872962"
+        "eventId": "401872962",
+        "points": 6.3,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -9047,7 +9743,9 @@
         },
         "nflTeam": "DEN",
         "hasActualStats": true,
-        "eventId": "401872940"
+        "eventId": "401872940",
+        "points": 3.6,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -9073,7 +9771,9 @@
         },
         "nflTeam": "DEN",
         "hasActualStats": true,
-        "eventId": "401872931"
+        "eventId": "401872931",
+        "points": 3.6,
+        "actualRecord": true
       }
     },
     "4612826": {
@@ -9101,7 +9801,9 @@
         },
         "nflTeam": "LAC",
         "hasActualStats": true,
-        "eventId": "401872953"
+        "eventId": "401872953",
+        "points": 10.6,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -9127,7 +9829,9 @@
         },
         "nflTeam": "LAC",
         "hasActualStats": true,
-        "eventId": "401872941"
+        "eventId": "401872941",
+        "points": 6.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -9153,7 +9857,9 @@
         },
         "nflTeam": "LAC",
         "hasActualStats": true,
-        "eventId": "401872926"
+        "eventId": "401872926",
+        "points": 19.2,
+        "actualRecord": true
       }
     },
     "4596448": {
@@ -9181,7 +9887,9 @@
         },
         "nflTeam": "TB",
         "hasActualStats": true,
-        "eventId": "401872959"
+        "eventId": "401872959",
+        "points": 7.8,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -9207,7 +9915,9 @@
         },
         "nflTeam": "TB",
         "hasActualStats": true,
-        "eventId": "401872935"
+        "eventId": "401872935",
+        "points": 13.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -9233,7 +9943,9 @@
         },
         "nflTeam": "TB",
         "hasActualStats": true,
-        "eventId": "401872925"
+        "eventId": "401872925",
+        "points": 20.3,
+        "actualRecord": true
       }
     },
     "4432620": {
@@ -9261,7 +9973,9 @@
         },
         "nflTeam": "JAX",
         "hasActualStats": true,
-        "eventId": "401872957"
+        "eventId": "401872957",
+        "points": 13.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -9287,7 +10001,9 @@
         },
         "nflTeam": "JAX",
         "hasActualStats": true,
-        "eventId": "401872940"
+        "eventId": "401872940",
+        "points": 16.8,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -9313,7 +10029,9 @@
         },
         "nflTeam": "JAX",
         "hasActualStats": true,
-        "eventId": "401872922"
+        "eventId": "401872922",
+        "points": 19.3,
+        "actualRecord": true
       }
     },
     "4426502": {
@@ -9341,7 +10059,9 @@
         },
         "nflTeam": "ATL",
         "hasActualStats": true,
-        "eventId": "401872948"
+        "eventId": "401872948",
+        "points": 28.4,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -9367,7 +10087,9 @@
         },
         "nflTeam": "ATL",
         "hasActualStats": true,
-        "eventId": "401872933"
+        "eventId": "401872933",
+        "points": 8.9,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -9393,7 +10115,9 @@
         },
         "nflTeam": "ATL",
         "hasActualStats": true,
-        "eventId": "401872658"
+        "eventId": "401872658",
+        "points": 5.5,
+        "actualRecord": true
       }
     },
     "3916433": {
@@ -9421,7 +10145,9 @@
         },
         "nflTeam": "JAX",
         "hasActualStats": true,
-        "eventId": "401872957"
+        "eventId": "401872957",
+        "points": 19.4,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -9447,7 +10173,9 @@
         },
         "nflTeam": "JAX",
         "hasActualStats": true,
-        "eventId": "401872940"
+        "eventId": "401872940",
+        "points": 3.8,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -9473,7 +10201,9 @@
         },
         "nflTeam": "JAX",
         "hasActualStats": true,
-        "eventId": "401872922"
+        "eventId": "401872922",
+        "points": 12.2,
+        "actualRecord": true
       }
     },
     "4379399": {
@@ -9501,7 +10231,9 @@
         },
         "nflTeam": "BUF",
         "hasActualStats": true,
-        "eventId": "401872953"
+        "eventId": "401872953",
+        "points": 19.4,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -9527,7 +10259,9 @@
         },
         "nflTeam": "BUF",
         "hasActualStats": true,
-        "eventId": "401872932"
+        "eventId": "401872932",
+        "points": 20.9,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -9553,7 +10287,9 @@
         },
         "nflTeam": "BUF",
         "hasActualStats": true,
-        "eventId": "401872660"
+        "eventId": "401872660",
+        "points": 9.9,
+        "actualRecord": true
       }
     },
     "4426385": {
@@ -9581,7 +10317,9 @@
         },
         "nflTeam": "SEA",
         "hasActualStats": false,
-        "eventId": "401872955"
+        "eventId": "401872955",
+        "points": 0.0,
+        "actualRecord": true
       },
       "2": {
         "played": null,
@@ -9607,7 +10345,9 @@
         },
         "nflTeam": "SEA",
         "hasActualStats": false,
-        "eventId": "401872943"
+        "eventId": "401872943",
+        "points": 0.0,
+        "actualRecord": true
       },
       "1": {
         "played": null,
@@ -9633,7 +10373,9 @@
         },
         "nflTeam": "SEA",
         "hasActualStats": false,
-        "eventId": "401872656"
+        "eventId": "401872656",
+        "points": 0.0,
+        "actualRecord": true
       }
     },
     "4870808": {
@@ -9661,7 +10403,9 @@
         },
         "nflTeam": "ARI",
         "hasActualStats": true,
-        "eventId": "401872958"
+        "eventId": "401872958",
+        "points": 21.9,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -9687,7 +10431,9 @@
         },
         "nflTeam": "ARI",
         "hasActualStats": true,
-        "eventId": "401872943"
+        "eventId": "401872943",
+        "points": 7.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -9713,7 +10459,9 @@
         },
         "nflTeam": "ARI",
         "hasActualStats": true,
-        "eventId": "401872926"
+        "eventId": "401872926",
+        "points": 13.0,
+        "actualRecord": true
       }
     },
     "4426388": {
@@ -9741,7 +10489,9 @@
         },
         "nflTeam": "DET",
         "hasActualStats": true,
-        "eventId": "401872954"
+        "eventId": "401872954",
+        "points": 8.9,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -9767,7 +10517,9 @@
         },
         "nflTeam": "DET",
         "hasActualStats": true,
-        "eventId": "401872932"
+        "eventId": "401872932",
+        "points": 5.3,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -9793,7 +10545,9 @@
         },
         "nflTeam": "DET",
         "hasActualStats": true,
-        "eventId": "401872923"
+        "eventId": "401872923",
+        "points": 8.5,
+        "actualRecord": true
       }
     },
     "4870795": {
@@ -9821,7 +10575,9 @@
         },
         "nflTeam": "PHI",
         "hasActualStats": true,
-        "eventId": "401872963"
+        "eventId": "401872963",
+        "points": 5.9,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -9847,7 +10603,9 @@
         },
         "nflTeam": "PHI",
         "hasActualStats": true,
-        "eventId": "401872939"
+        "eventId": "401872939",
+        "points": 1.9,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -9873,7 +10631,9 @@
         },
         "nflTeam": "PHI",
         "hasActualStats": true,
-        "eventId": "401872929"
+        "eventId": "401872929",
+        "points": 2.5,
+        "actualRecord": true
       }
     },
     "4362921": {
@@ -9901,7 +10661,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872952"
+        "eventId": "401872952",
+        "points": 4.2,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -9927,7 +10689,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872945"
+        "eventId": "401872945",
+        "points": 12.6,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -9953,7 +10717,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872931"
+        "eventId": "401872931",
+        "points": 0.0,
+        "actualRecord": true
       }
     },
     "4608686": {
@@ -9981,7 +10747,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872963"
+        "eventId": "401872963",
+        "points": 3.1,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -10007,7 +10775,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872937"
+        "eventId": "401872937",
+        "points": 7.8,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -10033,7 +10803,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872661"
+        "eventId": "401872661",
+        "points": 20.4,
+        "actualRecord": true
       }
     },
     "4567750": {
@@ -10061,7 +10833,9 @@
         },
         "nflTeam": "TB",
         "hasActualStats": true,
-        "eventId": "401872959"
+        "eventId": "401872959",
+        "points": 11.2,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -10087,7 +10861,9 @@
         },
         "nflTeam": "TB",
         "hasActualStats": true,
-        "eventId": "401872935"
+        "eventId": "401872935",
+        "points": 10.3,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -10113,7 +10889,9 @@
         },
         "nflTeam": "TB",
         "hasActualStats": true,
-        "eventId": "401872925"
+        "eventId": "401872925",
+        "points": 11.3,
+        "actualRecord": true
       }
     },
     "4361050": {
@@ -10141,7 +10919,9 @@
         },
         "nflTeam": "NYG",
         "hasActualStats": true,
-        "eventId": "401872956"
+        "eventId": "401872956",
+        "points": 3.3,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -10167,7 +10947,9 @@
         },
         "nflTeam": "NYG",
         "hasActualStats": true,
-        "eventId": "401872947"
+        "eventId": "401872947",
+        "points": 8.3,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -10193,7 +10975,9 @@
         },
         "nflTeam": "NYG",
         "hasActualStats": true,
-        "eventId": "401872930"
+        "eventId": "401872930",
+        "points": 27.8,
+        "actualRecord": true
       }
     },
     "4047650": {
@@ -10221,7 +11005,9 @@
         },
         "nflTeam": "PIT",
         "hasActualStats": true,
-        "eventId": "401872964"
+        "eventId": "401872964",
+        "points": 16.5,
+        "actualRecord": true
       },
       "3": {
         "played": true,
@@ -10247,7 +11033,9 @@
         },
         "nflTeam": "PIT",
         "hasActualStats": true,
-        "eventId": "401872950"
+        "eventId": "401872950",
+        "points": 12.1,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -10273,7 +11061,9 @@
         },
         "nflTeam": "PIT",
         "hasActualStats": true,
-        "eventId": "401872946"
+        "eventId": "401872946",
+        "points": 6.7,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -10299,7 +11089,9 @@
         },
         "nflTeam": "PIT",
         "hasActualStats": true,
-        "eventId": "401872658"
+        "eventId": "401872658",
+        "points": 8.0,
+        "actualRecord": true
       }
     },
     "4047646": {
@@ -10327,7 +11119,9 @@
         },
         "nflTeam": "NE",
         "hasActualStats": false,
-        "eventId": "401872957"
+        "eventId": "401872957",
+        "points": 0.0,
+        "actualRecord": true
       },
       "2": {
         "played": null,
@@ -10353,7 +11147,9 @@
         },
         "nflTeam": "NE",
         "hasActualStats": false,
-        "eventId": "401872946"
+        "eventId": "401872946",
+        "points": 0.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -10379,7 +11175,9 @@
         },
         "nflTeam": "NE",
         "hasActualStats": true,
-        "eventId": "401872656"
+        "eventId": "401872656",
+        "points": 5.6,
+        "actualRecord": true
       }
     },
     "4871023": {
@@ -10407,7 +11205,9 @@
         },
         "nflTeam": "TEN",
         "hasActualStats": true,
-        "eventId": "401872956"
+        "eventId": "401872956",
+        "points": 11.8,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -10433,7 +11233,9 @@
         },
         "nflTeam": "TEN",
         "hasActualStats": true,
-        "eventId": "401872939"
+        "eventId": "401872939",
+        "points": 5.7,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -10459,7 +11261,9 @@
         },
         "nflTeam": "TEN",
         "hasActualStats": true,
-        "eventId": "401872924"
+        "eventId": "401872924",
+        "points": 7.8,
+        "actualRecord": true
       }
     },
     "4432773": {
@@ -10487,7 +11291,9 @@
         },
         "nflTeam": "JAX",
         "hasActualStats": true,
-        "eventId": "401872957"
+        "eventId": "401872957",
+        "points": 1.8,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -10513,7 +11319,9 @@
         },
         "nflTeam": "JAX",
         "hasActualStats": true,
-        "eventId": "401872940"
+        "eventId": "401872940",
+        "points": 7.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -10539,7 +11347,9 @@
         },
         "nflTeam": "JAX",
         "hasActualStats": true,
-        "eventId": "401872922"
+        "eventId": "401872922",
+        "points": 7.0,
+        "actualRecord": true
       }
     },
     "4569987": {
@@ -10567,7 +11377,9 @@
         },
         "nflTeam": "PIT",
         "hasActualStats": true,
-        "eventId": "401872964"
+        "eventId": "401872964",
+        "points": 15.6,
+        "actualRecord": true
       },
       "3": {
         "played": true,
@@ -10593,7 +11405,9 @@
         },
         "nflTeam": "PIT",
         "hasActualStats": true,
-        "eventId": "401872950"
+        "eventId": "401872950",
+        "points": 20.6,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -10619,7 +11433,9 @@
         },
         "nflTeam": "PIT",
         "hasActualStats": true,
-        "eventId": "401872946"
+        "eventId": "401872946",
+        "points": 9.7,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -10645,7 +11461,9 @@
         },
         "nflTeam": "PIT",
         "hasActualStats": true,
-        "eventId": "401872658"
+        "eventId": "401872658",
+        "points": 10.3,
+        "actualRecord": true
       }
     },
     "4428557": {
@@ -10673,7 +11491,9 @@
         },
         "nflTeam": "TEN",
         "hasActualStats": true,
-        "eventId": "401872956"
+        "eventId": "401872956",
+        "points": 0.5,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -10699,7 +11519,9 @@
         },
         "nflTeam": "TEN",
         "hasActualStats": true,
-        "eventId": "401872939"
+        "eventId": "401872939",
+        "points": 9.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -10725,7 +11547,9 @@
         },
         "nflTeam": "TEN",
         "hasActualStats": true,
-        "eventId": "401872924"
+        "eventId": "401872924",
+        "points": 4.4,
+        "actualRecord": true
       }
     },
     "4426515": {
@@ -10754,6 +11578,8 @@
         "nflTeam": "LAR",
         "hasActualStats": false,
         "eventId": "401872962",
+        "points": 0.0,
+        "actualRecord": true,
         "participationSource": "espn_eventlog"
       },
       "2": {
@@ -10781,6 +11607,8 @@
         "nflTeam": "LAR",
         "hasActualStats": false,
         "eventId": "401872947",
+        "points": 0.0,
+        "actualRecord": true,
         "participationSource": "espn_eventlog"
       },
       "1": {
@@ -10807,7 +11635,9 @@
         },
         "nflTeam": "LAR",
         "hasActualStats": true,
-        "eventId": "401872657"
+        "eventId": "401872657",
+        "points": 12.4,
+        "actualRecord": true
       }
     },
     "4432665": {
@@ -10835,7 +11665,9 @@
         },
         "nflTeam": "LV",
         "hasActualStats": true,
-        "eventId": "401872961"
+        "eventId": "401872961",
+        "points": 27.6,
+        "actualRecord": true
       },
       "2": {
         "played": false,
@@ -10862,6 +11694,8 @@
         "nflTeam": "LV",
         "hasActualStats": false,
         "eventId": "401872941",
+        "points": 0.0,
+        "actualRecord": true,
         "participationSource": "espn_eventlog"
       },
       "1": {
@@ -10889,6 +11723,8 @@
         "nflTeam": "LV",
         "hasActualStats": false,
         "eventId": "401872928",
+        "points": 0.0,
+        "actualRecord": true,
         "participationSource": "espn_eventlog"
       }
     },
@@ -10917,7 +11753,9 @@
         },
         "nflTeam": "NE",
         "hasActualStats": true,
-        "eventId": "401872957"
+        "eventId": "401872957",
+        "points": 3.9,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -10943,7 +11781,9 @@
         },
         "nflTeam": "NE",
         "hasActualStats": true,
-        "eventId": "401872946"
+        "eventId": "401872946",
+        "points": 13.6,
+        "actualRecord": true
       },
       "1": {
         "played": false,
@@ -10970,6 +11810,8 @@
         "nflTeam": "NE",
         "hasActualStats": false,
         "eventId": "401872656",
+        "points": 0.0,
+        "actualRecord": true,
         "participationSource": "espn_eventlog"
       }
     },
@@ -10998,7 +11840,9 @@
         },
         "nflTeam": "ARI",
         "hasActualStats": true,
-        "eventId": "401872958"
+        "eventId": "401872958",
+        "points": 7.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -11024,7 +11868,9 @@
         },
         "nflTeam": "ARI",
         "hasActualStats": true,
-        "eventId": "401872943"
+        "eventId": "401872943",
+        "points": 0.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -11050,7 +11896,9 @@
         },
         "nflTeam": "ARI",
         "hasActualStats": true,
-        "eventId": "401872926"
+        "eventId": "401872926",
+        "points": 4.3,
+        "actualRecord": true
       }
     },
     "4248528": {
@@ -11078,7 +11926,9 @@
         },
         "nflTeam": "GB",
         "hasActualStats": true,
-        "eventId": "401872948"
+        "eventId": "401872948",
+        "points": 22.6,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -11104,7 +11954,9 @@
         },
         "nflTeam": "GB",
         "hasActualStats": true,
-        "eventId": "401872936"
+        "eventId": "401872936",
+        "points": 14.1,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -11130,7 +11982,9 @@
         },
         "nflTeam": "GB",
         "hasActualStats": true,
-        "eventId": "401872927"
+        "eventId": "401872927",
+        "points": 32.7,
+        "actualRecord": true
       }
     },
     "4430807": {
@@ -11158,7 +12012,9 @@
         },
         "nflTeam": "ATL",
         "hasActualStats": true,
-        "eventId": "401872948"
+        "eventId": "401872948",
+        "points": 35.3,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -11184,7 +12040,9 @@
         },
         "nflTeam": "ATL",
         "hasActualStats": true,
-        "eventId": "401872933"
+        "eventId": "401872933",
+        "points": 11.1,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -11210,7 +12068,9 @@
         },
         "nflTeam": "ATL",
         "hasActualStats": true,
-        "eventId": "401872658"
+        "eventId": "401872658",
+        "points": 31.3,
+        "actualRecord": true
       }
     },
     "3040151": {
@@ -11238,7 +12098,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872958"
+        "eventId": "401872958",
+        "points": 26.2,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -11264,7 +12126,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872942"
+        "eventId": "401872942",
+        "points": 18.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -11290,7 +12154,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872657"
+        "eventId": "401872657",
+        "points": 3.2,
+        "actualRecord": true
       }
     },
     "4887558": {
@@ -11318,7 +12184,9 @@
         },
         "nflTeam": "SEA",
         "hasActualStats": true,
-        "eventId": "401872955"
+        "eventId": "401872955",
+        "points": 1.4,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -11344,7 +12212,9 @@
         },
         "nflTeam": "SEA",
         "hasActualStats": true,
-        "eventId": "401872943"
+        "eventId": "401872943",
+        "points": 9.2,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -11370,7 +12240,9 @@
         },
         "nflTeam": "SEA",
         "hasActualStats": true,
-        "eventId": "401872656"
+        "eventId": "401872656",
+        "points": 0.3,
+        "actualRecord": true
       }
     },
     "4262921": {
@@ -11398,7 +12270,9 @@
         },
         "nflTeam": "MIN",
         "hasActualStats": true,
-        "eventId": "401872959"
+        "eventId": "401872959",
+        "points": 5.2,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -11424,7 +12298,9 @@
         },
         "nflTeam": "MIN",
         "hasActualStats": true,
-        "eventId": "401872937"
+        "eventId": "401872937",
+        "points": 8.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -11450,7 +12326,9 @@
         },
         "nflTeam": "MIN",
         "hasActualStats": true,
-        "eventId": "401872927"
+        "eventId": "401872927",
+        "points": 31.2,
+        "actualRecord": true
       }
     },
     "4430737": {
@@ -11478,7 +12356,9 @@
         },
         "nflTeam": "LAR",
         "hasActualStats": true,
-        "eventId": "401872962"
+        "eventId": "401872962",
+        "points": 21.8,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -11504,7 +12384,9 @@
         },
         "nflTeam": "LAR",
         "hasActualStats": true,
-        "eventId": "401872947"
+        "eventId": "401872947",
+        "points": 15.7,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -11530,7 +12412,9 @@
         },
         "nflTeam": "LAR",
         "hasActualStats": true,
-        "eventId": "401872657"
+        "eventId": "401872657",
+        "points": 15.5,
+        "actualRecord": true
       }
     },
     "4682648": {
@@ -11558,7 +12442,9 @@
         },
         "nflTeam": "NYG",
         "hasActualStats": true,
-        "eventId": "401872956"
+        "eventId": "401872956",
+        "points": 3.9,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -11584,7 +12470,9 @@
         },
         "nflTeam": "NYG",
         "hasActualStats": true,
-        "eventId": "401872947"
+        "eventId": "401872947",
+        "points": 5.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -11610,7 +12498,9 @@
         },
         "nflTeam": "NYG",
         "hasActualStats": true,
-        "eventId": "401872930"
+        "eventId": "401872930",
+        "points": 4.5,
+        "actualRecord": true
       }
     },
     "4385690": {
@@ -11638,7 +12528,9 @@
         },
         "nflTeam": "BUF",
         "hasActualStats": true,
-        "eventId": "401872953"
+        "eventId": "401872953",
+        "points": 3.8,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -11664,7 +12556,9 @@
         },
         "nflTeam": "BUF",
         "hasActualStats": true,
-        "eventId": "401872932"
+        "eventId": "401872932",
+        "points": 22.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -11690,7 +12584,9 @@
         },
         "nflTeam": "BUF",
         "hasActualStats": true,
-        "eventId": "401872660"
+        "eventId": "401872660",
+        "points": 18.0,
+        "actualRecord": true
       }
     },
     "4696981": {
@@ -11718,7 +12614,9 @@
         },
         "nflTeam": "NYG",
         "hasActualStats": true,
-        "eventId": "401872956"
+        "eventId": "401872956",
+        "points": 13.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -11744,7 +12642,9 @@
         },
         "nflTeam": "NYG",
         "hasActualStats": true,
-        "eventId": "401872947"
+        "eventId": "401872947",
+        "points": 9.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -11770,7 +12670,9 @@
         },
         "nflTeam": "NYG",
         "hasActualStats": true,
-        "eventId": "401872930"
+        "eventId": "401872930",
+        "points": 14.1,
+        "actualRecord": true
       }
     },
     "4242335": {
@@ -11798,7 +12700,9 @@
         },
         "nflTeam": "IND",
         "hasActualStats": true,
-        "eventId": "401872951"
+        "eventId": "401872951",
+        "points": 9.2,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -11824,7 +12728,9 @@
         },
         "nflTeam": "IND",
         "hasActualStats": true,
-        "eventId": "401872945"
+        "eventId": "401872945",
+        "points": 29.2,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -11850,7 +12756,9 @@
         },
         "nflTeam": "IND",
         "hasActualStats": true,
-        "eventId": "401872659"
+        "eventId": "401872659",
+        "points": 25.1,
+        "actualRecord": true
       }
     },
     "2577417": {
@@ -11878,7 +12786,9 @@
         },
         "nflTeam": "DAL",
         "hasActualStats": true,
-        "eventId": "401872960"
+        "eventId": "401872960",
+        "points": 18.94,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -11904,7 +12814,9 @@
         },
         "nflTeam": "DAL",
         "hasActualStats": true,
-        "eventId": "401872944"
+        "eventId": "401872944",
+        "points": 29.76,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -11930,7 +12842,9 @@
         },
         "nflTeam": "DAL",
         "hasActualStats": true,
-        "eventId": "401872930"
+        "eventId": "401872930",
+        "points": 14.4,
+        "actualRecord": true
       }
     },
     "4688813": {
@@ -11958,7 +12872,9 @@
         },
         "nflTeam": "IND",
         "hasActualStats": true,
-        "eventId": "401872951"
+        "eventId": "401872951",
+        "points": 12.7,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -11984,7 +12900,9 @@
         },
         "nflTeam": "IND",
         "hasActualStats": true,
-        "eventId": "401872945"
+        "eventId": "401872945",
+        "points": 14.2,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -12010,7 +12928,9 @@
         },
         "nflTeam": "IND",
         "hasActualStats": true,
-        "eventId": "401872659"
+        "eventId": "401872659",
+        "points": 5.7,
+        "actualRecord": true
       }
     },
     "4242355": {
@@ -12038,7 +12958,9 @@
         },
         "nflTeam": "DAL",
         "hasActualStats": true,
-        "eventId": "401872960"
+        "eventId": "401872960",
+        "points": 9.3,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -12064,7 +12986,9 @@
         },
         "nflTeam": "DAL",
         "hasActualStats": true,
-        "eventId": "401872944"
+        "eventId": "401872944",
+        "points": 20.3,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -12090,7 +13014,9 @@
         },
         "nflTeam": "DAL",
         "hasActualStats": true,
-        "eventId": "401872930"
+        "eventId": "401872930",
+        "points": 2.6,
+        "actualRecord": true
       }
     },
     "4570037": {
@@ -12118,7 +13044,9 @@
         },
         "nflTeam": "LAR",
         "hasActualStats": true,
-        "eventId": "401872962"
+        "eventId": "401872962",
+        "points": 1.9,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -12144,7 +13072,9 @@
         },
         "nflTeam": "LAR",
         "hasActualStats": true,
-        "eventId": "401872947"
+        "eventId": "401872947",
+        "points": 17.4,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -12170,7 +13100,9 @@
         },
         "nflTeam": "LAR",
         "hasActualStats": true,
-        "eventId": "401872657"
+        "eventId": "401872657",
+        "points": 0.0,
+        "actualRecord": true
       }
     },
     "4035538": {
@@ -12198,7 +13130,9 @@
         },
         "nflTeam": "HOU",
         "hasActualStats": true,
-        "eventId": "401872951"
+        "eventId": "401872951",
+        "points": 6.8,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -12224,7 +13158,9 @@
         },
         "nflTeam": "HOU",
         "hasActualStats": true,
-        "eventId": "401872934"
+        "eventId": "401872934",
+        "points": 4.4,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -12250,7 +13186,9 @@
         },
         "nflTeam": "HOU",
         "hasActualStats": true,
-        "eventId": "401872660"
+        "eventId": "401872660",
+        "points": 28.9,
+        "actualRecord": true
       }
     },
     "17427": {
@@ -12278,7 +13216,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872963"
+        "eventId": "401872963",
+        "points": 10.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -12304,7 +13244,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872937"
+        "eventId": "401872937",
+        "points": 4.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -12330,7 +13272,9 @@
         },
         "nflTeam": "CHI",
         "hasActualStats": true,
-        "eventId": "401872661"
+        "eventId": "401872661",
+        "points": 12.0,
+        "actualRecord": true
       }
     },
     "4361307": {
@@ -12358,7 +13302,9 @@
         },
         "nflTeam": "ARI",
         "hasActualStats": true,
-        "eventId": "401872958"
+        "eventId": "401872958",
+        "points": 16.5,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -12384,7 +13330,9 @@
         },
         "nflTeam": "ARI",
         "hasActualStats": true,
-        "eventId": "401872943"
+        "eventId": "401872943",
+        "points": 18.1,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -12410,7 +13358,9 @@
         },
         "nflTeam": "ARI",
         "hasActualStats": true,
-        "eventId": "401872926"
+        "eventId": "401872926",
+        "points": 24.5,
+        "actualRecord": true
       }
     },
     "4711533": {
@@ -12438,7 +13388,9 @@
         },
         "nflTeam": "MIA",
         "hasActualStats": true,
-        "eventId": "401872952"
+        "eventId": "401872952",
+        "points": 14.5,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -12464,7 +13416,9 @@
         },
         "nflTeam": "MIA",
         "hasActualStats": true,
-        "eventId": "401872942"
+        "eventId": "401872942",
+        "points": 0.7,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -12490,7 +13444,9 @@
         },
         "nflTeam": "MIA",
         "hasActualStats": true,
-        "eventId": "401872928"
+        "eventId": "401872928",
+        "points": 0.0,
+        "actualRecord": true
       }
     },
     "4373626": {
@@ -12518,7 +13474,9 @@
         },
         "nflTeam": "ARI",
         "hasActualStats": true,
-        "eventId": "401872958"
+        "eventId": "401872958",
+        "points": 4.9,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -12544,7 +13502,9 @@
         },
         "nflTeam": "ARI",
         "hasActualStats": true,
-        "eventId": "401872943"
+        "eventId": "401872943",
+        "points": 3.9,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -12570,7 +13530,9 @@
         },
         "nflTeam": "ARI",
         "hasActualStats": true,
-        "eventId": "401872926"
+        "eventId": "401872926",
+        "points": 9.0,
+        "actualRecord": true
       }
     },
     "3953687": {
@@ -12598,7 +13560,9 @@
         },
         "nflTeam": "DAL",
         "hasActualStats": true,
-        "eventId": "401872960"
+        "eventId": "401872960",
+        "points": 10.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -12624,7 +13588,9 @@
         },
         "nflTeam": "DAL",
         "hasActualStats": true,
-        "eventId": "401872944"
+        "eventId": "401872944",
+        "points": 17.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -12650,7 +13616,9 @@
         },
         "nflTeam": "DAL",
         "hasActualStats": true,
-        "eventId": "401872930"
+        "eventId": "401872930",
+        "points": 2.0,
+        "actualRecord": true
       }
     },
     "3128429": {
@@ -12678,7 +13646,9 @@
         },
         "nflTeam": "DEN",
         "hasActualStats": true,
-        "eventId": "401872962"
+        "eventId": "401872962",
+        "points": 7.6,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -12704,7 +13674,9 @@
         },
         "nflTeam": "DEN",
         "hasActualStats": true,
-        "eventId": "401872940"
+        "eventId": "401872940",
+        "points": 5.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -12730,7 +13702,9 @@
         },
         "nflTeam": "DEN",
         "hasActualStats": true,
-        "eventId": "401872931"
+        "eventId": "401872931",
+        "points": 3.1,
+        "actualRecord": true
       }
     },
     "4430878": {
@@ -12758,7 +13732,9 @@
         },
         "nflTeam": "SEA",
         "hasActualStats": true,
-        "eventId": "401872955"
+        "eventId": "401872955",
+        "points": 35.36,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -12784,7 +13760,9 @@
         },
         "nflTeam": "SEA",
         "hasActualStats": true,
-        "eventId": "401872943"
+        "eventId": "401872943",
+        "points": 42.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -12810,7 +13788,9 @@
         },
         "nflTeam": "SEA",
         "hasActualStats": true,
-        "eventId": "401872656"
+        "eventId": "401872656",
+        "points": 26.2,
+        "actualRecord": true
       }
     },
     "3116165": {
@@ -12838,7 +13818,9 @@
         },
         "nflTeam": "TB",
         "hasActualStats": true,
-        "eventId": "401872959"
+        "eventId": "401872959",
+        "points": 5.5,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -12864,7 +13846,9 @@
         },
         "nflTeam": "TB",
         "hasActualStats": true,
-        "eventId": "401872935"
+        "eventId": "401872935",
+        "points": 8.8,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -12890,7 +13874,9 @@
         },
         "nflTeam": "TB",
         "hasActualStats": true,
-        "eventId": "401872925"
+        "eventId": "401872925",
+        "points": 8.3,
+        "actualRecord": true
       }
     },
     "4035687": {
@@ -12918,7 +13904,9 @@
         },
         "nflTeam": "PIT",
         "hasActualStats": true,
-        "eventId": "401872964"
+        "eventId": "401872964",
+        "points": 3.5,
+        "actualRecord": true
       },
       "3": {
         "played": true,
@@ -12944,7 +13932,9 @@
         },
         "nflTeam": "PIT",
         "hasActualStats": true,
-        "eventId": "401872950"
+        "eventId": "401872950",
+        "points": 3.6,
+        "actualRecord": true
       },
       "2": {
         "played": false,
@@ -12971,6 +13961,8 @@
         "nflTeam": "PIT",
         "hasActualStats": false,
         "eventId": "401872946",
+        "points": 0.0,
+        "actualRecord": true,
         "participationSource": "espn_eventlog"
       },
       "1": {
@@ -12997,7 +13989,9 @@
         },
         "nflTeam": "PIT",
         "hasActualStats": true,
-        "eventId": "401872658"
+        "eventId": "401872658",
+        "points": 8.8,
+        "actualRecord": true
       }
     },
     "4428850": {
@@ -13025,7 +14019,9 @@
         },
         "nflTeam": "PHI",
         "hasActualStats": true,
-        "eventId": "401872963"
+        "eventId": "401872963",
+        "points": 5.2,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -13051,7 +14047,9 @@
         },
         "nflTeam": "PHI",
         "hasActualStats": true,
-        "eventId": "401872939"
+        "eventId": "401872939",
+        "points": 12.4,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -13077,7 +14075,9 @@
         },
         "nflTeam": "PHI",
         "hasActualStats": true,
-        "eventId": "401872929"
+        "eventId": "401872929",
+        "points": 15.3,
+        "actualRecord": true
       }
     },
     "2473037": {
@@ -13105,7 +14105,9 @@
         },
         "nflTeam": "SEA",
         "hasActualStats": true,
-        "eventId": "401872955"
+        "eventId": "401872955",
+        "points": 9.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -13131,7 +14133,9 @@
         },
         "nflTeam": "SEA",
         "hasActualStats": true,
-        "eventId": "401872943"
+        "eventId": "401872943",
+        "points": 7.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -13157,7 +14161,9 @@
         },
         "nflTeam": "SEA",
         "hasActualStats": true,
-        "eventId": "401872656"
+        "eventId": "401872656",
+        "points": 7.0,
+        "actualRecord": true
       }
     },
     "4689114": {
@@ -13185,7 +14191,9 @@
         },
         "nflTeam": "NYG",
         "hasActualStats": false,
-        "eventId": "401872956"
+        "eventId": "401872956",
+        "points": 0.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -13211,7 +14219,9 @@
         },
         "nflTeam": "NYG",
         "hasActualStats": true,
-        "eventId": "401872947"
+        "eventId": "401872947",
+        "points": 0.8,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -13237,7 +14247,9 @@
         },
         "nflTeam": "NYG",
         "hasActualStats": true,
-        "eventId": "401872930"
+        "eventId": "401872930",
+        "points": 26.6,
+        "actualRecord": true
       }
     },
     "4361432": {
@@ -13265,7 +14277,9 @@
         },
         "nflTeam": "NE",
         "hasActualStats": true,
-        "eventId": "401872957"
+        "eventId": "401872957",
+        "points": 7.9,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -13291,7 +14305,9 @@
         },
         "nflTeam": "NE",
         "hasActualStats": true,
-        "eventId": "401872946"
+        "eventId": "401872946",
+        "points": 12.6,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -13317,7 +14333,9 @@
         },
         "nflTeam": "NE",
         "hasActualStats": true,
-        "eventId": "401872656"
+        "eventId": "401872656",
+        "points": 0.0,
+        "actualRecord": true
       }
     },
     "4429025": {
@@ -13345,7 +14363,9 @@
         },
         "nflTeam": "LAC",
         "hasActualStats": true,
-        "eventId": "401872953"
+        "eventId": "401872953",
+        "points": 7.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -13371,7 +14391,9 @@
         },
         "nflTeam": "LAC",
         "hasActualStats": true,
-        "eventId": "401872941"
+        "eventId": "401872941",
+        "points": 2.4,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -13397,7 +14419,9 @@
         },
         "nflTeam": "LAC",
         "hasActualStats": true,
-        "eventId": "401872926"
+        "eventId": "401872926",
+        "points": 3.7,
+        "actualRecord": true
       }
     },
     "4429023": {
@@ -13425,7 +14449,9 @@
         },
         "nflTeam": "GB",
         "hasActualStats": true,
-        "eventId": "401872948"
+        "eventId": "401872948",
+        "points": 3.8,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -13451,7 +14477,9 @@
         },
         "nflTeam": "GB",
         "hasActualStats": true,
-        "eventId": "401872936"
+        "eventId": "401872936",
+        "points": 8.6,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -13477,7 +14505,9 @@
         },
         "nflTeam": "GB",
         "hasActualStats": true,
-        "eventId": "401872927"
+        "eventId": "401872927",
+        "points": 3.7,
+        "actualRecord": true
       }
     },
     "4429059": {
@@ -13505,7 +14535,9 @@
         },
         "nflTeam": "HOU",
         "hasActualStats": true,
-        "eventId": "401872951"
+        "eventId": "401872951",
+        "points": 9.1,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -13531,7 +14563,9 @@
         },
         "nflTeam": "HOU",
         "hasActualStats": true,
-        "eventId": "401872934"
+        "eventId": "401872934",
+        "points": 8.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -13557,7 +14591,9 @@
         },
         "nflTeam": "HOU",
         "hasActualStats": true,
-        "eventId": "401872660"
+        "eventId": "401872660",
+        "points": 5.0,
+        "actualRecord": true
       }
     },
     "4361370": {
@@ -13585,7 +14621,9 @@
         },
         "nflTeam": "NO",
         "hasActualStats": true,
-        "eventId": "401872961"
+        "eventId": "401872961",
+        "points": 19.7,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -13611,7 +14649,9 @@
         },
         "nflTeam": "NO",
         "hasActualStats": true,
-        "eventId": "401872938"
+        "eventId": "401872938",
+        "points": 22.6,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -13637,7 +14677,9 @@
         },
         "nflTeam": "NO",
         "hasActualStats": true,
-        "eventId": "401872923"
+        "eventId": "401872923",
+        "points": 28.2,
+        "actualRecord": true
       }
     },
     "3054850": {
@@ -13665,7 +14707,9 @@
         },
         "nflTeam": "NO",
         "hasActualStats": true,
-        "eventId": "401872961"
+        "eventId": "401872961",
+        "points": 5.1,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -13691,7 +14735,9 @@
         },
         "nflTeam": "NO",
         "hasActualStats": true,
-        "eventId": "401872938"
+        "eventId": "401872938",
+        "points": 7.2,
+        "actualRecord": true
       },
       "1": {
         "played": false,
@@ -13718,6 +14764,8 @@
         "nflTeam": "NO",
         "hasActualStats": false,
         "eventId": "401872923",
+        "points": 0.0,
+        "actualRecord": true,
         "participationSource": "espn_eventlog"
       }
     },
@@ -13746,7 +14794,9 @@
         },
         "nflTeam": "BUF",
         "hasActualStats": true,
-        "eventId": "401872953"
+        "eventId": "401872953",
+        "points": 1.6,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -13772,7 +14822,9 @@
         },
         "nflTeam": "BUF",
         "hasActualStats": true,
-        "eventId": "401872932"
+        "eventId": "401872932",
+        "points": 6.8,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -13798,7 +14850,9 @@
         },
         "nflTeam": "BUF",
         "hasActualStats": true,
-        "eventId": "401872660"
+        "eventId": "401872660",
+        "points": 9.0,
+        "actualRecord": true
       }
     },
     "3042519": {
@@ -13826,7 +14880,9 @@
         },
         "nflTeam": "MIN",
         "hasActualStats": true,
-        "eventId": "401872959"
+        "eventId": "401872959",
+        "points": 14.2,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -13852,7 +14908,9 @@
         },
         "nflTeam": "MIN",
         "hasActualStats": true,
-        "eventId": "401872937"
+        "eventId": "401872937",
+        "points": 10.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -13878,7 +14936,9 @@
         },
         "nflTeam": "MIN",
         "hasActualStats": true,
-        "eventId": "401872927"
+        "eventId": "401872927",
+        "points": 10.0,
+        "actualRecord": true
       }
     },
     "3126486": {
@@ -13906,7 +14966,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872958"
+        "eventId": "401872958",
+        "points": 15.4,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -13932,7 +14994,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872942"
+        "eventId": "401872942",
+        "points": 6.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -13958,7 +15022,9 @@
         },
         "nflTeam": "SF",
         "hasActualStats": true,
-        "eventId": "401872657"
+        "eventId": "401872657",
+        "points": 18.0,
+        "actualRecord": true
       }
     },
     "4429160": {
@@ -13986,7 +15052,9 @@
         },
         "nflTeam": "MIA",
         "hasActualStats": true,
-        "eventId": "401872952"
+        "eventId": "401872952",
+        "points": 1.7,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -14012,7 +15080,9 @@
         },
         "nflTeam": "MIA",
         "hasActualStats": true,
-        "eventId": "401872942"
+        "eventId": "401872942",
+        "points": 12.3,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -14038,7 +15108,9 @@
         },
         "nflTeam": "MIA",
         "hasActualStats": true,
-        "eventId": "401872928"
+        "eventId": "401872928",
+        "points": 10.6,
+        "actualRecord": true
       }
     },
     "4361579": {
@@ -14066,7 +15138,9 @@
         },
         "nflTeam": "DAL",
         "hasActualStats": true,
-        "eventId": "401872960"
+        "eventId": "401872960",
+        "points": 18.3,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -14092,7 +15166,9 @@
         },
         "nflTeam": "DAL",
         "hasActualStats": true,
-        "eventId": "401872944"
+        "eventId": "401872944",
+        "points": 8.0,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -14118,7 +15194,9 @@
         },
         "nflTeam": "DAL",
         "hasActualStats": true,
-        "eventId": "401872930"
+        "eventId": "401872930",
+        "points": 24.2,
+        "actualRecord": true
       }
     },
     "4371733": {
@@ -14146,7 +15224,9 @@
         },
         "nflTeam": "TB",
         "hasActualStats": true,
-        "eventId": "401872959"
+        "eventId": "401872959",
+        "points": 3.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -14172,7 +15252,9 @@
         },
         "nflTeam": "TB",
         "hasActualStats": true,
-        "eventId": "401872935"
+        "eventId": "401872935",
+        "points": 4.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -14198,7 +15280,9 @@
         },
         "nflTeam": "TB",
         "hasActualStats": true,
-        "eventId": "401872925"
+        "eventId": "401872925",
+        "points": 2.8,
+        "actualRecord": true
       }
     },
     "4429086": {
@@ -14226,7 +15310,9 @@
         },
         "nflTeam": "LV",
         "hasActualStats": true,
-        "eventId": "401872961"
+        "eventId": "401872961",
+        "points": 12.2,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -14252,7 +15338,9 @@
         },
         "nflTeam": "LV",
         "hasActualStats": true,
-        "eventId": "401872941"
+        "eventId": "401872941",
+        "points": 5.3,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -14278,7 +15366,9 @@
         },
         "nflTeam": "LV",
         "hasActualStats": true,
-        "eventId": "401872928"
+        "eventId": "401872928",
+        "points": 9.2,
+        "actualRecord": true
       }
     },
     "3046779": {
@@ -14306,7 +15396,9 @@
         },
         "nflTeam": "DET",
         "hasActualStats": true,
-        "eventId": "401872954"
+        "eventId": "401872954",
+        "points": 19.36,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -14332,7 +15424,9 @@
         },
         "nflTeam": "DET",
         "hasActualStats": true,
-        "eventId": "401872932"
+        "eventId": "401872932",
+        "points": 29.78,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -14358,7 +15452,9 @@
         },
         "nflTeam": "DET",
         "hasActualStats": true,
-        "eventId": "401872923"
+        "eventId": "401872923",
+        "points": 16.44,
+        "actualRecord": true
       }
     },
     "4429096": {
@@ -14386,7 +15482,9 @@
         },
         "nflTeam": "LAR",
         "hasActualStats": true,
-        "eventId": "401872962"
+        "eventId": "401872962",
+        "points": 3.5,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -14412,7 +15510,9 @@
         },
         "nflTeam": "LAR",
         "hasActualStats": true,
-        "eventId": "401872947"
+        "eventId": "401872947",
+        "points": 10.2,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -14438,7 +15538,9 @@
         },
         "nflTeam": "LAR",
         "hasActualStats": true,
-        "eventId": "401872657"
+        "eventId": "401872657",
+        "points": 5.4,
+        "actualRecord": true
       }
     },
     "4683062": {
@@ -14466,7 +15568,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872952"
+        "eventId": "401872952",
+        "points": 4.0,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -14492,7 +15596,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872945"
+        "eventId": "401872945",
+        "points": 13.5,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -14518,7 +15624,9 @@
         },
         "nflTeam": "KC",
         "hasActualStats": true,
-        "eventId": "401872931"
+        "eventId": "401872931",
+        "points": 4.8,
+        "actualRecord": true
       }
     },
     "3116365": {
@@ -14546,7 +15654,9 @@
         },
         "nflTeam": "BAL",
         "hasActualStats": true,
-        "eventId": "401872960"
+        "eventId": "401872960",
+        "points": 5.4,
+        "actualRecord": true
       },
       "2": {
         "played": true,
@@ -14572,7 +15682,9 @@
         },
         "nflTeam": "BAL",
         "hasActualStats": true,
-        "eventId": "401872938"
+        "eventId": "401872938",
+        "points": 10.9,
+        "actualRecord": true
       },
       "1": {
         "played": true,
@@ -14598,8 +15710,2644 @@
         },
         "nflTeam": "BAL",
         "hasActualStats": true,
-        "eventId": "401872659"
+        "eventId": "401872659",
+        "points": 8.9,
+        "actualRecord": true
       }
     }
+  },
+  "games": [
+    {
+      "id": "401872656",
+      "week": 1,
+      "kickoff": 1788999600000,
+      "home": "SEA",
+      "away": "NE",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872657",
+      "week": 1,
+      "kickoff": 1789086900000,
+      "home": "LAR",
+      "away": "SF",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872658",
+      "week": 1,
+      "kickoff": 1789318800000,
+      "home": "PIT",
+      "away": "ATL",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872659",
+      "week": 1,
+      "kickoff": 1789318800000,
+      "home": "IND",
+      "away": "BAL",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872660",
+      "week": 1,
+      "kickoff": 1789318800000,
+      "home": "HOU",
+      "away": "BUF",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872661",
+      "week": 1,
+      "kickoff": 1789318800000,
+      "home": "CAR",
+      "away": "CHI",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872922",
+      "week": 1,
+      "kickoff": 1789318800000,
+      "home": "JAX",
+      "away": "CLE",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872923",
+      "week": 1,
+      "kickoff": 1789318800000,
+      "home": "DET",
+      "away": "NO",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872924",
+      "week": 1,
+      "kickoff": 1789318800000,
+      "home": "TEN",
+      "away": "NYJ",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872925",
+      "week": 1,
+      "kickoff": 1789318800000,
+      "home": "CIN",
+      "away": "TB",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872926",
+      "week": 1,
+      "kickoff": 1789331100000,
+      "home": "LAC",
+      "away": "ARI",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872927",
+      "week": 1,
+      "kickoff": 1789331100000,
+      "home": "MIN",
+      "away": "GB",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872928",
+      "week": 1,
+      "kickoff": 1789331100000,
+      "home": "LV",
+      "away": "MIA",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872929",
+      "week": 1,
+      "kickoff": 1789331100000,
+      "home": "PHI",
+      "away": "WSH",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872930",
+      "week": 1,
+      "kickoff": 1789345200000,
+      "home": "NYG",
+      "away": "DAL",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872931",
+      "week": 1,
+      "kickoff": 1789431300000,
+      "home": "KC",
+      "away": "DEN",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872932",
+      "week": 2,
+      "kickoff": 1789690500000,
+      "home": "BUF",
+      "away": "DET",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872933",
+      "week": 2,
+      "kickoff": 1789923600000,
+      "home": "ATL",
+      "away": "CAR",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872934",
+      "week": 2,
+      "kickoff": 1789923600000,
+      "home": "HOU",
+      "away": "CIN",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872935",
+      "week": 2,
+      "kickoff": 1789923600000,
+      "home": "TB",
+      "away": "CLE",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872936",
+      "week": 2,
+      "kickoff": 1789923600000,
+      "home": "NYJ",
+      "away": "GB",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872937",
+      "week": 2,
+      "kickoff": 1789923600000,
+      "home": "CHI",
+      "away": "MIN",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872938",
+      "week": 2,
+      "kickoff": 1789923600000,
+      "home": "BAL",
+      "away": "NO",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872939",
+      "week": 2,
+      "kickoff": 1789923600000,
+      "home": "TEN",
+      "away": "PHI",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872946",
+      "week": 2,
+      "kickoff": 1789923600000,
+      "home": "NE",
+      "away": "PIT",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872940",
+      "week": 2,
+      "kickoff": 1789934700000,
+      "home": "DEN",
+      "away": "JAX",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872941",
+      "week": 2,
+      "kickoff": 1789934700000,
+      "home": "LAC",
+      "away": "LV",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872942",
+      "week": 2,
+      "kickoff": 1789935900000,
+      "home": "SF",
+      "away": "MIA",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872943",
+      "week": 2,
+      "kickoff": 1789935900000,
+      "home": "ARI",
+      "away": "SEA",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872944",
+      "week": 2,
+      "kickoff": 1789935900000,
+      "home": "DAL",
+      "away": "WSH",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872945",
+      "week": 2,
+      "kickoff": 1789950000000,
+      "home": "KC",
+      "away": "IND",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872947",
+      "week": 2,
+      "kickoff": 1790036100000,
+      "home": "LAR",
+      "away": "NYG",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872948",
+      "week": 3,
+      "kickoff": 1790295300000,
+      "home": "GB",
+      "away": "ATL",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872949",
+      "week": 3,
+      "kickoff": 1790528400000,
+      "home": "CLE",
+      "away": "CAR",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872950",
+      "week": 3,
+      "kickoff": 1790528400000,
+      "home": "PIT",
+      "away": "CIN",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872951",
+      "week": 3,
+      "kickoff": 1790528400000,
+      "home": "IND",
+      "away": "HOU",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872952",
+      "week": 3,
+      "kickoff": 1790528400000,
+      "home": "MIA",
+      "away": "KC",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872953",
+      "week": 3,
+      "kickoff": 1790528400000,
+      "home": "BUF",
+      "away": "LAC",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872954",
+      "week": 3,
+      "kickoff": 1790528400000,
+      "home": "DET",
+      "away": "NYJ",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872955",
+      "week": 3,
+      "kickoff": 1790528400000,
+      "home": "WSH",
+      "away": "SEA",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872956",
+      "week": 3,
+      "kickoff": 1790528400000,
+      "home": "NYG",
+      "away": "TEN",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872957",
+      "week": 3,
+      "kickoff": 1790528400000,
+      "home": "JAX",
+      "away": "NE",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872958",
+      "week": 3,
+      "kickoff": 1790539500000,
+      "home": "SF",
+      "away": "ARI",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872959",
+      "week": 3,
+      "kickoff": 1790539500000,
+      "home": "TB",
+      "away": "MIN",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872960",
+      "week": 3,
+      "kickoff": 1790540700000,
+      "home": "DAL",
+      "away": "BAL",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872961",
+      "week": 3,
+      "kickoff": 1790540700000,
+      "home": "NO",
+      "away": "LV",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872962",
+      "week": 3,
+      "kickoff": 1790554800000,
+      "home": "DEN",
+      "away": "LAR",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872963",
+      "week": 3,
+      "kickoff": 1790640900000,
+      "home": "CHI",
+      "away": "PHI",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872964",
+      "week": 4,
+      "kickoff": 1790900100000,
+      "home": "CLE",
+      "away": "PIT",
+      "complete": true,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872965",
+      "week": 4,
+      "kickoff": 1791120600000,
+      "home": "WSH",
+      "away": "IND",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872966",
+      "week": 4,
+      "kickoff": 1791133200000,
+      "home": "NYG",
+      "away": "ARI",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872967",
+      "week": 4,
+      "kickoff": 1791133200000,
+      "home": "HOU",
+      "away": "DAL",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872968",
+      "week": 4,
+      "kickoff": 1791133200000,
+      "home": "TB",
+      "away": "GB",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872969",
+      "week": 4,
+      "kickoff": 1791133200000,
+      "home": "CIN",
+      "away": "JAX",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872970",
+      "week": 4,
+      "kickoff": 1791133200000,
+      "home": "PHI",
+      "away": "LAR",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872971",
+      "week": 4,
+      "kickoff": 1791133200000,
+      "home": "BUF",
+      "away": "NE",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872972",
+      "week": 4,
+      "kickoff": 1791133200000,
+      "home": "CHI",
+      "away": "NYJ",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872973",
+      "week": 4,
+      "kickoff": 1791133200000,
+      "home": "BAL",
+      "away": "TEN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872974",
+      "week": 4,
+      "kickoff": 1791144300000,
+      "home": "MIN",
+      "away": "MIA",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872975",
+      "week": 4,
+      "kickoff": 1791145500000,
+      "home": "SF",
+      "away": "DEN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872976",
+      "week": 4,
+      "kickoff": 1791145500000,
+      "home": "LV",
+      "away": "KC",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872977",
+      "week": 4,
+      "kickoff": 1791145500000,
+      "home": "SEA",
+      "away": "LAC",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872978",
+      "week": 4,
+      "kickoff": 1791159600000,
+      "home": "CAR",
+      "away": "DET",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872979",
+      "week": 4,
+      "kickoff": 1791245700000,
+      "home": "NO",
+      "away": "ATL",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872980",
+      "week": 5,
+      "kickoff": 1791504900000,
+      "home": "DAL",
+      "away": "TB",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872981",
+      "week": 5,
+      "kickoff": 1791725400000,
+      "home": "JAX",
+      "away": "PHI",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872982",
+      "week": 5,
+      "kickoff": 1791738000000,
+      "home": "MIA",
+      "away": "CIN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872983",
+      "week": 5,
+      "kickoff": 1791738000000,
+      "home": "NYJ",
+      "away": "CLE",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872984",
+      "week": 5,
+      "kickoff": 1791738000000,
+      "home": "TEN",
+      "away": "HOU",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872985",
+      "week": 5,
+      "kickoff": 1791738000000,
+      "home": "PIT",
+      "away": "IND",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872986",
+      "week": 5,
+      "kickoff": 1791738000000,
+      "home": "NE",
+      "away": "LV",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872987",
+      "week": 5,
+      "kickoff": 1791738000000,
+      "home": "NO",
+      "away": "MIN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872988",
+      "week": 5,
+      "kickoff": 1791738000000,
+      "home": "WSH",
+      "away": "NYG",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872990",
+      "week": 5,
+      "kickoff": 1791738000000,
+      "home": "GB",
+      "away": "CHI",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872989",
+      "week": 5,
+      "kickoff": 1791749100000,
+      "home": "LAC",
+      "away": "DEN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872991",
+      "week": 5,
+      "kickoff": 1791750300000,
+      "home": "ARI",
+      "away": "DET",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872992",
+      "week": 5,
+      "kickoff": 1791750300000,
+      "home": "SEA",
+      "away": "SF",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872993",
+      "week": 5,
+      "kickoff": 1791764400000,
+      "home": "ATL",
+      "away": "BAL",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872994",
+      "week": 5,
+      "kickoff": 1791850500000,
+      "home": "LAR",
+      "away": "BUF",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872995",
+      "week": 6,
+      "kickoff": 1792109700000,
+      "home": "DEN",
+      "away": "SEA",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872996",
+      "week": 6,
+      "kickoff": 1792330200000,
+      "home": "JAX",
+      "away": "HOU",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872997",
+      "week": 6,
+      "kickoff": 1792342800000,
+      "home": "CLE",
+      "away": "BAL",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872998",
+      "week": 6,
+      "kickoff": 1792342800000,
+      "home": "PHI",
+      "away": "CAR",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401872999",
+      "week": 6,
+      "kickoff": 1792342800000,
+      "home": "ATL",
+      "away": "CHI",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873000",
+      "week": 6,
+      "kickoff": 1792342800000,
+      "home": "NYG",
+      "away": "NO",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873001",
+      "week": 6,
+      "kickoff": 1792342800000,
+      "home": "NE",
+      "away": "NYJ",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873002",
+      "week": 6,
+      "kickoff": 1792342800000,
+      "home": "TB",
+      "away": "PIT",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873003",
+      "week": 6,
+      "kickoff": 1792342800000,
+      "home": "IND",
+      "away": "TEN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873004",
+      "week": 6,
+      "kickoff": 1792353900000,
+      "home": "LAR",
+      "away": "ARI",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873005",
+      "week": 6,
+      "kickoff": 1792355100000,
+      "home": "LV",
+      "away": "BUF",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873006",
+      "week": 6,
+      "kickoff": 1792355100000,
+      "home": "KC",
+      "away": "LAC",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873007",
+      "week": 6,
+      "kickoff": 1792369200000,
+      "home": "GB",
+      "away": "DAL",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873008",
+      "week": 6,
+      "kickoff": 1792455300000,
+      "home": "SF",
+      "away": "WSH",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873010",
+      "week": 7,
+      "kickoff": 1792714500000,
+      "home": "CHI",
+      "away": "NE",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873011",
+      "week": 7,
+      "kickoff": 1792935000000,
+      "home": "NO",
+      "away": "PIT",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873012",
+      "week": 7,
+      "kickoff": 1792947600000,
+      "home": "BAL",
+      "away": "CIN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873013",
+      "week": 7,
+      "kickoff": 1792947600000,
+      "home": "TEN",
+      "away": "CLE",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873014",
+      "week": 7,
+      "kickoff": 1792947600000,
+      "home": "MIN",
+      "away": "IND",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873015",
+      "week": 7,
+      "kickoff": 1792947600000,
+      "home": "NYJ",
+      "away": "MIA",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873016",
+      "week": 7,
+      "kickoff": 1792947600000,
+      "home": "HOU",
+      "away": "NYG",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873017",
+      "week": 7,
+      "kickoff": 1792947600000,
+      "home": "ATL",
+      "away": "SF",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873018",
+      "week": 7,
+      "kickoff": 1792947600000,
+      "home": "CAR",
+      "away": "TB",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873019",
+      "week": 7,
+      "kickoff": 1792958700000,
+      "home": "ARI",
+      "away": "DEN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873020",
+      "week": 7,
+      "kickoff": 1792959900000,
+      "home": "DET",
+      "away": "GB",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873021",
+      "week": 7,
+      "kickoff": 1792959900000,
+      "home": "LV",
+      "away": "LAR",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873022",
+      "week": 7,
+      "kickoff": 1792974000000,
+      "home": "SEA",
+      "away": "KC",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873009",
+      "week": 7,
+      "kickoff": 1793060100000,
+      "home": "PHI",
+      "away": "DAL",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873023",
+      "week": 8,
+      "kickoff": 1793319300000,
+      "home": "GB",
+      "away": "CAR",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873024",
+      "week": 8,
+      "kickoff": 1793556000000,
+      "home": "DAL",
+      "away": "ARI",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873025",
+      "week": 8,
+      "kickoff": 1793556000000,
+      "home": "TB",
+      "away": "ATL",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873026",
+      "week": 8,
+      "kickoff": 1793556000000,
+      "home": "BUF",
+      "away": "BAL",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873027",
+      "week": 8,
+      "kickoff": 1793556000000,
+      "home": "PIT",
+      "away": "CLE",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873028",
+      "week": 8,
+      "kickoff": 1793556000000,
+      "home": "JAX",
+      "away": "IND",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873029",
+      "week": 8,
+      "kickoff": 1793556000000,
+      "home": "NYJ",
+      "away": "LV",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873030",
+      "week": 8,
+      "kickoff": 1793556000000,
+      "home": "DET",
+      "away": "MIN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873031",
+      "week": 8,
+      "kickoff": 1793556000000,
+      "home": "CIN",
+      "away": "TEN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873032",
+      "week": 8,
+      "kickoff": 1793567100000,
+      "home": "LAR",
+      "away": "LAC",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873033",
+      "week": 8,
+      "kickoff": 1793568300000,
+      "home": "DEN",
+      "away": "KC",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873034",
+      "week": 8,
+      "kickoff": 1793568300000,
+      "home": "MIA",
+      "away": "NE",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873035",
+      "week": 8,
+      "kickoff": 1793582400000,
+      "home": "WSH",
+      "away": "PHI",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873036",
+      "week": 8,
+      "kickoff": 1793668500000,
+      "home": "SEA",
+      "away": "CHI",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873037",
+      "week": 9,
+      "kickoff": 1793927700000,
+      "home": "BAL",
+      "away": "JAX",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873038",
+      "week": 9,
+      "kickoff": 1794148200000,
+      "home": "ATL",
+      "away": "CIN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873039",
+      "week": 9,
+      "kickoff": 1794160800000,
+      "home": "NO",
+      "away": "CLE",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873040",
+      "week": 9,
+      "kickoff": 1794160800000,
+      "home": "IND",
+      "away": "DAL",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873041",
+      "week": 9,
+      "kickoff": 1794160800000,
+      "home": "CAR",
+      "away": "DEN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873042",
+      "week": 9,
+      "kickoff": 1794160800000,
+      "home": "MIA",
+      "away": "DET",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873043",
+      "week": 9,
+      "kickoff": 1794160800000,
+      "home": "WSH",
+      "away": "LAR",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873044",
+      "week": 9,
+      "kickoff": 1794160800000,
+      "home": "PHI",
+      "away": "NYG",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873045",
+      "week": 9,
+      "kickoff": 1794160800000,
+      "home": "KC",
+      "away": "NYJ",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873046",
+      "week": 9,
+      "kickoff": 1794171900000,
+      "home": "LAC",
+      "away": "HOU",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873047",
+      "week": 9,
+      "kickoff": 1794171900000,
+      "home": "SF",
+      "away": "LV",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873048",
+      "week": 9,
+      "kickoff": 1794173100000,
+      "home": "SEA",
+      "away": "ARI",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873049",
+      "week": 9,
+      "kickoff": 1794173100000,
+      "home": "NE",
+      "away": "GB",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873050",
+      "week": 9,
+      "kickoff": 1794187200000,
+      "home": "CHI",
+      "away": "TB",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873051",
+      "week": 9,
+      "kickoff": 1794273300000,
+      "home": "MIN",
+      "away": "BUF",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873052",
+      "week": 10,
+      "kickoff": 1794532500000,
+      "home": "NYG",
+      "away": "WSH",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873053",
+      "week": 10,
+      "kickoff": 1794753000000,
+      "home": "DET",
+      "away": "NE",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873054",
+      "week": 10,
+      "kickoff": 1794765600000,
+      "home": "NYJ",
+      "away": "BUF",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873055",
+      "week": 10,
+      "kickoff": 1794765600000,
+      "home": "NO",
+      "away": "CAR",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873056",
+      "week": 10,
+      "kickoff": 1794765600000,
+      "home": "CLE",
+      "away": "HOU",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873057",
+      "week": 10,
+      "kickoff": 1794765600000,
+      "home": "TEN",
+      "away": "JAX",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873058",
+      "week": 10,
+      "kickoff": 1794765600000,
+      "home": "ATL",
+      "away": "KC",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873059",
+      "week": 10,
+      "kickoff": 1794765600000,
+      "home": "IND",
+      "away": "MIA",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873060",
+      "week": 10,
+      "kickoff": 1794765600000,
+      "home": "GB",
+      "away": "MIN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873061",
+      "week": 10,
+      "kickoff": 1794776700000,
+      "home": "ARI",
+      "away": "LAR",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873062",
+      "week": 10,
+      "kickoff": 1794776700000,
+      "home": "LV",
+      "away": "SEA",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873063",
+      "week": 10,
+      "kickoff": 1794777900000,
+      "home": "DAL",
+      "away": "SF",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873064",
+      "week": 10,
+      "kickoff": 1794792000000,
+      "home": "CIN",
+      "away": "PIT",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873065",
+      "week": 10,
+      "kickoff": 1794878100000,
+      "home": "BAL",
+      "away": "LAC",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873066",
+      "week": 11,
+      "kickoff": 1795137300000,
+      "home": "HOU",
+      "away": "IND",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873067",
+      "week": 11,
+      "kickoff": 1795370400000,
+      "home": "KC",
+      "away": "ARI",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873068",
+      "week": 11,
+      "kickoff": 1795370400000,
+      "home": "CAR",
+      "away": "BAL",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873069",
+      "week": 11,
+      "kickoff": 1795370400000,
+      "home": "NYG",
+      "away": "JAX",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873070",
+      "week": 11,
+      "kickoff": 1795370400000,
+      "home": "BUF",
+      "away": "MIA",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873071",
+      "week": 11,
+      "kickoff": 1795370400000,
+      "home": "CHI",
+      "away": "NO",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873072",
+      "week": 11,
+      "kickoff": 1795370400000,
+      "home": "DET",
+      "away": "TB",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873073",
+      "week": 11,
+      "kickoff": 1795370400000,
+      "home": "DAL",
+      "away": "TEN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873074",
+      "week": 11,
+      "kickoff": 1795381500000,
+      "home": "LAC",
+      "away": "NYJ",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873075",
+      "week": 11,
+      "kickoff": 1795382700000,
+      "home": "DEN",
+      "away": "LV",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873076",
+      "week": 11,
+      "kickoff": 1795382700000,
+      "home": "PHI",
+      "away": "PIT",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873077",
+      "week": 11,
+      "kickoff": 1795396800000,
+      "home": "SF",
+      "away": "MIN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873078",
+      "week": 11,
+      "kickoff": 1795482900000,
+      "home": "WSH",
+      "away": "CIN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873079",
+      "week": 12,
+      "kickoff": 1795654800000,
+      "home": "LAR",
+      "away": "GB",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873081",
+      "week": 12,
+      "kickoff": 1795716000000,
+      "home": "DET",
+      "away": "CHI",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873080",
+      "week": 12,
+      "kickoff": 1795728600000,
+      "home": "DAL",
+      "away": "PHI",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873082",
+      "week": 12,
+      "kickoff": 1795742400000,
+      "home": "BUF",
+      "away": "KC",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873083",
+      "week": 12,
+      "kickoff": 1795809600000,
+      "home": "PIT",
+      "away": "DEN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873084",
+      "week": 12,
+      "kickoff": 1795975200000,
+      "home": "MIN",
+      "away": "ATL",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873085",
+      "week": 12,
+      "kickoff": 1795975200000,
+      "home": "HOU",
+      "away": "BAL",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873086",
+      "week": 12,
+      "kickoff": 1795975200000,
+      "home": "CLE",
+      "away": "LV",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873087",
+      "week": 12,
+      "kickoff": 1795975200000,
+      "home": "CIN",
+      "away": "NO",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873088",
+      "week": 12,
+      "kickoff": 1795975200000,
+      "home": "IND",
+      "away": "NYG",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873089",
+      "week": 12,
+      "kickoff": 1795975200000,
+      "home": "MIA",
+      "away": "NYJ",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873090",
+      "week": 12,
+      "kickoff": 1795986300000,
+      "home": "JAX",
+      "away": "TEN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873091",
+      "week": 12,
+      "kickoff": 1795987500000,
+      "home": "SF",
+      "away": "SEA",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873092",
+      "week": 12,
+      "kickoff": 1795987500000,
+      "home": "ARI",
+      "away": "WSH",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873093",
+      "week": 12,
+      "kickoff": 1796001600000,
+      "home": "LAC",
+      "away": "NE",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873094",
+      "week": 12,
+      "kickoff": 1796087700000,
+      "home": "TB",
+      "away": "CAR",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873096",
+      "week": 13,
+      "kickoff": 1796346900000,
+      "home": "LAR",
+      "away": "KC",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873095",
+      "week": 13,
+      "kickoff": 1796580000000,
+      "home": "NYG",
+      "away": "SF",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873097",
+      "week": 13,
+      "kickoff": 1796580000000,
+      "home": "CLE",
+      "away": "CIN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873098",
+      "week": 13,
+      "kickoff": 1796580000000,
+      "home": "ATL",
+      "away": "DET",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873099",
+      "week": 13,
+      "kickoff": 1796580000000,
+      "home": "NO",
+      "away": "GB",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873100",
+      "week": 13,
+      "kickoff": 1796580000000,
+      "home": "CHI",
+      "away": "JAX",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873101",
+      "week": 13,
+      "kickoff": 1796580000000,
+      "home": "TB",
+      "away": "LAC",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873102",
+      "week": 13,
+      "kickoff": 1796580000000,
+      "home": "TEN",
+      "away": "WSH",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873103",
+      "week": 13,
+      "kickoff": 1796591100000,
+      "home": "DEN",
+      "away": "MIA",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873104",
+      "week": 13,
+      "kickoff": 1796591100000,
+      "home": "ARI",
+      "away": "PHI",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873105",
+      "week": 13,
+      "kickoff": 1796592300000,
+      "home": "NE",
+      "away": "BUF",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873106",
+      "week": 13,
+      "kickoff": 1796592300000,
+      "home": "MIN",
+      "away": "CAR",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873107",
+      "week": 13,
+      "kickoff": 1796606400000,
+      "home": "PIT",
+      "away": "HOU",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873108",
+      "week": 13,
+      "kickoff": 1796692500000,
+      "home": "SEA",
+      "away": "DAL",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873109",
+      "week": 14,
+      "kickoff": 1796951700000,
+      "home": "NE",
+      "away": "MIN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873110",
+      "week": 14,
+      "kickoff": 1797184800000,
+      "home": "CLE",
+      "away": "ATL",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873111",
+      "week": 14,
+      "kickoff": 1797184800000,
+      "home": "MIA",
+      "away": "CHI",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873112",
+      "week": 14,
+      "kickoff": 1797184800000,
+      "home": "NYJ",
+      "away": "DEN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873113",
+      "week": 14,
+      "kickoff": 1797184800000,
+      "home": "WSH",
+      "away": "HOU",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873114",
+      "week": 14,
+      "kickoff": 1797184800000,
+      "home": "PHI",
+      "away": "IND",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873115",
+      "week": 14,
+      "kickoff": 1797184800000,
+      "home": "CAR",
+      "away": "NO",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873116",
+      "week": 14,
+      "kickoff": 1797184800000,
+      "home": "BAL",
+      "away": "TB",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873117",
+      "week": 14,
+      "kickoff": 1797184800000,
+      "home": "DET",
+      "away": "TEN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873118",
+      "week": 14,
+      "kickoff": 1797195900000,
+      "home": "LV",
+      "away": "LAC",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873119",
+      "week": 14,
+      "kickoff": 1797197100000,
+      "home": "CIN",
+      "away": "KC",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873120",
+      "week": 14,
+      "kickoff": 1797197100000,
+      "home": "SF",
+      "away": "LAR",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873121",
+      "week": 14,
+      "kickoff": 1797197100000,
+      "home": "SEA",
+      "away": "NYG",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873122",
+      "week": 14,
+      "kickoff": 1797211200000,
+      "home": "GB",
+      "away": "BUF",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873123",
+      "week": 14,
+      "kickoff": 1797297300000,
+      "home": "JAX",
+      "away": "PIT",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873124",
+      "week": 15,
+      "kickoff": 1797556500000,
+      "home": "LAC",
+      "away": "SF",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873125",
+      "week": 15,
+      "kickoff": 1797717600000,
+      "home": "PHI",
+      "away": "SEA",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873126",
+      "week": 15,
+      "kickoff": 1797729600000,
+      "home": "BUF",
+      "away": "CHI",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873127",
+      "week": 15,
+      "kickoff": 1797789600000,
+      "home": "WSH",
+      "away": "ATL",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873128",
+      "week": 15,
+      "kickoff": 1797789600000,
+      "home": "PIT",
+      "away": "BAL",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873129",
+      "week": 15,
+      "kickoff": 1797789600000,
+      "home": "CAR",
+      "away": "CIN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873130",
+      "week": 15,
+      "kickoff": 1797789600000,
+      "home": "NYG",
+      "away": "CLE",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873131",
+      "week": 15,
+      "kickoff": 1797789600000,
+      "home": "TEN",
+      "away": "IND",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873132",
+      "week": 15,
+      "kickoff": 1797789600000,
+      "home": "HOU",
+      "away": "JAX",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873133",
+      "week": 15,
+      "kickoff": 1797789600000,
+      "home": "GB",
+      "away": "MIA",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873134",
+      "week": 15,
+      "kickoff": 1797789600000,
+      "home": "TB",
+      "away": "NO",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873135",
+      "week": 15,
+      "kickoff": 1797800700000,
+      "home": "ARI",
+      "away": "NYJ",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873136",
+      "week": 15,
+      "kickoff": 1797801900000,
+      "home": "LAR",
+      "away": "DAL",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873137",
+      "week": 15,
+      "kickoff": 1797801900000,
+      "home": "LV",
+      "away": "DEN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873138",
+      "week": 15,
+      "kickoff": 1797816000000,
+      "home": "MIN",
+      "away": "DET",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873139",
+      "week": 15,
+      "kickoff": 1797902100000,
+      "home": "KC",
+      "away": "NE",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873140",
+      "week": 16,
+      "kickoff": 1798161300000,
+      "home": "PHI",
+      "away": "HOU",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873141",
+      "week": 16,
+      "kickoff": 1798221600000,
+      "home": "CHI",
+      "away": "GB",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873142",
+      "week": 16,
+      "kickoff": 1798234200000,
+      "home": "DEN",
+      "away": "BUF",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873143",
+      "week": 16,
+      "kickoff": 1798247700000,
+      "home": "SEA",
+      "away": "LAR",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873144",
+      "week": 16,
+      "kickoff": 1798358460000,
+      "home": "PIT",
+      "away": "CAR",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873145",
+      "week": 16,
+      "kickoff": 1798358460000,
+      "home": "IND",
+      "away": "CIN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873146",
+      "week": 16,
+      "kickoff": 1798358460000,
+      "home": "ATL",
+      "away": "TB",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873147",
+      "week": 16,
+      "kickoff": 1798358460000,
+      "home": "MIN",
+      "away": "WSH",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873148",
+      "week": 16,
+      "kickoff": 1798394400000,
+      "home": "NO",
+      "away": "ARI",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873149",
+      "week": 16,
+      "kickoff": 1798394400000,
+      "home": "BAL",
+      "away": "CLE",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873150",
+      "week": 16,
+      "kickoff": 1798394400000,
+      "home": "MIA",
+      "away": "LAC",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873151",
+      "week": 16,
+      "kickoff": 1798394400000,
+      "home": "NYJ",
+      "away": "NE",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873152",
+      "week": 16,
+      "kickoff": 1798405500000,
+      "home": "LV",
+      "away": "TEN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873153",
+      "week": 16,
+      "kickoff": 1798406700000,
+      "home": "KC",
+      "away": "SF",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873154",
+      "week": 16,
+      "kickoff": 1798420800000,
+      "home": "DAL",
+      "away": "JAX",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873155",
+      "week": 16,
+      "kickoff": 1798506900000,
+      "home": "DET",
+      "away": "NYG",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873156",
+      "week": 17,
+      "kickoff": 1798766100000,
+      "home": "CIN",
+      "away": "BAL",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873157",
+      "week": 17,
+      "kickoff": 1798963260000,
+      "home": "NE",
+      "away": "DEN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873158",
+      "week": 17,
+      "kickoff": 1798963260000,
+      "home": "LAC",
+      "away": "KC",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873159",
+      "week": 17,
+      "kickoff": 1798963260000,
+      "home": "TB",
+      "away": "LAR",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873160",
+      "week": 17,
+      "kickoff": 1798963260000,
+      "home": "JAX",
+      "away": "WSH",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873161",
+      "week": 17,
+      "kickoff": 1798999200000,
+      "home": "MIA",
+      "away": "BUF",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873162",
+      "week": 17,
+      "kickoff": 1798999200000,
+      "home": "CLE",
+      "away": "IND",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873163",
+      "week": 17,
+      "kickoff": 1798999200000,
+      "home": "NYJ",
+      "away": "MIN",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873164",
+      "week": 17,
+      "kickoff": 1798999200000,
+      "home": "ATL",
+      "away": "NO",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873165",
+      "week": 17,
+      "kickoff": 1798999200000,
+      "home": "DAL",
+      "away": "NYG",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873166",
+      "week": 17,
+      "kickoff": 1798999200000,
+      "home": "TEN",
+      "away": "PIT",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873167",
+      "week": 17,
+      "kickoff": 1798999200000,
+      "home": "CAR",
+      "away": "SEA",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873168",
+      "week": 17,
+      "kickoff": 1799010300000,
+      "home": "ARI",
+      "away": "LV",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873169",
+      "week": 17,
+      "kickoff": 1799011500000,
+      "home": "CHI",
+      "away": "DET",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873170",
+      "week": 17,
+      "kickoff": 1799025600000,
+      "home": "SF",
+      "away": "PHI",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873171",
+      "week": 17,
+      "kickoff": 1799111700000,
+      "home": "GB",
+      "away": "HOU",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873172",
+      "week": 18,
+      "kickoff": 1799568060000,
+      "home": "CAR",
+      "away": "ATL",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873173",
+      "week": 18,
+      "kickoff": 1799568060000,
+      "home": "MIN",
+      "away": "CHI",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873174",
+      "week": 18,
+      "kickoff": 1799568060000,
+      "home": "CIN",
+      "away": "CLE",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873175",
+      "week": 18,
+      "kickoff": 1799568060000,
+      "home": "WSH",
+      "away": "DAL",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873176",
+      "week": 18,
+      "kickoff": 1799568060000,
+      "home": "GB",
+      "away": "DET",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873177",
+      "week": 18,
+      "kickoff": 1799568060000,
+      "home": "IND",
+      "away": "JAX",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873178",
+      "week": 18,
+      "kickoff": 1799568060000,
+      "home": "KC",
+      "away": "LV",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873179",
+      "week": 18,
+      "kickoff": 1799568060000,
+      "home": "DEN",
+      "away": "LAC",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873180",
+      "week": 18,
+      "kickoff": 1799568060000,
+      "home": "NE",
+      "away": "MIA",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873181",
+      "week": 18,
+      "kickoff": 1799568060000,
+      "home": "BUF",
+      "away": "NYJ",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873182",
+      "week": 18,
+      "kickoff": 1799568060000,
+      "home": "NYG",
+      "away": "PHI",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873183",
+      "week": 18,
+      "kickoff": 1799568060000,
+      "home": "BAL",
+      "away": "PIT",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873184",
+      "week": 18,
+      "kickoff": 1799568060000,
+      "home": "ARI",
+      "away": "SF",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873185",
+      "week": 18,
+      "kickoff": 1799568060000,
+      "home": "LAR",
+      "away": "SEA",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873186",
+      "week": 18,
+      "kickoff": 1799568060000,
+      "home": "NO",
+      "away": "TB",
+      "complete": false,
+      "completionUnknown": false
+    },
+    {
+      "id": "401873187",
+      "week": 18,
+      "kickoff": 1799568060000,
+      "home": "HOU",
+      "away": "TEN",
+      "complete": false,
+      "completionUnknown": false
+    }
+  ],
+  "coverage": {
+    "actualWeeksRequested": 18,
+    "playersWithActualSeasonRecords": [
+      "-16005",
+      "-16007",
+      "-16012",
+      "-16014",
+      "-16016",
+      "-16017",
+      "-16021",
+      "-16023",
+      "-16025",
+      "-16026",
+      "-16027",
+      "-16033",
+      "-16034",
+      "12483",
+      "15818",
+      "15847",
+      "16737",
+      "16800",
+      "17427",
+      "2473037",
+      "2577417",
+      "2971573",
+      "2973405",
+      "2976212",
+      "3040151",
+      "3042519",
+      "3043078",
+      "3046779",
+      "3054850",
+      "3055899",
+      "3116165",
+      "3116365",
+      "3117251",
+      "3117256",
+      "3121023",
+      "3121422",
+      "3126486",
+      "3128429",
+      "3139477",
+      "3915416",
+      "3915511",
+      "3916148",
+      "3916387",
+      "3916433",
+      "3917315",
+      "3918298",
+      "3929630",
+      "3929645",
+      "3953687",
+      "4034949",
+      "4035538",
+      "4035687",
+      "4038815",
+      "4038941",
+      "4040715",
+      "4047365",
+      "4047646",
+      "4047650",
+      "4239993",
+      "4239996",
+      "4241389",
+      "4241416",
+      "4241478",
+      "4241985",
+      "4242335",
+      "4242355",
+      "4248528",
+      "4258173",
+      "4259545",
+      "4262921",
+      "4360078",
+      "4360234",
+      "4360248",
+      "4360310",
+      "4360569",
+      "4360689",
+      "4360761",
+      "4361050",
+      "4361307",
+      "4361370",
+      "4361432",
+      "4361579",
+      "4361741",
+      "4362081",
+      "4362238",
+      "4362249",
+      "4362619",
+      "4362628",
+      "4362921",
+      "4366031",
+      "4371733",
+      "4372016",
+      "4373626",
+      "4373678",
+      "4374302",
+      "4379399",
+      "4385690",
+      "4426338",
+      "4426348",
+      "4426354",
+      "4426385",
+      "4426388",
+      "4426502",
+      "4426515",
+      "4427366",
+      "4428331",
+      "4428557",
+      "4428850",
+      "4429023",
+      "4429025",
+      "4429059",
+      "4429086",
+      "4429096",
+      "4429160",
+      "4429205",
+      "4429615",
+      "4429795",
+      "4430027",
+      "4430737",
+      "4430807",
+      "4430878",
+      "4431299",
+      "4431452",
+      "4431459",
+      "4431611",
+      "4432620",
+      "4432665",
+      "4432708",
+      "4432710",
+      "4432773",
+      "4567048",
+      "4567750",
+      "4568490",
+      "4569173",
+      "4569559",
+      "4569587",
+      "4569618",
+      "4569987",
+      "4570037",
+      "4572680",
+      "4574716",
+      "4575131",
+      "4595348",
+      "4596448",
+      "4608686",
+      "4612826",
+      "4678008",
+      "4682648",
+      "4683062",
+      "4685278",
+      "4685382",
+      "4685472",
+      "4685512",
+      "4685702",
+      "4685720",
+      "4686361",
+      "4688813",
+      "4689114",
+      "4689936",
+      "4695883",
+      "4696044",
+      "4696981",
+      "4697815",
+      "4701936",
+      "4702555",
+      "4710714",
+      "4711533",
+      "4723086",
+      "4832800",
+      "4832955",
+      "4870653",
+      "4870795",
+      "4870808",
+      "4871023",
+      "4882093",
+      "4887558",
+      "4890973",
+      "5083076",
+      "5083315"
+    ]
   }
 }

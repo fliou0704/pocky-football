@@ -36,3 +36,22 @@ test('direct profile fetch has no back button and D/ST has no human biography',a
  r.rerender(<PlayersPage path="index" playerId={999} loadData={load} Section={Section} Team={Team}/>);await screen.findByText('Player not found in Pocky Football history.');
  cleanup();render(<PlayerDetail detail={{...detail,profile:{espnId:-16001,name:'Falcons D/ST',entityType:'team_defense',position:'D/ST'}}} Section={Section} Team={Team}/>);expect(screen.queryByText('Born')).toBeNull();expect(screen.getByText('Pocky Football Team Defense')).toBeTruthy();
 });
+
+test('full NFL log includes week 18 chronologically while recents stay newest first',()=>{
+ const full={...detail,seasons:[{...detail.seasons[0],weeks:[week(2026,18,'played',18),week(2026,2,'played',2),week(2026,1,'played',1)]},detail.seasons[1]]};
+ render(<PlayerDetail detail={full} Section={Section} Team={Team}/>);fireEvent.click(screen.getByRole('tab',{name:'Game Log'}));
+ const tables=screen.getAllByRole('table');const weeks=t=>within(t).getAllByRole('row').slice(1).map(r=>within(r).getByRole('rowheader').textContent);
+ expect(weeks(tables[0])).toEqual(['18','2','1']);expect(weeks(tables[1])).toEqual(['1','2','18']);
+});
+test('draft, waiver, free-agent, drop and trade descriptions have correct directions',()=>{
+ const other={teamId:2,name:'Receiving Team'};
+ const all={...detail,seasons:[{...detail.seasons[0],transactions:[
+ {type:'drop',timestamp:'2026-09-21T12:00:00Z',fromTeams:[team],toTeams:[]},
+ {type:'trade',timestamp:'2026-09-20T12:00:00Z',fromTeams:[team],toTeams:[other]},
+ {type:'free_agent_add',timestamp:'2026-09-19T12:00:00Z',fromTeams:[],toTeams:[team]},
+ ...detail.seasons[0].transactions]}]};
+ render(<PlayerDetail detail={all} Section={Section} Team={Team}/>);fireEvent.click(screen.getByRole('tab',{name:'Transactions'}));
+ const text=screen.getAllByRole('listitem').map(r=>r.textContent);
+ expect(text[0]).toContain('Dropped by Historical Team');expect(text[0]).not.toContain('Added');
+ expect(text[1]).toContain('Traded from Historical Team to Receiving Team');expect(text[2]).toContain('Added by Historical Team via Free Agency');expect(text[3]).toContain('via Waivers');expect(text[4]).toContain('Drafted by');
+});

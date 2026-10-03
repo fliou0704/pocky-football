@@ -112,3 +112,5 @@ Players follows Basketball Brawl’s search, profile and tab layout with footbal
 ### Players revamp
 
 Players is now search-only, with a simplified Career table, position-specific NFL statistics, an independent Game Log season selector, and all-time Transactions including draft selections. Python determines participation and actual GP/FPPG before rendering; ambiguous participation remains unknown. See [Players revamp](PLAYERS-REVAMP.md) for source fields, calculation rules, contracts, validation and limitations.
+
+The [focused Players data polish](PLAYERS-DATA-POLISH.md) extends Game Log to all 18 NFL regular-season weeks, makes Career fantasy totals reflect completed active-slot starts, and fixes bundled-drop labels using audited movement directions.

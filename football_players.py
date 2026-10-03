@@ -22,6 +22,13 @@ def summary(rows):
             'starts':len(starters), 'starterPoints':round(sum(s['points'] for _,s in starters),2) if starters else None}
 
 
+def player_transaction_type(event_type,from_teams,to_teams):
+    # A single acquisition event may bundle a different player's drop.
+    if event_type=='trade':return 'trade'
+    if from_teams and not to_teams:return 'drop'
+    return event_type
+
+
 def build_players(output, slug, years):
     folder = Path(output)/slug
     metadata = json.loads((folder/'players.json').read_text())
@@ -67,7 +74,7 @@ def build_players(output, slug, years):
                         seen(p['playerId'],team['teamId'],'transaction')
                         movements[p['playerId']][direction].add(team['teamId'])
             for pid, movement in movements.items():
-                transactions[pid].append({'type':event['type'],'timestamp':event.get('timestamp'),
+                transactions[pid].append({'type':player_transaction_type(event['type'],movement['fromTeams'],movement['toTeams']),'timestamp':event.get('timestamp'),
                     'timestampKind':event.get('timestampKind'),'week':event.get('week'),
                     **{field:[team_map[tid] for tid in sorted(tids)] for field,tids in movement.items()}})
         score_map={p['playerId']:p for p in scoring['players']}
@@ -77,8 +84,9 @@ def build_players(output, slug, years):
             if current not in ('bye','upcoming'):status[w]='live' if current=='live' or status.get(w)=='live' else 'final'
         for pid in sorted(present):
             score=score_map.get(pid,{}); weeks=[]
-            represented=set(scoring['weeks'])
-            historical_teams={t for t in score.get('nflTeamsByWeek',{}).values() if t not in ('None','—')}
+            represented=set(nfl_games['weeks'])
+            nfl_schedule=nfl_games['games']
+            historical_teams={r['nflTeam'] for r in nfl_games['players'].get(str(pid),{}).values() if r.get('nflTeam') not in (None,'None','—','FA')}
             last_team=None
             for week in sorted(represented):
                 roster=slots[pid].get(week,[]); points=score.get('pointsByWeek',{}).get(str(week))
@@ -87,18 +95,24 @@ def build_players(output, slug, years):
                 if numeric(points) and any(numeric(r['points']) and abs(r['points']-points)>0.011 for r in roster):
                     raise ValueError('Player score conflicts with audited weekly lineup')
                 player_game=nfl_games['players'].get(str(pid),{}).get(str(week))
+                if not numeric(points):points=(player_game or {}).get('points')
                 teams_by_week=score.get('nflTeamsByWeek',{}).get(str(week)) or (player_game or {}).get('nflTeam')
                 if teams_by_week in ('None','—'): teams_by_week=None
                 week_teams={r.get('nflTeam') for r in roster if r.get('nflTeam') not in (None,'None','—')}
-                week_opponents={r.get('nflOpponent') for r in roster if r.get('nflOpponent')}
                 teams_by_week=teams_by_week or (next(iter(historical_teams)) if len(historical_teams)==1 else None) or (next(iter(week_teams)) if len(week_teams)==1 else last_team)
                 if teams_by_week:last_team=teams_by_week
-                game=nfl_game(scoring,{'nflTeamsByWeek':{str(week):teams_by_week}},week)
-                opponent=(game['away'] if game['home']==teams_by_week else game['home']) if game else None
-                state=game_state(week,player_game,teams_by_week,scoring.get('games',[]),status.get(week)=='final',defense=pid<0)
-                weeks.append({'gameState':state,'nflStats':(player_game or {}).get('stats',{}),'season':year,'week':week,'status':status.get(week,'upcoming'),'points':points if numeric(points) else None,
-                    'nflTeam':teams_by_week or (next(iter(week_teams)) if len(week_teams)==1 else None),
-                    'nflOpponent':opponent or (next(iter(week_opponents)) if len(week_opponents)==1 else None),'rosters':roster})
+                game=nfl_game({'games':nfl_schedule},{'nflTeamsByWeek':{str(week):teams_by_week}},week)
+                event_games=[g for g in nfl_schedule if g['week']==week and str(g.get('id'))==str((player_game or {}).get('eventId'))]
+                if len(event_games)==1:
+                    game=event_games[0]
+                    if teams_by_week not in (game['home'],game['away']):teams_by_week=None
+                opponent=(game['away'] if game['home']==teams_by_week else game['home']) if game and teams_by_week else None
+                week_games=[g for g in nfl_schedule if g['week']==week]
+                nfl_final=bool(game and (game.get('complete') or game.get('canceled'))) or bool(not game and week_games and all(g.get('complete') or g.get('canceled') for g in week_games))
+                state=game_state(week,player_game,teams_by_week,nfl_schedule,nfl_final,defense=pid<0,source_covered=str(pid) in nfl_games.get('coverage',{}).get('playersWithActualSeasonRecords',[]))
+                weeks.append({'gameState':state,'nflStats':(player_game or {}).get('stats',{}),'season':year,'week':week,'fantasyStatus':status.get(week,'upcoming'),'status':'final' if nfl_final else 'upcoming','points':points if numeric(points) else None,
+                    'nflTeam':teams_by_week,
+                    'nflOpponent':opponent,'rosters':roster})
             ownership=[{'team':o['team'],'weeks':sorted(o['weeks']),'evidence':sorted(o['evidence'])} for _,o in sorted(owners[pid].items())]
             histories[pid].append({'season':year,'complete':league['league']['complete'],'summary':summary(weeks),'seasonStats':season_stats(weeks,COLUMNS.get(profiles[pid].get('position'),[])),'weeks':weeks,
                 'ownership':ownership,'rosterSnapshot':snapshot[pid],

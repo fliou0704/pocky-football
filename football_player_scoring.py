@@ -29,19 +29,12 @@ def normalize_player_scoring(raw, season, weeks):
 def generate_player_scoring(client,folder,season):
     folder=Path(folder);matches=json.loads((folder/'teams.json').read_text())['matchups']
     weeks={m['week'] for m in matches}
-    filters={'players':{'filterStatsForTopScoringPeriodIds':{'value':max(weeks),'additionalValue':[f'00{season}',f'10{season}']}}}
+    filters={'players':{'filterStatsForTopScoringPeriodIds':{'value':18,'additionalValue':[f'00{season}',f'10{season}']}}}
     raw=client.league_get(params={'view':'kona_playercard'},headers={'x-fantasy-filter':json.dumps(filters)})
     data=normalize_player_scoring(raw,season,weeks)
-    from football_player_games import normalize_games, enrich_participation
-    from football_player_metadata import universe
-    from football_exporter import ROOT
-    known,_,_=universe(folder.parent,season,season)
-    games=normalize_games(raw,season,weeks)
-    games['players']={pid:rows for pid,rows in games['players'].items() if int(pid) in known}
-    enrich_participation(games,known,ROOT/'.cache/player-games/participation',refresh=not json.loads((folder/'league.json').read_text())['league']['complete'])
-    write_json(folder/'player-games.json',games)
-    # Pro schedule supplies real kickoff boundaries; no guessed weekly ownership cutoff.
+    from football_player_games import generate_player_games
     schedule=client.get_pro_schedule()
+    generate_player_games(client,folder,season,raw,schedule)
     from espn_api.football.constant import PRO_TEAM_MAP
     games={}
     for team in schedule.get('settings',{}).get('proTeams',[]):

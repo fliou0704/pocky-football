@@ -186,6 +186,9 @@ def generate(slug, config_path=CONFIG_PATH, output=PUBLIC_DATA):
         write_json(folder / "teams.json", teams)
         generate_activity(league.espn_request, folder, year, {t["teamId"] for t in payload["standings"]})
         from football_player_scoring import generate_player_scoring,enrich_lineups
+        from football_player_games import generate_player_games
+        if (folder/'player-games.json').exists() and json.loads((folder/'player-games.json').read_text()).get('schemaVersion',1)<2:
+            generate_player_games(league.espn_request,folder,year)
         if not (folder/'player-scoring.json').exists() or not (folder/'player-games.json').exists() or not payload['league']['complete']:
             generate_player_scoring(league.espn_request,folder,year)
         else:

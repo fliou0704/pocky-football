@@ -51,9 +51,9 @@
       "season": 2022,
       "complete": true,
       "summary": {
-        "weeks": 16,
+        "weeks": 17,
         "points": 36.82,
-        "average": 2.3,
+        "average": 2.17,
         "high": {
           "season": 2022,
           "week": 16,
@@ -63,9 +63,9 @@
         "starterPoints": 12.96
       },
       "seasonStats": {
-        "gp": 5,
-        "points": 36.82,
-        "fppg": 7.36,
+        "gp": 1,
+        "points": 12.96,
+        "fppg": 12.96,
         "nflStats": {
           "passYards": 663.0,
           "passTD": 3.0,
@@ -74,7 +74,7 @@
           "rushTD": 1.0
         },
         "participationComplete": true,
-        "scope": "NFL weeks covered by this fantasy season"
+        "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
       },
       "weeks": [
         {
@@ -101,6 +101,7 @@
           },
           "season": 2022,
           "week": 1,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "PHI",
@@ -131,6 +132,7 @@
           },
           "season": 2022,
           "week": 2,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "PHI",
@@ -161,6 +163,7 @@
           },
           "season": 2022,
           "week": 3,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "PHI",
@@ -191,6 +194,7 @@
           },
           "season": 2022,
           "week": 4,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "PHI",
@@ -221,6 +225,7 @@
           },
           "season": 2022,
           "week": 5,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "PHI",
@@ -251,6 +256,7 @@
           },
           "season": 2022,
           "week": 6,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "PHI",
@@ -262,6 +268,7 @@
           "nflStats": {},
           "season": 2022,
           "week": 7,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "PHI",
@@ -292,6 +299,7 @@
           },
           "season": 2022,
           "week": 8,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.82,
           "nflTeam": "PHI",
@@ -322,6 +330,7 @@
           },
           "season": 2022,
           "week": 9,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "PHI",
@@ -352,6 +361,7 @@
           },
           "season": 2022,
           "week": 10,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "PHI",
@@ -382,6 +392,7 @@
           },
           "season": 2022,
           "week": 11,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "PHI",
@@ -412,6 +423,7 @@
           },
           "season": 2022,
           "week": 12,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "PHI",
@@ -442,6 +454,7 @@
           },
           "season": 2022,
           "week": 13,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.44,
           "nflTeam": "PHI",
@@ -472,6 +485,7 @@
           },
           "season": 2022,
           "week": 14,
+          "fantasyStatus": "final",
           "status": "final",
           "points": -0.1,
           "nflTeam": "PHI",
@@ -502,6 +516,7 @@
           },
           "season": 2022,
           "week": 15,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "PHI",
@@ -532,6 +547,7 @@
           },
           "season": 2022,
           "week": 16,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 22.7,
           "nflTeam": "PHI",
@@ -562,6 +578,7 @@
           },
           "season": 2022,
           "week": 17,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 12.96,
           "nflTeam": "PHI",
@@ -579,6 +596,37 @@
               "nflOpponent": "NO"
             }
           ]
+        },
+        {
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
+          "season": 2022,
+          "week": 18,
+          "fantasyStatus": "upcoming",
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "NYG",
+          "rosters": []
         }
       ],
       "ownership": [
@@ -630,9 +678,9 @@
     }
   ],
   "career": {
-    "weeks": 16,
+    "weeks": 17,
     "points": 36.82,
-    "average": 2.3,
+    "average": 2.17,
     "high": {
       "season": 2022,
       "week": 16,
