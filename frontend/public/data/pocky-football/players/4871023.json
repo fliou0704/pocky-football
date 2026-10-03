@@ -23,6 +23,25 @@
     }
   },
   "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "currentSeason": 2026,
+  "statColumns": [
+    {
+      "key": "receptions",
+      "label": "Rec"
+    },
+    {
+      "key": "recYards",
+      "label": "Rec Yds"
+    },
+    {
+      "key": "recTD",
+      "label": "Rec TD"
+    },
+    {
+      "key": "rushYards",
+      "label": "Rush Yds"
+    }
+  ],
   "seasons": [
     {
       "season": 2026,
@@ -39,8 +58,42 @@
         "starts": 1,
         "starterPoints": 5.7
       },
+      "seasonStats": {
+        "gp": 3,
+        "points": 25.3,
+        "fppg": 8.43,
+        "nflStats": {
+          "receptions": 13.0,
+          "recYards": 123.0,
+          "recTD": 0,
+          "rushYards": 0
+        },
+        "participationComplete": true,
+        "scope": "NFL weeks covered by this fantasy season"
+      },
       "weeks": [
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 4.0,
+            "recYards": 38.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 1,
           "status": "final",
@@ -62,6 +115,27 @@
           ]
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 3.0,
+            "recYards": 27.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 2,
           "status": "final",
@@ -83,6 +157,27 @@
           ]
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 6.0,
+            "recYards": 58.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 3,
           "status": "final",
@@ -102,6 +197,127 @@
               "nflOpponent": "NYG"
             }
           ]
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 4,
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "TEN",
+          "nflOpponent": "BAL",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 5,
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "TEN",
+          "nflOpponent": "HOU",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 6,
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "TEN",
+          "nflOpponent": "IND",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 7,
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "TEN",
+          "nflOpponent": "CLE",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 8,
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "TEN",
+          "nflOpponent": "CIN",
+          "rosters": []
+        },
+        {
+          "gameState": "bye",
+          "nflStats": {},
+          "season": 2026,
+          "week": 9,
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "TEN",
+          "nflOpponent": null,
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 10,
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "TEN",
+          "nflOpponent": "JAX",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 11,
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "TEN",
+          "nflOpponent": "DAL",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 12,
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "TEN",
+          "nflOpponent": "JAX",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 13,
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "TEN",
+          "nflOpponent": "WSH",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 14,
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "TEN",
+          "nflOpponent": "DET",
+          "rosters": []
         }
       ],
       "ownership": [
@@ -133,6 +349,7 @@
       "rosterSnapshotLabel": "Current roster",
       "draft": [
         {
+          "timestamp": "2026-09-08T23:52:26.964000+00:00",
           "team": {
             "teamId": 6,
             "name": "LOVE MEEEE",

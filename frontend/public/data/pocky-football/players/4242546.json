@@ -23,6 +23,29 @@
     }
   },
   "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "currentSeason": 2026,
+  "statColumns": [
+    {
+      "key": "passYards",
+      "label": "Pass Yds"
+    },
+    {
+      "key": "passTD",
+      "label": "Pass TD"
+    },
+    {
+      "key": "interceptions",
+      "label": "INT"
+    },
+    {
+      "key": "rushYards",
+      "label": "Rush Yds"
+    },
+    {
+      "key": "rushTD",
+      "label": "Rush TD"
+    }
+  ],
   "seasons": [
     {
       "season": 2022,
@@ -39,8 +62,43 @@
         "starts": 1,
         "starterPoints": 18.08
       },
+      "seasonStats": {
+        "gp": 14,
+        "points": 159.0,
+        "fppg": 11.36,
+        "nflStats": {
+          "passYards": 2820.0,
+          "passTD": 14.0,
+          "interceptions": 13.0,
+          "rushYards": 102.0,
+          "rushTD": 2.0
+        },
+        "participationComplete": true,
+        "scope": "NFL weeks covered by this fantasy season"
+      },
       "weeks": [
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 37.0,
+            "passYards": 240.0,
+            "passTD": 2.0,
+            "interceptions": 0,
+            "rushAttempts": 2.0,
+            "rushYards": -1.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2022,
           "week": 1,
           "status": "final",
@@ -50,6 +108,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 38.0,
+            "passYards": 177.0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 2.0,
+            "rushYards": 1.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2022,
           "week": 2,
           "status": "final",
@@ -59,6 +138,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 32.0,
+            "passYards": 245.0,
+            "passTD": 1.0,
+            "interceptions": 2.0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2022,
           "week": 3,
           "status": "final",
@@ -68,6 +168,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 35.0,
+            "passYards": 246.0,
+            "passTD": 2.0,
+            "interceptions": 2.0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2022,
           "week": 4,
           "status": "final",
@@ -77,6 +198,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 24.0,
+            "passYards": 140.0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 2.0,
+            "rushYards": 2.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2022,
           "week": 5,
           "status": "final",
@@ -86,6 +228,38 @@
           "rosters": []
         },
         {
+          "gameState": "bye",
+          "nflStats": {},
+          "season": 2022,
+          "week": 6,
+          "status": "final",
+          "points": null,
+          "nflTeam": "HOU",
+          "nflOpponent": null,
+          "rosters": []
+        },
+        {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 41.0,
+            "passYards": 302.0,
+            "passTD": 2.0,
+            "interceptions": 1.0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2022,
           "week": 7,
           "status": "final",
@@ -107,6 +281,27 @@
           ]
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 29.0,
+            "passYards": 152.0,
+            "passTD": 1.0,
+            "interceptions": 1.0,
+            "rushAttempts": 3.0,
+            "rushYards": 8.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2022,
           "week": 8,
           "status": "final",
@@ -116,6 +311,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 22.0,
+            "passYards": 154.0,
+            "passTD": 2.0,
+            "interceptions": 2.0,
+            "rushAttempts": 3.0,
+            "rushYards": 18.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2022,
           "week": 9,
           "status": "final",
@@ -125,6 +341,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 37.0,
+            "passYards": 319.0,
+            "passTD": 1.0,
+            "interceptions": 1.0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2022,
           "week": 10,
           "status": "final",
@@ -134,6 +371,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 33.0,
+            "passYards": 169.0,
+            "passTD": 0,
+            "interceptions": 2.0,
+            "rushAttempts": 5.0,
+            "rushYards": 10.0,
+            "rushTD": 1.0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2022,
           "week": 11,
           "status": "final",
@@ -143,6 +401,27 @@
           "rosters": []
         },
         {
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2022,
           "week": 12,
           "status": "final",
@@ -152,6 +431,27 @@
           "rosters": []
         },
         {
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2022,
           "week": 13,
           "status": "final",
@@ -161,6 +461,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 21.0,
+            "passYards": 175.0,
+            "passTD": 0,
+            "interceptions": 1.0,
+            "rushAttempts": 1.0,
+            "rushYards": 2.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2022,
           "week": 14,
           "status": "final",
@@ -170,6 +491,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 24.0,
+            "passYards": 121.0,
+            "passTD": 2.0,
+            "interceptions": 0,
+            "rushAttempts": 5.0,
+            "rushYards": 21.0,
+            "rushTD": 1.0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2022,
           "week": 15,
           "status": "final",
@@ -179,6 +521,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 28.0,
+            "passYards": 178.0,
+            "passTD": 1.0,
+            "interceptions": 1.0,
+            "rushAttempts": 4.0,
+            "rushYards": 8.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2022,
           "week": 16,
           "status": "final",
@@ -188,6 +551,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 40.0,
+            "passYards": 202.0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 4.0,
+            "rushYards": 33.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2022,
           "week": 17,
           "status": "final",

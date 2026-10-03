@@ -5,6 +5,7 @@ from pathlib import Path
 from football_exporter import write_json, ROOT
 from football_record_book import STARTERS, numeric, identity
 from football_record_rankings import nfl_game
+from football_player_games import COLUMNS, game_state, season_stats
 
 PROFILE_FIELDS = ('espnId','entityType','name','position','positionGroup','nflTeam','jerseyNumber',
                   'heightInches','weightPounds','birthDate','college','headshot','logo','rookieSeason','lastSeason','nflDraft')
@@ -31,6 +32,7 @@ def build_players(output, slug, years):
         league=json.loads((season/'league.json').read_text()); teams=json.loads((season/'teams.json').read_text())
         draft=json.loads((season/'draft.json').read_text()); activity=json.loads((season/'activity.json').read_text())
         scoring=json.loads((season/'player-scoring.json').read_text())
+        nfl_games=json.loads((season/'player-games.json').read_text())
         team_map={t['teamId']:identity(t) for t in league['standings']}
         slots=defaultdict(lambda:defaultdict(list)); present=set(); owners=defaultdict(dict)
         def seen(pid, tid, evidence):
@@ -54,7 +56,7 @@ def build_players(output, slug, years):
         drafts=defaultdict(list)
         for pick in draft['picks']:
             pid=pick['playerId'];seen(pid,pick['teamId'],'draft')
-            drafts[pid].append({'team':team_map[pick['teamId']], **{k:pick.get(k) for k in ('round','pickInRound','overallPick','keeper')}})
+            drafts[pid].append({'timestamp':draft.get('completedAt') or draft.get('startedAt'),'team':team_map[pick['teamId']], **{k:pick.get(k) for k in ('round','pickInRound','overallPick','keeper')}})
         transactions=defaultdict(list)
         for event in activity['events']:
             if event['type']=='draft' or event.get('status')!='executed': continue
@@ -75,23 +77,30 @@ def build_players(output, slug, years):
             if current not in ('bye','upcoming'):status[w]='live' if current=='live' or status.get(w)=='live' else 'final'
         for pid in sorted(present):
             score=score_map.get(pid,{}); weeks=[]
-            represented=set(slots[pid])|{int(w) for w in score.get('pointsByWeek',{}) if int(w) in status}
+            represented=set(scoring['weeks'])
+            historical_teams={t for t in score.get('nflTeamsByWeek',{}).values() if t not in ('None','—')}
+            last_team=None
             for week in sorted(represented):
                 roster=slots[pid].get(week,[]); points=score.get('pointsByWeek',{}).get(str(week))
                 fallback={r['points'] for r in roster if numeric(r['points'])}
                 if not numeric(points):points=next(iter(fallback)) if len(fallback)==1 else None
                 if numeric(points) and any(numeric(r['points']) and abs(r['points']-points)>0.011 for r in roster):
                     raise ValueError('Player score conflicts with audited weekly lineup')
-                teams_by_week=score.get('nflTeamsByWeek',{}).get(str(week))
-                week_teams={r.get('nflTeam') for r in roster if r.get('nflTeam')}
+                player_game=nfl_games['players'].get(str(pid),{}).get(str(week))
+                teams_by_week=score.get('nflTeamsByWeek',{}).get(str(week)) or (player_game or {}).get('nflTeam')
+                if teams_by_week in ('None','—'): teams_by_week=None
+                week_teams={r.get('nflTeam') for r in roster if r.get('nflTeam') not in (None,'None','—')}
                 week_opponents={r.get('nflOpponent') for r in roster if r.get('nflOpponent')}
-                game=nfl_game(scoring,score,week)
+                teams_by_week=teams_by_week or (next(iter(historical_teams)) if len(historical_teams)==1 else None) or (next(iter(week_teams)) if len(week_teams)==1 else last_team)
+                if teams_by_week:last_team=teams_by_week
+                game=nfl_game(scoring,{'nflTeamsByWeek':{str(week):teams_by_week}},week)
                 opponent=(game['away'] if game['home']==teams_by_week else game['home']) if game else None
-                weeks.append({'season':year,'week':week,'status':status.get(week,'upcoming'),'points':points if numeric(points) else None,
+                state=game_state(week,player_game,teams_by_week,scoring.get('games',[]),status.get(week)=='final',defense=pid<0)
+                weeks.append({'gameState':state,'nflStats':(player_game or {}).get('stats',{}),'season':year,'week':week,'status':status.get(week,'upcoming'),'points':points if numeric(points) else None,
                     'nflTeam':teams_by_week or (next(iter(week_teams)) if len(week_teams)==1 else None),
                     'nflOpponent':opponent or (next(iter(week_opponents)) if len(week_opponents)==1 else None),'rosters':roster})
             ownership=[{'team':o['team'],'weeks':sorted(o['weeks']),'evidence':sorted(o['evidence'])} for _,o in sorted(owners[pid].items())]
-            histories[pid].append({'season':year,'complete':league['league']['complete'],'summary':summary(weeks),'weeks':weeks,
+            histories[pid].append({'season':year,'complete':league['league']['complete'],'summary':summary(weeks),'seasonStats':season_stats(weeks,COLUMNS.get(profiles[pid].get('position'),[])),'weeks':weeks,
                 'ownership':ownership,'rosterSnapshot':snapshot[pid],
                 'rosterSnapshotLabel':'Final roster' if league['league']['complete'] else 'Current roster',
                 'draft':drafts[pid], 'transactions':sorted(transactions[pid],key=lambda e:e['timestamp'] or '',reverse=True),
@@ -100,6 +109,7 @@ def build_players(output, slug, years):
         seasons=histories[pid]
         if not seasons: raise ValueError('Metadata has no league presence')
         payload={'schemaVersion':1,'profile':profile,'metadataGeneratedAt':metadata['generatedAt'],
+                 'currentSeason':max(years),'statColumns':[{'key':k,'label':v} for k,v in COLUMNS.get(profile.get('position'),[])],
                  'seasons':seasons,'career':summary([w for s in seasons for w in s['weeks']])}
         write_json(folder/'players'/f'{pid}.json',payload)
         manifest.append({k:profile.get(k) for k in ('espnId','entityType','name','position','nflTeam','headshot','logo')}|

@@ -23,6 +23,29 @@
     }
   },
   "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "currentSeason": 2026,
+  "statColumns": [
+    {
+      "key": "passYards",
+      "label": "Pass Yds"
+    },
+    {
+      "key": "passTD",
+      "label": "Pass TD"
+    },
+    {
+      "key": "interceptions",
+      "label": "INT"
+    },
+    {
+      "key": "rushYards",
+      "label": "Rush Yds"
+    },
+    {
+      "key": "rushTD",
+      "label": "Rush TD"
+    }
+  ],
   "seasons": [
     {
       "season": 2026,
@@ -39,8 +62,43 @@
         "starts": 1,
         "starterPoints": 13.64
       },
+      "seasonStats": {
+        "gp": 3,
+        "points": 69.16,
+        "fppg": 23.05,
+        "nflStats": {
+          "passYards": 939.0,
+          "passTD": 7.0,
+          "interceptions": 2.0,
+          "rushYards": 16.0,
+          "rushTD": 1.0
+        },
+        "participationComplete": true,
+        "scope": "NFL weeks covered by this fantasy season"
+      },
       "weeks": [
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 37.0,
+            "passYards": 361.0,
+            "passTD": 3.0,
+            "interceptions": 1.0,
+            "rushAttempts": 2.0,
+            "rushYards": 10.0,
+            "rushTD": 1.0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 1,
           "status": "final",
@@ -50,6 +108,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 36.0,
+            "passYards": 287.0,
+            "passTD": 3.0,
+            "interceptions": 0,
+            "rushAttempts": 1.0,
+            "rushYards": 6.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 2,
           "status": "final",
@@ -71,6 +150,27 @@
           ]
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 48.0,
+            "passYards": 291.0,
+            "passTD": 1.0,
+            "interceptions": 1.0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 3,
           "status": "final",
@@ -90,6 +190,127 @@
               "nflOpponent": "CLE"
             }
           ]
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 4,
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": "DET",
+          "rosters": []
+        },
+        {
+          "gameState": "bye",
+          "nflStats": {},
+          "season": 2026,
+          "week": 5,
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": null,
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 6,
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": "PHI",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 7,
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": "TB",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 8,
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": "GB",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 9,
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": "DEN",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 10,
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": "NO",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 11,
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": "BAL",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 12,
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": "TB",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 13,
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": "MIN",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 14,
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": "NO",
+          "rosters": []
         }
       ],
       "ownership": [
@@ -155,8 +376,43 @@
         "starts": 0,
         "starterPoints": null
       },
+      "seasonStats": {
+        "gp": 15,
+        "points": 152.22,
+        "fppg": 10.15,
+        "nflStats": {
+          "passYards": 2783.0,
+          "passTD": 11.0,
+          "interceptions": 10.0,
+          "rushYards": 229.0,
+          "rushTD": 0
+        },
+        "participationComplete": true,
+        "scope": "NFL weeks covered by this fantasy season"
+      },
       "weeks": [
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 38.0,
+            "passYards": 146.0,
+            "passTD": 1.0,
+            "interceptions": 2.0,
+            "rushAttempts": 3.0,
+            "rushYards": 17.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2023,
           "week": 1,
           "status": "final",
@@ -166,6 +422,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 33.0,
+            "passYards": 153.0,
+            "passTD": 1.0,
+            "interceptions": 0,
+            "rushAttempts": 2.0,
+            "rushYards": 34.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2023,
           "week": 2,
           "status": "final",
@@ -175,6 +452,27 @@
           "rosters": []
         },
         {
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2023,
           "week": 3,
           "status": "final",
@@ -184,6 +482,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 32.0,
+            "passYards": 204.0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 2.0,
+            "rushYards": 10.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2023,
           "week": 4,
           "status": "final",
@@ -205,6 +524,27 @@
           ]
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 41.0,
+            "passYards": 247.0,
+            "passTD": 3.0,
+            "interceptions": 2.0,
+            "rushAttempts": 1.0,
+            "rushYards": 4.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2023,
           "week": 5,
           "status": "final",
@@ -226,6 +566,27 @@
           ]
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 38.0,
+            "passYards": 217.0,
+            "passTD": 1.0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2023,
           "week": 6,
           "status": "final",
@@ -247,6 +608,8 @@
           ]
         },
         {
+          "gameState": "bye",
+          "nflStats": {},
           "season": 2023,
           "week": 7,
           "status": "final",
@@ -268,6 +631,27 @@
           ]
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 31.0,
+            "passYards": 235.0,
+            "passTD": 1.0,
+            "interceptions": 0,
+            "rushAttempts": 4.0,
+            "rushYards": 11.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2023,
           "week": 8,
           "status": "final",
@@ -289,6 +673,27 @@
           ]
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 39.0,
+            "passYards": 173.0,
+            "passTD": 1.0,
+            "interceptions": 3.0,
+            "rushAttempts": 5.0,
+            "rushYards": 41.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2023,
           "week": 9,
           "status": "final",
@@ -310,6 +715,27 @@
           ]
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 38.0,
+            "passYards": 185.0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 3.0,
+            "rushYards": 18.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2023,
           "week": 10,
           "status": "final",
@@ -319,6 +745,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 29.0,
+            "passYards": 123.0,
+            "passTD": 1.0,
+            "interceptions": 1.0,
+            "rushAttempts": 2.0,
+            "rushYards": 3.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2023,
           "week": 11,
           "status": "final",
@@ -328,6 +775,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 31.0,
+            "passYards": 194.0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 3.0,
+            "rushYards": 23.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2023,
           "week": 12,
           "status": "final",
@@ -337,6 +805,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 31.0,
+            "passYards": 178.0,
+            "passTD": 0,
+            "interceptions": 1.0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2023,
           "week": 13,
           "status": "final",
@@ -346,6 +835,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 36.0,
+            "passYards": 137.0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 3.0,
+            "rushYards": 40.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2023,
           "week": 14,
           "status": "final",
@@ -355,6 +865,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 24.0,
+            "passYards": 167.0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 4.0,
+            "rushYards": 9.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2023,
           "week": 15,
           "status": "final",
@@ -364,6 +895,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 36.0,
+            "passYards": 312.0,
+            "passTD": 2.0,
+            "interceptions": 0,
+            "rushAttempts": 4.0,
+            "rushYards": 17.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2023,
           "week": 16,
           "status": "final",
@@ -373,6 +925,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 32.0,
+            "passYards": 112.0,
+            "passTD": 0,
+            "interceptions": 1.0,
+            "rushAttempts": 1.0,
+            "rushYards": 2.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2023,
           "week": 17,
           "status": "final",
