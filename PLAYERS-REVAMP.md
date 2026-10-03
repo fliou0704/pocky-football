@@ -1,5 +1,7 @@
 # Players revamp
 
+This is the initial revamp report. The subsequent [Players data polish](PLAYERS-DATA-POLISH.md) supersedes its fantasy-only week coverage, GP/FPPG scopes and participation limitations.
+
 Players remains based on the current Basketball Brawl profile, spacing, tab and table patterns. Basketball Brawl was inspected read-only. Changes are confined to Players, its generated contracts and the bounded participation cache; no player links were added elsewhere.
 
 ## Interface

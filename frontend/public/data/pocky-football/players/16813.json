@@ -43,9 +43,9 @@
       "season": 2023,
       "complete": true,
       "summary": {
-        "weeks": 16,
-        "points": 124.9,
-        "average": 7.81,
+        "weeks": 17,
+        "points": 126.8,
+        "average": 7.46,
         "high": {
           "season": 2023,
           "week": 5,
@@ -55,16 +55,16 @@
         "starterPoints": 34.6
       },
       "seasonStats": {
-        "gp": null,
-        "points": 124.9,
-        "fppg": null,
+        "gp": 4,
+        "points": 34.6,
+        "fppg": 8.65,
         "nflStats": {
-          "receptions": null,
-          "recYards": null,
-          "recTD": null
+          "receptions": 55.0,
+          "recYards": 496.0,
+          "recTD": 4.0
         },
-        "participationComplete": false,
-        "scope": "NFL weeks covered by this fantasy season"
+        "participationComplete": true,
+        "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
       },
       "weeks": [
         {
@@ -91,6 +91,7 @@
           },
           "season": 2023,
           "week": 1,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 8.3,
           "nflTeam": "WSH",
@@ -121,6 +122,7 @@
           },
           "season": 2023,
           "week": 2,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 10.2,
           "nflTeam": "WSH",
@@ -128,7 +130,7 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -151,6 +153,7 @@
           },
           "season": 2023,
           "week": 3,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "WSH",
@@ -181,6 +184,7 @@
           },
           "season": 2023,
           "week": 4,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 7.3,
           "nflTeam": "WSH",
@@ -211,6 +215,7 @@
           },
           "season": 2023,
           "week": 5,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 20.7,
           "nflTeam": "WSH",
@@ -241,6 +246,7 @@
           },
           "season": 2023,
           "week": 6,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 1.2,
           "nflTeam": "WSH",
@@ -271,6 +277,7 @@
           },
           "season": 2023,
           "week": 7,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 9.1,
           "nflTeam": "WSH",
@@ -313,6 +320,7 @@
           },
           "season": 2023,
           "week": 8,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 16.4,
           "nflTeam": "WSH",
@@ -355,6 +363,7 @@
           },
           "season": 2023,
           "week": 9,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 7.1,
           "nflTeam": "WSH",
@@ -397,6 +406,7 @@
           },
           "season": 2023,
           "week": 10,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 9.0,
           "nflTeam": "WSH",
@@ -439,6 +449,7 @@
           },
           "season": 2023,
           "week": 11,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 8.8,
           "nflTeam": "WSH",
@@ -481,6 +492,7 @@
           },
           "season": 2023,
           "week": 12,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 3.5,
           "nflTeam": "WSH",
@@ -523,6 +535,7 @@
           },
           "season": 2023,
           "week": 13,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 2.0,
           "nflTeam": "WSH",
@@ -546,6 +559,7 @@
           "nflStats": {},
           "season": 2023,
           "week": 14,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "WSH",
@@ -588,6 +602,7 @@
           },
           "season": 2023,
           "week": 15,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 1.7,
           "nflTeam": "WSH",
@@ -630,6 +645,7 @@
           },
           "season": 2023,
           "week": 16,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 14.6,
           "nflTeam": "WSH",
@@ -672,6 +688,7 @@
           },
           "season": 2023,
           "week": 17,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 5.0,
           "nflTeam": "WSH",
@@ -689,6 +706,37 @@
               "nflOpponent": "SF"
             }
           ]
+        },
+        {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 1.0,
+            "recYards": 9.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
+          "season": 2023,
+          "week": 18,
+          "fantasyStatus": "upcoming",
+          "status": "final",
+          "points": 1.9,
+          "nflTeam": "WSH",
+          "nflOpponent": "DAL",
+          "rosters": []
         }
       ],
       "ownership": [
@@ -752,9 +800,9 @@
       "season": 2022,
       "complete": true,
       "summary": {
-        "weeks": 16,
-        "points": 73.7,
-        "average": 4.61,
+        "weeks": 17,
+        "points": 77.3,
+        "average": 4.55,
         "high": {
           "season": 2022,
           "week": 2,
@@ -764,16 +812,16 @@
         "starterPoints": null
       },
       "seasonStats": {
-        "gp": null,
-        "points": 73.7,
+        "gp": 0,
+        "points": 0,
         "fppg": null,
         "nflStats": {
-          "receptions": null,
-          "recYards": null,
-          "recTD": null
+          "receptions": 39.0,
+          "recYards": 323.0,
+          "recTD": 1.0
         },
-        "participationComplete": false,
-        "scope": "NFL weeks covered by this fantasy season"
+        "participationComplete": true,
+        "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
       },
       "weeks": [
         {
@@ -800,6 +848,7 @@
           },
           "season": 2022,
           "week": 1,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 7.5,
           "nflTeam": "WSH",
@@ -842,6 +891,7 @@
           },
           "season": 2022,
           "week": 2,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 12.7,
           "nflTeam": "WSH",
@@ -884,6 +934,7 @@
           },
           "season": 2022,
           "week": 3,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 2.5,
           "nflTeam": "WSH",
@@ -926,6 +977,7 @@
           },
           "season": 2022,
           "week": 4,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 6.9,
           "nflTeam": "WSH",
@@ -945,7 +997,7 @@
           ]
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -968,6 +1020,7 @@
           },
           "season": 2022,
           "week": 5,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "WSH",
@@ -987,7 +1040,7 @@
           ]
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -1010,6 +1063,7 @@
           },
           "season": 2022,
           "week": 6,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "WSH",
@@ -1029,7 +1083,7 @@
           ]
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -1052,6 +1106,7 @@
           },
           "season": 2022,
           "week": 7,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "WSH",
@@ -1094,6 +1149,7 @@
           },
           "season": 2022,
           "week": 8,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "WSH",
@@ -1124,6 +1180,7 @@
           },
           "season": 2022,
           "week": 9,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "WSH",
@@ -1154,6 +1211,7 @@
           },
           "season": 2022,
           "week": 10,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 3.2,
           "nflTeam": "WSH",
@@ -1184,6 +1242,7 @@
           },
           "season": 2022,
           "week": 11,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 11.5,
           "nflTeam": "WSH",
@@ -1214,6 +1273,7 @@
           },
           "season": 2022,
           "week": 12,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 1.7,
           "nflTeam": "WSH",
@@ -1244,6 +1304,7 @@
           },
           "season": 2022,
           "week": 13,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 5.0,
           "nflTeam": "WSH",
@@ -1255,6 +1316,7 @@
           "nflStats": {},
           "season": 2022,
           "week": 14,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "WSH",
@@ -1285,6 +1347,7 @@
           },
           "season": 2022,
           "week": 15,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 1.6,
           "nflTeam": "WSH",
@@ -1315,6 +1378,7 @@
           },
           "season": 2022,
           "week": 16,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 9.5,
           "nflTeam": "WSH",
@@ -1345,10 +1409,42 @@
           },
           "season": 2022,
           "week": 17,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 11.6,
           "nflTeam": "WSH",
           "nflOpponent": "CLE",
+          "rosters": []
+        },
+        {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 2.0,
+            "recYards": 16.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
+          "season": 2022,
+          "week": 18,
+          "fantasyStatus": "upcoming",
+          "status": "final",
+          "points": 3.6,
+          "nflTeam": "WSH",
+          "nflOpponent": "DAL",
           "rosters": []
         }
       ],
@@ -1416,9 +1512,9 @@
       "season": 2021,
       "complete": true,
       "summary": {
-        "weeks": 16,
+        "weeks": 17,
         "points": 53.6,
-        "average": 3.35,
+        "average": 3.15,
         "high": {
           "season": 2021,
           "week": 13,
@@ -1428,16 +1524,16 @@
         "starterPoints": 33.7
       },
       "seasonStats": {
-        "gp": null,
-        "points": 53.6,
+        "gp": 7,
+        "points": null,
         "fppg": null,
         "nflStats": {
-          "receptions": null,
-          "recYards": null,
-          "recTD": null
+          "receptions": 18.0,
+          "recYards": 196.0,
+          "recTD": 3.0
         },
-        "participationComplete": false,
-        "scope": "NFL weeks covered by this fantasy season"
+        "participationComplete": true,
+        "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
       },
       "weeks": [
         {
@@ -1464,6 +1560,7 @@
           },
           "season": 2021,
           "week": 1,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 12.0,
           "nflTeam": "WSH",
@@ -1506,6 +1603,7 @@
           },
           "season": 2021,
           "week": 2,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 9.5,
           "nflTeam": "WSH",
@@ -1548,6 +1646,7 @@
           },
           "season": 2021,
           "week": 3,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 12.2,
           "nflTeam": "WSH",
@@ -1590,6 +1689,7 @@
           },
           "season": 2021,
           "week": 4,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "WSH",
@@ -1609,7 +1709,7 @@
           ]
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -1632,6 +1732,7 @@
           },
           "season": 2021,
           "week": 5,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "WSH",
@@ -1651,7 +1752,7 @@
           ]
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -1674,6 +1775,7 @@
           },
           "season": 2021,
           "week": 6,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "WSH",
@@ -1693,7 +1795,7 @@
           ]
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -1716,6 +1818,7 @@
           },
           "season": 2021,
           "week": 7,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "WSH",
@@ -1735,7 +1838,7 @@
           ]
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -1758,6 +1861,7 @@
           },
           "season": 2021,
           "week": 8,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "WSH",
@@ -1781,6 +1885,7 @@
           "nflStats": {},
           "season": 2021,
           "week": 9,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "WSH",
@@ -1823,6 +1928,7 @@
           },
           "season": 2021,
           "week": 10,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "WSH",
@@ -1830,7 +1936,7 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -1853,6 +1959,7 @@
           },
           "season": 2021,
           "week": 11,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "WSH",
@@ -1883,6 +1990,7 @@
           },
           "season": 2021,
           "week": 12,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 6.1,
           "nflTeam": "WSH",
@@ -1913,6 +2021,7 @@
           },
           "season": 2021,
           "week": 13,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 13.8,
           "nflTeam": "WSH",
@@ -1920,7 +2029,7 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -1943,6 +2052,7 @@
           },
           "season": 2021,
           "week": 14,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "WSH",
@@ -1950,7 +2060,7 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -1973,6 +2083,7 @@
           },
           "season": 2021,
           "week": 15,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "WSH",
@@ -1980,7 +2091,7 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -2003,6 +2114,7 @@
           },
           "season": 2021,
           "week": 16,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "WSH",
@@ -2010,7 +2122,7 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -2033,10 +2145,42 @@
           },
           "season": 2021,
           "week": 17,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "WSH",
           "nflOpponent": "PHI",
+          "rosters": []
+        },
+        {
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
+          "season": 2021,
+          "week": 18,
+          "fantasyStatus": "upcoming",
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "WSH",
+          "nflOpponent": "NYG",
           "rosters": []
         }
       ],
@@ -2083,7 +2227,7 @@
       ],
       "transactions": [
         {
-          "type": "free_agent_add",
+          "type": "drop",
           "timestamp": "2021-11-10T20:07:38.075000+00:00",
           "timestampKind": "proposed",
           "week": 10,
@@ -2104,9 +2248,9 @@
     }
   ],
   "career": {
-    "weeks": 48,
-    "points": 252.2,
-    "average": 5.25,
+    "weeks": 51,
+    "points": 257.7,
+    "average": 5.05,
     "high": {
       "season": 2023,
       "week": 5,

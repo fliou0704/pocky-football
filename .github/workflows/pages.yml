@@ -38,6 +38,7 @@ jobs:
           path: |
             .cache/player-metadata
             .cache/player-games/participation
+            .cache/player-games/game-status
           key: player-metadata-${{ github.run_id }}
           restore-keys: player-metadata-
 

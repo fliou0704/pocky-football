@@ -47,29 +47,29 @@
       "season": 2022,
       "complete": true,
       "summary": {
-        "weeks": 16,
-        "points": 77.0,
-        "average": 4.81,
+        "weeks": 17,
+        "points": 102.9,
+        "average": 6.05,
         "high": {
           "season": 2022,
-          "week": 3,
-          "points": 20.6
+          "week": 18,
+          "points": 25.9
         },
         "starts": 3,
         "starterPoints": 20.2
       },
       "seasonStats": {
-        "gp": 12,
-        "points": 77.0,
-        "fppg": 6.42,
+        "gp": 3,
+        "points": 20.2,
+        "fppg": 6.73,
         "nflStats": {
-          "receptions": 25.0,
-          "recYards": 460.0,
-          "recTD": 1.0,
+          "receptions": 31.0,
+          "recYards": 539.0,
+          "recTD": 3.0,
           "rushYards": 0
         },
         "participationComplete": true,
-        "scope": "NFL weeks covered by this fantasy season"
+        "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
       },
       "weeks": [
         {
@@ -96,6 +96,7 @@
           },
           "season": 2022,
           "week": 1,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 1.9,
           "nflTeam": "NE",
@@ -138,6 +139,7 @@
           },
           "season": 2022,
           "week": 2,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "NE",
@@ -180,6 +182,7 @@
           },
           "season": 2022,
           "week": 3,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 20.6,
           "nflTeam": "NE",
@@ -222,6 +225,7 @@
           },
           "season": 2022,
           "week": 4,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 10.4,
           "nflTeam": "NE",
@@ -264,6 +268,7 @@
           },
           "season": 2022,
           "week": 5,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "NE",
@@ -306,6 +311,7 @@
           },
           "season": 2022,
           "week": 6,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 10.4,
           "nflTeam": "NE",
@@ -348,6 +354,7 @@
           },
           "season": 2022,
           "week": 7,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 9.8,
           "nflTeam": "NE",
@@ -390,6 +397,7 @@
           },
           "season": 2022,
           "week": 8,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "NE",
@@ -432,6 +440,7 @@
           },
           "season": 2022,
           "week": 9,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "NE",
@@ -455,6 +464,7 @@
           "nflStats": {},
           "season": 2022,
           "week": 10,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "NE",
@@ -497,6 +507,7 @@
           },
           "season": 2022,
           "week": 11,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 3.9,
           "nflTeam": "NE",
@@ -539,6 +550,7 @@
           },
           "season": 2022,
           "week": 12,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 12.0,
           "nflTeam": "NE",
@@ -581,6 +593,7 @@
           },
           "season": 2022,
           "week": 13,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 3.6,
           "nflTeam": "NE",
@@ -623,6 +636,7 @@
           },
           "season": 2022,
           "week": 14,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 4.4,
           "nflTeam": "NE",
@@ -665,6 +679,7 @@
           },
           "season": 2022,
           "week": 15,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "NE",
@@ -707,6 +722,7 @@
           },
           "season": 2022,
           "week": 16,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "NE",
@@ -749,6 +765,7 @@
           },
           "season": 2022,
           "week": 17,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "NE",
@@ -766,6 +783,37 @@
               "nflOpponent": "MIA"
             }
           ]
+        },
+        {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 6.0,
+            "recYards": 79.0,
+            "recTD": 2.0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
+          "season": 2022,
+          "week": 18,
+          "fantasyStatus": "upcoming",
+          "status": "final",
+          "points": 25.9,
+          "nflTeam": "NE",
+          "nflOpponent": "BUF",
+          "rosters": []
         }
       ],
       "ownership": [
@@ -833,9 +881,9 @@
       "season": 2021,
       "complete": true,
       "summary": {
-        "weeks": 16,
-        "points": 100.3,
-        "average": 6.27,
+        "weeks": 17,
+        "points": 103.5,
+        "average": 6.09,
         "high": {
           "season": 2021,
           "week": 4,
@@ -845,17 +893,17 @@
         "starterPoints": null
       },
       "seasonStats": {
-        "gp": 9,
-        "points": 100.3,
-        "fppg": 11.14,
+        "gp": 0,
+        "points": 0,
+        "fppg": null,
         "nflStats": {
-          "receptions": 38.0,
-          "recYards": 503.0,
+          "receptions": 40.0,
+          "recYards": 515.0,
           "recTD": 2.0,
           "rushYards": 0
         },
         "participationComplete": true,
-        "scope": "NFL weeks covered by this fantasy season"
+        "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
       },
       "weeks": [
         {
@@ -882,6 +930,7 @@
           },
           "season": 2021,
           "week": 1,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 12.1,
           "nflTeam": "MIA",
@@ -924,6 +973,7 @@
           },
           "season": 2021,
           "week": 2,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 9.2,
           "nflTeam": "MIA",
@@ -966,6 +1016,7 @@
           },
           "season": 2021,
           "week": 3,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 8.2,
           "nflTeam": "MIA",
@@ -1008,6 +1059,7 @@
           },
           "season": 2021,
           "week": 4,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 17.7,
           "nflTeam": "MIA",
@@ -1050,6 +1102,7 @@
           },
           "season": 2021,
           "week": 5,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "MIA",
@@ -1092,6 +1145,7 @@
           },
           "season": 2021,
           "week": 6,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "MIA",
@@ -1134,6 +1188,7 @@
           },
           "season": 2021,
           "week": 7,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "MIA",
@@ -1176,6 +1231,7 @@
           },
           "season": 2021,
           "week": 8,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 16.5,
           "nflTeam": "MIA",
@@ -1206,6 +1262,7 @@
           },
           "season": 2021,
           "week": 9,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "MIA",
@@ -1236,6 +1293,7 @@
           },
           "season": 2021,
           "week": 10,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "MIA",
@@ -1266,6 +1324,7 @@
           },
           "season": 2021,
           "week": 11,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "MIA",
@@ -1296,6 +1355,7 @@
           },
           "season": 2021,
           "week": 12,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "MIA",
@@ -1326,6 +1386,7 @@
           },
           "season": 2021,
           "week": 13,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 11.2,
           "nflTeam": "MIA",
@@ -1337,6 +1398,7 @@
           "nflStats": {},
           "season": 2021,
           "week": 14,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "MIA",
@@ -1367,6 +1429,7 @@
           },
           "season": 2021,
           "week": 15,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 16.8,
           "nflTeam": "MIA",
@@ -1409,6 +1472,7 @@
           },
           "season": 2021,
           "week": 16,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "MIA",
@@ -1451,6 +1515,7 @@
           },
           "season": 2021,
           "week": 17,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 8.6,
           "nflTeam": "MIA",
@@ -1468,6 +1533,37 @@
               "nflOpponent": "TEN"
             }
           ]
+        },
+        {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 2.0,
+            "recYards": 12.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
+          "season": 2021,
+          "week": 18,
+          "fantasyStatus": "upcoming",
+          "status": "final",
+          "points": 3.2,
+          "nflTeam": "MIA",
+          "nflOpponent": "NE",
+          "rosters": []
         }
       ],
       "ownership": [
@@ -1548,7 +1644,7 @@
           ]
         },
         {
-          "type": "free_agent_add",
+          "type": "drop",
           "timestamp": "2021-12-12T21:24:32.137000+00:00",
           "timestampKind": "proposed",
           "week": 14,
@@ -1576,7 +1672,7 @@
           ]
         },
         {
-          "type": "free_agent_add",
+          "type": "drop",
           "timestamp": "2021-11-07T06:32:41.873000+00:00",
           "timestampKind": "proposed",
           "week": 9,
@@ -1604,7 +1700,7 @@
           ]
         },
         {
-          "type": "waiver_add",
+          "type": "drop",
           "timestamp": "2021-10-27T08:16:51.050000+00:00",
           "timestampKind": "processed",
           "week": 8,
@@ -1625,13 +1721,13 @@
     }
   ],
   "career": {
-    "weeks": 32,
-    "points": 177.3,
-    "average": 5.54,
+    "weeks": 34,
+    "points": 206.4,
+    "average": 6.07,
     "high": {
       "season": 2022,
-      "week": 3,
-      "points": 20.6
+      "week": 18,
+      "points": 25.9
     },
     "starts": 3,
     "starterPoints": 20.2

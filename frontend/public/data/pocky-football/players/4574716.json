@@ -64,7 +64,7 @@
           "extraPoints": 7.0
         },
         "participationComplete": true,
-        "scope": "NFL weeks covered by this fantasy season"
+        "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
       },
       "weeks": [
         {
@@ -91,6 +91,7 @@
           },
           "season": 2026,
           "week": 1,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 1.0,
           "nflTeam": "LAR",
@@ -133,6 +134,7 @@
           },
           "season": 2026,
           "week": 2,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 3.0,
           "nflTeam": "LAR",
@@ -175,6 +177,7 @@
           },
           "season": 2026,
           "week": 3,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 16.0,
           "nflTeam": "LAR",
@@ -198,6 +201,7 @@
           "nflStats": {},
           "season": 2026,
           "week": 4,
+          "fantasyStatus": "upcoming",
           "status": "upcoming",
           "points": null,
           "nflTeam": "LAR",
@@ -209,6 +213,7 @@
           "nflStats": {},
           "season": 2026,
           "week": 5,
+          "fantasyStatus": "upcoming",
           "status": "upcoming",
           "points": null,
           "nflTeam": "LAR",
@@ -220,6 +225,7 @@
           "nflStats": {},
           "season": 2026,
           "week": 6,
+          "fantasyStatus": "upcoming",
           "status": "upcoming",
           "points": null,
           "nflTeam": "LAR",
@@ -231,6 +237,7 @@
           "nflStats": {},
           "season": 2026,
           "week": 7,
+          "fantasyStatus": "upcoming",
           "status": "upcoming",
           "points": null,
           "nflTeam": "LAR",
@@ -242,6 +249,7 @@
           "nflStats": {},
           "season": 2026,
           "week": 8,
+          "fantasyStatus": "upcoming",
           "status": "upcoming",
           "points": null,
           "nflTeam": "LAR",
@@ -253,6 +261,7 @@
           "nflStats": {},
           "season": 2026,
           "week": 9,
+          "fantasyStatus": "upcoming",
           "status": "upcoming",
           "points": null,
           "nflTeam": "LAR",
@@ -264,6 +273,7 @@
           "nflStats": {},
           "season": 2026,
           "week": 10,
+          "fantasyStatus": "upcoming",
           "status": "upcoming",
           "points": null,
           "nflTeam": "LAR",
@@ -275,6 +285,7 @@
           "nflStats": {},
           "season": 2026,
           "week": 11,
+          "fantasyStatus": "upcoming",
           "status": "upcoming",
           "points": null,
           "nflTeam": "LAR",
@@ -286,6 +297,7 @@
           "nflStats": {},
           "season": 2026,
           "week": 12,
+          "fantasyStatus": "upcoming",
           "status": "upcoming",
           "points": null,
           "nflTeam": "LAR",
@@ -297,6 +309,7 @@
           "nflStats": {},
           "season": 2026,
           "week": 13,
+          "fantasyStatus": "upcoming",
           "status": "upcoming",
           "points": null,
           "nflTeam": "LAR",
@@ -308,10 +321,59 @@
           "nflStats": {},
           "season": 2026,
           "week": 14,
+          "fantasyStatus": "upcoming",
           "status": "upcoming",
           "points": null,
           "nflTeam": "LAR",
           "nflOpponent": "SF",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 15,
+          "fantasyStatus": "upcoming",
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "LAR",
+          "nflOpponent": "DAL",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 16,
+          "fantasyStatus": "upcoming",
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "LAR",
+          "nflOpponent": "SEA",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 17,
+          "fantasyStatus": "upcoming",
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "LAR",
+          "nflOpponent": "TB",
+          "rosters": []
+        },
+        {
+          "gameState": "upcoming",
+          "nflStats": {},
+          "season": 2026,
+          "week": 18,
+          "fantasyStatus": "upcoming",
+          "status": "upcoming",
+          "points": null,
+          "nflTeam": "LAR",
+          "nflOpponent": "SEA",
           "rosters": []
         }
       ],
@@ -366,35 +428,36 @@
       "season": 2025,
       "complete": true,
       "summary": {
-        "weeks": 8,
-        "points": 66.0,
-        "average": 8.25,
+        "weeks": 9,
+        "points": 81.0,
+        "average": 9.0,
         "high": {
           "season": 2025,
-          "week": 12,
-          "points": 13.0
+          "week": 18,
+          "points": 15.0
         },
         "starts": 1,
         "starterPoints": 6.0
       },
       "seasonStats": {
-        "gp": null,
-        "points": null,
-        "fppg": null,
+        "gp": 1,
+        "points": 6.0,
+        "fppg": 6.0,
         "nflStats": {
-          "fgMade": null,
-          "fgAttempts": null,
-          "extraPoints": null
+          "fgMade": 12.0,
+          "fgAttempts": 13.0,
+          "extraPoints": 39.0
         },
-        "participationComplete": false,
-        "scope": "NFL weeks covered by this fantasy season"
+        "participationComplete": true,
+        "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
       },
       "weeks": [
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {},
           "season": 2025,
           "week": 1,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "LAR",
@@ -402,10 +465,11 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {},
           "season": 2025,
           "week": 2,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "LAR",
@@ -413,10 +477,11 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {},
           "season": 2025,
           "week": 3,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "LAR",
@@ -424,10 +489,11 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {},
           "season": 2025,
           "week": 4,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "LAR",
@@ -435,10 +501,11 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {},
           "season": 2025,
           "week": 5,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "LAR",
@@ -446,10 +513,11 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {},
           "season": 2025,
           "week": 6,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "LAR",
@@ -457,10 +525,11 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {},
           "season": 2025,
           "week": 7,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "LAR",
@@ -472,6 +541,7 @@
           "nflStats": {},
           "season": 2025,
           "week": 8,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "LAR",
@@ -479,10 +549,11 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {},
           "season": 2025,
           "week": 9,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "LAR",
@@ -513,6 +584,7 @@
           },
           "season": 2025,
           "week": 10,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 6.0,
           "nflTeam": "LAR",
@@ -543,6 +615,7 @@
           },
           "season": 2025,
           "week": 11,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 3.0,
           "nflTeam": "LAR",
@@ -573,6 +646,7 @@
           },
           "season": 2025,
           "week": 12,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 13.0,
           "nflTeam": "LAR",
@@ -603,6 +677,7 @@
           },
           "season": 2025,
           "week": 13,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 4.0,
           "nflTeam": "LAR",
@@ -633,6 +708,7 @@
           },
           "season": 2025,
           "week": 14,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 9.0,
           "nflTeam": "LAR",
@@ -663,6 +739,7 @@
           },
           "season": 2025,
           "week": 15,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 12.0,
           "nflTeam": "LAR",
@@ -693,6 +770,7 @@
           },
           "season": 2025,
           "week": 16,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 13.0,
           "nflTeam": "LAR",
@@ -723,6 +801,7 @@
           },
           "season": 2025,
           "week": 17,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 6.0,
           "nflTeam": "LAR",
@@ -740,6 +819,37 @@
               "nflOpponent": "ATL"
             }
           ]
+        },
+        {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 3.0,
+            "fgAttempts": 3.0,
+            "extraPoints": 4.0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
+          "season": 2025,
+          "week": 18,
+          "fantasyStatus": "upcoming",
+          "status": "final",
+          "points": 15.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "ARI",
+          "rosters": []
         }
       ],
       "ownership": [
@@ -791,9 +901,9 @@
     }
   ],
   "career": {
-    "weeks": 11,
-    "points": 86.0,
-    "average": 7.82,
+    "weeks": 12,
+    "points": 101.0,
+    "average": 8.42,
     "high": {
       "season": 2026,
       "week": 3,

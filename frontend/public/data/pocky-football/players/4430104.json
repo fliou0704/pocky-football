@@ -55,9 +55,9 @@
       "season": 2024,
       "complete": true,
       "summary": {
-        "weeks": 10,
+        "weeks": 11,
         "points": 27.2,
-        "average": 2.72,
+        "average": 2.47,
         "high": {
           "season": 2024,
           "week": 14,
@@ -67,26 +67,27 @@
         "starterPoints": null
       },
       "seasonStats": {
-        "gp": null,
-        "points": null,
+        "gp": 0,
+        "points": 0,
         "fppg": null,
         "nflStats": {
-          "rushAttempts": null,
-          "rushYards": null,
-          "rushTD": null,
-          "receptions": null,
-          "recYards": null,
-          "recTD": null
+          "rushAttempts": 39.0,
+          "rushYards": 183.0,
+          "rushTD": 0,
+          "receptions": 6.0,
+          "recYards": 29.0,
+          "recTD": 0
         },
-        "participationComplete": false,
-        "scope": "NFL weeks covered by this fantasy season"
+        "participationComplete": true,
+        "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
       },
       "weeks": [
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {},
           "season": 2024,
           "week": 1,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "LV",
@@ -94,10 +95,11 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {},
           "season": 2024,
           "week": 2,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "LV",
@@ -105,10 +107,11 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {},
           "season": 2024,
           "week": 3,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "LV",
@@ -116,10 +119,11 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {},
           "season": 2024,
           "week": 4,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "LV",
@@ -150,6 +154,7 @@
           },
           "season": 2024,
           "week": 5,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "LV",
@@ -157,10 +162,11 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {},
           "season": 2024,
           "week": 6,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "LV",
@@ -168,10 +174,11 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {},
           "season": 2024,
           "week": 7,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "LV",
@@ -179,7 +186,7 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -202,6 +209,7 @@
           },
           "season": 2024,
           "week": 8,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "LV",
@@ -209,7 +217,7 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -232,6 +240,7 @@
           },
           "season": 2024,
           "week": 9,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "LV",
@@ -243,6 +252,7 @@
           "nflStats": {},
           "season": 2024,
           "week": 10,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "LV",
@@ -250,7 +260,7 @@
           "rosters": []
         },
         {
-          "gameState": "unknown",
+          "gameState": "did_not_play",
           "nflStats": {
             "passAttempts": null,
             "passYards": null,
@@ -273,6 +283,7 @@
           },
           "season": 2024,
           "week": 11,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "LV",
@@ -303,6 +314,7 @@
           },
           "season": 2024,
           "week": 12,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 3.3,
           "nflTeam": "LV",
@@ -333,6 +345,7 @@
           },
           "season": 2024,
           "week": 13,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 8.5,
           "nflTeam": "LV",
@@ -363,6 +376,7 @@
           },
           "season": 2024,
           "week": 14,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 10.9,
           "nflTeam": "LV",
@@ -393,6 +407,7 @@
           },
           "season": 2024,
           "week": 15,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 4.5,
           "nflTeam": "LV",
@@ -435,6 +450,7 @@
           },
           "season": 2024,
           "week": 16,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "LV",
@@ -465,10 +481,42 @@
           },
           "season": 2024,
           "week": 17,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "LV",
           "nflOpponent": "NO",
+          "rosters": []
+        },
+        {
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
+          "season": 2024,
+          "week": 18,
+          "fantasyStatus": "upcoming",
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "LV",
+          "nflOpponent": "LAC",
           "rosters": []
         }
       ],
@@ -528,9 +576,9 @@
     }
   ],
   "career": {
-    "weeks": 10,
+    "weeks": 11,
     "points": 27.2,
-    "average": 2.72,
+    "average": 2.47,
     "high": {
       "season": 2024,
       "week": 14,

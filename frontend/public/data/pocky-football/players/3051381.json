@@ -51,9 +51,9 @@
       "season": 2022,
       "complete": true,
       "summary": {
-        "weeks": 16,
+        "weeks": 17,
         "points": 56.58,
-        "average": 3.54,
+        "average": 3.33,
         "high": {
           "season": 2022,
           "week": 12,
@@ -63,9 +63,9 @@
         "starterPoints": 3.6
       },
       "seasonStats": {
-        "gp": 4,
-        "points": 56.58,
-        "fppg": 14.14,
+        "gp": 1,
+        "points": 3.6,
+        "fppg": 3.6,
         "nflStats": {
           "passYards": 1192.0,
           "passTD": 3.0,
@@ -74,7 +74,7 @@
           "rushTD": 1.0
         },
         "participationComplete": true,
-        "scope": "NFL weeks covered by this fantasy season"
+        "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
       },
       "weeks": [
         {
@@ -101,6 +101,7 @@
           },
           "season": 2022,
           "week": 1,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "NYJ",
@@ -131,6 +132,7 @@
           },
           "season": 2022,
           "week": 2,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "NYJ",
@@ -161,6 +163,7 @@
           },
           "season": 2022,
           "week": 3,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "NYJ",
@@ -191,6 +194,7 @@
           },
           "season": 2022,
           "week": 4,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "NYJ",
@@ -221,6 +225,7 @@
           },
           "season": 2022,
           "week": 5,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "NYJ",
@@ -251,6 +256,7 @@
           },
           "season": 2022,
           "week": 6,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "NYJ",
@@ -281,6 +287,7 @@
           },
           "season": 2022,
           "week": 7,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "NYJ",
@@ -311,6 +318,7 @@
           },
           "season": 2022,
           "week": 8,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "NYJ",
@@ -341,6 +349,7 @@
           },
           "season": 2022,
           "week": 9,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "NYJ",
@@ -352,6 +361,7 @@
           "nflStats": {},
           "season": 2022,
           "week": 10,
+          "fantasyStatus": "final",
           "status": "final",
           "points": null,
           "nflTeam": "NYJ",
@@ -382,6 +392,7 @@
           },
           "season": 2022,
           "week": 11,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "NYJ",
@@ -412,6 +423,7 @@
           },
           "season": 2022,
           "week": 12,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 24.8,
           "nflTeam": "NYJ",
@@ -442,6 +454,7 @@
           },
           "season": 2022,
           "week": 13,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 17.46,
           "nflTeam": "NYJ",
@@ -472,6 +485,7 @@
           },
           "season": 2022,
           "week": 14,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 10.72,
           "nflTeam": "NYJ",
@@ -502,6 +516,7 @@
           },
           "season": 2022,
           "week": 15,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "NYJ",
@@ -532,6 +547,7 @@
           },
           "season": 2022,
           "week": 16,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 0.0,
           "nflTeam": "NYJ",
@@ -562,6 +578,7 @@
           },
           "season": 2022,
           "week": 17,
+          "fantasyStatus": "final",
           "status": "final",
           "points": 3.6,
           "nflTeam": "NYJ",
@@ -579,6 +596,37 @@
               "nflOpponent": "SEA"
             }
           ]
+        },
+        {
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
+          "season": 2022,
+          "week": 18,
+          "fantasyStatus": "upcoming",
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "MIA",
+          "rosters": []
         }
       ],
       "ownership": [
@@ -602,7 +650,7 @@
       "draft": [],
       "transactions": [
         {
-          "type": "free_agent_add",
+          "type": "drop",
           "timestamp": "2023-01-22T17:32:47.662000+00:00",
           "timestampKind": "proposed",
           "week": 19,
@@ -637,9 +685,9 @@
     }
   ],
   "career": {
-    "weeks": 16,
+    "weeks": 17,
     "points": 56.58,
-    "average": 3.54,
+    "average": 3.33,
     "high": {
       "season": 2022,
       "week": 12,

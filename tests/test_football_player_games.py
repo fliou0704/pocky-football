@@ -16,11 +16,12 @@ class PlayerGameTests(unittest.TestCase):
   self.assertEqual(game_state(1,{'played':False,'stats':{}},'CIN',schedule,True,now),'did_not_play')
   self.assertEqual(game_state(13,None,'CIN',schedule,False,now),'upcoming')
   self.assertEqual(game_state(1,{'played':True,'stats':{}},'CIN',schedule,True,now),'played')
-  rows=[{'status':'final','gameState':state,'points':p,'nflStats':{'receptions':rec}} for state,p,rec in [('played',0,0),('played',20,2),('bye',0,None),('did_not_play',0,None)]]
-  s=season_stats(rows,[('receptions','Rec')]);self.assertEqual(s['gp'],2);self.assertEqual(s['points'],20);self.assertEqual(s['fppg'],10);self.assertEqual(s['nflStats']['receptions'],2)
-  rows.append({'status':'final','gameState':'unknown','points':0,'nflStats':{}})
-  uncertain=season_stats(rows,[])
-  self.assertIsNone(uncertain['gp']);self.assertIsNone(uncertain['fppg']);self.assertEqual(uncertain['points'],20)
+  rows=[{'status':'final','fantasyStatus':'final','gameState':state,'points':p,'nflStats':{'receptions':rec},'rosters':[{'slot':slot,'points':p}]} for state,p,rec,slot in [('played',0,0,'WR'),('played',20,2,'WR'),('played',30,3,'BE'),('did_not_play',0,None,'IR')]]
+  s=season_stats(rows,[('receptions','Rec')]);self.assertEqual(s['gp'],2);self.assertEqual(s['points'],20);self.assertEqual(s['fppg'],10);self.assertEqual(s['nflStats']['receptions'],5)
+  rows.append({'status':'final','fantasyStatus':'upcoming','gameState':'played','points':10,'nflStats':{'receptions':1},'rosters':[]})
+  self.assertEqual(season_stats(rows,[])['gp'],2);self.assertEqual(season_stats(rows,[])['points'],20)
+  rows.append({'status':'final','gameState':'unknown','points':0,'nflStats':{},'rosters':[]})
+  uncertain=season_stats(rows,[('receptions','Rec')]);self.assertEqual(uncertain['gp'],2);self.assertEqual(uncertain['fppg'],10);self.assertIsNone(uncertain['nflStats']['receptions'])
  def test_position_specific_columns(self):
   self.assertNotIn('passYards',dict(COLUMNS['RB']));self.assertIn('fgMade',dict(COLUMNS['K']));self.assertIn('sacks',dict(COLUMNS['D/ST']))
 
@@ -36,3 +37,20 @@ class PlayerGameTests(unittest.TestCase):
    self.assertFalse(data['players']['7']['2']['played']);self.assertIsNone(data['players']['7']['2']['stats']['receptions'])
    self.assertIsNone(data['players']['7']['3']['played'])
    enrich_participation(data,{7},cache);self.assertEqual(get.call_count,1)
+
+ def test_empty_actual_record_and_covered_absence(self):
+  now=datetime(2026,10,3,tzinfo=timezone.utc)
+  schedule=[{'id':'123','week':1,'kickoff':now.timestamp()*1000-86400000,'home':'BUF','away':'NE'}]
+  empty={'played':None,'stats':{},'eventId':'123','actualRecord':True,'hasActualStats':False}
+  self.assertEqual(game_state(1,empty,'NE',schedule,True,now),'did_not_play')
+  self.assertEqual(game_state(1,None,'NE',schedule,True,now,source_covered=True),'did_not_play')
+  self.assertEqual(game_state(1,None,'NE',schedule,True,now),'unknown')
+  schedule[0]['canceled']=True
+  self.assertEqual(game_state(1,None,'BUF',schedule,True,now,defense=True),'did_not_play')
+
+ def test_full_nfl_schedule_independent_of_fantasy_weeks(self):
+  from football_player_games import normalize_nfl_schedule
+  raw={'settings':{'proTeams':[{'proGamesByScoringPeriod':{'18':[{'id':123,'date':1,'homeProTeamId':2,'awayProTeamId':4,'statsOfficial':True}]}}]}}
+  data={'weeks':list(range(1,19)),'players':{}}
+  games=normalize_nfl_schedule(raw,data)
+  self.assertEqual(games[0]['week'],18);self.assertTrue(games[0]['completionUnknown'])
