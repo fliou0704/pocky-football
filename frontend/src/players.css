@@ -3,3 +3,9 @@
 @media(min-width:720px){.player-search-compact{width:min(100%,560px)}.player-profile{grid-template-columns:minmax(230px,31%) minmax(0,1fr);gap:34px;padding:28px 30px 0}.player-headshot-wrap{align-self:center}.player-bio{grid-template-columns:repeat(4,minmax(0,1fr))}.player-stats{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:719px){.player-tabs{margin-bottom:32px}.player-tabs button{padding-inline:10px}.player-transactions li{grid-template-columns:1fr;gap:8px;padding:15px 16px}.player-owner-row{grid-template-columns:1fr;gap:8px}.player-profile{padding-inline:16px}.player-table{min-width:700px}}
 @media(max-width:359px){.player-profile{padding-inline:12px}.player-tabs button{font-size:.75rem;padding-inline:8px}}
+/* Focused Players revamp: retain the profile, use Brawl's search-only and three tabs. */
+.player-search:not(.player-search-compact) .player-search-results{position:absolute;z-index:8;top:calc(100% + 8px);width:100%;box-shadow:0 14px 34px #1717171f}
+.player-log-season{width:fit-content;margin:-4px 0 16px auto}.player-updated{font-size:.75rem}
+.player-transactions li{grid-template-columns:140px minmax(0,1fr)}.player-transaction-description{display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-size:.84rem}.player-transaction-description .player-team-list{display:inline-flex;flex-wrap:wrap;gap:8px}.player-transaction-description .team{font-size:.84rem;font-weight:750}
+.player-table{min-width:850px}.player-table td.numeric{color:var(--ink)}
+@media(max-width:719px){.player-transactions li{grid-template-columns:1fr}.player-table{min-width:780px}}

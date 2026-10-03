@@ -186,7 +186,7 @@ def generate(slug, config_path=CONFIG_PATH, output=PUBLIC_DATA):
         write_json(folder / "teams.json", teams)
         generate_activity(league.espn_request, folder, year, {t["teamId"] for t in payload["standings"]})
         from football_player_scoring import generate_player_scoring,enrich_lineups
-        if not (folder/'player-scoring.json').exists() or not payload['league']['complete']:
+        if not (folder/'player-scoring.json').exists() or not (folder/'player-games.json').exists() or not payload['league']['complete']:
             generate_player_scoring(league.espn_request,folder,year)
         else:
             cached_scoring=json.loads((folder/'player-scoring.json').read_text())

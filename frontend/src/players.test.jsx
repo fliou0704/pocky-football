@@ -6,34 +6,33 @@ afterEach(cleanup);
 const Team=({team})=><span>{team.name}</span>;
 const Section=({title,children})=><section><h2>{title}</h2>{children}</section>;
 const team={teamId:1,name:'Historical Team'};
-const stats={weeks:1,points:12,average:12,high:{season:2021,week:1,points:12},starts:0,starterPoints:null};
-const detail={profile:{espnId:7,name:'Example Player',entityType:'player',position:'WR',nflTeam:'CIN',headshot:'https://example.com/image.png'},career:stats,seasons:[{season:2021,complete:true,summary:stats,ownership:[{team,weeks:[1],evidence:['weekly_roster']}],rosterSnapshot:[],rosterSnapshotLabel:'Final roster',draft:[{team,round:2,pickInRound:3,overallPick:13}],transactions:[{type:'waiver_add',timestamp:'2021-09-01T12:00:00Z',week:1,fromTeams:[],toTeams:[team]}],activityCoverage:{status:'likely_complete'},weeks:[{season:2021,week:1,status:'final',points:12,nflTeam:'BUF',nflOpponent:'NYJ',rosters:[{team,slot:'BE',points:12}]}]}]};
-test('landing selection, search, position and defense filters',()=>{
- render(<PlayerSearch players={[detail.profile,{espnId:-16001,name:'Falcons D/ST',position:'D/ST',entityType:'team_defense',nflTeam:'ATL'}]}/>);
- expect(screen.getByRole('link',{name:/Example Player/}).getAttribute('href')).toBe('#/players/7');
- fireEvent.change(screen.getByRole('combobox',{name:'Player position'}),{target:{value:'RB'}});expect(screen.getByText('No Pocky Football players found.')).toBeTruthy();
- fireEvent.change(screen.getByRole('combobox',{name:'Player entity'}),{target:{value:'team_defense'}});expect(screen.getByRole('link',{name:/Falcons/}).getAttribute('href')).toBe('#/players/-16001');
- fireEvent.change(screen.getByRole('searchbox'),{target:{value:'unknown'}});expect(screen.queryByRole('link')).toBeNull();
+const week=(season,week,state,points)=>({season,week,gameState:state,points,nflOpponent:'BUF',nflStats:{receptions:state==='played'?0:null}});
+const detail={metadataGeneratedAt:'2026-10-03T17:15:00Z',currentSeason:2026,statColumns:[{key:'receptions',label:'Rec'}],profile:{espnId:7,name:'A.J. Brown',entityType:'player',position:'WR',nflTeam:'CIN',headshot:'https://example.com/image.png'},seasons:[{season:2026,complete:false,seasonStats:{gp:1,points:0,fppg:0,nflStats:{receptions:0}},ownership:[{team}],draft:[{timestamp:'2026-09-09T12:00:00Z',team,round:2,pickInRound:3,overallPick:13}],transactions:[{type:'waiver_add',timestamp:'2026-09-18T12:00:00Z',fromTeams:[],toTeams:[team]}],weeks:[week(2026,1,'played',0),week(2026,2,'bye',0),week(2026,3,'did_not_play',0),week(2026,4,'upcoming',0)]},{season:2025,complete:true,seasonStats:{gp:1,points:12,fppg:12,nflStats:{receptions:2}},ownership:[{team}],draft:[],transactions:[],weeks:[week(2025,17,'played',12)]}]};
+test('landing is search-only and normalized matching preserves displayed name',()=>{
+ render(<PlayerSearch players={[detail.profile]}/>);expect(screen.queryByRole('link')).toBeNull();expect(screen.queryByRole('table')).toBeNull();expect(screen.queryByRole('combobox')).toBeNull();
+ fireEvent.change(screen.getByRole('searchbox'),{target:{value:' AJ   brown '}});expect(screen.getByRole('link',{name:/A.J. Brown/}).getAttribute('href')).toBe('#/players/7');
 });
-test('profile nulls, tabs, historical log, season selection and draft',()=>{
- const change=vi.fn();render(<PlayerDetail detail={detail} requestedSeason="2026" onSeasonChange={change} Section={Section} Team={Team}/>);
- expect(screen.getByRole('combobox',{name:'Player season'}).value).toBe('All-Time');
- expect(screen.queryByText('Age')).toBeNull();expect(screen.queryByText('NFL Draft')).toBeNull();expect(screen.getByRole('img',{name:/headshot/})).toBeTruthy();
- fireEvent.change(screen.getByRole('combobox',{name:'Player season'}),{target:{value:'2021'}});expect(change).toHaveBeenCalledWith('2021');
- fireEvent.click(screen.getByRole('tab',{name:'Draft'}));expect(screen.getByText('#13')).toBeTruthy();expect(screen.getByText('Historical Team')).toBeTruthy();
- fireEvent.click(screen.getByRole('tab',{name:'Weekly Log'}));expect(screen.getAllByText('BUF vs. NYJ').length).toBe(2);expect(screen.getAllByText(/BE · 12.00/).length).toBe(2);
- fireEvent.click(screen.getByRole('tab',{name:'Transactions'}));expect(screen.getByText('Waiver add')).toBeTruthy();
+test('profile timestamp, three tabs, simplified Career and no global selector',()=>{
+ render(<PlayerDetail detail={detail} Section={Section} Team={Team}/>);
+ expect(screen.getByText(/Last updated:/)).toBeTruthy();expect(screen.getByText('Fantasy Team')).toBeTruthy();expect(screen.getByText('GP')).toBeTruthy();expect(screen.getByText('FPPG')).toBeTruthy();expect(screen.getByText('Rec')).toBeTruthy();
+ expect(screen.queryByRole('combobox')).toBeNull();expect(screen.queryByText('Fantasy Team History')).toBeNull();expect(screen.queryByText('Season History')).toBeNull();expect(screen.queryByRole('tab',{name:'Draft'})).toBeNull();expect(document.querySelector('.player-stats')).toBeNull();
+ expect(screen.getAllByRole('tab').map(t=>t.textContent)).toEqual(['Career','Game Log','Transactions']);
 });
-test('D/ST skips human biography and failed portraits degrade',()=>{
- const defense={...detail,profile:{espnId:-16001,entityType:'team_defense',name:'Falcons D/ST',position:'D/ST',nflTeam:'ATL',logo:'https://example.com/logo.png'}};
- render(<PlayerDetail detail={defense} Section={Section} Team={Team}/>);
- expect(screen.getByText('Pocky Football Team Defense')).toBeTruthy();expect(screen.queryByText('Born')).toBeNull();
- fireEvent.error(screen.getByRole('img',{name:/logo/}));expect(screen.getByLabelText('Image unavailable')).toBeTruthy();
+test('Game Log current-only recents, internal season selection, states, and real played zero',()=>{
+ render(<PlayerDetail detail={detail} Section={Section} Team={Team}/>);fireEvent.click(screen.getByRole('tab',{name:'Game Log'}));
+ const tables=screen.getAllByRole('table');expect(within(tables[0]).getAllByRole('row').length).toBe(2);expect(within(tables[0]).getByText('0.00')).toBeTruthy();
+ expect(screen.getByText('BYE')).toBeTruthy();expect(screen.getByText('BUF · Did not play')).toBeTruthy();expect(screen.getByText('BUF · Upcoming')).toBeTruthy();expect(screen.queryByText('STATUS')).toBeNull();
+ const selector=screen.getByRole('combobox',{name:'Game Log season'});expect(selector.value).toBe('2026');fireEvent.change(selector,{target:{value:'2025'}});expect(screen.getByText('12.00')).toBeTruthy();expect(within(screen.getAllByRole('table')[0]).queryByText('12.00')).toBeNull();
 });
-test('direct route fetches compact manifest and one player contract, missing ID remains explicit',async()=>{
- const load=vi.fn(p=>Promise.resolve(p==='index'?{players:[{...detail.profile,path:'profiles/7.json'}]}:detail));
+test('Transactions merges drafts newest first without pick-in-round or coverage selectors',()=>{
+ render(<PlayerDetail detail={detail} Section={Section} Team={Team}/>);fireEvent.click(screen.getByRole('tab',{name:'Transactions'}));
+ const rows=screen.getAllByRole('listitem');expect(rows[0].textContent).toContain('Waivers');expect(rows[1].textContent).toContain('Drafted by');expect(rows[1].textContent).toContain('Round 2');expect(rows[1].textContent).toContain('Overall Pick 13');
+ expect(screen.queryByRole('combobox')).toBeNull();expect(screen.queryByText(/coverage/)).toBeNull();expect(screen.queryByText(/Pick in round/)).toBeNull();
+});
+test('direct profile fetch has no back button and D/ST has no human biography',async()=>{
+ const load=vi.fn(p=>Promise.resolve(p==='index'?{players:[{...detail.profile,path:'profile'}]}:detail));
  const r=render(<PlayersPage path="index" playerId={7} loadData={load} Section={Section} Team={Team}/>);
- await screen.findByRole('heading',{name:'Example Player'});expect(load.mock.calls.map(c=>c[0])).toEqual(['index','profiles/7.json']);
- r.rerender(<PlayersPage path="index" playerId={999} loadData={load} Section={Section} Team={Team}/>);
- await screen.findByText('Player not found in Pocky Football history.');expect(screen.queryByRole('heading',{name:'Example Player'})).toBeNull();
+ await screen.findByRole('heading',{name:'A.J. Brown'});expect(screen.queryByRole('link',{name:/All players/i})).toBeNull();
+ r.rerender(<PlayersPage path="index" playerId={999} loadData={load} Section={Section} Team={Team}/>);await screen.findByText('Player not found in Pocky Football history.');
+ cleanup();render(<PlayerDetail detail={{...detail,profile:{espnId:-16001,name:'Falcons D/ST',entityType:'team_defense',position:'D/ST'}}} Section={Section} Team={Team}/>);expect(screen.queryByText('Born')).toBeNull();expect(screen.getByText('Pocky Football Team Defense')).toBeTruthy();
 });

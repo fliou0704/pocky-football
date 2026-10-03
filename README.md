@@ -108,3 +108,7 @@ Stage 2F-A supplied audited metadata; Stage 2F-B adds the Players section while 
 Players follows Basketball Brawl’s search, profile and tab layout with football scoring, weekly roster evidence, draft picks and audited transactions. Hash routes (`#/players/<ESPN ID>/<optional season>`) preserve direct links on GitHub Pages. Player links are confined to Players.
 
 `python football_players.py` builds a compact index and one profile/history contract per league entity from normalized snapshots. Full generation refreshes metadata once from nflverse and rebuilds these files. GitHub Actions caches headshot checks between runs; `--recheck-images` explicitly revalidates old URLs. See [STAGE-2F-B-PLAYERS.md](STAGE-2F-B-PLAYERS.md) for definitions and validation.
+
+### Players revamp
+
+Players is now search-only, with a simplified Career table, position-specific NFL statistics, an independent Game Log season selector, and all-time Transactions including draft selections. Python determines participation and actual GP/FPPG before rendering; ambiguous participation remains unknown. See [Players revamp](PLAYERS-REVAMP.md) for source fields, calculation rules, contracts, validation and limitations.

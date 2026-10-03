@@ -19,3 +19,8 @@ test('hash player routes preserve canonical signed ESPN IDs and valid presence s
  assert.equal(routeFromHash('#/players/4362628',2026).playerSeason,'All-Time');
  assert.equal(resolvePlayerSeason([{season:2021}],'2026'),'All-Time');
 });
+test('AJ, DJ, apostrophes, hyphens, case and whitespace do not impede search',()=>{
+ const names=[{name:'A.J. Brown',entityType:'player'},{name:'D.J. Moore',entityType:'player'},{name:"Ja'Marr Chase",entityType:'player'},{name:'Smith-Njigba',entityType:'player'}];
+ for(const [query,name] of [['aj','A.J. Brown'],[' AJ   BROWN ','A.J. Brown'],['dj moore','D.J. Moore'],['jamarr chase',"Ja'Marr Chase"],['smith njigba','Smith-Njigba']])assert.equal(searchPlayers(names,query)[0].name,name);
+ assert.deepEqual(searchPlayers(names,''),[]);
+});

@@ -23,6 +23,29 @@
     }
   },
   "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "currentSeason": 2026,
+  "statColumns": [
+    {
+      "key": "passYards",
+      "label": "Pass Yds"
+    },
+    {
+      "key": "passTD",
+      "label": "Pass TD"
+    },
+    {
+      "key": "interceptions",
+      "label": "INT"
+    },
+    {
+      "key": "rushYards",
+      "label": "Rush Yds"
+    },
+    {
+      "key": "rushTD",
+      "label": "Rush TD"
+    }
+  ],
   "seasons": [
     {
       "season": 2021,
@@ -39,8 +62,142 @@
         "starts": 1,
         "starterPoints": 6.18
       },
+      "seasonStats": {
+        "gp": null,
+        "points": null,
+        "fppg": null,
+        "nflStats": {
+          "passYards": null,
+          "passTD": null,
+          "interceptions": null,
+          "rushYards": null,
+          "rushTD": null
+        },
+        "participationComplete": false,
+        "scope": "NFL weeks covered by this fantasy season"
+      },
       "weeks": [
         {
+          "gameState": "unknown",
+          "nflStats": {},
+          "season": 2021,
+          "week": 1,
+          "status": "final",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": "NYJ",
+          "rosters": []
+        },
+        {
+          "gameState": "unknown",
+          "nflStats": {},
+          "season": 2021,
+          "week": 2,
+          "status": "final",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": "NO",
+          "rosters": []
+        },
+        {
+          "gameState": "unknown",
+          "nflStats": {},
+          "season": 2021,
+          "week": 3,
+          "status": "final",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": "HOU",
+          "rosters": []
+        },
+        {
+          "gameState": "unknown",
+          "nflStats": {},
+          "season": 2021,
+          "week": 4,
+          "status": "final",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": "DAL",
+          "rosters": []
+        },
+        {
+          "gameState": "unknown",
+          "nflStats": {},
+          "season": 2021,
+          "week": 5,
+          "status": "final",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": "PHI",
+          "rosters": []
+        },
+        {
+          "gameState": "unknown",
+          "nflStats": {},
+          "season": 2021,
+          "week": 6,
+          "status": "final",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": "MIN",
+          "rosters": []
+        },
+        {
+          "gameState": "unknown",
+          "nflStats": {},
+          "season": 2021,
+          "week": 7,
+          "status": "final",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": "NYG",
+          "rosters": []
+        },
+        {
+          "gameState": "unknown",
+          "nflStats": {},
+          "season": 2021,
+          "week": 8,
+          "status": "final",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": "ATL",
+          "rosters": []
+        },
+        {
+          "gameState": "unknown",
+          "nflStats": {},
+          "season": 2021,
+          "week": 9,
+          "status": "final",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": "NE",
+          "rosters": []
+        },
+        {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 4.0,
+            "passYards": 8.0,
+            "passTD": 1.0,
+            "interceptions": 0,
+            "rushAttempts": 3.0,
+            "rushYards": 14.0,
+            "rushTD": 1.0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2021,
           "week": 10,
           "status": "final",
@@ -50,6 +207,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 27.0,
+            "passYards": 189.0,
+            "passTD": 2.0,
+            "interceptions": 0,
+            "rushAttempts": 10.0,
+            "rushYards": 46.0,
+            "rushTD": 1.0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2021,
           "week": 11,
           "status": "final",
@@ -59,6 +237,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 21.0,
+            "passYards": 92.0,
+            "passTD": 0,
+            "interceptions": 2.0,
+            "rushAttempts": 3.0,
+            "rushYards": 5.0,
+            "rushTD": 1.0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2021,
           "week": 12,
           "status": "final",
@@ -80,6 +279,38 @@
           ]
         },
         {
+          "gameState": "bye",
+          "nflStats": {},
+          "season": 2021,
+          "week": 13,
+          "status": "final",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": null,
+          "rosters": []
+        },
+        {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 23.0,
+            "passYards": 178.0,
+            "passTD": 0,
+            "interceptions": 1.0,
+            "rushAttempts": 10.0,
+            "rushYards": 47.0,
+            "rushTD": 1.0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2021,
           "week": 14,
           "status": "final",
@@ -89,6 +320,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 38.0,
+            "passYards": 156.0,
+            "passTD": 1.0,
+            "interceptions": 1.0,
+            "rushAttempts": 15.0,
+            "rushYards": 71.0,
+            "rushTD": 1.0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2021,
           "week": 15,
           "status": "final",
@@ -98,6 +350,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 13.0,
+            "passYards": 61.0,
+            "passTD": 0,
+            "interceptions": 1.0,
+            "rushAttempts": 5.0,
+            "rushYards": 42.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2021,
           "week": 16,
           "status": "final",
@@ -107,6 +380,27 @@
           "rosters": []
         },
         {
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 1.0,
+            "rushYards": 5.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2021,
           "week": 17,
           "status": "final",
