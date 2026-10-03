@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4870795,
+    "entityType": "player",
+    "name": "Makai Lemon",
+    "position": "WR",
+    "positionGroup": "WR",
+    "nflTeam": "PHI",
+    "jerseyNumber": "9",
+    "heightInches": 71,
+    "weightPounds": 192,
+    "birthDate": "2004-06-02",
+    "college": "USC",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ys2i2o7c0bl36xvlrojz",
+    "rookieSeason": 2026,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2026,
+      "round": 1,
+      "overallPick": 20,
+      "team": "PHI"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 10.3,
+        "average": 3.43,
+        "high": {
+          "season": 2026,
+          "week": 3,
+          "points": 5.9
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 2.5,
+          "nflTeam": "PHI",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 2.5,
+              "nflTeam": "PHI",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 1.9,
+          "nflTeam": "PHI",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 1.9,
+              "nflTeam": "PHI",
+              "nflOpponent": "TEN"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 5.9,
+          "nflTeam": "PHI",
+          "nflOpponent": "CHI",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "LOVE MEEEE",
+            "logo": null
+          },
+          "weeks": [
+            1,
+            2
+          ],
+          "evidence": [
+            "draft",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "LOVE MEEEE",
+            "logo": null
+          },
+          "round": 13,
+          "pickInRound": 1,
+          "overallPick": 121,
+          "keeper": false
+        }
+      ],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2026-09-23T07:36:26.148000+00:00",
+          "timestampKind": "processed",
+          "week": 3,
+          "fromTeams": [
+            {
+              "teamId": 6,
+              "name": "LOVE MEEEE",
+              "logo": null
+            }
+          ],
+          "toTeams": []
+        }
+      ],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 3,
+    "points": 10.3,
+    "average": 3.43,
+    "high": {
+      "season": 2026,
+      "week": 3,
+      "points": 5.9
+    },
+    "starts": 0,
+    "starterPoints": null
+  }
+}

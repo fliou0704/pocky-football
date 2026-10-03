@@ -1,0 +1,1040 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 3115364,
+    "entityType": "player",
+    "name": "Leonard Fournette",
+    "position": "RB",
+    "positionGroup": "RB",
+    "nflTeam": "BUF",
+    "jerseyNumber": "5",
+    "heightInches": 72,
+    "weightPounds": 228,
+    "birthDate": "1995-01-18",
+    "college": "LSU",
+    "headshot": "https://static.www.nfl.com/image/private/f_auto,q_auto/league/atxppoc7zqcjnbnk0awz",
+    "rookieSeason": 2017,
+    "lastSeason": 2023,
+    "nflDraft": {
+      "year": 2017,
+      "round": 1,
+      "overallPick": 4,
+      "team": "JAX"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2023,
+      "complete": true,
+      "summary": {
+        "weeks": 2,
+        "points": 2.0,
+        "average": 1.0,
+        "high": {
+          "season": 2023,
+          "week": 16,
+          "points": 2.0
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2023,
+          "week": 9,
+          "status": "final",
+          "points": null,
+          "nflTeam": "BUF",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Taking a Schult",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/CreepShow-ToddDetwiler/CreepShow-07a.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "BUF",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 10,
+          "status": "final",
+          "points": null,
+          "nflTeam": "BUF",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Taking a Schult",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/CreepShow-ToddDetwiler/CreepShow-07a.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "BUF",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 16,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "LAC",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 17,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "NE",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Taking a Schult",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/CreepShow-ToddDetwiler/CreepShow-07a.svg"
+          },
+          "weeks": [
+            9,
+            10
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "drop",
+          "timestamp": "2023-11-19T17:57:29.344000+00:00",
+          "timestampKind": "proposed",
+          "week": 11,
+          "fromTeams": [
+            {
+              "teamId": 1,
+              "name": "Taking a Schult",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/CreepShow-ToddDetwiler/CreepShow-07a.svg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "waiver_add",
+          "timestamp": "2023-11-01T08:43:37.448000+00:00",
+          "timestampKind": "processed",
+          "week": 9,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 1,
+              "name": "Taking a Schult",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/CreepShow-ToddDetwiler/CreepShow-07a.svg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2022,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 224.7,
+        "average": 14.04,
+        "high": {
+          "season": 2022,
+          "week": 5,
+          "points": 35.9
+        },
+        "starts": 15,
+        "starterPoints": 224.7
+      },
+      "weeks": [
+        {
+          "season": 2022,
+          "week": 1,
+          "status": "final",
+          "points": 15.7,
+          "nflTeam": "TB",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "RB",
+              "points": 15.7,
+              "nflTeam": "TB",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 2,
+          "status": "final",
+          "points": 9.4,
+          "nflTeam": "TB",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "RB",
+              "points": 9.4,
+              "nflTeam": "TB",
+              "nflOpponent": "NO"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 3,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "TB",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "RB",
+              "points": 12.0,
+              "nflTeam": "TB",
+              "nflOpponent": "GB"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 4,
+          "status": "final",
+          "points": 18.4,
+          "nflTeam": "TB",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "RB",
+              "points": 18.4,
+              "nflTeam": "TB",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 5,
+          "status": "final",
+          "points": 35.9,
+          "nflTeam": "TB",
+          "nflOpponent": "ATL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "RB",
+              "points": 35.9,
+              "nflTeam": "TB",
+              "nflOpponent": "ATL"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 6,
+          "status": "final",
+          "points": 22.1,
+          "nflTeam": "TB",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "RB",
+              "points": 22.1,
+              "nflTeam": "TB",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 7,
+          "status": "final",
+          "points": 4.6,
+          "nflTeam": "TB",
+          "nflOpponent": "CAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "RB",
+              "points": 4.6,
+              "nflTeam": "TB",
+              "nflOpponent": "CAR"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 8,
+          "status": "final",
+          "points": 14.8,
+          "nflTeam": "TB",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "RB",
+              "points": 14.8,
+              "nflTeam": "TB",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 9,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "TB",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "RB",
+              "points": 11.0,
+              "nflTeam": "TB",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 10,
+          "status": "final",
+          "points": 10.8,
+          "nflTeam": "TB",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "RB",
+              "points": 10.8,
+              "nflTeam": "TB",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 11,
+          "status": "final",
+          "points": null,
+          "nflTeam": "None",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "RB",
+              "points": null,
+              "nflTeam": "None",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 12,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "TB",
+          "nflOpponent": "CLE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "TB",
+              "nflOpponent": "CLE"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 13,
+          "status": "final",
+          "points": 14.1,
+          "nflTeam": "TB",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "RB",
+              "points": 14.1,
+              "nflTeam": "TB",
+              "nflOpponent": "NO"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 14,
+          "status": "final",
+          "points": 10.6,
+          "nflTeam": "TB",
+          "nflOpponent": "SF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "RB",
+              "points": 10.6,
+              "nflTeam": "TB",
+              "nflOpponent": "SF"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 15,
+          "status": "final",
+          "points": 11.4,
+          "nflTeam": "TB",
+          "nflOpponent": "CIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "RB",
+              "points": 11.4,
+              "nflTeam": "TB",
+              "nflOpponent": "CIN"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 16,
+          "status": "final",
+          "points": 25.2,
+          "nflTeam": "TB",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "RB",
+              "points": 25.2,
+              "nflTeam": "TB",
+              "nflOpponent": "ARI"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 17,
+          "status": "final",
+          "points": 8.7,
+          "nflTeam": "TB",
+          "nflOpponent": "CAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "RB",
+              "points": 8.7,
+              "nflTeam": "TB",
+              "nflOpponent": "CAR"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 16,
+            "name": "Dolla Dolla Bills Y'all",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 16,
+          "name": "Dolla Dolla Bills Y'all",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 16,
+            "name": "Dolla Dolla Bills Y'all",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+          },
+          "round": 2,
+          "pickInRound": 1,
+          "overallPick": 15,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2021,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 255.6,
+        "average": 15.97,
+        "high": {
+          "season": 2021,
+          "week": 12,
+          "points": 44.1
+        },
+        "starts": 10,
+        "starterPoints": 209.8
+      },
+      "weeks": [
+        {
+          "season": 2021,
+          "week": 1,
+          "status": "final",
+          "points": 10.9,
+          "nflTeam": "TB",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "BE",
+              "points": 10.9,
+              "nflTeam": "TB",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 2,
+          "status": "final",
+          "points": 11.6,
+          "nflTeam": "TB",
+          "nflOpponent": "ATL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "BE",
+              "points": 11.6,
+              "nflTeam": "TB",
+              "nflOpponent": "ATL"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 3,
+          "status": "final",
+          "points": 6.4,
+          "nflTeam": "TB",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "BE",
+              "points": 6.4,
+              "nflTeam": "TB",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 4,
+          "status": "final",
+          "points": 16.9,
+          "nflTeam": "TB",
+          "nflOpponent": "NE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "BE",
+              "points": 16.9,
+              "nflTeam": "TB",
+              "nflOpponent": "NE"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 5,
+          "status": "final",
+          "points": 21.0,
+          "nflTeam": "TB",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "RB",
+              "points": 21.0,
+              "nflTeam": "TB",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 6,
+          "status": "final",
+          "points": 30.7,
+          "nflTeam": "TB",
+          "nflOpponent": "PHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "RB",
+              "points": 30.7,
+              "nflTeam": "TB",
+              "nflOpponent": "PHI"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 7,
+          "status": "final",
+          "points": 17.0,
+          "nflTeam": "TB",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "RB",
+              "points": 17.0,
+              "nflTeam": "TB",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 8,
+          "status": "final",
+          "points": 7.3,
+          "nflTeam": "TB",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "RB",
+              "points": 7.3,
+              "nflTeam": "TB",
+              "nflOpponent": "NO"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 9,
+          "status": "final",
+          "points": null,
+          "nflTeam": "TB",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "TB",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 10,
+          "status": "final",
+          "points": 17.2,
+          "nflTeam": "TB",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "RB",
+              "points": 17.2,
+              "nflTeam": "TB",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 11,
+          "status": "final",
+          "points": 13.4,
+          "nflTeam": "TB",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "RB",
+              "points": 13.4,
+              "nflTeam": "TB",
+              "nflOpponent": "NYG"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 12,
+          "status": "final",
+          "points": 44.1,
+          "nflTeam": "TB",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "RB",
+              "points": 44.1,
+              "nflTeam": "TB",
+              "nflOpponent": "IND"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 13,
+          "status": "final",
+          "points": 22.2,
+          "nflTeam": "TB",
+          "nflOpponent": "ATL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "RB",
+              "points": 22.2,
+              "nflTeam": "TB",
+              "nflOpponent": "ATL"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 14,
+          "status": "final",
+          "points": 23.2,
+          "nflTeam": "TB",
+          "nflOpponent": "BUF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "RB",
+              "points": 23.2,
+              "nflTeam": "TB",
+              "nflOpponent": "BUF"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 15,
+          "status": "final",
+          "points": 13.7,
+          "nflTeam": "TB",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "RB",
+              "points": 13.7,
+              "nflTeam": "TB",
+              "nflOpponent": "NO"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 16,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "TB",
+          "nflOpponent": "CAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "IR",
+              "points": 0.0,
+              "nflTeam": "TB",
+              "nflOpponent": "CAR"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 17,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "TB",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "IR",
+              "points": 0.0,
+              "nflTeam": "TB",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "Its Bigger Than Black or White✊",
+            "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 6,
+          "name": "Its Bigger Than Black or White✊",
+          "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "Its Bigger Than Black or White✊",
+            "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+          },
+          "round": 11,
+          "pickInRound": 9,
+          "overallPick": 109,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 34,
+    "points": 482.3,
+    "average": 14.19,
+    "high": {
+      "season": 2021,
+      "week": 12,
+      "points": 44.1
+    },
+    "starts": 25,
+    "starterPoints": 434.5
+  }
+}

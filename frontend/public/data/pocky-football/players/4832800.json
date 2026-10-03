@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4832800,
+    "entityType": "player",
+    "name": "Denzel Boston",
+    "position": "WR",
+    "positionGroup": "WR",
+    "nflTeam": "CLE",
+    "jerseyNumber": "12",
+    "heightInches": 76,
+    "weightPounds": 215,
+    "birthDate": "2003-12-06",
+    "college": "Washington",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ybkny6eh5eegq3bqmony",
+    "rookieSeason": 2026,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2026,
+      "round": 2,
+      "overallPick": 39,
+      "team": "CLE"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 42.5,
+        "average": 14.17,
+        "high": {
+          "season": 2026,
+          "week": 2,
+          "points": 20.5
+        },
+        "starts": 1,
+        "starterPoints": 8.1
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 13.9,
+          "nflTeam": "CLE",
+          "nflOpponent": "JAX",
+          "rosters": []
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 20.5,
+          "nflTeam": "CLE",
+          "nflOpponent": "TB",
+          "rosters": []
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 8.1,
+          "nflTeam": "CLE",
+          "nflOpponent": "CAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 8.1,
+              "nflTeam": "CLE",
+              "nflOpponent": "CAR"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "LOVE MEEEE",
+            "logo": null
+          },
+          "weeks": [
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 6,
+          "name": "LOVE MEEEE",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2026-09-23T07:36:26.148000+00:00",
+          "timestampKind": "processed",
+          "week": 3,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 6,
+              "name": "LOVE MEEEE",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 3,
+    "points": 42.5,
+    "average": 14.17,
+    "high": {
+      "season": 2026,
+      "week": 2,
+      "points": 20.5
+    },
+    "starts": 1,
+    "starterPoints": 8.1
+  }
+}

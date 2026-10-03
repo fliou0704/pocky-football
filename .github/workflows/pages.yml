@@ -33,6 +33,12 @@ jobs:
       - name: Install Python dependencies
         run: python -m pip install -r requirements.txt
 
+      - uses: actions/cache@v4
+        with:
+          path: .cache/player-metadata
+          key: player-metadata-${{ github.run_id }}
+          restore-keys: player-metadata-
+
       - name: Test exporter
         run: python -m unittest discover -s tests -v
 
@@ -52,6 +58,9 @@ jobs:
 
       - name: Rebuild Record Book from normalized snapshots
         run: python -c "import json; from pathlib import Path; from football_record_book import build_record_book; site=json.loads(Path('frontend/public/data/site.json').read_text()); build_record_book('frontend/public/data', site['leaguePath'].split('/')[0], site['seasons'])"
+
+      - name: Rebuild Players from normalized snapshots
+        run: python football_players.py
 
       - uses: pnpm/action-setup@v6
         with:

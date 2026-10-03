@@ -1,0 +1,383 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4569559,
+    "entityType": "player",
+    "name": "Devaughn Vele",
+    "position": "WR",
+    "positionGroup": "WR",
+    "nflTeam": "NO",
+    "jerseyNumber": "14",
+    "heightInches": 77,
+    "weightPounds": 210,
+    "birthDate": "1997-12-12",
+    "college": "Utah",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fa3dwsu8nxzkbf2knczm",
+    "rookieSeason": 2024,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2024,
+      "round": 7,
+      "overallPick": 235,
+      "team": "DEN"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 38.2,
+        "average": 12.73,
+        "high": {
+          "season": 2026,
+          "week": 1,
+          "points": 19.9
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 19.9,
+          "nflTeam": "NO",
+          "nflOpponent": "DET",
+          "rosters": []
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 11.4,
+          "nflTeam": "NO",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Good Christians Hate Sinners",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 11.4,
+              "nflTeam": "NO",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 6.9,
+          "nflTeam": "NO",
+          "nflOpponent": "LV",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Good Christians Hate Sinners",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 6.9,
+              "nflTeam": "NO",
+              "nflOpponent": "LV"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Good Christians Hate Sinners",
+            "logo": null
+          },
+          "weeks": [
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 3,
+          "name": "Good Christians Hate Sinners",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2026-09-16T07:19:41.650000+00:00",
+          "timestampKind": "processed",
+          "week": 2,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 3,
+              "name": "Good Christians Hate Sinners",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2025,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 66.3,
+        "average": 4.14,
+        "high": {
+          "season": 2025,
+          "week": 13,
+          "points": 23.3
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2025,
+          "week": 1,
+          "status": "final",
+          "points": 2.3,
+          "nflTeam": "NO",
+          "nflOpponent": "ARI",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 2,
+          "status": "final",
+          "points": 7.3,
+          "nflTeam": "NO",
+          "nflOpponent": "SF",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 3,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NO",
+          "nflOpponent": "SEA",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 4,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NO",
+          "nflOpponent": "BUF",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 5,
+          "status": "final",
+          "points": 3.3,
+          "nflTeam": "NO",
+          "nflOpponent": "NYG",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 6,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NO",
+          "nflOpponent": "NE",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 7,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NO",
+          "nflOpponent": "CHI",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 8,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "NO",
+          "nflOpponent": "TB",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 9,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NO",
+          "nflOpponent": "LAR",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 10,
+          "status": "final",
+          "points": 2.5,
+          "nflTeam": "NO",
+          "nflOpponent": "CAR",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 12,
+          "status": "final",
+          "points": 6.7,
+          "nflTeam": "NO",
+          "nflOpponent": "ATL",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 13,
+          "status": "final",
+          "points": 23.3,
+          "nflTeam": "NO",
+          "nflOpponent": "MIA",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 14,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "NO",
+          "nflOpponent": "TB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 7.0,
+              "nflTeam": "NO",
+              "nflOpponent": "TB"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "status": "final",
+          "points": 11.9,
+          "nflTeam": "NO",
+          "nflOpponent": "CAR",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NO",
+          "nflOpponent": "NYJ",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NO",
+          "nflOpponent": "TEN",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "weeks": [
+            14
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2025-12-10T08:25:03.894000+00:00",
+          "timestampKind": "processed",
+          "week": 15,
+          "fromTeams": [
+            {
+              "teamId": 1,
+              "name": "Brian's Original Fried Haddock",
+              "logo": null
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "waiver_add",
+          "timestamp": "2025-12-03T09:08:29.473000+00:00",
+          "timestampKind": "processed",
+          "week": 14,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 1,
+              "name": "Brian's Original Fried Haddock",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 19,
+    "points": 104.5,
+    "average": 5.5,
+    "high": {
+      "season": 2025,
+      "week": 13,
+      "points": 23.3
+    },
+    "starts": 0,
+    "starterPoints": null
+  }
+}

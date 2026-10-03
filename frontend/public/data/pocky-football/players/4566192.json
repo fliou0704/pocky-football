@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4566192,
+    "entityType": "player",
+    "name": "Joshua Karty",
+    "position": "K",
+    "positionGroup": "SPEC",
+    "nflTeam": "ARI",
+    "jerseyNumber": null,
+    "heightInches": 74,
+    "weightPounds": 208,
+    "birthDate": "2002-03-07",
+    "college": "Stanford",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/j51z79en8vs3qdgkvnn5",
+    "rookieSeason": 2024,
+    "lastSeason": 2025,
+    "nflDraft": {
+      "year": 2024,
+      "round": 6,
+      "overallPick": 209,
+      "team": "LA"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2025,
+      "complete": true,
+      "summary": {
+        "weeks": 12,
+        "points": 53.0,
+        "average": 4.42,
+        "high": {
+          "season": 2025,
+          "week": 3,
+          "points": 15.0
+        },
+        "starts": 2,
+        "starterPoints": 9.0
+      },
+      "weeks": [
+        {
+          "season": 2025,
+          "week": 1,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "HOU",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 2,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "TEN",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 3,
+          "status": "final",
+          "points": 15.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "PHI",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 4,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "IND",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 5,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "SF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "K",
+              "points": 5.0,
+              "nflTeam": "LAR",
+              "nflOpponent": "SF"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 6,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "K",
+              "points": 4.0,
+              "nflTeam": "LAR",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 7,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "JAX",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 9,
+          "status": "final",
+          "points": 3.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "NO",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 10,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "SF",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 11,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "SEA",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 12,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "TB",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "ARI",
+          "nflOpponent": "CIN",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Reckless Drivers",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+          },
+          "weeks": [
+            5,
+            6
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2025-10-15T07:34:46.181000+00:00",
+          "timestampKind": "processed",
+          "week": 7,
+          "fromTeams": [
+            {
+              "teamId": 2,
+              "name": "Reckless Drivers",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2025-10-02T11:50:31.980000+00:00",
+          "timestampKind": "proposed",
+          "week": 5,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 2,
+              "name": "Reckless Drivers",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 12,
+    "points": 53.0,
+    "average": 4.42,
+    "high": {
+      "season": 2025,
+      "week": 3,
+      "points": 15.0
+    },
+    "starts": 2,
+    "starterPoints": 9.0
+  }
+}

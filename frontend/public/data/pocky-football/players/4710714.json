@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4710714,
+    "entityType": "player",
+    "name": "De'Zhaun Stribling",
+    "position": "WR",
+    "positionGroup": "WR",
+    "nflTeam": "SF",
+    "jerseyNumber": "7",
+    "heightInches": 74,
+    "weightPounds": 207,
+    "birthDate": "2002-12-18",
+    "college": "Mississippi; Oklahoma State; Washington State",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/eu1nxtlztiwr5ko48iwz",
+    "rookieSeason": 2026,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2026,
+      "round": 2,
+      "overallPick": 33,
+      "team": "SF"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 0.0,
+        "average": 0.0,
+        "high": {
+          "season": 2026,
+          "week": 1,
+          "points": 0.0
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Juwan's Team",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "SF",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "MIA",
+          "rosters": []
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "ARI",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Juwan's Team",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+          },
+          "weeks": [
+            1
+          ],
+          "evidence": [
+            "draft",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Juwan's Team",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+          },
+          "round": 12,
+          "pickInRound": 6,
+          "overallPick": 116,
+          "keeper": false
+        }
+      ],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2026-09-16T07:19:41.650000+00:00",
+          "timestampKind": "processed",
+          "week": 2,
+          "fromTeams": [
+            {
+              "teamId": 2,
+              "name": "Juwan's Team",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+            }
+          ],
+          "toTeams": []
+        }
+      ],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 3,
+    "points": 0.0,
+    "average": 0.0,
+    "high": {
+      "season": 2026,
+      "week": 1,
+      "points": 0.0
+    },
+    "starts": 0,
+    "starterPoints": null
+  }
+}

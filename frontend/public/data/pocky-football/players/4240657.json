@@ -1,0 +1,1105 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4240657,
+    "entityType": "player",
+    "name": "Michael Carter",
+    "position": "RB",
+    "positionGroup": "RB",
+    "nflTeam": "TEN",
+    "jerseyNumber": "35",
+    "heightInches": 68,
+    "weightPounds": 201,
+    "birthDate": "1999-05-07",
+    "college": "North Carolina",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cwqrxzouk4gkhfziyqre",
+    "rookieSeason": 2021,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2021,
+      "round": 4,
+      "overallPick": 107,
+      "team": "NYJ"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2025,
+      "complete": true,
+      "summary": {
+        "weeks": 13,
+        "points": 92.1,
+        "average": 7.08,
+        "high": {
+          "season": 2025,
+          "week": 5,
+          "points": 18.3
+        },
+        "starts": 1,
+        "starterPoints": 8.4
+      },
+      "weeks": [
+        {
+          "season": 2025,
+          "week": 4,
+          "status": "final",
+          "points": 0.1,
+          "nflTeam": "ARI",
+          "nflOpponent": "SEA",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 5,
+          "status": "final",
+          "points": 18.3,
+          "nflTeam": "ARI",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "BE",
+              "points": 18.3,
+              "nflTeam": "ARI",
+              "nflOpponent": "TEN"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 6,
+          "status": "final",
+          "points": 8.4,
+          "nflTeam": "ARI",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "RB",
+              "points": 8.4,
+              "nflTeam": "ARI",
+              "nflOpponent": "IND"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 7,
+          "status": "final",
+          "points": 5.6,
+          "nflTeam": "ARI",
+          "nflOpponent": "GB",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 9,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "ARI",
+          "nflOpponent": "DAL",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 10,
+          "status": "final",
+          "points": 0.4,
+          "nflTeam": "ARI",
+          "nflOpponent": "SEA",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 11,
+          "status": "final",
+          "points": 7.8,
+          "nflTeam": "ARI",
+          "nflOpponent": "SF",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 12,
+          "status": "final",
+          "points": 8.8,
+          "nflTeam": "ARI",
+          "nflOpponent": "JAX",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 13,
+          "status": "final",
+          "points": 11.4,
+          "nflTeam": "ARI",
+          "nflOpponent": "TB",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 14,
+          "status": "final",
+          "points": 5.1,
+          "nflTeam": "ARI",
+          "nflOpponent": "LAR",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "status": "final",
+          "points": 13.4,
+          "nflTeam": "ARI",
+          "nflOpponent": "HOU",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "status": "final",
+          "points": 6.5,
+          "nflTeam": "ARI",
+          "nflOpponent": "ATL",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "status": "final",
+          "points": 6.3,
+          "nflTeam": "ARI",
+          "nflOpponent": "CIN",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Reckless Drivers",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+          },
+          "weeks": [
+            5,
+            6
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2025-10-17T18:54:07.202000+00:00",
+          "timestampKind": "proposed",
+          "week": 7,
+          "fromTeams": [
+            {
+              "teamId": 2,
+              "name": "Reckless Drivers",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2025-10-01T19:09:35.592000+00:00",
+          "timestampKind": "proposed",
+          "week": 5,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 2,
+              "name": "Reckless Drivers",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2022,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 123.5,
+        "average": 7.72,
+        "high": {
+          "season": 2022,
+          "week": 5,
+          "points": 17.3
+        },
+        "starts": 9,
+        "starterPoints": 95.6
+      },
+      "weeks": [
+        {
+          "season": 2022,
+          "week": 1,
+          "status": "final",
+          "points": 17.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 9,
+                "name": "Turkey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+              },
+              "slot": "RB",
+              "points": 17.0,
+              "nflTeam": "NYJ",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 2,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "CLE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 9,
+                "name": "Turkey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+              },
+              "slot": "RB",
+              "points": 10.0,
+              "nflTeam": "NYJ",
+              "nflOpponent": "CLE"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 3,
+          "status": "final",
+          "points": 5.6,
+          "nflTeam": "NYJ",
+          "nflOpponent": "CIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 9,
+                "name": "Turkey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+              },
+              "slot": "RB",
+              "points": 5.6,
+              "nflTeam": "NYJ",
+              "nflOpponent": "CIN"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 4,
+          "status": "final",
+          "points": 4.9,
+          "nflTeam": "NYJ",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 9,
+                "name": "Turkey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+              },
+              "slot": "RB",
+              "points": 4.9,
+              "nflTeam": "NYJ",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 5,
+          "status": "final",
+          "points": 17.3,
+          "nflTeam": "NYJ",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 9,
+                "name": "Turkey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+              },
+              "slot": "RB",
+              "points": 17.3,
+              "nflTeam": "NYJ",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 6,
+          "status": "final",
+          "points": 5.7,
+          "nflTeam": "NYJ",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 9,
+                "name": "Turkey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+              },
+              "slot": "RB",
+              "points": 5.7,
+              "nflTeam": "NYJ",
+              "nflOpponent": "GB"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 7,
+          "status": "final",
+          "points": 9.4,
+          "nflTeam": "NYJ",
+          "nflOpponent": "DEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 9,
+                "name": "Turkey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+              },
+              "slot": "RB",
+              "points": 9.4,
+              "nflTeam": "NYJ",
+              "nflOpponent": "DEN"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 8,
+          "status": "final",
+          "points": 10.1,
+          "nflTeam": "NYJ",
+          "nflOpponent": "NE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 9,
+                "name": "Turkey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+              },
+              "slot": "RB",
+              "points": 10.1,
+              "nflTeam": "NYJ",
+              "nflOpponent": "NE"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 9,
+          "status": "final",
+          "points": 15.6,
+          "nflTeam": "NYJ",
+          "nflOpponent": "BUF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 9,
+                "name": "Turkey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+              },
+              "slot": "RB",
+              "points": 15.6,
+              "nflTeam": "NYJ",
+              "nflOpponent": "BUF"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 10,
+          "status": "final",
+          "points": null,
+          "nflTeam": "NYJ",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 9,
+                "name": "Turkey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "NYJ",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 11,
+          "status": "final",
+          "points": 2.7,
+          "nflTeam": "NYJ",
+          "nflOpponent": "NE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 9,
+                "name": "Turkey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+              },
+              "slot": "BE",
+              "points": 2.7,
+              "nflTeam": "NYJ",
+              "nflOpponent": "NE"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 12,
+          "status": "final",
+          "points": 5.6,
+          "nflTeam": "NYJ",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 9,
+                "name": "Turkey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+              },
+              "slot": "BE",
+              "points": 5.6,
+              "nflTeam": "NYJ",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 13,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "MIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 9,
+                "name": "Turkey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "NYJ",
+              "nflOpponent": "MIN"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 14,
+          "status": "final",
+          "points": 3.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "BUF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 9,
+                "name": "Turkey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+              },
+              "slot": "BE",
+              "points": 3.0,
+              "nflTeam": "NYJ",
+              "nflOpponent": "BUF"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 15,
+          "status": "final",
+          "points": 4.1,
+          "nflTeam": "NYJ",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 9,
+                "name": "Turkey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+              },
+              "slot": "BE",
+              "points": 4.1,
+              "nflTeam": "NYJ",
+              "nflOpponent": "DET"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 16,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 9,
+                "name": "Turkey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+              },
+              "slot": "BE",
+              "points": 10.0,
+              "nflTeam": "NYJ",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 17,
+          "status": "final",
+          "points": 2.5,
+          "nflTeam": "NYJ",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 9,
+                "name": "Turkey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+              },
+              "slot": "BE",
+              "points": 2.5,
+              "nflTeam": "NYJ",
+              "nflOpponent": "SEA"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 9,
+            "name": "Turkey Eren",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 9,
+          "name": "Turkey Eren",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 9,
+            "name": "Turkey Eren",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+          },
+          "round": 8,
+          "pickInRound": 7,
+          "overallPick": 105,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2021,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 152.5,
+        "average": 9.53,
+        "high": {
+          "season": 2021,
+          "week": 8,
+          "points": 32.2
+        },
+        "starts": 1,
+        "starterPoints": 9.6
+      },
+      "weeks": [
+        {
+          "season": 2021,
+          "week": 1,
+          "status": "final",
+          "points": 3.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "CAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "BE",
+              "points": 3.0,
+              "nflTeam": "NYJ",
+              "nflOpponent": "CAR"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 2,
+          "status": "final",
+          "points": 10.8,
+          "nflTeam": "NYJ",
+          "nflOpponent": "NE",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 3,
+          "status": "final",
+          "points": 4.9,
+          "nflTeam": "NYJ",
+          "nflOpponent": "DEN",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 4,
+          "status": "final",
+          "points": 10.4,
+          "nflTeam": "NYJ",
+          "nflOpponent": "TEN",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 5,
+          "status": "final",
+          "points": 14.8,
+          "nflTeam": "NYJ",
+          "nflOpponent": "ATL",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 7,
+          "status": "final",
+          "points": 16.4,
+          "nflTeam": "NYJ",
+          "nflOpponent": "NE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "BE",
+              "points": 16.4,
+              "nflTeam": "NYJ",
+              "nflOpponent": "NE"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 8,
+          "status": "final",
+          "points": 32.2,
+          "nflTeam": "NYJ",
+          "nflOpponent": "CIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "BE",
+              "points": 32.2,
+              "nflTeam": "NYJ",
+              "nflOpponent": "CIN"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 9,
+          "status": "final",
+          "points": 9.6,
+          "nflTeam": "NYJ",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "FLEX",
+              "points": 9.6,
+              "nflTeam": "NYJ",
+              "nflOpponent": "IND"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 10,
+          "status": "final",
+          "points": 18.2,
+          "nflTeam": "NYJ",
+          "nflOpponent": "BUF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "BE",
+              "points": 18.2,
+              "nflTeam": "NYJ",
+              "nflOpponent": "BUF"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 11,
+          "status": "final",
+          "points": 7.5,
+          "nflTeam": "NYJ",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "BE",
+              "points": 7.5,
+              "nflTeam": "NYJ",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 12,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "HOU",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "IR",
+              "points": 0.0,
+              "nflTeam": "NYJ",
+              "nflOpponent": "HOU"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 13,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "PHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "IR",
+              "points": 0.0,
+              "nflTeam": "NYJ",
+              "nflOpponent": "PHI"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 14,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "NO",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 15,
+          "status": "final",
+          "points": 3.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "BE",
+              "points": 3.0,
+              "nflTeam": "NYJ",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 16,
+          "status": "final",
+          "points": 14.4,
+          "nflTeam": "NYJ",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "BE",
+              "points": 14.4,
+              "nflTeam": "NYJ",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 17,
+          "status": "final",
+          "points": 7.3,
+          "nflTeam": "NYJ",
+          "nflOpponent": "TB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "BE",
+              "points": 7.3,
+              "nflTeam": "NYJ",
+              "nflOpponent": "TB"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Light Work",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+          },
+          "weeks": [
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
+            "teamId": 5,
+            "name": "New Jersey Eren",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+          },
+          "weeks": [
+            1,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "evidence": [
+            "draft",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 2,
+          "name": "Light Work",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 5,
+            "name": "New Jersey Eren",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+          },
+          "round": 13,
+          "pickInRound": 7,
+          "overallPick": 127,
+          "keeper": false
+        }
+      ],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2021-12-15T09:00:12.634000+00:00",
+          "timestampKind": "processed",
+          "week": 15,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 2,
+              "name": "Light Work",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+            }
+          ]
+        },
+        {
+          "type": "drop",
+          "timestamp": "2021-12-10T23:58:47.695000+00:00",
+          "timestampKind": "proposed",
+          "week": 14,
+          "fromTeams": [
+            {
+              "teamId": 5,
+              "name": "New Jersey Eren",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2021-10-23T17:29:42.996000+00:00",
+          "timestampKind": "proposed",
+          "week": 7,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 5,
+              "name": "New Jersey Eren",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+            }
+          ]
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2021-09-15T18:08:28.929000+00:00",
+          "timestampKind": "proposed",
+          "week": 2,
+          "fromTeams": [
+            {
+              "teamId": 5,
+              "name": "New Jersey Eren",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+            }
+          ],
+          "toTeams": []
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 45,
+    "points": 368.1,
+    "average": 8.18,
+    "high": {
+      "season": 2021,
+      "week": 8,
+      "points": 32.2
+    },
+    "starts": 11,
+    "starterPoints": 113.6
+  }
+}

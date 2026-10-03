@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4360689,
+    "entityType": "player",
+    "name": "Tyler Shough",
+    "position": "QB",
+    "positionGroup": "QB",
+    "nflTeam": "NO",
+    "jerseyNumber": "6",
+    "heightInches": 77,
+    "weightPounds": 219,
+    "birthDate": "1999-09-28",
+    "college": "Louisville; Texas Tech; Oregon",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/toiafc7qighw86geo7jf",
+    "rookieSeason": 2025,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2025,
+      "round": 2,
+      "overallPick": 40,
+      "team": "NO"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 69.38,
+        "average": 23.13,
+        "high": {
+          "season": 2026,
+          "week": 3,
+          "points": 23.8
+        },
+        "starts": 1,
+        "starterPoints": 23.8
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 23.2,
+          "nflTeam": "NO",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Choose Olave",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "BE",
+              "points": 23.2,
+              "nflTeam": "NO",
+              "nflOpponent": "DET"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 22.38,
+          "nflTeam": "NO",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Choose Olave",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "BE",
+              "points": 22.38,
+              "nflTeam": "NO",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 23.8,
+          "nflTeam": "NO",
+          "nflOpponent": "LV",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Choose Olave",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "QB",
+              "points": 23.8,
+              "nflTeam": "NO",
+              "nflOpponent": "LV"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 11,
+            "name": "Choose Olave",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "draft",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 11,
+          "name": "Choose Olave",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 11,
+            "name": "Choose Olave",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+          },
+          "round": 14,
+          "pickInRound": 5,
+          "overallPick": 135,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 3,
+    "points": 69.38,
+    "average": 23.13,
+    "high": {
+      "season": 2026,
+      "week": 3,
+      "points": 23.8
+    },
+    "starts": 1,
+    "starterPoints": 23.8
+  }
+}

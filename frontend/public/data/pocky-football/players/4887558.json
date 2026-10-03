@@ -1,0 +1,383 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4887558,
+    "entityType": "player",
+    "name": "Emanuel Wilson",
+    "position": "RB",
+    "positionGroup": "RB",
+    "nflTeam": "SEA",
+    "jerseyNumber": "23",
+    "heightInches": 70,
+    "weightPounds": 226,
+    "birthDate": "1999-05-08",
+    "college": "Fort Valley State College",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/uorruvczsxzvffpbxu8z",
+    "rookieSeason": 2023,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": null,
+      "round": null,
+      "overallPick": null,
+      "team": null
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 10.9,
+        "average": 3.63,
+        "high": {
+          "season": 2026,
+          "week": 2,
+          "points": 9.2
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 0.3,
+          "nflTeam": "SEA",
+          "nflOpponent": "NE",
+          "rosters": []
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 9.2,
+          "nflTeam": "SEA",
+          "nflOpponent": "ARI",
+          "rosters": []
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 1.4,
+          "nflTeam": "SEA",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 1.4,
+              "nflTeam": "SEA",
+              "nflOpponent": "WSH"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "weeks": [
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 1,
+          "name": "Brian's Original Fried Haddock",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2026-09-23T07:36:26.147000+00:00",
+          "timestampKind": "processed",
+          "week": 3,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 1,
+              "name": "Brian's Original Fried Haddock",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2025,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 88.7,
+        "average": 5.54,
+        "high": {
+          "season": 2025,
+          "week": 12,
+          "points": 26.5
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2025,
+          "week": 1,
+          "status": "final",
+          "points": 0.4,
+          "nflTeam": "GB",
+          "nflOpponent": "DET",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 2,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "GB",
+          "nflOpponent": "WSH",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 3,
+          "status": "final",
+          "points": 2.5,
+          "nflTeam": "GB",
+          "nflOpponent": "CLE",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 4,
+          "status": "final",
+          "points": 11.1,
+          "nflTeam": "GB",
+          "nflOpponent": "DAL",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 6,
+          "status": "final",
+          "points": 1.7,
+          "nflTeam": "GB",
+          "nflOpponent": "CIN",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 7,
+          "status": "final",
+          "points": 2.5,
+          "nflTeam": "GB",
+          "nflOpponent": "ARI",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 8,
+          "status": "final",
+          "points": 11.7,
+          "nflTeam": "GB",
+          "nflOpponent": "PIT",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 9,
+          "status": "final",
+          "points": 2.7,
+          "nflTeam": "GB",
+          "nflOpponent": "CAR",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 10,
+          "status": "final",
+          "points": 1.4,
+          "nflTeam": "GB",
+          "nflOpponent": "PHI",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 11,
+          "status": "final",
+          "points": 13.9,
+          "nflTeam": "GB",
+          "nflOpponent": "NYG",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 12,
+          "status": "final",
+          "points": 26.5,
+          "nflTeam": "GB",
+          "nflOpponent": "MIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 26.5,
+              "nflTeam": "GB",
+              "nflOpponent": "MIN"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 13,
+          "status": "final",
+          "points": 1.4,
+          "nflTeam": "GB",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 1.4,
+              "nflTeam": "GB",
+              "nflOpponent": "DET"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 14,
+          "status": "final",
+          "points": 1.0,
+          "nflTeam": "GB",
+          "nflOpponent": "CHI",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "status": "final",
+          "points": 0.3,
+          "nflTeam": "GB",
+          "nflOpponent": "DEN",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "status": "final",
+          "points": 8.2,
+          "nflTeam": "GB",
+          "nflOpponent": "CHI",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "status": "final",
+          "points": 3.4,
+          "nflTeam": "GB",
+          "nflOpponent": "BAL",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "weeks": [
+            12,
+            13
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2025-12-03T09:08:29.473000+00:00",
+          "timestampKind": "processed",
+          "week": 14,
+          "fromTeams": [
+            {
+              "teamId": 1,
+              "name": "Brian's Original Fried Haddock",
+              "logo": null
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2025-11-20T06:11:58.523000+00:00",
+          "timestampKind": "proposed",
+          "week": 12,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 1,
+              "name": "Brian's Original Fried Haddock",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 19,
+    "points": 99.6,
+    "average": 5.24,
+    "high": {
+      "season": 2025,
+      "week": 12,
+      "points": 26.5
+    },
+    "starts": 0,
+    "starterPoints": null
+  }
+}

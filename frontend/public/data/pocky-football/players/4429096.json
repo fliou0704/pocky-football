@@ -1,0 +1,638 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4429096,
+    "entityType": "player",
+    "name": "Blake Corum",
+    "position": "RB",
+    "positionGroup": "RB",
+    "nflTeam": "LA",
+    "jerseyNumber": "24",
+    "heightInches": 68,
+    "weightPounds": 202,
+    "birthDate": "2000-11-25",
+    "college": "Michigan",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/axzqbqjkrbwfzodwwakq",
+    "rookieSeason": 2024,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2024,
+      "round": 3,
+      "overallPick": 83,
+      "team": "LA"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 19.1,
+        "average": 6.37,
+        "high": {
+          "season": 2026,
+          "week": 2,
+          "points": 10.2
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 5.4,
+          "nflTeam": "LAR",
+          "nflOpponent": "SF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 5.4,
+              "nflTeam": "LAR",
+              "nflOpponent": "SF"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 10.2,
+          "nflTeam": "LAR",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 10.2,
+              "nflTeam": "LAR",
+              "nflOpponent": "NYG"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 3.5,
+          "nflTeam": "LAR",
+          "nflOpponent": "DEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 3.5,
+              "nflTeam": "LAR",
+              "nflOpponent": "DEN"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "weeks": [
+            1,
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "draft",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 1,
+          "name": "Brian's Original Fried Haddock",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "round": 9,
+          "pickInRound": 9,
+          "overallPick": 89,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2025,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 114.3,
+        "average": 7.14,
+        "high": {
+          "season": 2025,
+          "week": 14,
+          "points": 26.1
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2025,
+          "week": 1,
+          "status": "final",
+          "points": 2.6,
+          "nflTeam": "LAR",
+          "nflOpponent": "HOU",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 2,
+          "status": "final",
+          "points": 10.4,
+          "nflTeam": "LAR",
+          "nflOpponent": "TEN",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 3,
+          "status": "final",
+          "points": 5.3,
+          "nflTeam": "LAR",
+          "nflOpponent": "PHI",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 4,
+          "status": "final",
+          "points": 3.6,
+          "nflTeam": "LAR",
+          "nflOpponent": "IND",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 5,
+          "status": "final",
+          "points": 1.3,
+          "nflTeam": "LAR",
+          "nflOpponent": "SF",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 6,
+          "status": "final",
+          "points": 2.3,
+          "nflTeam": "LAR",
+          "nflOpponent": "BAL",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 7,
+          "status": "final",
+          "points": 5.3,
+          "nflTeam": "LAR",
+          "nflOpponent": "JAX",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 9,
+          "status": "final",
+          "points": 5.8,
+          "nflTeam": "LAR",
+          "nflOpponent": "NO",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 10,
+          "status": "final",
+          "points": 5.6,
+          "nflTeam": "LAR",
+          "nflOpponent": "SF",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 11,
+          "status": "final",
+          "points": 1.5,
+          "nflTeam": "LAR",
+          "nflOpponent": "SEA",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 12,
+          "status": "final",
+          "points": 2.4,
+          "nflTeam": "LAR",
+          "nflOpponent": "TB",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 13,
+          "status": "final",
+          "points": 14.1,
+          "nflTeam": "LAR",
+          "nflOpponent": "CAR",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 14,
+          "status": "final",
+          "points": 26.1,
+          "nflTeam": "LAR",
+          "nflOpponent": "ARI",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "status": "final",
+          "points": 13.1,
+          "nflTeam": "LAR",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 13.1,
+              "nflTeam": "LAR",
+              "nflOpponent": "DET"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "status": "final",
+          "points": 13.1,
+          "nflTeam": "LAR",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 13.1,
+              "nflTeam": "LAR",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "status": "final",
+          "points": 1.8,
+          "nflTeam": "LAR",
+          "nflOpponent": "ATL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 1.8,
+              "nflTeam": "LAR",
+              "nflOpponent": "ATL"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "weeks": [
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 1,
+          "name": "Brian's Original Fried Haddock",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2025-12-10T08:25:03.895000+00:00",
+          "timestampKind": "processed",
+          "week": 15,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 1,
+              "name": "Brian's Original Fried Haddock",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2024,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 30.3,
+        "average": 1.89,
+        "high": {
+          "season": 2024,
+          "week": 5,
+          "points": 4.3
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2024,
+          "week": 1,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "LAR",
+              "nflOpponent": "DET"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 2,
+          "status": "final",
+          "points": 2.8,
+          "nflTeam": "LAR",
+          "nflOpponent": "ARI",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 3,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "SF",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 4,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "CHI",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 5,
+          "status": "final",
+          "points": 4.3,
+          "nflTeam": "LAR",
+          "nflOpponent": "GB",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 7,
+          "status": "final",
+          "points": 1.1,
+          "nflTeam": "LAR",
+          "nflOpponent": "LV",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 8,
+          "status": "final",
+          "points": 2.8,
+          "nflTeam": "LAR",
+          "nflOpponent": "MIN",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 9,
+          "status": "final",
+          "points": -0.1,
+          "nflTeam": "LAR",
+          "nflOpponent": "SEA",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 10,
+          "status": "final",
+          "points": 2.5,
+          "nflTeam": "LAR",
+          "nflOpponent": "MIA",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 11,
+          "status": "final",
+          "points": 3.8,
+          "nflTeam": "LAR",
+          "nflOpponent": "NE",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 12,
+          "status": "final",
+          "points": 0.5,
+          "nflTeam": "LAR",
+          "nflOpponent": "PHI",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 13,
+          "status": "final",
+          "points": 4.2,
+          "nflTeam": "LAR",
+          "nflOpponent": "NO",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 14,
+          "status": "final",
+          "points": 3.4,
+          "nflTeam": "LAR",
+          "nflOpponent": "BUF",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 15,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "SF",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 16,
+          "status": "final",
+          "points": 1.4,
+          "nflTeam": "LAR",
+          "nflOpponent": "NYJ",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "status": "final",
+          "points": -0.4,
+          "nflTeam": "LAR",
+          "nflOpponent": "ARI",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Double Kupp",
+            "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+          },
+          "weeks": [
+            1
+          ],
+          "evidence": [
+            "draft",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Double Kupp",
+            "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+          },
+          "round": 12,
+          "pickInRound": 9,
+          "overallPick": 119,
+          "keeper": false
+        }
+      ],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-09-11T19:53:25.646000+00:00",
+          "timestampKind": "proposed",
+          "week": 2,
+          "fromTeams": [
+            {
+              "teamId": 3,
+              "name": "Double Kupp",
+              "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+            }
+          ],
+          "toTeams": []
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 35,
+    "points": 163.7,
+    "average": 4.68,
+    "high": {
+      "season": 2025,
+      "week": 14,
+      "points": 26.1
+    },
+    "starts": 0,
+    "starterPoints": null
+  }
+}

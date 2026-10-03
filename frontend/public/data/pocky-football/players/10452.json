@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 10452,
+    "entityType": "player",
+    "name": "Adrian Peterson",
+    "position": "RB",
+    "positionGroup": "RB",
+    "nflTeam": "SEA",
+    "jerseyNumber": "21",
+    "heightInches": 73,
+    "weightPounds": 220,
+    "birthDate": "1985-03-21",
+    "college": "Oklahoma",
+    "headshot": "https://static.www.nfl.com/image/private/f_auto,q_auto/league/ug2ua3skqc9f6vkbowxc",
+    "rookieSeason": 2007,
+    "lastSeason": 2021,
+    "nflDraft": {
+      "year": 2007,
+      "round": 1,
+      "overallPick": 7,
+      "team": "MIN"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2021,
+      "complete": true,
+      "summary": {
+        "weeks": 8,
+        "points": 26.6,
+        "average": 3.33,
+        "high": {
+          "season": 2021,
+          "week": 9,
+          "points": 9.6
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2021,
+          "week": 9,
+          "status": "final",
+          "points": 9.6,
+          "nflTeam": "TEN",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "BE",
+              "points": 9.6,
+              "nflTeam": "TEN",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 10,
+          "status": "final",
+          "points": 3.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "BE",
+              "points": 3.0,
+              "nflTeam": "TEN",
+              "nflOpponent": "NO"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 11,
+          "status": "final",
+          "points": 6.4,
+          "nflTeam": "TEN",
+          "nflOpponent": "HOU",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "BE",
+              "points": 6.4,
+              "nflTeam": "TEN",
+              "nflOpponent": "HOU"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 12,
+          "status": "final",
+          "points": null,
+          "nflTeam": "None",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "None",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 13,
+          "status": "final",
+          "points": 7.6,
+          "nflTeam": "SEA",
+          "nflOpponent": "SF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "BE",
+              "points": 7.6,
+              "nflTeam": "SEA",
+              "nflOpponent": "SF"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 14,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SEA",
+          "nflOpponent": "HOU",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 15,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SEA",
+          "nflOpponent": "LAR",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 16,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SEA",
+          "nflOpponent": "CHI",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 17,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SEA",
+          "nflOpponent": "DET",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 5,
+            "name": "New Jersey Eren",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+          },
+          "weeks": [
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2021-12-08T10:00:40.073000+00:00",
+          "timestampKind": "processed",
+          "week": 14,
+          "fromTeams": [
+            {
+              "teamId": 5,
+              "name": "New Jersey Eren",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2021-11-07T06:32:41.873000+00:00",
+          "timestampKind": "proposed",
+          "week": 9,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 5,
+              "name": "New Jersey Eren",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 8,
+    "points": 26.6,
+    "average": 3.33,
+    "high": {
+      "season": 2021,
+      "week": 9,
+      "points": 9.6
+    },
+    "starts": 0,
+    "starterPoints": null
+  }
+}

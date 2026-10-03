@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4685512,
+    "entityType": "player",
+    "name": "Jadarian Price",
+    "position": "RB",
+    "positionGroup": "RB",
+    "nflTeam": "SEA",
+    "jerseyNumber": "8",
+    "heightInches": 71,
+    "weightPounds": 209,
+    "birthDate": "2003-10-09",
+    "college": "Notre Dame",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/toy90i08oumgbdlvctja",
+    "rookieSeason": 2026,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2026,
+      "round": 1,
+      "overallPick": 32,
+      "team": "SEA"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 14.0,
+        "average": 4.67,
+        "high": {
+          "season": 2026,
+          "week": 1,
+          "points": 7.8
+        },
+        "starts": 3,
+        "starterPoints": 14.0
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 7.8,
+          "nflTeam": "SEA",
+          "nflOpponent": "NE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "FLEX",
+              "points": 7.8,
+              "nflTeam": "SEA",
+              "nflOpponent": "NE"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "SEA",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "FLEX",
+              "points": 5.0,
+              "nflTeam": "SEA",
+              "nflOpponent": "ARI"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 1.2,
+          "nflTeam": "SEA",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "FLEX",
+              "points": 1.2,
+              "nflTeam": "SEA",
+              "nflOpponent": "WSH"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "weeks": [
+            1,
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "draft",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 1,
+          "name": "Brian's Original Fried Haddock",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "round": 6,
+          "pickInRound": 2,
+          "overallPick": 52,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 3,
+    "points": 14.0,
+    "average": 4.67,
+    "high": {
+      "season": 2026,
+      "week": 1,
+      "points": 7.8
+    },
+    "starts": 3,
+    "starterPoints": 14.0
+  }
+}

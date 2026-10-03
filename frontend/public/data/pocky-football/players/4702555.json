@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4702555,
+    "entityType": "player",
+    "name": "Jonah Coleman",
+    "position": "RB",
+    "positionGroup": "RB",
+    "nflTeam": "DEN",
+    "jerseyNumber": "20",
+    "heightInches": 68,
+    "weightPounds": 220,
+    "birthDate": "2003-08-20",
+    "college": "Washington; Arizona",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qbauucaxakkhtxihuvmr",
+    "rookieSeason": 2026,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2026,
+      "round": 4,
+      "overallPick": 108,
+      "team": "DEN"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 14.8,
+        "average": 4.93,
+        "high": {
+          "season": 2026,
+          "week": 2,
+          "points": 14.8
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Juwan's Team",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 14.8,
+          "nflTeam": "DEN",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Juwan's Team",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+              },
+              "slot": "BE",
+              "points": 14.8,
+              "nflTeam": "DEN",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Juwan's Team",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+              },
+              "slot": "IR",
+              "points": 0.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "LAR"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Juwan's Team",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "draft",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 2,
+          "name": "Juwan's Team",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Juwan's Team",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+          },
+          "round": 14,
+          "pickInRound": 6,
+          "overallPick": 136,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 3,
+    "points": 14.8,
+    "average": 4.93,
+    "high": {
+      "season": 2026,
+      "week": 2,
+      "points": 14.8
+    },
+    "starts": 0,
+    "starterPoints": null
+  }
+}

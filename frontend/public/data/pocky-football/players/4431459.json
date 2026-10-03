@@ -1,0 +1,600 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4431459,
+    "entityType": "player",
+    "name": "Tyler Warren",
+    "position": "TE",
+    "positionGroup": "TE",
+    "nflTeam": "IND",
+    "jerseyNumber": "84",
+    "heightInches": 78,
+    "weightPounds": 256,
+    "birthDate": "2002-05-24",
+    "college": "Penn State",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/f1mfwwrr3qvnxuiackgq",
+    "rookieSeason": 2025,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2025,
+      "round": 1,
+      "overallPick": 14,
+      "team": "IND"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 39.4,
+        "average": 13.13,
+        "high": {
+          "season": 2026,
+          "week": 3,
+          "points": 14.7
+        },
+        "starts": 3,
+        "starterPoints": 39.4
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 10.3,
+          "nflTeam": "IND",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Eat the Booty Like Groceries",
+                "logo": null
+              },
+              "slot": "TE",
+              "points": 10.3,
+              "nflTeam": "IND",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 14.4,
+          "nflTeam": "IND",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Eat the Booty Like Groceries",
+                "logo": null
+              },
+              "slot": "TE",
+              "points": 14.4,
+              "nflTeam": "IND",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 14.7,
+          "nflTeam": "IND",
+          "nflOpponent": "HOU",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Eat the Booty Like Groceries",
+                "logo": null
+              },
+              "slot": "TE",
+              "points": 14.7,
+              "nflTeam": "IND",
+              "nflOpponent": "HOU"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 16,
+            "name": "Eat the Booty Like Groceries",
+            "logo": null
+          },
+          "weeks": [
+            1,
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "draft",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 16,
+          "name": "Eat the Booty Like Groceries",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 16,
+            "name": "Eat the Booty Like Groceries",
+            "logo": null
+          },
+          "round": 6,
+          "pickInRound": 1,
+          "overallPick": 51,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2025,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 180.9,
+        "average": 11.31,
+        "high": {
+          "season": 2025,
+          "week": 4,
+          "points": 18.3
+        },
+        "starts": 16,
+        "starterPoints": 180.9
+      },
+      "weeks": [
+        {
+          "season": 2025,
+          "week": 1,
+          "status": "final",
+          "points": 14.9,
+          "nflTeam": "IND",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "TE",
+              "points": 14.9,
+              "nflTeam": "IND",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 2,
+          "status": "final",
+          "points": 11.9,
+          "nflTeam": "IND",
+          "nflOpponent": "DEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "TE",
+              "points": 11.9,
+              "nflTeam": "IND",
+              "nflOpponent": "DEN"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 3,
+          "status": "final",
+          "points": 6.8,
+          "nflTeam": "IND",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "TE",
+              "points": 6.8,
+              "nflTeam": "IND",
+              "nflOpponent": "TEN"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 4,
+          "status": "final",
+          "points": 18.3,
+          "nflTeam": "IND",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "TE",
+              "points": 18.3,
+              "nflTeam": "IND",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 5,
+          "status": "final",
+          "points": 14.4,
+          "nflTeam": "IND",
+          "nflOpponent": "LV",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "TE",
+              "points": 14.4,
+              "nflTeam": "IND",
+              "nflOpponent": "LV"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 6,
+          "status": "final",
+          "points": 18.3,
+          "nflTeam": "IND",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "TE",
+              "points": 18.3,
+              "nflTeam": "IND",
+              "nflOpponent": "ARI"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 7,
+          "status": "final",
+          "points": 16.9,
+          "nflTeam": "IND",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "TE",
+              "points": 16.9,
+              "nflTeam": "IND",
+              "nflOpponent": "LAC"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 8,
+          "status": "final",
+          "points": 9.3,
+          "nflTeam": "IND",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "TE",
+              "points": 9.3,
+              "nflTeam": "IND",
+              "nflOpponent": "TEN"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 9,
+          "status": "final",
+          "points": 7.6,
+          "nflTeam": "IND",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "TE",
+              "points": 7.6,
+              "nflTeam": "IND",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 10,
+          "status": "final",
+          "points": 17.9,
+          "nflTeam": "IND",
+          "nflOpponent": "ATL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "TE",
+              "points": 17.9,
+              "nflTeam": "IND",
+              "nflOpponent": "ATL"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 11,
+          "status": "final",
+          "points": null,
+          "nflTeam": "IND",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "TE",
+              "points": null,
+              "nflTeam": "IND",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 12,
+          "status": "final",
+          "points": 9.5,
+          "nflTeam": "IND",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "TE",
+              "points": 9.5,
+              "nflTeam": "IND",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 13,
+          "status": "final",
+          "points": 11.2,
+          "nflTeam": "IND",
+          "nflOpponent": "HOU",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "TE",
+              "points": 11.2,
+              "nflTeam": "IND",
+              "nflOpponent": "HOU"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 14,
+          "status": "final",
+          "points": 3.7,
+          "nflTeam": "IND",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "TE",
+              "points": 3.7,
+              "nflTeam": "IND",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "status": "final",
+          "points": 4.9,
+          "nflTeam": "IND",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "TE",
+              "points": 4.9,
+              "nflTeam": "IND",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "IND",
+          "nflOpponent": "SF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "TE",
+              "points": 6.0,
+              "nflTeam": "IND",
+              "nflOpponent": "SF"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "status": "final",
+          "points": 9.3,
+          "nflTeam": "IND",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "TE",
+              "points": 9.3,
+              "nflTeam": "IND",
+              "nflOpponent": "JAX"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 11,
+            "name": "Cheese Touch",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 11,
+          "name": "Cheese Touch",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 11,
+            "name": "Cheese Touch",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+          },
+          "round": 8,
+          "pickInRound": 1,
+          "overallPick": 71,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 19,
+    "points": 220.3,
+    "average": 11.59,
+    "high": {
+      "season": 2025,
+      "week": 4,
+      "points": 18.3
+    },
+    "starts": 19,
+    "starterPoints": 220.3
+  }
+}

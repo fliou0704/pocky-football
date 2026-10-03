@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4696044,
+    "entityType": "player",
+    "name": "Kaelon Black",
+    "position": "RB",
+    "positionGroup": "RB",
+    "nflTeam": "SF",
+    "jerseyNumber": "26",
+    "heightInches": 69,
+    "weightPounds": 208,
+    "birthDate": "2001-10-17",
+    "college": "Indiana; James Madison",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nwgkzr1ysr32jc79zfnt",
+    "rookieSeason": 2026,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2026,
+      "round": 3,
+      "overallPick": 90,
+      "team": "SF"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 12.2,
+        "average": 4.07,
+        "high": {
+          "season": 2026,
+          "week": 1,
+          "points": 8.0
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "SF",
+          "nflOpponent": "LAR",
+          "rosters": []
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 2.5,
+          "nflTeam": "SF",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Juwan's Team",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+              },
+              "slot": "BE",
+              "points": 2.5,
+              "nflTeam": "SF",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 1.7,
+          "nflTeam": "SF",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Juwan's Team",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+              },
+              "slot": "BE",
+              "points": 1.7,
+              "nflTeam": "SF",
+              "nflOpponent": "ARI"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Juwan's Team",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+          },
+          "weeks": [
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 2,
+          "name": "Juwan's Team",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2026-09-16T07:19:41.650000+00:00",
+          "timestampKind": "processed",
+          "week": 2,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 2,
+              "name": "Juwan's Team",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 3,
+    "points": 12.2,
+    "average": 4.07,
+    "high": {
+      "season": 2026,
+      "week": 1,
+      "points": 8.0
+    },
+    "starts": 0,
+    "starterPoints": null
+  }
+}

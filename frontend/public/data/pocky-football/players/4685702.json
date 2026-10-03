@@ -1,0 +1,590 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4685702,
+    "entityType": "player",
+    "name": "Quinshon Judkins",
+    "position": "RB",
+    "positionGroup": "RB",
+    "nflTeam": "CLE",
+    "jerseyNumber": "10",
+    "heightInches": 72,
+    "weightPounds": 221,
+    "birthDate": "2003-10-29",
+    "college": "Ohio State; Mississippi",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ojtce2im0wp2ltyel0vc",
+    "rookieSeason": 2025,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2025,
+      "round": 2,
+      "overallPick": 36,
+      "team": "CLE"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 26.7,
+        "average": 8.9,
+        "high": {
+          "season": 2026,
+          "week": 3,
+          "points": 9.9
+        },
+        "starts": 3,
+        "starterPoints": 26.7
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "CLE",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "RB",
+              "points": 7.0,
+              "nflTeam": "CLE",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 9.8,
+          "nflTeam": "CLE",
+          "nflOpponent": "TB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "RB",
+              "points": 9.8,
+              "nflTeam": "CLE",
+              "nflOpponent": "TB"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 9.9,
+          "nflTeam": "CLE",
+          "nflOpponent": "CAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "RB",
+              "points": 9.9,
+              "nflTeam": "CLE",
+              "nflOpponent": "CAR"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 13,
+            "name": "The Trenches PerryG",
+            "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "draft",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 13,
+          "name": "The Trenches PerryG",
+          "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 13,
+            "name": "The Trenches PerryG",
+            "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+          },
+          "round": 5,
+          "pickInRound": 3,
+          "overallPick": 43,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2025,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 169.8,
+        "average": 10.61,
+        "high": {
+          "season": 2025,
+          "week": 7,
+          "points": 26.4
+        },
+        "starts": 14,
+        "starterPoints": 159.7
+      },
+      "weeks": [
+        {
+          "season": 2025,
+          "week": 1,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "CLE",
+          "nflOpponent": "CIN",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 2,
+          "status": "final",
+          "points": 10.1,
+          "nflTeam": "CLE",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "IR",
+              "points": 10.1,
+              "nflTeam": "CLE",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 3,
+          "status": "final",
+          "points": 16.5,
+          "nflTeam": "CLE",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "RB",
+              "points": 16.5,
+              "nflTeam": "CLE",
+              "nflOpponent": "GB"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 4,
+          "status": "final",
+          "points": 21.5,
+          "nflTeam": "CLE",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "RB",
+              "points": 21.5,
+              "nflTeam": "CLE",
+              "nflOpponent": "DET"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 5,
+          "status": "final",
+          "points": 13.8,
+          "nflTeam": "CLE",
+          "nflOpponent": "MIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "RB",
+              "points": 13.8,
+              "nflTeam": "CLE",
+              "nflOpponent": "MIN"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 6,
+          "status": "final",
+          "points": 3.6,
+          "nflTeam": "CLE",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "RB",
+              "points": 3.6,
+              "nflTeam": "CLE",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 7,
+          "status": "final",
+          "points": 26.4,
+          "nflTeam": "CLE",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "RB",
+              "points": 26.4,
+              "nflTeam": "CLE",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 8,
+          "status": "final",
+          "points": 4.7,
+          "nflTeam": "CLE",
+          "nflOpponent": "NE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "RB",
+              "points": 4.7,
+              "nflTeam": "CLE",
+              "nflOpponent": "NE"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 9,
+          "status": "final",
+          "points": null,
+          "nflTeam": "CLE",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "CLE",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 10,
+          "status": "final",
+          "points": 10.5,
+          "nflTeam": "CLE",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "RB",
+              "points": 10.5,
+              "nflTeam": "CLE",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 11,
+          "status": "final",
+          "points": 5.9,
+          "nflTeam": "CLE",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "RB",
+              "points": 5.9,
+              "nflTeam": "CLE",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 12,
+          "status": "final",
+          "points": 16.7,
+          "nflTeam": "CLE",
+          "nflOpponent": "LV",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "RB",
+              "points": 16.7,
+              "nflTeam": "CLE",
+              "nflOpponent": "LV"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 13,
+          "status": "final",
+          "points": 15.9,
+          "nflTeam": "CLE",
+          "nflOpponent": "SF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "RB",
+              "points": 15.9,
+              "nflTeam": "CLE",
+              "nflOpponent": "SF"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 14,
+          "status": "final",
+          "points": 9.4,
+          "nflTeam": "CLE",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "RB",
+              "points": 9.4,
+              "nflTeam": "CLE",
+              "nflOpponent": "TEN"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "status": "final",
+          "points": 4.7,
+          "nflTeam": "CLE",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "RB",
+              "points": 4.7,
+              "nflTeam": "CLE",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "status": "final",
+          "points": 10.1,
+          "nflTeam": "CLE",
+          "nflOpponent": "BUF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "RB",
+              "points": 10.1,
+              "nflTeam": "CLE",
+              "nflOpponent": "BUF"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "CLE",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "RB",
+              "points": 0.0,
+              "nflTeam": "CLE",
+              "nflOpponent": "PIT"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Reckless Drivers",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+          },
+          "weeks": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 2,
+          "name": "Reckless Drivers",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2025-09-10T07:33:18.076000+00:00",
+          "timestampKind": "processed",
+          "week": 2,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 2,
+              "name": "Reckless Drivers",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 19,
+    "points": 196.5,
+    "average": 10.34,
+    "high": {
+      "season": 2025,
+      "week": 7,
+      "points": 26.4
+    },
+    "starts": 17,
+    "starterPoints": 186.4
+  }
+}

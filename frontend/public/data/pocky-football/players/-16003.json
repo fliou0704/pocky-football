@@ -1,0 +1,941 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": -16003,
+    "entityType": "team_defense",
+    "name": "Bears D/ST",
+    "position": "D/ST",
+    "nflTeam": "CHI",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png"
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2024,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 83.0,
+        "average": 5.19,
+        "high": {
+          "season": 2024,
+          "week": 1,
+          "points": 26.0
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2024,
+          "week": 1,
+          "status": "final",
+          "points": 26.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "TEN",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 2,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "HOU",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 3,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "IND",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 4,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "LAR",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 5,
+          "status": "final",
+          "points": 15.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "CAR",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 6,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "JAX",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 8,
+          "status": "final",
+          "points": -3.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "WSH",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 9,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "ARI",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 10,
+          "status": "final",
+          "points": 3.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "NE",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 11,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "GB",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 12,
+          "status": "final",
+          "points": -1.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "MIN",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 13,
+          "status": "final",
+          "points": 1.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "DET",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 14,
+          "status": "final",
+          "points": -5.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "SF",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 15,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "MIN",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 16,
+          "status": "final",
+          "points": -5.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "DET",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "SEA",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "Tee Time",
+            "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+          },
+          "weeks": [],
+          "evidence": [
+            "transaction"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-10-10T18:17:19.925000+00:00",
+          "timestampKind": "proposed",
+          "week": 6,
+          "fromTeams": [
+            {
+              "teamId": 6,
+              "name": "Tee Time",
+              "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-10-09T16:47:16.222000+00:00",
+          "timestampKind": "proposed",
+          "week": 6,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 6,
+              "name": "Tee Time",
+              "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2022,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 34.0,
+        "average": 2.12,
+        "high": {
+          "season": 2022,
+          "week": 7,
+          "points": 12.0
+        },
+        "starts": 1,
+        "starterPoints": 5.0
+      },
+      "weeks": [
+        {
+          "season": 2022,
+          "week": 1,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "SF",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 2,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "GB",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 3,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "HOU",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 4,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "D/ST",
+              "points": 5.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "NYG"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 5,
+          "status": "final",
+          "points": 1.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "MIN",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 6,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "WSH",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 7,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "NE",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 8,
+          "status": "final",
+          "points": -3.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "DAL",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 9,
+          "status": "final",
+          "points": -4.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "MIA",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 10,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "DET",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 11,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "ATL",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 12,
+          "status": "final",
+          "points": -5.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "NYJ",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 13,
+          "status": "final",
+          "points": -2.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "GB",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 15,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "PHI",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 16,
+          "status": "final",
+          "points": 1.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "BUF",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 17,
+          "status": "final",
+          "points": -7.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "DET",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Light Work",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+          },
+          "weeks": [
+            4
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
+            "teamId": 6,
+            "name": "Its Bigger Than Black or White✊",
+            "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+          },
+          "weeks": [],
+          "evidence": [
+            "transaction"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2022-10-05T08:00:36.503000+00:00",
+          "timestampKind": "processed",
+          "week": 5,
+          "fromTeams": [
+            {
+              "teamId": 2,
+              "name": "Light Work",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2022-09-29T23:43:32.625000+00:00",
+          "timestampKind": "proposed",
+          "week": 4,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 2,
+              "name": "Light Work",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+            }
+          ]
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2022-09-24T19:55:29.480000+00:00",
+          "timestampKind": "proposed",
+          "week": 3,
+          "fromTeams": [
+            {
+              "teamId": 6,
+              "name": "Its Bigger Than Black or White✊",
+              "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "waiver_add",
+          "timestamp": "2022-09-21T07:24:12.978000+00:00",
+          "timestampKind": "processed",
+          "week": 3,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 6,
+              "name": "Its Bigger Than Black or White✊",
+              "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2021,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 102.0,
+        "average": 6.38,
+        "high": {
+          "season": 2021,
+          "week": 2,
+          "points": 22.0
+        },
+        "starts": 6,
+        "starterPoints": 49.0
+      },
+      "weeks": [
+        {
+          "season": 2021,
+          "week": 1,
+          "status": "final",
+          "points": -1.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "BE",
+              "points": -1.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 2,
+          "status": "final",
+          "points": 22.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "CIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "BE",
+              "points": 22.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "CIN"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 3,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "CLE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "D/ST",
+              "points": 2.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "CLE"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 4,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "D/ST",
+              "points": 8.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "DET"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 5,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "LV",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "D/ST",
+              "points": 10.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "LV"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 6,
+          "status": "final",
+          "points": 3.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "BE",
+              "points": 3.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "GB"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 7,
+          "status": "final",
+          "points": -4.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "TB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "BE",
+              "points": -4.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "TB"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 8,
+          "status": "final",
+          "points": -6.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "SF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "BE",
+              "points": -6.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "SF"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 9,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "BE",
+              "points": 13.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 10,
+          "status": "final",
+          "points": null,
+          "nflTeam": "CHI",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "CHI",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 11,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "BE",
+              "points": 11.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 12,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "D/ST",
+              "points": 6.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "DET"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 13,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "BE",
+              "points": 2.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "ARI"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 14,
+          "status": "final",
+          "points": 3.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "BE",
+              "points": 3.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "GB"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 15,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "MIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "BE",
+              "points": 10.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "MIN"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 16,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "D/ST",
+              "points": 2.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 17,
+          "status": "final",
+          "points": 21.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "D/ST",
+              "points": 21.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "NYG"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 12,
+            "name": "semanto gay and kissed allen ",
+            "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 12,
+          "name": "semanto gay and kissed allen ",
+          "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2021-09-11T18:05:43.812000+00:00",
+          "timestampKind": "proposed",
+          "week": 1,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 12,
+              "name": "semanto gay and kissed allen ",
+              "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 48,
+    "points": 219.0,
+    "average": 4.56,
+    "high": {
+      "season": 2024,
+      "week": 1,
+      "points": 26.0
+    },
+    "starts": 7,
+    "starterPoints": 54.0
+  }
+}

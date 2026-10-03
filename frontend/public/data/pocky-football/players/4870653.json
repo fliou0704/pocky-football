@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4870653,
+    "entityType": "player",
+    "name": "KC Concepcion",
+    "position": "WR",
+    "positionGroup": "WR",
+    "nflTeam": "CLE",
+    "jerseyNumber": "1",
+    "heightInches": 72,
+    "weightPounds": 190,
+    "birthDate": "2004-09-24",
+    "college": "Texas A&M; N.C. State",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ztdyzyngqr1pexyghlt3",
+    "rookieSeason": 2026,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2026,
+      "round": 1,
+      "overallPick": 24,
+      "team": "CLE"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 18.9,
+        "average": 6.3,
+        "high": {
+          "season": 2026,
+          "week": 2,
+          "points": 8.2
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 7.8,
+          "nflTeam": "CLE",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "The Concep",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+              },
+              "slot": "BE",
+              "points": 7.8,
+              "nflTeam": "CLE",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 8.2,
+          "nflTeam": "CLE",
+          "nflOpponent": "TB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "The Concep",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+              },
+              "slot": "BE",
+              "points": 8.2,
+              "nflTeam": "CLE",
+              "nflOpponent": "TB"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 2.9,
+          "nflTeam": "CLE",
+          "nflOpponent": "CAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "The Concep",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+              },
+              "slot": "BE",
+              "points": 2.9,
+              "nflTeam": "CLE",
+              "nflOpponent": "CAR"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 5,
+            "name": "The Concep",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "draft",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 5,
+          "name": "The Concep",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 5,
+            "name": "The Concep",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+          },
+          "round": 14,
+          "pickInRound": 7,
+          "overallPick": 137,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 3,
+    "points": 18.9,
+    "average": 6.3,
+    "high": {
+      "season": 2026,
+      "week": 2,
+      "points": 8.2
+    },
+    "starts": 0,
+    "starterPoints": null
+  }
+}

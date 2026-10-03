@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4870808,
+    "entityType": "player",
+    "name": "Jeremiyah Love",
+    "position": "RB",
+    "positionGroup": "RB",
+    "nflTeam": "ARI",
+    "jerseyNumber": "4",
+    "heightInches": 72,
+    "weightPounds": 212,
+    "birthDate": "2005-05-31",
+    "college": "Notre Dame",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/b12gtjsylmql5v7iyyla",
+    "rookieSeason": 2026,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2026,
+      "round": 1,
+      "overallPick": 3,
+      "team": "ARI"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 42.4,
+        "average": 14.13,
+        "high": {
+          "season": 2026,
+          "week": 3,
+          "points": 21.9
+        },
+        "starts": 3,
+        "starterPoints": 42.4
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "ARI",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "RB",
+              "points": 13.0,
+              "nflTeam": "ARI",
+              "nflOpponent": "LAC"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 7.5,
+          "nflTeam": "ARI",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "RB",
+              "points": 7.5,
+              "nflTeam": "ARI",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 21.9,
+          "nflTeam": "ARI",
+          "nflOpponent": "SF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "RB",
+              "points": 21.9,
+              "nflTeam": "ARI",
+              "nflOpponent": "SF"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "LOVE MEEEE",
+            "logo": null
+          },
+          "weeks": [
+            1,
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "draft",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 6,
+          "name": "LOVE MEEEE",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "LOVE MEEEE",
+            "logo": null
+          },
+          "round": 2,
+          "pickInRound": 10,
+          "overallPick": 20,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 3,
+    "points": 42.4,
+    "average": 14.13,
+    "high": {
+      "season": 2026,
+      "week": 3,
+      "points": 21.9
+    },
+    "starts": 3,
+    "starterPoints": 42.4
+  }
+}

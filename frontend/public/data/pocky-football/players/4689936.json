@@ -1,0 +1,948 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4689936,
+    "entityType": "player",
+    "name": "Jake Bates",
+    "position": "K",
+    "positionGroup": "SPEC",
+    "nflTeam": "DET",
+    "jerseyNumber": "39",
+    "heightInches": 70,
+    "weightPounds": 205,
+    "birthDate": "1999-03-03",
+    "college": "Arkansas; Central Arkansas",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/umhfee7ax7r8gjdt8okb",
+    "rookieSeason": 2024,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": null,
+      "round": null,
+      "overallPick": null,
+      "team": null
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 21.0,
+        "average": 7.0,
+        "high": {
+          "season": 2026,
+          "week": 1,
+          "points": 7.0
+        },
+        "starts": 3,
+        "starterPoints": 21.0
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "DET",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "K",
+              "points": 7.0,
+              "nflTeam": "DET",
+              "nflOpponent": "NO"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "DET",
+          "nflOpponent": "BUF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "K",
+              "points": 7.0,
+              "nflTeam": "DET",
+              "nflOpponent": "BUF"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "DET",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "K",
+              "points": 7.0,
+              "nflTeam": "DET",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 13,
+            "name": "The Trenches PerryG",
+            "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "draft",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 13,
+          "name": "The Trenches PerryG",
+          "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 13,
+            "name": "The Trenches PerryG",
+            "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+          },
+          "round": 16,
+          "pickInRound": 8,
+          "overallPick": 158,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2025,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 132.0,
+        "average": 8.25,
+        "high": {
+          "season": 2025,
+          "week": 14,
+          "points": 15.0
+        },
+        "starts": 16,
+        "starterPoints": 132.0
+      },
+      "weeks": [
+        {
+          "season": 2025,
+          "week": 1,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "DET",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 7.0,
+              "nflTeam": "DET",
+              "nflOpponent": "GB"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 2,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "DET",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 9.0,
+              "nflTeam": "DET",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 3,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "DET",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 8.0,
+              "nflTeam": "DET",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 4,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "DET",
+          "nflOpponent": "CLE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 13.0,
+              "nflTeam": "DET",
+              "nflOpponent": "CLE"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 5,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "DET",
+          "nflOpponent": "CIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 5.0,
+              "nflTeam": "DET",
+              "nflOpponent": "CIN"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 6,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "DET",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 5.0,
+              "nflTeam": "DET",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 7,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "DET",
+          "nflOpponent": "TB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 7.0,
+              "nflTeam": "DET",
+              "nflOpponent": "TB"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 9,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "DET",
+          "nflOpponent": "MIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 6.0,
+              "nflTeam": "DET",
+              "nflOpponent": "MIN"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 10,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "DET",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 13.0,
+              "nflTeam": "DET",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 11,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "DET",
+          "nflOpponent": "PHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 5.0,
+              "nflTeam": "DET",
+              "nflOpponent": "PHI"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 12,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "DET",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 12.0,
+              "nflTeam": "DET",
+              "nflOpponent": "NYG"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 13,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "DET",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 6.0,
+              "nflTeam": "DET",
+              "nflOpponent": "GB"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 14,
+          "status": "final",
+          "points": 15.0,
+          "nflTeam": "DET",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 15.0,
+              "nflTeam": "DET",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "DET",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 10.0,
+              "nflTeam": "DET",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "DET",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 6.0,
+              "nflTeam": "DET",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "DET",
+          "nflOpponent": "MIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 5.0,
+              "nflTeam": "DET",
+              "nflOpponent": "MIN"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Bowers' Castle",
+            "logo": null
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 3,
+          "name": "Bowers' Castle",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Bowers' Castle",
+            "logo": null
+          },
+          "round": 15,
+          "pickInRound": 1,
+          "overallPick": 141,
+          "keeper": false
+        }
+      ],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2025-10-30T01:27:33.889000+00:00",
+          "timestampKind": "proposed",
+          "week": 9,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 3,
+              "name": "Bowers' Castle",
+              "logo": null
+            }
+          ]
+        },
+        {
+          "type": "waiver_add",
+          "timestamp": "2025-10-22T07:27:17.026000+00:00",
+          "timestampKind": "processed",
+          "week": 8,
+          "fromTeams": [
+            {
+              "teamId": 3,
+              "name": "Bowers' Castle",
+              "logo": null
+            }
+          ],
+          "toTeams": []
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2024,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 150.0,
+        "average": 9.38,
+        "high": {
+          "season": 2024,
+          "week": 6,
+          "points": 19.0
+        },
+        "starts": 5,
+        "starterPoints": 48.0
+      },
+      "weeks": [
+        {
+          "season": 2024,
+          "week": 1,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "DET",
+          "nflOpponent": "LAR",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 2,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "DET",
+          "nflOpponent": "TB",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 3,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "DET",
+          "nflOpponent": "ARI",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 4,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "DET",
+          "nflOpponent": "SEA",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 6,
+          "status": "final",
+          "points": 19.0,
+          "nflTeam": "DET",
+          "nflOpponent": "DAL",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 7,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "DET",
+          "nflOpponent": "MIN",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 8,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "DET",
+          "nflOpponent": "TEN",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 9,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "DET",
+          "nflOpponent": "GB",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 10,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "DET",
+          "nflOpponent": "HOU",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 11,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "DET",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 12.0,
+              "nflTeam": "DET",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 12,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "DET",
+          "nflOpponent": "IND",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 13,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "DET",
+          "nflOpponent": "CHI",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 14,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "DET",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Slim Pickens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "K",
+              "points": 11.0,
+              "nflTeam": "DET",
+              "nflOpponent": "GB"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 15,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "DET",
+          "nflOpponent": "BUF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Slim Pickens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "K",
+              "points": 5.0,
+              "nflTeam": "DET",
+              "nflOpponent": "BUF"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 16,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "DET",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Slim Pickens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "K",
+              "points": 9.0,
+              "nflTeam": "DET",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "DET",
+          "nflOpponent": "SF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Slim Pickens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "K",
+              "points": 11.0,
+              "nflTeam": "DET",
+              "nflOpponent": "SF"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Slim Pickens",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+          },
+          "weeks": [
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
+            "teamId": 12,
+            "name": "semanto gay and kissed allen ",
+            "logo": null
+          },
+          "weeks": [
+            11
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 2,
+          "name": "Slim Pickens",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Slim Pickens",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+          },
+          "round": 16,
+          "pickInRound": 8,
+          "overallPick": 158,
+          "keeper": false
+        }
+      ],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2024-12-04T10:00:13.806000+00:00",
+          "timestampKind": "processed",
+          "week": 14,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 2,
+              "name": "Slim Pickens",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+            }
+          ]
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-11-20T14:56:29.376000+00:00",
+          "timestampKind": "proposed",
+          "week": 12,
+          "fromTeams": [
+            {
+              "teamId": 12,
+              "name": "semanto gay and kissed allen ",
+              "logo": null
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-11-13T16:23:35.528000+00:00",
+          "timestampKind": "proposed",
+          "week": 11,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 12,
+              "name": "semanto gay and kissed allen ",
+              "logo": null
+            }
+          ]
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-09-03T03:21:00.112000+00:00",
+          "timestampKind": "proposed",
+          "week": 1,
+          "fromTeams": [
+            {
+              "teamId": 2,
+              "name": "Slim Pickens",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+            }
+          ],
+          "toTeams": []
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 35,
+    "points": 303.0,
+    "average": 8.66,
+    "high": {
+      "season": 2024,
+      "week": 6,
+      "points": 19.0
+    },
+    "starts": 24,
+    "starterPoints": 201.0
+  }
+}

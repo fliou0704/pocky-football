@@ -1,0 +1,940 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": -16010,
+    "entityType": "team_defense",
+    "name": "Titans D/ST",
+    "position": "D/ST",
+    "nflTeam": "TEN",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png"
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2024,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 68.0,
+        "average": 4.25,
+        "high": {
+          "season": 2024,
+          "week": 9,
+          "points": 13.0
+        },
+        "starts": 1,
+        "starterPoints": 12.0
+      },
+      "weeks": [
+        {
+          "season": 2024,
+          "week": 1,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "CHI",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 2,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "NYJ",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 3,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "GB",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 4,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "ATN Network",
+                "logo": "https://i.pinimg.com/736x/c6/8c/54/c68c54570af62e95b92fd511da9581b0.jpg"
+              },
+              "slot": "D/ST",
+              "points": 12.0,
+              "nflTeam": "TEN",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 6,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "IND",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 7,
+          "status": "final",
+          "points": -1.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "BUF",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 8,
+          "status": "final",
+          "points": 1.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "DET",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 9,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "NE",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 10,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "LAC",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 11,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "MIN",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 12,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "HOU",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 13,
+          "status": "final",
+          "points": -4.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "WSH",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 14,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "JAX",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 15,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "CIN",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 16,
+          "status": "final",
+          "points": -5.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "IND",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "JAX",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "ATN Network",
+            "logo": "https://i.pinimg.com/736x/c6/8c/54/c68c54570af62e95b92fd511da9581b0.jpg"
+          },
+          "weeks": [
+            4
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-10-03T00:31:45.920000+00:00",
+          "timestampKind": "proposed",
+          "week": 5,
+          "fromTeams": [
+            {
+              "teamId": 1,
+              "name": "ATN Network",
+              "logo": "https://i.pinimg.com/736x/c6/8c/54/c68c54570af62e95b92fd511da9581b0.jpg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "waiver_add",
+          "timestamp": "2024-09-25T07:44:37.759000+00:00",
+          "timestampKind": "processed",
+          "week": 4,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 1,
+              "name": "ATN Network",
+              "logo": "https://i.pinimg.com/736x/c6/8c/54/c68c54570af62e95b92fd511da9581b0.jpg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2022,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 74.0,
+        "average": 4.62,
+        "high": {
+          "season": 2022,
+          "week": 7,
+          "points": 20.0
+        },
+        "starts": 8,
+        "starterPoints": 48.0
+      },
+      "weeks": [
+        {
+          "season": 2022,
+          "week": 1,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "BE",
+              "points": 8.0,
+              "nflTeam": "TEN",
+              "nflOpponent": "NYG"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 2,
+          "status": "final",
+          "points": -5.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "BUF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "BE",
+              "points": -5.0,
+              "nflTeam": "TEN",
+              "nflOpponent": "BUF"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 3,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "LV",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "BE",
+              "points": 2.0,
+              "nflTeam": "TEN",
+              "nflOpponent": "LV"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 4,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "BE",
+              "points": 9.0,
+              "nflTeam": "TEN",
+              "nflOpponent": "IND"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 5,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "D/ST",
+              "points": 5.0,
+              "nflTeam": "TEN",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 6,
+          "status": "final",
+          "points": null,
+          "nflTeam": "TEN",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "TEN",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 7,
+          "status": "final",
+          "points": 20.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "D/ST",
+              "points": 20.0,
+              "nflTeam": "TEN",
+              "nflOpponent": "IND"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 8,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "HOU",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "D/ST",
+              "points": 11.0,
+              "nflTeam": "TEN",
+              "nflOpponent": "HOU"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 9,
+          "status": "final",
+          "points": 1.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "BE",
+              "points": 1.0,
+              "nflTeam": "TEN",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 10,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "DEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "BE",
+              "points": 11.0,
+              "nflTeam": "TEN",
+              "nflOpponent": "DEN"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 11,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "BE",
+              "points": 6.0,
+              "nflTeam": "TEN",
+              "nflOpponent": "GB"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 12,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "CIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "D/ST",
+              "points": 0.0,
+              "nflTeam": "TEN",
+              "nflOpponent": "CIN"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 13,
+          "status": "final",
+          "points": -6.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "PHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "BE",
+              "points": -6.0,
+              "nflTeam": "TEN",
+              "nflOpponent": "PHI"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 14,
+          "status": "final",
+          "points": -6.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "D/ST",
+              "points": -6.0,
+              "nflTeam": "TEN",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 15,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "D/ST",
+              "points": 7.0,
+              "nflTeam": "TEN",
+              "nflOpponent": "LAC"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 16,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "HOU",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "D/ST",
+              "points": 5.0,
+              "nflTeam": "TEN",
+              "nflOpponent": "HOU"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 17,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "D/ST",
+              "points": 6.0,
+              "nflTeam": "TEN",
+              "nflOpponent": "DAL"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 12,
+            "name": "semanto gay and kissed allen ",
+            "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 12,
+          "name": "semanto gay and kissed allen ",
+          "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 12,
+            "name": "semanto gay and kissed allen ",
+            "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+          },
+          "round": 16,
+          "pickInRound": 8,
+          "overallPick": 218,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2021,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 107.0,
+        "average": 6.69,
+        "high": {
+          "season": 2021,
+          "week": 14,
+          "points": 19.0
+        },
+        "starts": 2,
+        "starterPoints": 8.0
+      },
+      "weeks": [
+        {
+          "season": 2021,
+          "week": 1,
+          "status": "final",
+          "points": -2.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "ARI",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 2,
+          "status": "final",
+          "points": 1.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "SEA",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 3,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "IND",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 4,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "NYJ",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 5,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "JAX",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 6,
+          "status": "final",
+          "points": 1.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "BUF",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 7,
+          "status": "final",
+          "points": 14.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "KC",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 8,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "IND",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 9,
+          "status": "final",
+          "points": 16.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "LAR",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 10,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "D/ST",
+              "points": 5.0,
+              "nflTeam": "TEN",
+              "nflOpponent": "NO"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 11,
+          "status": "final",
+          "points": 3.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "HOU",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "D/ST",
+              "points": 3.0,
+              "nflTeam": "TEN",
+              "nflOpponent": "HOU"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 12,
+          "status": "final",
+          "points": -2.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "NE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+              },
+              "slot": "BE",
+              "points": -2.0,
+              "nflTeam": "TEN",
+              "nflOpponent": "NE"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 14,
+          "status": "final",
+          "points": 19.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "JAX",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 15,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "PIT",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 16,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "SF",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 17,
+          "status": "final",
+          "points": 14.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "MIA",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 12,
+            "name": "semanto gay and kissed allen ",
+            "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+          },
+          "weeks": [
+            10,
+            11,
+            12
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "drop",
+          "timestamp": "2021-12-02T23:46:35.533000+00:00",
+          "timestampKind": "proposed",
+          "week": 13,
+          "fromTeams": [
+            {
+              "teamId": 12,
+              "name": "semanto gay and kissed allen ",
+              "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2021-11-14T05:29:59.076000+00:00",
+          "timestampKind": "proposed",
+          "week": 10,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 12,
+              "name": "semanto gay and kissed allen ",
+              "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 48,
+    "points": 249.0,
+    "average": 5.19,
+    "high": {
+      "season": 2022,
+      "week": 7,
+      "points": 20.0
+    },
+    "starts": 11,
+    "starterPoints": 68.0
+  }
+}

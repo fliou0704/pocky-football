@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 2973405,
+    "entityType": "player",
+    "name": "Kalif Raymond",
+    "position": "WR",
+    "positionGroup": "WR",
+    "nflTeam": "CHI",
+    "jerseyNumber": "14",
+    "heightInches": 69,
+    "weightPounds": 160,
+    "birthDate": "1994-08-08",
+    "college": "Holy Cross",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dpdv6dm0almcbjdppizx",
+    "rookieSeason": 2016,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": null,
+      "round": null,
+      "overallPick": null,
+      "team": null
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 46.4,
+        "average": 15.47,
+        "high": {
+          "season": 2026,
+          "week": 3,
+          "points": 21.0
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 16.4,
+          "nflTeam": "CHI",
+          "nflOpponent": "CAR",
+          "rosters": []
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "MIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 9.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "MIN"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 21.0,
+          "nflTeam": "CHI",
+          "nflOpponent": "PHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 21.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "PHI"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "LOVE MEEEE",
+            "logo": null
+          },
+          "weeks": [
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 6,
+          "name": "LOVE MEEEE",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2026-09-16T07:19:41.650000+00:00",
+          "timestampKind": "processed",
+          "week": 2,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 6,
+              "name": "LOVE MEEEE",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 3,
+    "points": 46.4,
+    "average": 15.47,
+    "high": {
+      "season": 2026,
+      "week": 3,
+      "points": 21.0
+    },
+    "starts": 0,
+    "starterPoints": null
+  }
+}

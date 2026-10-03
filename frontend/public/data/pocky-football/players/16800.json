@@ -1,0 +1,2371 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 16800,
+    "entityType": "player",
+    "name": "Davante Adams",
+    "position": "WR",
+    "positionGroup": "WR",
+    "nflTeam": "LA",
+    "jerseyNumber": "17",
+    "heightInches": 73,
+    "weightPounds": 204,
+    "birthDate": "1992-12-24",
+    "college": "Fresno State",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tdzluk4xau3arxqk9zsl",
+    "rookieSeason": 2014,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2014,
+      "round": 2,
+      "overallPick": 53,
+      "team": "GB"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 65.8,
+        "average": 21.93,
+        "high": {
+          "season": 2026,
+          "week": 2,
+          "points": 39.5
+        },
+        "starts": 2,
+        "starterPoints": 60.2
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 5.6,
+          "nflTeam": "LAR",
+          "nflOpponent": "SF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 5.6,
+              "nflTeam": "LAR",
+              "nflOpponent": "SF"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 39.5,
+          "nflTeam": "LAR",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 39.5,
+              "nflTeam": "LAR",
+              "nflOpponent": "NYG"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 20.7,
+          "nflTeam": "LAR",
+          "nflOpponent": "DEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 20.7,
+              "nflTeam": "LAR",
+              "nflOpponent": "DEN"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 15,
+            "name": "Gibb me dak",
+            "logo": null
+          },
+          "weeks": [
+            1,
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "draft",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 15,
+          "name": "Gibb me dak",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 15,
+            "name": "Gibb me dak",
+            "logo": null
+          },
+          "round": 5,
+          "pickInRound": 2,
+          "overallPick": 42,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2025,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 222.9,
+        "average": 13.93,
+        "high": {
+          "season": 2025,
+          "week": 7,
+          "points": 26.5
+        },
+        "starts": 13,
+        "starterPoints": 215.0
+      },
+      "weeks": [
+        {
+          "season": 2025,
+          "week": 1,
+          "status": "final",
+          "points": 9.1,
+          "nflTeam": "LAR",
+          "nflOpponent": "HOU",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 9.1,
+              "nflTeam": "LAR",
+              "nflOpponent": "HOU"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 2,
+          "status": "final",
+          "points": 22.6,
+          "nflTeam": "LAR",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 22.6,
+              "nflTeam": "LAR",
+              "nflOpponent": "TEN"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 3,
+          "status": "final",
+          "points": 14.6,
+          "nflTeam": "LAR",
+          "nflOpponent": "PHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 14.6,
+              "nflTeam": "LAR",
+              "nflOpponent": "PHI"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 4,
+          "status": "final",
+          "points": 15.6,
+          "nflTeam": "LAR",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 15.6,
+              "nflTeam": "LAR",
+              "nflOpponent": "IND"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 5,
+          "status": "final",
+          "points": 13.8,
+          "nflTeam": "LAR",
+          "nflOpponent": "SF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 13.8,
+              "nflTeam": "LAR",
+              "nflOpponent": "SF"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 6,
+          "status": "final",
+          "points": 7.9,
+          "nflTeam": "LAR",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 7.9,
+              "nflTeam": "LAR",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 7,
+          "status": "final",
+          "points": 26.5,
+          "nflTeam": "LAR",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 26.5,
+              "nflTeam": "LAR",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 8,
+          "status": "final",
+          "points": null,
+          "nflTeam": "LAR",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "LAR",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 9,
+          "status": "final",
+          "points": 23.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 23.0,
+              "nflTeam": "LAR",
+              "nflOpponent": "NO"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 10,
+          "status": "final",
+          "points": 19.7,
+          "nflTeam": "LAR",
+          "nflOpponent": "SF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 19.7,
+              "nflTeam": "LAR",
+              "nflOpponent": "SF"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 11,
+          "status": "final",
+          "points": 7.1,
+          "nflTeam": "LAR",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 7.1,
+              "nflTeam": "LAR",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 12,
+          "status": "final",
+          "points": 23.2,
+          "nflTeam": "LAR",
+          "nflOpponent": "TB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 23.2,
+              "nflTeam": "LAR",
+              "nflOpponent": "TB"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 13,
+          "status": "final",
+          "points": 21.8,
+          "nflTeam": "LAR",
+          "nflOpponent": "CAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 21.8,
+              "nflTeam": "LAR",
+              "nflOpponent": "CAR"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 14,
+          "status": "final",
+          "points": 6.9,
+          "nflTeam": "LAR",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 6.9,
+              "nflTeam": "LAR",
+              "nflOpponent": "ARI"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "status": "final",
+          "points": 11.1,
+          "nflTeam": "LAR",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 11.1,
+              "nflTeam": "LAR",
+              "nflOpponent": "DET"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "LAR",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "ATL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "LAR",
+              "nflOpponent": "ATL"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Bowers' Castle",
+            "logo": null
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 3,
+          "name": "Bowers' Castle",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Bowers' Castle",
+            "logo": null
+          },
+          "round": 4,
+          "pickInRound": 10,
+          "overallPick": 40,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2024,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 220.5,
+        "average": 13.78,
+        "high": {
+          "season": 2024,
+          "week": 15,
+          "points": 42.8
+        },
+        "starts": 4,
+        "starterPoints": 54.3
+      },
+      "weeks": [
+        {
+          "season": 2024,
+          "week": 1,
+          "status": "final",
+          "points": 10.9,
+          "nflTeam": "LV",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Tee Time",
+                "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+              },
+              "slot": "WR",
+              "points": 10.9,
+              "nflTeam": "LV",
+              "nflOpponent": "LAC"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 2,
+          "status": "final",
+          "points": 26.0,
+          "nflTeam": "LV",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Tee Time",
+                "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+              },
+              "slot": "WR",
+              "points": 26.0,
+              "nflTeam": "LV",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 3,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "LV",
+          "nflOpponent": "CAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Tee Time",
+                "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+              },
+              "slot": "WR",
+              "points": 8.0,
+              "nflTeam": "LV",
+              "nflOpponent": "CAR"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 4,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "LV",
+          "nflOpponent": "CLE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Tee Time",
+                "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "LV",
+              "nflOpponent": "CLE"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 5,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "LV",
+          "nflOpponent": "DEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Tee Time",
+                "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "LV",
+              "nflOpponent": "DEN"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 6,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "LV",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Tee Time",
+                "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "LV",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 7,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 6.0,
+              "nflTeam": "NYJ",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 8,
+          "status": "final",
+          "points": 9.4,
+          "nflTeam": "NYJ",
+          "nflOpponent": "NE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 9.4,
+              "nflTeam": "NYJ",
+              "nflOpponent": "NE"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 9,
+          "status": "final",
+          "points": 22.1,
+          "nflTeam": "NYJ",
+          "nflOpponent": "HOU",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 22.1,
+              "nflTeam": "NYJ",
+              "nflOpponent": "HOU"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 10,
+          "status": "final",
+          "points": 9.1,
+          "nflTeam": "NYJ",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 9.1,
+              "nflTeam": "NYJ",
+              "nflOpponent": "ARI"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 11,
+          "status": "final",
+          "points": 13.2,
+          "nflTeam": "NYJ",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 13.2,
+              "nflTeam": "NYJ",
+              "nflOpponent": "IND"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 12,
+          "status": "final",
+          "points": null,
+          "nflTeam": "LAR",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "LAR",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 13,
+          "status": "final",
+          "points": 17.6,
+          "nflTeam": "NYJ",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 17.6,
+              "nflTeam": "NYJ",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 14,
+          "status": "final",
+          "points": 25.9,
+          "nflTeam": "NYJ",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 25.9,
+              "nflTeam": "NYJ",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 15,
+          "status": "final",
+          "points": 42.8,
+          "nflTeam": "NYJ",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 42.8,
+              "nflTeam": "NYJ",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 16,
+          "status": "final",
+          "points": 19.8,
+          "nflTeam": "NYJ",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 19.8,
+              "nflTeam": "NYJ",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "status": "final",
+          "points": 9.7,
+          "nflTeam": "NYJ",
+          "nflOpponent": "BUF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 9.7,
+              "nflTeam": "NYJ",
+              "nflOpponent": "BUF"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "Tee Time",
+            "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "evidence": [
+            "draft",
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
+            "teamId": 12,
+            "name": "semanto gay and kissed allen ",
+            "logo": null
+          },
+          "weeks": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 12,
+          "name": "semanto gay and kissed allen ",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "Tee Time",
+            "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+          },
+          "round": 3,
+          "pickInRound": 4,
+          "overallPick": 24,
+          "keeper": false
+        }
+      ],
+      "transactions": [
+        {
+          "type": "trade",
+          "timestamp": "2024-10-16T23:14:46.422000+00:00",
+          "timestampKind": "processed",
+          "week": 7,
+          "fromTeams": [
+            {
+              "teamId": 6,
+              "name": "Tee Time",
+              "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+            }
+          ],
+          "toTeams": [
+            {
+              "teamId": 12,
+              "name": "semanto gay and kissed allen ",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2023,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 249.8,
+        "average": 15.61,
+        "high": {
+          "season": 2023,
+          "week": 3,
+          "points": 42.2
+        },
+        "starts": 16,
+        "starterPoints": 249.8
+      },
+      "weeks": [
+        {
+          "season": 2023,
+          "week": 1,
+          "status": "final",
+          "points": 12.6,
+          "nflTeam": "LV",
+          "nflOpponent": "DEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "WR",
+              "points": 12.6,
+              "nflTeam": "LV",
+              "nflOpponent": "DEN"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 2,
+          "status": "final",
+          "points": 20.4,
+          "nflTeam": "LV",
+          "nflOpponent": "BUF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "WR",
+              "points": 20.4,
+              "nflTeam": "LV",
+              "nflOpponent": "BUF"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 3,
+          "status": "final",
+          "points": 42.2,
+          "nflTeam": "LV",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "WR",
+              "points": 42.2,
+              "nflTeam": "LV",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 4,
+          "status": "final",
+          "points": 15.5,
+          "nflTeam": "LV",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "WR",
+              "points": 15.5,
+              "nflTeam": "LV",
+              "nflOpponent": "LAC"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 5,
+          "status": "final",
+          "points": 8.5,
+          "nflTeam": "LV",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "WR",
+              "points": 8.5,
+              "nflTeam": "LV",
+              "nflOpponent": "GB"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 6,
+          "status": "final",
+          "points": 4.9,
+          "nflTeam": "LV",
+          "nflOpponent": "NE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "WR",
+              "points": 4.9,
+              "nflTeam": "LV",
+              "nflOpponent": "NE"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 7,
+          "status": "final",
+          "points": 12.7,
+          "nflTeam": "LV",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "WR",
+              "points": 12.7,
+              "nflTeam": "LV",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 8,
+          "status": "final",
+          "points": 2.1,
+          "nflTeam": "LV",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "WR",
+              "points": 2.1,
+              "nflTeam": "LV",
+              "nflOpponent": "DET"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 9,
+          "status": "final",
+          "points": 7.4,
+          "nflTeam": "LV",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "WR",
+              "points": 7.4,
+              "nflTeam": "LV",
+              "nflOpponent": "NYG"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 10,
+          "status": "final",
+          "points": 14.6,
+          "nflTeam": "LV",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "WR",
+              "points": 14.6,
+              "nflTeam": "LV",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 11,
+          "status": "final",
+          "points": 21.2,
+          "nflTeam": "LV",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "WR",
+              "points": 21.2,
+              "nflTeam": "LV",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 12,
+          "status": "final",
+          "points": 12.3,
+          "nflTeam": "LV",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "WR",
+              "points": 12.3,
+              "nflTeam": "LV",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 13,
+          "status": "final",
+          "points": null,
+          "nflTeam": "LV",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "WR",
+              "points": null,
+              "nflTeam": "LV",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 14,
+          "status": "final",
+          "points": 12.3,
+          "nflTeam": "LV",
+          "nflOpponent": "MIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "WR",
+              "points": 12.3,
+              "nflTeam": "LV",
+              "nflOpponent": "MIN"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 15,
+          "status": "final",
+          "points": 24.1,
+          "nflTeam": "LV",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "WR",
+              "points": 24.1,
+              "nflTeam": "LV",
+              "nflOpponent": "LAC"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 16,
+          "status": "final",
+          "points": 1.4,
+          "nflTeam": "LV",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "WR",
+              "points": 1.4,
+              "nflTeam": "LV",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 17,
+          "status": "final",
+          "points": 37.6,
+          "nflTeam": "LV",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "WR",
+              "points": 37.6,
+              "nflTeam": "LV",
+              "nflOpponent": "IND"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Light Work",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 2,
+          "name": "Light Work",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Light Work",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+          },
+          "round": 1,
+          "pickInRound": 12,
+          "overallPick": 12,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2022,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 323.2,
+        "average": 20.2,
+        "high": {
+          "season": 2022,
+          "week": 13,
+          "points": 37.7
+        },
+        "starts": 16,
+        "starterPoints": 323.2
+      },
+      "weeks": [
+        {
+          "season": 2022,
+          "week": 1,
+          "status": "final",
+          "points": 30.1,
+          "nflTeam": "LV",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "WR",
+              "points": 30.1,
+              "nflTeam": "LV",
+              "nflOpponent": "LAC"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 2,
+          "status": "final",
+          "points": 9.2,
+          "nflTeam": "LV",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "WR",
+              "points": 9.2,
+              "nflTeam": "LV",
+              "nflOpponent": "ARI"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 3,
+          "status": "final",
+          "points": 14.2,
+          "nflTeam": "LV",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "WR",
+              "points": 14.2,
+              "nflTeam": "LV",
+              "nflOpponent": "TEN"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 4,
+          "status": "final",
+          "points": 19.5,
+          "nflTeam": "LV",
+          "nflOpponent": "DEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "WR",
+              "points": 19.5,
+              "nflTeam": "LV",
+              "nflOpponent": "DEN"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 5,
+          "status": "final",
+          "points": 27.4,
+          "nflTeam": "LV",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "WR",
+              "points": 27.4,
+              "nflTeam": "LV",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 6,
+          "status": "final",
+          "points": null,
+          "nflTeam": "LV",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "LV",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 7,
+          "status": "final",
+          "points": 17.5,
+          "nflTeam": "LV",
+          "nflOpponent": "HOU",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "WR",
+              "points": 17.5,
+              "nflTeam": "LV",
+              "nflOpponent": "HOU"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 8,
+          "status": "final",
+          "points": 1.2,
+          "nflTeam": "LV",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "WR",
+              "points": 1.2,
+              "nflTeam": "LV",
+              "nflOpponent": "NO"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 9,
+          "status": "final",
+          "points": 36.6,
+          "nflTeam": "LV",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "WR",
+              "points": 36.6,
+              "nflTeam": "LV",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 10,
+          "status": "final",
+          "points": 27.6,
+          "nflTeam": "LV",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "WR",
+              "points": 27.6,
+              "nflTeam": "LV",
+              "nflOpponent": "IND"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 11,
+          "status": "final",
+          "points": 33.1,
+          "nflTeam": "LV",
+          "nflOpponent": "DEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "WR",
+              "points": 33.1,
+              "nflTeam": "LV",
+              "nflOpponent": "DEN"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 12,
+          "status": "final",
+          "points": 14.4,
+          "nflTeam": "LV",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "WR",
+              "points": 14.4,
+              "nflTeam": "LV",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 13,
+          "status": "final",
+          "points": 37.7,
+          "nflTeam": "LV",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "WR",
+              "points": 37.7,
+              "nflTeam": "LV",
+              "nflOpponent": "LAC"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 14,
+          "status": "final",
+          "points": 10.1,
+          "nflTeam": "LV",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "WR",
+              "points": 10.1,
+              "nflTeam": "LV",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 15,
+          "status": "final",
+          "points": 6.8,
+          "nflTeam": "LV",
+          "nflOpponent": "NE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "WR",
+              "points": 6.8,
+              "nflTeam": "LV",
+              "nflOpponent": "NE"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 16,
+          "status": "final",
+          "points": 3.5,
+          "nflTeam": "LV",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "WR",
+              "points": 3.5,
+              "nflTeam": "LV",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 17,
+          "status": "final",
+          "points": 34.3,
+          "nflTeam": "LV",
+          "nflOpponent": "SF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "WR",
+              "points": 34.3,
+              "nflTeam": "LV",
+              "nflOpponent": "SF"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "Its Bigger Than Black or White✊",
+            "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 6,
+          "name": "Its Bigger Than Black or White✊",
+          "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "Its Bigger Than Black or White✊",
+            "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+          },
+          "round": 1,
+          "pickInRound": 11,
+          "overallPick": 11,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2021,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 332.8,
+        "average": 20.8,
+        "high": {
+          "season": 2021,
+          "week": 5,
+          "points": 37.6
+        },
+        "starts": 15,
+        "starterPoints": 332.8
+      },
+      "weeks": [
+        {
+          "season": 2021,
+          "week": 1,
+          "status": "final",
+          "points": 10.6,
+          "nflTeam": "GB",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "WR",
+              "points": 10.6,
+              "nflTeam": "GB",
+              "nflOpponent": "NO"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 2,
+          "status": "final",
+          "points": 20.1,
+          "nflTeam": "GB",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "WR",
+              "points": 20.1,
+              "nflTeam": "GB",
+              "nflOpponent": "DET"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 3,
+          "status": "final",
+          "points": 31.2,
+          "nflTeam": "GB",
+          "nflOpponent": "SF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "WR",
+              "points": 31.2,
+              "nflTeam": "GB",
+              "nflOpponent": "SF"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 4,
+          "status": "final",
+          "points": 12.4,
+          "nflTeam": "GB",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "WR",
+              "points": 12.4,
+              "nflTeam": "GB",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 5,
+          "status": "final",
+          "points": 37.6,
+          "nflTeam": "GB",
+          "nflOpponent": "CIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "WR",
+              "points": 37.6,
+              "nflTeam": "GB",
+              "nflOpponent": "CIN"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 6,
+          "status": "final",
+          "points": 12.9,
+          "nflTeam": "GB",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "WR",
+              "points": 12.9,
+              "nflTeam": "GB",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 7,
+          "status": "final",
+          "points": 19.6,
+          "nflTeam": "GB",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "WR",
+              "points": 19.6,
+              "nflTeam": "GB",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 8,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "GB",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "GB",
+              "nflOpponent": "ARI"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 9,
+          "status": "final",
+          "points": 10.2,
+          "nflTeam": "GB",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "WR",
+              "points": 10.2,
+              "nflTeam": "GB",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 10,
+          "status": "final",
+          "points": 14.8,
+          "nflTeam": "GB",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "WR",
+              "points": 14.8,
+              "nflTeam": "GB",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 11,
+          "status": "final",
+          "points": 30.5,
+          "nflTeam": "GB",
+          "nflOpponent": "MIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "WR",
+              "points": 30.5,
+              "nflTeam": "GB",
+              "nflOpponent": "MIN"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 12,
+          "status": "final",
+          "points": 18.4,
+          "nflTeam": "GB",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "WR",
+              "points": 18.4,
+              "nflTeam": "GB",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 13,
+          "status": "final",
+          "points": null,
+          "nflTeam": "GB",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "GB",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 14,
+          "status": "final",
+          "points": 34.1,
+          "nflTeam": "GB",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "WR",
+              "points": 34.1,
+              "nflTeam": "GB",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 15,
+          "status": "final",
+          "points": 16.4,
+          "nflTeam": "GB",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "WR",
+              "points": 16.4,
+              "nflTeam": "GB",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 16,
+          "status": "final",
+          "points": 33.4,
+          "nflTeam": "GB",
+          "nflOpponent": "CLE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "WR",
+              "points": 33.4,
+              "nflTeam": "GB",
+              "nflOpponent": "CLE"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 17,
+          "status": "final",
+          "points": 30.6,
+          "nflTeam": "GB",
+          "nflOpponent": "MIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "WR",
+              "points": 30.6,
+              "nflTeam": "GB",
+              "nflOpponent": "MIN"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 5,
+            "name": "New Jersey Eren",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 5,
+          "name": "New Jersey Eren",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 5,
+            "name": "New Jersey Eren",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+          },
+          "round": 1,
+          "pickInRound": 7,
+          "overallPick": 7,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 83,
+    "points": 1415.0,
+    "average": 17.05,
+    "high": {
+      "season": 2024,
+      "week": 15,
+      "points": 42.8
+    },
+    "starts": 66,
+    "starterPoints": 1235.3
+  }
+}

@@ -1,0 +1,1485 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4429205,
+    "entityType": "player",
+    "name": "Jordan Addison",
+    "position": "WR",
+    "positionGroup": "WR",
+    "nflTeam": "MIN",
+    "jerseyNumber": "3",
+    "heightInches": 71,
+    "weightPounds": 179,
+    "birthDate": "2002-01-27",
+    "college": "USC; Pittsburgh",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mi4lzk9gvjrvo6rwdf1e",
+    "rookieSeason": 2023,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2023,
+      "round": 1,
+      "overallPick": 23,
+      "team": "MIN"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 24.1,
+        "average": 8.03,
+        "high": {
+          "season": 2026,
+          "week": 3,
+          "points": 20.0
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "MIN",
+              "nflOpponent": "GB"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 4.1,
+          "nflTeam": "MIN",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 4.1,
+              "nflTeam": "MIN",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 20.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "TB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 20.0,
+              "nflTeam": "MIN",
+              "nflOpponent": "TB"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "weeks": [
+            1,
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "draft",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 1,
+          "name": "Brian's Original Fried Haddock",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "round": 10,
+          "pickInRound": 2,
+          "overallPick": 92,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2025,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 133.3,
+        "average": 8.33,
+        "high": {
+          "season": 2025,
+          "week": 7,
+          "points": 21.8
+        },
+        "starts": 4,
+        "starterPoints": 57.1
+      },
+      "weeks": [
+        {
+          "season": 2025,
+          "week": 1,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "MIN",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 2,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "ATL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "MIN",
+              "nflOpponent": "ATL"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 3,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "CIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "MIN",
+              "nflOpponent": "CIN"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 4,
+          "status": "final",
+          "points": 15.4,
+          "nflTeam": "MIN",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "BE",
+              "points": 15.4,
+              "nflTeam": "MIN",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 5,
+          "status": "final",
+          "points": 15.1,
+          "nflTeam": "MIN",
+          "nflOpponent": "CLE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "WR",
+              "points": 15.1,
+              "nflTeam": "MIN",
+              "nflOpponent": "CLE"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 6,
+          "status": "final",
+          "points": null,
+          "nflTeam": "MIN",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "MIN",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 7,
+          "status": "final",
+          "points": 21.8,
+          "nflTeam": "MIN",
+          "nflOpponent": "PHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "FLEX",
+              "points": 21.8,
+              "nflTeam": "MIN",
+              "nflOpponent": "PHI"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 8,
+          "status": "final",
+          "points": 11.6,
+          "nflTeam": "MIN",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "FLEX",
+              "points": 11.6,
+              "nflTeam": "MIN",
+              "nflOpponent": "LAC"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 9,
+          "status": "final",
+          "points": 8.4,
+          "nflTeam": "MIN",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "BE",
+              "points": 8.4,
+              "nflTeam": "MIN",
+              "nflOpponent": "DET"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 10,
+          "status": "final",
+          "points": 6.5,
+          "nflTeam": "MIN",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "BE",
+              "points": 6.5,
+              "nflTeam": "MIN",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 11,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "BE",
+              "points": 10.0,
+              "nflTeam": "MIN",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 12,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "MIN",
+              "nflOpponent": "GB"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 13,
+          "status": "final",
+          "points": 8.6,
+          "nflTeam": "MIN",
+          "nflOpponent": "SEA",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 14,
+          "status": "final",
+          "points": 10.2,
+          "nflTeam": "MIN",
+          "nflOpponent": "WSH",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "status": "final",
+          "points": 8.6,
+          "nflTeam": "MIN",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "FLEX",
+              "points": 8.6,
+              "nflTeam": "MIN",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "status": "final",
+          "points": 4.6,
+          "nflTeam": "MIN",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 4.6,
+              "nflTeam": "MIN",
+              "nflOpponent": "NYG"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "status": "final",
+          "points": 12.5,
+          "nflTeam": "MIN",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 12.5,
+              "nflTeam": "MIN",
+              "nflOpponent": "DET"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "weeks": [
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Reckless Drivers",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "evidence": [
+            "draft",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 1,
+          "name": "Brian's Original Fried Haddock",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Reckless Drivers",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+          },
+          "round": 10,
+          "pickInRound": 3,
+          "overallPick": 93,
+          "keeper": false
+        }
+      ],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2025-12-10T08:25:03.894000+00:00",
+          "timestampKind": "processed",
+          "week": 15,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 1,
+              "name": "Brian's Original Fried Haddock",
+              "logo": null
+            }
+          ]
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2025-11-26T21:34:48.879000+00:00",
+          "timestampKind": "proposed",
+          "week": 13,
+          "fromTeams": [
+            {
+              "teamId": 2,
+              "name": "Reckless Drivers",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+            }
+          ],
+          "toTeams": []
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2024,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 211.5,
+        "average": 13.22,
+        "high": {
+          "season": 2024,
+          "week": 14,
+          "points": 39.3
+        },
+        "starts": 8,
+        "starterPoints": 145.6
+      },
+      "weeks": [
+        {
+          "season": 2024,
+          "week": 1,
+          "status": "final",
+          "points": 6.5,
+          "nflTeam": "MIN",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "BE",
+              "points": 6.5,
+              "nflTeam": "MIN",
+              "nflOpponent": "NYG"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 2,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "SF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "MIN",
+              "nflOpponent": "SF"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 3,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "HOU",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "MIN",
+              "nflOpponent": "HOU"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 4,
+          "status": "final",
+          "points": 22.9,
+          "nflTeam": "MIN",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "BE",
+              "points": 22.9,
+              "nflTeam": "MIN",
+              "nflOpponent": "GB"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 5,
+          "status": "final",
+          "points": 6.6,
+          "nflTeam": "MIN",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "BE",
+              "points": 6.6,
+              "nflTeam": "MIN",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 6,
+          "status": "final",
+          "points": null,
+          "nflTeam": "MIN",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "MIN",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 7,
+          "status": "final",
+          "points": 9.6,
+          "nflTeam": "MIN",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "BE",
+              "points": 9.6,
+              "nflTeam": "MIN",
+              "nflOpponent": "DET"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 8,
+          "status": "final",
+          "points": 4.2,
+          "nflTeam": "MIN",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "BE",
+              "points": 4.2,
+              "nflTeam": "MIN",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 9,
+          "status": "final",
+          "points": 16.1,
+          "nflTeam": "MIN",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "BE",
+              "points": 16.1,
+              "nflTeam": "MIN",
+              "nflOpponent": "IND"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 10,
+          "status": "final",
+          "points": 4.9,
+          "nflTeam": "MIN",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "WR",
+              "points": 4.9,
+              "nflTeam": "MIN",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 11,
+          "status": "final",
+          "points": 15.1,
+          "nflTeam": "MIN",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "WR",
+              "points": 15.1,
+              "nflTeam": "MIN",
+              "nflOpponent": "TEN"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 12,
+          "status": "final",
+          "points": 30.2,
+          "nflTeam": "MIN",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "WR",
+              "points": 30.2,
+              "nflTeam": "MIN",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 13,
+          "status": "final",
+          "points": 9.4,
+          "nflTeam": "MIN",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "WR",
+              "points": 9.4,
+              "nflTeam": "MIN",
+              "nflOpponent": "ARI"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 14,
+          "status": "final",
+          "points": 39.3,
+          "nflTeam": "MIN",
+          "nflOpponent": "ATL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "WR",
+              "points": 39.3,
+              "nflTeam": "MIN",
+              "nflOpponent": "ATL"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 15,
+          "status": "final",
+          "points": 13.3,
+          "nflTeam": "MIN",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "WR",
+              "points": 13.3,
+              "nflTeam": "MIN",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 16,
+          "status": "final",
+          "points": 14.5,
+          "nflTeam": "MIN",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "WR",
+              "points": 14.5,
+              "nflTeam": "MIN",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "status": "final",
+          "points": 18.9,
+          "nflTeam": "MIN",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "WR",
+              "points": 18.9,
+              "nflTeam": "MIN",
+              "nflOpponent": "GB"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 11,
+            "name": "Cheese Touch",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 11,
+          "name": "Cheese Touch",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 11,
+            "name": "Cheese Touch",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+          },
+          "round": 10,
+          "pickInRound": 10,
+          "overallPick": 100,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2023,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 205.6,
+        "average": 12.85,
+        "high": {
+          "season": 2023,
+          "week": 7,
+          "points": 31.3
+        },
+        "starts": 9,
+        "starterPoints": 120.0
+      },
+      "weeks": [
+        {
+          "season": 2023,
+          "week": 1,
+          "status": "final",
+          "points": 16.1,
+          "nflTeam": "MIN",
+          "nflOpponent": "TB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Christian's Children",
+                "logo": "https://a.espncdn.com/photo/2020/0505/r695707_1296x729_16-9.jpg"
+              },
+              "slot": "BE",
+              "points": 16.1,
+              "nflTeam": "MIN",
+              "nflOpponent": "TB"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 2,
+          "status": "final",
+          "points": 16.2,
+          "nflTeam": "MIN",
+          "nflOpponent": "PHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Christian's Children",
+                "logo": "https://a.espncdn.com/photo/2020/0505/r695707_1296x729_16-9.jpg"
+              },
+              "slot": "WR",
+              "points": 16.2,
+              "nflTeam": "MIN",
+              "nflOpponent": "PHI"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 3,
+          "status": "final",
+          "points": 11.2,
+          "nflTeam": "MIN",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Christian's Children",
+                "logo": "https://a.espncdn.com/photo/2020/0505/r695707_1296x729_16-9.jpg"
+              },
+              "slot": "FLEX",
+              "points": 11.2,
+              "nflTeam": "MIN",
+              "nflOpponent": "LAC"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 4,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "CAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Christian's Children",
+                "logo": "https://a.espncdn.com/photo/2020/0505/r695707_1296x729_16-9.jpg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "MIN",
+              "nflOpponent": "CAR"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 5,
+          "status": "final",
+          "points": 18.4,
+          "nflTeam": "MIN",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Christian's Children",
+                "logo": "https://a.espncdn.com/photo/2020/0505/r695707_1296x729_16-9.jpg"
+              },
+              "slot": "BE",
+              "points": 18.4,
+              "nflTeam": "MIN",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 6,
+          "status": "final",
+          "points": 11.8,
+          "nflTeam": "MIN",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Christian's Children",
+                "logo": "https://a.espncdn.com/photo/2020/0505/r695707_1296x729_16-9.jpg"
+              },
+              "slot": "FLEX",
+              "points": 11.8,
+              "nflTeam": "MIN",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 7,
+          "status": "final",
+          "points": 31.3,
+          "nflTeam": "MIN",
+          "nflOpponent": "SF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Christian's Children",
+                "logo": "https://a.espncdn.com/photo/2020/0505/r695707_1296x729_16-9.jpg"
+              },
+              "slot": "FLEX",
+              "points": 31.3,
+              "nflTeam": "MIN",
+              "nflOpponent": "SF"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 8,
+          "status": "final",
+          "points": 21.4,
+          "nflTeam": "MIN",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Christian's Children",
+                "logo": "https://a.espncdn.com/photo/2020/0505/r695707_1296x729_16-9.jpg"
+              },
+              "slot": "FLEX",
+              "points": 21.4,
+              "nflTeam": "MIN",
+              "nflOpponent": "GB"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 9,
+          "status": "final",
+          "points": 10.2,
+          "nflTeam": "MIN",
+          "nflOpponent": "ATL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Christian's Children",
+                "logo": "https://a.espncdn.com/photo/2020/0505/r695707_1296x729_16-9.jpg"
+              },
+              "slot": "FLEX",
+              "points": 10.2,
+              "nflTeam": "MIN",
+              "nflOpponent": "ATL"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 10,
+          "status": "final",
+          "points": 10.9,
+          "nflTeam": "MIN",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Christian's Children",
+                "logo": "https://a.espncdn.com/photo/2020/0505/r695707_1296x729_16-9.jpg"
+              },
+              "slot": "WR",
+              "points": 10.9,
+              "nflTeam": "MIN",
+              "nflOpponent": "NO"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 11,
+          "status": "final",
+          "points": 7.4,
+          "nflTeam": "MIN",
+          "nflOpponent": "DEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Christian's Children",
+                "logo": "https://a.espncdn.com/photo/2020/0505/r695707_1296x729_16-9.jpg"
+              },
+              "slot": "BE",
+              "points": 7.4,
+              "nflTeam": "MIN",
+              "nflOpponent": "DEN"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 12,
+          "status": "final",
+          "points": 9.9,
+          "nflTeam": "MIN",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Christian's Children",
+                "logo": "https://a.espncdn.com/photo/2020/0505/r695707_1296x729_16-9.jpg"
+              },
+              "slot": "BE",
+              "points": 9.9,
+              "nflTeam": "MIN",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 13,
+          "status": "final",
+          "points": null,
+          "nflTeam": "MIN",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Christian's Children",
+                "logo": "https://a.espncdn.com/photo/2020/0505/r695707_1296x729_16-9.jpg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "MIN",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 14,
+          "status": "final",
+          "points": 4.7,
+          "nflTeam": "MIN",
+          "nflOpponent": "LV",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Christian's Children",
+                "logo": "https://a.espncdn.com/photo/2020/0505/r695707_1296x729_16-9.jpg"
+              },
+              "slot": "BE",
+              "points": 4.7,
+              "nflTeam": "MIN",
+              "nflOpponent": "LV"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 15,
+          "status": "final",
+          "points": 29.1,
+          "nflTeam": "MIN",
+          "nflOpponent": "CIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Christian's Children",
+                "logo": "https://a.espncdn.com/photo/2020/0505/r695707_1296x729_16-9.jpg"
+              },
+              "slot": "BE",
+              "points": 29.1,
+              "nflTeam": "MIN",
+              "nflOpponent": "CIN"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 16,
+          "status": "final",
+          "points": 1.2,
+          "nflTeam": "MIN",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Christian's Children",
+                "logo": "https://a.espncdn.com/photo/2020/0505/r695707_1296x729_16-9.jpg"
+              },
+              "slot": "FLEX",
+              "points": 1.2,
+              "nflTeam": "MIN",
+              "nflOpponent": "DET"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 17,
+          "status": "final",
+          "points": 5.8,
+          "nflTeam": "MIN",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Christian's Children",
+                "logo": "https://a.espncdn.com/photo/2020/0505/r695707_1296x729_16-9.jpg"
+              },
+              "slot": "WR",
+              "points": 5.8,
+              "nflTeam": "MIN",
+              "nflOpponent": "GB"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Christian's Children",
+            "logo": "https://a.espncdn.com/photo/2020/0505/r695707_1296x729_16-9.jpg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 3,
+          "name": "Christian's Children",
+          "logo": "https://a.espncdn.com/photo/2020/0505/r695707_1296x729_16-9.jpg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Christian's Children",
+            "logo": "https://a.espncdn.com/photo/2020/0505/r695707_1296x729_16-9.jpg"
+          },
+          "round": 9,
+          "pickInRound": 3,
+          "overallPick": 99,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 51,
+    "points": 574.5,
+    "average": 11.26,
+    "high": {
+      "season": 2024,
+      "week": 14,
+      "points": 39.3
+    },
+    "starts": 21,
+    "starterPoints": 322.7
+  }
+}

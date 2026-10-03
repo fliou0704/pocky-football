@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4362619,
+    "entityType": "player",
+    "name": "Chris Rodriguez Jr.",
+    "position": "RB",
+    "positionGroup": "RB",
+    "nflTeam": "JAX",
+    "jerseyNumber": "24",
+    "heightInches": 71,
+    "weightPounds": 224,
+    "birthDate": "1999-09-26",
+    "college": "Kentucky",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pknd5uajvpvfd8c744im",
+    "rookieSeason": 2023,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2023,
+      "round": 6,
+      "overallPick": 193,
+      "team": "WAS"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 13.3,
+        "average": 4.43,
+        "high": {
+          "season": 2026,
+          "week": 3,
+          "points": 9.7
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 2.3,
+          "nflTeam": "JAX",
+          "nflOpponent": "CLE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 2.3,
+              "nflTeam": "JAX",
+              "nflOpponent": "CLE"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 1.3,
+          "nflTeam": "JAX",
+          "nflOpponent": "DEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 1.3,
+              "nflTeam": "JAX",
+              "nflOpponent": "DEN"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 9.7,
+          "nflTeam": "JAX",
+          "nflOpponent": "NE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 9.7,
+              "nflTeam": "JAX",
+              "nflOpponent": "NE"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "weeks": [
+            1,
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "draft",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 1,
+          "name": "Brian's Original Fried Haddock",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "round": 15,
+          "pickInRound": 9,
+          "overallPick": 149,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 3,
+    "points": 13.3,
+    "average": 4.43,
+    "high": {
+      "season": 2026,
+      "week": 3,
+      "points": 9.7
+    },
+    "starts": 0,
+    "starterPoints": null
+  }
+}
