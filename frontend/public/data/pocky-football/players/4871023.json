@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4871023,
+    "entityType": "player",
+    "name": "Carnell Tate",
+    "position": "WR",
+    "positionGroup": "WR",
+    "nflTeam": "TEN",
+    "jerseyNumber": "14",
+    "heightInches": 74,
+    "weightPounds": 192,
+    "birthDate": "2005-01-19",
+    "college": "Ohio State",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ghpmpzcnigxrdbyvcxke",
+    "rookieSeason": 2026,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2026,
+      "round": 1,
+      "overallPick": 4,
+      "team": "TEN"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 25.3,
+        "average": 8.43,
+        "high": {
+          "season": 2026,
+          "week": 3,
+          "points": 11.8
+        },
+        "starts": 1,
+        "starterPoints": 5.7
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 7.8,
+          "nflTeam": "TEN",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 7.8,
+              "nflTeam": "TEN",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 5.7,
+          "nflTeam": "TEN",
+          "nflOpponent": "PHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 5.7,
+              "nflTeam": "TEN",
+              "nflOpponent": "PHI"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 11.8,
+          "nflTeam": "TEN",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 11.8,
+              "nflTeam": "TEN",
+              "nflOpponent": "NYG"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "LOVE MEEEE",
+            "logo": null
+          },
+          "weeks": [
+            1,
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "draft",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 6,
+          "name": "LOVE MEEEE",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "LOVE MEEEE",
+            "logo": null
+          },
+          "round": 6,
+          "pickInRound": 10,
+          "overallPick": 60,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 3,
+    "points": 25.3,
+    "average": 8.43,
+    "high": {
+      "season": 2026,
+      "week": 3,
+      "points": 11.8
+    },
+    "starts": 1,
+    "starterPoints": 5.7
+  }
+}

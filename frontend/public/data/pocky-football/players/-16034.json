@@ -1,0 +1,1484 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": -16034,
+    "entityType": "team_defense",
+    "name": "Texans D/ST",
+    "position": "D/ST",
+    "nflTeam": "HOU",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png"
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 13.0,
+        "average": 4.33,
+        "high": {
+          "season": 2026,
+          "week": 3,
+          "points": 10.0
+        },
+        "starts": 3,
+        "starterPoints": 13.0
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": -4.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "BUF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Juwan's Team",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+              },
+              "slot": "D/ST",
+              "points": -4.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "BUF"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "CIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Juwan's Team",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+              },
+              "slot": "D/ST",
+              "points": 7.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "CIN"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Juwan's Team",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+              },
+              "slot": "D/ST",
+              "points": 10.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "IND"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Juwan's Team",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "draft",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 2,
+          "name": "Juwan's Team",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Juwan's Team",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+          },
+          "round": 13,
+          "pickInRound": 5,
+          "overallPick": 125,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2025,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 162.0,
+        "average": 10.12,
+        "high": {
+          "season": 2025,
+          "week": 7,
+          "points": 18.0
+        },
+        "starts": 15,
+        "starterPoints": 144.0
+      },
+      "weeks": [
+        {
+          "season": 2025,
+          "week": 1,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 8.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 2,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "TB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 5.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "TB"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 3,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 7.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 4,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 12.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "TEN"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 5,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 12.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 7,
+          "status": "final",
+          "points": 18.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "SEA",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 8,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "SF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 7.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "SF"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 9,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "DEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 9.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "DEN"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 10,
+          "status": "final",
+          "points": 16.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 16.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 11,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 10.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "TEN"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 12,
+          "status": "final",
+          "points": 14.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "BUF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 14.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "BUF"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 13,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 4.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "IND"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 14,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 13.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 6.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "ARI"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "LV",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 11.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "LV"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 10.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "LAC"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Bowers' Castle",
+            "logo": null
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 3,
+          "name": "Bowers' Castle",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Bowers' Castle",
+            "logo": null
+          },
+          "round": 14,
+          "pickInRound": 10,
+          "overallPick": 140,
+          "keeper": false
+        }
+      ],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2025-10-22T07:27:17.027000+00:00",
+          "timestampKind": "processed",
+          "week": 8,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 3,
+              "name": "Bowers' Castle",
+              "logo": null
+            }
+          ]
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2025-10-08T17:57:58.242000+00:00",
+          "timestampKind": "proposed",
+          "week": 6,
+          "fromTeams": [
+            {
+              "teamId": 3,
+              "name": "Bowers' Castle",
+              "logo": null
+            }
+          ],
+          "toTeams": []
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2024,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 128.0,
+        "average": 8.0,
+        "high": {
+          "season": 2024,
+          "week": 12,
+          "points": 18.0
+        },
+        "starts": 6,
+        "starterPoints": 54.0
+      },
+      "weeks": [
+        {
+          "season": 2024,
+          "week": 1,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "IND",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 2,
+          "status": "final",
+          "points": 16.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "CHI",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 3,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "MIN",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 4,
+          "status": "final",
+          "points": 1.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "JAX",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 5,
+          "status": "final",
+          "points": 3.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "BUF",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 6,
+          "status": "final",
+          "points": 14.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "NE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Tee Time",
+                "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+              },
+              "slot": "D/ST",
+              "points": 14.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "NE"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 7,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "GB",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 8,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "IND",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 9,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "ATN Network",
+                "logo": "https://i.pinimg.com/736x/c6/8c/54/c68c54570af62e95b92fd511da9581b0.jpg"
+              },
+              "slot": "D/ST",
+              "points": 4.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 10,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "DET",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 11,
+          "status": "final",
+          "points": 17.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Tee Time",
+                "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+              },
+              "slot": "D/ST",
+              "points": 17.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 12,
+          "status": "final",
+          "points": 18.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Tee Time",
+                "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+              },
+              "slot": "D/ST",
+              "points": 18.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "TEN"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 13,
+          "status": "final",
+          "points": 1.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Tee Time",
+                "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+              },
+              "slot": "D/ST",
+              "points": 1.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 15,
+          "status": "final",
+          "points": 16.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "MIA",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 16,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "D/ST",
+              "points": 0.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "status": "final",
+          "points": -1.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "BE",
+              "points": -1.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "BAL"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "ATN Network",
+            "logo": "https://i.pinimg.com/736x/c6/8c/54/c68c54570af62e95b92fd511da9581b0.jpg"
+          },
+          "weeks": [
+            9
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
+            "teamId": 6,
+            "name": "Tee Time",
+            "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+          },
+          "weeks": [
+            6,
+            11,
+            12,
+            13
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
+            "teamId": 16,
+            "name": "For Kyren Out Loud",
+            "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+          },
+          "weeks": [
+            16,
+            17
+          ],
+          "evidence": [
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 16,
+          "name": "For Kyren Out Loud",
+          "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-12-19T18:04:50.043000+00:00",
+          "timestampKind": "proposed",
+          "week": 16,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 16,
+              "name": "For Kyren Out Loud",
+              "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+            }
+          ]
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-12-08T16:04:02.194000+00:00",
+          "timestampKind": "proposed",
+          "week": 14,
+          "fromTeams": [
+            {
+              "teamId": 6,
+              "name": "Tee Time",
+              "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-11-14T21:59:14.343000+00:00",
+          "timestampKind": "proposed",
+          "week": 11,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 6,
+              "name": "Tee Time",
+              "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+            }
+          ]
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-11-09T21:52:12.089000+00:00",
+          "timestampKind": "proposed",
+          "week": 10,
+          "fromTeams": [
+            {
+              "teamId": 1,
+              "name": "ATN Network",
+              "logo": "https://i.pinimg.com/736x/c6/8c/54/c68c54570af62e95b92fd511da9581b0.jpg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "waiver_add",
+          "timestamp": "2024-10-30T08:43:32.542000+00:00",
+          "timestampKind": "processed",
+          "week": 9,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 1,
+              "name": "ATN Network",
+              "logo": "https://i.pinimg.com/736x/c6/8c/54/c68c54570af62e95b92fd511da9581b0.jpg"
+            }
+          ]
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-10-16T18:16:28.791000+00:00",
+          "timestampKind": "proposed",
+          "week": 7,
+          "fromTeams": [
+            {
+              "teamId": 6,
+              "name": "Tee Time",
+              "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-10-10T18:17:19.925000+00:00",
+          "timestampKind": "proposed",
+          "week": 6,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 6,
+              "name": "Tee Time",
+              "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2022,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 65.0,
+        "average": 4.06,
+        "high": {
+          "season": 2022,
+          "week": 16,
+          "points": 13.0
+        },
+        "starts": 1,
+        "starterPoints": 8.0
+      },
+      "weeks": [
+        {
+          "season": 2022,
+          "week": 1,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "IND",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 2,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "DEN",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 3,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Team Liou",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/20.svg"
+              },
+              "slot": "D/ST",
+              "points": 8.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 4,
+          "status": "final",
+          "points": -1.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "LAC",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 5,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "JAX",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 7,
+          "status": "final",
+          "points": -3.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "LV",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 8,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "TEN",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 9,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "PHI",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 10,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "NYG",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 11,
+          "status": "final",
+          "points": 1.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "WSH",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 12,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "MIA",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 13,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "CLE",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 14,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "DAL",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 15,
+          "status": "final",
+          "points": -1.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "KC",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 16,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "TEN",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 17,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "JAX",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 15,
+            "name": "Team Liou",
+            "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/20.svg"
+          },
+          "weeks": [
+            3
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2022-10-01T19:05:20.161000+00:00",
+          "timestampKind": "proposed",
+          "week": 4,
+          "fromTeams": [
+            {
+              "teamId": 15,
+              "name": "Team Liou",
+              "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/20.svg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2022-09-24T14:25:00.067000+00:00",
+          "timestampKind": "proposed",
+          "week": 3,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 15,
+              "name": "Team Liou",
+              "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/20.svg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2021,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 61.0,
+        "average": 3.81,
+        "high": {
+          "season": 2021,
+          "week": 9,
+          "points": 17.0
+        },
+        "starts": 2,
+        "starterPoints": 20.0
+      },
+      "weeks": [
+        {
+          "season": 2021,
+          "week": 1,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "JAX",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 2,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "CLE",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 3,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "CAR",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 4,
+          "status": "final",
+          "points": -5.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "BUF",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 5,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "NE",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 6,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "IND",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 7,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "ARI",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 8,
+          "status": "final",
+          "points": -7.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "LAR",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 9,
+          "status": "final",
+          "points": 17.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "MIA",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 11,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "TEN",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 12,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "D/ST",
+              "points": 8.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 13,
+          "status": "final",
+          "points": 1.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "IND",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 14,
+          "status": "final",
+          "points": -6.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "SEA",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 15,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "D/ST",
+              "points": 12.0,
+              "nflTeam": "HOU",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 16,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "LAC",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 17,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "HOU",
+          "nflOpponent": "SF",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Light Work",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+          },
+          "weeks": [
+            12,
+            15
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2021-12-26T01:13:58.932000+00:00",
+          "timestampKind": "proposed",
+          "week": 16,
+          "fromTeams": [
+            {
+              "teamId": 2,
+              "name": "Light Work",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "waiver_add",
+          "timestamp": "2021-12-15T09:00:12.635000+00:00",
+          "timestampKind": "processed",
+          "week": 15,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 2,
+              "name": "Light Work",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+            }
+          ]
+        },
+        {
+          "type": "waiver_add",
+          "timestamp": "2021-12-01T09:05:52.542000+00:00",
+          "timestampKind": "processed",
+          "week": 13,
+          "fromTeams": [
+            {
+              "teamId": 2,
+              "name": "Light Work",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2021-11-24T15:36:38.652000+00:00",
+          "timestampKind": "proposed",
+          "week": 12,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 2,
+              "name": "Light Work",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 67,
+    "points": 429.0,
+    "average": 6.4,
+    "high": {
+      "season": 2024,
+      "week": 12,
+      "points": 18.0
+    },
+    "starts": 27,
+    "starterPoints": 239.0
+  }
+}

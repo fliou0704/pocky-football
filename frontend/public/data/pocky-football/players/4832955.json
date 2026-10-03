@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4832955,
+    "entityType": "player",
+    "name": "Emmett Johnson",
+    "position": "RB",
+    "positionGroup": "RB",
+    "nflTeam": "KC",
+    "jerseyNumber": "10",
+    "heightInches": 70,
+    "weightPounds": 202,
+    "birthDate": "2003-10-10",
+    "college": "Nebraska",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/avdz4njz1slqn7ktqcuq",
+    "rookieSeason": 2026,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2026,
+      "round": 5,
+      "overallPick": 161,
+      "team": "KC"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 16.0,
+        "average": 5.33,
+        "high": {
+          "season": 2026,
+          "week": 1,
+          "points": 8.8
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 8.8,
+          "nflTeam": "KC",
+          "nflOpponent": "DEN",
+          "rosters": []
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 5.5,
+          "nflTeam": "KC",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 5.5,
+              "nflTeam": "KC",
+              "nflOpponent": "IND"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 1.7,
+          "nflTeam": "KC",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 1.7,
+              "nflTeam": "KC",
+              "nflOpponent": "MIA"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 12,
+            "name": "semanto gay and kissed allen ",
+            "logo": null
+          },
+          "weeks": [
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 12,
+          "name": "semanto gay and kissed allen ",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2026-09-16T21:22:51.795000+00:00",
+          "timestampKind": "proposed",
+          "week": 2,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 12,
+              "name": "semanto gay and kissed allen ",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 3,
+    "points": 16.0,
+    "average": 5.33,
+    "high": {
+      "season": 2026,
+      "week": 1,
+      "points": 8.8
+    },
+    "starts": 0,
+    "starterPoints": null
+  }
+}

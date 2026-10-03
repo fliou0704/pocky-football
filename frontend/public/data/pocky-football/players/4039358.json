@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4039358,
+    "entityType": "player",
+    "name": "Patrick Taylor Jr.",
+    "position": "RB",
+    "positionGroup": "RB",
+    "nflTeam": "SF",
+    "jerseyNumber": "32",
+    "heightInches": 73,
+    "weightPounds": 217,
+    "birthDate": "1998-04-29",
+    "college": "Memphis",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nd1utxii5exwfoujq5a4",
+    "rookieSeason": 2020,
+    "lastSeason": 2025,
+    "nflDraft": {
+      "year": null,
+      "round": null,
+      "overallPick": null,
+      "team": null
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2024,
+      "complete": true,
+      "summary": {
+        "weeks": 12,
+        "points": 16.7,
+        "average": 1.39,
+        "high": {
+          "season": 2024,
+          "week": 14,
+          "points": 8.5
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2024,
+          "week": 1,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "NYJ",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 2,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "MIN",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 3,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "LAR",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 4,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "NE",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 5,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "ARI",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 6,
+          "status": "final",
+          "points": 3.8,
+          "nflTeam": "SF",
+          "nflOpponent": "SEA",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 7,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "KC",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 8,
+          "status": "final",
+          "points": 0.9,
+          "nflTeam": "SF",
+          "nflOpponent": "DAL",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 14,
+          "status": "final",
+          "points": 8.5,
+          "nflTeam": "SF",
+          "nflOpponent": "CHI",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 15,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "LAR",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 16,
+          "status": "final",
+          "points": 3.5,
+          "nflTeam": "SF",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "BE",
+              "points": 3.5,
+              "nflTeam": "SF",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "DET",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Double Kupp",
+            "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+          },
+          "weeks": [
+            16
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "drop",
+          "timestamp": "2024-12-25T21:37:00.098000+00:00",
+          "timestampKind": "proposed",
+          "week": 17,
+          "fromTeams": [
+            {
+              "teamId": 3,
+              "name": "Double Kupp",
+              "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-12-20T23:46:48.500000+00:00",
+          "timestampKind": "proposed",
+          "week": 16,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 3,
+              "name": "Double Kupp",
+              "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 12,
+    "points": 16.7,
+    "average": 1.39,
+    "high": {
+      "season": 2024,
+      "week": 14,
+      "points": 8.5
+    },
+    "starts": 0,
+    "starterPoints": null
+  }
+}

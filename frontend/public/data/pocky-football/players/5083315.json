@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 5083315,
+    "entityType": "player",
+    "name": "Kenyon Sadiq",
+    "position": "TE",
+    "positionGroup": "TE",
+    "nflTeam": "NYJ",
+    "jerseyNumber": "16",
+    "heightInches": 75,
+    "weightPounds": 241,
+    "birthDate": "2005-03-04",
+    "college": "Oregon",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mnswulwto4yqkgmugoiq",
+    "rookieSeason": 2026,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2026,
+      "round": 1,
+      "overallPick": 16,
+      "team": "NYJ"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 38.6,
+        "average": 12.87,
+        "high": {
+          "season": 2026,
+          "week": 3,
+          "points": 23.5
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 11.4,
+          "nflTeam": "NYJ",
+          "nflOpponent": "TEN",
+          "rosters": []
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 3.7,
+          "nflTeam": "NYJ",
+          "nflOpponent": "GB",
+          "rosters": []
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 23.5,
+          "nflTeam": "NYJ",
+          "nflOpponent": "DET",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 5,
+            "name": "The Concep",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+          },
+          "weeks": [],
+          "evidence": [
+            "current_roster",
+            "transaction"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 5,
+          "name": "The Concep",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2026-09-30T07:56:05.811000+00:00",
+          "timestampKind": "processed",
+          "week": 4,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 5,
+              "name": "The Concep",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 3,
+    "points": 38.6,
+    "average": 12.87,
+    "high": {
+      "season": 2026,
+      "week": 3,
+      "points": 23.5
+    },
+    "starts": 0,
+    "starterPoints": null
+  }
+}

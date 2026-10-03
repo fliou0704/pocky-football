@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4361259,
+    "entityType": "player",
+    "name": "Zach Wilson",
+    "position": "QB",
+    "positionGroup": "QB",
+    "nflTeam": "NO",
+    "jerseyNumber": "4",
+    "heightInches": 74,
+    "weightPounds": 214,
+    "birthDate": "1999-08-03",
+    "college": "BYU",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/i17xpbsar7evcypbhtel",
+    "rookieSeason": 2021,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2021,
+      "round": 1,
+      "overallPick": 2,
+      "team": "NYJ"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2023,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 119.94,
+        "average": 7.5,
+        "high": {
+          "season": 2023,
+          "week": 14,
+          "points": 19.24
+        },
+        "starts": 1,
+        "starterPoints": 7.22
+      },
+      "weeks": [
+        {
+          "season": 2023,
+          "week": 1,
+          "status": "final",
+          "points": 8.2,
+          "nflTeam": "NYJ",
+          "nflOpponent": "BUF",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 2,
+          "status": "final",
+          "points": 8.4,
+          "nflTeam": "NYJ",
+          "nflOpponent": "DAL",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 3,
+          "status": "final",
+          "points": 6.38,
+          "nflTeam": "NYJ",
+          "nflOpponent": "NE",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 4,
+          "status": "final",
+          "points": 19.2,
+          "nflTeam": "NYJ",
+          "nflOpponent": "KC",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 5,
+          "status": "final",
+          "points": 8.56,
+          "nflTeam": "NYJ",
+          "nflOpponent": "DEN",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 6,
+          "status": "final",
+          "points": 10.94,
+          "nflTeam": "NYJ",
+          "nflOpponent": "PHI",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 8,
+          "status": "final",
+          "points": 12.1,
+          "nflTeam": "NYJ",
+          "nflOpponent": "NYG",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 9,
+          "status": "final",
+          "points": 7.22,
+          "nflTeam": "NYJ",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "180 Buccs",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "QB",
+              "points": 7.22,
+              "nflTeam": "NYJ",
+              "nflOpponent": "LAC"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 10,
+          "status": "final",
+          "points": 13.92,
+          "nflTeam": "NYJ",
+          "nflOpponent": "LV",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "180 Buccs",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "BE",
+              "points": 13.92,
+              "nflTeam": "NYJ",
+              "nflOpponent": "LV"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 11,
+          "status": "final",
+          "points": 6.74,
+          "nflTeam": "NYJ",
+          "nflOpponent": "BUF",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 12,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "MIA",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 13,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "ATL",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 14,
+          "status": "final",
+          "points": 19.24,
+          "nflTeam": "NYJ",
+          "nflOpponent": "HOU",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 15,
+          "status": "final",
+          "points": -0.96,
+          "nflTeam": "NYJ",
+          "nflOpponent": "MIA",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 16,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "WSH",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 17,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "CLE",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 7,
+            "name": "180 Buccs",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+          },
+          "weeks": [
+            9,
+            10
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "drop",
+          "timestamp": "2023-11-17T16:51:52.862000+00:00",
+          "timestampKind": "proposed",
+          "week": 11,
+          "fromTeams": [
+            {
+              "teamId": 7,
+              "name": "180 Buccs",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2023-11-06T01:04:30.189000+00:00",
+          "timestampKind": "proposed",
+          "week": 9,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 7,
+              "name": "180 Buccs",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2022,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 98.92,
+        "average": 6.18,
+        "high": {
+          "season": 2022,
+          "week": 15,
+          "points": 19.38
+        },
+        "starts": 1,
+        "starterPoints": 14.6
+      },
+      "weeks": [
+        {
+          "season": 2022,
+          "week": 1,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "BAL",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 2,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "CLE",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 3,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "CIN",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 4,
+          "status": "final",
+          "points": 18.78,
+          "nflTeam": "NYJ",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "BE",
+              "points": 18.78,
+              "nflTeam": "NYJ",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 5,
+          "status": "final",
+          "points": 14.6,
+          "nflTeam": "NYJ",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "QB",
+              "points": 14.6,
+              "nflTeam": "NYJ",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 6,
+          "status": "final",
+          "points": 4.5,
+          "nflTeam": "NYJ",
+          "nflOpponent": "GB",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 7,
+          "status": "final",
+          "points": 7.24,
+          "nflTeam": "NYJ",
+          "nflOpponent": "DEN",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 8,
+          "status": "final",
+          "points": 16.4,
+          "nflTeam": "NYJ",
+          "nflOpponent": "NE",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 9,
+          "status": "final",
+          "points": 10.56,
+          "nflTeam": "NYJ",
+          "nflOpponent": "BUF",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 11,
+          "status": "final",
+          "points": 5.68,
+          "nflTeam": "NYJ",
+          "nflOpponent": "NE",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 12,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "CHI",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 13,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "MIN",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 14,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "BUF",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 15,
+          "status": "final",
+          "points": 19.38,
+          "nflTeam": "NYJ",
+          "nflOpponent": "DET",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 16,
+          "status": "final",
+          "points": 1.78,
+          "nflTeam": "NYJ",
+          "nflOpponent": "JAX",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 17,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYJ",
+          "nflOpponent": "SEA",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Light Work",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+          },
+          "weeks": [
+            4,
+            5
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2022-10-14T08:03:13.927000+00:00",
+          "timestampKind": "processed",
+          "week": 6,
+          "fromTeams": [
+            {
+              "teamId": 2,
+              "name": "Light Work",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2022-09-30T14:17:07.252000+00:00",
+          "timestampKind": "proposed",
+          "week": 4,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 2,
+              "name": "Light Work",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 32,
+    "points": 218.86,
+    "average": 6.84,
+    "high": {
+      "season": 2022,
+      "week": 15,
+      "points": 19.38
+    },
+    "starts": 2,
+    "starterPoints": 21.82
+  }
+}

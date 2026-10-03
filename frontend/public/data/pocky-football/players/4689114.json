@@ -1,0 +1,547 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4689114,
+    "entityType": "player",
+    "name": "Jaxson Dart",
+    "position": "QB",
+    "positionGroup": "QB",
+    "nflTeam": "NYG",
+    "jerseyNumber": "6",
+    "heightInches": 74,
+    "weightPounds": 223,
+    "birthDate": "2003-05-13",
+    "college": "Mississippi; USC",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/n6uymxssgiicjmxkzxoc",
+    "rookieSeason": 2025,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2025,
+      "round": 1,
+      "overallPick": 25,
+      "team": "NYG"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 27.4,
+        "average": 9.13,
+        "high": {
+          "season": 2026,
+          "week": 1,
+          "points": 26.6
+        },
+        "starts": 2,
+        "starterPoints": 27.4
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 26.6,
+          "nflTeam": "NYG",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "QB",
+              "points": 26.6,
+              "nflTeam": "NYG",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 0.8,
+          "nflTeam": "NYG",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "QB",
+              "points": 0.8,
+              "nflTeam": "NYG",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYG",
+          "nflOpponent": "TEN",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "LOVE MEEEE",
+            "logo": null
+          },
+          "weeks": [
+            1,
+            2
+          ],
+          "evidence": [
+            "draft",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "LOVE MEEEE",
+            "logo": null
+          },
+          "round": 7,
+          "pickInRound": 1,
+          "overallPick": 61,
+          "keeper": false
+        }
+      ],
+      "transactions": [
+        {
+          "type": "drop",
+          "timestamp": "2026-09-23T22:12:13.481000+00:00",
+          "timestampKind": "proposed",
+          "week": 3,
+          "fromTeams": [
+            {
+              "teamId": 6,
+              "name": "LOVE MEEEE",
+              "logo": null
+            }
+          ],
+          "toTeams": []
+        }
+      ],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2025,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 221.18,
+        "average": 13.82,
+        "high": {
+          "season": 2025,
+          "week": 7,
+          "points": 28.42
+        },
+        "starts": 4,
+        "starterPoints": 66.96
+      },
+      "weeks": [
+        {
+          "season": 2025,
+          "week": 1,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYG",
+          "nflOpponent": "WSH",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 2,
+          "status": "final",
+          "points": -0.3,
+          "nflTeam": "NYG",
+          "nflOpponent": "DAL",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 3,
+          "status": "final",
+          "points": 0.3,
+          "nflTeam": "NYG",
+          "nflOpponent": "KC",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 4,
+          "status": "final",
+          "points": 19.84,
+          "nflTeam": "NYG",
+          "nflOpponent": "LAC",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 5,
+          "status": "final",
+          "points": 15.58,
+          "nflTeam": "NYG",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "QB",
+              "points": 15.58,
+              "nflTeam": "NYG",
+              "nflOpponent": "NO"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 6,
+          "status": "final",
+          "points": 23.6,
+          "nflTeam": "NYG",
+          "nflOpponent": "PHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 23.6,
+              "nflTeam": "NYG",
+              "nflOpponent": "PHI"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 7,
+          "status": "final",
+          "points": 28.42,
+          "nflTeam": "NYG",
+          "nflOpponent": "DEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 28.42,
+              "nflTeam": "NYG",
+              "nflOpponent": "DEN"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 8,
+          "status": "final",
+          "points": 19.42,
+          "nflTeam": "NYG",
+          "nflOpponent": "PHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 19.42,
+              "nflTeam": "NYG",
+              "nflOpponent": "PHI"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 9,
+          "status": "final",
+          "points": 27.24,
+          "nflTeam": "NYG",
+          "nflOpponent": "SF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 27.24,
+              "nflTeam": "NYG",
+              "nflOpponent": "SF"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 10,
+          "status": "final",
+          "points": 26.28,
+          "nflTeam": "NYG",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "QB",
+              "points": 26.28,
+              "nflTeam": "NYG",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 11,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYG",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "NYG",
+              "nflOpponent": "GB"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 12,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYG",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "NYG",
+              "nflOpponent": "DET"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 13,
+          "status": "final",
+          "points": 13.56,
+          "nflTeam": "NYG",
+          "nflOpponent": "NE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 13.56,
+              "nflTeam": "NYG",
+              "nflOpponent": "NE"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 14,
+          "status": "final",
+          "points": null,
+          "nflTeam": "NYG",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "NYG",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "status": "final",
+          "points": 22.14,
+          "nflTeam": "NYG",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 22.14,
+              "nflTeam": "NYG",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "status": "final",
+          "points": 0.02,
+          "nflTeam": "NYG",
+          "nflOpponent": "MIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "QB",
+              "points": 0.02,
+              "nflTeam": "NYG",
+              "nflOpponent": "MIN"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "status": "final",
+          "points": 25.08,
+          "nflTeam": "NYG",
+          "nflOpponent": "LV",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "QB",
+              "points": 25.08,
+              "nflTeam": "NYG",
+              "nflOpponent": "LV"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "if u got me get rid of me",
+            "logo": null
+          },
+          "weeks": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 6,
+          "name": "if u got me get rid of me",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2025-10-01T07:23:06.515000+00:00",
+          "timestampKind": "processed",
+          "week": 5,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 6,
+              "name": "if u got me get rid of me",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 19,
+    "points": 248.58,
+    "average": 13.08,
+    "high": {
+      "season": 2025,
+      "week": 7,
+      "points": 28.42
+    },
+    "starts": 6,
+    "starterPoints": 94.36
+  }
+}

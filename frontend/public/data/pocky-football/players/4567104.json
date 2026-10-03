@@ -1,0 +1,513 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4567104,
+    "entityType": "player",
+    "name": "Will Reichard",
+    "position": "K",
+    "positionGroup": "SPEC",
+    "nflTeam": "MIN",
+    "jerseyNumber": "16",
+    "heightInches": 73,
+    "weightPounds": 190,
+    "birthDate": "2001-01-09",
+    "college": "Alabama",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wv1h4umuddkfss96uutw",
+    "rookieSeason": 2024,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2024,
+      "round": 6,
+      "overallPick": 203,
+      "team": "MIN"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2025,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 147.0,
+        "average": 9.19,
+        "high": {
+          "season": 2025,
+          "week": 7,
+          "points": 18.0
+        },
+        "starts": 1,
+        "starterPoints": 5.0
+      },
+      "weeks": [
+        {
+          "season": 2025,
+          "week": 1,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "CHI",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 2,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "ATL",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 3,
+          "status": "final",
+          "points": 15.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "CIN",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 4,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "PIT",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 5,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "CLE",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 7,
+          "status": "final",
+          "points": 18.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "PHI",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 8,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 5.0,
+              "nflTeam": "MIN",
+              "nflOpponent": "LAC"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 9,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "DET",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 10,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "BAL",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 11,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "CHI",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 12,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "GB",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 13,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "SEA",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 14,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "WSH",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "DAL",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "NYG",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "status": "final",
+          "points": 16.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "DET",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Bowers' Castle",
+            "logo": null
+          },
+          "weeks": [
+            8
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2025-10-30T01:27:33.889000+00:00",
+          "timestampKind": "proposed",
+          "week": 9,
+          "fromTeams": [
+            {
+              "teamId": 3,
+              "name": "Bowers' Castle",
+              "logo": null
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "waiver_add",
+          "timestamp": "2025-10-22T07:27:17.026000+00:00",
+          "timestampKind": "processed",
+          "week": 8,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 3,
+              "name": "Bowers' Castle",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2024,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 115.0,
+        "average": 7.19,
+        "high": {
+          "season": 2024,
+          "week": 5,
+          "points": 16.0
+        },
+        "starts": 3,
+        "starterPoints": 36.0
+      },
+      "weeks": [
+        {
+          "season": 2024,
+          "week": 1,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "NYG",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 2,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "SF",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 3,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "HOU",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 4,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "GB",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 5,
+          "status": "final",
+          "points": 16.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "NYJ",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 7,
+          "status": "final",
+          "points": 15.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "DET",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 8,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "LAR",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 9,
+          "status": "final",
+          "points": 1.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "IND",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 10,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "JAX",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 11,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "TEN",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 12,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "CHI",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 13,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "ARI",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 14,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "ATL",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 15,
+          "status": "final",
+          "points": 15.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "K",
+              "points": 15.0,
+              "nflTeam": "MIN",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 16,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "K",
+              "points": 12.0,
+              "nflTeam": "MIN",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "MIN",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "K",
+              "points": 9.0,
+              "nflTeam": "MIN",
+              "nflOpponent": "GB"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Double Kupp",
+            "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+          },
+          "weeks": [
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 3,
+          "name": "Double Kupp",
+          "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2024-12-11T10:06:43.166000+00:00",
+          "timestampKind": "processed",
+          "week": 15,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 3,
+              "name": "Double Kupp",
+              "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 32,
+    "points": 262.0,
+    "average": 8.19,
+    "high": {
+      "season": 2025,
+      "week": 7,
+      "points": 18.0
+    },
+    "starts": 4,
+    "starterPoints": 41.0
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4429086,
+    "entityType": "player",
+    "name": "Michael Mayer",
+    "position": "TE",
+    "positionGroup": "TE",
+    "nflTeam": "LV",
+    "jerseyNumber": "87",
+    "heightInches": 76,
+    "weightPounds": 256,
+    "birthDate": "2001-07-06",
+    "college": "Notre Dame",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/twnkr9uq1phvukxb5jmh",
+    "rookieSeason": 2023,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2023,
+      "round": 2,
+      "overallPick": 35,
+      "team": "LV"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 26.7,
+        "average": 8.9,
+        "high": {
+          "season": 2026,
+          "week": 3,
+          "points": 12.2
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 9.2,
+          "nflTeam": "LV",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Good Christians Hate Sinners",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 9.2,
+              "nflTeam": "LV",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 5.3,
+          "nflTeam": "LV",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Good Christians Hate Sinners",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 5.3,
+              "nflTeam": "LV",
+              "nflOpponent": "LAC"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 12.2,
+          "nflTeam": "LV",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Good Christians Hate Sinners",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 12.2,
+              "nflTeam": "LV",
+              "nflOpponent": "NO"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Good Christians Hate Sinners",
+            "logo": null
+          },
+          "weeks": [
+            1,
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 3,
+          "name": "Good Christians Hate Sinners",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2026-09-10T16:21:08.304000+00:00",
+          "timestampKind": "proposed",
+          "week": 1,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 3,
+              "name": "Good Christians Hate Sinners",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 3,
+    "points": 26.7,
+    "average": 8.9,
+    "high": {
+      "season": 2026,
+      "week": 3,
+      "points": 12.2
+    },
+    "starts": 0,
+    "starterPoints": null
+  }
+}

@@ -204,6 +204,11 @@ def generate(slug, config_path=CONFIG_PATH, output=PUBLIC_DATA):
     from football_h2h import build_h2h
     build_h2h(output, slug, years, config['season'])
     build_record_book(output, slug, years)
+    from football_player_metadata import generate as generate_metadata
+    from football_players import build_players
+    generate_metadata(Path(output)/slug, ROOT/'.cache/player-metadata', refresh=True, check_images=True,
+                      first=min(years), last=max(years))
+    build_players(output, slug, years)
     write_json(Path(output) / "site.json", {
         "schemaVersion": 1,
         "leaguePath": f"{slug}/{config['season']}/league.json",
@@ -211,5 +216,6 @@ def generate(slug, config_path=CONFIG_PATH, output=PUBLIC_DATA):
         "teamSeasons": team_seasons,
         "h2hPath": f"{slug}/h2h.json",
         "recordBookPath": f"{slug}/record-book.json",
+        "playersPath": f"{slug}/players-index.json",
     })
     return destination

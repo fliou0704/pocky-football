@@ -1,0 +1,2029 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": -16021,
+    "entityType": "team_defense",
+    "name": "Eagles D/ST",
+    "position": "D/ST",
+    "nflTeam": "PHI",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png"
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 8.0,
+        "average": 2.67,
+        "high": {
+          "season": 2026,
+          "week": 1,
+          "points": 5.0
+        },
+        "starts": 3,
+        "starterPoints": 8.0
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Choose Olave",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "D/ST",
+              "points": 5.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Choose Olave",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "D/ST",
+              "points": 4.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "TEN"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": -1.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Choose Olave",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "D/ST",
+              "points": -1.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "CHI"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 11,
+            "name": "Choose Olave",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "draft",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 11,
+          "name": "Choose Olave",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 11,
+            "name": "Choose Olave",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+          },
+          "round": 15,
+          "pickInRound": 6,
+          "overallPick": 146,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2025,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 120.0,
+        "average": 7.5,
+        "high": {
+          "season": 2025,
+          "week": 15,
+          "points": 16.0
+        },
+        "starts": 4,
+        "starterPoints": 45.0
+      },
+      "weeks": [
+        {
+          "season": 2025,
+          "week": 1,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "DAL",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 2,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "KC",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 3,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "LAR",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 4,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "TB",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 5,
+          "status": "final",
+          "points": 1.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "DEN",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 6,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "NYG",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 7,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "MIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 11.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "MIN"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 8,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "NYG",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 10,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "GB",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 11,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "DET",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 12,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "DAL",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 13,
+          "status": "final",
+          "points": 1.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "CHI",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 14,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "LAC",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "status": "final",
+          "points": 16.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "LV",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 16.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "LV"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 6.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "BUF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 12.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "BUF"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "weeks": [
+            7,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 1,
+          "name": "Brian's Original Fried Haddock",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2025-12-10T08:25:03.892000+00:00",
+          "timestampKind": "processed",
+          "week": 15,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 1,
+              "name": "Brian's Original Fried Haddock",
+              "logo": null
+            }
+          ]
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2025-10-22T16:35:01.650000+00:00",
+          "timestampKind": "proposed",
+          "week": 8,
+          "fromTeams": [
+            {
+              "teamId": 1,
+              "name": "Brian's Original Fried Haddock",
+              "logo": null
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2025-10-16T10:11:00.810000+00:00",
+          "timestampKind": "proposed",
+          "week": 7,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 1,
+              "name": "Brian's Original Fried Haddock",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2024,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 131.0,
+        "average": 8.19,
+        "high": {
+          "season": 2024,
+          "week": 10,
+          "points": 20.0
+        },
+        "starts": 5,
+        "starterPoints": 63.0
+      },
+      "weeks": [
+        {
+          "season": 2024,
+          "week": 1,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "GB",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 2,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "ATL",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 3,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "NO",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 4,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "TB",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 6,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "CLE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "ATN Network",
+                "logo": "https://i.pinimg.com/736x/c6/8c/54/c68c54570af62e95b92fd511da9581b0.jpg"
+              },
+              "slot": "D/ST",
+              "points": 8.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "CLE"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 7,
+          "status": "final",
+          "points": 15.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "NYG",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 8,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "CIN",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 9,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Tee Time",
+                "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+              },
+              "slot": "D/ST",
+              "points": 11.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 10,
+          "status": "final",
+          "points": 20.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Tee Time",
+                "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+              },
+              "slot": "D/ST",
+              "points": 20.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 11,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "WSH",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 12,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "LAR",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 13,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "BAL",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 14,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "CAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Slim Pickens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "D/ST",
+              "points": 4.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "CAR"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 15,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Slim Pickens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "BE",
+              "points": 10.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 16,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "WSH",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "status": "final",
+          "points": 20.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "Bosh Champ",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/DIS_Avengers_EndGame/DIS_Avengers_EndGame_Rocket.svg"
+              },
+              "slot": "D/ST",
+              "points": 20.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "DAL"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "ATN Network",
+            "logo": "https://i.pinimg.com/736x/c6/8c/54/c68c54570af62e95b92fd511da9581b0.jpg"
+          },
+          "weeks": [
+            6
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Slim Pickens",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+          },
+          "weeks": [
+            14,
+            15
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
+            "teamId": 5,
+            "name": "Bosh Champ",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/DIS_Avengers_EndGame/DIS_Avengers_EndGame_Rocket.svg"
+          },
+          "weeks": [
+            17
+          ],
+          "evidence": [
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
+            "teamId": 6,
+            "name": "Tee Time",
+            "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+          },
+          "weeks": [
+            9,
+            10
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 5,
+          "name": "Bosh Champ",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/core/DIS_Avengers_EndGame/DIS_Avengers_EndGame_Rocket.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-12-28T20:18:54.203000+00:00",
+          "timestampKind": "proposed",
+          "week": 17,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 5,
+              "name": "Bosh Champ",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/core/DIS_Avengers_EndGame/DIS_Avengers_EndGame_Rocket.svg"
+            }
+          ]
+        },
+        {
+          "type": "drop",
+          "timestamp": "2024-12-18T15:02:50.170000+00:00",
+          "timestampKind": "proposed",
+          "week": 16,
+          "fromTeams": [
+            {
+              "teamId": 2,
+              "name": "Slim Pickens",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "waiver_add",
+          "timestamp": "2024-12-04T10:00:13.808000+00:00",
+          "timestampKind": "processed",
+          "week": 14,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 2,
+              "name": "Slim Pickens",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+            }
+          ]
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-11-14T21:59:14.343000+00:00",
+          "timestampKind": "proposed",
+          "week": 11,
+          "fromTeams": [
+            {
+              "teamId": 6,
+              "name": "Tee Time",
+              "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-11-03T20:03:34.273000+00:00",
+          "timestampKind": "proposed",
+          "week": 9,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 6,
+              "name": "Tee Time",
+              "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+            }
+          ]
+        },
+        {
+          "type": "waiver_add",
+          "timestamp": "2024-10-16T08:13:42.763000+00:00",
+          "timestampKind": "processed",
+          "week": 7,
+          "fromTeams": [
+            {
+              "teamId": 1,
+              "name": "ATN Network",
+              "logo": "https://i.pinimg.com/736x/c6/8c/54/c68c54570af62e95b92fd511da9581b0.jpg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-10-09T21:54:28.388000+00:00",
+          "timestampKind": "proposed",
+          "week": 6,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 1,
+              "name": "ATN Network",
+              "logo": "https://i.pinimg.com/736x/c6/8c/54/c68c54570af62e95b92fd511da9581b0.jpg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2023,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 79.0,
+        "average": 4.94,
+        "high": {
+          "season": 2023,
+          "week": 3,
+          "points": 14.0
+        },
+        "starts": 10,
+        "starterPoints": 65.0
+      },
+      "weeks": [
+        {
+          "season": 2023,
+          "week": 1,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "NE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "D/ST",
+              "points": 11.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "NE"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 2,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "MIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "D/ST",
+              "points": 6.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "MIN"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 3,
+          "status": "final",
+          "points": 14.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "TB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "D/ST",
+              "points": 14.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "TB"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 4,
+          "status": "final",
+          "points": 3.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "D/ST",
+              "points": 3.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 5,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "D/ST",
+              "points": 7.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 6,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "D/ST",
+              "points": 7.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 7,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "D/ST",
+              "points": 11.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 8,
+          "status": "final",
+          "points": -3.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "D/ST",
+              "points": -3.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 9,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "D/ST",
+              "points": 4.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 11,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "KC",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 12,
+          "status": "final",
+          "points": -2.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "BUF",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 13,
+          "status": "final",
+          "points": -6.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "SF",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 14,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "DAL",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 15,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "SEA",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 16,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "Eren's Fantasy Football Team",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/SmackTalk-LeoEspinosa/u_mad_bro-09.svg"
+              },
+              "slot": "D/ST",
+              "points": 5.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "NYG"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 17,
+          "status": "final",
+          "points": 3.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "Eren's Fantasy Football Team",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/SmackTalk-LeoEspinosa/u_mad_bro-09.svg"
+              },
+              "slot": "BE",
+              "points": 3.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "ARI"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 5,
+            "name": "Eren's Fantasy Football Team",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/SmackTalk-LeoEspinosa/u_mad_bro-09.svg"
+          },
+          "weeks": [
+            16,
+            17
+          ],
+          "evidence": [
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
+            "teamId": 16,
+            "name": "Jalapeno Kittle Chips",
+            "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "evidence": [
+            "draft",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 5,
+          "name": "Eren's Fantasy Football Team",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/SmackTalk-LeoEspinosa/u_mad_bro-09.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 16,
+            "name": "Jalapeno Kittle Chips",
+            "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+          },
+          "round": 14,
+          "pickInRound": 3,
+          "overallPick": 159,
+          "keeper": false
+        }
+      ],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2023-12-20T10:11:26.760000+00:00",
+          "timestampKind": "processed",
+          "week": 16,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 5,
+              "name": "Eren's Fantasy Football Team",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/SmackTalk-LeoEspinosa/u_mad_bro-09.svg"
+            }
+          ]
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2023-11-12T15:29:31.486000+00:00",
+          "timestampKind": "proposed",
+          "week": 10,
+          "fromTeams": [
+            {
+              "teamId": 16,
+              "name": "Jalapeno Kittle Chips",
+              "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+            }
+          ],
+          "toTeams": []
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2022,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 153.0,
+        "average": 9.56,
+        "high": {
+          "season": 2022,
+          "week": 3,
+          "points": 17.0
+        },
+        "starts": 15,
+        "starterPoints": 140.0
+      },
+      "weeks": [
+        {
+          "season": 2022,
+          "week": 1,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Beans Greens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StadiumFoods-ESPN/stadium-foods_tacos.svg"
+              },
+              "slot": "D/ST",
+              "points": 5.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "DET"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 2,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "MIN",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 3,
+          "status": "final",
+          "points": 17.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "D/ST",
+              "points": 17.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 4,
+          "status": "final",
+          "points": 17.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "D/ST",
+              "points": 17.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 5,
+          "status": "final",
+          "points": 3.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "D/ST",
+              "points": 3.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "ARI"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 6,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "D/ST",
+              "points": 7.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 7,
+          "status": "final",
+          "points": null,
+          "nflTeam": "PHI",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "PHI",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 8,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "D/ST",
+              "points": 13.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 9,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "HOU",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "D/ST",
+              "points": 8.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "HOU"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 10,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "D/ST",
+              "points": 7.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 11,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "D/ST",
+              "points": 9.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "IND"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 12,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "D/ST",
+              "points": 6.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "GB"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 13,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "D/ST",
+              "points": 11.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "TEN"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 14,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "D/ST",
+              "points": 9.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "NYG"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 15,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "D/ST",
+              "points": 10.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 16,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "D/ST",
+              "points": 8.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 17,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Its Bigger Than Black or White✊",
+                "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+              },
+              "slot": "D/ST",
+              "points": 10.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "NO"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Beans Greens",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StadiumFoods-ESPN/stadium-foods_tacos.svg"
+          },
+          "weeks": [
+            1
+          ],
+          "evidence": [
+            "draft",
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
+            "teamId": 6,
+            "name": "Its Bigger Than Black or White✊",
+            "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+          },
+          "weeks": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 6,
+          "name": "Its Bigger Than Black or White✊",
+          "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Beans Greens",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StadiumFoods-ESPN/stadium-foods_tacos.svg"
+          },
+          "round": 14,
+          "pickInRound": 5,
+          "overallPick": 187,
+          "keeper": false
+        }
+      ],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2022-09-24T19:55:29.480000+00:00",
+          "timestampKind": "proposed",
+          "week": 3,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 6,
+              "name": "Its Bigger Than Black or White✊",
+              "logo": "https://pbs.twimg.com/profile_images/1082525214238371840/lxyN1vAZ_400x400.jpg"
+            }
+          ]
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2022-09-14T16:27:58.742000+00:00",
+          "timestampKind": "proposed",
+          "week": 2,
+          "fromTeams": [
+            {
+              "teamId": 1,
+              "name": "Beans Greens",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StadiumFoods-ESPN/stadium-foods_tacos.svg"
+            }
+          ],
+          "toTeams": []
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2021,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 108.0,
+        "average": 6.75,
+        "high": {
+          "season": 2021,
+          "week": 8,
+          "points": 20.0
+        },
+        "starts": 3,
+        "starterPoints": 30.0
+      },
+      "weeks": [
+        {
+          "season": 2021,
+          "week": 1,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "ATL",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 2,
+          "status": "final",
+          "points": 1.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "SF",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 3,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "DAL",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 4,
+          "status": "final",
+          "points": -5.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "KC",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 5,
+          "status": "final",
+          "points": 14.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "CAR",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 6,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "TB",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 7,
+          "status": "final",
+          "points": -2.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "LV",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 8,
+          "status": "final",
+          "points": 20.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "DET",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 9,
+          "status": "final",
+          "points": -3.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "LAC",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 10,
+          "status": "final",
+          "points": 14.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "DEN",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 11,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "NO",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 12,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "NYG",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 13,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Light Work",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "D/ST",
+              "points": 6.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 15,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "WSH",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 16,
+          "status": "final",
+          "points": 18.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 9,
+                "name": "Turkey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+              },
+              "slot": "D/ST",
+              "points": 18.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "NYG"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 17,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Michigander at these Nuts",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/CreepShow-ToddDetwiler/CreepShow-01.svg"
+              },
+              "slot": "D/ST",
+              "points": 6.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "WSH"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Light Work",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+          },
+          "weeks": [
+            13
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Michigander at these Nuts",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/CreepShow-ToddDetwiler/CreepShow-01.svg"
+          },
+          "weeks": [
+            17
+          ],
+          "evidence": [
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
+            "teamId": 9,
+            "name": "Turkey Eren",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+          },
+          "weeks": [
+            16
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 3,
+          "name": "Michigander at these Nuts",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/CreepShow-ToddDetwiler/CreepShow-01.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2021-12-31T10:09:07.182000+00:00",
+          "timestampKind": "proposed",
+          "week": 17,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 3,
+              "name": "Michigander at these Nuts",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/CreepShow-ToddDetwiler/CreepShow-01.svg"
+            }
+          ]
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2021-12-29T22:39:18.708000+00:00",
+          "timestampKind": "proposed",
+          "week": 17,
+          "fromTeams": [
+            {
+              "teamId": 9,
+              "name": "Turkey Eren",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2021-12-25T22:03:02.556000+00:00",
+          "timestampKind": "proposed",
+          "week": 16,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 9,
+              "name": "Turkey Eren",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-15.svg"
+            }
+          ]
+        },
+        {
+          "type": "waiver_add",
+          "timestamp": "2021-12-08T10:00:40.068000+00:00",
+          "timestampKind": "processed",
+          "week": 14,
+          "fromTeams": [
+            {
+              "teamId": 2,
+              "name": "Light Work",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "waiver_add",
+          "timestamp": "2021-12-01T09:05:52.542000+00:00",
+          "timestampKind": "processed",
+          "week": 13,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 2,
+              "name": "Light Work",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 83,
+    "points": 599.0,
+    "average": 7.22,
+    "high": {
+      "season": 2021,
+      "week": 8,
+      "points": 20.0
+    },
+    "starts": 40,
+    "starterPoints": 351.0
+  }
+}

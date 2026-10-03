@@ -1,0 +1,424 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4428850,
+    "entityType": "player",
+    "name": "Dontayvion Wicks",
+    "position": "WR",
+    "positionGroup": "WR",
+    "nflTeam": "PHI",
+    "jerseyNumber": "13",
+    "heightInches": 73,
+    "weightPounds": 206,
+    "birthDate": "2001-06-16",
+    "college": "Virginia",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/v1lt8kpvkn0qw5elyaoz",
+    "rookieSeason": 2023,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2023,
+      "round": 5,
+      "overallPick": 159,
+      "team": "GB"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 32.9,
+        "average": 10.97,
+        "high": {
+          "season": 2026,
+          "week": 1,
+          "points": 15.3
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 15.3,
+          "nflTeam": "PHI",
+          "nflOpponent": "WSH",
+          "rosters": []
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 12.4,
+          "nflTeam": "PHI",
+          "nflOpponent": "TEN",
+          "rosters": []
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 5.2,
+          "nflTeam": "PHI",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Good Christians Hate Sinners",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 5.2,
+              "nflTeam": "PHI",
+              "nflOpponent": "CHI"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Good Christians Hate Sinners",
+            "logo": null
+          },
+          "weeks": [
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 3,
+          "name": "Good Christians Hate Sinners",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2026-09-27T16:47:58.236000+00:00",
+          "timestampKind": "proposed",
+          "week": 3,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 3,
+              "name": "Good Christians Hate Sinners",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2024,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 100.6,
+        "average": 6.29,
+        "high": {
+          "season": 2024,
+          "week": 4,
+          "points": 24.8
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2024,
+          "week": 1,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "GB",
+          "nflOpponent": "PHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "GB",
+              "nflOpponent": "PHI"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 2,
+          "status": "final",
+          "points": 11.6,
+          "nflTeam": "GB",
+          "nflOpponent": "IND",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 3,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "GB",
+          "nflOpponent": "TEN",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 4,
+          "status": "final",
+          "points": 24.8,
+          "nflTeam": "GB",
+          "nflOpponent": "MIN",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 5,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "GB",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "Bosh Champ",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/DIS_Avengers_EndGame/DIS_Avengers_EndGame_Rocket.svg"
+              },
+              "slot": "BE",
+              "points": 4.0,
+              "nflTeam": "GB",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 6,
+          "status": "final",
+          "points": 1.9,
+          "nflTeam": "GB",
+          "nflOpponent": "ARI",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 7,
+          "status": "final",
+          "points": 13.8,
+          "nflTeam": "GB",
+          "nflOpponent": "HOU",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 8,
+          "status": "final",
+          "points": 3.1,
+          "nflTeam": "GB",
+          "nflOpponent": "JAX",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 9,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "GB",
+          "nflOpponent": "DET",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 11,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "GB",
+          "nflOpponent": "CHI",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 12,
+          "status": "final",
+          "points": 3.5,
+          "nflTeam": "GB",
+          "nflOpponent": "SF",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 13,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "GB",
+          "nflOpponent": "MIA",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 14,
+          "status": "final",
+          "points": 8.9,
+          "nflTeam": "GB",
+          "nflOpponent": "DET",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 15,
+          "status": "final",
+          "points": 3.4,
+          "nflTeam": "GB",
+          "nflOpponent": "SEA",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 16,
+          "status": "final",
+          "points": 10.3,
+          "nflTeam": "GB",
+          "nflOpponent": "NO",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "status": "final",
+          "points": 8.3,
+          "nflTeam": "GB",
+          "nflOpponent": "MIN",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Double Kupp",
+            "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+          },
+          "weeks": [
+            1
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
+            "teamId": 5,
+            "name": "Bosh Champ",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/DIS_Avengers_EndGame/DIS_Avengers_EndGame_Rocket.svg"
+          },
+          "weeks": [
+            5
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-10-09T23:46:18.357000+00:00",
+          "timestampKind": "proposed",
+          "week": 6,
+          "fromTeams": [
+            {
+              "teamId": 5,
+              "name": "Bosh Champ",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/core/DIS_Avengers_EndGame/DIS_Avengers_EndGame_Rocket.svg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-10-06T16:50:58.410000+00:00",
+          "timestampKind": "proposed",
+          "week": 5,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 5,
+              "name": "Bosh Champ",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/core/DIS_Avengers_EndGame/DIS_Avengers_EndGame_Rocket.svg"
+            }
+          ]
+        },
+        {
+          "type": "waiver_add",
+          "timestamp": "2024-09-11T07:17:08.982000+00:00",
+          "timestampKind": "processed",
+          "week": 2,
+          "fromTeams": [
+            {
+              "teamId": 3,
+              "name": "Double Kupp",
+              "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-09-03T22:19:22.005000+00:00",
+          "timestampKind": "proposed",
+          "week": 1,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 3,
+              "name": "Double Kupp",
+              "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 19,
+    "points": 133.5,
+    "average": 7.03,
+    "high": {
+      "season": 2024,
+      "week": 4,
+      "points": 24.8
+    },
+    "starts": 0,
+    "starterPoints": null
+  }
+}

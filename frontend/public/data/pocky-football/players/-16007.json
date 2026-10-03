@@ -1,0 +1,1857 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": -16007,
+    "entityType": "team_defense",
+    "name": "Broncos D/ST",
+    "position": "D/ST",
+    "nflTeam": "DEN",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png"
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 20.0,
+        "average": 6.67,
+        "high": {
+          "season": 2026,
+          "week": 2,
+          "points": 9.0
+        },
+        "starts": 2,
+        "starterPoints": 18.0
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 2.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 9.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 9.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "LAR"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "LOVE MEEEE",
+            "logo": null
+          },
+          "weeks": [
+            1,
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "draft",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 6,
+          "name": "LOVE MEEEE",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "LOVE MEEEE",
+            "logo": null
+          },
+          "round": 14,
+          "pickInRound": 10,
+          "overallPick": 140,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2025,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 124.0,
+        "average": 7.75,
+        "high": {
+          "season": 2025,
+          "week": 6,
+          "points": 17.0
+        },
+        "starts": 15,
+        "starterPoints": 118.0
+      },
+      "weeks": [
+        {
+          "season": 2025,
+          "week": 1,
+          "status": "final",
+          "points": 16.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 16.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "TEN"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 2,
+          "status": "final",
+          "points": -5.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": -5.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "IND"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 3,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 8.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "LAC"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 4,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "CIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 10.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "CIN"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 5,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "PHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 7.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "PHI"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 6,
+          "status": "final",
+          "points": 17.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 17.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 7,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 4.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "NYG"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 8,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 6.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 9,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "HOU",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 7.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "HOU"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 10,
+          "status": "final",
+          "points": 16.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "LV",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 16.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "LV"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 11,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 7.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 12,
+          "status": "final",
+          "points": null,
+          "nflTeam": "DEN",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "DEN",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 13,
+          "status": "final",
+          "points": 1.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 1.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 14,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "LV",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 13.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "LV"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 6.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "GB"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 4.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "if u got me get rid of me",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 7.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "KC"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "if u got me get rid of me",
+            "logo": null
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 6,
+          "name": "if u got me get rid of me",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "if u got me get rid of me",
+            "logo": null
+          },
+          "round": 13,
+          "pickInRound": 3,
+          "overallPick": 123,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2024,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 151.0,
+        "average": 9.44,
+        "high": {
+          "season": 2024,
+          "week": 7,
+          "points": 21.0
+        },
+        "starts": 12,
+        "starterPoints": 106.0
+      },
+      "weeks": [
+        {
+          "season": 2024,
+          "week": 1,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "SEA",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 2,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "PIT",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 3,
+          "status": "final",
+          "points": 16.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "TB",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 4,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "NYJ",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 5,
+          "status": "final",
+          "points": 15.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "LV",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Slim Pickens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "D/ST",
+              "points": 15.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "LV"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 6,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Slim Pickens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "D/ST",
+              "points": 2.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "LAC"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 7,
+          "status": "final",
+          "points": 21.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Slim Pickens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "D/ST",
+              "points": 21.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "NO"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 8,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "CAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Slim Pickens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "D/ST",
+              "points": 9.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "CAR"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 9,
+          "status": "final",
+          "points": -3.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Slim Pickens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "D/ST",
+              "points": -3.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 10,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Slim Pickens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "D/ST",
+              "points": 5.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 11,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "ATL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Slim Pickens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "D/ST",
+              "points": 12.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "ATL"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 12,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "LV",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Slim Pickens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "D/ST",
+              "points": 8.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "LV"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 13,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "CLE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Slim Pickens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "D/ST",
+              "points": 13.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "CLE"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 14,
+          "status": "final",
+          "points": null,
+          "nflTeam": "DEN",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Slim Pickens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "DEN",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 15,
+          "status": "final",
+          "points": 19.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Slim Pickens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "D/ST",
+              "points": 19.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "IND"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 16,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Slim Pickens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "D/ST",
+              "points": 2.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "LAC"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "status": "final",
+          "points": 3.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "CIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Slim Pickens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "D/ST",
+              "points": 3.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "CIN"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Slim Pickens",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+          },
+          "weeks": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 2,
+          "name": "Slim Pickens",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2024-10-02T07:02:01.698000+00:00",
+          "timestampKind": "processed",
+          "week": 5,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 2,
+              "name": "Slim Pickens",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2022,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 99.0,
+        "average": 6.19,
+        "high": {
+          "season": 2022,
+          "week": 3,
+          "points": 17.0
+        },
+        "starts": 8,
+        "starterPoints": 63.0
+      },
+      "weeks": [
+        {
+          "season": 2022,
+          "week": 1,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "SEA",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 2,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "HOU",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Beans Greens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StadiumFoods-ESPN/stadium-foods_tacos.svg"
+              },
+              "slot": "D/ST",
+              "points": 8.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "HOU"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 3,
+          "status": "final",
+          "points": 17.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "SF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Beans Greens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StadiumFoods-ESPN/stadium-foods_tacos.svg"
+              },
+              "slot": "D/ST",
+              "points": 17.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "SF"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 4,
+          "status": "final",
+          "points": 1.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "LV",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 5,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "90%ofGamblersQu itbeforehitting",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "D/ST",
+              "points": 13.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "IND"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 6,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "90%ofGamblersQu itbeforehitting",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "BE",
+              "points": 6.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "LAC"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 7,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "90%ofGamblersQu itbeforehitting",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "D/ST",
+              "points": 6.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 8,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "90%ofGamblersQu itbeforehitting",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "D/ST",
+              "points": 7.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 9,
+          "status": "final",
+          "points": null,
+          "nflTeam": "DEN",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "90%ofGamblersQu itbeforehitting",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "DEN",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 10,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "90%ofGamblersQu itbeforehitting",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "D/ST",
+              "points": 4.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "TEN"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 11,
+          "status": "final",
+          "points": -2.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "LV",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "90%ofGamblersQu itbeforehitting",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "BE",
+              "points": -2.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "LV"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 12,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "CAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "90%ofGamblersQu itbeforehitting",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "BE",
+              "points": 2.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "CAR"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 13,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "90%ofGamblersQu itbeforehitting",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "BE",
+              "points": 13.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 14,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "90%ofGamblersQu itbeforehitting",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "BE",
+              "points": 4.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 15,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "90%ofGamblersQu itbeforehitting",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "D/ST",
+              "points": 12.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "ARI"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 16,
+          "status": "final",
+          "points": -4.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "90%ofGamblersQu itbeforehitting",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "D/ST",
+              "points": -4.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 17,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "90%ofGamblersQu itbeforehitting",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "BE",
+              "points": 5.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "KC"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Beans Greens",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StadiumFoods-ESPN/stadium-foods_tacos.svg"
+          },
+          "weeks": [
+            2,
+            3
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
+            "teamId": 7,
+            "name": "90%ofGamblersQu itbeforehitting",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+          },
+          "weeks": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 7,
+          "name": "90%ofGamblersQu itbeforehitting",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2022-10-05T15:39:04.252000+00:00",
+          "timestampKind": "proposed",
+          "week": 5,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 7,
+              "name": "90%ofGamblersQu itbeforehitting",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+            }
+          ]
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2022-09-29T21:17:08.136000+00:00",
+          "timestampKind": "proposed",
+          "week": 4,
+          "fromTeams": [
+            {
+              "teamId": 1,
+              "name": "Beans Greens",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StadiumFoods-ESPN/stadium-foods_tacos.svg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2022-09-14T16:27:58.742000+00:00",
+          "timestampKind": "proposed",
+          "week": 2,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 1,
+              "name": "Beans Greens",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StadiumFoods-ESPN/stadium-foods_tacos.svg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2021,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 110.0,
+        "average": 6.88,
+        "high": {
+          "season": 2021,
+          "week": 3,
+          "points": 17.0
+        },
+        "starts": 16,
+        "starterPoints": 110.0
+      },
+      "weeks": [
+        {
+          "season": 2021,
+          "week": 1,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "D/ST",
+              "points": 7.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "NYG"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 2,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "D/ST",
+              "points": 11.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 3,
+          "status": "final",
+          "points": 17.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "D/ST",
+              "points": 17.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 4,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "D/ST",
+              "points": 0.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 5,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "D/ST",
+              "points": 2.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 6,
+          "status": "final",
+          "points": -2.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "LV",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "D/ST",
+              "points": -2.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "LV"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 7,
+          "status": "final",
+          "points": 3.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "CLE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "D/ST",
+              "points": 3.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "CLE"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 8,
+          "status": "final",
+          "points": 16.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "D/ST",
+              "points": 16.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 9,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "D/ST",
+              "points": 9.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 10,
+          "status": "final",
+          "points": 3.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "PHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "D/ST",
+              "points": 3.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "PHI"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 11,
+          "status": "final",
+          "points": null,
+          "nflTeam": "DEN",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "D/ST",
+              "points": null,
+              "nflTeam": "DEN",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 12,
+          "status": "final",
+          "points": 15.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "D/ST",
+              "points": 15.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "LAC"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 13,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "D/ST",
+              "points": 6.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 14,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "D/ST",
+              "points": 9.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "DET"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 15,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "CIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "D/ST",
+              "points": 6.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "CIN"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 16,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "LV",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "D/ST",
+              "points": 9.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "LV"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 17,
+          "status": "final",
+          "points": -1.0,
+          "nflTeam": "DEN",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "D/ST",
+              "points": -1.0,
+              "nflTeam": "DEN",
+              "nflOpponent": "LAC"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Amazon Rockets",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 1,
+          "name": "Amazon Rockets",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Amazon Rockets",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+          },
+          "round": 15,
+          "pickInRound": 4,
+          "overallPick": 144,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 67,
+    "points": 504.0,
+    "average": 7.52,
+    "high": {
+      "season": 2024,
+      "week": 7,
+      "points": 21.0
+    },
+    "starts": 53,
+    "starterPoints": 415.0
+  }
+}

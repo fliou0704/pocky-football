@@ -1,0 +1,398 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 3128444,
+    "entityType": "player",
+    "name": "Matthew Wright",
+    "position": "K",
+    "positionGroup": "SPEC",
+    "nflTeam": "BUF",
+    "jerseyNumber": null,
+    "heightInches": 71,
+    "weightPounds": 174,
+    "birthDate": "1996-03-22",
+    "college": "UCF",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/htrs1hrrfok88fllrtex",
+    "rookieSeason": 2020,
+    "lastSeason": 2025,
+    "nflDraft": {
+      "year": null,
+      "round": null,
+      "overallPick": null,
+      "team": null
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2024,
+      "complete": true,
+      "summary": {
+        "weeks": 7,
+        "points": 49.0,
+        "average": 7.0,
+        "high": {
+          "season": 2024,
+          "week": 14,
+          "points": 16.0
+        },
+        "starts": 3,
+        "starterPoints": 36.0
+      },
+      "weeks": [
+        {
+          "season": 2024,
+          "week": 6,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "SF",
+          "nflOpponent": "SEA",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 7,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "KC",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 8,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "DAL",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 10,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "TB",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 13,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "KC",
+          "nflOpponent": "LV",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Tee Time",
+                "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+              },
+              "slot": "K",
+              "points": 13.0,
+              "nflTeam": "KC",
+              "nflOpponent": "LV"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 14,
+          "status": "final",
+          "points": 16.0,
+          "nflTeam": "KC",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Tee Time",
+                "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+              },
+              "slot": "K",
+              "points": 16.0,
+              "nflTeam": "KC",
+              "nflOpponent": "LAC"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 15,
+          "status": "final",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Tee Time",
+                "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+              },
+              "slot": "K",
+              "points": null,
+              "nflTeam": "CAR",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 16,
+          "status": "final",
+          "points": null,
+          "nflTeam": "CAR",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Tee Time",
+                "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+              },
+              "slot": "K",
+              "points": null,
+              "nflTeam": "CAR",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "TEN",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Tee Time",
+                "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+              },
+              "slot": "K",
+              "points": 7.0,
+              "nflTeam": "TEN",
+              "nflOpponent": "JAX"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "Tee Time",
+            "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+          },
+          "weeks": [
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 6,
+          "name": "Tee Time",
+          "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-11-28T17:39:00.891000+00:00",
+          "timestampKind": "proposed",
+          "week": 13,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 6,
+              "name": "Tee Time",
+              "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2022,
+      "complete": true,
+      "summary": {
+        "weeks": 9,
+        "points": 67.0,
+        "average": 7.44,
+        "high": {
+          "season": 2022,
+          "week": 13,
+          "points": 16.0
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2022,
+          "week": 4,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "KC",
+          "nflOpponent": "TB",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 5,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "KC",
+          "nflOpponent": "LV",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 6,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "KC",
+          "nflOpponent": "BUF",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 7,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "KC",
+          "nflOpponent": "SF",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 9,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "KC",
+          "nflOpponent": "TEN",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 10,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "PIT",
+          "nflOpponent": "NO",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 11,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "PIT",
+          "nflOpponent": "CIN",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 12,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "PIT",
+          "nflOpponent": "IND",
+          "rosters": []
+        },
+        {
+          "season": 2022,
+          "week": 13,
+          "status": "final",
+          "points": 16.0,
+          "nflTeam": "PIT",
+          "nflOpponent": "ATL",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 15,
+            "name": "Team Liou",
+            "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/20.svg"
+          },
+          "weeks": [],
+          "evidence": [
+            "transaction"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2022-12-11T17:53:47.502000+00:00",
+          "timestampKind": "proposed",
+          "week": 14,
+          "fromTeams": [
+            {
+              "teamId": 15,
+              "name": "Team Liou",
+              "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/20.svg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "waiver_add",
+          "timestamp": "2022-12-07T08:53:50.786000+00:00",
+          "timestampKind": "processed",
+          "week": 14,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 15,
+              "name": "Team Liou",
+              "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/20.svg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 16,
+    "points": 116.0,
+    "average": 7.25,
+    "high": {
+      "season": 2022,
+      "week": 13,
+      "points": 16.0
+    },
+    "starts": 3,
+    "starterPoints": 36.0
+  }
+}

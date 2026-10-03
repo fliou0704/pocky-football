@@ -1,0 +1,2336 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 3040151,
+    "entityType": "player",
+    "name": "George Kittle",
+    "position": "TE",
+    "positionGroup": "TE",
+    "nflTeam": "SF",
+    "jerseyNumber": "85",
+    "heightInches": 76,
+    "weightPounds": 250,
+    "birthDate": "1993-10-09",
+    "college": "Iowa",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vkicdglglkyukgyxtmpx",
+    "rookieSeason": 2017,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2017,
+      "round": 5,
+      "overallPick": 146,
+      "team": "SF"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 47.4,
+        "average": 15.8,
+        "high": {
+          "season": 2026,
+          "week": 3,
+          "points": 26.2
+        },
+        "starts": 3,
+        "starterPoints": 47.4
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 3.2,
+          "nflTeam": "SF",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "FLEX",
+              "points": 3.2,
+              "nflTeam": "SF",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 18.0,
+          "nflTeam": "SF",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "FLEX",
+              "points": 18.0,
+              "nflTeam": "SF",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 26.2,
+          "nflTeam": "SF",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "FLEX",
+              "points": 26.2,
+              "nflTeam": "SF",
+              "nflOpponent": "ARI"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "LOVE MEEEE",
+            "logo": null
+          },
+          "weeks": [
+            1,
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "draft",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 6,
+          "name": "LOVE MEEEE",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 6,
+            "name": "LOVE MEEEE",
+            "logo": null
+          },
+          "round": 8,
+          "pickInRound": 10,
+          "overallPick": 80,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2025,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 153.6,
+        "average": 9.6,
+        "high": {
+          "season": 2025,
+          "week": 11,
+          "points": 24.7
+        },
+        "starts": 5,
+        "starterPoints": 82.9
+      },
+      "weeks": [
+        {
+          "season": 2025,
+          "week": 1,
+          "status": "final",
+          "points": 12.5,
+          "nflTeam": "SF",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "FLEX",
+              "points": 12.5,
+              "nflTeam": "SF",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 2,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "IR",
+              "points": 0.0,
+              "nflTeam": "SF",
+              "nflOpponent": "NO"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 3,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "IR",
+              "points": 0.0,
+              "nflTeam": "SF",
+              "nflOpponent": "ARI"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 4,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "IR",
+              "points": 0.0,
+              "nflTeam": "SF",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 5,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "IR",
+              "points": 0.0,
+              "nflTeam": "SF",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 6,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "TB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "IR",
+              "points": 0.0,
+              "nflTeam": "SF",
+              "nflOpponent": "TB"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 7,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "ATL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "SF",
+              "nflOpponent": "ATL"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 8,
+          "status": "final",
+          "points": 14.3,
+          "nflTeam": "SF",
+          "nflOpponent": "HOU",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "TE",
+              "points": 14.3,
+              "nflTeam": "SF",
+              "nflOpponent": "HOU"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 9,
+          "status": "final",
+          "points": 6.9,
+          "nflTeam": "SF",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "TE",
+              "points": 6.9,
+              "nflTeam": "SF",
+              "nflOpponent": "NYG"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 10,
+          "status": "final",
+          "points": 23.4,
+          "nflTeam": "SF",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 23.4,
+              "nflTeam": "SF",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 11,
+          "status": "final",
+          "points": 24.7,
+          "nflTeam": "SF",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "FLEX",
+              "points": 24.7,
+              "nflTeam": "SF",
+              "nflOpponent": "ARI"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 12,
+          "status": "final",
+          "points": 13.8,
+          "nflTeam": "SF",
+          "nflOpponent": "CAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 13.8,
+              "nflTeam": "SF",
+              "nflOpponent": "CAR"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 13,
+          "status": "final",
+          "points": 10.7,
+          "nflTeam": "SF",
+          "nflOpponent": "CLE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 10.7,
+              "nflTeam": "SF",
+              "nflOpponent": "CLE"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 14,
+          "status": "final",
+          "points": null,
+          "nflTeam": "SF",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "SF",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "status": "final",
+          "points": 22.8,
+          "nflTeam": "SF",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 22.8,
+              "nflTeam": "SF",
+              "nflOpponent": "TEN"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "status": "final",
+          "points": 24.5,
+          "nflTeam": "SF",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "TE",
+              "points": 24.5,
+              "nflTeam": "SF",
+              "nflOpponent": "IND"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Bowers' Castle",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "SF",
+              "nflOpponent": "CHI"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Bowers' Castle",
+            "logo": null
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 3,
+          "name": "Bowers' Castle",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Bowers' Castle",
+            "logo": null
+          },
+          "round": 5,
+          "pickInRound": 1,
+          "overallPick": 41,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2024,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 231.9,
+        "average": 14.49,
+        "high": {
+          "season": 2024,
+          "week": 8,
+          "points": 24.8
+        },
+        "starts": 14,
+        "starterPoints": 231.9
+      },
+      "weeks": [
+        {
+          "season": 2024,
+          "week": 1,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "SF",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "TE",
+              "points": 8.0,
+              "nflTeam": "SF",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 2,
+          "status": "final",
+          "points": 20.6,
+          "nflTeam": "SF",
+          "nflOpponent": "MIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "TE",
+              "points": 20.6,
+              "nflTeam": "SF",
+              "nflOpponent": "MIN"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 3,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "SF",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 4,
+          "status": "final",
+          "points": 14.5,
+          "nflTeam": "SF",
+          "nflOpponent": "NE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "TE",
+              "points": 14.5,
+              "nflTeam": "SF",
+              "nflOpponent": "NE"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 5,
+          "status": "final",
+          "points": 20.4,
+          "nflTeam": "SF",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "TE",
+              "points": 20.4,
+              "nflTeam": "SF",
+              "nflOpponent": "ARI"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 6,
+          "status": "final",
+          "points": 22.8,
+          "nflTeam": "SF",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "TE",
+              "points": 22.8,
+              "nflTeam": "SF",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 7,
+          "status": "final",
+          "points": 15.2,
+          "nflTeam": "SF",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "TE",
+              "points": 15.2,
+              "nflTeam": "SF",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 8,
+          "status": "final",
+          "points": 24.8,
+          "nflTeam": "SF",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "TE",
+              "points": 24.8,
+              "nflTeam": "SF",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 9,
+          "status": "final",
+          "points": null,
+          "nflTeam": "SF",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "SF",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 10,
+          "status": "final",
+          "points": 14.7,
+          "nflTeam": "SF",
+          "nflOpponent": "TB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "TE",
+              "points": 14.7,
+              "nflTeam": "SF",
+              "nflOpponent": "TB"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 11,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "IR",
+              "points": 0.0,
+              "nflTeam": "SF",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 12,
+          "status": "final",
+          "points": 20.2,
+          "nflTeam": "SF",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "TE",
+              "points": 20.2,
+              "nflTeam": "SF",
+              "nflOpponent": "GB"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 13,
+          "status": "final",
+          "points": 1.7,
+          "nflTeam": "SF",
+          "nflOpponent": "BUF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "TE",
+              "points": 1.7,
+              "nflTeam": "SF",
+              "nflOpponent": "BUF"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 14,
+          "status": "final",
+          "points": 21.1,
+          "nflTeam": "SF",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "TE",
+              "points": 21.1,
+              "nflTeam": "SF",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 15,
+          "status": "final",
+          "points": 10.1,
+          "nflTeam": "SF",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "TE",
+              "points": 10.1,
+              "nflTeam": "SF",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 16,
+          "status": "final",
+          "points": 18.6,
+          "nflTeam": "SF",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "TE",
+              "points": 18.6,
+              "nflTeam": "SF",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "status": "final",
+          "points": 19.2,
+          "nflTeam": "SF",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "TE",
+              "points": 19.2,
+              "nflTeam": "SF",
+              "nflOpponent": "DET"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Double Kupp",
+            "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 3,
+          "name": "Double Kupp",
+          "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Double Kupp",
+            "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+          },
+          "round": 6,
+          "pickInRound": 9,
+          "overallPick": 59,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2023,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 203.2,
+        "average": 12.7,
+        "high": {
+          "season": 2023,
+          "week": 5,
+          "points": 27.7
+        },
+        "starts": 15,
+        "starterPoints": 187.2
+      },
+      "weeks": [
+        {
+          "season": 2023,
+          "week": 1,
+          "status": "final",
+          "points": 4.9,
+          "nflTeam": "SF",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "TE",
+              "points": 4.9,
+              "nflTeam": "SF",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 2,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "SF",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "TE",
+              "points": 6.0,
+              "nflTeam": "SF",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 3,
+          "status": "final",
+          "points": 16.0,
+          "nflTeam": "SF",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "BE",
+              "points": 16.0,
+              "nflTeam": "SF",
+              "nflOpponent": "NYG"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 4,
+          "status": "final",
+          "points": 1.9,
+          "nflTeam": "SF",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "TE",
+              "points": 1.9,
+              "nflTeam": "SF",
+              "nflOpponent": "ARI"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 5,
+          "status": "final",
+          "points": 27.7,
+          "nflTeam": "SF",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "TE",
+              "points": 27.7,
+              "nflTeam": "SF",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 6,
+          "status": "final",
+          "points": 1.1,
+          "nflTeam": "SF",
+          "nflOpponent": "CLE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "TE",
+              "points": 1.1,
+              "nflTeam": "SF",
+              "nflOpponent": "CLE"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 7,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "SF",
+          "nflOpponent": "MIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "TE",
+              "points": 13.0,
+              "nflTeam": "SF",
+              "nflOpponent": "MIN"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 8,
+          "status": "final",
+          "points": 23.9,
+          "nflTeam": "SF",
+          "nflOpponent": "CIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "TE",
+              "points": 23.9,
+              "nflTeam": "SF",
+              "nflOpponent": "CIN"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 9,
+          "status": "final",
+          "points": null,
+          "nflTeam": "SF",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "TE",
+              "points": null,
+              "nflTeam": "SF",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 10,
+          "status": "final",
+          "points": 20.6,
+          "nflTeam": "SF",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "TE",
+              "points": 20.6,
+              "nflTeam": "SF",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 11,
+          "status": "final",
+          "points": 22.9,
+          "nflTeam": "SF",
+          "nflOpponent": "TB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "TE",
+              "points": 22.9,
+              "nflTeam": "SF",
+              "nflOpponent": "TB"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 12,
+          "status": "final",
+          "points": 4.9,
+          "nflTeam": "SF",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "TE",
+              "points": 4.9,
+              "nflTeam": "SF",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 13,
+          "status": "final",
+          "points": 10.8,
+          "nflTeam": "SF",
+          "nflOpponent": "PHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "TE",
+              "points": 10.8,
+              "nflTeam": "SF",
+              "nflOpponent": "PHI"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 14,
+          "status": "final",
+          "points": 16.6,
+          "nflTeam": "SF",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "TE",
+              "points": 16.6,
+              "nflTeam": "SF",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 15,
+          "status": "final",
+          "points": 7.4,
+          "nflTeam": "SF",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "TE",
+              "points": 7.4,
+              "nflTeam": "SF",
+              "nflOpponent": "ARI"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 16,
+          "status": "final",
+          "points": 19.6,
+          "nflTeam": "SF",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "TE",
+              "points": 19.6,
+              "nflTeam": "SF",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 17,
+          "status": "final",
+          "points": 5.9,
+          "nflTeam": "SF",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Jalapeno Kittle Chips",
+                "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+              },
+              "slot": "TE",
+              "points": 5.9,
+              "nflTeam": "SF",
+              "nflOpponent": "WSH"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 16,
+            "name": "Jalapeno Kittle Chips",
+            "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 16,
+          "name": "Jalapeno Kittle Chips",
+          "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 16,
+            "name": "Jalapeno Kittle Chips",
+            "logo": "https://m.media-amazon.com/images/I/81uX2BUTB9L.jpg"
+          },
+          "round": 6,
+          "pickInRound": 3,
+          "overallPick": 63,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2022,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 181.6,
+        "average": 11.35,
+        "high": {
+          "season": 2022,
+          "week": 16,
+          "points": 30.0
+        },
+        "starts": 6,
+        "starterPoints": 87.1
+      },
+      "weeks": [
+        {
+          "season": 2022,
+          "week": 1,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 10,
+                "name": "Dookey  Kong",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "SF",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 2,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 10,
+                "name": "Dookey  Kong",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "SF",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 3,
+          "status": "final",
+          "points": 6.8,
+          "nflTeam": "SF",
+          "nflOpponent": "DEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 10,
+                "name": "Dookey  Kong",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg"
+              },
+              "slot": "BE",
+              "points": 6.8,
+              "nflTeam": "SF",
+              "nflOpponent": "DEN"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 4,
+          "status": "final",
+          "points": 4.4,
+          "nflTeam": "SF",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 10,
+                "name": "Dookey  Kong",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg"
+              },
+              "slot": "FLEX",
+              "points": 4.4,
+              "nflTeam": "SF",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 5,
+          "status": "final",
+          "points": 7.7,
+          "nflTeam": "SF",
+          "nflOpponent": "CAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 10,
+                "name": "Dookey  Kong",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg"
+              },
+              "slot": "BE",
+              "points": 7.7,
+              "nflTeam": "SF",
+              "nflOpponent": "CAR"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 6,
+          "status": "final",
+          "points": 16.3,
+          "nflTeam": "SF",
+          "nflOpponent": "ATL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 10,
+                "name": "Dookey  Kong",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg"
+              },
+              "slot": "BE",
+              "points": 16.3,
+              "nflTeam": "SF",
+              "nflOpponent": "ATL"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 7,
+          "status": "final",
+          "points": 21.8,
+          "nflTeam": "SF",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 10,
+                "name": "Dookey  Kong",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg"
+              },
+              "slot": "BE",
+              "points": 21.8,
+              "nflTeam": "SF",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 8,
+          "status": "final",
+          "points": 12.9,
+          "nflTeam": "SF",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 10,
+                "name": "Dookey  Kong",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg"
+              },
+              "slot": "FLEX",
+              "points": 12.9,
+              "nflTeam": "SF",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 9,
+          "status": "final",
+          "points": null,
+          "nflTeam": "SF",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 10,
+                "name": "Dookey  Kong",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "SF",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 10,
+          "status": "final",
+          "points": 3.1,
+          "nflTeam": "SF",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 10,
+                "name": "Dookey  Kong",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg"
+              },
+              "slot": "TE",
+              "points": 3.1,
+              "nflTeam": "SF",
+              "nflOpponent": "LAC"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 11,
+          "status": "final",
+          "points": 24.4,
+          "nflTeam": "SF",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 10,
+                "name": "Dookey  Kong",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg"
+              },
+              "slot": "TE",
+              "points": 24.4,
+              "nflTeam": "SF",
+              "nflOpponent": "ARI"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 12,
+          "status": "final",
+          "points": 5.6,
+          "nflTeam": "SF",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 10,
+                "name": "Dookey  Kong",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg"
+              },
+              "slot": "BE",
+              "points": 5.6,
+              "nflTeam": "SF",
+              "nflOpponent": "NO"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 13,
+          "status": "final",
+          "points": 4.2,
+          "nflTeam": "SF",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 10,
+                "name": "Dookey  Kong",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg"
+              },
+              "slot": "BE",
+              "points": 4.2,
+              "nflTeam": "SF",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 14,
+          "status": "final",
+          "points": 6.8,
+          "nflTeam": "SF",
+          "nflOpponent": "TB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 10,
+                "name": "Dookey  Kong",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg"
+              },
+              "slot": "BE",
+              "points": 6.8,
+              "nflTeam": "SF",
+              "nflOpponent": "TB"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 15,
+          "status": "final",
+          "points": 25.3,
+          "nflTeam": "SF",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 10,
+                "name": "Dookey  Kong",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg"
+              },
+              "slot": "BE",
+              "points": 25.3,
+              "nflTeam": "SF",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 16,
+          "status": "final",
+          "points": 30.0,
+          "nflTeam": "SF",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 10,
+                "name": "Dookey  Kong",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg"
+              },
+              "slot": "TE",
+              "points": 30.0,
+              "nflTeam": "SF",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 17,
+          "status": "final",
+          "points": 12.3,
+          "nflTeam": "SF",
+          "nflOpponent": "LV",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 10,
+                "name": "Dookey  Kong",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg"
+              },
+              "slot": "TE",
+              "points": 12.3,
+              "nflTeam": "SF",
+              "nflOpponent": "LV"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 10,
+            "name": "Dookey  Kong",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 10,
+          "name": "Dookey  Kong",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 10,
+            "name": "Dookey  Kong",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg"
+          },
+          "round": 4,
+          "pickInRound": 13,
+          "overallPick": 55,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2021,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 192.0,
+        "average": 12.0,
+        "high": {
+          "season": 2021,
+          "week": 13,
+          "points": 39.6
+        },
+        "starts": 14,
+        "starterPoints": 192.0
+      },
+      "weeks": [
+        {
+          "season": 2021,
+          "week": 1,
+          "status": "final",
+          "points": 11.8,
+          "nflTeam": "SF",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "TE",
+              "points": 11.8,
+              "nflTeam": "SF",
+              "nflOpponent": "DET"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 2,
+          "status": "final",
+          "points": 5.7,
+          "nflTeam": "SF",
+          "nflOpponent": "PHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "TE",
+              "points": 5.7,
+              "nflTeam": "SF",
+              "nflOpponent": "PHI"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 3,
+          "status": "final",
+          "points": 17.1,
+          "nflTeam": "SF",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "TE",
+              "points": 17.1,
+              "nflTeam": "SF",
+              "nflOpponent": "GB"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 4,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "SF",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "TE",
+              "points": 8.0,
+              "nflTeam": "SF",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 5,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "TE",
+              "points": 0.0,
+              "nflTeam": "SF",
+              "nflOpponent": "ARI"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 6,
+          "status": "final",
+          "points": null,
+          "nflTeam": "SF",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "SF",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 7,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "SF",
+              "nflOpponent": "IND"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 8,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "SF",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "IR",
+              "points": 0.0,
+              "nflTeam": "SF",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 9,
+          "status": "final",
+          "points": 20.1,
+          "nflTeam": "SF",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "TE",
+              "points": 20.1,
+              "nflTeam": "SF",
+              "nflOpponent": "ARI"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 10,
+          "status": "final",
+          "points": 16.0,
+          "nflTeam": "SF",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "TE",
+              "points": 16.0,
+              "nflTeam": "SF",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 11,
+          "status": "final",
+          "points": 13.4,
+          "nflTeam": "SF",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "TE",
+              "points": 13.4,
+              "nflTeam": "SF",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 12,
+          "status": "final",
+          "points": 2.3,
+          "nflTeam": "SF",
+          "nflOpponent": "MIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "TE",
+              "points": 2.3,
+              "nflTeam": "SF",
+              "nflOpponent": "MIN"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 13,
+          "status": "final",
+          "points": 39.6,
+          "nflTeam": "SF",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "TE",
+              "points": 39.6,
+              "nflTeam": "SF",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 14,
+          "status": "final",
+          "points": 34.1,
+          "nflTeam": "SF",
+          "nflOpponent": "CIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "TE",
+              "points": 34.1,
+              "nflTeam": "SF",
+              "nflOpponent": "CIN"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 15,
+          "status": "final",
+          "points": 15.3,
+          "nflTeam": "SF",
+          "nflOpponent": "ATL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "TE",
+              "points": 15.3,
+              "nflTeam": "SF",
+              "nflOpponent": "ATL"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 16,
+          "status": "final",
+          "points": 4.1,
+          "nflTeam": "SF",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "TE",
+              "points": 4.1,
+              "nflTeam": "SF",
+              "nflOpponent": "TEN"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 17,
+          "status": "final",
+          "points": 4.5,
+          "nflTeam": "SF",
+          "nflOpponent": "HOU",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Amazon Rockets",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+              },
+              "slot": "TE",
+              "points": 4.5,
+              "nflTeam": "SF",
+              "nflOpponent": "HOU"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Amazon Rockets",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 1,
+          "name": "Amazon Rockets",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Amazon Rockets",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-4.svg"
+          },
+          "round": 3,
+          "pickInRound": 4,
+          "overallPick": 24,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 83,
+    "points": 1009.7,
+    "average": 12.17,
+    "high": {
+      "season": 2021,
+      "week": 13,
+      "points": 39.6
+    },
+    "starts": 57,
+    "starterPoints": 828.5
+  }
+}

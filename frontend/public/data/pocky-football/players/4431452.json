@@ -1,0 +1,827 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4431452,
+    "entityType": "player",
+    "name": "Drake Maye",
+    "position": "QB",
+    "positionGroup": "QB",
+    "nflTeam": "NE",
+    "jerseyNumber": "10",
+    "heightInches": 76,
+    "weightPounds": 225,
+    "birthDate": "2002-08-30",
+    "college": "North Carolina",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/s1nmoon2xnrc3bnyulv4",
+    "rookieSeason": 2024,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2024,
+      "round": 1,
+      "overallPick": 3,
+      "team": "NE"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 21.6,
+        "average": 7.2,
+        "high": {
+          "season": 2026,
+          "week": 1,
+          "points": 9.82
+        },
+        "starts": 2,
+        "starterPoints": 13.58
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 9.82,
+          "nflTeam": "NE",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "QB",
+              "points": 9.82,
+              "nflTeam": "NE",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 8.02,
+          "nflTeam": "NE",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "BE",
+              "points": 8.02,
+              "nflTeam": "NE",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 3.76,
+          "nflTeam": "NE",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "QB",
+              "points": 3.76,
+              "nflTeam": "NE",
+              "nflOpponent": "JAX"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 13,
+            "name": "The Trenches PerryG",
+            "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "draft",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 13,
+          "name": "The Trenches PerryG",
+          "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 13,
+            "name": "The Trenches PerryG",
+            "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+          },
+          "round": 6,
+          "pickInRound": 8,
+          "overallPick": 58,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2025,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 336.22,
+        "average": 21.01,
+        "high": {
+          "season": 2025,
+          "week": 17,
+          "points": 32.44
+        },
+        "starts": 7,
+        "starterPoints": 148.28
+      },
+      "weeks": [
+        {
+          "season": 2025,
+          "week": 1,
+          "status": "final",
+          "points": 15.78,
+          "nflTeam": "NE",
+          "nflOpponent": "LV",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "CMC",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 15.78,
+              "nflTeam": "NE",
+              "nflOpponent": "LV"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 2,
+          "status": "final",
+          "points": 26.3,
+          "nflTeam": "NE",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "CMC",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 26.3,
+              "nflTeam": "NE",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 3,
+          "status": "final",
+          "points": 19.22,
+          "nflTeam": "NE",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "CMC",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 19.22,
+              "nflTeam": "NE",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 4,
+          "status": "final",
+          "points": 23.22,
+          "nflTeam": "NE",
+          "nflOpponent": "CAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "CMC",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 23.22,
+              "nflTeam": "NE",
+              "nflOpponent": "CAR"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 5,
+          "status": "final",
+          "points": 12.12,
+          "nflTeam": "NE",
+          "nflOpponent": "BUF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "CMC",
+                "logo": null
+              },
+              "slot": "QB",
+              "points": 12.12,
+              "nflTeam": "NE",
+              "nflOpponent": "BUF"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 6,
+          "status": "final",
+          "points": 27.24,
+          "nflTeam": "NE",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "CMC",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 27.24,
+              "nflTeam": "NE",
+              "nflOpponent": "NO"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 7,
+          "status": "final",
+          "points": 23.08,
+          "nflTeam": "NE",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "CMC",
+                "logo": null
+              },
+              "slot": "QB",
+              "points": 23.08,
+              "nflTeam": "NE",
+              "nflOpponent": "TEN"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 8,
+          "status": "final",
+          "points": 26.28,
+          "nflTeam": "NE",
+          "nflOpponent": "CLE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "CMC",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 26.28,
+              "nflTeam": "NE",
+              "nflOpponent": "CLE"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 9,
+          "status": "final",
+          "points": 16.36,
+          "nflTeam": "NE",
+          "nflOpponent": "ATL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "CMC",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 16.36,
+              "nflTeam": "NE",
+              "nflOpponent": "ATL"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 10,
+          "status": "final",
+          "points": 18.1,
+          "nflTeam": "NE",
+          "nflOpponent": "TB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "CMC",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 18.1,
+              "nflTeam": "NE",
+              "nflOpponent": "TB"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 11,
+          "status": "final",
+          "points": 15.44,
+          "nflTeam": "NE",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "CMC",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 15.44,
+              "nflTeam": "NE",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 12,
+          "status": "final",
+          "points": 15.96,
+          "nflTeam": "NE",
+          "nflOpponent": "CIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "CMC",
+                "logo": null
+              },
+              "slot": "QB",
+              "points": 15.96,
+              "nflTeam": "NE",
+              "nflOpponent": "CIN"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 13,
+          "status": "final",
+          "points": 20.48,
+          "nflTeam": "NE",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "CMC",
+                "logo": null
+              },
+              "slot": "QB",
+              "points": 20.48,
+              "nflTeam": "NE",
+              "nflOpponent": "NYG"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 14,
+          "status": "final",
+          "points": null,
+          "nflTeam": "NE",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "CMC",
+                "logo": null
+              },
+              "slot": "QB",
+              "points": null,
+              "nflTeam": "NE",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "status": "final",
+          "points": 20.5,
+          "nflTeam": "NE",
+          "nflOpponent": "BUF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "CMC",
+                "logo": null
+              },
+              "slot": "QB",
+              "points": 20.5,
+              "nflTeam": "NE",
+              "nflOpponent": "BUF"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "status": "final",
+          "points": 23.7,
+          "nflTeam": "NE",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "CMC",
+                "logo": null
+              },
+              "slot": "QB",
+              "points": 23.7,
+              "nflTeam": "NE",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "status": "final",
+          "points": 32.44,
+          "nflTeam": "NE",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "CMC",
+                "logo": null
+              },
+              "slot": "QB",
+              "points": 32.44,
+              "nflTeam": "NE",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 16,
+            "name": "CMC",
+            "logo": null
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 16,
+          "name": "CMC",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 16,
+            "name": "CMC",
+            "logo": null
+          },
+          "round": 13,
+          "pickInRound": 5,
+          "overallPick": 125,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2024,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 177.14,
+        "average": 11.07,
+        "high": {
+          "season": 2024,
+          "week": 7,
+          "points": 20.84
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2024,
+          "week": 1,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NE",
+          "nflOpponent": "CIN",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 2,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NE",
+          "nflOpponent": "SEA",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 3,
+          "status": "final",
+          "points": 2.08,
+          "nflTeam": "NE",
+          "nflOpponent": "NYJ",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 4,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NE",
+          "nflOpponent": "SF",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 5,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NE",
+          "nflOpponent": "MIA",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 6,
+          "status": "final",
+          "points": 19.52,
+          "nflTeam": "NE",
+          "nflOpponent": "HOU",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 7,
+          "status": "final",
+          "points": 20.84,
+          "nflTeam": "NE",
+          "nflOpponent": "JAX",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 8,
+          "status": "final",
+          "points": 11.52,
+          "nflTeam": "NE",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Slim Pickens",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+              },
+              "slot": "BE",
+              "points": 11.52,
+              "nflTeam": "NE",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 9,
+          "status": "final",
+          "points": 15.74,
+          "nflTeam": "NE",
+          "nflOpponent": "TEN",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 10,
+          "status": "final",
+          "points": 11.76,
+          "nflTeam": "NE",
+          "nflOpponent": "CHI",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 11,
+          "status": "final",
+          "points": 17.98,
+          "nflTeam": "NE",
+          "nflOpponent": "LAR",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 12,
+          "status": "final",
+          "points": 13.48,
+          "nflTeam": "NE",
+          "nflOpponent": "MIA",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 13,
+          "status": "final",
+          "points": 19.42,
+          "nflTeam": "NE",
+          "nflOpponent": "IND",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 15,
+          "status": "final",
+          "points": 17.48,
+          "nflTeam": "NE",
+          "nflOpponent": "ARI",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 16,
+          "status": "final",
+          "points": 17.44,
+          "nflTeam": "NE",
+          "nflOpponent": "BUF",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "status": "final",
+          "points": 9.88,
+          "nflTeam": "NE",
+          "nflOpponent": "LAC",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Slim Pickens",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+          },
+          "weeks": [
+            8
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-10-30T21:47:59.280000+00:00",
+          "timestampKind": "proposed",
+          "week": 9,
+          "fromTeams": [
+            {
+              "teamId": 2,
+              "name": "Slim Pickens",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "waiver_add",
+          "timestamp": "2024-10-23T07:12:39.991000+00:00",
+          "timestampKind": "processed",
+          "week": 8,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 2,
+              "name": "Slim Pickens",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 35,
+    "points": 534.96,
+    "average": 15.28,
+    "high": {
+      "season": 2025,
+      "week": 17,
+      "points": 32.44
+    },
+    "starts": 9,
+    "starterPoints": 161.86
+  }
+}

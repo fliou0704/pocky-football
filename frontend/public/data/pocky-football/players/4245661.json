@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4245661,
+    "entityType": "player",
+    "name": "Lucas Havrisik",
+    "position": "K",
+    "positionGroup": "SPEC",
+    "nflTeam": "GB",
+    "jerseyNumber": "35",
+    "heightInches": 74,
+    "weightPounds": 188,
+    "birthDate": "1999-09-29",
+    "college": "Arizona",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dpkfsna78iqtafg1fpdm",
+    "rookieSeason": 2022,
+    "lastSeason": 2025,
+    "nflDraft": {
+      "year": null,
+      "round": null,
+      "overallPick": null,
+      "team": null
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2023,
+      "complete": true,
+      "summary": {
+        "weeks": 9,
+        "points": 65.0,
+        "average": 7.22,
+        "high": {
+          "season": 2023,
+          "week": 14,
+          "points": 13.0
+        },
+        "starts": 1,
+        "starterPoints": 2.0
+      },
+      "weeks": [
+        {
+          "season": 2023,
+          "week": 8,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "DAL",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 9,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "GB",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 11,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "SEA",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 12,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "ARI",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 13,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "CLE",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 14,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "BAL",
+          "rosters": []
+        },
+        {
+          "season": 2023,
+          "week": 15,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "BE",
+              "points": 7.0,
+              "nflTeam": "LAR",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 16,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "BE",
+              "points": 11.0,
+              "nflTeam": "LAR",
+              "nflOpponent": "NO"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 17,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "LAR",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Cheese Touch",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "K",
+              "points": 2.0,
+              "nflTeam": "LAR",
+              "nflOpponent": "NYG"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 11,
+            "name": "Cheese Touch",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+          },
+          "weeks": [
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 11,
+          "name": "Cheese Touch",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2023-12-17T20:22:12.237000+00:00",
+          "timestampKind": "proposed",
+          "week": 15,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 11,
+              "name": "Cheese Touch",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 9,
+    "points": 65.0,
+    "average": 7.22,
+    "high": {
+      "season": 2023,
+      "week": 14,
+      "points": 13.0
+    },
+    "starts": 1,
+    "starterPoints": 2.0
+  }
+}

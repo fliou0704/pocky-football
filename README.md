@@ -94,3 +94,17 @@ Weekly lineup detail lives in `<season>/lineups/<week>.json`, shared across pair
 ## Record Book (Stage 2E)
 
 Record Book renders precomputed All-Time rankings and completed-season honors (currently 2021–2025). Team pages include authoritative historical Draft selections. Ranked matchup awards share H2H weekly lineup details; player-season and Best Pickup awards use actual weekly scoring and audited acquisition stints. See [Team and Record Book refinement](TEAM-RECORD-BOOK-REFINEMENT.md) for contracts, tie/filter rules, coverage qualifications and tests, and [historical activity audit](HISTORICAL-ACTIVITY-AUDIT.md) for source validation. The original [Stage 2E report](STAGE-2E-RECORD-BOOK.md) describes the earlier implementation.
+
+### Player metadata foundation (Stage 2F-A)
+
+The data-only player identity contract and coverage audit are documented in
+[STAGE-2F-A-PLAYER-METADATA.md](STAGE-2F-A-PLAYER-METADATA.md).
+Generate from existing normalized league snapshots with
+`python football_player_metadata.py --refresh --check-headshots`.
+Stage 2F-A supplied audited metadata; Stage 2F-B adds the Players section while leaving the workflow schedule unchanged.
+
+### Players (Stage 2F-B)
+
+Players follows Basketball Brawl’s search, profile and tab layout with football scoring, weekly roster evidence, draft picks and audited transactions. Hash routes (`#/players/<ESPN ID>/<optional season>`) preserve direct links on GitHub Pages. Player links are confined to Players.
+
+`python football_players.py` builds a compact index and one profile/history contract per league entity from normalized snapshots. Full generation refreshes metadata once from nflverse and rebuilds these files. GitHub Actions caches headshot checks between runs; `--recheck-images` explicitly revalidates old URLs. See [STAGE-2F-B-PLAYERS.md](STAGE-2F-B-PLAYERS.md) for definitions and validation.

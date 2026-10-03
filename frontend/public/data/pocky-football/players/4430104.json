@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4430104,
+    "entityType": "player",
+    "name": "Sincere McCormick",
+    "position": "RB",
+    "positionGroup": "RB",
+    "nflTeam": "SF",
+    "jerseyNumber": "35",
+    "heightInches": 69,
+    "weightPounds": 205,
+    "birthDate": "2000-09-10",
+    "college": "Texas-San Antonio",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/t2e5ffjyc1iimyxufxjs",
+    "rookieSeason": 2022,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": null,
+      "round": null,
+      "overallPick": null,
+      "team": null
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2024,
+      "complete": true,
+      "summary": {
+        "weeks": 10,
+        "points": 27.2,
+        "average": 2.72,
+        "high": {
+          "season": 2024,
+          "week": 14,
+          "points": 10.9
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2024,
+          "week": 5,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "LV",
+          "nflOpponent": "DEN",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 8,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "LV",
+          "nflOpponent": "KC",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 9,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "LV",
+          "nflOpponent": "CIN",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 11,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "LV",
+          "nflOpponent": "MIA",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 12,
+          "status": "final",
+          "points": 3.3,
+          "nflTeam": "LV",
+          "nflOpponent": "DEN",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 13,
+          "status": "final",
+          "points": 8.5,
+          "nflTeam": "LV",
+          "nflOpponent": "KC",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 14,
+          "status": "final",
+          "points": 10.9,
+          "nflTeam": "LV",
+          "nflOpponent": "TB",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 15,
+          "status": "final",
+          "points": 4.5,
+          "nflTeam": "LV",
+          "nflOpponent": "ATL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "BE",
+              "points": 4.5,
+              "nflTeam": "LV",
+              "nflOpponent": "ATL"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 16,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "LV",
+          "nflOpponent": "JAX",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "LV",
+          "nflOpponent": "NO",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Double Kupp",
+            "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+          },
+          "weeks": [
+            15
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "drop",
+          "timestamp": "2024-12-17T13:37:34.927000+00:00",
+          "timestampKind": "proposed",
+          "week": 16,
+          "fromTeams": [
+            {
+              "teamId": 3,
+              "name": "Double Kupp",
+              "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "waiver_add",
+          "timestamp": "2024-12-11T10:06:43.165000+00:00",
+          "timestampKind": "processed",
+          "week": 15,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 3,
+              "name": "Double Kupp",
+              "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 10,
+    "points": 27.2,
+    "average": 2.72,
+    "high": {
+      "season": 2024,
+      "week": 14,
+      "points": 10.9
+    },
+    "starts": 0,
+    "starterPoints": null
+  }
+}

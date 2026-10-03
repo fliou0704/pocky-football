@@ -1,0 +1,2013 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": -16002,
+    "entityType": "team_defense",
+    "name": "Bills D/ST",
+    "position": "D/ST",
+    "nflTeam": "BUF",
+    "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png"
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2025,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 110.0,
+        "average": 6.88,
+        "high": {
+          "season": 2025,
+          "week": 8,
+          "points": 18.0
+        },
+        "starts": 2,
+        "starterPoints": 11.0
+      },
+      "weeks": [
+        {
+          "season": 2025,
+          "week": 1,
+          "status": "final",
+          "points": -2.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "BAL",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 2,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "NYJ",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 3,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 4.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 4,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "D/ST",
+              "points": 7.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "NO"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 5,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "NE",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 6,
+          "status": "final",
+          "points": 1.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "ATL",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 8,
+          "status": "final",
+          "points": 18.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "CAR",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 9,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "KC",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 10,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "MIA",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 11,
+          "status": "final",
+          "points": 3.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "TB",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 12,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "HOU",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 13,
+          "status": "final",
+          "points": 17.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "PIT",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 14,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "CIN",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "status": "final",
+          "points": 3.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "NE",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "CLE",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "PHI",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "weeks": [
+            3,
+            4
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2025-10-01T17:31:02.558000+00:00",
+          "timestampKind": "proposed",
+          "week": 5,
+          "fromTeams": [
+            {
+              "teamId": 1,
+              "name": "Brian's Original Fried Haddock",
+              "logo": null
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "waiver_add",
+          "timestamp": "2025-09-17T07:10:01.887000+00:00",
+          "timestampKind": "processed",
+          "week": 3,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 1,
+              "name": "Brian's Original Fried Haddock",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2024,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 118.0,
+        "average": 7.38,
+        "high": {
+          "season": 2024,
+          "week": 10,
+          "points": 17.0
+        },
+        "starts": 9,
+        "starterPoints": 48.0
+      },
+      "weeks": [
+        {
+          "season": 2024,
+          "week": 1,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "ARI",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 2,
+          "status": "final",
+          "points": 16.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "MIA",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 3,
+          "status": "final",
+          "points": 14.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "JAX",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 4,
+          "status": "final",
+          "points": -3.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Tee Time",
+                "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+              },
+              "slot": "D/ST",
+              "points": -3.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 5,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "HOU",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "Tee Time",
+                "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+              },
+              "slot": "D/ST",
+              "points": 2.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "HOU"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 6,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "D/ST",
+              "points": 4.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 7,
+          "status": "final",
+          "points": 12.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "D/ST",
+              "points": 12.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "TEN"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 8,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "BE",
+              "points": 10.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 9,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "BE",
+              "points": 2.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 10,
+          "status": "final",
+          "points": 17.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "D/ST",
+              "points": 17.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "IND"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 11,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "BE",
+              "points": 8.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 13,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "SF",
+          "rosters": []
+        },
+        {
+          "season": 2024,
+          "week": 14,
+          "status": "final",
+          "points": -8.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "D/ST",
+              "points": -8.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 15,
+          "status": "final",
+          "points": -4.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "D/ST",
+              "points": -4.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "DET"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 16,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "NE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "D/ST",
+              "points": 13.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "NE"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "status": "final",
+          "points": 15.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Double Kupp",
+                "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+              },
+              "slot": "D/ST",
+              "points": 15.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Double Kupp",
+            "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+          },
+          "weeks": [
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
+            "teamId": 6,
+            "name": "Tee Time",
+            "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+          },
+          "weeks": [
+            4,
+            5
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
+            "teamId": 16,
+            "name": "For Kyren Out Loud",
+            "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+          },
+          "weeks": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 3,
+          "name": "Double Kupp",
+          "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2024-12-04T10:00:13.807000+00:00",
+          "timestampKind": "processed",
+          "week": 14,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 3,
+              "name": "Double Kupp",
+              "logo": "https://ih1.redbubble.net/image.5196493193.3626/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+            }
+          ]
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-11-24T16:49:39.209000+00:00",
+          "timestampKind": "proposed",
+          "week": 12,
+          "fromTeams": [
+            {
+              "teamId": 16,
+              "name": "For Kyren Out Loud",
+              "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-10-11T19:18:57.283000+00:00",
+          "timestampKind": "proposed",
+          "week": 6,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 16,
+              "name": "For Kyren Out Loud",
+              "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+            }
+          ]
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2024-10-09T16:47:16.222000+00:00",
+          "timestampKind": "proposed",
+          "week": 6,
+          "fromTeams": [
+            {
+              "teamId": 6,
+              "name": "Tee Time",
+              "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "waiver_add",
+          "timestamp": "2024-09-25T07:44:37.757000+00:00",
+          "timestampKind": "processed",
+          "week": 4,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 6,
+              "name": "Tee Time",
+              "logo": "https://i.pinimg.com/originals/7c/5a/89/7c5a89d44ffbd42c91f13d5f4fa78b4e.jpg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2023,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 144.0,
+        "average": 9.0,
+        "high": {
+          "season": 2023,
+          "week": 3,
+          "points": 31.0
+        },
+        "starts": 14,
+        "starterPoints": 127.0
+      },
+      "weeks": [
+        {
+          "season": 2023,
+          "week": 1,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "180 Buccs",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "D/ST",
+              "points": 7.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 2,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "LV",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "180 Buccs",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "D/ST",
+              "points": 11.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "LV"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 3,
+          "status": "final",
+          "points": 31.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "180 Buccs",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "D/ST",
+              "points": 31.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 4,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "180 Buccs",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "D/ST",
+              "points": 7.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 5,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "180 Buccs",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "D/ST",
+              "points": 4.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 6,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "180 Buccs",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "D/ST",
+              "points": 6.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "NYG"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 7,
+          "status": "final",
+          "points": 1.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "NE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "180 Buccs",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "D/ST",
+              "points": 1.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "NE"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 8,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "TB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "180 Buccs",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "D/ST",
+              "points": 5.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "TB"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 9,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "CIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "180 Buccs",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "D/ST",
+              "points": 0.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "CIN"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 10,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "DEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "180 Buccs",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "D/ST",
+              "points": 6.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "DEN"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 11,
+          "status": "final",
+          "points": 21.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "180 Buccs",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "D/ST",
+              "points": 21.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 12,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "PHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "180 Buccs",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "D/ST",
+              "points": 2.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "PHI"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 13,
+          "status": "final",
+          "points": null,
+          "nflTeam": "BUF",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "180 Buccs",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "BUF",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 14,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "180 Buccs",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "BE",
+              "points": 6.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 15,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "180 Buccs",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "BE",
+              "points": 11.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 16,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "180 Buccs",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "D/ST",
+              "points": 7.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "LAC"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 17,
+          "status": "final",
+          "points": 19.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "NE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 7,
+                "name": "180 Buccs",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+              },
+              "slot": "D/ST",
+              "points": 19.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "NE"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 7,
+            "name": "180 Buccs",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 7,
+          "name": "180 Buccs",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 7,
+            "name": "180 Buccs",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-10.svg"
+          },
+          "round": 12,
+          "pickInRound": 7,
+          "overallPick": 139,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2022,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 119.0,
+        "average": 7.44,
+        "high": {
+          "season": 2022,
+          "week": 2,
+          "points": 22.0
+        },
+        "starts": 16,
+        "starterPoints": 119.0
+      },
+      "weeks": [
+        {
+          "season": 2022,
+          "week": 1,
+          "status": "final",
+          "points": 18.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "D/ST",
+              "points": 18.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 2,
+          "status": "final",
+          "points": 22.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "D/ST",
+              "points": 22.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "TEN"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 3,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "D/ST",
+              "points": 6.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 4,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "D/ST",
+              "points": 8.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 5,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "D/ST",
+              "points": 10.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 6,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "D/ST",
+              "points": 6.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 7,
+          "status": "final",
+          "points": null,
+          "nflTeam": "BUF",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "D/ST",
+              "points": null,
+              "nflTeam": "BUF",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 8,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "D/ST",
+              "points": 4.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "GB"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 9,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "D/ST",
+              "points": 4.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 10,
+          "status": "final",
+          "points": 3.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "MIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "D/ST",
+              "points": 3.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "MIN"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 11,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "CLE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "D/ST",
+              "points": 4.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "CLE"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 12,
+          "status": "final",
+          "points": 8.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "D/ST",
+              "points": 8.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "DET"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 13,
+          "status": "final",
+          "points": 6.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "NE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "D/ST",
+              "points": 6.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "NE"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 14,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "D/ST",
+              "points": 11.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 15,
+          "status": "final",
+          "points": -2.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "D/ST",
+              "points": -2.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 16,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "D/ST",
+              "points": 11.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 17,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "CIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Dolla Dolla Bills Y'all",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+              },
+              "slot": "D/ST",
+              "points": 0.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "CIN"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 16,
+            "name": "Dolla Dolla Bills Y'all",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 16,
+          "name": "Dolla Dolla Bills Y'all",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 16,
+            "name": "Dolla Dolla Bills Y'all",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/Mascots/mascots-1.svg"
+          },
+          "round": 7,
+          "pickInRound": 14,
+          "overallPick": 98,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2021,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 135.0,
+        "average": 8.44,
+        "high": {
+          "season": 2021,
+          "week": 4,
+          "points": 21.0
+        },
+        "starts": 10,
+        "starterPoints": 73.0
+      },
+      "weeks": [
+        {
+          "season": 2021,
+          "week": 1,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "BE",
+              "points": 4.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 2,
+          "status": "final",
+          "points": 19.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "BE",
+              "points": 19.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 3,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "BE",
+              "points": 9.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 4,
+          "status": "final",
+          "points": 21.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "HOU",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "D/ST",
+              "points": 21.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "HOU"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 5,
+          "status": "final",
+          "points": 15.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "BE",
+              "points": 15.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 6,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "D/ST",
+              "points": 0.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "TEN"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 7,
+          "status": "final",
+          "points": null,
+          "nflTeam": "BUF",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "BUF",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 8,
+          "status": "final",
+          "points": 13.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "D/ST",
+              "points": 13.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 9,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "D/ST",
+              "points": 9.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 10,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "D/ST",
+              "points": 11.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 11,
+          "status": "final",
+          "points": -4.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "D/ST",
+              "points": -4.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "IND"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 12,
+          "status": "final",
+          "points": 11.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "D/ST",
+              "points": 11.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "NO"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 13,
+          "status": "final",
+          "points": 5.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "NE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "BE",
+              "points": 5.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "NE"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 14,
+          "status": "final",
+          "points": -4.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "TB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "D/ST",
+              "points": -4.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "TB"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 15,
+          "status": "final",
+          "points": 9.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "CAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "D/ST",
+              "points": 9.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "CAR"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 16,
+          "status": "final",
+          "points": 7.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "NE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "D/ST",
+              "points": 7.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "NE"
+            }
+          ]
+        },
+        {
+          "season": 2021,
+          "week": 17,
+          "status": "final",
+          "points": 10.0,
+          "nflTeam": "BUF",
+          "nflOpponent": "ATL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "New Jersey Eren",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+              },
+              "slot": "BE",
+              "points": 10.0,
+              "nflTeam": "BUF",
+              "nflOpponent": "ATL"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 5,
+            "name": "New Jersey Eren",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 5,
+          "name": "New Jersey Eren",
+          "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 5,
+            "name": "New Jersey Eren",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/8bitHeros-JoeyEllis/8bit_football-05.svg"
+          },
+          "round": 15,
+          "pickInRound": 7,
+          "overallPick": 147,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 80,
+    "points": 626.0,
+    "average": 7.83,
+    "high": {
+      "season": 2023,
+      "week": 3,
+      "points": 31.0
+    },
+    "starts": 51,
+    "starterPoints": 378.0
+  }
+}

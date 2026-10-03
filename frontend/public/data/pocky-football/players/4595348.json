@@ -1,0 +1,865 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4595348,
+    "entityType": "player",
+    "name": "Malik Nabers",
+    "position": "WR",
+    "positionGroup": "WR",
+    "nflTeam": "NYG",
+    "jerseyNumber": "1",
+    "heightInches": 72,
+    "weightPounds": 200,
+    "birthDate": "2003-07-28",
+    "college": "LSU",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/w3edoyyuomqlovvp9ixc",
+    "rookieSeason": 2024,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2024,
+      "round": 1,
+      "overallPick": 6,
+      "team": "NYG"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 21.6,
+        "average": 7.2,
+        "high": {
+          "season": 2026,
+          "week": 1,
+          "points": 12.9
+        },
+        "starts": 3,
+        "starterPoints": 21.6
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 12.9,
+          "nflTeam": "NYG",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 12.9,
+              "nflTeam": "NYG",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 1.1,
+          "nflTeam": "NYG",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 1.1,
+              "nflTeam": "NYG",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 7.6,
+          "nflTeam": "NYG",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 7.6,
+              "nflTeam": "NYG",
+              "nflOpponent": "TEN"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "weeks": [
+            1,
+            2,
+            3
+          ],
+          "evidence": [
+            "current_roster",
+            "draft",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 1,
+          "name": "Brian's Original Fried Haddock",
+          "logo": null
+        }
+      ],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "round": 4,
+          "pickInRound": 2,
+          "overallPick": 32,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2025,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 57.1,
+        "average": 3.57,
+        "high": {
+          "season": 2025,
+          "week": 2,
+          "points": 37.7
+        },
+        "starts": 4,
+        "starterPoints": 57.1
+      },
+      "weeks": [
+        {
+          "season": 2025,
+          "week": 1,
+          "status": "final",
+          "points": 12.1,
+          "nflTeam": "NYG",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "WR",
+              "points": 12.1,
+              "nflTeam": "NYG",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 2,
+          "status": "final",
+          "points": 37.7,
+          "nflTeam": "NYG",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "WR",
+              "points": 37.7,
+              "nflTeam": "NYG",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 3,
+          "status": "final",
+          "points": 3.3,
+          "nflTeam": "NYG",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "WR",
+              "points": 3.3,
+              "nflTeam": "NYG",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 4,
+          "status": "final",
+          "points": 4.0,
+          "nflTeam": "NYG",
+          "nflOpponent": "LAC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Reckless Drivers",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+              },
+              "slot": "WR",
+              "points": 4.0,
+              "nflTeam": "NYG",
+              "nflOpponent": "LAC"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 5,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYG",
+          "nflOpponent": "NO",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 6,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYG",
+          "nflOpponent": "PHI",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 7,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYG",
+          "nflOpponent": "DEN",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 8,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYG",
+          "nflOpponent": "PHI",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 9,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYG",
+          "nflOpponent": "SF",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 10,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYG",
+          "nflOpponent": "CHI",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 11,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYG",
+          "nflOpponent": "GB",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 12,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYG",
+          "nflOpponent": "DET",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 13,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYG",
+          "nflOpponent": "NE",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYG",
+          "nflOpponent": "WSH",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYG",
+          "nflOpponent": "MIN",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYG",
+          "nflOpponent": "LV",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Reckless Drivers",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "evidence": [
+            "draft",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 2,
+            "name": "Reckless Drivers",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+          },
+          "round": 1,
+          "pickInRound": 8,
+          "overallPick": 8,
+          "keeper": false
+        }
+      ],
+      "transactions": [
+        {
+          "type": "drop",
+          "timestamp": "2025-09-30T18:01:04.496000+00:00",
+          "timestampKind": "proposed",
+          "week": 5,
+          "fromTeams": [
+            {
+              "teamId": 2,
+              "name": "Reckless Drivers",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/1stStringAllStars-SportsManias/nabers-01.svg"
+            }
+          ],
+          "toTeams": []
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2024,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 256.2,
+        "average": 16.01,
+        "high": {
+          "season": 2024,
+          "week": 17,
+          "points": 36.1
+        },
+        "starts": 13,
+        "starterPoints": 220.1
+      },
+      "weeks": [
+        {
+          "season": 2024,
+          "week": 1,
+          "status": "final",
+          "points": 11.6,
+          "nflTeam": "NYG",
+          "nflOpponent": "MIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "WR",
+              "points": 11.6,
+              "nflTeam": "NYG",
+              "nflOpponent": "MIN"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 2,
+          "status": "final",
+          "points": 28.7,
+          "nflTeam": "NYG",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "WR",
+              "points": 28.7,
+              "nflTeam": "NYG",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 3,
+          "status": "final",
+          "points": 28.2,
+          "nflTeam": "NYG",
+          "nflOpponent": "CLE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "WR",
+              "points": 28.2,
+              "nflTeam": "NYG",
+              "nflOpponent": "CLE"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 4,
+          "status": "final",
+          "points": 23.1,
+          "nflTeam": "NYG",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "WR",
+              "points": 23.1,
+              "nflTeam": "NYG",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 5,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYG",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "NYG",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 6,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "NYG",
+          "nflOpponent": "CIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "NYG",
+              "nflOpponent": "CIN"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 7,
+          "status": "final",
+          "points": 8.1,
+          "nflTeam": "NYG",
+          "nflOpponent": "PHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "FLEX",
+              "points": 8.1,
+              "nflTeam": "NYG",
+              "nflOpponent": "PHI"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 8,
+          "status": "final",
+          "points": 14.1,
+          "nflTeam": "NYG",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "WR",
+              "points": 14.1,
+              "nflTeam": "NYG",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 9,
+          "status": "final",
+          "points": 14.9,
+          "nflTeam": "NYG",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "WR",
+              "points": 14.9,
+              "nflTeam": "NYG",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 10,
+          "status": "final",
+          "points": 10.8,
+          "nflTeam": "NYG",
+          "nflOpponent": "CAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "WR",
+              "points": 10.8,
+              "nflTeam": "NYG",
+              "nflOpponent": "CAR"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 11,
+          "status": "final",
+          "points": null,
+          "nflTeam": "NYG",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "NYG",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 12,
+          "status": "final",
+          "points": 12.4,
+          "nflTeam": "NYG",
+          "nflOpponent": "TB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "WR",
+              "points": 12.4,
+              "nflTeam": "NYG",
+              "nflOpponent": "TB"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 13,
+          "status": "final",
+          "points": 15.3,
+          "nflTeam": "NYG",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "WR",
+              "points": 15.3,
+              "nflTeam": "NYG",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 14,
+          "status": "final",
+          "points": 14.9,
+          "nflTeam": "NYG",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "WR",
+              "points": 14.9,
+              "nflTeam": "NYG",
+              "nflOpponent": "NO"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 15,
+          "status": "final",
+          "points": 24.2,
+          "nflTeam": "NYG",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "WR",
+              "points": 24.2,
+              "nflTeam": "NYG",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 16,
+          "status": "final",
+          "points": 13.8,
+          "nflTeam": "NYG",
+          "nflOpponent": "ATL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "WR",
+              "points": 13.8,
+              "nflTeam": "NYG",
+              "nflOpponent": "ATL"
+            }
+          ]
+        },
+        {
+          "season": 2024,
+          "week": 17,
+          "status": "final",
+          "points": 36.1,
+          "nflTeam": "NYG",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "For Kyren Out Loud",
+                "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+              },
+              "slot": "BE",
+              "points": 36.1,
+              "nflTeam": "NYG",
+              "nflOpponent": "IND"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 16,
+            "name": "For Kyren Out Loud",
+            "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 16,
+          "name": "For Kyren Out Loud",
+          "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 16,
+            "name": "For Kyren Out Loud",
+            "logo": "https://img.icons8.com/emoji/256w/loudly-crying-face.png"
+          },
+          "round": 3,
+          "pickInRound": 8,
+          "overallPick": 28,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 35,
+    "points": 334.9,
+    "average": 9.57,
+    "high": {
+      "season": 2025,
+      "week": 2,
+      "points": 37.7
+    },
+    "starts": 20,
+    "starterPoints": 298.8
+  }
+}

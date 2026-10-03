@@ -1,0 +1,1540 @@
+{
+  "schemaVersion": 1,
+  "profile": {
+    "espnId": 4371733,
+    "entityType": "player",
+    "name": "Kenny Gainwell",
+    "position": "RB",
+    "positionGroup": "RB",
+    "nflTeam": "TB",
+    "jerseyNumber": "1",
+    "heightInches": 69,
+    "weightPounds": 200,
+    "birthDate": "1999-03-14",
+    "college": "Memphis",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/eo62l8ec8e3lzt86ihth",
+    "rookieSeason": 2021,
+    "lastSeason": 2026,
+    "nflDraft": {
+      "year": 2021,
+      "round": 5,
+      "overallPick": 150,
+      "team": "PHI"
+    }
+  },
+  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "seasons": [
+    {
+      "season": 2026,
+      "complete": false,
+      "summary": {
+        "weeks": 3,
+        "points": 10.3,
+        "average": 3.43,
+        "high": {
+          "season": 2026,
+          "week": 2,
+          "points": 4.5
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2026,
+          "week": 1,
+          "status": "final",
+          "points": 2.8,
+          "nflTeam": "TB",
+          "nflOpponent": "CIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Good Christians Hate Sinners",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 2.8,
+              "nflTeam": "TB",
+              "nflOpponent": "CIN"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 2,
+          "status": "final",
+          "points": 4.5,
+          "nflTeam": "TB",
+          "nflOpponent": "CLE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Good Christians Hate Sinners",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 4.5,
+              "nflTeam": "TB",
+              "nflOpponent": "CLE"
+            }
+          ]
+        },
+        {
+          "season": 2026,
+          "week": 3,
+          "status": "final",
+          "points": 3.0,
+          "nflTeam": "TB",
+          "nflOpponent": "MIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Good Christians Hate Sinners",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 3.0,
+              "nflTeam": "TB",
+              "nflOpponent": "MIN"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Good Christians Hate Sinners",
+            "logo": null
+          },
+          "weeks": [
+            1,
+            2,
+            3
+          ],
+          "evidence": [
+            "draft",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Current roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 3,
+            "name": "Good Christians Hate Sinners",
+            "logo": null
+          },
+          "round": 9,
+          "pickInRound": 8,
+          "overallPick": 88,
+          "keeper": false
+        }
+      ],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2026-10-01T00:13:42.150000+00:00",
+          "timestampKind": "proposed",
+          "week": 4,
+          "fromTeams": [
+            {
+              "teamId": 3,
+              "name": "Good Christians Hate Sinners",
+              "logo": null
+            }
+          ],
+          "toTeams": []
+        }
+      ],
+      "activityCoverage": {
+        "status": "independently_verified_counts",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2025,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 199.9,
+        "average": 12.49,
+        "high": {
+          "season": 2025,
+          "week": 4,
+          "points": 31.4
+        },
+        "starts": 5,
+        "starterPoints": 72.9
+      },
+      "weeks": [
+        {
+          "season": 2025,
+          "week": 1,
+          "status": "final",
+          "points": 5.3,
+          "nflTeam": "PIT",
+          "nflOpponent": "NYJ",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 2,
+          "status": "final",
+          "points": 6.6,
+          "nflTeam": "PIT",
+          "nflOpponent": "SEA",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 3,
+          "status": "final",
+          "points": 9.6,
+          "nflTeam": "PIT",
+          "nflOpponent": "NE",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 4,
+          "status": "final",
+          "points": 31.4,
+          "nflTeam": "PIT",
+          "nflOpponent": "MIN",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 6,
+          "status": "final",
+          "points": 9.6,
+          "nflTeam": "PIT",
+          "nflOpponent": "CLE",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 7,
+          "status": "final",
+          "points": 3.5,
+          "nflTeam": "PIT",
+          "nflOpponent": "CIN",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 8,
+          "status": "final",
+          "points": 3.5,
+          "nflTeam": "PIT",
+          "nflOpponent": "GB",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 9,
+          "status": "final",
+          "points": 7.4,
+          "nflTeam": "PIT",
+          "nflOpponent": "IND",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 10,
+          "status": "final",
+          "points": 2.4,
+          "nflTeam": "PIT",
+          "nflOpponent": "LAC",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 11,
+          "status": "final",
+          "points": 29.5,
+          "nflTeam": "PIT",
+          "nflOpponent": "CIN",
+          "rosters": []
+        },
+        {
+          "season": 2025,
+          "week": 12,
+          "status": "final",
+          "points": 18.2,
+          "nflTeam": "PIT",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "BE",
+              "points": 18.2,
+              "nflTeam": "PIT",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 13,
+          "status": "final",
+          "points": 6.5,
+          "nflTeam": "PIT",
+          "nflOpponent": "BUF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "RB",
+              "points": 6.5,
+              "nflTeam": "PIT",
+              "nflOpponent": "BUF"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 14,
+          "status": "final",
+          "points": 16.2,
+          "nflTeam": "PIT",
+          "nflOpponent": "BAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "RB",
+              "points": 16.2,
+              "nflTeam": "PIT",
+              "nflOpponent": "BAL"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 15,
+          "status": "final",
+          "points": 19.6,
+          "nflTeam": "PIT",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "RB",
+              "points": 19.6,
+              "nflTeam": "PIT",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 16,
+          "status": "final",
+          "points": 23.8,
+          "nflTeam": "PIT",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "RB",
+              "points": 23.8,
+              "nflTeam": "PIT",
+              "nflOpponent": "DET"
+            }
+          ]
+        },
+        {
+          "season": 2025,
+          "week": 17,
+          "status": "final",
+          "points": 6.8,
+          "nflTeam": "PIT",
+          "nflOpponent": "CLE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "RB",
+              "points": 6.8,
+              "nflTeam": "PIT",
+              "nflOpponent": "CLE"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 13,
+            "name": "The Trenches PerryG",
+            "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+          },
+          "weeks": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "final_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 13,
+          "name": "The Trenches PerryG",
+          "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2025-11-21T00:03:14.671000+00:00",
+          "timestampKind": "proposed",
+          "week": 12,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 13,
+              "name": "The Trenches PerryG",
+              "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2023,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 91.18,
+        "average": 5.7,
+        "high": {
+          "season": 2023,
+          "week": 1,
+          "points": 11.4
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2023,
+          "week": 1,
+          "status": "final",
+          "points": 11.4,
+          "nflTeam": "PHI",
+          "nflOpponent": "NE",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "BE",
+              "points": 11.4,
+              "nflTeam": "PHI",
+              "nflOpponent": "NE"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 2,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "MIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "MIN"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 3,
+          "status": "final",
+          "points": 5.8,
+          "nflTeam": "PHI",
+          "nflOpponent": "TB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "BE",
+              "points": 5.8,
+              "nflTeam": "PHI",
+              "nflOpponent": "TB"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 4,
+          "status": "final",
+          "points": 6.1,
+          "nflTeam": "PHI",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "BE",
+              "points": 6.1,
+              "nflTeam": "PHI",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 5,
+          "status": "final",
+          "points": 3.4,
+          "nflTeam": "PHI",
+          "nflOpponent": "LAR",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "BE",
+              "points": 3.4,
+              "nflTeam": "PHI",
+              "nflOpponent": "LAR"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 6,
+          "status": "final",
+          "points": 2.7,
+          "nflTeam": "PHI",
+          "nflOpponent": "NYJ",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "BE",
+              "points": 2.7,
+              "nflTeam": "PHI",
+              "nflOpponent": "NYJ"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 7,
+          "status": "final",
+          "points": 7.6,
+          "nflTeam": "PHI",
+          "nflOpponent": "MIA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "BE",
+              "points": 7.6,
+              "nflTeam": "PHI",
+              "nflOpponent": "MIA"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 8,
+          "status": "final",
+          "points": 5.6,
+          "nflTeam": "PHI",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "BE",
+              "points": 5.6,
+              "nflTeam": "PHI",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 9,
+          "status": "final",
+          "points": 9.3,
+          "nflTeam": "PHI",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "BE",
+              "points": 9.3,
+              "nflTeam": "PHI",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 10,
+          "status": "final",
+          "points": null,
+          "nflTeam": "PHI",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "PHI",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 11,
+          "status": "final",
+          "points": 1.5,
+          "nflTeam": "PHI",
+          "nflOpponent": "KC",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "BE",
+              "points": 1.5,
+              "nflTeam": "PHI",
+              "nflOpponent": "KC"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 12,
+          "status": "final",
+          "points": 5.6,
+          "nflTeam": "PHI",
+          "nflOpponent": "BUF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "BE",
+              "points": 5.6,
+              "nflTeam": "PHI",
+              "nflOpponent": "BUF"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 13,
+          "status": "final",
+          "points": 9.7,
+          "nflTeam": "PHI",
+          "nflOpponent": "SF",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "BE",
+              "points": 9.7,
+              "nflTeam": "PHI",
+              "nflOpponent": "SF"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 14,
+          "status": "final",
+          "points": 2.8,
+          "nflTeam": "PHI",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "BE",
+              "points": 2.8,
+              "nflTeam": "PHI",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 15,
+          "status": "final",
+          "points": 2.1,
+          "nflTeam": "PHI",
+          "nflOpponent": "SEA",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "BE",
+              "points": 2.1,
+              "nflTeam": "PHI",
+              "nflOpponent": "SEA"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 16,
+          "status": "final",
+          "points": 10.9,
+          "nflTeam": "PHI",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "BE",
+              "points": 10.9,
+              "nflTeam": "PHI",
+              "nflOpponent": "NYG"
+            }
+          ]
+        },
+        {
+          "season": 2023,
+          "week": 17,
+          "status": "final",
+          "points": 6.68,
+          "nflTeam": "PHI",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "BE",
+              "points": 6.68,
+              "nflTeam": "PHI",
+              "nflOpponent": "ARI"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 13,
+            "name": "The Trenches PerryG",
+            "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 13,
+          "name": "The Trenches PerryG",
+          "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 13,
+            "name": "The Trenches PerryG",
+            "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+          },
+          "round": 15,
+          "pickInRound": 11,
+          "overallPick": 179,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2022,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 82.7,
+        "average": 5.17,
+        "high": {
+          "season": 2022,
+          "week": 9,
+          "points": 12.8
+        },
+        "starts": 1,
+        "starterPoints": 1.0
+      },
+      "weeks": [
+        {
+          "season": 2022,
+          "week": 1,
+          "status": "final",
+          "points": 11.2,
+          "nflTeam": "PHI",
+          "nflOpponent": "DET",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 14,
+                "name": "Week 14's  Biggest Loser",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg"
+              },
+              "slot": "BE",
+              "points": 11.2,
+              "nflTeam": "PHI",
+              "nflOpponent": "DET"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 2,
+          "status": "final",
+          "points": 2.8,
+          "nflTeam": "PHI",
+          "nflOpponent": "MIN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 14,
+                "name": "Week 14's  Biggest Loser",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg"
+              },
+              "slot": "BE",
+              "points": 2.8,
+              "nflTeam": "PHI",
+              "nflOpponent": "MIN"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 3,
+          "status": "final",
+          "points": 0.6,
+          "nflTeam": "PHI",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 14,
+                "name": "Week 14's  Biggest Loser",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg"
+              },
+              "slot": "BE",
+              "points": 0.6,
+              "nflTeam": "PHI",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 4,
+          "status": "final",
+          "points": 8.7,
+          "nflTeam": "PHI",
+          "nflOpponent": "JAX",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 14,
+                "name": "Week 14's  Biggest Loser",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg"
+              },
+              "slot": "BE",
+              "points": 8.7,
+              "nflTeam": "PHI",
+              "nflOpponent": "JAX"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 5,
+          "status": "final",
+          "points": 2.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "ARI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 14,
+                "name": "Week 14's  Biggest Loser",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg"
+              },
+              "slot": "BE",
+              "points": 2.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "ARI"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 6,
+          "status": "final",
+          "points": 2.5,
+          "nflTeam": "PHI",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 14,
+                "name": "Week 14's  Biggest Loser",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg"
+              },
+              "slot": "BE",
+              "points": 2.5,
+              "nflTeam": "PHI",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 7,
+          "status": "final",
+          "points": null,
+          "nflTeam": "PHI",
+          "nflOpponent": null,
+          "rosters": [
+            {
+              "team": {
+                "teamId": 14,
+                "name": "Week 14's  Biggest Loser",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "PHI",
+              "nflOpponent": null
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 8,
+          "status": "final",
+          "points": 2.1,
+          "nflTeam": "PHI",
+          "nflOpponent": "PIT",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 14,
+                "name": "Week 14's  Biggest Loser",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg"
+              },
+              "slot": "BE",
+              "points": 2.1,
+              "nflTeam": "PHI",
+              "nflOpponent": "PIT"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 9,
+          "status": "final",
+          "points": 12.8,
+          "nflTeam": "PHI",
+          "nflOpponent": "HOU",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 14,
+                "name": "Week 14's  Biggest Loser",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg"
+              },
+              "slot": "BE",
+              "points": 12.8,
+              "nflTeam": "PHI",
+              "nflOpponent": "HOU"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 10,
+          "status": "final",
+          "points": 2.2,
+          "nflTeam": "PHI",
+          "nflOpponent": "WSH",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 14,
+                "name": "Week 14's  Biggest Loser",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg"
+              },
+              "slot": "BE",
+              "points": 2.2,
+              "nflTeam": "PHI",
+              "nflOpponent": "WSH"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 11,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "IND",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 14,
+                "name": "Week 14's  Biggest Loser",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "IND"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 12,
+          "status": "final",
+          "points": 11.6,
+          "nflTeam": "PHI",
+          "nflOpponent": "GB",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 14,
+                "name": "Week 14's  Biggest Loser",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg"
+              },
+              "slot": "BE",
+              "points": 11.6,
+              "nflTeam": "PHI",
+              "nflOpponent": "GB"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 13,
+          "status": "final",
+          "points": 8.3,
+          "nflTeam": "PHI",
+          "nflOpponent": "TEN",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 14,
+                "name": "Week 14's  Biggest Loser",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg"
+              },
+              "slot": "BE",
+              "points": 8.3,
+              "nflTeam": "PHI",
+              "nflOpponent": "TEN"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 14,
+          "status": "final",
+          "points": 1.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "NYG",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 14,
+                "name": "Week 14's  Biggest Loser",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg"
+              },
+              "slot": "FLEX",
+              "points": 1.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "NYG"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 15,
+          "status": "final",
+          "points": 3.4,
+          "nflTeam": "PHI",
+          "nflOpponent": "CHI",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 14,
+                "name": "Week 14's  Biggest Loser",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg"
+              },
+              "slot": "BE",
+              "points": 3.4,
+              "nflTeam": "PHI",
+              "nflOpponent": "CHI"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 16,
+          "status": "final",
+          "points": 9.8,
+          "nflTeam": "PHI",
+          "nflOpponent": "DAL",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 14,
+                "name": "Week 14's  Biggest Loser",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg"
+              },
+              "slot": "BE",
+              "points": 9.8,
+              "nflTeam": "PHI",
+              "nflOpponent": "DAL"
+            }
+          ]
+        },
+        {
+          "season": 2022,
+          "week": 17,
+          "status": "final",
+          "points": 3.7,
+          "nflTeam": "PHI",
+          "nflOpponent": "NO",
+          "rosters": [
+            {
+              "team": {
+                "teamId": 14,
+                "name": "Week 14's  Biggest Loser",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg"
+              },
+              "slot": "BE",
+              "points": 3.7,
+              "nflTeam": "PHI",
+              "nflOpponent": "NO"
+            }
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 14,
+            "name": "Week 14's  Biggest Loser",
+            "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg"
+          },
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "evidence": [
+            "draft",
+            "final_roster",
+            "weekly_roster"
+          ]
+        }
+      ],
+      "rosterSnapshot": [
+        {
+          "teamId": 14,
+          "name": "Week 14's  Biggest Loser",
+          "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg"
+        }
+      ],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [
+        {
+          "team": {
+            "teamId": 14,
+            "name": "Week 14's  Biggest Loser",
+            "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg"
+          },
+          "round": 10,
+          "pickInRound": 14,
+          "overallPick": 140,
+          "keeper": false
+        }
+      ],
+      "transactions": [],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    },
+    {
+      "season": 2021,
+      "complete": true,
+      "summary": {
+        "weeks": 16,
+        "points": 104.7,
+        "average": 6.54,
+        "high": {
+          "season": 2021,
+          "week": 4,
+          "points": 20.9
+        },
+        "starts": 0,
+        "starterPoints": null
+      },
+      "weeks": [
+        {
+          "season": 2021,
+          "week": 1,
+          "status": "final",
+          "points": 12.3,
+          "nflTeam": "PHI",
+          "nflOpponent": "ATL",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 2,
+          "status": "final",
+          "points": 7.2,
+          "nflTeam": "PHI",
+          "nflOpponent": "SF",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 3,
+          "status": "final",
+          "points": 6.4,
+          "nflTeam": "PHI",
+          "nflOpponent": "DAL",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 4,
+          "status": "final",
+          "points": 20.9,
+          "nflTeam": "PHI",
+          "nflOpponent": "KC",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 5,
+          "status": "final",
+          "points": 3.4,
+          "nflTeam": "PHI",
+          "nflOpponent": "CAR",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 6,
+          "status": "final",
+          "points": 1.1,
+          "nflTeam": "PHI",
+          "nflOpponent": "TB",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 7,
+          "status": "final",
+          "points": 14.1,
+          "nflTeam": "PHI",
+          "nflOpponent": "LV",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 8,
+          "status": "final",
+          "points": 2.7,
+          "nflTeam": "PHI",
+          "nflOpponent": "DET",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 9,
+          "status": "final",
+          "points": 6.3,
+          "nflTeam": "PHI",
+          "nflOpponent": "LAC",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 10,
+          "status": "final",
+          "points": 2.4,
+          "nflTeam": "PHI",
+          "nflOpponent": "DEN",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 11,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "NO",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 12,
+          "status": "final",
+          "points": 6.2,
+          "nflTeam": "PHI",
+          "nflOpponent": "NYG",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 13,
+          "status": "final",
+          "points": 19.7,
+          "nflTeam": "PHI",
+          "nflOpponent": "NYJ",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 15,
+          "status": "final",
+          "points": 0.0,
+          "nflTeam": "PHI",
+          "nflOpponent": "WSH",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 16,
+          "status": "final",
+          "points": 1.6,
+          "nflTeam": "PHI",
+          "nflOpponent": "NYG",
+          "rosters": []
+        },
+        {
+          "season": 2021,
+          "week": 17,
+          "status": "final",
+          "points": 0.4,
+          "nflTeam": "PHI",
+          "nflOpponent": "WSH",
+          "rosters": []
+        }
+      ],
+      "ownership": [
+        {
+          "team": {
+            "teamId": 12,
+            "name": "semanto gay and kissed allen ",
+            "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+          },
+          "weeks": [],
+          "evidence": [
+            "transaction"
+          ]
+        }
+      ],
+      "rosterSnapshot": [],
+      "rosterSnapshotLabel": "Final roster",
+      "draft": [],
+      "transactions": [
+        {
+          "type": "drop",
+          "timestamp": "2021-11-12T20:13:27.455000+00:00",
+          "timestampKind": "proposed",
+          "week": 10,
+          "fromTeams": [
+            {
+              "teamId": 12,
+              "name": "semanto gay and kissed allen ",
+              "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2021-11-12T20:13:15.894000+00:00",
+          "timestampKind": "proposed",
+          "week": 10,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 12,
+              "name": "semanto gay and kissed allen ",
+              "logo": "https://cdn.justjaredjr.com/wp-content/uploads/2013/02/hudgens-hormiguero/vanessa-hudgens-selena-gomez-el-hormiguero-09.jpg"
+            }
+          ]
+        }
+      ],
+      "activityCoverage": {
+        "status": "likely_complete",
+        "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
+      }
+    }
+  ],
+  "career": {
+    "weeks": 67,
+    "points": 488.78,
+    "average": 7.3,
+    "high": {
+      "season": 2025,
+      "week": 4,
+      "points": 31.4
+    },
+    "starts": 6,
+    "starterPoints": 73.9
+  }
+}
