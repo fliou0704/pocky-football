@@ -65,6 +65,9 @@ jobs:
       - name: Rebuild Players from normalized snapshots
         run: python football_players.py
 
+      - name: Rebuild Draft analysis from normalized snapshots
+        run: python football_draft_analysis.py
+
       - uses: pnpm/action-setup@v6
         with:
           version: 11.19.0

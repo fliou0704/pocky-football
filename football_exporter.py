@@ -212,6 +212,8 @@ def generate(slug, config_path=CONFIG_PATH, output=PUBLIC_DATA):
     generate_metadata(Path(output)/slug, ROOT/'.cache/player-metadata', refresh=True, check_images=True,
                       first=min(years), last=max(years))
     build_players(output, slug, years)
+    from football_draft_analysis import build_draft_analysis
+    build_draft_analysis(output, slug, years)
     write_json(Path(output) / "site.json", {
         "schemaVersion": 1,
         "leaguePath": f"{slug}/{config['season']}/league.json",
