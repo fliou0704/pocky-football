@@ -44,15 +44,16 @@ function Player({ pick }) {
 }
 
 function Evidence({ row }) {
-  return <details><summary>View {row.evidence.length} picks</summary><div className="draft-scroll draft-evidence">
+  const picks = row.evidence || [];
+  return <details><summary>View {picks.length} picks</summary><div className="draft-scroll draft-evidence">
     <table aria-label="Supporting draft picks"><thead><tr>{['Season', 'Round / pick', 'Player', 'Fantasy team', 'Season FPTS', 'Position finish', 'FPTS above expectation', 'Draft position gain'].map(c => <th key={c}>{c}</th>)}</tr></thead>
-    <tbody>{row.evidence.map(p => <tr key={`${p.season}/${p.overallPick}`}>
+    <tbody>{picks.map(p => <tr key={`${p.season}/${p.overallPick}`}>
       <td>{p.season}</td><td>{p.round} / #{p.overallPick}</td><td><Player pick={p}/></td>
-      <td>{p.team.logo && <img src={p.team.logo} width="28" height="28" alt=""/>}{p.team.name}<small>{p.manager}</small></td>
+      <td>{p.team?.logo && <img src={p.team.logo} width="28" height="28" alt=""/>}{p.team?.name || 'Team unavailable'}<small>{p.manager}</small></td>
       <td><Points pick={p}/></td><td>{p.position}{fmt(p.positionalRank)}</td>
       <td><Movement value={p.pointsSurplus}/></td><td><Movement value={p.draftPositionGain}/><small>{p.draftPositionGain == null ? p.benchmarkStatus : ''}</small></td>
     </tr>)}</tbody></table>
-  </div></details>;
+  </div>{!picks.length && <p className="draft-description">No supporting picks available.</p>}</details>;
 }
 
 export default function DraftPage({ path, loadData, year = 'Summary', onYearChange, Team }) {
@@ -120,8 +121,8 @@ export default function DraftPage({ path, loadData, year = 'Summary', onYearChan
         <label className="select-control">Position<select aria-label="Draft position" value={position} onChange={e => setPosition(e.target.value)}>
           {Object.keys(season.positions).map(pos => <option key={pos}>{pos}</option>)}
         </select></label>
-        {table(`${position} team movement`, season.positions[position].teams, positionTeamColumns)}
-        {table(`${position} picks`, season.positions[position].picks, positionColumns, 'Original overall draft order.', 10, false)}
+        {table(`${position} team movement`, season.positions[position]?.teams || [], positionTeamColumns)}
+        {table(`${position} picks`, season.positions[position]?.picks || [], positionColumns, 'Original overall draft order.', 10, false)}
       </details>
     </> : <>
       <p className="draft-description">Only managers active in {summary.activeSeason}. Historical performance includes completed seasons {summary.seasons.join(', ')}.
