@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import TeamOfWeek from './TeamOfWeek.jsx';
 import { Match, bracketLabel } from './Match.jsx';
 
 export function availableWeeks(league, matches) {
@@ -13,7 +14,7 @@ export function defaultWeek(league, matches, currentWeek) {
   if (league.complete) return 1;
   return Math.max(1, ...matches.filter(match => ['final', 'live'].includes(match.status)).map(match => match.week));
 }
-export default function ScoreboardPage({ league, data, currentWeek }) {
+export default function ScoreboardPage({ league, data, currentWeek, teamOfWeekPath, loadData }) {
   const weeks = availableWeeks(league.league, data.matchups);
   const [week, setWeek] = useState(() => defaultWeek(league.league, data.matchups, currentWeek));
   const teams = new Map(league.standings.map(team => [team.teamId, team]));
@@ -28,5 +29,6 @@ export default function ScoreboardPage({ league, data, currentWeek }) {
       <p className="match-label">{match.phase === 'playoffs' ? `${bracketLabel(match.bracket)}${match.roundLabel ? ` · ${match.roundLabel}` : ''} · ` : ''}{({final: 'Final', live: 'In Progress', upcoming: 'Upcoming', bye: 'Bye'})[match.status] || 'Upcoming'}</p>
       <Match match={match} teams={teams}/>
     </div>)}</div> : <p role="status">Matchups for this week are not available in the current data.</p>}</div>
+    <TeamOfWeek key={league.league.season} season={league.league.season} week={week} matches={matches} teams={teams} path={teamOfWeekPath} loadData={loadData}/>
   </section>;
 }

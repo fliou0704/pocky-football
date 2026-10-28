@@ -214,6 +214,8 @@ def generate(slug, config_path=CONFIG_PATH, output=PUBLIC_DATA):
     build_players(output, slug, years)
     from football_draft_analysis import build_draft_analysis
     build_draft_analysis(output, slug, years)
+    from football_team_of_week import build_team_of_week
+    build_team_of_week(output, slug, years)
     write_json(Path(output) / "site.json", {
         "schemaVersion": 1,
         "leaguePath": f"{slug}/{config['season']}/league.json",
