@@ -81,3 +81,29 @@ it('shows complete pick evidence inline with logos and unavailable values', asyn
   expect(table.querySelectorAll('img')).toHaveLength(2);
   expect(within(table).getByText('Position finish')).toBeTruthy();
 });
+
+import committedDraft from '../public/data/pocky-football/draft-analysis.json';
+for (const year of ['Summary', '2025', '2026']) {
+  it(`renders committed Draft ${year} and expands actual evidence without runtime errors`, async () => {
+    const errors = [];
+    const capture = event => errors.push(event.error);
+    window.addEventListener('error', capture);
+    try {
+      const changed = [];
+      render(<DraftPage path="draft-analysis.json" loadData={() => Promise.resolve(committedDraft)}
+        year={year} Team={Team} onYearChange={value => changed.push(value)}/>);
+      await screen.findByLabelText('Draft season');
+      expect(screen.getByRole('heading', { name: year === 'Summary' ? 'Overall round performance' : 'Team round performance' })).toBeTruthy();
+      const details = document.querySelector('.draft-evidence').closest('details');
+      fireEvent.click(details.querySelector('summary'));
+      expect(details.open).toBe(true);
+      const evidence = within(details).getByRole('table', { name: 'Supporting draft picks' });
+      expect(within(evidence).getAllByRole('row').length).toBeGreaterThan(1);
+      expect(evidence.querySelector('.draft-player')).toBeTruthy();
+      fireEvent.change(screen.getByLabelText('Draft season'), { target: { value: year === '2025' ? '2026' : '2025' } });
+      expect(changed).toEqual([year === '2025' ? '2026' : '2025']);
+      if (year === '2026') expect(screen.getByText('Provisional season recap.')).toBeTruthy();
+      expect(errors).toEqual([]);
+    } finally { window.removeEventListener('error', capture); }
+  });
+}

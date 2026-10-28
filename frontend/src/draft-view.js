@@ -5,7 +5,16 @@ export function hydrateDraft(data) {
     if (Array.isArray(value)) return value.map(resolve);
     if (value && typeof value === 'object') {
       if (value.pickRef) return picks.get(value.pickRef.join('/'));
-      return Object.fromEntries(Object.entries(value).map(([key, v]) => [key, resolve(v)]));
+      return Object.fromEntries(Object.entries(value).map(([key, v]) => {
+        // Manager aggregates store bare references; other analyses use pickRef.
+        // Evidence tables need canonical picks, not either reference shape.
+        if (key === 'evidence') return [key, (Array.isArray(v) ? v : []).map(ref => {
+          if (!ref) return null;
+          const pick = picks.get((ref.pickRef || [ref.season, ref.overallPick]).join('/'));
+          return pick || (ref.playerId != null ? resolve(ref) : null);
+        }).filter(Boolean)];
+        return [key, resolve(v)];
+      }));
     }
     return value;
   }
