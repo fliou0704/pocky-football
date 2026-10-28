@@ -1,0 +1,13 @@
+// Resolve Python-generated references; all analytical metrics are supplied by Python.
+export function hydrateDraft(data) {
+  const picks = new Map(Object.values(data.seasons).flatMap(s => s.picks.map(p => [`${p.season}/${p.overallPick}`, p])));
+  function resolve(value) {
+    if (Array.isArray(value)) return value.map(resolve);
+    if (value && typeof value === 'object') {
+      if (value.pickRef) return picks.get(value.pickRef.join('/'));
+      return Object.fromEntries(Object.entries(value).map(([key, v]) => [key, resolve(v)]));
+    }
+    return value;
+  }
+  return resolve(data);
+}
