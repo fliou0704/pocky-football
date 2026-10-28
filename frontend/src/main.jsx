@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { formatRecord } from './record.js';
-import { assetUrl } from './asset-url.js';
+import { Team, Match, bracketLabel } from './Match.jsx';
+import ScoreboardPage from './ScoreboardPage.jsx';
 import { routeFromHash, selectedTeamId } from './season-route.js';
 import { TEAM_TABS, orderedRoster, validTeamSeasons, resolveTeamSeason } from './team-view.js';
 import TeamDraft from './TeamDraft.jsx';
@@ -22,32 +23,12 @@ async function getData(path) {
   return value;
 }
 
-function Team({ team, link = false, season }) {
-  const [logoFailed, setLogoFailed] = useState(false);
-  if (!team) return <span className="team-name">Bye</span>;
-  const logo = assetUrl(team.logo, import.meta.env.BASE_URL);
-  const content = <>
-    {logo && !logoFailed ? <img src={logo} width="36" height="36" alt="" loading="lazy" onError={() => setLogoFailed(true)}/> : <span className="team-logo-fallback" aria-hidden="true">{team.name.slice(0, 1)}</span>}
-    <span className="team-name">{team.name}</span>
-  </>;
-  return link ? <a className="team team-link" href={`#/teams/${season}/${team.teamId}`}>{content}</a> : <span className="team">{content}</span>;
-}
 function Section({ title, meta, children }) {
   return <section className="home-section"><div className="section-title"><h2>{title}</h2>{meta && <span>{meta}</span>}</div>{children}</section>;
 }
 function Card({ title, className = '', children }) {
   return <div className={`content-card ${className}`}>{title && <h3 className="card-title">{title}</h3>}{children}</div>;
 }
-function Match({ match, teams }) {
-  const home = teams.get(match.homeTeamId), away = teams.get(match.awayTeamId);
-  if (match.status === 'bye') return <div className="match"><div className="match-team"><Team team={home || away}/><strong>Bye</strong></div></div>;
-  const score = value => match.status === 'upcoming' ? '—' : value?.toFixed(2) ?? '—';
-  return <div className="match">
-    <div className={`match-team ${match.winnerTeamId != null && match.winnerTeamId === match.awayTeamId ? 'winner' : ''}`}><Team team={away}/><strong>{score(match.awayScore)}</strong></div>
-    <div className={`match-team ${match.winnerTeamId != null && match.winnerTeamId === match.homeTeamId ? 'winner' : ''}`}><Team team={home}/><strong>{score(match.homeScore)}</strong></div>
-  </div>;
-}
-const bracketLabel = bracket => ({ championship: 'Championship bracket', placement: 'Placement', consolation: 'Consolation' })[bracket] || 'Matchup';
 
 function Matchups({ home, teams }) {
   if (!home.currentMatchups.length) return null;
@@ -97,6 +78,7 @@ function Header({ name, page, currentTeams, currentSeason, h2hPair = [] }) {
     <button className="menu-button" type="button" aria-label={open ? 'Close menu' : 'Open menu'} aria-expanded={open} aria-controls="site-menu" onClick={() => setOpen(!open)}><span className={`menu-icon ${open ? 'open' : ''}`}><span/><span/><span/></span></button>
     <nav id="site-menu" className={`site-menu ${open ? 'open' : ''}`} aria-label="Main navigation">
       <a href="#/" aria-current={page === 'home' ? 'page' : undefined} onClick={close}>Home</a>
+      <a href="#/scoreboard" aria-current={page === 'scoreboard' ? 'page' : undefined} onClick={close}>Scoreboard</a>
       <a href="#/standings" aria-current={page === 'standings' ? 'page' : undefined} onClick={close}>Standings</a>
       <div className="teams-menu"><button type="button" aria-expanded={teamsOpen} aria-controls="teams-options" aria-current={page === 'teams' ? 'page' : undefined} onClick={() => { setTeamsOpen(!teamsOpen); setH2hOpen(false); }}>Teams <span aria-hidden="true">▾</span></button>
         {teamsOpen && <div id="teams-options" className="teams-options">{currentTeams.map(team => <a key={team.teamId} href={`#/teams/${currentSeason}/${team.teamId}`} onClick={() => { setTeamsOpen(false); close(); }}>{team.name}</a>)}</div>}</div><div className="teams-menu"><button type="button" aria-expanded={h2hOpen} aria-controls="h2h-options" aria-current={page === 'h2h' ? 'page' : undefined} onClick={() => { setH2hOpen(!h2hOpen); setTeamsOpen(false); }}>H2H <span aria-hidden="true">▾</span></button>{h2hOpen && <div id="h2h-options" className="teams-options">{['historical','theoretical'].map(mode => <a key={mode} href={h2hHash(mode, ...h2hPair)} onClick={() => { setH2hOpen(false); close(); }}>{mode === 'historical' ? 'Historical' : 'Theoretical'}</a>)}</div>}</div><a href="#/record-book" aria-current={page === 'record-book' ? 'page' : undefined} onClick={close}>Record Book</a><a href="#/draft" aria-current={page === 'draft' ? 'page' : undefined} onClick={close}>Draft</a><a href="#/players" aria-current={page === 'players' ? 'page' : undefined} onClick={close}>Players</a>
@@ -136,7 +118,7 @@ function TeamPage({ league, teamsData, selectedId, onTeamChange, draftPath, acti
   </>;
 }
 
-function App() {
+export function App() {
   const [teamTab,setTeamTab]=useState(TEAM_TABS[0]);
   const [manifest, setManifest] = useState(null), [data, setData] = useState(null), [home, setHome] = useState(null), [currentLeague, setCurrentLeague] = useState(null), [error, setError] = useState(null);
   const [hash, setHash] = useState(window.location.hash);
@@ -154,7 +136,7 @@ function App() {
     if (!manifest || !season) return;
     let active = true; setData(null); setError(null);
     const prefix = manifest.leaguePath.replace(/\d+\/league\.json$/, `${season}/`);
-    Promise.all([getData(`${prefix}league.json`), route.page === 'teams' ? getData(`${prefix}teams.json`) : Promise.resolve(null),
+    Promise.all([getData(`${prefix}league.json`), ['teams', 'scoreboard'].includes(route.page) ? getData(`${prefix}teams.json`) : Promise.resolve(null),
                  season === currentSeason ? getData(`${prefix}home.json`) : Promise.resolve(null)])
       .then(([league, teamsData, homeData]) => { if (active) { setData({league, teamsData}); if (homeData) setHome(homeData); document.title = league.league.name; } })
       .catch(problem => { if (active) setError(problem.message); });
@@ -167,18 +149,18 @@ function App() {
     }
   }, [data, route.page, route.teamId, season]);
   if (error) return <main className="page-shell"><p role="alert">{error}. Regenerate the league data and reload.</p></main>;
-  if (!data || !manifest || !currentLeague || route.page === 'home' && !home) return <main className="page-shell"><p role="status">Loading league…</p></main>;
+  if (!data || data.league.league.season !== season || !manifest || !currentLeague || route.page === 'home' && !home) return <main className="page-shell"><p role="status">Loading league…</p></main>;
   const {league, teamsData} = data;
   const teams = new Map(league.standings.map(team => [team.teamId, team]));
   const page = route.page;
   const recordYear = manifest.seasons.includes(Number(route.recordYear)) ? route.recordYear : 'All-Time';
   const changeRecordYear = year => { window.location.hash = year === 'All-Time' ? '#/record-book' : `#/record-book/${year}`; };
   const meta = page === 'home' ? home.state.phase === 'offseason' ? 'Season complete' : `Week ${home.state.currentWeek}` : league.league.complete ? 'Season complete' : 'Current season';
-  const changeSeason = year => { window.location.hash = page === 'teams' ? `#/teams/${year}/${route.teamId || ''}` : `#/standings/${year}`; };
+  const changeSeason = year => { window.location.hash = page === 'scoreboard' ? `#/scoreboard/${year}` : page === 'teams' ? `#/teams/${year}/${route.teamId || ''}` : `#/standings/${year}`; };
   return <><a className="skip" href="#main">Skip to content</a><Header name={league.league.name} page={page} currentTeams={currentLeague.standings} currentSeason={currentSeason} h2hPair={page === 'h2h' ? [route.firstId, route.secondId] : []}/><main id="main" className="page-shell homepage">
-    <header className="page-header"><div><p className="page-eyebrow">{league.league.name}</p><h1>{page === 'home' ? `${league.league.season} Season` : page === 'teams' ? 'Teams' : page === 'draft' ? 'Draft' : page === 'players' ? 'Players' : page === 'record-book' ? 'Record Book' : page === 'h2h' ? `${route.mode === 'theoretical' ? 'Theoretical' : 'Historical'} H2H` : 'Standings'}</h1></div>
+    <header className="page-header"><div><p className="page-eyebrow">{league.league.name}</p><h1>{page === 'home' ? `${league.league.season} Season` : page === 'scoreboard' ? 'Scoreboard' : page === 'teams' ? 'Teams' : page === 'draft' ? 'Draft' : page === 'players' ? 'Players' : page === 'record-book' ? 'Record Book' : page === 'h2h' ? `${route.mode === 'theoretical' ? 'Theoretical' : 'Historical'} H2H` : 'Standings'}</h1></div>
       {page === 'draft' || page === 'players' || page === 'record-book' ? null : page === 'h2h' ? <p className="page-meta">{route.mode === 'theoretical' ? 'Regular-season comparison' : 'Actual matchups'}</p> : page === 'home' ? <p className="page-meta">{meta}</p> : <label className="select-control">Season<select aria-label="Season" value={season} onChange={event => changeSeason(Number(event.target.value))}>{(page === 'teams' ? validTeamSeasons(manifest, route.teamId) : manifest.seasons).map(year => <option key={year} value={year}>{year}</option>)}</select></label>}</header>
-    {page === 'draft' ? <DraftPage path={`${manifest.leaguePath.split('/')[0]}/draft-analysis.json`} loadData={getData} year={route.draftYear} onYearChange={year => { window.location.hash = year === 'Summary' ? '#/draft' : `#/draft/${year}`; }} Team={Team}/> : page === 'players' ? <PlayersPage path={manifest.playersPath || `${manifest.leaguePath.split('/')[0]}/players-index.json`} loadData={getData} playerId={route.playerId} requestedSeason={route.playerSeason} onSeasonChange={year => { window.location.hash = playerHash(route.playerId, year); }} Team={Team} Section={Section}/> : page === 'record-book' ? <RecordBookPage path={manifest.recordBookPath} loadData={getData} year={recordYear} onYearChange={changeRecordYear} Team={Team} Section={Section}/> : page === 'h2h' ? <H2HPage mode={route.mode} selectedFirst={route.firstId} selectedSecond={route.secondId} onPairChange={(a,b) => { window.location.hash = h2hHash(route.mode,a,b); }} path={manifest.h2hPath} loadData={getData} Team={Team} Section={Section}/> : page === 'standings' ? <Standings league={league} linkTeams/> : page === 'teams' ? teamsData && <TeamPage activeTab={teamTab} setActiveTab={setTeamTab} draftPath={manifest.leaguePath.replace(/\d+\/league\.json$/, `${season}/draft.json`)} league={league} teamsData={teamsData} selectedId={route.teamId} onTeamChange={id => { window.location.hash = `#/teams/${season}/${id}`; }}/> : <><Matchups home={home} teams={teams}/><Recap recap={home.recap} teams={teams}/><Standings league={league} title={home.state.phase === 'offseason' ? 'Final Regular-Season Standings' : 'Standings'} linkTeams/></>}
+    {page === 'scoreboard' ? teamsData && <ScoreboardPage key={season} league={league} data={teamsData} currentWeek={season === currentSeason ? home?.state.currentWeek : null}/> : page === 'draft' ? <DraftPage path={`${manifest.leaguePath.split('/')[0]}/draft-analysis.json`} loadData={getData} year={route.draftYear} onYearChange={year => { window.location.hash = year === 'Summary' ? '#/draft' : `#/draft/${year}`; }} Team={Team}/> : page === 'players' ? <PlayersPage path={manifest.playersPath || `${manifest.leaguePath.split('/')[0]}/players-index.json`} loadData={getData} playerId={route.playerId} requestedSeason={route.playerSeason} onSeasonChange={year => { window.location.hash = playerHash(route.playerId, year); }} Team={Team} Section={Section}/> : page === 'record-book' ? <RecordBookPage path={manifest.recordBookPath} loadData={getData} year={recordYear} onYearChange={changeRecordYear} Team={Team} Section={Section}/> : page === 'h2h' ? <H2HPage mode={route.mode} selectedFirst={route.firstId} selectedSecond={route.secondId} onPairChange={(a,b) => { window.location.hash = h2hHash(route.mode,a,b); }} path={manifest.h2hPath} loadData={getData} Team={Team} Section={Section}/> : page === 'standings' ? <Standings league={league} linkTeams/> : page === 'teams' ? teamsData && <TeamPage activeTab={teamTab} setActiveTab={setTeamTab} draftPath={manifest.leaguePath.replace(/\d+\/league\.json$/, `${season}/draft.json`)} league={league} teamsData={teamsData} selectedId={route.teamId} onTeamChange={id => { window.location.hash = `#/teams/${season}/${id}`; }}/> : <><Matchups home={home} teams={teams}/><Recap recap={home.recap} teams={teams}/><Standings league={league} title={home.state.phase === 'offseason' ? 'Final Regular-Season Standings' : 'Standings'} linkTeams/></>}
   </main></>;
 }
-createRoot(document.getElementById('root')).render(<App/>);
+if (document.getElementById('root')) createRoot(document.getElementById('root')).render(<App/>);
