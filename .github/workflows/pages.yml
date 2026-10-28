@@ -69,6 +69,9 @@ jobs:
       - name: Rebuild Draft analysis from normalized snapshots
         run: python football_draft_analysis.py
 
+      - name: Rebuild Team of the Week from normalized snapshots
+        run: python football_team_of_week.py
+
       - uses: pnpm/action-setup@v6
         with:
           version: 11.19.0
