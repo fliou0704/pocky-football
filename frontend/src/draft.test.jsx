@@ -42,7 +42,7 @@ it('keeps picks in original round and overall order and expands the whole round'
   const section = round.closest('section');
   fireEvent.click(within(section).getByRole('button', { name: 'Show all 4' }));
   expect(within(round).getAllByRole('row')).toHaveLength(5);
-  const board = screen.getByRole('table', { name: 'Overall rank movement' });
+  const board = screen.getByRole('table', { name: 'Full draft board' });
   expect(within(board).getAllByRole('row').slice(1).map(r => within(r).getAllByRole('cell')[2].textContent)).toEqual(['1', '2', '3', '4']);
   expect(screen.queryByText('How draft analysis works')).toBeNull();
   expect(screen.queryByText('Who makes their picks count?')).toBeNull();
@@ -66,4 +66,18 @@ it('renders active-only Summary contracts with separate position movement', asyn
   expect(await screen.findByText(/Only managers active in 2026/)).toBeTruthy();
   expect(screen.getByRole('heading', { name: 'RB drafting' })).toBeTruthy();
   expect(screen.queryByText(/draft value/i)).toBeNull();
+});
+it('shows complete pick evidence inline with logos and unavailable values', async () => {
+  const data = loadSeason();
+  const evidence = [pick(1, 1), pick(2, 2)];
+  data.summary = { activeSeason: 2026, seasons: [2025], teams: [{ managerId: 'alice', manager: 'Alice', team,
+    seasons: [2025], picks: 2, evidence }], positions: {}, tendencies: {},
+    rookies: { count: 0, unknownPicks: 0, teams: [], positions: {} }, trends: {} };
+  render(<DraftPage path="draft.json" loadData={() => Promise.resolve(data)} Team={Team}/>);
+  const table = await screen.findByRole('table', { name: 'Supporting draft picks' });
+  fireEvent.click(table.closest('details').querySelector('summary'));
+  expect(within(table).getAllByRole('row')).toHaveLength(3);
+  expect(within(table).getByText('Player 1')).toBeTruthy();
+  expect(table.querySelectorAll('img')).toHaveLength(2);
+  expect(within(table).getByText('Position finish')).toBeTruthy();
 });
