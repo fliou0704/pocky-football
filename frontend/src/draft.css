@@ -31,3 +31,8 @@
   .draft-page th,.draft-page td { padding:11px; }
   .draft-panel { padding:12px; }
 }
+.draft-evidence { display:block; max-height:420px; margin-top:12px; }
+.draft-evidence td { vertical-align:top; }
+.draft-page summary { cursor:pointer; color:var(--brand-strong); }
+.draft-page tr:has(.draft-positive) { background:rgba(20,128,68,.025); }
+@media(max-width:600px) { .draft-evidence { max-width:78vw; } .draft-page .section-title { flex-wrap:wrap; gap:8px; } }

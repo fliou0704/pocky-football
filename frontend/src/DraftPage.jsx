@@ -44,10 +44,14 @@ function Player({ pick }) {
 }
 
 function Evidence({ row }) {
-  return <details><summary>View picks</summary><div className="draft-evidence">
-    {row.evidence.map(p => <a key={`${p.season}/${p.overallPick}`} href={`#/draft/${p.season}?pick=${p.overallPick}`}>
-      {p.season} · #{p.overallPick}
-    </a>)}
+  return <details><summary>View {row.evidence.length} picks</summary><div className="draft-scroll draft-evidence">
+    <table aria-label="Supporting draft picks"><thead><tr>{['Season', 'Round / pick', 'Player', 'Fantasy team', 'Season FPTS', 'Position finish', 'FPTS above expectation', 'Draft position gain'].map(c => <th key={c}>{c}</th>)}</tr></thead>
+    <tbody>{row.evidence.map(p => <tr key={`${p.season}/${p.overallPick}`}>
+      <td>{p.season}</td><td>{p.round} / #{p.overallPick}</td><td><Player pick={p}/></td>
+      <td>{p.team.logo && <img src={p.team.logo} width="28" height="28" alt=""/>}{p.team.name}<small>{p.manager}</small></td>
+      <td><Points pick={p}/></td><td>{p.position}{fmt(p.positionalRank)}</td>
+      <td><Movement value={p.pointsSurplus}/></td><td><Movement value={p.draftPositionGain}/><small>{p.draftPositionGain == null ? p.benchmarkStatus : ''}</small></td>
+    </tr>)}</tbody></table>
   </div></details>;
 }
 
@@ -69,18 +73,18 @@ export default function DraftPage({ path, loadData, year = 'Summary', onYearChan
   const roundColumns = [
     ['Manager / team', teamCell], ['Seasons', r => r.seasons.join(', ')],
     ['Picks with round ranks', r => `${r.roundsEvaluated} / ${r.picks}`],
-    ['Avg round rank ↓', r => fmt(r.averageRoundRank)], ['Normalized round score ↑', r => fmt(r.roundScore)],
-    ['Rounds won', r => r.roundWins], ['Underlying picks', r => <Evidence row={r}/>],
+    ['Avg round rank ↓', r => fmt(r.averageRoundRank)], ['Avg FPTS above expectation', r => <Movement value={r.averageSurplus}/>],
+    ['Rounds won', r => r.roundWins], ['Sleepers', r => r.sleepers], ['Picks above expectation %', r => fmt(r.successRate)], ['Underlying picks', r => <Evidence row={r}/>],
   ];
   const positionTeamColumns = [
     ['Manager / team', teamCell], ['Seasons', r => r.seasons.join(', ')], sample,
-    ['Avg positional movement', r => <Movement value={r.averageMovement}/>],
-    ['Total positional movement', r => <Movement value={r.totalMovement}/>],
+    ['Avg FPTS above expectation', r => <Movement value={r.averageSurplus}/>],
+    ['Picks above expectation %', r => fmt(r.successRate)],
     ['Avg season FPTS', r => fmt(r.averagePoints, 2)], ['Underlying picks', r => <Evidence row={r}/>],
   ];
   const pickIdentity = [['Player', p => <Player pick={p}/>], ['Fantasy team', teamCell], ['Draft pick', p => p.overallPick]];
   const overallColumns = [...pickIdentity, ['Season FPTS', p => <Points pick={p}/>],
-    ['Final overall rank', p => fmt(p.overallRank)], ['Overall movement', p => <Movement value={p.overallMovement}/>]];
+    ['Position finish', p => `${p.position} ${fmt(p.positionalRank)}`], ['Benchmark pick', p => p.benchmarkPick ?? '—'], ['Draft position gain', p => <Movement value={p.draftPositionGain}/>]];
   const positionColumns = [...pickIdentity, ['Positional draft order', p => p.draftPositionRank],
     ['Final positional rank', p => fmt(p.positionalRank)], ['Positional movement', p => <Movement value={p.positionalMovement}/>],
     ['Season FPTS', p => <Points pick={p}/>]];
@@ -94,10 +98,10 @@ export default function DraftPage({ path, loadData, year = 'Summary', onYearChan
       <p className="draft-description">{season.teamCount} teams · {season.picks.length} picks · {season.completedWeeks.length} completed fantasy weeks.
         {' '}{season.missingScores} unresolved scoring totals. Season FPTS use ESPN league scoring through the fantasy season, including playoffs; unused NFL weeks are excluded.</p>
       {table('Team round performance', season.teams, roundColumns,
-        'Ordered by normalized round score: 100 × (picks in round − rank) ÷ (picks in round − 1). Higher is better; average raw rank is lower-is-better. Tied highest scores share a round win.')}
-      <h2 className="draft-group-title">Round-by-round rankings</h2>
+        'Round wins count tied leaders. Raw round ranks depend on league size; compare samples alongside results.')}
+      <h2 className="draft-group-title">Round-by-round draft results</h2>
       <p className="draft-description">Rounds and picks stay in original draft order. Performance rank compares season FPTS within that round; ties receive average ranks. A round with unresolved scoring remains unranked.</p>
-      {season.rounds.map(round => <div key={`${year}/${round.round}`}>
+      {season.rounds.map(round => <details className="draft-panel content-card" key={`${year}/${round.round}`} open={undefined}><summary>Round {round.round} · {round.leaders?.map(p => p.playerName).join(" / ") || "Results unavailable"}</summary>
         {round.leaders?.length > 0 && <p className="draft-standout"><strong>Round {round.round} standout{round.leaders.length > 1 ? 's' : ''}:</strong>{' '}
           {round.leaders.map(p => `${p.playerName} · ${p.team.name} · ${fmt(p.points, 2)} FPTS`).join(' / ')}
         </p>}
@@ -105,12 +109,13 @@ export default function DraftPage({ path, loadData, year = 'Summary', onYearChan
           [['Round rank', p => fmt(p.roundRank)], ['Overall pick', p => p.overallPick], ['Pick in round', p => p.pickInRound],
             ['Player', p => <Player pick={p}/>], ['Fantasy team', teamCell], ['Season FPTS', p => <Points pick={p}/>]],
           null, 3, false)}
-      </div>)}
+      </details>)}
+
+      {table('Best draft position gains', season.risers, overallColumns,
+        'Gain = actual pick − the original pick of the Nth player drafted at this position, where N is final positional rank. Positive means selected later than the benchmark. Missing benchmarks are excluded; averages would favor survivors.', 10)}
+      {table('Largest draft position losses', season.fallers, overallColumns, 'Negative means selected earlier than the positional benchmark. Expand to inspect every available loss.', 10)}
       <DraftBoard key={year} picks={season.picks} columns={overallColumns}/>
-      {table('Top 10 Risers', season.risers, overallColumns,
-        'Overall rank movement = original overall draft pick − final overall fantasy-point rank. Descriptive only: positions have different scoring distributions.', 10)}
-      {table('Top 10 Fallers', season.fallers, overallColumns, 'Negative movement means finishing below original draft position. Expand for every eligible faller.', 10)}
-      <details className="draft-panel content-card"><summary>Positional rank movement</summary>
+      <details className="draft-panel content-card"><summary>Positional rank movement (diagnostic)</summary>
         <p className="draft-description">Positional draft order − final positional rank, including undrafted players in final ranks. Each position is compared independently.</p>
         <label className="select-control">Position<select aria-label="Draft position" value={position} onChange={e => setPosition(e.target.value)}>
           {Object.keys(season.positions).map(pos => <option key={pos}>{pos}</option>)}
@@ -120,27 +125,35 @@ export default function DraftPage({ path, loadData, year = 'Summary', onYearChan
       </details>
     </> : <>
       <p className="draft-description">Only managers active in {summary.activeSeason}. Historical performance includes completed seasons {summary.seasons.join(', ')}.
-        {' '}Overall comparisons use normalized within-round results; positional movement is kept separate for QB, RB, WR, TE, K and D/ST.</p>
+        {' '}Performance compares actual points with historical points at the same positional draft slot. Positions remain separate.</p>
       {table('Overall round performance', summary.teams, roundColumns,
-        'Higher normalized round score is better across different league sizes. Round wins count tied leaders. Check evaluated samples; no combined positional score is used.')}
+        'FPTS above expectation uses the same positional draft slot in other completed seasons. Higher is better. Round ranks and wins are descriptive; samples and league sizes vary. A sleeper gains at least one league round (team count) against its positional benchmark. Missing benchmarks are excluded from sleeper counts.')}
       <h2 className="draft-group-title">Positional drafting performance</h2>
-      <p className="draft-description">Movement = positional draft order − final positional rank among all eligible players, including undrafted players. Positive means outperforming draft order. Ordered by average movement per pick; totals and sample sizes are context.</p>
+      <p className="draft-description">FPTS above expectation = season points minus average points at the same positional draft slot in other completed seasons. Injuries and zero-point outcomes remain included. This avoids magnifying differences between low-end ranks. Compare managers within each position; fewer than 10 picks is a small sample.</p>
       {Object.entries(summary.positions).map(([pos, rows]) => table(`${pos} drafting`, rows, positionTeamColumns))}
       <details className="draft-panel content-card"><summary>Positional draft tendencies</summary>
-        <p className="draft-description">First-pick timing counts each manager-season once. Normalized pick = 1 + (overall pick − 1) ÷ team count.</p>
+        <p className="draft-description">QB, TE, K and D/ST show the first selection each season. RB/WR show all selections: capital is remaining draft slots (total picks + 1 − pick), a transparent linear allocation proxy. Early means rounds 1–3. Points describe outcomes, not evidence of causation.</p>
         {Object.entries(summary.tendencies).map(([pos, rows]) => table(`${pos} draft tendencies`, rows,
           [['Manager / team', teamCell], ['Seasons', r => r.seasons.join(', ')], ['Picks', r => r.picks],
-            ['Avg round', r => fmt(r.averageRound)], ['Normalized pick', r => fmt(r.normalizedPick)],
-            ['Typical first round', r => fmt(r.firstRound)], ['Avg first round', r => fmt(r.averageFirstRound)],
-            ['Pick share %', r => fmt(r.share)], ['First picks', r => <Evidence row={r}/>]], null, 5))}
+            ['Avg round', r => fmt(r.averageRound)], ['Avg first overall pick', r => fmt(r.averageFirstPick)],
+            ['Early-round picks', r => r.earlyPicks], ['Avg first round', r => fmt(r.averageFirstRound)],
+            ['Pick share %', r => fmt(r.share)], ['Capital share %', r => fmt(r.capitalShare)], ['First selection FPTS', r => fmt(r.averageFirstPoints)], ['First picks', r => <Evidence row={r}/>]], null, 5))}
       </details>
+      {table('Does earlier first selection help?', summary.timingComparison || [], [
+        ['Position', r => r.position], ['Draft half', r => r.timing], ['Manager-seasons', r => r.picks],
+        ['Avg season FPTS', r => fmt(r.averagePoints)], ['Avg FPTS above expectation', r => <Movement value={r.averageSurplus}/>], ['Selections', r => <Evidence row={r}/>]
+      ], 'First selections grouped by the first or second half of that season’s draft. Observational averages; samples and manager choices differ.', 8)}
       <details className="draft-panel content-card"><summary>Rookie analysis</summary>
         <p className="draft-description">{summary.rookies.count} rookie picks by active managers; {summary.rookies.unknownPicks} player picks have unknown rookie status. Classification uses NFL rookie-season metadata, never missing NFL draft metadata. Movement is compared separately within each position.</p>
+        {table('Rookies versus non-rookies', summary.rookieComparison || [], [
+          ['Position', r => r.position], ['Group', r => r.rookie ? 'Rookie' : 'Non-rookie'], ['Picks', r => r.picks],
+          ['Avg FPTS above expectation', r => <Movement value={r.averageSurplus}/>], ['Above expectation %', r => fmt(r.successRate)], ['Selections', r => <Evidence row={r}/>]
+        ], 'Points are compared with the same positional draft slot in other seasons. Small groups are descriptive and do not establish a rookie advantage.', 6)}
         {table('Rookie selections by manager', summary.rookies.teams, [
           ['Manager / team', teamCell], ['Seasons', r => r.seasons.join(', ')], ['Rookie picks', r => r.picks],
           ['Rookie share %', r => fmt(r.rookieShare)], ['Avg rookie round', r => fmt(r.averageDraftRound)],
-          ['Normalized pick', r => fmt(r.averageNormalizedPick)], ['Underlying picks', r => <Evidence row={r}/>],
-        ], 'Managers shown in normalized round-performance order; counts and share describe selection frequency.')}
+           ['Underlying picks', r => <Evidence row={r}/>],
+        ], 'Compare share and average round alongside sample sizes; performance is shown separately by position.')}
         {Object.entries(summary.rookies.positions).filter(([, rows]) => rows.length).map(([pos, rows]) =>
           table(`${pos} rookie movement`, rows, positionTeamColumns))}
       </details>
@@ -172,7 +185,7 @@ function DraftBoard({ picks, columns }) {
   return <div id="draft-board">
     <label className="select-control">Find a draft pick<input aria-label="Find a draft pick" type="search" value={query}
       onChange={e => setQuery(e.target.value)} placeholder="Player, manager, position or pick number"/></label>
-    <DraftTable title="Overall rank movement" rows={match} columns={columns} initial={10}
-      description="Entire draft in original pick order. Movement = original overall pick − final overall fantasy rank, including eligible undrafted players. This describes rank movement, not equal value across positions."/>
+    <DraftTable title="Full draft board" rows={match} columns={columns} initial={10}
+      description="Entire draft in original pick order. Unavailable gains include missing scores, fractional tied ranks, and finishes beyond the drafted positional pool. Zero scores remain real outcomes; incomplete seasons have no final gains."/>
   </div>;
 }

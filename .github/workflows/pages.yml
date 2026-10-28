@@ -46,6 +46,7 @@ jobs:
         run: python -m unittest discover -s tests -v
 
       - name: Refresh ESPN data, activity and records
+        if: github.event_name != 'push'
         env:
           ESPN_S2: ${{ secrets.ESPN_S2 }}
           SWID: ${{ secrets.SWID }}

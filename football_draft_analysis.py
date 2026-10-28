@@ -140,7 +140,7 @@ def season_points(player, weeks, games):
     return scoring_details(player, weeks, games)['points']
 
 
-def aggregate(rows, sort_by='roundScore'):
+def aggregate(rows, sort_by='averageSurplus'):
     """Separate round and position movement statistics; never combine positions into a score."""
     groups = defaultdict(list)
     for pick in rows:
@@ -148,20 +148,22 @@ def aggregate(rows, sort_by='roundScore'):
     result = []
     for manager_id, picks in groups.items():
         eligible = [p for p in picks if p['positionalMovement'] is not None]
-        rounds = [p for p in picks if p['roundScore'] is not None]
+        rounds = [p for p in picks if p['roundRank'] is not None]
         last = max(picks, key=lambda p: p['season'])
         result.append({
             'managerId': manager_id, 'manager': last['manager'], 'team': last['team'],
             'seasons': sorted({p['season'] for p in picks}), 'picks': len(picks),
-            'eligiblePicks': len(eligible), 'roundsEvaluated': len(rounds),
+            'eligiblePicks': sum(p.get('pointsSurplus') is not None for p in picks), 'roundsEvaluated': len(rounds),
             'averageMovement': avg([p['positionalMovement'] for p in eligible]),
             'totalMovement': round(sum(p['positionalMovement'] for p in eligible), 3) if eligible else None,
             'averageRoundRank': avg([p['roundRank'] for p in rounds]),
-            'roundScore': avg([p['roundScore'] for p in rounds]),
+            'averageSurplus': avg([p.get('pointsSurplus') for p in picks]),
+            'successRate': avg([100 * (p['pointsSurplus'] > 0) for p in picks if p.get('pointsSurplus') is not None]),
+            'sleepers': sum(p.get('draftPositionGain') is not None and p['draftPositionGain'] >= p['teamCount'] for p in picks),
             'roundWins': sum(p['roundWinner'] for p in rounds),
             'averagePoints': avg([p['points'] for p in picks]),
             'averageDraftRound': avg([p['round'] for p in picks]),
-            'averageNormalizedPick': avg([p['normalizedPick'] for p in picks]),
+
             'smallSample': len(eligible) < 10,
             'evidence': [{'season': p['season'], 'overallPick': p['overallPick']} for p in picks],
         })
@@ -182,11 +184,37 @@ def tendencies(rows):
             latest = max(picks, key=lambda p: p['season'])
             leaders.append({'managerId': mid, 'manager': latest['manager'], 'team': latest['team'], 'picks': len(picks),
                             'seasons': sorted({p['season'] for p in picks}), 'averageRound': avg([p['round'] for p in picks]),
-                            'normalizedPick': avg([p['normalizedPick'] for p in picks]), 'firstRound': median([p['round'] for p in first]),
+                            'averageFirstPick': avg([p['overallPick'] for p in first]), 'firstRound': median([p['round'] for p in first]),
+                            'capitalShare': round(100 * sum(p['draftCapital'] for p in picks) / sum(p['draftCapital'] for p in rows if p['managerId'] == mid), 2),
+                            'earlyPicks': sum(p['round'] <= 3 for p in picks),
+                            'averageFirstPoints': avg([p['points'] for p in first]),
                             'averageFirstRound': avg([p['round'] for p in first]), 'share': round(100 * len(picks) / total, 2),
-                            'earliest': min(picks, key=lambda p: p['normalizedPick']), 'evidence': first})
+                            'earliest': min(picks, key=lambda p: p['overallPick']), 'evidence': picks if position in ('RB', 'WR') else first})
         result[position] = sorted(leaders, key=lambda p: (p['averageFirstRound'], p['managerId']))
     return result
+
+
+def positional_benchmark(actual_pick, final_rank, draft_picks):
+    """Fractional midranks have no Nth selection: never interpolate capital."""
+    if final_rank is None:
+        return None, 'missing_rank'
+    if final_rank != int(final_rank):
+        return None, 'fractional_tie'
+    if not 1 <= int(final_rank) <= len(draft_picks):
+        return None, 'beyond_drafted_position'
+    reference = draft_picks[int(final_rank) - 1]
+    return actual_pick - reference, 'available'
+
+
+def apply_benchmarks(picks, valid=True):
+    for pos in POSITIONS:
+        cohort = [p for p in picks if p['position'] == pos]
+        order = [p['overallPick'] for p in cohort]
+        for p in cohort:
+            gain, status = positional_benchmark(p['overallPick'], p['positionalRank'], order)
+            p['draftPositionGain'] = gain if valid else None
+            p['benchmarkStatus'] = status if valid else 'provisional'
+            p['benchmarkPick'] = p['overallPick'] - gain if gain is not None and valid else None
 
 
 def analyze_season(year, league, teams, draft, scoring, games, metadata, identities):
@@ -224,12 +252,13 @@ def analyze_season(year, league, teams, draft, scoring, games, metadata, identit
                       'position': pos, 'nflTeam': source.get('nflTeam'), 'headshot': meta.get('headshot'),
                       'rookie': rookie_status(meta, year), 'points': details[pid]['points'],
                       'overallRank': overall.get(pid) if valid else None, 'positionalRank': positional.get(pos, {}).get(pid) if valid else None,
-                      'normalizedPick': round((original['overallPick'] - 1) / n + 1, 3),
+                      'teamCount': n, 'draftCapital': len(draft['picks']) + 1 - original['overallPick'],
+                      'pointsSurplus': None, 'draftPositionGain': None, 'benchmarkPick': None, 'benchmarkStatus': 'provisional',
                       'positionalMovement': None, 'overallMovement': None, 'draftPositionRank': None,
                       'scoringStatus': details[pid]['reason'], 'scoreEvidence': details[pid]['evidence'],
                       'missingWeeks': details[pid]['unresolved'],
                       'evaluationStatus': ('missing_scoring' if details[pid]['points'] is None else 'unknown_position' if not player else 'final' if valid else 'provisional'),
-                      'roundRank': None, 'roundScore': None, 'roundWinner': False})
+                      'roundRank': None, 'roundWinner': False})
     # Draft order includes every original selection at this position, even a
     # missing scorer. Final positional rank includes eligible UNDRAFTED players.
     for pos in POSITIONS:
@@ -249,13 +278,14 @@ def analyze_season(year, league, teams, draft, scoring, games, metadata, identit
                 continue
             ranks = midranks(cohort, 'points'); best = max(p['points'] for p in cohort)
             for p in cohort:
-                p.update(roundRank=ranks[p['playerId']], roundScore=round(100 * (len(cohort)-ranks[p['playerId']]) / max(1, len(cohort)-1), 3),
+                p.update(roundRank=ranks[p['playerId']],
                          roundWinner=p['points'] == best)
+    apply_benchmarks(picks, valid)
     return {'season': year, 'complete': complete, 'performanceEligible': bool(valid), 'weeks': used_weeks, 'completedWeeks': final_weeks,
             'teamCount': n, 'draftCoverage': draft.get('coverage'), 'picks': picks, 'teams': round_aggregates(picks),
-            'risers': sorted([p for p in picks if p['overallMovement'] is not None and p['overallMovement'] > 0], key=lambda p: (-p['overallMovement'], p['overallPick'])),
-            'fallers': sorted([p for p in picks if p['overallMovement'] is not None and p['overallMovement'] < 0], key=lambda p: (p['overallMovement'], p['overallPick'])),
-            'positions': {pos: {'teams': aggregate([p for p in picks if p['position'] == pos], 'averageMovement'),
+            'risers': sorted([p for p in picks if p['draftPositionGain'] is not None and p['draftPositionGain'] > 0], key=lambda p: (-p['draftPositionGain'], p['overallPick'])),
+            'fallers': sorted([p for p in picks if p['draftPositionGain'] is not None and p['draftPositionGain'] < 0], key=lambda p: (p['draftPositionGain'], p['overallPick'])),
+            'positions': {pos: {'teams': aggregate([p for p in picks if p['position'] == pos], 'averageSurplus'),
                                 'picks': [p for p in picks if p['position'] == pos]} for pos in POSITIONS},
             'missingScores': sum(p['points'] is None for p in picks),
             'rounds': [{'round': rnd, 'picks': [p for p in picks if p['round'] == rnd],
@@ -270,23 +300,28 @@ def round_aggregates(rows):
 def build_summary(seasons, active_ids, latest):
     rows = [p for season in seasons.values() if season['performanceEligible']
             for p in season['picks'] if p['managerId'] in active_ids]
+    # Keep rookie analysis by position; do not average unrelated positional ranks.
     rookies = [p for p in rows if p['rookie'] is True]
     rookie_teams = aggregate(rookies)
     for team in rookie_teams:
         team['rookieShare'] = round(100 * team['picks'] / sum(p['managerId'] == team['managerId'] for p in rows), 2)
-    # Keep rookie analysis by position; do not average unrelated positional ranks.
     return {
         'activeSeason': latest, 'activeManagerIds': sorted(active_ids),
         'seasons': [s['season'] for s in seasons.values() if s['performanceEligible']],
         'teams': round_aggregates(rows),
-        'positions': {pos: aggregate([p for p in rows if p['position'] == pos], 'averageMovement') for pos in POSITIONS},
+        'positions': {pos: aggregate([p for p in rows if p['position'] == pos], 'averageSurplus') for pos in POSITIONS},
         'tendencies': tendencies(rows),
+        'rookieComparison': [{'position': pos, 'rookie': status, 'picks': len(group), 'averageSurplus': avg([p.get('pointsSurplus') for p in group]), 'successRate': avg([100 * (p['pointsSurplus'] > 0) for p in group if p.get('pointsSurplus') is not None]), 'evidence': group}
+                             for pos in POSITIONS for status in (True, False)
+                             for group in [[p for p in rows if p['position'] == pos and p['rookie'] is status]] if group],
+        'timingComparison': [{'position': pos, 'timing': label, 'picks': len(group), 'averagePoints': avg([p['points'] for p in group]), 'averageSurplus': avg([p.get('pointsSurplus') for p in group]), 'evidence': group}
+                             for pos in ('QB', 'TE', 'K', 'D/ST') for label in ('First half', 'Second half')
+                             for first in [[p for p in rows if p['position'] == pos and p['overallPick'] == min(q['overallPick'] for q in rows if q['managerId'] == p['managerId'] and q['season'] == p['season'] and q['position'] == pos)]]
+                             for group in [[p for p in first if ('First half' if p['round'] <= max(q['round'] for q in rows if q['season'] == p['season']) / 2 else 'Second half') == label]] if group],
         'rookies': {'teams': [{k: v for k, v in r.items() if k not in ('averageMovement', 'totalMovement')} for r in rookie_teams],
-                    'positions': {pos: aggregate([p for p in rookies if p['position'] == pos], 'averageMovement') for pos in POSITIONS},
+                    'positions': {pos: aggregate([p for p in rookies if p['position'] == pos], 'averageSurplus') for pos in POSITIONS},
                     'count': len(rookies), 'unknownPicks': sum(p['rookie'] is None and p['position'] != 'D/ST' for p in rows)},
-        'trends': {label: round_aggregates([p for p in rows if predicate(p)]) for label, predicate in [
-            ('First-round performance', lambda p: p['round'] == 1),
-            ('Late-round performance', lambda p: p['round'] >= 10)]},
+        'trends': {f'Round {rnd}': round_aggregates([p for p in rows if p['round'] == rnd]) for rnd in sorted({p['round'] for p in rows})},
     }
 
 
@@ -324,6 +359,15 @@ def build_draft_analysis(output='frontend/public/data', slug='pocky-football', y
                                     read(root/f'{y}/player-scoring.json'), read(root/f'{y}/player-games.json'), metadata, identities) for y in years}
     latest = max(years)
     active_ids = {identify(latest, team, identities)[0] for team in read(root/f'{latest}/league.json')['standings']}
+    historical = [p for season in seasons.values() if season['performanceEligible'] for p in season['picks']]
+    for p in historical:
+        peers = [q['points'] for q in historical if q['position'] == p['position'] and q['draftPositionRank'] == p['draftPositionRank'] and q['season'] != p['season'] and q['points'] is not None]
+        p['expectationSample'] = len(peers)
+        p['pointsSurplus'] = round(p['points'] - mean(peers), 2) if peers and p['points'] is not None else None
+    for season in seasons.values():
+        season['teams'] = round_aggregates(season['picks'])
+        for pos in POSITIONS:
+            season['positions'][pos]['teams'] = aggregate(season['positions'][pos]['picks'])
     summary = build_summary(seasons, active_ids, latest)
     audit = build_audit(seasons, root, metadata)
     data = {'schemaVersion': 1, 'years': list(reversed(years)), 'seasons': seasons, 'summary': summary, 'audit': audit}

@@ -130,25 +130,12 @@ class DraftAnalysisTests(unittest.TestCase):
         picks = analyze_season(*args)['picks']
         self.assertTrue(all(p['roundWinner'] for p in picks[:2]))
         self.assertEqual(picks[0]['roundRank'], 1.5)
-        self.assertEqual(picks[0]['roundScore'], 50)
         self.assertEqual([r['averageMovement'] for r in aggregate(picks)],
                          [r['averageMovement'] for r in aggregate(picks+picks)])
 
     def test_unused_nfl_week_is_excluded(self):
         args = self.fixture(); args[4]['players'][0]['pointsByWeek']['18'] = 999
         self.assertEqual(analyze_season(*args)['picks'][0]['points'], 200)
-
-    def test_round_normalization_is_comparable_across_league_sizes(self):
-        small = analyze_season(*self.fixture())
-        args = self.fixture()
-        for i in range(3, 5):
-            args[1]['standings'].append({'teamId': i, 'name': str(i), 'owner': str(i)})
-        for pick in args[3]['picks']:
-            pick.update(round=1, pickInRound=pick['overallPick'], teamId=pick['overallPick'])
-        large = analyze_season(*args)
-        self.assertEqual(max(p['roundScore'] for p in small['picks']), 100)
-        self.assertEqual(max(p['roundScore'] for p in large['picks']), 100)
-        self.assertEqual(min(p['roundScore'] for p in large['picks']), 0)
 
     def test_conflicts_withhold_performance(self):
         args = self.fixture(); args[4]['coverage'] = {'conflicts': [{'playerId': 1}]}
