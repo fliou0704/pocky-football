@@ -183,3 +183,7 @@ button.h2h-result:hover,button.h2h-result[aria-expanded="true"] { background:var
 .draft-table small { display:block; margin-top:4px; font-size:.65rem; color:var(--muted); white-space:nowrap; }
 .draft-table tbody th { width:100%; }
 @media(max-width:479px) { .draft-table th,.draft-table td { padding:12px 8px; } .draft-table { font-size:.78rem; } .team-tabs { display:flex; } .team-tabs button { flex:1; } }
+
+.scoreboard-controls { justify-content: flex-start; gap: 1rem; }
+.scoreboard-controls button { padding: .65rem 1rem; border: 1px solid var(--border, #ddd); border-radius: 6px; background: transparent; color: inherit; cursor: pointer; }
+.scoreboard-controls button:disabled { opacity: .35; cursor: default; }
