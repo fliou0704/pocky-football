@@ -1,6 +1,8 @@
 {
   "schemaVersion": 1,
+  "algorithmVersion": 2,
   "season": 2023,
+  "sourceHash": "a47f244b5a11af92097cb1a58552595b61b1d9dbbce34c0382fb9e8a982abd4d",
   "weeks": {
     "1": {
       "totalPoints": 256.34,
@@ -13,7 +15,11 @@
           "position": "QB",
           "points": 27.14,
           "nflOpponent": "LAC",
-          "teamId": 12
+          "teamId": 12,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ofdaeqinzmboli54fyis",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 3042519,
@@ -23,7 +29,11 @@
           "position": "RB",
           "points": 26.7,
           "nflOpponent": "CHI",
-          "teamId": 11
+          "teamId": 11,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bktkfvgfwujkdbzkcfim",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 3068267,
@@ -33,7 +43,11 @@
           "position": "RB",
           "points": 26.4,
           "nflOpponent": "MIA",
-          "teamId": 7
+          "teamId": 7,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/sldndpn2zwt4uhkj2zks",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 3116406,
@@ -43,7 +57,11 @@
           "position": "WR",
           "points": 44.5,
           "nflOpponent": "LAC",
-          "teamId": 15
+          "teamId": 15,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gg73gnfivrn80oyqwazl",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 3916433,
@@ -53,7 +71,11 @@
           "position": "WR",
           "points": 29.1,
           "nflOpponent": "DEN",
-          "teamId": 16
+          "teamId": 16,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zrs4ij8mvw7wr1uujwew",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 3046439,
@@ -62,7 +84,11 @@
           "nflTeam": "NE",
           "points": 16.6,
           "teamId": null,
-          "slot": "TE"
+          "slot": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hfbzcsv4v7fdpohl42mk",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4360438,
@@ -72,7 +98,11 @@
           "position": "WR",
           "points": 32.9,
           "nflOpponent": "PIT",
-          "teamId": 12
+          "teamId": 12,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/avzzxycxyculxxqce5k7",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": -16006,
@@ -82,7 +112,11 @@
           "position": "D/ST",
           "points": 35.0,
           "nflOpponent": "NYG",
-          "teamId": 15
+          "teamId": 15,
+          "headshot": null,
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+          "entityType": "team_defense",
+          "hasProfile": true
         },
         {
           "playerId": 10621,
@@ -91,12 +125,17 @@
           "nflTeam": "TEN",
           "points": 18.0,
           "teamId": null,
-          "slot": "K"
+          "slot": "K",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wyxpq0sdnno4p7hi5igm",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         }
       ],
       "status": "available",
       "playerCount": 653,
-      "pool": "Recorded weekly rosters (including benches) and additional players with committed weekly scores. Coverage is limited to the committed scoring pool."
+      "excludedUnscoredPlayers": 0,
+      "pool": "Players with reliable recorded actual weekly scores, including benches and unrostered players."
     },
     "2": {
       "totalPoints": 244.54,
@@ -109,7 +148,11 @@
           "position": "QB",
           "points": 30.74,
           "nflOpponent": "ARI",
-          "teamId": 1
+          "teamId": 1,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yslz8jcyiekbmm7iguxm",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4241474,
@@ -119,7 +162,11 @@
           "position": "RB",
           "points": 28.9,
           "nflOpponent": "DEN",
-          "teamId": 6
+          "teamId": 6,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/n1xhex1ytisxcbcggqu7",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4430737,
@@ -129,7 +176,11 @@
           "position": "RB",
           "points": 28.0,
           "nflOpponent": "SF",
-          "teamId": 2
+          "teamId": 2,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xti3pek6rmojqchakxpy",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 15818,
@@ -139,7 +190,11 @@
           "position": "WR",
           "points": 31.1,
           "nflOpponent": "TEN",
-          "teamId": 11
+          "teamId": 11,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ri267r6lzfwarh89hsn6",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 16737,
@@ -149,7 +204,11 @@
           "position": "WR",
           "points": 29.1,
           "nflOpponent": "CHI",
-          "teamId": 9
+          "teamId": 9,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zc4ujpmndyxrbiyyjomz",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4036133,
@@ -159,7 +218,11 @@
           "position": "TE",
           "points": 25.6,
           "nflOpponent": "PHI",
-          "teamId": 2
+          "teamId": 2,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rs8o65x0u0n9xzde0fd6",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4426515,
@@ -169,7 +232,11 @@
           "position": "WR",
           "points": 30.1,
           "nflOpponent": "SF",
-          "teamId": 3
+          "teamId": 3,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ipy6qw7hdygdfc8k86ba",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": -16023,
@@ -179,7 +246,11 @@
           "position": "D/ST",
           "points": 23.0,
           "nflOpponent": "CLE",
-          "teamId": 13
+          "teamId": 13,
+          "headshot": null,
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+          "entityType": "team_defense",
+          "hasProfile": true
         },
         {
           "playerId": 3953687,
@@ -188,12 +259,17 @@
           "nflTeam": "DAL",
           "points": 18.0,
           "teamId": null,
-          "slot": "K"
+          "slot": "K",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bgwg06zmyohjxvzznbf6",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         }
       ],
       "status": "available",
       "playerCount": 661,
-      "pool": "Recorded weekly rosters (including benches) and additional players with committed weekly scores. Coverage is limited to the committed scoring pool."
+      "excludedUnscoredPlayers": 0,
+      "pool": "Players with reliable recorded actual weekly scores, including benches and unrostered players."
     },
     "3": {
       "totalPoints": 322.36,
@@ -206,7 +282,11 @@
           "position": "QB",
           "points": 29.3,
           "nflOpponent": "MIN",
-          "teamId": 2
+          "teamId": 2,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jnkspnntgebegzp4ghve",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 2576414,
@@ -216,7 +296,11 @@
           "position": "RB",
           "points": 45.2,
           "nflOpponent": "DEN",
-          "teamId": 11
+          "teamId": 11,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fas5rkweusx2hl7abtzh",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4429160,
@@ -226,7 +310,11 @@
           "position": "RB",
           "points": 51.3,
           "nflOpponent": "DEN",
-          "teamId": 1
+          "teamId": 1,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xk1xwio0bryfxo1ylweu",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 15818,
@@ -236,7 +324,11 @@
           "position": "WR",
           "points": 45.46,
           "nflOpponent": "MIN",
-          "teamId": 11
+          "teamId": 11,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ri267r6lzfwarh89hsn6",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 16460,
@@ -246,7 +338,11 @@
           "position": "WR",
           "points": 31.5,
           "nflOpponent": "SEA",
-          "teamId": 15
+          "teamId": 15,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pv6gajxtt6zhum2unnsl",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4430027,
@@ -256,7 +352,11 @@
           "position": "TE",
           "points": 22.4,
           "nflOpponent": "ATL",
-          "teamId": 15
+          "teamId": 15,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wxlk7ysg2nfq6h6ntdcu",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 16800,
@@ -266,7 +366,11 @@
           "position": "WR",
           "points": 42.2,
           "nflOpponent": "PIT",
-          "teamId": 2
+          "teamId": 2,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tdzluk4xau3arxqk9zsl",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": -16002,
@@ -276,7 +380,11 @@
           "position": "D/ST",
           "points": 31.0,
           "nflOpponent": "WSH",
-          "teamId": 7
+          "teamId": 7,
+          "headshot": null,
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+          "entityType": "team_defense",
+          "hasProfile": true
         },
         {
           "playerId": 4249087,
@@ -286,12 +394,17 @@
           "position": "K",
           "points": 24.0,
           "nflOpponent": "BAL",
-          "teamId": 13
+          "teamId": 13,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/opglxpqmhu21eydoyvg2",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         }
       ],
       "status": "available",
       "playerCount": 672,
-      "pool": "Recorded weekly rosters (including benches) and additional players with committed weekly scores. Coverage is limited to the committed scoring pool."
+      "excludedUnscoredPlayers": 0,
+      "pool": "Players with reliable recorded actual weekly scores, including benches and unrostered players."
     },
     "4": {
       "totalPoints": 304.2,
@@ -304,7 +417,11 @@
           "position": "QB",
           "points": 36.5,
           "nflOpponent": "MIA",
-          "teamId": 3
+          "teamId": 3,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ynrhq9iv30ysjpwmrfdv",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 3117251,
@@ -314,7 +431,11 @@
           "position": "RB",
           "points": 48.7,
           "nflOpponent": "ARI",
-          "teamId": 3
+          "teamId": 3,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/st82s2ytyzanatcmkqck",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4035538,
@@ -324,7 +445,11 @@
           "position": "RB",
           "points": 34.1,
           "nflOpponent": "GB",
-          "teamId": 3
+          "teamId": 3,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/npagyuku5zvrnu9q3jvn",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 2976212,
@@ -334,7 +459,11 @@
           "position": "WR",
           "points": 36.0,
           "nflOpponent": "MIA",
-          "teamId": 11
+          "teamId": 11,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dpmpctgbwlvgyzg3opli",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4047646,
@@ -344,7 +473,11 @@
           "position": "WR",
           "points": 38.5,
           "nflOpponent": "WSH",
-          "teamId": 7
+          "teamId": 7,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qfhvjyssf0lwsh0kienp",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4258595,
@@ -354,7 +487,11 @@
           "position": "TE",
           "points": 27.6,
           "nflOpponent": "DEN",
-          "teamId": 9
+          "teamId": 9,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ysnui8mzlu2fo70ub0yt",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4258173,
@@ -364,7 +501,11 @@
           "position": "WR",
           "points": 35.8,
           "nflOpponent": "PIT",
-          "teamId": 7
+          "teamId": 7,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pyevyueqikk1vbkh9ju1",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": -16026,
@@ -373,7 +514,11 @@
           "nflTeam": "SEA",
           "points": 29.0,
           "teamId": null,
-          "slot": "D/ST"
+          "slot": "D/ST",
+          "headshot": null,
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+          "entityType": "team_defense",
+          "hasProfile": true
         },
         {
           "playerId": 3050478,
@@ -383,27 +528,417 @@
           "position": "K",
           "points": 18.0,
           "nflOpponent": "WSH",
-          "teamId": 16
+          "teamId": 16,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gxy1mhbnz1p2nufkg8qz",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         }
       ],
       "status": "available",
       "playerCount": 681,
-      "pool": "Recorded weekly rosters (including benches) and additional players with committed weekly scores. Coverage is limited to the committed scoring pool."
+      "excludedUnscoredPlayers": 0,
+      "pool": "Players with reliable recorded actual weekly scores, including benches and unrostered players."
     },
     "5": {
-      "status": "unavailable",
-      "playerCount": 0,
-      "pool": "Recorded weekly rosters (including benches) and additional players with committed weekly scores. Coverage is limited to the committed scoring pool."
+      "totalPoints": 303.88,
+      "lineup": [
+        {
+          "playerId": 4362887,
+          "name": "Justin Fields",
+          "slot": "QB",
+          "nflTeam": "CHI",
+          "position": "QB",
+          "points": 32.98,
+          "nflOpponent": "WSH",
+          "teamId": 15,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/npjrombgxkc5vjkctcgy",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4035676,
+          "name": "Zack Moss",
+          "slot": "RB",
+          "nflTeam": "IND",
+          "position": "RB",
+          "points": 33.5,
+          "nflOpponent": "TEN",
+          "teamId": 7,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/oxrltdgoquiabhihhgnk",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4239996,
+          "name": "Travis Etienne Jr.",
+          "slot": "RB",
+          "nflTeam": "JAX",
+          "position": "RB",
+          "points": 36.4,
+          "nflOpponent": "BUF",
+          "teamId": 12,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pwko5dybmjie8qqo4qz2",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 3116406,
+          "name": "Tyreek Hill",
+          "slot": "WR",
+          "nflTeam": "MIA",
+          "position": "WR",
+          "points": 32.1,
+          "nflOpponent": "NYG",
+          "teamId": 15,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gg73gnfivrn80oyqwazl",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 3915416,
+          "name": "DJ Moore",
+          "slot": "WR",
+          "nflTeam": "CHI",
+          "position": "WR",
+          "points": 49.0,
+          "nflOpponent": "WSH",
+          "teamId": 6,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tmiale9dvql5ol2xmhf1",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 3040151,
+          "name": "George Kittle",
+          "slot": "TE",
+          "nflTeam": "SF",
+          "position": "TE",
+          "points": 27.7,
+          "nflOpponent": "DAL",
+          "teamId": 16,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vkicdglglkyukgyxtmpx",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4362628,
+          "name": "Ja'Marr Chase",
+          "slot": "FLEX",
+          "nflTeam": "CIN",
+          "position": "WR",
+          "points": 52.2,
+          "nflOpponent": "ARI",
+          "teamId": 6,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qya3dtjb5kgofcuj2tuw",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": -16018,
+          "name": "Saints D/ST",
+          "slot": "D/ST",
+          "nflTeam": "NO",
+          "position": "D/ST",
+          "points": 22.0,
+          "nflOpponent": "NE",
+          "teamId": 9,
+          "headshot": null,
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+          "entityType": "team_defense",
+          "hasProfile": true
+        },
+        {
+          "playerId": 14993,
+          "name": "Greg Zuerlein",
+          "position": "K",
+          "nflTeam": "NYJ",
+          "points": 18.0,
+          "teamId": null,
+          "slot": "K",
+          "headshot": "https://static.www.nfl.com/image/private/f_auto,q_auto/league/gzuks9rryzy90fecvi9l",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        }
+      ],
+      "status": "available",
+      "playerCount": 598,
+      "excludedUnscoredPlayers": 18,
+      "pool": "Players with reliable recorded actual weekly scores, including benches and unrostered players."
     },
     "6": {
-      "status": "unavailable",
-      "playerCount": 0,
-      "pool": "Recorded weekly rosters (including benches) and additional players with committed weekly scores. Coverage is limited to the committed scoring pool."
+      "totalPoints": 231.98,
+      "lineup": [
+        {
+          "playerId": 2577417,
+          "name": "Dak Prescott",
+          "position": "QB",
+          "nflTeam": "DAL",
+          "points": 24.88,
+          "teamId": null,
+          "slot": "QB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yvscmqq1qki8zfsemmcd",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 2576414,
+          "name": "Raheem Mostert",
+          "slot": "RB",
+          "nflTeam": "MIA",
+          "position": "RB",
+          "points": 34.2,
+          "nflOpponent": "CAR",
+          "teamId": 11,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fas5rkweusx2hl7abtzh",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4239996,
+          "name": "Travis Etienne Jr.",
+          "slot": "RB",
+          "nflTeam": "JAX",
+          "position": "RB",
+          "points": 23.3,
+          "nflOpponent": "IND",
+          "teamId": 12,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pwko5dybmjie8qqo4qz2",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 16460,
+          "name": "Adam Thielen",
+          "slot": "WR",
+          "nflTeam": "CAR",
+          "position": "WR",
+          "points": 28.5,
+          "nflOpponent": "MIA",
+          "teamId": 15,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pv6gajxtt6zhum2unnsl",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 3116406,
+          "name": "Tyreek Hill",
+          "slot": "WR",
+          "nflTeam": "MIA",
+          "position": "WR",
+          "points": 28.3,
+          "nflOpponent": "CAR",
+          "teamId": 15,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gg73gnfivrn80oyqwazl",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 15847,
+          "name": "Travis Kelce",
+          "slot": "TE",
+          "nflTeam": "KC",
+          "position": "TE",
+          "points": 21.4,
+          "nflOpponent": "DEN",
+          "teamId": 12,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dpxovcfku6ud2aohgf6a",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4374302,
+          "name": "Amon-Ra St. Brown",
+          "slot": "FLEX",
+          "nflTeam": "DET",
+          "position": "WR",
+          "points": 30.4,
+          "nflOpponent": "TB",
+          "teamId": 5,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fd8nwhm6pvxfyzphzl6i",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": -16016,
+          "name": "Vikings D/ST",
+          "position": "D/ST",
+          "nflTeam": "MIN",
+          "points": 22.0,
+          "teamId": null,
+          "slot": "D/ST",
+          "headshot": null,
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+          "entityType": "team_defense",
+          "hasProfile": true
+        },
+        {
+          "playerId": 15683,
+          "name": "Justin Tucker",
+          "slot": "K",
+          "nflTeam": "BAL",
+          "position": "K",
+          "points": 19.0,
+          "nflOpponent": "TEN",
+          "teamId": 12,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/thawkkxcbyuddwuidgb0",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        }
+      ],
+      "status": "available",
+      "playerCount": 645,
+      "excludedUnscoredPlayers": 13,
+      "pool": "Players with reliable recorded actual weekly scores, including benches and unrostered players."
     },
     "7": {
-      "status": "unavailable",
-      "playerCount": 0,
-      "pool": "Recorded weekly rosters (including benches) and additional players with committed weekly scores. Coverage is limited to the committed scoring pool."
+      "totalPoints": 260.68,
+      "lineup": [
+        {
+          "playerId": 3916387,
+          "name": "Lamar Jackson",
+          "slot": "QB",
+          "nflTeam": "BAL",
+          "position": "QB",
+          "points": 33.88,
+          "nflOpponent": "DET",
+          "teamId": 11,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/eno6s5qzl9grbfbfwhoa",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 3054850,
+          "name": "Alvin Kamara",
+          "slot": "RB",
+          "nflTeam": "NO",
+          "position": "RB",
+          "points": 29.3,
+          "nflOpponent": "JAX",
+          "teamId": 5,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hedvtdbdgdyf4lo5e12p",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 3125116,
+          "name": "D'Onta Foreman",
+          "slot": "RB",
+          "nflTeam": "CHI",
+          "position": "RB",
+          "points": 33.0,
+          "nflOpponent": "LV",
+          "teamId": 2,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/shlxaet74pmn8arznphw",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4047646,
+          "name": "A.J. Brown",
+          "slot": "WR",
+          "nflTeam": "PHI",
+          "position": "WR",
+          "points": 29.7,
+          "nflOpponent": "MIA",
+          "teamId": 7,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qfhvjyssf0lwsh0kienp",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4429205,
+          "name": "Jordan Addison",
+          "slot": "WR",
+          "nflTeam": "MIN",
+          "position": "WR",
+          "points": 31.3,
+          "nflOpponent": "SF",
+          "teamId": 3,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ty8e8iasniuuhto6qfdx",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 15847,
+          "name": "Travis Kelce",
+          "slot": "TE",
+          "nflTeam": "KC",
+          "position": "TE",
+          "points": 35.9,
+          "nflOpponent": "LAC",
+          "teamId": 12,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dpxovcfku6ud2aohgf6a",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4429795,
+          "name": "Jahmyr Gibbs",
+          "slot": "FLEX",
+          "nflTeam": "DET",
+          "position": "RB",
+          "points": 27.6,
+          "nflOpponent": "BAL",
+          "teamId": 6,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": -16003,
+          "name": "Bears D/ST",
+          "position": "D/ST",
+          "nflTeam": "CHI",
+          "points": 18.0,
+          "teamId": null,
+          "slot": "D/ST",
+          "headshot": null,
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+          "entityType": "team_defense",
+          "hasProfile": true
+        },
+        {
+          "playerId": 15965,
+          "name": "Dustin Hopkins",
+          "position": "K",
+          "nflTeam": "CLE",
+          "points": 22.0,
+          "teamId": null,
+          "slot": "K",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/b8xhu9uud3finj0x9hpf",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        }
+      ],
+      "status": "available",
+      "playerCount": 561,
+      "excludedUnscoredPlayers": 30,
+      "pool": "Players with reliable recorded actual weekly scores, including benches and unrostered players."
     },
     "8": {
       "totalPoints": 258.98,
@@ -415,7 +950,11 @@
           "nflTeam": "WSH",
           "points": 30.98,
           "teamId": null,
-          "slot": "QB"
+          "slot": "QB",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/sx77bippywnl0dx6m8q9",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 3117251,
@@ -425,7 +964,11 @@
           "position": "RB",
           "points": 29.8,
           "nflOpponent": "CIN",
-          "teamId": 3
+          "teamId": 3,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/st82s2ytyzanatcmkqck",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4429795,
@@ -435,7 +978,11 @@
           "position": "RB",
           "points": 29.9,
           "nflOpponent": "LV",
-          "teamId": 6
+          "teamId": 6,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 15795,
@@ -445,7 +992,11 @@
           "position": "WR",
           "points": 34.8,
           "nflOpponent": "ATL",
-          "teamId": 6
+          "teamId": 6,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/snvo6holyfdjmrlqxqxu",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4047646,
@@ -455,7 +1006,11 @@
           "position": "WR",
           "points": 33.0,
           "nflOpponent": "WSH",
-          "teamId": 7
+          "teamId": 7,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qfhvjyssf0lwsh0kienp",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4361307,
@@ -464,7 +1019,11 @@
           "nflTeam": "ARI",
           "points": 25.5,
           "teamId": null,
-          "slot": "TE"
+          "slot": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/psasp10nn5pcvkli9kil",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4241389,
@@ -474,7 +1033,11 @@
           "position": "WR",
           "points": 41.0,
           "nflOpponent": "LAR",
-          "teamId": 13
+          "teamId": 13,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mbblzwtynxr15ovzkevi",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": -16007,
@@ -483,7 +1046,11 @@
           "nflTeam": "DEN",
           "points": 18.0,
           "teamId": null,
-          "slot": "D/ST"
+          "slot": "D/ST",
+          "headshot": null,
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+          "entityType": "team_defense",
+          "hasProfile": true
         },
         {
           "playerId": 16339,
@@ -492,27 +1059,418 @@
           "nflTeam": "JAX",
           "points": 16.0,
           "teamId": null,
-          "slot": "K"
+          "slot": "K",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qvwi9b1vfkn0wlmdl7ej",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         }
       ],
       "status": "available",
       "playerCount": 694,
-      "pool": "Recorded weekly rosters (including benches) and additional players with committed weekly scores. Coverage is limited to the committed scoring pool."
+      "excludedUnscoredPlayers": 0,
+      "pool": "Players with reliable recorded actual weekly scores, including benches and unrostered players."
     },
     "9": {
-      "status": "unavailable",
-      "playerCount": 0,
-      "pool": "Recorded weekly rosters (including benches) and additional players with committed weekly scores. Coverage is limited to the committed scoring pool."
+      "totalPoints": 250.6,
+      "lineup": [
+        {
+          "playerId": 4432577,
+          "name": "C.J. Stroud",
+          "slot": "QB",
+          "nflTeam": "HOU",
+          "position": "QB",
+          "points": 41.8,
+          "nflOpponent": "TB",
+          "teamId": 5,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tt4zrtxlhifaljhj0rn7",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4569173,
+          "name": "Rhamondre Stevenson",
+          "slot": "RB",
+          "nflTeam": "NE",
+          "position": "RB",
+          "points": 22.9,
+          "nflOpponent": "WSH",
+          "teamId": 2,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/x9dlpy3i5fciajd4w9ij",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4697815,
+          "name": "Rachaad White",
+          "slot": "RB",
+          "nflTeam": "TB",
+          "position": "RB",
+          "points": 27.9,
+          "nflOpponent": "HOU",
+          "teamId": 1,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wtdhs50gcl2p6vngsnre",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 3121409,
+          "name": "Noah Brown",
+          "position": "WR",
+          "nflTeam": "HOU",
+          "points": 27.3,
+          "teamId": null,
+          "slot": "WR",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nv6ix0p8965yiugsuhwh",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4241389,
+          "name": "CeeDee Lamb",
+          "slot": "WR",
+          "nflTeam": "DAL",
+          "position": "WR",
+          "points": 28.1,
+          "nflOpponent": "PHI",
+          "teamId": 13,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mbblzwtynxr15ovzkevi",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 3117256,
+          "name": "Dalton Schultz",
+          "slot": "TE",
+          "nflTeam": "HOU",
+          "position": "TE",
+          "points": 27.0,
+          "nflOpponent": "TB",
+          "teamId": 1,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hikxxqqislrmtqirbua5",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4366031,
+          "name": "Tank Dell",
+          "slot": "FLEX",
+          "nflTeam": "HOU",
+          "position": "WR",
+          "points": 29.6,
+          "nflOpponent": "TB",
+          "teamId": 3,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nwfuoyhr6o2urgwox2nb",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": -16011,
+          "name": "Colts D/ST",
+          "position": "D/ST",
+          "nflTeam": "IND",
+          "points": 27.0,
+          "teamId": null,
+          "slot": "D/ST",
+          "headshot": null,
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+          "entityType": "team_defense",
+          "hasProfile": true
+        },
+        {
+          "playerId": 3049899,
+          "name": "Younghoe Koo",
+          "slot": "K",
+          "nflTeam": "ATL",
+          "position": "K",
+          "points": 19.0,
+          "nflOpponent": "MIN",
+          "teamId": 6,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d6k1yzhzj3mikcheisnm",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        }
+      ],
+      "status": "available",
+      "playerCount": 605,
+      "excludedUnscoredPlayers": 27,
+      "pool": "Players with reliable recorded actual weekly scores, including benches and unrostered players."
     },
     "10": {
-      "status": "unavailable",
-      "playerCount": 0,
-      "pool": "Recorded weekly rosters (including benches) and additional players with committed weekly scores. Coverage is limited to the committed scoring pool."
+      "totalPoints": 274.46,
+      "lineup": [
+        {
+          "playerId": 2577417,
+          "name": "Dak Prescott",
+          "slot": "QB",
+          "nflTeam": "DAL",
+          "position": "QB",
+          "points": 37.86,
+          "nflOpponent": "NYG",
+          "teamId": 9,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yvscmqq1qki8zfsemmcd",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4241474,
+          "name": "Brian Robinson Jr.",
+          "slot": "RB",
+          "nflTeam": "WSH",
+          "position": "RB",
+          "points": 27.7,
+          "nflOpponent": "SEA",
+          "teamId": 6,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/n1xhex1ytisxcbcggqu7",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4429795,
+          "name": "Jahmyr Gibbs",
+          "slot": "RB",
+          "nflTeam": "DET",
+          "position": "RB",
+          "points": 26.2,
+          "nflOpponent": "LAC",
+          "teamId": 6,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cursejnmmp1i9hnxihkj",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 15818,
+          "name": "Keenan Allen",
+          "slot": "WR",
+          "nflTeam": "LAC",
+          "position": "WR",
+          "points": 40.5,
+          "nflOpponent": "DET",
+          "teamId": 11,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ri267r6lzfwarh89hsn6",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 16731,
+          "name": "Brandin Cooks",
+          "slot": "WR",
+          "nflTeam": "DAL",
+          "position": "WR",
+          "points": 32.3,
+          "nflOpponent": "NYG",
+          "teamId": 7,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/krz3gv9jjs92arlctvqf",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4036133,
+          "name": "T.J. Hockenson",
+          "slot": "TE",
+          "nflTeam": "MIN",
+          "position": "TE",
+          "points": 30.4,
+          "nflOpponent": "NO",
+          "teamId": 2,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/rs8o65x0u0n9xzde0fd6",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4241389,
+          "name": "CeeDee Lamb",
+          "slot": "FLEX",
+          "nflTeam": "DAL",
+          "position": "WR",
+          "points": 39.5,
+          "nflOpponent": "NYG",
+          "teamId": 13,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mbblzwtynxr15ovzkevi",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": -16025,
+          "name": "49ers D/ST",
+          "slot": "D/ST",
+          "nflTeam": "SF",
+          "position": "D/ST",
+          "points": 19.0,
+          "nflOpponent": "JAX",
+          "teamId": 5,
+          "headshot": null,
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+          "entityType": "team_defense",
+          "hasProfile": true
+        },
+        {
+          "playerId": 2473037,
+          "name": "Jason Myers",
+          "position": "K",
+          "nflTeam": "SEA",
+          "points": 21.0,
+          "teamId": null,
+          "slot": "K",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zcd7q9loflr0t5bsvzig",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        }
+      ],
+      "status": "available",
+      "playerCount": 619,
+      "excludedUnscoredPlayers": 27,
+      "pool": "Players with reliable recorded actual weekly scores, including benches and unrostered players."
     },
     "11": {
-      "status": "unavailable",
-      "playerCount": 0,
-      "pool": "Recorded weekly rosters (including benches) and additional players with committed weekly scores. Coverage is limited to the committed scoring pool."
+      "totalPoints": 239.18,
+      "lineup": [
+        {
+          "playerId": 4360310,
+          "name": "Trevor Lawrence",
+          "slot": "QB",
+          "nflTeam": "JAX",
+          "position": "QB",
+          "points": 32.18,
+          "nflOpponent": "TEN",
+          "teamId": 6,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/k9uzdernqkx7oquy7dkg",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 3929630,
+          "name": "Saquon Barkley",
+          "slot": "RB",
+          "nflTeam": "NYG",
+          "position": "RB",
+          "points": 30.0,
+          "nflOpponent": "WSH",
+          "teamId": 2,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qcayrzjpura2zydszonh",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4569987,
+          "name": "Jaylen Warren",
+          "slot": "RB",
+          "nflTeam": "PIT",
+          "position": "RB",
+          "points": 23.5,
+          "nflOpponent": "CLE",
+          "teamId": 6,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dkiteytgnxar1mpaxcxv",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 3116406,
+          "name": "Tyreek Hill",
+          "slot": "WR",
+          "nflTeam": "MIA",
+          "position": "WR",
+          "points": 30.6,
+          "nflOpponent": "LV",
+          "teamId": 15,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gg73gnfivrn80oyqwazl",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 3925357,
+          "name": "Calvin Ridley",
+          "slot": "WR",
+          "nflTeam": "JAX",
+          "position": "WR",
+          "points": 31.1,
+          "nflOpponent": "TEN",
+          "teamId": 12,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zwlil5uar0xasdbf6frm",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 3040151,
+          "name": "George Kittle",
+          "slot": "TE",
+          "nflTeam": "SF",
+          "position": "TE",
+          "points": 22.9,
+          "nflOpponent": "TB",
+          "teamId": 16,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vkicdglglkyukgyxtmpx",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4366031,
+          "name": "Tank Dell",
+          "slot": "FLEX",
+          "nflTeam": "HOU",
+          "position": "WR",
+          "points": 28.9,
+          "nflOpponent": "ARI",
+          "teamId": 3,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nwfuoyhr6o2urgwox2nb",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": -16006,
+          "name": "Cowboys D/ST",
+          "slot": "D/ST",
+          "nflTeam": "DAL",
+          "position": "D/ST",
+          "points": 23.0,
+          "nflOpponent": "CAR",
+          "teamId": 15,
+          "headshot": null,
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+          "entityType": "team_defense",
+          "hasProfile": true
+        },
+        {
+          "playerId": 17427,
+          "name": "Cairo Santos",
+          "position": "K",
+          "nflTeam": "CHI",
+          "points": 17.0,
+          "teamId": null,
+          "slot": "K",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vtk4cn0bfnqv0cnh79an",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        }
+      ],
+      "status": "available",
+      "playerCount": 615,
+      "excludedUnscoredPlayers": 21,
+      "pool": "Players with reliable recorded actual weekly scores, including benches and unrostered players."
     },
     "12": {
       "totalPoints": 248.66,
@@ -525,7 +1483,11 @@
           "position": "QB",
           "points": 39.66,
           "nflOpponent": "PHI",
-          "teamId": 3
+          "teamId": 3,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ynrhq9iv30ysjpwmrfdv",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 3117251,
@@ -535,7 +1497,11 @@
           "position": "RB",
           "points": 30.9,
           "nflOpponent": "SEA",
-          "teamId": 3
+          "teamId": 3,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/st82s2ytyzanatcmkqck",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4430737,
@@ -545,7 +1511,11 @@
           "position": "RB",
           "points": 38.4,
           "nflOpponent": "ARI",
-          "teamId": 2
+          "teamId": 2,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xti3pek6rmojqchakxpy",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 16737,
@@ -555,7 +1525,11 @@
           "position": "WR",
           "points": 25.0,
           "nflOpponent": "IND",
-          "teamId": 9
+          "teamId": 9,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zc4ujpmndyxrbiyyjomz",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 3116406,
@@ -565,7 +1539,11 @@
           "position": "WR",
           "points": 25.4,
           "nflOpponent": "NYJ",
-          "teamId": 15
+          "teamId": 15,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gg73gnfivrn80oyqwazl",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4361411,
@@ -574,7 +1552,11 @@
           "nflTeam": "PIT",
           "points": 21.0,
           "teamId": null,
-          "slot": "TE"
+          "slot": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pyrdsypgggjshiaygkr7",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4430807,
@@ -584,7 +1566,11 @@
           "position": "RB",
           "points": 27.3,
           "nflOpponent": "NO",
-          "teamId": 1
+          "teamId": 1,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zaxetgy0p0ul6evlsf63",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": -16015,
@@ -594,7 +1580,11 @@
           "position": "D/ST",
           "points": 23.0,
           "nflOpponent": "NYJ",
-          "teamId": 11
+          "teamId": 11,
+          "headshot": null,
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+          "entityType": "team_defense",
+          "hasProfile": true
         },
         {
           "playerId": 4259619,
@@ -603,22 +1593,286 @@
           "nflTeam": "NO",
           "points": 18.0,
           "teamId": null,
-          "slot": "K"
+          "slot": "K",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/de3vz6xjjo9paba6encd",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         }
       ],
       "status": "available",
       "playerCount": 717,
-      "pool": "Recorded weekly rosters (including benches) and additional players with committed weekly scores. Coverage is limited to the committed scoring pool."
+      "excludedUnscoredPlayers": 0,
+      "pool": "Players with reliable recorded actual weekly scores, including benches and unrostered players."
     },
     "13": {
-      "status": "unavailable",
-      "playerCount": 0,
-      "pool": "Recorded weekly rosters (including benches) and additional players with committed weekly scores. Coverage is limited to the committed scoring pool."
+      "totalPoints": 256.86,
+      "lineup": [
+        {
+          "playerId": 15864,
+          "name": "Geno Smith",
+          "slot": "QB",
+          "nflTeam": "SEA",
+          "position": "QB",
+          "points": 29.96,
+          "nflOpponent": "DAL",
+          "teamId": 3,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/q8wfqvmy7cwxdi35dtby",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 3054850,
+          "name": "Alvin Kamara",
+          "slot": "RB",
+          "nflTeam": "NO",
+          "position": "RB",
+          "points": 28.9,
+          "nflOpponent": "DET",
+          "teamId": 5,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hedvtdbdgdyf4lo5e12p",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 3116385,
+          "name": "Joe Mixon",
+          "slot": "RB",
+          "nflTeam": "CIN",
+          "position": "RB",
+          "points": 29.7,
+          "nflOpponent": "JAX",
+          "teamId": 1,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gwyhozfhjgedwdmmjjcf",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 3126486,
+          "name": "Deebo Samuel",
+          "slot": "WR",
+          "nflTeam": "SF",
+          "position": "WR",
+          "points": 35.8,
+          "nflOpponent": "PHI",
+          "teamId": 13,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ntgyhqg6hq7fanhhsqiw",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4047650,
+          "name": "DK Metcalf",
+          "slot": "WR",
+          "nflTeam": "SEA",
+          "position": "WR",
+          "points": 37.4,
+          "nflOpponent": "DAL",
+          "teamId": 12,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/kxql4sjfelubhxawu2zh",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4430027,
+          "name": "Sam LaPorta",
+          "slot": "TE",
+          "nflTeam": "DET",
+          "position": "TE",
+          "points": 29.0,
+          "nflOpponent": "NO",
+          "teamId": 15,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wxlk7ysg2nfq6h6ntdcu",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4258173,
+          "name": "Nico Collins",
+          "slot": "FLEX",
+          "nflTeam": "HOU",
+          "position": "WR",
+          "points": 34.1,
+          "nflOpponent": "DEN",
+          "teamId": 7,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pyevyueqikk1vbkh9ju1",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": -16011,
+          "name": "Colts D/ST",
+          "position": "D/ST",
+          "nflTeam": "IND",
+          "points": 17.0,
+          "teamId": null,
+          "slot": "D/ST",
+          "headshot": null,
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+          "entityType": "team_defense",
+          "hasProfile": true
+        },
+        {
+          "playerId": 3953687,
+          "name": "Brandon Aubrey",
+          "slot": "K",
+          "nflTeam": "DAL",
+          "position": "K",
+          "points": 15.0,
+          "nflOpponent": "SEA",
+          "teamId": 15,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bgwg06zmyohjxvzznbf6",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        }
+      ],
+      "status": "available",
+      "playerCount": 587,
+      "excludedUnscoredPlayers": 38,
+      "pool": "Players with reliable recorded actual weekly scores, including benches and unrostered players."
     },
     "14": {
-      "status": "unavailable",
-      "playerCount": 0,
-      "pool": "Recorded weekly rosters (including benches) and additional players with committed weekly scores. Coverage is limited to the committed scoring pool."
+      "totalPoints": 249.04,
+      "lineup": [
+        {
+          "playerId": 3916387,
+          "name": "Lamar Jackson",
+          "slot": "QB",
+          "nflTeam": "BAL",
+          "position": "QB",
+          "points": 31.64,
+          "nflOpponent": "LAR",
+          "teamId": 11,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/eno6s5qzl9grbfbfwhoa",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 3051392,
+          "name": "Ezekiel Elliott",
+          "slot": "RB",
+          "nflTeam": "NE",
+          "position": "RB",
+          "points": 27.0,
+          "nflOpponent": "PIT",
+          "teamId": 12,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d4yr6htg4dbs0bgcfqnd",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4427366,
+          "name": "Breece Hall",
+          "slot": "RB",
+          "nflTeam": "NYJ",
+          "position": "RB",
+          "points": 26.6,
+          "nflOpponent": "HOU",
+          "teamId": 9,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pb9i8clrmkhwwjs7jndy",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 3126486,
+          "name": "Deebo Samuel",
+          "slot": "WR",
+          "nflTeam": "SF",
+          "position": "WR",
+          "points": 34.0,
+          "nflOpponent": "SEA",
+          "teamId": 13,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ntgyhqg6hq7fanhhsqiw",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4426502,
+          "name": "Drake London",
+          "slot": "WR",
+          "nflTeam": "ATL",
+          "position": "WR",
+          "points": 29.2,
+          "nflOpponent": "TB",
+          "teamId": 3,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/y5mkxrljhsglpwl3ky94",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 3051876,
+          "name": "Evan Engram",
+          "slot": "TE",
+          "nflTeam": "JAX",
+          "position": "TE",
+          "points": 32.5,
+          "nflOpponent": "CLE",
+          "teamId": 15,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nucl2dxmpvhlywhyro8o",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 3123076,
+          "name": "David Njoku",
+          "slot": "FLEX",
+          "nflTeam": "CLE",
+          "position": "TE",
+          "points": 27.1,
+          "nflOpponent": "JAX",
+          "teamId": 5,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/y4g1iayqrbrhdvkqywpx",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": -16018,
+          "name": "Saints D/ST",
+          "slot": "D/ST",
+          "nflTeam": "NO",
+          "position": "D/ST",
+          "points": 18.0,
+          "nflOpponent": "CAR",
+          "teamId": 9,
+          "headshot": null,
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+          "entityType": "team_defense",
+          "hasProfile": true
+        },
+        {
+          "playerId": 3953687,
+          "name": "Brandon Aubrey",
+          "slot": "K",
+          "nflTeam": "DAL",
+          "position": "K",
+          "points": 23.0,
+          "nflOpponent": "PHI",
+          "teamId": 15,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bgwg06zmyohjxvzznbf6",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        }
+      ],
+      "status": "available",
+      "playerCount": 671,
+      "excludedUnscoredPlayers": 12,
+      "pool": "Players with reliable recorded actual weekly scores, including benches and unrostered players."
     },
     "15": {
       "totalPoints": 263.22,
@@ -631,7 +1885,11 @@
           "position": "QB",
           "points": 31.12,
           "nflOpponent": "DEN",
-          "teamId": 11
+          "teamId": 11,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/kaicbot8qhzrvddilbtp",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 3117251,
@@ -641,7 +1899,11 @@
           "position": "RB",
           "points": 41.7,
           "nflOpponent": "ARI",
-          "teamId": 3
+          "teamId": 3,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/st82s2ytyzanatcmkqck",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4379399,
@@ -651,7 +1913,11 @@
           "position": "RB",
           "points": 36.1,
           "nflOpponent": "DAL",
-          "teamId": 5
+          "teamId": 5,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/anjbznqb9i21wzcgrtbs",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4372016,
@@ -661,7 +1927,11 @@
           "position": "WR",
           "points": 28.2,
           "nflOpponent": "NYJ",
-          "teamId": 3
+          "teamId": 3,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gkh7m1jedon9mwn5jlf1",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4429205,
@@ -671,7 +1941,11 @@
           "position": "WR",
           "points": 29.1,
           "nflOpponent": "CIN",
-          "teamId": 3
+          "teamId": 3,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ty8e8iasniuuhto6qfdx",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 3123076,
@@ -681,7 +1955,11 @@
           "position": "TE",
           "points": 26.4,
           "nflOpponent": "CHI",
-          "teamId": 5
+          "teamId": 5,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/y4g1iayqrbrhdvkqywpx",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4430027,
@@ -691,7 +1969,11 @@
           "position": "TE",
           "points": 28.6,
           "nflOpponent": "DEN",
-          "teamId": 15
+          "teamId": 15,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wxlk7ysg2nfq6h6ntdcu",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": -16013,
@@ -700,7 +1982,11 @@
           "nflTeam": "LV",
           "points": 25.0,
           "teamId": null,
-          "slot": "D/ST"
+          "slot": "D/ST",
+          "headshot": null,
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+          "entityType": "team_defense",
+          "hasProfile": true
         },
         {
           "playerId": 2971573,
@@ -709,12 +1995,17 @@
           "nflTeam": "HOU",
           "points": 17.0,
           "teamId": null,
-          "slot": "K"
+          "slot": "K",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nbrs7doetqydf2rzhjjl",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         }
       ],
       "status": "available",
       "playerCount": 722,
-      "pool": "Recorded weekly rosters (including benches) and additional players with committed weekly scores. Coverage is limited to the committed scoring pool."
+      "excludedUnscoredPlayers": 0,
+      "pool": "Players with reliable recorded actual weekly scores, including benches and unrostered players."
     },
     "16": {
       "totalPoints": 275.78,
@@ -727,7 +2018,11 @@
           "position": "QB",
           "points": 24.98,
           "nflOpponent": "LAC",
-          "teamId": 3
+          "teamId": 3,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ynrhq9iv30ysjpwmrfdv",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 3117251,
@@ -737,7 +2032,11 @@
           "position": "RB",
           "points": 25.1,
           "nflOpponent": "BAL",
-          "teamId": 3
+          "teamId": 3,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/st82s2ytyzanatcmkqck",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4427366,
@@ -747,7 +2046,11 @@
           "position": "RB",
           "points": 43.1,
           "nflOpponent": "WSH",
-          "teamId": 9
+          "teamId": 9,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pb9i8clrmkhwwjs7jndy",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 2976499,
@@ -757,7 +2060,11 @@
           "position": "WR",
           "points": 51.5,
           "nflOpponent": "HOU",
-          "teamId": 16
+          "teamId": 16,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zmtzqznqui37unmo5xv9",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4426354,
@@ -767,7 +2074,11 @@
           "position": "WR",
           "points": 35.5,
           "nflOpponent": "CIN",
-          "teamId": 2
+          "teamId": 2,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/cbpyykoguf7rsxezqzvk",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 3040151,
@@ -777,7 +2088,11 @@
           "position": "TE",
           "points": 19.6,
           "nflOpponent": "BAL",
-          "teamId": 16
+          "teamId": 16,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vkicdglglkyukgyxtmpx",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4426515,
@@ -787,7 +2102,11 @@
           "position": "WR",
           "points": 33.0,
           "nflOpponent": "NO",
-          "teamId": 3
+          "teamId": 3,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ipy6qw7hdygdfc8k86ba",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": -16013,
@@ -796,7 +2115,11 @@
           "nflTeam": "LV",
           "points": 21.0,
           "teamId": null,
-          "slot": "D/ST"
+          "slot": "D/ST",
+          "headshot": null,
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+          "entityType": "team_defense",
+          "hasProfile": true
         },
         {
           "playerId": 3124679,
@@ -805,12 +2128,17 @@
           "nflTeam": "MIA",
           "points": 22.0,
           "teamId": null,
-          "slot": "K"
+          "slot": "K",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/t8xrcrcuttghirqbc1bu",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         }
       ],
       "status": "available",
       "playerCount": 728,
-      "pool": "Recorded weekly rosters (including benches) and additional players with committed weekly scores. Coverage is limited to the committed scoring pool."
+      "excludedUnscoredPlayers": 0,
+      "pool": "Players with reliable recorded actual weekly scores, including benches and unrostered players."
     },
     "17": {
       "totalPoints": 272.64,
@@ -823,7 +2151,11 @@
           "position": "QB",
           "points": 36.34,
           "nflOpponent": "MIA",
-          "teamId": 11
+          "teamId": 11,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/eno6s5qzl9grbfbfwhoa",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4361529,
@@ -833,7 +2165,11 @@
           "position": "RB",
           "points": 29.5,
           "nflOpponent": "CIN",
-          "teamId": 15
+          "teamId": 15,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hkqb4imkum3vxxkwuetl",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4430737,
@@ -843,7 +2179,11 @@
           "position": "RB",
           "points": 30.1,
           "nflOpponent": "NYG",
-          "teamId": 2
+          "teamId": 2,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xti3pek6rmojqchakxpy",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 16800,
@@ -853,7 +2193,11 @@
           "position": "WR",
           "points": 37.6,
           "nflOpponent": "IND",
-          "teamId": 2
+          "teamId": 2,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tdzluk4xau3arxqk9zsl",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 3915416,
@@ -863,7 +2207,11 @@
           "position": "WR",
           "points": 30.9,
           "nflOpponent": "ATL",
-          "teamId": 6
+          "teamId": 6,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tmiale9dvql5ol2xmhf1",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 3929645,
@@ -872,7 +2220,11 @@
           "nflTeam": "NO",
           "points": 23.0,
           "teamId": null,
-          "slot": "TE"
+          "slot": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lxnxhlxnolrx7ybhu5ug",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": 4241389,
@@ -882,7 +2234,11 @@
           "position": "WR",
           "points": 40.2,
           "nflOpponent": "DET",
-          "teamId": 13
+          "teamId": 13,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mbblzwtynxr15ovzkevi",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         },
         {
           "playerId": -16034,
@@ -891,7 +2247,11 @@
           "nflTeam": "HOU",
           "points": 21.0,
           "teamId": null,
-          "slot": "D/ST"
+          "slot": "D/ST",
+          "headshot": null,
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+          "entityType": "team_defense",
+          "hasProfile": true
         },
         {
           "playerId": 3055899,
@@ -901,12 +2261,17 @@
           "position": "K",
           "points": 24.0,
           "nflOpponent": "CIN",
-          "teamId": 9
+          "teamId": 9,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yphf8avl8ji0ncdohabz",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
         }
       ],
       "status": "available",
       "playerCount": 735,
-      "pool": "Recorded weekly rosters (including benches) and additional players with committed weekly scores. Coverage is limited to the committed scoring pool."
+      "excludedUnscoredPlayers": 0,
+      "pool": "Players with reliable recorded actual weekly scores, including benches and unrostered players."
     }
   }
 }

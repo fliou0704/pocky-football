@@ -1,13 +1,8 @@
 import React, {useEffect,useId,useMemo,useState} from 'react';
 import {ageOnDate,dateLabel,formatHeight,playerHash,playerPoints as points,searchPlayers,updatedLabel,gamePoints,gameOpponent} from './player-view.js';
 import './players.css';
+import Portrait from './PlayerPortrait.jsx';
 
-function Portrait({player,large=false}) {
-  const [failed,setFailed]=useState(false);
-  const image=player.entityType==='team_defense'?player.logo:player.headshot;
-  useEffect(()=>setFailed(false),[image]);
-  return <span className={large?'player-headshot-wrap':'player-search-portrait'}>{image&&!failed?<img src={image} alt={large?`${player.name} ${player.entityType==='team_defense'?'logo':'headshot'}`:''} loading={large?'eager':'lazy'} onError={()=>setFailed(true)}/>:<span className="player-image-fallback" aria-label="Image unavailable">{player.entityType==='team_defense'?'D/ST':player.name?.split(' ').map(n=>n[0]).slice(0,2).join('')}</span>}</span>;
-}
 export function PlayerSearch({players,compact=false}) {
   const [query,setQuery]=useState('');
   const inputId=useId();
