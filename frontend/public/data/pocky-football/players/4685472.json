@@ -22,7 +22,7 @@
       "team": "CAR"
     }
   },
-  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "metadataGeneratedAt": "2026-10-29T18:20:14.544731+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,25 +47,25 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 3,
-        "points": 29.3,
-        "average": 9.77,
+        "weeks": 6,
+        "points": 97.1,
+        "average": 16.18,
         "high": {
           "season": 2026,
-          "week": 2,
-          "points": 15.1
+          "week": 4,
+          "points": 45.2
         },
-        "starts": 3,
-        "starterPoints": 29.3
+        "starts": 6,
+        "starterPoints": 97.1
       },
       "seasonStats": {
-        "gp": 3,
-        "points": 29.3,
-        "fppg": 9.77,
+        "gp": 6,
+        "points": 97.1,
+        "fppg": 16.18,
         "nflStats": {
-          "receptions": 12.0,
-          "recYards": 193.0,
-          "recTD": 0,
+          "receptions": 36.0,
+          "recYards": 511.0,
+          "recTD": 2.0,
           "rushYards": 0
         },
         "participationComplete": true,
@@ -202,52 +202,157 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 14.0,
+            "recYards": 192.0,
+            "recTD": 2.0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 4,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 45.2,
           "nflTeam": "CAR",
           "nflOpponent": "DET",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 45.2,
+              "nflTeam": "CAR",
+              "nflOpponent": "DET"
+            }
+          ]
         },
         {
           "gameState": "bye",
           "nflStats": {},
           "season": 2026,
           "week": 5,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
+          "fantasyStatus": "final",
+          "status": "final",
           "points": null,
           "nflTeam": "CAR",
           "nflOpponent": null,
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "CAR",
+              "nflOpponent": null
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 6.0,
+            "recYards": 86.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 6,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 14.6,
           "nflTeam": "CAR",
           "nflOpponent": "PHI",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 14.6,
+              "nflTeam": "CAR",
+              "nflOpponent": "PHI"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 4.0,
+            "recYards": 40.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 7,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 8.0,
           "nflTeam": "CAR",
           "nflOpponent": "TB",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 8.0,
+              "nflTeam": "CAR",
+              "nflOpponent": "TB"
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -259,7 +364,19 @@
           "points": null,
           "nflTeam": "CAR",
           "nflOpponent": "GB",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": null,
+              "nflTeam": "CAR",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -392,7 +509,12 @@
           "weeks": [
             1,
             2,
-            3
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
           ],
           "evidence": [
             "current_roster",
@@ -1265,15 +1387,15 @@
     }
   ],
   "career": {
-    "weeks": 20,
-    "points": 240.7,
-    "average": 12.04,
+    "weeks": 23,
+    "points": 308.5,
+    "average": 13.41,
     "high": {
-      "season": 2025,
-      "week": 11,
-      "points": 33.0
+      "season": 2026,
+      "week": 4,
+      "points": 45.2
     },
-    "starts": 13,
-    "starterPoints": 169.3
+    "starts": 16,
+    "starterPoints": 237.1
   }
 }

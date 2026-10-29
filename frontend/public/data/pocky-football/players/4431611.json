@@ -22,7 +22,7 @@
       "team": "CHI"
     }
   },
-  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "metadataGeneratedAt": "2026-10-29T18:20:14.544731+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,26 +51,26 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 3,
-        "points": 44.98,
-        "average": 14.99,
+        "weeks": 7,
+        "points": 83.6,
+        "average": 11.94,
         "high": {
           "season": 2026,
           "week": 1,
           "points": 37.26
         },
-        "starts": 0,
-        "starterPoints": null
+        "starts": 1,
+        "starterPoints": 22.12
       },
       "seasonStats": {
-        "gp": 0,
-        "points": 0,
-        "fppg": null,
+        "gp": 1,
+        "points": 22.12,
+        "fppg": 22.12,
         "nflStats": {
-          "passYards": 407.0,
-          "passTD": 2.0,
+          "passYards": 1020.0,
+          "passTD": 5.0,
           "interceptions": 1.0,
-          "rushYards": 107.0,
+          "rushYards": 128.0,
           "rushTD": 2.0
         },
         "participationComplete": true,
@@ -207,52 +207,176 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 4,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "CHI",
           "nflOpponent": "NYJ",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Good Christians Hate Sinners",
+                "logo": null
+              },
+              "slot": "IR",
+              "points": 0.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "NYJ"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 5,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "CHI",
           "nflOpponent": "GB",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Good Christians Hate Sinners",
+                "logo": null
+              },
+              "slot": "IR",
+              "points": 0.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "GB"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 36.0,
+            "passYards": 305.0,
+            "passTD": 1.0,
+            "interceptions": 0,
+            "rushAttempts": 4.0,
+            "rushYards": 3.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 6,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 16.5,
           "nflTeam": "CHI",
           "nflOpponent": "ATL",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Good Christians Hate Sinners",
+                "logo": null
+              },
+              "slot": "IR",
+              "points": 16.5,
+              "nflTeam": "CHI",
+              "nflOpponent": "ATL"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 33.0,
+            "passYards": 308.0,
+            "passTD": 2.0,
+            "interceptions": 0,
+            "rushAttempts": 5.0,
+            "rushYards": 18.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 7,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 22.12,
           "nflTeam": "CHI",
           "nflOpponent": "NE",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Good Christians Hate Sinners",
+                "logo": null
+              },
+              "slot": "QB",
+              "points": 22.12,
+              "nflTeam": "CHI",
+              "nflOpponent": "NE"
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -264,7 +388,19 @@
           "points": null,
           "nflTeam": "CHI",
           "nflOpponent": "SEA",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Good Christians Hate Sinners",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "CHI",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -397,7 +533,12 @@
           "weeks": [
             1,
             2,
-            3
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
           ],
           "evidence": [
             "current_roster",
@@ -1933,15 +2074,15 @@
     }
   ],
   "career": {
-    "weeks": 37,
-    "points": 617.7,
-    "average": 16.69,
+    "weeks": 41,
+    "points": 656.32,
+    "average": 16.01,
     "high": {
       "season": 2025,
       "week": 9,
       "points": 38.7
     },
-    "starts": 9,
-    "starterPoints": 165.7
+    "starts": 10,
+    "starterPoints": 187.82
   }
 }

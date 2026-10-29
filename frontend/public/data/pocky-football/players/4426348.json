@@ -22,7 +22,7 @@
       "team": "WAS"
     }
   },
-  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "metadataGeneratedAt": "2026-10-29T18:20:14.544731+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,27 +51,27 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 3,
-        "points": 32.4,
-        "average": 10.8,
+        "weeks": 6,
+        "points": 85.66,
+        "average": 14.28,
         "high": {
           "season": 2026,
-          "week": 1,
-          "points": 17.66
+          "week": 5,
+          "points": 32.26
         },
-        "starts": 2,
-        "starterPoints": 32.4
+        "starts": 4,
+        "starterPoints": 85.66
       },
       "seasonStats": {
-        "gp": 2,
-        "points": 32.4,
-        "fppg": 16.2,
+        "gp": 4,
+        "points": 85.66,
+        "fppg": 21.41,
         "nflStats": {
-          "passYards": 260.0,
-          "passTD": 3.0,
+          "passYards": 759.0,
+          "passTD": 5.0,
           "interceptions": 0,
-          "rushYards": 100.0,
-          "rushTD": 0
+          "rushYards": 213.0,
+          "rushTD": 2.0
         },
         "participationComplete": true,
         "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
@@ -207,52 +207,157 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 4,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "WSH",
           "nflOpponent": "IND",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Choose Olave",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "IR",
+              "points": 0.0,
+              "nflTeam": "WSH",
+              "nflOpponent": "IND"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 25.0,
+            "passYards": 199.0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 9.0,
+            "rushYards": 103.0,
+            "rushTD": 2.0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 5,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 32.26,
           "nflTeam": "WSH",
           "nflOpponent": "NYG",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Choose Olave",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "QB",
+              "points": 32.26,
+              "nflTeam": "WSH",
+              "nflOpponent": "NYG"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 40.0,
+            "passYards": 300.0,
+            "passTD": 2.0,
+            "interceptions": 0,
+            "rushAttempts": 4.0,
+            "rushYards": 10.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 6,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 21.0,
           "nflTeam": "WSH",
           "nflOpponent": "SF",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Choose Olave",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "QB",
+              "points": 21.0,
+              "nflTeam": "WSH",
+              "nflOpponent": "SF"
+            }
+          ]
         },
         {
           "gameState": "bye",
           "nflStats": {},
           "season": 2026,
           "week": 7,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
+          "fantasyStatus": "final",
+          "status": "final",
           "points": null,
           "nflTeam": "WSH",
           "nflOpponent": null,
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Choose Olave",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "WSH",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -264,7 +369,19 @@
           "points": null,
           "nflTeam": "WSH",
           "nflOpponent": "PHI",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Choose Olave",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "WSH",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -397,7 +514,12 @@
           "weeks": [
             1,
             2,
-            3
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
           ],
           "evidence": [
             "current_roster",
@@ -2106,15 +2228,15 @@
     }
   ],
   "career": {
-    "weeks": 37,
-    "points": 502.5,
-    "average": 13.58,
+    "weeks": 40,
+    "points": 555.76,
+    "average": 13.89,
     "high": {
       "season": 2024,
       "week": 16,
       "points": 34.42
     },
-    "starts": 20,
-    "starterPoints": 367.0
+    "starts": 22,
+    "starterPoints": 420.26
   }
 }

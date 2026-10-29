@@ -12,7 +12,7 @@
     "weightPounds": 208,
     "birthDate": "2000-12-29",
     "college": "USC; Mississippi State",
-    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/y5ntpcenhhhv98uz2fys",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ksk0fjj4bl9jvfh2s0rm",
     "rookieSeason": 2025,
     "lastSeason": 2026,
     "nflDraft": {
@@ -22,7 +22,7 @@
       "team": "HOU"
     }
   },
-  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "metadataGeneratedAt": "2026-10-29T18:20:14.544731+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,27 +55,27 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 3,
-        "points": 22.6,
-        "average": 7.53,
+        "weeks": 7,
+        "points": 62.5,
+        "average": 8.93,
         "high": {
           "season": 2026,
-          "week": 3,
-          "points": 9.1
+          "week": 5,
+          "points": 12.5
         },
-        "starts": 0,
-        "starterPoints": null
+        "starts": 2,
+        "starterPoints": 19.2
       },
       "seasonStats": {
-        "gp": 0,
-        "points": 0,
-        "fppg": null,
+        "gp": 2,
+        "points": 19.2,
+        "fppg": 9.6,
         "nflStats": {
-          "rushAttempts": 22.0,
-          "rushYards": 65.0,
-          "rushTD": 1.0,
-          "receptions": 7.0,
-          "recYards": 31.0,
+          "rushAttempts": 77.0,
+          "rushYards": 271.0,
+          "rushTD": 2.0,
+          "receptions": 14.0,
+          "recYards": 94.0,
           "recTD": 0
         },
         "participationComplete": true,
@@ -212,52 +212,176 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 6.0,
+            "rushYards": 22.0,
+            "rushTD": 1.0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 4,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 8.2,
           "nflTeam": "HOU",
           "nflOpponent": "DAL",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 8.2,
+              "nflTeam": "HOU",
+              "nflOpponent": "DAL"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 15.0,
+            "rushYards": 62.0,
+            "rushTD": 0,
+            "receptions": 4.0,
+            "recYards": 23.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 5,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 12.5,
           "nflTeam": "HOU",
           "nflOpponent": "TEN",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 12.5,
+              "nflTeam": "HOU",
+              "nflOpponent": "TEN"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 15.0,
+            "rushYards": 56.0,
+            "rushTD": 0,
+            "receptions": 2.0,
+            "recYards": 25.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 6,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 10.1,
           "nflTeam": "HOU",
           "nflOpponent": "JAX",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "FLEX",
+              "points": 10.1,
+              "nflTeam": "HOU",
+              "nflOpponent": "JAX"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 19.0,
+            "rushYards": 66.0,
+            "rushTD": 0,
+            "receptions": 1.0,
+            "recYards": 15.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 7,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 9.1,
           "nflTeam": "HOU",
           "nflOpponent": "NYG",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "RB",
+              "points": 9.1,
+              "nflTeam": "HOU",
+              "nflOpponent": "NYG"
+            }
+          ]
         },
         {
           "gameState": "bye",
@@ -269,7 +393,19 @@
           "points": null,
           "nflTeam": "HOU",
           "nflOpponent": null,
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "HOU",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -402,7 +538,12 @@
           "weeks": [
             1,
             2,
-            3
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
           ],
           "evidence": [
             "current_roster",
@@ -1240,15 +1381,15 @@
     }
   ],
   "career": {
-    "weeks": 20,
-    "points": 173.7,
-    "average": 8.69,
+    "weeks": 24,
+    "points": 213.6,
+    "average": 8.9,
     "high": {
       "season": 2025,
       "week": 4,
       "points": 27.9
     },
-    "starts": 2,
-    "starterPoints": 22.2
+    "starts": 4,
+    "starterPoints": 41.4
   }
 }

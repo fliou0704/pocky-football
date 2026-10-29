@@ -12,7 +12,7 @@
     "weightPounds": 173,
     "birthDate": "1991-11-12",
     "college": "Tulane",
-    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tz5ecjri52gwpoo9s7be",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vtk4cn0bfnqv0cnh79an",
     "rookieSeason": 2014,
     "lastSeason": 2026,
     "nflDraft": {
@@ -22,7 +22,7 @@
       "team": null
     }
   },
-  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "metadataGeneratedAt": "2026-10-29T18:20:14.544731+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -43,25 +43,25 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 3,
-        "points": 26.0,
-        "average": 8.67,
+        "weeks": 7,
+        "points": 59.0,
+        "average": 8.43,
         "high": {
           "season": 2026,
-          "week": 1,
-          "points": 12.0
+          "week": 7,
+          "points": 14.0
         },
-        "starts": 3,
-        "starterPoints": 26.0
+        "starts": 7,
+        "starterPoints": 59.0
       },
       "seasonStats": {
-        "gp": 3,
-        "points": 26.0,
-        "fppg": 8.67,
+        "gp": 7,
+        "points": 59.0,
+        "fppg": 8.43,
         "nflStats": {
-          "fgMade": 4.0,
-          "fgAttempts": 5.0,
-          "extraPoints": 11.0
+          "fgMade": 11.0,
+          "fgAttempts": 15.0,
+          "extraPoints": 21.0
         },
         "participationComplete": true,
         "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
@@ -197,52 +197,176 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 3.0,
+            "fgAttempts": 3.0,
+            "extraPoints": 2.0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 4,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 11.0,
           "nflTeam": "CHI",
           "nflOpponent": "NYJ",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 11.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "NYJ"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 1.0,
+            "extraPoints": 1.0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 5,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "CHI",
           "nflOpponent": "GB",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 0.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "GB"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 1.0,
+            "fgAttempts": 2.0,
+            "extraPoints": 4.0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 6,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 8.0,
           "nflTeam": "CHI",
           "nflOpponent": "ATL",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 8.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "ATL"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 3.0,
+            "fgAttempts": 4.0,
+            "extraPoints": 3.0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 7,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 14.0,
           "nflTeam": "CHI",
           "nflOpponent": "NE",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 14.0,
+              "nflTeam": "CHI",
+              "nflOpponent": "NE"
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -254,7 +378,19 @@
           "points": null,
           "nflTeam": "CHI",
           "nflOpponent": "SEA",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": null
+              },
+              "slot": "K",
+              "points": null,
+              "nflTeam": "CHI",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -387,7 +523,12 @@
           "weeks": [
             1,
             2,
-            3
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
           ],
           "evidence": [
             "current_roster",
@@ -1791,15 +1932,15 @@
     }
   ],
   "career": {
-    "weeks": 37,
-    "points": 233.0,
-    "average": 6.3,
+    "weeks": 41,
+    "points": 266.0,
+    "average": 6.49,
     "high": {
       "season": 2022,
       "week": 7,
       "points": 18.0
     },
-    "starts": 9,
-    "starterPoints": 60.0
+    "starts": 13,
+    "starterPoints": 93.0
   }
 }

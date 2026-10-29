@@ -12,7 +12,7 @@
     "weightPounds": 225,
     "birthDate": "2002-08-30",
     "college": "North Carolina",
-    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/s1nmoon2xnrc3bnyulv4",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mkauzrg7vo8lfziigsbg",
     "rookieSeason": 2024,
     "lastSeason": 2026,
     "nflDraft": {
@@ -22,7 +22,7 @@
       "team": "NE"
     }
   },
-  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "metadataGeneratedAt": "2026-10-29T18:20:14.544731+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,27 +51,27 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 3,
-        "points": 21.6,
-        "average": 7.2,
+        "weeks": 7,
+        "points": 138.46,
+        "average": 19.78,
         "high": {
           "season": 2026,
-          "week": 1,
-          "points": 9.82
+          "week": 5,
+          "points": 39.46
         },
-        "starts": 2,
-        "starterPoints": 13.58
+        "starts": 4,
+        "starterPoints": 64.82
       },
       "seasonStats": {
-        "gp": 2,
-        "points": 13.58,
-        "fppg": 6.79,
+        "gp": 4,
+        "points": 64.82,
+        "fppg": 16.2,
         "nflStats": {
-          "passYards": 585.0,
-          "passTD": 1.0,
-          "interceptions": 6.0,
-          "rushYards": 82.0,
-          "rushTD": 0
+          "passYards": 1784.0,
+          "passTD": 13.0,
+          "interceptions": 8.0,
+          "rushYards": 211.0,
+          "rushTD": 2.0
         },
         "participationComplete": true,
         "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
@@ -207,52 +207,176 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 37.0,
+            "passYards": 269.0,
+            "passTD": 3.0,
+            "interceptions": 1.0,
+            "rushAttempts": 8.0,
+            "rushYards": 54.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 4,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 26.16,
           "nflTeam": "NE",
           "nflOpponent": "BUF",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "BE",
+              "points": 26.16,
+              "nflTeam": "NE",
+              "nflOpponent": "BUF"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 34.0,
+            "passYards": 374.0,
+            "passTD": 4.0,
+            "interceptions": 0,
+            "rushAttempts": 7.0,
+            "rushYards": 25.0,
+            "rushTD": 1.0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 5,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 39.46,
           "nflTeam": "NE",
           "nflOpponent": "LV",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "BE",
+              "points": 39.46,
+              "nflTeam": "NE",
+              "nflOpponent": "LV"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 32.0,
+            "passYards": 235.0,
+            "passTD": 3.0,
+            "interceptions": 0,
+            "rushAttempts": 4.0,
+            "rushYards": 24.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 6,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 23.8,
           "nflTeam": "NE",
           "nflOpponent": "NYJ",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "QB",
+              "points": 23.8,
+              "nflTeam": "NE",
+              "nflOpponent": "NYJ"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 31.0,
+            "passYards": 321.0,
+            "passTD": 2.0,
+            "interceptions": 1.0,
+            "rushAttempts": 4.0,
+            "rushYards": 26.0,
+            "rushTD": 1.0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 7,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 27.44,
           "nflTeam": "NE",
           "nflOpponent": "CHI",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "QB",
+              "points": 27.44,
+              "nflTeam": "NE",
+              "nflOpponent": "CHI"
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -264,7 +388,19 @@
           "points": null,
           "nflTeam": "NE",
           "nflOpponent": "MIA",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "QB",
+              "points": null,
+              "nflTeam": "NE",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -397,7 +533,12 @@
           "weeks": [
             1,
             2,
-            3
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
           ],
           "evidence": [
             "current_roster",
@@ -1907,15 +2048,15 @@
     }
   ],
   "career": {
-    "weeks": 37,
-    "points": 550.7,
-    "average": 14.88,
+    "weeks": 41,
+    "points": 667.56,
+    "average": 16.28,
     "high": {
-      "season": 2025,
-      "week": 17,
-      "points": 32.44
+      "season": 2026,
+      "week": 5,
+      "points": 39.46
     },
-    "starts": 9,
-    "starterPoints": 161.86
+    "starts": 11,
+    "starterPoints": 213.1
   }
 }

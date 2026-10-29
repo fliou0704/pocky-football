@@ -5,12 +5,34 @@
       "teamAId": 2,
       "teamBId": 16,
       "summary": {
-        "wins": 4,
+        "wins": 5,
         "losses": 2,
         "ties": 0,
-        "total": 6
+        "total": 7
       },
       "rows": [
+        {
+          "season": 2026,
+          "week": 5,
+          "teamAId": 2,
+          "teamBId": 16,
+          "teamA": {
+            "teamId": 2,
+            "name": "Juwan's Team",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+          },
+          "teamB": {
+            "teamId": 16,
+            "name": "Eat the Booty Like Groceries",
+            "logo": null
+          },
+          "teamAScore": 152.8,
+          "teamBScore": 96.3,
+          "result": "W",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": true
+        },
         {
           "season": 2025,
           "week": 14,
@@ -145,12 +167,19 @@
         }
       ],
       "seasons": [
+        2026,
         2025,
         2024,
         2023,
         2022
       ],
       "seasonSummaries": {
+        "2026": {
+          "wins": 1,
+          "losses": 0,
+          "ties": 0,
+          "total": 1
+        },
         "2025": {
           "wins": 1,
           "losses": 1,
@@ -177,10 +206,10 @@
         }
       },
       "regularSummary": {
-        "wins": 4,
+        "wins": 5,
         "losses": 2,
         "ties": 0,
-        "total": 6
+        "total": 7
       },
       "playoffSummary": {
         "wins": 0,
@@ -194,11 +223,33 @@
       "teamBId": 2,
       "summary": {
         "wins": 2,
-        "losses": 4,
+        "losses": 5,
         "ties": 0,
-        "total": 6
+        "total": 7
       },
       "rows": [
+        {
+          "season": 2026,
+          "week": 5,
+          "teamAId": 16,
+          "teamBId": 2,
+          "teamA": {
+            "teamId": 16,
+            "name": "Eat the Booty Like Groceries",
+            "logo": null
+          },
+          "teamB": {
+            "teamId": 2,
+            "name": "Juwan's Team",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+          },
+          "teamAScore": 96.3,
+          "teamBScore": 152.8,
+          "result": "L",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": true
+        },
         {
           "season": 2025,
           "week": 14,
@@ -333,12 +384,19 @@
         }
       ],
       "seasons": [
+        2026,
         2025,
         2024,
         2023,
         2022
       ],
       "seasonSummaries": {
+        "2026": {
+          "wins": 0,
+          "losses": 1,
+          "ties": 0,
+          "total": 1
+        },
         "2025": {
           "wins": 1,
           "losses": 1,
@@ -366,9 +424,9 @@
       },
       "regularSummary": {
         "wins": 2,
-        "losses": 4,
+        "losses": 5,
         "ties": 0,
-        "total": 6
+        "total": 7
       },
       "playoffSummary": {
         "wins": 0,
@@ -383,12 +441,100 @@
       "teamAId": 2,
       "teamBId": 16,
       "summary": {
-        "wins": 37,
-        "losses": 22,
+        "wins": 40,
+        "losses": 23,
         "ties": 0,
-        "total": 59
+        "total": 63
       },
       "rows": [
+        {
+          "season": 2026,
+          "week": 7,
+          "teamAId": 2,
+          "teamBId": 16,
+          "teamA": {
+            "teamId": 2,
+            "name": "Juwan's Team",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+          },
+          "teamB": {
+            "teamId": 16,
+            "name": "Eat the Booty Like Groceries",
+            "logo": null
+          },
+          "teamAScore": 96.52,
+          "teamBScore": 80.96,
+          "result": "W",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": false
+        },
+        {
+          "season": 2026,
+          "week": 6,
+          "teamAId": 2,
+          "teamBId": 16,
+          "teamA": {
+            "teamId": 2,
+            "name": "Juwan's Team",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+          },
+          "teamB": {
+            "teamId": 16,
+            "name": "Eat the Booty Like Groceries",
+            "logo": null
+          },
+          "teamAScore": 89.36,
+          "teamBScore": 99.74,
+          "result": "L",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": false
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "teamAId": 2,
+          "teamBId": 16,
+          "teamA": {
+            "teamId": 2,
+            "name": "Juwan's Team",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+          },
+          "teamB": {
+            "teamId": 16,
+            "name": "Eat the Booty Like Groceries",
+            "logo": null
+          },
+          "teamAScore": 152.8,
+          "teamBScore": 96.3,
+          "result": "W",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": true
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "teamAId": 2,
+          "teamBId": 16,
+          "teamA": {
+            "teamId": 2,
+            "name": "Juwan's Team",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+          },
+          "teamB": {
+            "teamId": 16,
+            "name": "Eat the Booty Like Groceries",
+            "logo": null
+          },
+          "teamAScore": 122.72,
+          "teamBScore": 118.62,
+          "result": "W",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": false
+        },
         {
           "season": 2026,
           "week": 3,
@@ -1697,10 +1843,10 @@
       ],
       "seasonSummaries": {
         "2026": {
-          "wins": 2,
-          "losses": 1,
+          "wins": 5,
+          "losses": 2,
           "ties": 0,
-          "total": 3
+          "total": 7
         },
         "2025": {
           "wins": 9,
@@ -1732,12 +1878,100 @@
       "teamAId": 16,
       "teamBId": 2,
       "summary": {
-        "wins": 22,
-        "losses": 37,
+        "wins": 23,
+        "losses": 40,
         "ties": 0,
-        "total": 59
+        "total": 63
       },
       "rows": [
+        {
+          "season": 2026,
+          "week": 7,
+          "teamAId": 16,
+          "teamBId": 2,
+          "teamA": {
+            "teamId": 16,
+            "name": "Eat the Booty Like Groceries",
+            "logo": null
+          },
+          "teamB": {
+            "teamId": 2,
+            "name": "Juwan's Team",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+          },
+          "teamAScore": 80.96,
+          "teamBScore": 96.52,
+          "result": "L",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": false
+        },
+        {
+          "season": 2026,
+          "week": 6,
+          "teamAId": 16,
+          "teamBId": 2,
+          "teamA": {
+            "teamId": 16,
+            "name": "Eat the Booty Like Groceries",
+            "logo": null
+          },
+          "teamB": {
+            "teamId": 2,
+            "name": "Juwan's Team",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+          },
+          "teamAScore": 99.74,
+          "teamBScore": 89.36,
+          "result": "W",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": false
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "teamAId": 16,
+          "teamBId": 2,
+          "teamA": {
+            "teamId": 16,
+            "name": "Eat the Booty Like Groceries",
+            "logo": null
+          },
+          "teamB": {
+            "teamId": 2,
+            "name": "Juwan's Team",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+          },
+          "teamAScore": 96.3,
+          "teamBScore": 152.8,
+          "result": "L",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": true
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "teamAId": 16,
+          "teamBId": 2,
+          "teamA": {
+            "teamId": 16,
+            "name": "Eat the Booty Like Groceries",
+            "logo": null
+          },
+          "teamB": {
+            "teamId": 2,
+            "name": "Juwan's Team",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+          },
+          "teamAScore": 118.62,
+          "teamBScore": 122.72,
+          "result": "L",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": false
+        },
         {
           "season": 2026,
           "week": 3,
@@ -3046,10 +3280,10 @@
       ],
       "seasonSummaries": {
         "2026": {
-          "wins": 1,
-          "losses": 2,
+          "wins": 2,
+          "losses": 5,
           "ties": 0,
-          "total": 3
+          "total": 7
         },
         "2025": {
           "wins": 5,

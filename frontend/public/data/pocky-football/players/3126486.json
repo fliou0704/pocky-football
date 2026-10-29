@@ -22,7 +22,7 @@
       "team": "SF"
     }
   },
-  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "metadataGeneratedAt": "2026-10-29T18:20:14.544731+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,26 +47,26 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 3,
-        "points": 39.9,
-        "average": 13.3,
+        "weeks": 7,
+        "points": 60.4,
+        "average": 8.63,
         "high": {
           "season": 2026,
           "week": 1,
           "points": 18.0
         },
-        "starts": 0,
-        "starterPoints": null
+        "starts": 1,
+        "starterPoints": 2.5
       },
       "seasonStats": {
-        "gp": 0,
-        "points": 0,
-        "fppg": null,
+        "gp": 1,
+        "points": 2.5,
+        "fppg": 2.5,
         "nflStats": {
-          "receptions": 9.0,
-          "recYards": 159.0,
-          "recTD": 2.0,
-          "rushYards": 30.0
+          "receptions": 16.0,
+          "recYards": 206.0,
+          "recTD": 3.0,
+          "rushYards": 78.0
         },
         "participationComplete": true,
         "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
@@ -202,52 +202,176 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 3.0,
+            "rushYards": 44.0,
+            "rushTD": 0,
+            "receptions": 5.0,
+            "recYards": 26.0,
+            "recTD": 1.0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 4,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 18.0,
           "nflTeam": "SF",
           "nflOpponent": "DEN",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Juwan's Team",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+              },
+              "slot": "BE",
+              "points": 18.0,
+              "nflTeam": "SF",
+              "nflOpponent": "DEN"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 2.0,
+            "rushYards": 4.0,
+            "rushTD": 0,
+            "receptions": 2.0,
+            "recYards": 21.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 5,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 2.5,
           "nflTeam": "SF",
           "nflOpponent": "SEA",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Juwan's Team",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+              },
+              "slot": "WR",
+              "points": 2.5,
+              "nflTeam": "SF",
+              "nflOpponent": "SEA"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 6,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "SF",
           "nflOpponent": "WSH",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Eat the Booty Like Groceries",
+                "logo": null
+              },
+              "slot": "IR",
+              "points": 0.0,
+              "nflTeam": "SF",
+              "nflOpponent": "WSH"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 7,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "SF",
           "nflOpponent": "ATL",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Eat the Booty Like Groceries",
+                "logo": null
+              },
+              "slot": "IR",
+              "points": 0.0,
+              "nflTeam": "SF",
+              "nflOpponent": "ATL"
+            }
+          ]
         },
         {
           "gameState": "bye",
@@ -259,7 +383,19 @@
           "points": null,
           "nflTeam": "SF",
           "nflOpponent": null,
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Eat the Booty Like Groceries",
+                "logo": null
+              },
+              "slot": "IR",
+              "points": null,
+              "nflTeam": "SF",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -385,6 +521,21 @@
       "ownership": [
         {
           "team": {
+            "teamId": 2,
+            "name": "Juwan's Team",
+            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+          },
+          "weeks": [
+            4,
+            5
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
             "teamId": 13,
             "name": "The Trenches PerryG",
             "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
@@ -395,17 +546,34 @@
             3
           ],
           "evidence": [
-            "current_roster",
             "draft",
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
+            "teamId": 16,
+            "name": "Eat the Booty Like Groceries",
+            "logo": null
+          },
+          "weeks": [
+            6,
+            7,
+            8
+          ],
+          "evidence": [
+            "current_roster",
+            "transaction",
             "weekly_roster"
           ]
         }
       ],
       "rosterSnapshot": [
         {
-          "teamId": 13,
-          "name": "The Trenches PerryG",
-          "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+          "teamId": 16,
+          "name": "Eat the Booty Like Groceries",
+          "logo": null
         }
       ],
       "rosterSnapshotLabel": "Current roster",
@@ -423,7 +591,64 @@
           "keeper": false
         }
       ],
-      "transactions": [],
+      "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2026-10-16T00:13:38.528000+00:00",
+          "timestampKind": "proposed",
+          "week": 6,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 16,
+              "name": "Eat the Booty Like Groceries",
+              "logo": null
+            }
+          ]
+        },
+        {
+          "type": "drop",
+          "timestamp": "2026-10-14T08:00:20.249000+00:00",
+          "timestampKind": "processed",
+          "week": 6,
+          "fromTeams": [
+            {
+              "teamId": 2,
+              "name": "Juwan's Team",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2026-10-04T13:00:44.233000+00:00",
+          "timestampKind": "proposed",
+          "week": 4,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 2,
+              "name": "Juwan's Team",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+            }
+          ]
+        },
+        {
+          "type": "drop",
+          "timestamp": "2026-10-02T07:09:25.655000+00:00",
+          "timestampKind": "processed",
+          "week": 4,
+          "fromTeams": [
+            {
+              "teamId": 13,
+              "name": "The Trenches PerryG",
+              "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+            }
+          ],
+          "toTeams": []
+        }
+      ],
       "activityCoverage": {
         "status": "independently_verified_counts",
         "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
@@ -4601,15 +4826,15 @@
     }
   ],
   "career": {
-    "weeks": 88,
-    "points": 1132.76,
-    "average": 12.87,
+    "weeks": 92,
+    "points": 1153.26,
+    "average": 12.54,
     "high": {
       "season": 2023,
       "week": 13,
       "points": 35.8
     },
-    "starts": 64,
-    "starterPoints": 874.7
+    "starts": 65,
+    "starterPoints": 877.2
   }
 }

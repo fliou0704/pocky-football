@@ -5,12 +5,34 @@
       "teamAId": 1,
       "teamBId": 15,
       "summary": {
-        "wins": 2,
+        "wins": 3,
         "losses": 6,
         "ties": 0,
-        "total": 8
+        "total": 9
       },
       "rows": [
+        {
+          "season": 2026,
+          "week": 5,
+          "teamAId": 1,
+          "teamBId": 15,
+          "teamA": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "teamB": {
+            "teamId": 15,
+            "name": "Gibb me dak",
+            "logo": null
+          },
+          "teamAScore": 138.16,
+          "teamBScore": 120.64,
+          "result": "W",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": true
+        },
         {
           "season": 2025,
           "week": 15,
@@ -189,12 +211,19 @@
         }
       ],
       "seasons": [
+        2026,
         2025,
         2024,
         2023,
         2022
       ],
       "seasonSummaries": {
+        "2026": {
+          "wins": 1,
+          "losses": 0,
+          "ties": 0,
+          "total": 1
+        },
         "2025": {
           "wins": 2,
           "losses": 1,
@@ -221,10 +250,10 @@
         }
       },
       "regularSummary": {
-        "wins": 1,
+        "wins": 2,
         "losses": 6,
         "ties": 0,
-        "total": 7
+        "total": 8
       },
       "playoffSummary": {
         "wins": 1,
@@ -238,11 +267,33 @@
       "teamBId": 1,
       "summary": {
         "wins": 6,
-        "losses": 2,
+        "losses": 3,
         "ties": 0,
-        "total": 8
+        "total": 9
       },
       "rows": [
+        {
+          "season": 2026,
+          "week": 5,
+          "teamAId": 15,
+          "teamBId": 1,
+          "teamA": {
+            "teamId": 15,
+            "name": "Gibb me dak",
+            "logo": null
+          },
+          "teamB": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "teamAScore": 120.64,
+          "teamBScore": 138.16,
+          "result": "L",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": true
+        },
         {
           "season": 2025,
           "week": 15,
@@ -421,12 +472,19 @@
         }
       ],
       "seasons": [
+        2026,
         2025,
         2024,
         2023,
         2022
       ],
       "seasonSummaries": {
+        "2026": {
+          "wins": 0,
+          "losses": 1,
+          "ties": 0,
+          "total": 1
+        },
         "2025": {
           "wins": 1,
           "losses": 2,
@@ -454,9 +512,9 @@
       },
       "regularSummary": {
         "wins": 6,
-        "losses": 1,
+        "losses": 2,
         "ties": 0,
-        "total": 7
+        "total": 8
       },
       "playoffSummary": {
         "wins": 0,
@@ -471,12 +529,100 @@
       "teamAId": 1,
       "teamBId": 15,
       "summary": {
-        "wins": 14,
-        "losses": 45,
+        "wins": 16,
+        "losses": 47,
         "ties": 0,
-        "total": 59
+        "total": 63
       },
       "rows": [
+        {
+          "season": 2026,
+          "week": 7,
+          "teamAId": 1,
+          "teamBId": 15,
+          "teamA": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "teamB": {
+            "teamId": 15,
+            "name": "Gibb me dak",
+            "logo": null
+          },
+          "teamAScore": 102.72,
+          "teamBScore": 110.78,
+          "result": "L",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": false
+        },
+        {
+          "season": 2026,
+          "week": 6,
+          "teamAId": 1,
+          "teamBId": 15,
+          "teamA": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "teamB": {
+            "teamId": 15,
+            "name": "Gibb me dak",
+            "logo": null
+          },
+          "teamAScore": 113.02,
+          "teamBScore": 74.52,
+          "result": "W",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": false
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "teamAId": 1,
+          "teamBId": 15,
+          "teamA": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "teamB": {
+            "teamId": 15,
+            "name": "Gibb me dak",
+            "logo": null
+          },
+          "teamAScore": 138.16,
+          "teamBScore": 120.64,
+          "result": "W",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": true
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "teamAId": 1,
+          "teamBId": 15,
+          "teamA": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "teamB": {
+            "teamId": 15,
+            "name": "Gibb me dak",
+            "logo": null
+          },
+          "teamAScore": 133.68,
+          "teamBScore": 153.5,
+          "result": "L",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": false
+        },
         {
           "season": 2026,
           "week": 3,
@@ -1785,10 +1931,10 @@
       ],
       "seasonSummaries": {
         "2026": {
-          "wins": 1,
-          "losses": 2,
+          "wins": 3,
+          "losses": 4,
           "ties": 0,
-          "total": 3
+          "total": 7
         },
         "2025": {
           "wins": 5,
@@ -1820,12 +1966,100 @@
       "teamAId": 15,
       "teamBId": 1,
       "summary": {
-        "wins": 45,
-        "losses": 14,
+        "wins": 47,
+        "losses": 16,
         "ties": 0,
-        "total": 59
+        "total": 63
       },
       "rows": [
+        {
+          "season": 2026,
+          "week": 7,
+          "teamAId": 15,
+          "teamBId": 1,
+          "teamA": {
+            "teamId": 15,
+            "name": "Gibb me dak",
+            "logo": null
+          },
+          "teamB": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "teamAScore": 110.78,
+          "teamBScore": 102.72,
+          "result": "W",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": false
+        },
+        {
+          "season": 2026,
+          "week": 6,
+          "teamAId": 15,
+          "teamBId": 1,
+          "teamA": {
+            "teamId": 15,
+            "name": "Gibb me dak",
+            "logo": null
+          },
+          "teamB": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "teamAScore": 74.52,
+          "teamBScore": 113.02,
+          "result": "L",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": false
+        },
+        {
+          "season": 2026,
+          "week": 5,
+          "teamAId": 15,
+          "teamBId": 1,
+          "teamA": {
+            "teamId": 15,
+            "name": "Gibb me dak",
+            "logo": null
+          },
+          "teamB": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "teamAScore": 120.64,
+          "teamBScore": 138.16,
+          "result": "L",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": true
+        },
+        {
+          "season": 2026,
+          "week": 4,
+          "teamAId": 15,
+          "teamBId": 1,
+          "teamA": {
+            "teamId": 15,
+            "name": "Gibb me dak",
+            "logo": null
+          },
+          "teamB": {
+            "teamId": 1,
+            "name": "Brian's Original Fried Haddock",
+            "logo": null
+          },
+          "teamAScore": 153.5,
+          "teamBScore": 133.68,
+          "result": "W",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": false
+        },
         {
           "season": 2026,
           "week": 3,
@@ -3134,10 +3368,10 @@
       ],
       "seasonSummaries": {
         "2026": {
-          "wins": 2,
-          "losses": 1,
+          "wins": 4,
+          "losses": 3,
           "ties": 0,
-          "total": 3
+          "total": 7
         },
         "2025": {
           "wins": 9,

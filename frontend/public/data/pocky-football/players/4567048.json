@@ -22,7 +22,7 @@
       "team": "SEA"
     }
   },
-  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "metadataGeneratedAt": "2026-10-29T18:20:14.544731+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,27 +55,27 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 3,
-        "points": 79.2,
-        "average": 26.4,
+        "weeks": 6,
+        "points": 147.7,
+        "average": 24.62,
         "high": {
           "season": 2026,
           "week": 1,
           "points": 34.1
         },
-        "starts": 3,
-        "starterPoints": 79.2
+        "starts": 6,
+        "starterPoints": 147.7
       },
       "seasonStats": {
-        "gp": 3,
-        "points": 79.2,
-        "fppg": 26.4,
+        "gp": 6,
+        "points": 147.7,
+        "fppg": 24.62,
         "nflStats": {
-          "rushAttempts": 65.0,
-          "rushYards": 360.0,
-          "rushTD": 2.0,
-          "receptions": 11.0,
-          "recYards": 82.0,
+          "rushAttempts": 120.0,
+          "rushYards": 701.0,
+          "rushTD": 6.0,
+          "receptions": 18.0,
+          "recYards": 116.0,
           "recTD": 2.0
         },
         "participationComplete": true,
@@ -212,52 +212,157 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 22.0,
+            "rushYards": 177.0,
+            "rushTD": 2.0,
+            "receptions": 1.0,
+            "recYards": 2.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 4,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 30.9,
           "nflTeam": "KC",
           "nflOpponent": "LV",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Juwan's Team",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+              },
+              "slot": "RB",
+              "points": 30.9,
+              "nflTeam": "KC",
+              "nflOpponent": "LV"
+            }
+          ]
         },
         {
           "gameState": "bye",
           "nflStats": {},
           "season": 2026,
           "week": 5,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
+          "fantasyStatus": "final",
+          "status": "final",
           "points": null,
           "nflTeam": "KC",
           "nflOpponent": null,
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Juwan's Team",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "KC",
+              "nflOpponent": null
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 19.0,
+            "rushYards": 128.0,
+            "rushTD": 2.0,
+            "receptions": 2.0,
+            "recYards": 11.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 6,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 27.9,
           "nflTeam": "KC",
           "nflOpponent": "LAC",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Juwan's Team",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+              },
+              "slot": "RB",
+              "points": 27.9,
+              "nflTeam": "KC",
+              "nflOpponent": "LAC"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 14.0,
+            "rushYards": 36.0,
+            "rushTD": 0,
+            "receptions": 4.0,
+            "recYards": 21.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 7,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 9.7,
           "nflTeam": "KC",
           "nflOpponent": "SEA",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Juwan's Team",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+              },
+              "slot": "RB",
+              "points": 9.7,
+              "nflTeam": "KC",
+              "nflOpponent": "SEA"
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -269,7 +374,19 @@
           "points": null,
           "nflTeam": "KC",
           "nflOpponent": "DEN",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Juwan's Team",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+              },
+              "slot": "RB",
+              "points": null,
+              "nflTeam": "KC",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -402,7 +519,12 @@
           "weeks": [
             1,
             2,
-            3
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
           ],
           "evidence": [
             "current_roster",
@@ -3785,15 +3907,15 @@
     }
   ],
   "career": {
-    "weeks": 71,
-    "points": 854.2,
-    "average": 12.03,
+    "weeks": 74,
+    "points": 922.7,
+    "average": 12.47,
     "high": {
       "season": 2026,
       "week": 1,
       "points": 34.1
     },
-    "starts": 46,
-    "starterPoints": 661.8
+    "starts": 49,
+    "starterPoints": 730.3
   }
 }

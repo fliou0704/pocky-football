@@ -327,6 +327,40 @@
             "rank": 8
           },
           {
+            "season": 2026,
+            "week": 4,
+            "team": {
+              "teamId": 6,
+              "name": "LOVE MEEEE",
+              "logo": null
+            },
+            "opponent": {
+              "teamId": 5,
+              "name": "The Concep",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+            },
+            "value": 173.76,
+            "opponentScore": 109.98,
+            "isPlayoff": false,
+            "roundLabel": null,
+            "bracket": "regular",
+            "matchup": {
+              "season": 2026,
+              "week": 4,
+              "teamA": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": null
+              },
+              "teamB": {
+                "teamId": 5,
+                "name": "The Concep",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+              }
+            },
+            "rank": 9
+          },
+          {
             "season": 2025,
             "week": 7,
             "team": {
@@ -356,40 +390,6 @@
                 "teamId": 3,
                 "name": "Bowers' Castle",
                 "logo": null
-              }
-            },
-            "rank": 9
-          },
-          {
-            "season": 2021,
-            "week": 3,
-            "team": {
-              "teamId": 2,
-              "name": "Light Work",
-              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
-            },
-            "opponent": {
-              "teamId": 10,
-              "name": "Dookey  Kong",
-              "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg"
-            },
-            "value": 172.48,
-            "opponentScore": 110.8,
-            "isPlayoff": false,
-            "roundLabel": null,
-            "bracket": "regular",
-            "matchup": {
-              "season": 2021,
-              "week": 3,
-              "teamA": {
-                "teamId": 2,
-                "name": "Light Work",
-                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Talent-ChipWass/talent-woody.svg"
-              },
-              "teamB": {
-                "teamId": 10,
-                "name": "Dookey  Kong",
-                "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg"
               }
             },
             "rank": 10
@@ -1196,7 +1196,7 @@
             "team": {
               "teamId": 12,
               "name": "semanto gay and kissed allen ",
-              "logo": null
+              "logo": "https://i.postimg.cc/9Qbrf5ht/IMG-3740.jpg"
             },
             "opponent": {
               "teamId": 15,
@@ -1215,7 +1215,7 @@
               "teamA": {
                 "teamId": 12,
                 "name": "semanto gay and kissed allen ",
-                "logo": null
+                "logo": "https://i.postimg.cc/9Qbrf5ht/IMG-3740.jpg"
               },
               "teamB": {
                 "teamId": 15,
@@ -1233,7 +1233,7 @@
             "team": {
               "teamId": 12,
               "name": "semanto gay and kissed allen ",
-              "logo": null
+              "logo": "https://i.postimg.cc/9Qbrf5ht/IMG-3740.jpg"
             },
             "opponent": {
               "teamId": 15,
@@ -1252,7 +1252,7 @@
               "teamA": {
                 "teamId": 12,
                 "name": "semanto gay and kissed allen ",
-                "logo": null
+                "logo": "https://i.postimg.cc/9Qbrf5ht/IMG-3740.jpg"
               },
               "teamB": {
                 "teamId": 15,
@@ -5399,7 +5399,7 @@
         "complete": false,
         "regularSeasonComplete": false,
         "missingLineupWeeks": [],
-        "missingPlayerPoints": 0,
+        "missingPlayerPoints": 44,
         "playerSeasonCoverage": {
           "configuredWeeks": [
             1,
@@ -5417,7 +5417,7 @@
             13,
             14
           ],
-          "sourcePlayers": 692,
+          "sourcePlayers": 741,
           "eligiblePlayerSeasons": 0,
           "qualification": "Numeric actual scores for every scheduled NFL game within configured fantasy weeks; explicit NFL byes allowed. Missing played-week scores exclude a player-season."
         }

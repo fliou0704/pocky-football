@@ -22,7 +22,7 @@
       "team": "CIN"
     }
   },
-  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "metadataGeneratedAt": "2026-10-29T18:20:14.544731+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,25 +47,25 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 3,
-        "points": 44.4,
-        "average": 14.8,
+        "weeks": 6,
+        "points": 102.1,
+        "average": 17.02,
         "high": {
           "season": 2026,
-          "week": 3,
-          "points": 21.0
+          "week": 7,
+          "points": 26.8
         },
-        "starts": 3,
-        "starterPoints": 44.4
+        "starts": 6,
+        "starterPoints": 102.1
       },
       "seasonStats": {
-        "gp": 3,
-        "points": 44.4,
-        "fppg": 14.8,
+        "gp": 6,
+        "points": 102.1,
+        "fppg": 17.02,
         "nflStats": {
-          "receptions": 14.0,
-          "recYards": 244.0,
-          "recTD": 1.0,
+          "receptions": 33.0,
+          "recYards": 571.0,
+          "recTD": 2.0,
           "rushYards": 0
         },
         "participationComplete": true,
@@ -202,52 +202,157 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 11.0,
+            "recYards": 157.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 4,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 26.7,
           "nflTeam": "CIN",
           "nflOpponent": "JAX",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 26.7,
+              "nflTeam": "CIN",
+              "nflOpponent": "JAX"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 2.0,
+            "recYards": 22.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 5,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 4.2,
           "nflTeam": "CIN",
           "nflOpponent": "MIA",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 4.2,
+              "nflTeam": "CIN",
+              "nflOpponent": "MIA"
+            }
+          ]
         },
         {
           "gameState": "bye",
           "nflStats": {},
           "season": 2026,
           "week": 6,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
+          "fantasyStatus": "final",
+          "status": "final",
           "points": null,
           "nflTeam": "CIN",
           "nflOpponent": null,
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "CIN",
+              "nflOpponent": null
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 6.0,
+            "recYards": 148.0,
+            "recTD": 1.0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 7,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 26.8,
           "nflTeam": "CIN",
           "nflOpponent": "BAL",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 26.8,
+              "nflTeam": "CIN",
+              "nflOpponent": "BAL"
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -259,7 +364,19 @@
           "points": null,
           "nflTeam": "CIN",
           "nflOpponent": "TEN",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": null,
+              "nflTeam": "CIN",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -392,7 +509,12 @@
           "weeks": [
             1,
             2,
-            3
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
           ],
           "evidence": [
             "current_roster",
@@ -4582,15 +4704,15 @@
     }
   ],
   "career": {
-    "weeks": 87,
-    "points": 1055.7,
-    "average": 12.13,
+    "weeks": 90,
+    "points": 1113.4,
+    "average": 12.37,
     "high": {
       "season": 2021,
       "week": 16,
       "points": 43.4
     },
-    "starts": 54,
-    "starterPoints": 750.1
+    "starts": 57,
+    "starterPoints": 807.8
   }
 }

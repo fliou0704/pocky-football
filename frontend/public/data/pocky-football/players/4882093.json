@@ -22,7 +22,7 @@
       "team": "JAX"
     }
   },
-  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "metadataGeneratedAt": "2026-10-29T18:20:14.544731+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,28 +55,28 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 3,
-        "points": 41.0,
-        "average": 13.67,
+        "weeks": 6,
+        "points": 88.4,
+        "average": 14.73,
         "high": {
           "season": 2026,
-          "week": 3,
-          "points": 17.0
+          "week": 6,
+          "points": 24.7
         },
-        "starts": 3,
-        "starterPoints": 41.0
+        "starts": 6,
+        "starterPoints": 88.4
       },
       "seasonStats": {
-        "gp": 3,
-        "points": 41.0,
-        "fppg": 13.67,
+        "gp": 7,
+        "points": null,
+        "fppg": null,
         "nflStats": {
-          "rushAttempts": 43.0,
-          "rushYards": 204.0,
+          "rushAttempts": 94.0,
+          "rushYards": 388.0,
           "rushTD": 2.0,
-          "receptions": 5.0,
-          "recYards": 36.0,
-          "recTD": 0
+          "receptions": 13.0,
+          "recYards": 126.0,
+          "recTD": 2.0
         },
         "participationComplete": true,
         "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
@@ -212,52 +212,157 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 17.0,
+            "rushYards": 73.0,
+            "rushTD": 0,
+            "receptions": 2.0,
+            "recYards": 18.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 4,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 11.1,
           "nflTeam": "JAX",
           "nflOpponent": "CIN",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Eat the Booty Like Groceries",
+                "logo": null
+              },
+              "slot": "FLEX",
+              "points": 11.1,
+              "nflTeam": "JAX",
+              "nflOpponent": "CIN"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 22.0,
+            "rushYards": 72.0,
+            "rushTD": 0,
+            "receptions": 2.0,
+            "recYards": 24.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 5,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 11.6,
           "nflTeam": "JAX",
           "nflOpponent": "PHI",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Eat the Booty Like Groceries",
+                "logo": null
+              },
+              "slot": "FLEX",
+              "points": 11.6,
+              "nflTeam": "JAX",
+              "nflOpponent": "PHI"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 12.0,
+            "rushYards": 39.0,
+            "rushTD": 0,
+            "receptions": 4.0,
+            "recYards": 48.0,
+            "recTD": 2.0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 6,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 24.7,
           "nflTeam": "JAX",
           "nflOpponent": "HOU",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Eat the Booty Like Groceries",
+                "logo": null
+              },
+              "slot": "RB",
+              "points": 24.7,
+              "nflTeam": "JAX",
+              "nflOpponent": "HOU"
+            }
+          ]
         },
         {
           "gameState": "bye",
           "nflStats": {},
           "season": 2026,
           "week": 7,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
+          "fantasyStatus": "final",
+          "status": "final",
           "points": null,
           "nflTeam": "JAX",
           "nflOpponent": null,
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Eat the Booty Like Groceries",
+                "logo": null
+              },
+              "slot": "RB",
+              "points": null,
+              "nflTeam": "JAX",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -269,7 +374,19 @@
           "points": null,
           "nflTeam": "JAX",
           "nflOpponent": "IND",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Eat the Booty Like Groceries",
+                "logo": null
+              },
+              "slot": "RB",
+              "points": null,
+              "nflTeam": "JAX",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -402,7 +519,12 @@
           "weeks": [
             1,
             2,
-            3
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
           ],
           "evidence": [
             "current_roster",
@@ -1063,15 +1185,15 @@
     }
   ],
   "career": {
-    "weeks": 20,
-    "points": 129.6,
-    "average": 6.48,
+    "weeks": 23,
+    "points": 177.0,
+    "average": 7.7,
     "high": {
       "season": 2026,
-      "week": 3,
-      "points": 17.0
+      "week": 6,
+      "points": 24.7
     },
-    "starts": 3,
-    "starterPoints": 41.0
+    "starts": 6,
+    "starterPoints": 88.4
   }
 }

@@ -22,7 +22,7 @@
       "team": "NE"
     }
   },
-  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "metadataGeneratedAt": "2026-10-29T18:20:14.544731+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,13 +47,13 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 3,
-        "points": 16.8,
-        "average": 5.6,
+        "weeks": 6,
+        "points": 44.9,
+        "average": 7.48,
         "high": {
           "season": 2026,
-          "week": 2,
-          "points": 12.6
+          "week": 4,
+          "points": 28.1
         },
         "starts": 0,
         "starterPoints": null
@@ -63,9 +63,9 @@
         "points": 0,
         "fppg": null,
         "nflStats": {
-          "receptions": 6.0,
-          "recYards": 108.0,
-          "recTD": 0,
+          "receptions": 11.0,
+          "recYards": 219.0,
+          "recTD": 2.0,
           "rushYards": 0
         },
         "participationComplete": true,
@@ -168,7 +168,7 @@
               "team": {
                 "teamId": 12,
                 "name": "semanto gay and kissed allen ",
-                "logo": null
+                "logo": "https://i.postimg.cc/9Qbrf5ht/IMG-3740.jpg"
               },
               "slot": "BE",
               "points": 4.2,
@@ -178,49 +178,118 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 5.0,
+            "recYards": 111.0,
+            "recTD": 2.0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 4,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 28.1,
           "nflTeam": "KC",
           "nflOpponent": "LV",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://i.postimg.cc/9Qbrf5ht/IMG-3740.jpg"
+              },
+              "slot": "BE",
+              "points": 28.1,
+              "nflTeam": "KC",
+              "nflOpponent": "LV"
+            }
+          ]
         },
         {
           "gameState": "bye",
           "nflStats": {},
           "season": 2026,
           "week": 5,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
+          "fantasyStatus": "final",
+          "status": "final",
           "points": null,
           "nflTeam": "KC",
           "nflOpponent": null,
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 6,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "KC",
           "nflOpponent": "LAC",
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 7,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "KC",
           "nflOpponent": "SEA",
           "rosters": []
@@ -363,28 +432,36 @@
           "team": {
             "teamId": 12,
             "name": "semanto gay and kissed allen ",
-            "logo": null
+            "logo": "https://i.postimg.cc/9Qbrf5ht/IMG-3740.jpg"
           },
           "weeks": [
-            3
+            3,
+            4
           ],
           "evidence": [
-            "current_roster",
             "transaction",
             "weekly_roster"
           ]
         }
       ],
-      "rosterSnapshot": [
-        {
-          "teamId": 12,
-          "name": "semanto gay and kissed allen ",
-          "logo": null
-        }
-      ],
+      "rosterSnapshot": [],
       "rosterSnapshotLabel": "Current roster",
       "draft": [],
       "transactions": [
+        {
+          "type": "drop",
+          "timestamp": "2026-10-06T17:56:03.170000+00:00",
+          "timestampKind": "proposed",
+          "week": 5,
+          "fromTeams": [
+            {
+              "teamId": 12,
+              "name": "semanto gay and kissed allen ",
+              "logo": "https://i.postimg.cc/9Qbrf5ht/IMG-3740.jpg"
+            }
+          ],
+          "toTeams": []
+        },
         {
           "type": "free_agent_add",
           "timestamp": "2026-09-26T23:04:22.356000+00:00",
@@ -395,7 +472,7 @@
             {
               "teamId": 12,
               "name": "semanto gay and kissed allen ",
-              "logo": null
+              "logo": "https://i.postimg.cc/9Qbrf5ht/IMG-3740.jpg"
             }
           ]
         }
@@ -1107,13 +1184,13 @@
     }
   ],
   "career": {
-    "weeks": 20,
-    "points": 97.6,
-    "average": 4.88,
+    "weeks": 23,
+    "points": 125.7,
+    "average": 5.47,
     "high": {
-      "season": 2025,
-      "week": 3,
-      "points": 18.1
+      "season": 2026,
+      "week": 4,
+      "points": 28.1
     },
     "starts": 0,
     "starterPoints": null

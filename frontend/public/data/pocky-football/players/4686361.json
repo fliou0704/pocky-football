@@ -22,7 +22,7 @@
       "team": "JAX"
     }
   },
-  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "metadataGeneratedAt": "2026-10-29T18:20:14.544731+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -43,25 +43,25 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 3,
-        "points": 23.0,
-        "average": 7.67,
+        "weeks": 6,
+        "points": 56.0,
+        "average": 9.33,
         "high": {
           "season": 2026,
-          "week": 1,
-          "points": 12.0
+          "week": 4,
+          "points": 14.0
         },
-        "starts": 3,
-        "starterPoints": 23.0
+        "starts": 6,
+        "starterPoints": 56.0
       },
       "seasonStats": {
-        "gp": 3,
-        "points": 23.0,
-        "fppg": 7.67,
+        "gp": 6,
+        "points": 56.0,
+        "fppg": 9.33,
         "nflStats": {
-          "fgMade": 4.0,
-          "fgAttempts": 6.0,
-          "extraPoints": 10.0
+          "fgMade": 10.0,
+          "fgAttempts": 12.0,
+          "extraPoints": 16.0
         },
         "participationComplete": true,
         "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
@@ -197,48 +197,141 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 3.0,
+            "fgAttempts": 3.0,
+            "extraPoints": 1.0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 4,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 14.0,
           "nflTeam": "JAX",
           "nflOpponent": "CIN",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 14.0,
+              "nflTeam": "JAX",
+              "nflOpponent": "CIN"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 2.0,
+            "fgAttempts": 2.0,
+            "extraPoints": 1.0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 5,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 9.0,
           "nflTeam": "JAX",
           "nflOpponent": "PHI",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 9.0,
+              "nflTeam": "JAX",
+              "nflOpponent": "PHI"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 1.0,
+            "fgAttempts": 1.0,
+            "extraPoints": 4.0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 6,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 10.0,
           "nflTeam": "JAX",
           "nflOpponent": "HOU",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": null
+              },
+              "slot": "K",
+              "points": 10.0,
+              "nflTeam": "JAX",
+              "nflOpponent": "HOU"
+            }
+          ]
         },
         {
           "gameState": "bye",
           "nflStats": {},
           "season": 2026,
           "week": 7,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
+          "fantasyStatus": "final",
+          "status": "final",
           "points": null,
           "nflTeam": "JAX",
           "nflOpponent": null,
@@ -387,22 +480,19 @@
           "weeks": [
             1,
             2,
-            3
+            3,
+            4,
+            5,
+            6
           ],
           "evidence": [
-            "current_roster",
             "draft",
+            "transaction",
             "weekly_roster"
           ]
         }
       ],
-      "rosterSnapshot": [
-        {
-          "teamId": 1,
-          "name": "Brian's Original Fried Haddock",
-          "logo": null
-        }
-      ],
+      "rosterSnapshot": [],
       "rosterSnapshotLabel": "Current roster",
       "draft": [
         {
@@ -418,7 +508,22 @@
           "keeper": false
         }
       ],
-      "transactions": [],
+      "transactions": [
+        {
+          "type": "drop",
+          "timestamp": "2026-10-21T07:17:30.831000+00:00",
+          "timestampKind": "processed",
+          "week": 7,
+          "fromTeams": [
+            {
+              "teamId": 1,
+              "name": "Brian's Original Fried Haddock",
+              "logo": null
+            }
+          ],
+          "toTeams": []
+        }
+      ],
       "activityCoverage": {
         "status": "independently_verified_counts",
         "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
@@ -1060,15 +1165,15 @@
     }
   ],
   "career": {
-    "weeks": 20,
-    "points": 185.0,
-    "average": 9.25,
+    "weeks": 23,
+    "points": 218.0,
+    "average": 9.48,
     "high": {
       "season": 2025,
       "week": 9,
       "points": 16.0
     },
-    "starts": 4,
-    "starterPoints": 22.0
+    "starts": 7,
+    "starterPoints": 55.0
   }
 }

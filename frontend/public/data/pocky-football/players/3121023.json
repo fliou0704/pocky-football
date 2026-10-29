@@ -22,7 +22,7 @@
       "team": "PHI"
     }
   },
-  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "metadataGeneratedAt": "2026-10-29T18:20:14.544731+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -43,24 +43,24 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 3,
-        "points": 25.1,
-        "average": 8.37,
+        "weeks": 7,
+        "points": 56.8,
+        "average": 8.11,
         "high": {
           "season": 2026,
           "week": 1,
           "points": 23.7
         },
-        "starts": 0,
-        "starterPoints": null
+        "starts": 2,
+        "starterPoints": 21.9
       },
       "seasonStats": {
-        "gp": 0,
-        "points": 0,
-        "fppg": null,
+        "gp": 2,
+        "points": 21.9,
+        "fppg": 10.95,
         "nflStats": {
-          "receptions": 5.0,
-          "recYards": 81.0,
+          "receptions": 22.0,
+          "recYards": 228.0,
           "recTD": 2.0
         },
         "participationComplete": true,
@@ -197,52 +197,176 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 4,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "PHI",
           "nflOpponent": "LAR",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Choose Olave",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "BE",
+              "points": 0.0,
+              "nflTeam": "PHI",
+              "nflOpponent": "LAR"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 6.0,
+            "recYards": 38.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 5,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 9.8,
           "nflTeam": "PHI",
           "nflOpponent": "JAX",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Choose Olave",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "BE",
+              "points": 9.8,
+              "nflTeam": "PHI",
+              "nflOpponent": "JAX"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 6.0,
+            "recYards": 61.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 6,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 12.1,
           "nflTeam": "PHI",
           "nflOpponent": "CAR",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Choose Olave",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "FLEX",
+              "points": 12.1,
+              "nflTeam": "PHI",
+              "nflOpponent": "CAR"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 5.0,
+            "recYards": 48.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 7,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 9.8,
           "nflTeam": "PHI",
           "nflOpponent": "DAL",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Choose Olave",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "FLEX",
+              "points": 9.8,
+              "nflTeam": "PHI",
+              "nflOpponent": "DAL"
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -254,7 +378,19 @@
           "points": null,
           "nflTeam": "PHI",
           "nflOpponent": "WSH",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Choose Olave",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-1.svg"
+              },
+              "slot": "FLEX",
+              "points": null,
+              "nflTeam": "PHI",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -387,7 +523,12 @@
           "weeks": [
             1,
             2,
-            3
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
           ],
           "evidence": [
             "current_roster",
@@ -4545,15 +4686,15 @@
     }
   ],
   "career": {
-    "weeks": 88,
-    "points": 756.3,
-    "average": 8.59,
+    "weeks": 92,
+    "points": 788.0,
+    "average": 8.57,
     "high": {
       "season": 2021,
       "week": 13,
       "points": 28.5
     },
-    "starts": 36,
-    "starterPoints": 391.7
+    "starts": 38,
+    "starterPoints": 413.6
   }
 }

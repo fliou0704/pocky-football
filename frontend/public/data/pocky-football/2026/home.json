@@ -3,14 +3,14 @@
   "season": 2026,
   "state": {
     "phase": "regular",
-    "currentWeek": 4,
-    "lastCompletedWeek": 3,
+    "currentWeek": 8,
+    "lastCompletedWeek": 7,
     "regularSeasonWeeks": 14
   },
   "currentMatchups": [
     {
-      "week": 4,
-      "homeTeamId": 15,
+      "week": 8,
+      "homeTeamId": 12,
       "awayTeamId": 2,
       "homeScore": 0.0,
       "awayScore": 0.0,
@@ -19,8 +19,8 @@
       "winnerTeamId": null
     },
     {
-      "week": 4,
-      "homeTeamId": 13,
+      "week": 8,
+      "homeTeamId": 3,
       "awayTeamId": 1,
       "homeScore": 0.0,
       "awayScore": 0.0,
@@ -29,18 +29,8 @@
       "winnerTeamId": null
     },
     {
-      "week": 4,
-      "homeTeamId": 16,
-      "awayTeamId": 11,
-      "homeScore": 0.0,
-      "awayScore": 0.0,
-      "status": "upcoming",
-      "bracket": "regular",
-      "winnerTeamId": null
-    },
-    {
-      "week": 4,
-      "homeTeamId": 6,
+      "week": 8,
+      "homeTeamId": 15,
       "awayTeamId": 5,
       "homeScore": 0.0,
       "awayScore": 0.0,
@@ -49,9 +39,19 @@
       "winnerTeamId": null
     },
     {
-      "week": 4,
-      "homeTeamId": 12,
-      "awayTeamId": 3,
+      "week": 8,
+      "homeTeamId": 13,
+      "awayTeamId": 16,
+      "homeScore": 0.0,
+      "awayScore": 0.0,
+      "status": "upcoming",
+      "bracket": "regular",
+      "winnerTeamId": null
+    },
+    {
+      "week": 8,
+      "homeTeamId": 11,
+      "awayTeamId": 6,
       "homeScore": 0.0,
       "awayScore": 0.0,
       "status": "upcoming",
@@ -60,61 +60,61 @@
     }
   ],
   "recap": {
-    "week": 3,
+    "week": 7,
     "phase": "regular",
     "topTeam": {
-      "teamId": 2,
-      "points": 155.34
+      "teamId": 6,
+      "points": 139.22
     },
     "closestMatchup": {
-      "week": 3,
-      "homeTeamId": 5,
-      "awayTeamId": 12,
-      "homeScore": 110.3,
-      "awayScore": 112.04,
+      "week": 7,
+      "homeTeamId": 2,
+      "awayTeamId": 3,
+      "homeScore": 96.52,
+      "awayScore": 101.12,
       "status": "final",
       "bracket": "regular",
-      "winnerTeamId": 12
+      "winnerTeamId": 3
     },
     "topPlayers": [
       {
-        "playerId": 4429795,
-        "name": "Jahmyr Gibbs",
+        "playerId": 3916148,
+        "name": "Tony Pollard",
         "teamId": 15,
-        "points": 41.4,
-        "slot": "RB",
-        "bench": false
+        "points": 36.5,
+        "slot": "BE",
+        "bench": true
       },
       {
         "playerId": 4430878,
         "name": "Jaxon Smith-Njigba",
         "teamId": 2,
-        "points": 35.36,
+        "points": 31.3,
         "slot": "WR",
         "bench": false
       },
       {
-        "playerId": 4430807,
-        "name": "Bijan Robinson",
-        "teamId": 6,
-        "points": 35.3,
-        "slot": "RB",
-        "bench": false
-      },
-      {
-        "playerId": 4361741,
-        "name": "Brock Purdy",
+        "playerId": 3915511,
+        "name": "Joe Burrow",
         "teamId": 2,
-        "points": 31.28,
-        "slot": "QB",
+        "points": 28.88,
+        "slot": "BE",
+        "bench": true
+      },
+      {
+        "playerId": 4429615,
+        "name": "Zay Flowers",
+        "teamId": 6,
+        "points": 27.7,
+        "slot": "WR",
         "bench": false
       },
       {
-        "playerId": 4426502,
-        "name": "Drake London",
+        "playerId": 4431452,
+        "name": "Drake Maye",
         "teamId": 13,
-        "points": 28.4,
-        "slot": "WR",
+        "points": 27.44,
+        "slot": "QB",
         "bench": false
       }
     ],

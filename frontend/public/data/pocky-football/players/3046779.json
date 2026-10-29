@@ -22,7 +22,7 @@
       "team": "LA"
     }
   },
-  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "metadataGeneratedAt": "2026-10-29T18:20:14.544731+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,27 +51,27 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 3,
-        "points": 65.58,
-        "average": 21.86,
+        "weeks": 6,
+        "points": 133.02,
+        "average": 22.17,
         "high": {
           "season": 2026,
           "week": 2,
           "points": 29.78
         },
-        "starts": 0,
-        "starterPoints": null
+        "starts": 1,
+        "starterPoints": 28.94
       },
       "seasonStats": {
-        "gp": 0,
-        "points": 0,
-        "fppg": null,
+        "gp": 1,
+        "points": 28.94,
+        "fppg": 28.94,
         "nflStats": {
-          "passYards": 802.0,
-          "passTD": 8.0,
+          "passYards": 1788.0,
+          "passTD": 14.0,
           "interceptions": 0,
           "rushYards": 15.0,
-          "rushTD": 0
+          "rushTD": 1.0
         },
         "participationComplete": true,
         "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
@@ -183,52 +183,133 @@
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 52.0,
+            "passYards": 412.0,
+            "passTD": 1.0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 4,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 20.48,
           "nflTeam": "DET",
           "nflOpponent": "CAR",
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 30.0,
+            "passYards": 271.0,
+            "passTD": 3.0,
+            "interceptions": 0,
+            "rushAttempts": 1.0,
+            "rushYards": 1.0,
+            "rushTD": 1.0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 5,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 28.94,
           "nflTeam": "DET",
           "nflOpponent": "ARI",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "https://i.postimg.cc/9Qbrf5ht/IMG-3740.jpg"
+              },
+              "slot": "QB",
+              "points": 28.94,
+              "nflTeam": "DET",
+              "nflOpponent": "ARI"
+            }
+          ]
         },
         {
           "gameState": "bye",
           "nflStats": {},
           "season": 2026,
           "week": 6,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
+          "fantasyStatus": "final",
+          "status": "final",
           "points": null,
           "nflTeam": "DET",
           "nflOpponent": null,
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 32.0,
+            "passYards": 303.0,
+            "passTD": 2.0,
+            "interceptions": 0,
+            "rushAttempts": 2.0,
+            "rushYards": -1.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 7,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 18.02,
           "nflTeam": "DET",
           "nflOpponent": "GB",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": 18.02,
+              "nflTeam": "DET",
+              "nflOpponent": "GB"
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -240,7 +321,19 @@
           "points": null,
           "nflTeam": "DET",
           "nflOpponent": "MIN",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "DET",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -378,9 +471,45 @@
             "transaction",
             "weekly_roster"
           ]
+        },
+        {
+          "team": {
+            "teamId": 12,
+            "name": "semanto gay and kissed allen ",
+            "logo": "https://i.postimg.cc/9Qbrf5ht/IMG-3740.jpg"
+          },
+          "weeks": [
+            5
+          ],
+          "evidence": [
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
+            "teamId": 15,
+            "name": "Gibb me dak",
+            "logo": null
+          },
+          "weeks": [
+            7,
+            8
+          ],
+          "evidence": [
+            "current_roster",
+            "transaction",
+            "weekly_roster"
+          ]
         }
       ],
-      "rosterSnapshot": [],
+      "rosterSnapshot": [
+        {
+          "teamId": 15,
+          "name": "Gibb me dak",
+          "logo": null
+        }
+      ],
       "rosterSnapshotLabel": "Current roster",
       "draft": [
         {
@@ -397,6 +526,48 @@
         }
       ],
       "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2026-10-21T07:17:30.829000+00:00",
+          "timestampKind": "processed",
+          "week": 7,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 15,
+              "name": "Gibb me dak",
+              "logo": null
+            }
+          ]
+        },
+        {
+          "type": "drop",
+          "timestamp": "2026-10-13T17:07:43.164000+00:00",
+          "timestampKind": "proposed",
+          "week": 6,
+          "fromTeams": [
+            {
+              "teamId": 12,
+              "name": "semanto gay and kissed allen ",
+              "logo": "https://i.postimg.cc/9Qbrf5ht/IMG-3740.jpg"
+            }
+          ],
+          "toTeams": []
+        },
+        {
+          "type": "free_agent_add",
+          "timestamp": "2026-10-07T12:12:35.623000+00:00",
+          "timestampKind": "proposed",
+          "week": 5,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 12,
+              "name": "semanto gay and kissed allen ",
+              "logo": "https://i.postimg.cc/9Qbrf5ht/IMG-3740.jpg"
+            }
+          ]
+        },
         {
           "type": "drop",
           "timestamp": "2026-09-16T07:19:41.650000+00:00",
@@ -3743,15 +3914,15 @@
     }
   ],
   "career": {
-    "weeks": 71,
-    "points": 1260.52,
-    "average": 17.75,
+    "weeks": 74,
+    "points": 1327.96,
+    "average": 17.95,
     "high": {
       "season": 2024,
       "week": 15,
       "points": 41.06
     },
-    "starts": 14,
-    "starterPoints": 277.32
+    "starts": 15,
+    "starterPoints": 306.26
   }
 }

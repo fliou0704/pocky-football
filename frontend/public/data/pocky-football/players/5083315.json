@@ -22,7 +22,7 @@
       "team": "NYJ"
     }
   },
-  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "metadataGeneratedAt": "2026-10-29T18:20:14.544731+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -43,24 +43,24 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 3,
-        "points": 38.6,
-        "average": 12.87,
+        "weeks": 7,
+        "points": 42.7,
+        "average": 6.1,
         "high": {
           "season": 2026,
           "week": 3,
           "points": 23.5
         },
-        "starts": 0,
-        "starterPoints": null
+        "starts": 1,
+        "starterPoints": 0.0
       },
       "seasonStats": {
-        "gp": 0,
-        "points": 0,
-        "fppg": null,
+        "gp": 1,
+        "points": 0.0,
+        "fppg": 0.0,
         "nflStats": {
-          "receptions": 12.0,
-          "recYards": 143.0,
+          "receptions": 16.0,
+          "recYards": 164.0,
           "recTD": 1.0
         },
         "participationComplete": true,
@@ -161,49 +161,149 @@
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 4,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "NYJ",
           "nflOpponent": "CHI",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "The Concep",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+              },
+              "slot": "TE",
+              "points": 0.0,
+              "nflTeam": "NYJ",
+              "nflOpponent": "CHI"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 2.0,
+            "recYards": 3.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 5,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 0.3,
           "nflTeam": "NYJ",
           "nflOpponent": "CLE",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "The Concep",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+              },
+              "slot": "BE",
+              "points": 0.3,
+              "nflTeam": "NYJ",
+              "nflOpponent": "CLE"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 1.0,
+            "recYards": 12.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 6,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 2.2,
           "nflTeam": "NYJ",
           "nflOpponent": "NE",
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 1.0,
+            "recYards": 6.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 7,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 1.6,
           "nflTeam": "NYJ",
           "nflOpponent": "MIA",
           "rosters": []
@@ -348,23 +448,34 @@
             "name": "The Concep",
             "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
           },
-          "weeks": [],
+          "weeks": [
+            4,
+            5
+          ],
           "evidence": [
-            "current_roster",
-            "transaction"
+            "transaction",
+            "weekly_roster"
           ]
         }
       ],
-      "rosterSnapshot": [
-        {
-          "teamId": 5,
-          "name": "The Concep",
-          "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
-        }
-      ],
+      "rosterSnapshot": [],
       "rosterSnapshotLabel": "Current roster",
       "draft": [],
       "transactions": [
+        {
+          "type": "drop",
+          "timestamp": "2026-10-17T02:25:53.043000+00:00",
+          "timestampKind": "proposed",
+          "week": 6,
+          "fromTeams": [
+            {
+              "teamId": 5,
+              "name": "The Concep",
+              "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+            }
+          ],
+          "toTeams": []
+        },
         {
           "type": "waiver_add",
           "timestamp": "2026-09-30T07:56:05.811000+00:00",
@@ -387,15 +498,15 @@
     }
   ],
   "career": {
-    "weeks": 3,
-    "points": 38.6,
-    "average": 12.87,
+    "weeks": 7,
+    "points": 42.7,
+    "average": 6.1,
     "high": {
       "season": 2026,
       "week": 3,
       "points": 23.5
     },
-    "starts": 0,
-    "starterPoints": null
+    "starts": 1,
+    "starterPoints": 0.0
   }
 }

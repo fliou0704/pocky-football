@@ -22,7 +22,7 @@
       "team": "DET"
     }
   },
-  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "metadataGeneratedAt": "2026-10-29T18:20:14.544731+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,27 +55,27 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 3,
-        "points": 98.3,
-        "average": 32.77,
+        "weeks": 6,
+        "points": 171.0,
+        "average": 28.5,
         "high": {
           "season": 2026,
           "week": 3,
           "points": 41.4
         },
-        "starts": 3,
-        "starterPoints": 98.3
+        "starts": 6,
+        "starterPoints": 171.0
       },
       "seasonStats": {
-        "gp": 3,
-        "points": 98.3,
-        "fppg": 32.77,
+        "gp": 6,
+        "points": 171.0,
+        "fppg": 28.5,
         "nflStats": {
-          "rushAttempts": 65.0,
-          "rushYards": 307.0,
-          "rushTD": 4.0,
-          "receptions": 18.0,
-          "recYards": 156.0,
+          "rushAttempts": 134.0,
+          "rushYards": 620.0,
+          "rushTD": 7.0,
+          "receptions": 32.0,
+          "recYards": 270.0,
           "recTD": 2.0
         },
         "participationComplete": true,
@@ -212,52 +212,157 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 15.0,
+            "rushYards": 46.0,
+            "rushTD": 1.0,
+            "receptions": 4.0,
+            "recYards": 31.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 4,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 17.7,
           "nflTeam": "DET",
           "nflOpponent": "CAR",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": null
+              },
+              "slot": "RB",
+              "points": 17.7,
+              "nflTeam": "DET",
+              "nflOpponent": "CAR"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 25.0,
+            "rushYards": 151.0,
+            "rushTD": 2.0,
+            "receptions": 5.0,
+            "recYards": 56.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 5,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 37.7,
           "nflTeam": "DET",
           "nflOpponent": "ARI",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": null
+              },
+              "slot": "RB",
+              "points": 37.7,
+              "nflTeam": "DET",
+              "nflOpponent": "ARI"
+            }
+          ]
         },
         {
           "gameState": "bye",
           "nflStats": {},
           "season": 2026,
           "week": 6,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
+          "fantasyStatus": "final",
+          "status": "final",
           "points": null,
           "nflTeam": "DET",
           "nflOpponent": null,
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "DET",
+              "nflOpponent": null
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 29.0,
+            "rushYards": 116.0,
+            "rushTD": 0,
+            "receptions": 5.0,
+            "recYards": 27.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 7,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 17.3,
           "nflTeam": "DET",
           "nflOpponent": "GB",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": null
+              },
+              "slot": "RB",
+              "points": 17.3,
+              "nflTeam": "DET",
+              "nflOpponent": "GB"
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -269,7 +374,19 @@
           "points": null,
           "nflTeam": "DET",
           "nflOpponent": "MIN",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": null
+              },
+              "slot": "RB",
+              "points": null,
+              "nflTeam": "DET",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -402,7 +519,12 @@
           "weeks": [
             1,
             2,
-            3
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
           ],
           "evidence": [
             "current_roster",
@@ -2949,15 +3071,15 @@
     }
   ],
   "career": {
-    "weeks": 54,
-    "points": 1070.2,
-    "average": 19.82,
+    "weeks": 57,
+    "points": 1142.9,
+    "average": 20.05,
     "high": {
       "season": 2025,
       "week": 12,
       "points": 55.4
     },
-    "starts": 49,
-    "starterPoints": 994.9
+    "starts": 52,
+    "starterPoints": 1067.6
   }
 }

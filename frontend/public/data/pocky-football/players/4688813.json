@@ -12,7 +12,7 @@
     "weightPounds": 171,
     "birthDate": "2001-08-12",
     "college": "North Carolina",
-    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/z3wahaxpmc6d5lcxgh60",
+    "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zniq20yhnxjqajqcgfc5",
     "rookieSeason": 2023,
     "lastSeason": 2026,
     "nflDraft": {
@@ -22,7 +22,7 @@
       "team": "IND"
     }
   },
-  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "metadataGeneratedAt": "2026-10-29T18:20:14.544731+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,26 +47,26 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 3,
-        "points": 32.6,
-        "average": 10.87,
+        "weeks": 7,
+        "points": 57.4,
+        "average": 8.2,
         "high": {
           "season": 2026,
           "week": 2,
           "points": 14.2
         },
-        "starts": 1,
-        "starterPoints": 12.7
+        "starts": 5,
+        "starterPoints": 37.5
       },
       "seasonStats": {
-        "gp": 1,
-        "points": 12.7,
-        "fppg": 12.7,
+        "gp": 5,
+        "points": 37.5,
+        "fppg": 7.5,
         "nflStats": {
-          "receptions": 14.0,
-          "recYards": 186.0,
+          "receptions": 26.0,
+          "recYards": 307.0,
           "recTD": 0,
-          "rushYards": 0
+          "rushYards": 7.0
         },
         "participationComplete": true,
         "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
@@ -202,52 +202,176 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 3.0,
+            "recYards": 16.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 4,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 4.6,
           "nflTeam": "IND",
           "nflOpponent": "WSH",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Good Christians Hate Sinners",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 4.6,
+              "nflTeam": "IND",
+              "nflOpponent": "WSH"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 3.0,
+            "recYards": 47.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 5,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 7.7,
           "nflTeam": "IND",
           "nflOpponent": "PIT",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Good Christians Hate Sinners",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 7.7,
+              "nflTeam": "IND",
+              "nflOpponent": "PIT"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 1.0,
+            "rushYards": 7.0,
+            "rushTD": 0,
+            "receptions": 4.0,
+            "recYards": 40.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 6,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 8.7,
           "nflTeam": "IND",
           "nflOpponent": "TEN",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Good Christians Hate Sinners",
+                "logo": null
+              },
+              "slot": "FLEX",
+              "points": 8.7,
+              "nflTeam": "IND",
+              "nflOpponent": "TEN"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 2.0,
+            "recYards": 18.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 7,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 3.8,
           "nflTeam": "IND",
           "nflOpponent": "MIN",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Good Christians Hate Sinners",
+                "logo": null
+              },
+              "slot": "WR",
+              "points": 3.8,
+              "nflTeam": "IND",
+              "nflOpponent": "MIN"
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -259,7 +383,19 @@
           "points": null,
           "nflTeam": "IND",
           "nflOpponent": "JAX",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Good Christians Hate Sinners",
+                "logo": null
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "IND",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -392,7 +528,12 @@
           "weeks": [
             1,
             2,
-            3
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
           ],
           "evidence": [
             "current_roster",
@@ -2824,15 +2965,15 @@
     }
   ],
   "career": {
-    "weeks": 54,
-    "points": 509.6,
-    "average": 9.44,
+    "weeks": 58,
+    "points": 534.4,
+    "average": 9.21,
     "high": {
       "season": 2023,
       "week": 7,
       "points": 23.5
     },
-    "starts": 10,
-    "starterPoints": 106.3
+    "starts": 14,
+    "starterPoints": 131.1
   }
 }

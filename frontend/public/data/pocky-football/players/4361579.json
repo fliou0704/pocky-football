@@ -22,7 +22,7 @@
       "team": "DEN"
     }
   },
-  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "metadataGeneratedAt": "2026-10-29T18:20:14.544731+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,27 +55,27 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 3,
-        "points": 50.5,
-        "average": 16.83,
+        "weeks": 7,
+        "points": 130.5,
+        "average": 18.64,
         "high": {
           "season": 2026,
-          "week": 1,
-          "points": 24.2
+          "week": 4,
+          "points": 31.3
         },
-        "starts": 3,
-        "starterPoints": 50.5
+        "starts": 7,
+        "starterPoints": 130.5
       },
       "seasonStats": {
-        "gp": 3,
-        "points": 50.5,
-        "fppg": 16.83,
+        "gp": 7,
+        "points": 130.5,
+        "fppg": 18.64,
         "nflStats": {
-          "rushAttempts": 43.0,
-          "rushYards": 169.0,
-          "rushTD": 2.0,
-          "receptions": 10.0,
-          "recYards": 56.0,
+          "rushAttempts": 110.0,
+          "rushYards": 472.0,
+          "rushTD": 8.0,
+          "receptions": 19.0,
+          "recYards": 103.0,
           "recTD": 1.0
         },
         "participationComplete": true,
@@ -212,52 +212,176 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 19.0,
+            "rushYards": 62.0,
+            "rushTD": 3.0,
+            "receptions": 5.0,
+            "recYards": 21.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 4,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 31.3,
           "nflTeam": "DAL",
           "nflOpponent": "HOU",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "The Concep",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+              },
+              "slot": "RB",
+              "points": 31.3,
+              "nflTeam": "DAL",
+              "nflOpponent": "HOU"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 12.0,
+            "rushYards": 45.0,
+            "rushTD": 1.0,
+            "receptions": 2.0,
+            "recYards": 17.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 5,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 14.2,
           "nflTeam": "DAL",
           "nflOpponent": "TB",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "The Concep",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+              },
+              "slot": "RB",
+              "points": 14.2,
+              "nflTeam": "DAL",
+              "nflOpponent": "TB"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 11.0,
+            "rushYards": 41.0,
+            "rushTD": 1.0,
+            "receptions": 2.0,
+            "recYards": 9.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 6,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 13.0,
           "nflTeam": "DAL",
           "nflOpponent": "GB",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "The Concep",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+              },
+              "slot": "RB",
+              "points": 13.0,
+              "nflTeam": "DAL",
+              "nflOpponent": "GB"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 25.0,
+            "rushYards": 155.0,
+            "rushTD": 1.0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 7,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 21.5,
           "nflTeam": "DAL",
           "nflOpponent": "PHI",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "The Concep",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+              },
+              "slot": "RB",
+              "points": 21.5,
+              "nflTeam": "DAL",
+              "nflOpponent": "PHI"
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -269,7 +393,19 @@
           "points": null,
           "nflTeam": "DAL",
           "nflOpponent": "ARI",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "The Concep",
+                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+              },
+              "slot": "RB",
+              "points": null,
+              "nflTeam": "DAL",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -402,7 +538,12 @@
           "weeks": [
             1,
             2,
-            3
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
           ],
           "evidence": [
             "current_roster",
@@ -4474,15 +4615,15 @@
     }
   ],
   "career": {
-    "weeks": 88,
-    "points": 877.3,
-    "average": 9.97,
+    "weeks": 92,
+    "points": 957.3,
+    "average": 10.41,
     "high": {
-      "season": 2021,
-      "week": 13,
-      "points": 29.8
+      "season": 2026,
+      "week": 4,
+      "points": 31.3
     },
-    "starts": 43,
-    "starterPoints": 546.5
+    "starts": 47,
+    "starterPoints": 626.5
   }
 }

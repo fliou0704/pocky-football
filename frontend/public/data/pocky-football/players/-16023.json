@@ -8,7 +8,7 @@
     "nflTeam": "PIT",
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png"
   },
-  "metadataGeneratedAt": "2026-10-01T23:12:09.528747+00:00",
+  "metadataGeneratedAt": "2026-10-29T18:20:14.544731+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -37,27 +37,27 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 4,
-        "points": 36.0,
-        "average": 9.0,
+        "weeks": 7,
+        "points": 57.0,
+        "average": 8.14,
         "high": {
           "season": 2026,
           "week": 1,
           "points": 19.0
         },
-        "starts": 3,
-        "starterPoints": 31.0
+        "starts": 7,
+        "starterPoints": 57.0
       },
       "seasonStats": {
-        "gp": 3,
-        "points": 31.0,
-        "fppg": 10.33,
+        "gp": 7,
+        "points": 57.0,
+        "fppg": 8.14,
         "nflStats": {
-          "sacks": 10.0,
-          "defInterceptions": 4.0,
+          "sacks": 18.0,
+          "defInterceptions": 7.0,
           "fumbleRecoveries": 4.0,
           "defTD": 1.0,
-          "pointsAllowed": 81.0
+          "pointsAllowed": 132.0
         },
         "participationComplete": true,
         "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
@@ -216,48 +216,153 @@
           },
           "season": 2026,
           "week": 4,
-          "fantasyStatus": "upcoming",
+          "fantasyStatus": "final",
           "status": "final",
           "points": 5.0,
           "nflTeam": "PIT",
           "nflOpponent": "CLE",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "D/ST",
+              "points": 5.0,
+              "nflTeam": "PIT",
+              "nflOpponent": "CLE"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 1.0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 22.0
+          },
           "season": 2026,
           "week": 5,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 1.0,
           "nflTeam": "PIT",
           "nflOpponent": "IND",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "D/ST",
+              "points": 1.0,
+              "nflTeam": "PIT",
+              "nflOpponent": "IND"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 5.0,
+            "defInterceptions": 2.0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 19.0
+          },
           "season": 2026,
           "week": 6,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 11.0,
           "nflTeam": "PIT",
           "nflOpponent": "TB",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "D/ST",
+              "points": 11.0,
+              "nflTeam": "PIT",
+              "nflOpponent": "TB"
+            }
+          ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 2.0,
+            "defInterceptions": 1.0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 10.0
+          },
           "season": 2026,
           "week": 7,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 9.0,
           "nflTeam": "PIT",
           "nflOpponent": "NO",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "D/ST",
+              "points": 9.0,
+              "nflTeam": "PIT",
+              "nflOpponent": "NO"
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -269,7 +374,19 @@
           "points": null,
           "nflTeam": "PIT",
           "nflOpponent": "CLE",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg"
+              },
+              "slot": "D/ST",
+              "points": null,
+              "nflTeam": "PIT",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "bye",
@@ -402,7 +519,12 @@
           "weeks": [
             1,
             2,
-            3
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
           ],
           "evidence": [
             "current_roster",
@@ -4397,15 +4519,15 @@
     }
   ],
   "career": {
-    "weeks": 89,
-    "points": 598.0,
-    "average": 6.72,
+    "weeks": 92,
+    "points": 619.0,
+    "average": 6.73,
     "high": {
       "season": 2023,
       "week": 2,
       "points": 23.0
     },
-    "starts": 51,
-    "starterPoints": 364.0
+    "starts": 55,
+    "starterPoints": 390.0
   }
 }
