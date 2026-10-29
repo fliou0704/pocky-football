@@ -22,28 +22,43 @@ class ReleaseTests(unittest.TestCase):
         self.patch = patch('data_refresh.read_config', return_value=config)
         self.patch.start()
         self.addCleanup(self.patch.stop)
-        # One real season, compact profiles/scoring. No network or repository writes.
+        # Frozen small contracts: future production refreshes must not change test inputs.
         slug = pipeline.SLUG
-        def copy(name):
-            write_json(self.root/name, pipeline.read(PUBLIC_DATA/name))
-        source = f'{slug}/2026/'
-        for name in ('league', 'teams', 'home', 'activity', 'draft', 'player-scoring', 'player-games', 'team-of-week'):
-            copy(source+name+'.json')
-        for week in (1, 2, 3):
-            copy(source+f'lineups/{week}.json')
-        site = pipeline.read(PUBLIC_DATA/'site.json')
-        site['seasons'] = [2026]
-        write_json(self.root/'site.json', site)
+        prefix = self.root/slug/'2026'
+        standings = [{'teamId': tid, 'name': f'Team {tid}', 'logo': None, 'rank': tid,
+                      'wins': int(tid == 1), 'losses': int(tid == 2), 'ties': 0,
+                      'pointsFor': 10 if tid == 1 else 5, 'pointsAgainst': 5 if tid == 1 else 10}
+                     for tid in (1, 2)]
+        league = {'schemaVersion': 1, 'league': {'id': config['leagueId'], 'slug': slug,
+                  'name': 'Fixture', 'season': 2026, 'complete': False, 'regularSeasonWeeks': 14},
+                  'standings': standings}
+        matches = [{'week': w, 'homeTeamId': 1, 'awayTeamId': 2, 'status': 'final' if w == 1 else 'upcoming',
+                    'homeScore': 10 if w == 1 else None, 'awayScore': 5 if w == 1 else None,
+                    'winnerTeamId': 1 if w == 1 else None, 'isBye': False, 'isPlayoff': False,
+                    'roundLabel': None, 'phase': 'regular', 'bracket': 'regular'} for w in (1, 2)]
+        teams = {'schemaVersion': 1, 'season': 2026, 'complete': False, 'matchups': matches,
+                 'teams': {str(tid): {'rosterLabel': 'Current Roster', 'roster': [], 'formerPlayers': [],
+                                     'weeks': []} for tid in (1, 2)}}
+        home = {'schemaVersion': 1, 'season': 2026, 'state': {'phase': 'regular', 'currentWeek': 2,
+                'lastCompletedWeek': 1, 'regularSeasonWeeks': 14}, 'currentMatchups': [], 'recap': None}
+        for name, value in [('league', league), ('teams', teams), ('home', home),
+                            ('activity', {'season': 2026, 'coverage': {'status': 'independently_verified_counts'},
+                                          'events': [{'id': 'one'}]}),
+                            ('draft', {'season': 2026, 'coverage': {'complete': True}}),
+                            ('player-scoring', {'season': 2026, 'coverage': {}, 'players':
+                                [{'playerId': pid, 'pointsByWeek': {'1': 10}} for pid in (101, 102)]}),
+                            ('player-games', {'schemaVersion': 2, 'season': 2026,
+                                              'players': {'101': {'1': {}}, '102': {'1': {}}}}),
+                            ('team-of-week', {'season': 2026, 'weeks': {}})]:
+            write_json(prefix/(name+'.json'), value)
+        write_json(prefix/'lineups/1.json', {'teams': {'1': [{'playerId': 101}], '2': [{'playerId': 102}]}})
+        write_json(self.root/'site.json', {'seasons': [2026], 'leaguePath': f'{slug}/2026/league.json'})
         for name in ('players', 'player-metadata-audit', 'record-book', 'draft-analysis', 'draft-scoring-audit'):
             write_json(self.root/slug/(name+'.json'), {'schemaVersion': 1})
-        index = pipeline.read(PUBLIC_DATA/slug/'players-index.json')
-        index['players'] = index['players'][:1]
-        write_json(self.root/slug/'players-index.json', index)
-        copy(index['players'][0]['path'])
-        h2h = pipeline.read(PUBLIC_DATA/slug/'h2h.json')
-        h2h['teams'] = [t for t in h2h['teams'] if t['teamId'] in (1, 2)]
-        write_json(self.root/slug/'h2h.json', h2h)
-        copy(slug+'/h2h/1-2.json')
+        write_json(self.root/slug/'players-index.json', {'players': [{'espnId': 101}]})
+        write_json(self.root/slug/'players/101.json', {'schemaVersion': 1})
+        write_json(self.root/slug/'h2h.json', {'teams': standings})
+        write_json(self.root/slug/'h2h/1-2.json', {'schemaVersion': 1})
 
     def generate(self, slug, output, current_only):
         self.assertTrue(current_only)
@@ -57,7 +72,7 @@ class ReleaseTests(unittest.TestCase):
         pipeline.validate(self.root, require_metadata=True)
         meta = pipeline.read(self.root/pipeline.SLUG/pipeline.META)
         self.assertTrue(meta['producedChanges'])
-        self.assertEqual(meta['latestMatchupPeriod'], 4)
+        self.assertEqual(meta['latestMatchupPeriod'], 2)
         self.assertEqual(meta['dataHashes'], pipeline.hashes(self.root))
 
     def test_unchanged_refresh_retains_exact_persisted_files(self):
@@ -100,7 +115,7 @@ class ReleaseTests(unittest.TestCase):
         shutil.copytree(self.root, candidate)
         path = candidate/pipeline.SLUG/'2026/home.json'
         home = pipeline.read(path)
-        home['state']['currentWeek'] = 2
+        home['state']['currentWeek'] = 0
         write_json(path, home)
         with self.assertRaisesRegex(ValueError, 'Matchup period regressed'):
             pipeline.validate(candidate, self.root)

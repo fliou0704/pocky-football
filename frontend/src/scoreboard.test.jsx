@@ -13,13 +13,15 @@ it('renders the real scoreboard route, changes season, and resets week safely', 
  window.location.hash = '#/scoreboard'; render(<App/>);
  await screen.findByRole('heading', {name:'Scoreboard'});
  expect(screen.getByLabelText('Season').value).toBe('2026');
- expect(screen.getByLabelText('Week').value).toBe('4');
+ expect(screen.getByLabelText('Week').value).toBe(String(json('pocky-football/2026/home.json').state.currentWeek));
  fireEvent.change(screen.getByLabelText('Season'), {target:{value:'2021'}});
  await waitFor(() => expect(screen.getByLabelText('Week').value).toBe('1'));
  expect(screen.getAllByText('Final').length).toBeGreaterThan(0);
 });
 it('navigates all configured weeks with boundaries, future schedules and missing playoffs', () => {
- render(<ScoreboardPage {...season(2026)} currentWeek={4}/>);
+ const props=season(2026);
+ props.data={...props.data,matchups:props.data.matchups.filter(m=>m.week<=14).map(m=>m.week===14 ? {...m,status:'upcoming',homeScore:null,awayScore:null,winnerTeamId:null}:m)};
+ render(<ScoreboardPage {...props} currentWeek={4}/>);
  fireEvent.click(screen.getByLabelText('Previous week')); expect(screen.getByLabelText('Week').value).toBe('3');
  fireEvent.click(screen.getByLabelText('Next week')); expect(screen.getByLabelText('Week').value).toBe('4');
  fireEvent.change(screen.getByLabelText('Week'), {target:{value:'1'}}); expect(screen.getByLabelText('Previous week').disabled).toBe(true);
