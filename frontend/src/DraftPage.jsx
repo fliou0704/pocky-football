@@ -1,6 +1,6 @@
 import React, { useEffect, useId, useState } from 'react';
 import './draft.css';
-import { hydrateDraft } from './draft-view.js';
+import { hydrateDraft, seasonPerformanceRows } from './draft-view.js';
 import DraftSummary, { SummaryTable } from './DraftSummary.jsx';
 
 const fmt = (v, digits = 1) => v == null ? '—' : Number(v).toFixed(digits);
@@ -67,7 +67,7 @@ export default function DraftPage({ path, loadData, year = 'Summary', onYearChan
     </select></label>
     {season ? <>
       {!season.performanceEligible && <p className="archive-note" role="status"><strong>Provisional season recap.</strong> Final ranks and rank movement are withheld. Points cover completed fantasy weeks only.</p>}
-      <SummaryTable key={`overall-${year}`} title="Overall Performance" rows={season.overallPerformance || []}
+      <SummaryTable key={`overall-${year}`} title="Overall Performance" rows={seasonPerformanceRows(season)}
         columns={[["Average Round Rank", row => fmt(row.averageRoundRank)]]} {...{Team, Player, Points}}/>
       <h2 className="draft-group-title">Round-by-round draft results</h2>
       <p className="draft-description">Picks stay in draft order. Value standout = positional draft-slot gain ÷ original overall pick. Best positional finish is recognized separately, including elite early picks with zero gain; ties are shared. FPTS rank remains a points-only comparison.</p>
