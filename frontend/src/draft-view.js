@@ -20,3 +20,16 @@ export function hydrateDraft(data) {
   }
   return resolve(data);
 }
+
+// `teams` is the established single-season aggregate contract, including snapshots
+// cached before PR #18 added `overallPerformance`. Do not apply Summary eligibility.
+export function seasonPerformanceRows(season) {
+  const rows = Array.isArray(season?.teams) && season.teams.length
+    ? season.teams : Array.isArray(season?.overallPerformance) ? season.overallPerformance : [];
+  return [...rows].sort((a, b) => {
+    const first = a.averageRoundRank, second = b.averageRoundRank;
+    const firstKnown = Number.isFinite(first), secondKnown = Number.isFinite(second);
+    if (firstKnown !== secondKnown) return firstKnown ? -1 : 1;
+    return (firstKnown ? first - second : 0) || String(a.managerId).localeCompare(String(b.managerId));
+  });
+}
