@@ -84,7 +84,7 @@ it('shows complete pick evidence inline with logos and unavailable values', asyn
 });
 
 import committedDraft from '../public/data/pocky-football/draft-analysis.json';
-for (const year of ['Summary', '2025', '2026']) {
+for (const year of ['Summary', '2021', '2022', '2023', '2024', '2025', '2026']) {
   it(`renders committed Draft ${year} and expands actual evidence without runtime errors`, async () => {
     const errors = [];
     const capture = event => errors.push(event.error);
@@ -94,18 +94,11 @@ for (const year of ['Summary', '2025', '2026']) {
       render(<DraftPage path="draft-analysis.json" loadData={() => Promise.resolve(committedDraft)}
         year={year} Team={Team} onYearChange={value => changed.push(value)}/>);
       await screen.findByLabelText('Draft season');
-      expect(screen.getByRole('heading', { name: year === 'Summary' ? 'Overall Round Performance' : 'Team round performance' })).toBeTruthy();
+      expect(screen.getByRole('heading', { name: year === 'Summary' ? 'Overall Round Performance' : 'Overall Performance' })).toBeTruthy();
       let evidence;
-      if (year === 'Summary') {
-        const table = screen.getByRole('table', { name: 'Overall Round Performance' });
-        fireEvent.click(within(table).getAllByRole('button')[0]);
-        evidence = within(table).getByRole('table');
-      } else {
-        const details = document.querySelector('.draft-evidence').closest('details');
-        fireEvent.click(details.querySelector('summary'));
-        expect(details.open).toBe(true);
-        evidence = within(details).getByRole('table', { name: 'Supporting draft picks' });
-      }
+      const managerTable = screen.getByRole('table', { name: year === 'Summary' ? 'Overall Round Performance' : 'Overall Performance' });
+      fireEvent.click(within(managerTable).getAllByRole('button')[0]);
+      evidence = within(managerTable).getByRole('table');
       expect(within(evidence).getAllByRole('row').length).toBeGreaterThan(1);
       expect(evidence.querySelector('.draft-player')).toBeTruthy();
       fireEvent.change(screen.getByLabelText('Draft season'), { target: { value: year === '2025' ? '2026' : '2025' } });

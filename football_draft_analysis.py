@@ -385,6 +385,12 @@ def build_draft_analysis(output='frontend/public/data', slug='pocky-football', y
     latest_teams = {identify(latest, team, identities)[0]: {**{k: team.get(k) for k in ('teamId', 'name', 'logo')}, 'season': latest}
                     for team in read(root/f'{latest}/league.json')['standings']}
     summary = build_summary(seasons, active_ids, latest, latest_teams)
+    # Round-only annotations; leave canonical player metrics and Summary untouched.
+    from football_draft_standouts import round_standouts
+    for season in seasons.values():
+        season['overallPerformance'] = summary_aggregate(season['picks'], {})
+        for round_ in season['rounds']:
+            round_['standouts'] = round_standouts(round_['picks'], season['performanceEligible'])
     audit = build_audit(seasons, root, metadata)
     data = {'schemaVersion': 1, 'years': list(reversed(years)), 'seasons': seasons, 'summary': summary, 'audit': audit}
     from football_exporter import write_json

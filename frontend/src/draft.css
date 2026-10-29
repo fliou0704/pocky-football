@@ -54,3 +54,8 @@
 .draft-history-round { border:1px solid var(--border); border-radius:8px; margin-top:12px; }
 @media(max-width:600px) { .draft-summary .team img,.draft-summary .team-logo-fallback { width:34px; height:34px; } .draft-summary-table th { font-size:.67rem; } }
 .draft-inline-detail { max-height:460px; }
+.draft-round-standouts { display:grid; gap:10px; margin-bottom:20px; }
+.draft-round-standouts h3 { margin:8px 0 0; font-size:.9rem; color:var(--brand-strong); }
+.draft-round-standout { display:flex; flex-wrap:wrap; align-items:center; gap:12px 24px; padding:13px; border-left:3px solid var(--brand); background:#edf6ef; border-radius:6px; }
+.draft-round-standout>p { margin:0; font-size:.85rem; }
+.draft-round-standout .team { min-width:0; }
