@@ -3,7 +3,7 @@ import json
 import math
 from collections import defaultdict
 from pathlib import Path
-from statistics import mean, median
+from statistics import mean
 
 POSITIONS = ('QB', 'RB', 'WR', 'TE', 'K', 'D/ST')
 ROOT = Path(__file__).parent
@@ -171,26 +171,24 @@ def aggregate(rows, sort_by='averageSurplus'):
 
 
 def tendencies(rows):
+    """Retain raw mean rounds and first overall picks; no normalized pick metric."""
     result = {}
     for position in POSITIONS:
         groups = defaultdict(list)
-        for p in rows:
-            if p['position'] == position:
-                groups[p['managerId']].append(p)
+        for pick in rows:
+            if pick['position'] == position:
+                groups[pick['managerId']].append(pick)
         leaders = []
-        for mid, picks in groups.items():
-            first = [min((p for p in picks if p['season'] == y), key=lambda p: p['overallPick']) for y in sorted({p['season'] for p in picks})]
-            total = sum(p['managerId'] == mid for p in rows)
+        for manager_id, picks in groups.items():
+            first = [min((p for p in picks if p['season'] == year), key=lambda p: p['overallPick'])
+                     for year in sorted({p['season'] for p in picks})]
             latest = max(picks, key=lambda p: p['season'])
-            leaders.append({'managerId': mid, 'manager': latest['manager'], 'team': latest['team'], 'picks': len(picks),
-                            'seasons': sorted({p['season'] for p in picks}), 'averageRound': avg([p['round'] for p in picks]),
-                            'averageFirstPick': avg([p['overallPick'] for p in first]), 'firstRound': median([p['round'] for p in first]),
-                            'capitalShare': round(100 * sum(p['draftCapital'] for p in picks) / sum(p['draftCapital'] for p in rows if p['managerId'] == mid), 2),
-                            'earlyPicks': sum(p['round'] <= 3 for p in picks),
-                            'averageFirstPoints': avg([p['points'] for p in first]),
-                            'averageFirstRound': avg([p['round'] for p in first]), 'share': round(100 * len(picks) / total, 2),
-                            'earliest': min(picks, key=lambda p: p['overallPick']), 'evidence': picks if position in ('RB', 'WR') else first})
-        result[position] = sorted(leaders, key=lambda p: (p['averageFirstRound'], p['managerId']))
+            leaders.append({'managerId': manager_id, 'manager': latest['manager'], 'team': latest['team'],
+                            'picks': len(picks), 'averageRound': avg([p['round'] for p in picks]),
+                            'averageFirstPick': avg([p['overallPick'] for p in first]),
+                            'evidence': picks if position in ('RB', 'WR') else first})
+        key = 'averageFirstPick' if position in ('QB', 'TE') else 'averageRound'
+        result[position] = sorted(leaders, key=lambda row: (row[key], row['managerId']))
     return result
 
 
@@ -297,31 +295,47 @@ def round_aggregates(rows):
             for r in aggregate(rows)]
 
 
-def build_summary(seasons, active_ids, latest):
+def summary_aggregate(rows, branding, kind='round'):
+    """Summary-only presentation: preserve season aggregates and canonical picks."""
+    groups = defaultdict(list)
+    for pick in rows:
+        groups[pick['managerId']].append(pick)
+    result = []
+    for manager_id, picks in groups.items():
+        latest_pick = max(picks, key=lambda p: p['season'])
+        gains = [p['draftPositionGain'] for p in picks if p.get('draftPositionGain') is not None]
+        result.append({'managerId': manager_id, 'manager': latest_pick['manager'],
+                       'team': branding.get(manager_id, latest_pick['team']),
+                       'averageRoundRank': avg([p['roundRank'] for p in picks]),
+                       'averageDraftSlotGain': avg(gains), 'picks': len(picks),
+                       'evidence': [{'season': p['season'], 'overallPick': p['overallPick']} for p in picks]})
+    def order(row):
+        if kind == 'rookie':
+            return (-row['picks'], row['managerId'])
+        value = row['averageDraftSlotGain'] if kind == 'position' else row['averageRoundRank']
+        return (value is None, -value if value is not None and kind == 'position' else value or 0, row['managerId'])
+    return sorted(result, key=order)
+
+
+def build_summary(seasons, active_ids, latest, latest_teams=None):
     rows = [p for season in seasons.values() if season['performanceEligible']
             for p in season['picks'] if p['managerId'] in active_ids]
-    # Keep rookie analysis by position; do not average unrelated positional ranks.
-    rookies = [p for p in rows if p['rookie'] is True]
-    rookie_teams = aggregate(rookies)
-    for team in rookie_teams:
-        team['rookieShare'] = round(100 * team['picks'] / sum(p['managerId'] == team['managerId'] for p in rows), 2)
+    # Branding may come from an unfinished season; historical pick objects stay intact.
+    branding = latest_teams if latest_teams is not None else {
+        p['managerId']: p['team'] for s in seasons.values() if s['season'] == latest for p in s['picks']}
+    tendency_rows = tendencies(rows)
+    for leaders in tendency_rows.values():
+        for row in leaders:
+            row['team'] = branding.get(row['managerId'], row['team'])
     return {
         'activeSeason': latest, 'activeManagerIds': sorted(active_ids),
         'seasons': [s['season'] for s in seasons.values() if s['performanceEligible']],
-        'teams': round_aggregates(rows),
-        'positions': {pos: aggregate([p for p in rows if p['position'] == pos], 'averageSurplus') for pos in POSITIONS},
-        'tendencies': tendencies(rows),
-        'rookieComparison': [{'position': pos, 'rookie': status, 'picks': len(group), 'averageSurplus': avg([p.get('pointsSurplus') for p in group]), 'successRate': avg([100 * (p['pointsSurplus'] > 0) for p in group if p.get('pointsSurplus') is not None]), 'evidence': group}
-                             for pos in POSITIONS for status in (True, False)
-                             for group in [[p for p in rows if p['position'] == pos and p['rookie'] is status]] if group],
-        'timingComparison': [{'position': pos, 'timing': label, 'picks': len(group), 'averagePoints': avg([p['points'] for p in group]), 'averageSurplus': avg([p.get('pointsSurplus') for p in group]), 'evidence': group}
-                             for pos in ('QB', 'TE', 'K', 'D/ST') for label in ('First half', 'Second half')
-                             for first in [[p for p in rows if p['position'] == pos and p['overallPick'] == min(q['overallPick'] for q in rows if q['managerId'] == p['managerId'] and q['season'] == p['season'] and q['position'] == pos)]]
-                             for group in [[p for p in first if ('First half' if p['round'] <= max(q['round'] for q in rows if q['season'] == p['season']) / 2 else 'Second half') == label]] if group],
-        'rookies': {'teams': [{k: v for k, v in r.items() if k not in ('averageMovement', 'totalMovement')} for r in rookie_teams],
-                    'positions': {pos: aggregate([p for p in rookies if p['position'] == pos], 'averageSurplus') for pos in POSITIONS},
-                    'count': len(rookies), 'unknownPicks': sum(p['rookie'] is None and p['position'] != 'D/ST' for p in rows)},
-        'trends': {f'Round {rnd}': round_aggregates([p for p in rows if p['round'] == rnd]) for rnd in sorted({p['round'] for p in rows})},
+        'teams': summary_aggregate(rows, branding),
+        'positions': {pos: summary_aggregate([p for p in rows if p['position'] == pos], branding, 'position') for pos in POSITIONS},
+        'tendencies': tendency_rows,
+        'rookies': {'teams': summary_aggregate([p for p in rows if p['rookie'] is True], branding, 'rookie')},
+        'trends': {f'Round {rnd}': summary_aggregate([p for p in rows if p['round'] == rnd], branding)
+                   for rnd in sorted({p['round'] for p in rows})},
     }
 
 
@@ -368,7 +382,9 @@ def build_draft_analysis(output='frontend/public/data', slug='pocky-football', y
         season['teams'] = round_aggregates(season['picks'])
         for pos in POSITIONS:
             season['positions'][pos]['teams'] = aggregate(season['positions'][pos]['picks'])
-    summary = build_summary(seasons, active_ids, latest)
+    latest_teams = {identify(latest, team, identities)[0]: {**{k: team.get(k) for k in ('teamId', 'name', 'logo')}, 'season': latest}
+                    for team in read(root/f'{latest}/league.json')['standings']}
+    summary = build_summary(seasons, active_ids, latest, latest_teams)
     audit = build_audit(seasons, root, metadata)
     data = {'schemaVersion': 1, 'years': list(reversed(years)), 'seasons': seasons, 'summary': summary, 'audit': audit}
     from football_exporter import write_json

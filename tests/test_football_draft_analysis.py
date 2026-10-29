@@ -155,7 +155,7 @@ class DraftAnalysisTests(unittest.TestCase):
         self.assertEqual(len(data['teams']), 2)  # inactive manager remains in the year
         self.assertEqual({r['managerId'] for r in summary['teams']}, {active_id})
         groups = [*summary['positions'].values(), *summary['tendencies'].values(),
-                  *summary['trends'].values(), summary['rookies']['teams'], *summary['rookies']['positions'].values()]
+                  *summary['trends'].values(), summary['rookies']['teams']]
         self.assertTrue(all(r['managerId'] == active_id for rows in groups for r in rows))
         self.assertTrue(all('averageMovement' not in row for row in summary['teams']))
 
