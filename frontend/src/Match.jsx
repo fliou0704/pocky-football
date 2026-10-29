@@ -1,11 +1,19 @@
-import React, { useState } from 'react';
+import React, { createContext, useContext, useState } from 'react';
 import { assetUrl } from './asset-url.js';
+import { resolveTeamBranding } from './team-branding.js';
+
+export const BrandingSeason = createContext('All-Time');
 export function Team({ team, link = false, season }) {
-  const [failedLogo, setFailedLogo] = useState(null);
+  const contextSeason = useContext(BrandingSeason);
+  const branding = team ? resolveTeamBranding(team, season ?? contextSeason) : null;
+  const candidates = branding?.logoCandidates || [];
+  const signature = candidates.join('|');
+  const [failure, setFailure] = useState({ signature: '', count: 0 });
+  const failedCount = failure.signature === signature ? failure.count : 0;
   if (!team) return <span className="team-name">Bye</span>;
-  const logo = assetUrl(team.logo, import.meta.env.BASE_URL);
+  const logo = assetUrl(candidates[failedCount], import.meta.env.BASE_URL);
   const content = <>
-    {logo && failedLogo !== logo ? <img src={logo} width="36" height="36" alt="" loading="lazy" onError={() => setFailedLogo(logo)}/> : <span className="team-logo-fallback" aria-hidden="true">{team.name.slice(0, 1)}</span>}
+    {logo ? <img src={logo} width="36" height="36" alt="" loading="lazy" onError={() => setFailure({ signature, count: failedCount + 1 })}/> : <span className="team-logo-fallback" aria-hidden="true">{team.name.slice(0, 1)}</span>}
     <span className="team-name">{team.name}</span>
   </>;
   return link ? <a className="team team-link" href={`#/teams/${season}/${team.teamId}`}>{content}</a> : <span className="team">{content}</span>;
