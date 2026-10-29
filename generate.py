@@ -9,9 +9,10 @@ from football_exporter import generate
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--league", required=True, help="League slug from leagues.json")
+    parser.add_argument("--current-only", action="store_true", help="Fetch only the configured season; reuse historical snapshots")
     args = parser.parse_args()
     try:
-        destination = generate(args.league)
+        destination = generate(args.league, current_only=args.current_only)
     except Exception as exc:
         # ESPN/network exceptions can include request details; never echo them.
         print(f"Generation failed ({type(exc).__name__}). Check configuration, access, and ESPN availability.", file=sys.stderr)

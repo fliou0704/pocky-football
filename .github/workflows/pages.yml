@@ -15,16 +15,27 @@ permissions:
 
 concurrency:
   group: github-pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      # Resolve main when the serialized run starts, not the possibly old event SHA.
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Report trigger
+        run: echo "Trigger=${{ github.event_name }}; ESPN fetch requested=${{ github.event_name != 'push' }}"
 
       - uses: actions/setup-python@v5
         with:
@@ -45,32 +56,22 @@ jobs:
       - name: Test exporter
         run: python -m unittest discover -s tests -v
 
-      - name: Refresh ESPN data, activity and records
+      - name: Stage and validate current-season ESPN refresh
+        id: refresh
         if: github.event_name != 'push'
         env:
           ESPN_S2: ${{ secrets.ESPN_S2 }}
           SWID: ${{ secrets.SWID }}
         run: |
-          if [[ -n "$ESPN_S2" && -n "$SWID" ]]; then
-            python generate.py --league pocky-football
-          elif [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
-            echo "ESPN secrets absent; deploying the checked-in generated data."
-          else
-            echo "Set ESPN_S2 and SWID repository secrets for scheduled or manual refreshes." >&2
+          if [[ -z "$ESPN_S2" || -z "$SWID" ]]; then
+            echo "Required ESPN_S2 / SWID secrets are missing." >&2
             exit 1
           fi
+          python data_refresh.py refresh
 
-      - name: Rebuild Record Book from normalized snapshots
-        run: python -c "import json; from pathlib import Path; from football_record_book import build_record_book; site=json.loads(Path('frontend/public/data/site.json').read_text()); build_record_book('frontend/public/data', site['leaguePath'].split('/')[0], site['seasons'])"
-
-      - name: Rebuild Players from normalized snapshots
-        run: python football_players.py
-
-      - name: Rebuild Draft analysis from normalized snapshots
-        run: python football_draft_analysis.py
-
-      - name: Rebuild Team of the Week from normalized snapshots
-        run: python football_team_of_week.py
+      - name: Validate release JSON
+        id: validation
+        run: python data_refresh.py validate
 
       - uses: pnpm/action-setup@v6
         with:
@@ -92,9 +93,49 @@ jobs:
           pnpm test
           pnpm build
 
+      - name: Persist validated snapshots
+        id: persistence
+        if: github.event_name != 'push'
+        run: python data_refresh.py persist
+
+      - name: Reject outdated checkouts or public data rollback
+        id: guard
+        run: python data_refresh.py guard
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
           path: frontend/dist
       - id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Verify public generation and source JSON
+        id: verification
+        if: hashFiles('frontend/public/data/pocky-football/refresh.json') != ''
+        run: python data_refresh.py verify
+
+      - name: Report release outcome
+        if: always()
+        env:
+          TRIGGER: ${{ github.event_name }}
+          REFRESH: ${{ steps.refresh.outcome }}
+          VALIDATION: ${{ steps.validation.outcome }}
+          PERSISTENCE: ${{ steps.persistence.outcome }}
+          GUARD: ${{ steps.guard.outcome }}
+          DEPLOYMENT: ${{ steps.deployment.outcome }}
+          VERIFICATION: ${{ steps.verification.outcome }}
+        run: |
+          python - <<'PY'
+          import json, os, pathlib, subprocess
+          revision = subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip()
+          path = pathlib.Path('frontend/public/data/pocky-football/refresh.json')
+          meta = json.loads(path.read_text()) if path.exists() else {}
+          lines = ['## Data release', f"Commit used: {revision}",
+                   f"Generation: {meta.get('generationId', 'legacy snapshot; first refresh pending')}",
+                   f"Last persisted ESPN fetch: {meta.get('lastSuccessfulEspnFetchAt', 'unknown')}"]
+          lines += [f'{key}: {os.environ[key]}' for key in
+                    ('TRIGGER', 'REFRESH', 'VALIDATION', 'PERSISTENCE', 'GUARD', 'DEPLOYMENT', 'VERIFICATION')]
+          print('\n'.join(lines))
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as output:
+              output.write('\n\n'.join(lines) + '\n')
+          PY
