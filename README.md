@@ -160,3 +160,10 @@ After merging, manually run **Build and deploy Pocky Football** on `main`, inspe
 fetch/validation/persistence/public-verification outcomes and the snapshot commit,
 then run a code-only deployment and compare the generation and public JSON hashes.
 A green build alone does not prove ingestion or successful public verification.
+
+The first verified persisted refresh ran on October 29, 2026 in
+[Actions run 40929630108](https://github.com/fliou0704/pocky-football/actions/runs/40929630108).
+It saved snapshot commit `0f3fbba`, advanced Home to Week 8 with Week 7 completed,
+and passed public metadata and source JSON hash verification. Season files for
+2021–2025 were unchanged. This documentation-only update also exercises the
+subsequent push deployment path using that persisted generation.
