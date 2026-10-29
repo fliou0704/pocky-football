@@ -1,32 +1,38 @@
 import React, { useEffect, useState } from 'react';
-import { Team } from './Match.jsx';
+import PlayerPortrait from './PlayerPortrait.jsx';
+import { playerHash } from './player-view.js';
 
-export default function TeamOfWeek({ season, week, matches, teams, path, loadData }) {
-  const [data, setData] = useState(null);
+export default function TeamOfWeek({ season, week, matches = [], completedWeek = false, path, loadData, embedded = false }) {
+  const [loaded, setLoaded] = useState(null);
   useEffect(() => {
     let active = true;
-    setData(null);
-    if (path && loadData) loadData(path).then(value => { if (active && value.season === season) setData(value); }).catch(() => {});
+    setLoaded(null);
+    if (path && loadData) loadData(path).then(value => {
+      if (active) setLoaded({ path, season, data: value?.season === season ? value : null });
+    }).catch(() => { if (active) setLoaded({ path, season, data: null }); });
+    else setLoaded({ path, season, data: null });
     return () => { active = false; };
   }, [path, loadData, season]);
-  const completed = matches.length > 0 && matches.some(m => m.status === 'final') && matches.every(m => ['final', 'bye'].includes(m.status));
+  const completed = completedWeek || (matches.length > 0 && matches.some(m => m.status === 'final') && matches.every(m => ['final', 'bye'].includes(m.status)));
   if (!completed) return null;
+  const data = loaded?.path === path && loaded?.season === season ? loaded.data : null;
   const result = data?.weeks?.[week];
-  const available = result?.status === 'available' && result.lineup?.length === 9;
-  return <section className="home-section team-of-week" aria-label="Team of the Week">
-    <div className="section-title"><h2>Team of the Week</h2><span>{season} · Week {week}</span></div>
-    <div className="content-card">
-      {available ? <>
-        <h3 className="card-title">{result.totalPoints.toFixed(2)} FPTS</h3>
-        <ol className="totw-lineup">{result.lineup.map(player => <li className="lineup-row" key={player.playerId}>
-          <span className="lineup-slot">{player.slot}</span>
-          <div className="lineup-player"><strong>{player.name}</strong><small>{player.position} · {player.nflTeam}</small>
-            {teams.has(player.teamId) ? <Team team={teams.get(player.teamId)}/> : <small>Free agent · not on recorded weekly rosters</small>}
-          </div>
-          <strong>{player.points.toFixed(2)}<small>FPTS</small></strong>
-        </li>)}</ol>
-        <p className="archive-note">{result.pool}</p>
-      </> : <p>Team of the Week data is unavailable for this completed week.</p>}
+  const available = result?.status === 'available' && result.lineup?.length === 9 && Number.isFinite(result.totalPoints)
+    && result.lineup.every(player => Number.isFinite(player.points) && typeof player.name === 'string');
+  const Heading = embedded ? 'h3' : 'h2';
+  return <section className={`team-of-week ${embedded ? 'totw-embedded' : 'home-section'}`} aria-label="Team of the Week">
+    <div className="totw-header">
+      <div><Heading>Team of the Week</Heading><p>{season} · Week {week}</p></div>
+      {available && <div className="totw-total"><span>Total Fantasy Points</span><strong>{result.totalPoints.toFixed(2)}<small> FPTS</small></strong></div>}
     </div>
+    {available ? <ol className="totw-lineup">{result.lineup.map(player => <li className="totw-row" key={player.playerId}>
+      <span className="totw-slot" aria-label={`Lineup position ${player.slot}`}>{player.slot}</span>
+      <PlayerPortrait player={player}/>
+      <div className="totw-identity">
+        {player.hasProfile ? <a href={playerHash(player.playerId, season)}>{player.name}</a> : <strong>{player.name}</strong>}
+        <span>{player.nflTeam || '—'} · {player.position}</span>
+      </div>
+      <strong className="totw-points" aria-label={`${player.points.toFixed(2)} fantasy points`}>{player.points.toFixed(2)}<small>FPTS</small></strong>
+    </li>)}</ol> : <p className="totw-unavailable" role="status">{!loaded ? 'Loading Team of the Week…' : 'Team of the Week is unavailable for this completed week. Reliable scoring coverage is needed.'}</p>}
   </section>;
 }

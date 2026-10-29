@@ -59,6 +59,8 @@ class ReleaseTests(unittest.TestCase):
         write_json(self.root/slug/'players/101.json', {'schemaVersion': 1})
         write_json(self.root/slug/'h2h.json', {'teams': standings})
         write_json(self.root/slug/'h2h/1-2.json', {'schemaVersion': 1})
+        from football_team_of_week import build_team_of_week
+        build_team_of_week(self.root, slug, [2026])
 
     def generate(self, slug, output, current_only):
         self.assertTrue(current_only)
@@ -66,6 +68,8 @@ class ReleaseTests(unittest.TestCase):
         data = pipeline.read(path)
         data['standings'][0]['name'] = 'Updated team'
         write_json(path, data)
+        from football_team_of_week import build_team_of_week
+        build_team_of_week(output, slug, [2026])
 
     def test_changed_refresh_validates_before_promotion_and_hashes_release(self):
         self.assertTrue(pipeline.refresh(self.root, self.generate))
@@ -117,6 +121,8 @@ class ReleaseTests(unittest.TestCase):
         home = pipeline.read(path)
         home['state']['currentWeek'] = 0
         write_json(path, home)
+        from football_team_of_week import build_team_of_week
+        build_team_of_week(candidate, pipeline.SLUG, [2026])
         with self.assertRaisesRegex(ValueError, 'Matchup period regressed'):
             pipeline.validate(candidate, self.root)
         shutil.copy2(self.root/pipeline.SLUG/'2026/home.json', path)
@@ -124,6 +130,7 @@ class ReleaseTests(unittest.TestCase):
         scoring = pipeline.read(scoring_path)
         scoring['players'].pop()
         write_json(scoring_path, scoring)
+        build_team_of_week(candidate, pipeline.SLUG, [2026])
         with self.assertRaisesRegex(ValueError, 'player scoring disappeared'):
             pipeline.validate(candidate, self.root)
 
@@ -133,8 +140,21 @@ class ReleaseTests(unittest.TestCase):
         data = pipeline.read(path)
         data['standings'][0]['name'] = 'Older snapshot'
         write_json(path, data)
+        from football_team_of_week import build_team_of_week
+        build_team_of_week(self.root, pipeline.SLUG, [2026])
         with self.assertRaisesRegex(ValueError, 'hashes do not match'):
             pipeline.validate(self.root)
+
+    def test_staged_refresh_cannot_keep_old_team_of_week(self):
+        before = pipeline.hashes(self.root)
+        def stale(slug, output, **kwargs):
+            path = output/slug/'2026/league.json'
+            data = pipeline.read(path)
+            data['standings'][0]['name'] = 'Changed source'
+            write_json(path, data)
+        with self.assertRaisesRegex(ValueError, 'Team of the Week does not match'):
+            pipeline.refresh(self.root, stale)
+        self.assertEqual(before, pipeline.hashes(self.root))
 
     def test_historical_snapshot_changes_rejected(self):
         config = pipeline.read_config(pipeline.SLUG).copy()

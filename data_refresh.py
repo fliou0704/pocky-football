@@ -120,6 +120,9 @@ def validate(root, baseline=None, require_metadata=False):
     activity = get(f'{SLUG}/{year}/activity.json')
     require(activity['coverage']['status'] in ('independently_verified_counts', 'likely_complete'),
             'Activity fetch incomplete or stale')
+    from football_team_of_week import season_team_of_week
+    require(get(f'{SLUG}/{year}/team-of-week.json') == season_team_of_week(root / SLUG / str(year)),
+            'Team of the Week does not match current source snapshots')
     # All pair contracts referenced by the H2H selector must exist.
     h2h = get(f'{SLUG}/h2h.json')
     from itertools import combinations
@@ -164,6 +167,17 @@ def validate(root, baseline=None, require_metadata=False):
     elif require_metadata:
         raise ValueError('Missing persisted refresh metadata')
     return home
+
+
+def update_derived_metadata(root):
+    """Record an offline derived repair without claiming a new ESPN fetch."""
+    path = Path(root) / SLUG / META
+    if path.exists():
+        meta = read(path)
+        meta['dataHashes'] = hashes(root)
+        meta['generationId'] = hashlib.sha256(json.dumps(meta['dataHashes'], sort_keys=True).encode()).hexdigest()
+        meta['derivedBuilder'] = 'team-of-week-v2'
+        write_json(path, meta)
 
 
 def refresh(output=PUBLIC_DATA, generator=None):
@@ -240,7 +254,8 @@ def public_check(root=PUBLIC_DATA, exact=False, attempts=1):
             if exact:
                 require(remote['generationId'] == local['generationId'], 'Public generation mismatch')
                 # Prove source data reached Pages too, rather than trusting metadata alone.
-                for name in ('site.json', f"{SLUG}/{local['season']}/home.json", f"{SLUG}/{local['season']}/teams.json"):
+                for name in ('site.json', f"{SLUG}/{local['season']}/home.json", f"{SLUG}/{local['season']}/teams.json",
+                             f"{SLUG}/{local['season']}/team-of-week.json"):
                     r = requests.get(base+name, params={'generation': local['generationId'], 'attempt': attempt},
                                      headers={'Cache-Control': 'no-cache'}, timeout=30)
                     r.raise_for_status()

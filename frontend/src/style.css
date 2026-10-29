@@ -188,7 +188,38 @@ button.h2h-result:hover,button.h2h-result[aria-expanded="true"] { background:var
 .scoreboard-controls button { padding: .65rem 1rem; border: 1px solid var(--border, #ddd); border-radius: 6px; background: transparent; color: inherit; cursor: pointer; }
 .scoreboard-controls button:disabled { opacity: .35; cursor: default; }
 
-.team-of-week { margin-top: 2rem; }
-.totw-lineup { list-style: none; margin: 0; padding: 0; }
-.totw-lineup .team { margin-top: .3rem; font-size: .85rem; }
-.totw-lineup .team img, .totw-lineup .team-logo-fallback { width: 24px; height: 24px; }
+/* Shared Home/Scoreboard fantasy lineup card. */
+.team-of-week { margin-top:24px; border:1px solid var(--border); border-radius:11px; background:var(--surface); overflow:hidden; min-width:0; }
+.totw-header { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:18px 20px; border-top:3px solid var(--brand); border-bottom:1px solid var(--border); background:var(--surface-muted); }
+.totw-header h2,.totw-header h3 { margin:0; font-size:1rem; letter-spacing:-.02em; }
+.totw-header p { margin:4px 0 0; color:var(--muted); font-size:.75rem; font-weight:650; }
+.totw-total { text-align:right; flex-shrink:0; }
+.totw-total > span { display:block; font-size:.65rem; color:var(--muted); }
+.totw-total > strong { display:block; font-size:1.5rem; font-variant-numeric:tabular-nums; line-height:1.3; }
+.totw-total small { font-size:.62rem; color:var(--muted); }
+.totw-lineup { list-style:none; margin:0; padding:0; }
+.totw-row { display:grid; grid-template-columns:42px 44px minmax(0,1fr) 72px; gap:12px; align-items:center; padding:11px 20px; border-bottom:1px solid var(--border); }
+.totw-row:last-child { border-bottom:0; }
+.totw-slot { font-size:.72rem; font-weight:850; color:var(--brand-strong); }
+.totw-row .player-search-portrait { width:44px; height:44px; display:flex; align-items:center; justify-content:center; border-radius:50%; background:var(--surface-muted); overflow:hidden; }
+.totw-row .player-search-portrait img { width:100%; height:100%; object-fit:contain; }
+.totw-row .player-image-fallback { font-size:.7rem; font-weight:750; color:var(--muted); }
+.totw-identity { min-width:0; }
+.totw-identity > a,.totw-identity > strong { display:block; color:var(--ink); font-size:.92rem; font-weight:750; line-height:1.3; overflow-wrap:anywhere; text-decoration:none; }
+.totw-identity > a:hover { color:var(--brand-strong); text-decoration:underline; }
+.totw-identity > a:focus-visible { outline:2px solid var(--brand); outline-offset:3px; }
+.totw-identity > span { display:block; margin-top:3px; font-size:.72rem; color:var(--muted); }
+.totw-points { text-align:right; font-size:1.05rem; font-variant-numeric:tabular-nums; }
+.totw-points small { display:block; font-size:.58rem; font-weight:650; color:var(--muted); }
+.totw-unavailable { padding:18px 20px; margin:0; font-size:.85rem; color:var(--muted); }
+@media(max-width:479px) {
+  .totw-header { padding:14px 12px; gap:8px; }
+  .totw-header h2,.totw-header h3 { font-size:.92rem; }
+  .totw-total > strong { font-size:1.25rem; }
+  .totw-total > span { font-size:.6rem; }
+  .totw-row { grid-template-columns:32px 36px minmax(0,1fr) 52px; gap:8px; padding:10px 12px; }
+  .totw-row .player-search-portrait { width:36px; height:36px; }
+  .totw-identity > a,.totw-identity > strong { font-size:.8rem; }
+  .totw-identity > span { font-size:.65rem; }
+  .totw-points { font-size:.92rem; }
+}
