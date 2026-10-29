@@ -64,9 +64,9 @@ The Stage 0 diagnostic `inspect_espn_football.py` remains separate from generati
 
 ## GitHub Pages
 
-This project is designed for its own GitHub repository and project site. The workflow in `.github/workflows/pages.yml` builds and deploys the site on pushes to `main`, by manual dispatch, and on Monday, Tuesday, and Friday at 14:00 UTC. Scheduled and manual runs regenerate ESPN data on GitHub; push runs also regenerate when credentials are available, or deploy the checked-in generated JSON when they are not.
+This project is designed for its own GitHub repository and project site. The workflow in `.github/workflows/pages.yml` builds and deploys the site on pushes to `main`, by manual dispatch, and on Monday, Tuesday, and Friday at 14:00 UTC. Scheduled and manual runs fetch only the configured active ESPN season, validate the complete candidate release, persist generated JSON to `main`, and explicitly build and deploy it. Push runs use the latest persisted snapshots without ESPN requests. All release runs are serialized and reject outdated checkouts or a newer public generation.
 
-Standings and Teams include ESPN seasons 2021 through the configured current season. Each run regenerates one small `league.json` (season-specific standings) and one `teams.json` (season-specific weekly matchups and team overviews) per year. The active season also gets `home.json`. Historical data is checked in as a reproducible snapshot, while GitHub Actions refreshes it from ESPN when secrets are present. No browser request uses ESPN credentials. Team IDs are meaningful **within a season**; do not infer permanent franchise identity across years.
+Standings and Teams include ESPN seasons 2021 through the configured current season. Routine automated refreshes regenerate active-season source snapshots and dependent cross-season analytics while preserving historical season files. The default local generator still supports full historical generation; use `--current-only` to avoid historical fetches. The active season also gets `home.json`. Historical data is checked in as a reproducible snapshot, while GitHub Actions refreshes it from ESPN when secrets are present. No browser request uses ESPN credentials. Team IDs are meaningful **within a season**; do not infer permanent franchise identity across years.
 
 `teams.json` includes normalized matchups so later H2H and Record Book exporters can use source data directly. It marks single-team playoff entries as byes with no opponent. Manual logo overrides currently apply only to the configured active season because ESPN can reuse a team ID for a different historical team. Schedule playoff labels are generated in Python from each season's regular-season length, winners-bracket rounds, playoff team count, and semifinal losers. ESPN's two consolation ladder types remain distinct.
 
@@ -120,3 +120,43 @@ Manual season-aware team branding: see [TEAM-BRANDING.md](TEAM-BRANDING.md).
 ## Draft
 
 Draft now includes Summary and six season recaps, full boards, round rankings, position-aware value, explicit manager identities, tendencies, rookie controls, and evidence links. Generate offline with `python football_draft_analysis.py`; see [Draft methodology and coverage](DRAFT-ANALYSIS.md) for exact formulas, exclusions, and maintenance.
+
+## Persisted data releases
+
+`data_refresh.py refresh` stages a current-season fetch in a temporary directory,
+checks required contracts, coverage, previous data retention and historical stability,
+then promotes the validated candidate. `data_refresh.py validate` checks stored JSON
+and, after the first refresh, the per-file hashes in `data/pocky-football/refresh.json`.
+The metadata records the successful fetch time, season, matchup period, generation,
+run ID and whether sports data changed. It contains no credentials. Ordinary code
+builds never advance this timestamp. A valid no-change fetch keeps the existing
+persisted files and records its check time in workflow logs rather than creating a
+metadata-only commit. The initial metadata bootstrap may create one commit even
+when the source payloads are unchanged.
+
+The workflow tests/builds the candidate before committing only generated JSON with
+`chore(data): refresh Pocky Football snapshots`. It uses the job's `GITHUB_TOKEN`
+with `contents: write` and a normal fast-forward push to `main`; no PAT, force push
+or recursive workflow trigger is needed. That token's push does not trigger another
+push workflow, so this run explicitly deploys its own tested artifact. Code-only
+runs deploy the persisted data without rebuilding JSON into an uncommitted generation.
+
+A failed fetch, invalid/partial source contract, rejected push, advanced `main`,
+rollback guard, build failure or failed public verification fails the workflow.
+If `main` advances during a run, rerun on latest `main`; it will not overwrite the
+newer commit. GitHub may replace pending concurrency runs, but every run that starts
+reads current `main`; running releases are not canceled by later pushes. Both event
+paths share the same publication lock. Public verification checks generation metadata
+and actual manifest/Home/Teams hashes with bounded retries for Pages propagation.
+
+If branch protection rejects the bot push, do not bypass it. The workflow stops
+before deployment. An administrator must choose a permitted persistence mechanism
+(e.g. a reviewed data PR followed by deployment of its merged snapshot) before
+refreshes can resume; direct-write support depends on repository policy. Existing
+Pages settings and `ESPN_S2`/`SWID` names remain unchanged. No game-day frequency
+change is included.
+
+After merging, manually run **Build and deploy Pocky Football** on `main`, inspect
+fetch/validation/persistence/public-verification outcomes and the snapshot commit,
+then run a code-only deployment and compare the generation and public JSON hashes.
+A green build alone does not prove ingestion or successful public verification.

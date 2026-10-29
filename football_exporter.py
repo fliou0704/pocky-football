@@ -151,7 +151,7 @@ def write_json(path, payload):
     temporary.replace(path)
 
 
-def generate(slug, config_path=CONFIG_PATH, output=PUBLIC_DATA):
+def generate(slug, config_path=CONFIG_PATH, output=PUBLIC_DATA, current_only=False):
     config = read_config(slug, config_path)
     load_dotenv(ROOT / ".env", override=False)
     names = config.get("credentials", {})
@@ -174,6 +174,11 @@ def generate(slug, config_path=CONFIG_PATH, output=PUBLIC_DATA):
     destination = None
     team_seasons = {}
     for year in years:
+        if current_only and year != config['season']:
+            payload = json.loads((Path(output) / slug / str(year) / 'league.json').read_text())
+            for team in payload['standings']:
+                team_seasons.setdefault(str(team['teamId']), []).append(year)
+            continue
         league = League(league_id=config["leagueId"], year=year,
                         espn_s2=os.environ.get(s2_name) if s2_name else None,
                         swid=os.environ.get(swid_name) if swid_name else None)
@@ -215,7 +220,7 @@ def generate(slug, config_path=CONFIG_PATH, output=PUBLIC_DATA):
     from football_draft_analysis import build_draft_analysis
     build_draft_analysis(output, slug, years)
     from football_team_of_week import build_team_of_week
-    build_team_of_week(output, slug, years)
+    build_team_of_week(output, slug, [config['season']] if current_only else years)
     write_json(Path(output) / "site.json", {
         "schemaVersion": 1,
         "leaguePath": f"{slug}/{config['season']}/league.json",
