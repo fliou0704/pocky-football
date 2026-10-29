@@ -63,7 +63,7 @@ it('renders active-only Summary contracts with separate position movement', asyn
   data.summary = { activeSeason: 2026, seasons: [2025], teams: [], positions: { RB: [] }, tendencies: {},
     rookies: { count: 0, unknownPicks: 0, teams: [], positions: {} }, trends: {} };
   render(<DraftPage path="draft.json" loadData={() => Promise.resolve(data)} Team={Team}/>);
-  expect(await screen.findByText(/Only managers active in 2026/)).toBeTruthy();
+  expect(await screen.findByText('Summary only includes current managers')).toBeTruthy();
   expect(screen.getByRole('heading', { name: 'RB drafting' })).toBeTruthy();
   expect(screen.queryByText(/draft value/i)).toBeNull();
 });
@@ -74,12 +74,13 @@ it('shows complete pick evidence inline with logos and unavailable values', asyn
     seasons: [2025], picks: 2, evidence }], positions: {}, tendencies: {},
     rookies: { count: 0, unknownPicks: 0, teams: [], positions: {} }, trends: {} };
   render(<DraftPage path="draft.json" loadData={() => Promise.resolve(data)} Team={Team}/>);
-  const table = await screen.findByRole('table', { name: 'Supporting draft picks' });
-  fireEvent.click(table.closest('details').querySelector('summary'));
+  const managerButton = await screen.findByRole('button', { name: 'Alice: historical draft picks' });
+  fireEvent.click(managerButton);
+  const table = screen.getByRole('table', { name: 'Alice picks' });
   expect(within(table).getAllByRole('row')).toHaveLength(3);
   expect(within(table).getByText('Player 1')).toBeTruthy();
-  expect(table.querySelectorAll('img')).toHaveLength(2);
-  expect(within(table).getByText('Position finish')).toBeTruthy();
+  expect(screen.getByText('Original Team')).toBeTruthy();
+  expect(within(table).getByText('Round rank')).toBeTruthy();
 });
 
 import committedDraft from '../public/data/pocky-football/draft-analysis.json';
@@ -93,11 +94,18 @@ for (const year of ['Summary', '2025', '2026']) {
       render(<DraftPage path="draft-analysis.json" loadData={() => Promise.resolve(committedDraft)}
         year={year} Team={Team} onYearChange={value => changed.push(value)}/>);
       await screen.findByLabelText('Draft season');
-      expect(screen.getByRole('heading', { name: year === 'Summary' ? 'Overall round performance' : 'Team round performance' })).toBeTruthy();
-      const details = document.querySelector('.draft-evidence').closest('details');
-      fireEvent.click(details.querySelector('summary'));
-      expect(details.open).toBe(true);
-      const evidence = within(details).getByRole('table', { name: 'Supporting draft picks' });
+      expect(screen.getByRole('heading', { name: year === 'Summary' ? 'Overall Round Performance' : 'Team round performance' })).toBeTruthy();
+      let evidence;
+      if (year === 'Summary') {
+        const table = screen.getByRole('table', { name: 'Overall Round Performance' });
+        fireEvent.click(within(table).getAllByRole('button')[0]);
+        evidence = within(table).getByRole('table');
+      } else {
+        const details = document.querySelector('.draft-evidence').closest('details');
+        fireEvent.click(details.querySelector('summary'));
+        expect(details.open).toBe(true);
+        evidence = within(details).getByRole('table', { name: 'Supporting draft picks' });
+      }
       expect(within(evidence).getAllByRole('row').length).toBeGreaterThan(1);
       expect(evidence.querySelector('.draft-player')).toBeTruthy();
       fireEvent.change(screen.getByLabelText('Draft season'), { target: { value: year === '2025' ? '2026' : '2025' } });

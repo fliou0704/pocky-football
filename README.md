@@ -115,6 +115,8 @@ Players is now search-only, with a simplified Career table, position-specific NF
 
 The [focused Players data polish](PLAYERS-DATA-POLISH.md) extends Game Log to all 18 NFL regular-season weeks, makes Career fantasy totals reflect completed active-slot starts, and fixes bundled-drop labels using audited movement directions.
 
+Manual season-aware team branding: see [TEAM-BRANDING.md](TEAM-BRANDING.md).
+
 ## Draft
 
 Draft now includes Summary and six season recaps, full boards, round rankings, position-aware value, explicit manager identities, tendencies, rookie controls, and evidence links. Generate offline with `python football_draft_analysis.py`; see [Draft methodology and coverage](DRAFT-ANALYSIS.md) for exact formulas, exclusions, and maintenance.

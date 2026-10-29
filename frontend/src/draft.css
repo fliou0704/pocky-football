@@ -36,3 +36,21 @@
 .draft-page summary { cursor:pointer; color:var(--brand-strong); }
 .draft-page tr:has(.draft-positive) { background:rgba(20,128,68,.025); }
 @media(max-width:600px) { .draft-evidence { max-width:78vw; } .draft-page .section-title { flex-wrap:wrap; gap:8px; } }
+.draft-summary { display:grid; gap:22px; min-width:0; }
+.draft-summary>* { min-width:0; }
+.draft-page .draft-summary-table { table-layout:fixed; width:100%; }
+.draft-page .draft-summary-table>thead th,.draft-page .draft-summary-table>tbody>tr>td { white-space:normal; overflow-wrap:anywhere; }
+.draft-manager-row { cursor:pointer; transition:background .15s; }
+.draft-manager-row:hover,.draft-manager-row.is-expanded { background:#edf6ef; }
+.draft-manager-toggle { display:flex; align-items:center; justify-content:space-between; gap:12px; width:100%; padding:0; background:none; border:0; color:inherit; font:inherit; text-align:left; cursor:pointer; }
+.draft-manager-toggle:focus-visible { outline:2px solid var(--brand); outline-offset:5px; border-radius:3px; }
+.draft-summary .team { min-width:0; }
+.draft-summary .team-name { white-space:normal; }
+.draft-inline-detail { overflow-x:auto; max-width:100%; background:var(--surface-muted); padding:8px; }
+.draft-page .draft-summary-table .draft-detail-row>td { padding:8px; }
+.draft-inline-detail table { table-layout:auto; width:max-content; min-width:100%; }
+.draft-page .draft-inline-detail td,.draft-page .draft-inline-detail th { white-space:nowrap; }
+.draft-detail-row>td { contain:inline-size; }
+.draft-history-round { border:1px solid var(--border); border-radius:8px; margin-top:12px; }
+@media(max-width:600px) { .draft-summary .team img,.draft-summary .team-logo-fallback { width:34px; height:34px; } .draft-summary-table th { font-size:.67rem; } }
+.draft-inline-detail { max-height:460px; }

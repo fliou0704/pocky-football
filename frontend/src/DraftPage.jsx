@@ -1,6 +1,7 @@
 import React, { useEffect, useId, useState } from 'react';
 import './draft.css';
 import { hydrateDraft } from './draft-view.js';
+import DraftSummary from './DraftSummary.jsx';
 
 const fmt = (v, digits = 1) => v == null ? '—' : Number(v).toFixed(digits);
 function Movement({ value }) {
@@ -124,46 +125,9 @@ export default function DraftPage({ path, loadData, year = 'Summary', onYearChan
         {table(`${position} team movement`, season.positions[position]?.teams || [], positionTeamColumns)}
         {table(`${position} picks`, season.positions[position]?.picks || [], positionColumns, 'Original overall draft order.', 10, false)}
       </details>
-    </> : <>
-      <p className="draft-description">Only managers active in {summary.activeSeason}. Historical performance includes completed seasons {summary.seasons.join(', ')}.
-        {' '}Performance compares actual points with historical points at the same positional draft slot. Positions remain separate.</p>
-      {table('Overall round performance', summary.teams, roundColumns,
-        'FPTS above expectation uses the same positional draft slot in other completed seasons. Higher is better. Round ranks and wins are descriptive; samples and league sizes vary. A sleeper gains at least one league round (team count) against its positional benchmark. Missing benchmarks are excluded from sleeper counts.')}
-      <h2 className="draft-group-title">Positional drafting performance</h2>
-      <p className="draft-description">FPTS above expectation = season points minus average points at the same positional draft slot in other completed seasons. Injuries and zero-point outcomes remain included. This avoids magnifying differences between low-end ranks. Compare managers within each position; fewer than 10 picks is a small sample.</p>
-      {Object.entries(summary.positions).map(([pos, rows]) => table(`${pos} drafting`, rows, positionTeamColumns))}
-      <details className="draft-panel content-card"><summary>Positional draft tendencies</summary>
-        <p className="draft-description">QB, TE, K and D/ST show the first selection each season. RB/WR show all selections: capital is remaining draft slots (total picks + 1 − pick), a transparent linear allocation proxy. Early means rounds 1–3. Points describe outcomes, not evidence of causation.</p>
-        {Object.entries(summary.tendencies).map(([pos, rows]) => table(`${pos} draft tendencies`, rows,
-          [['Manager / team', teamCell], ['Seasons', r => r.seasons.join(', ')], ['Picks', r => r.picks],
-            ['Avg round', r => fmt(r.averageRound)], ['Avg first overall pick', r => fmt(r.averageFirstPick)],
-            ['Early-round picks', r => r.earlyPicks], ['Avg first round', r => fmt(r.averageFirstRound)],
-            ['Pick share %', r => fmt(r.share)], ['Capital share %', r => fmt(r.capitalShare)], ['First selection FPTS', r => fmt(r.averageFirstPoints)], ['First picks', r => <Evidence row={r}/>]], null, 5))}
-      </details>
-      {table('Does earlier first selection help?', summary.timingComparison || [], [
-        ['Position', r => r.position], ['Draft half', r => r.timing], ['Manager-seasons', r => r.picks],
-        ['Avg season FPTS', r => fmt(r.averagePoints)], ['Avg FPTS above expectation', r => <Movement value={r.averageSurplus}/>], ['Selections', r => <Evidence row={r}/>]
-      ], 'First selections grouped by the first or second half of that season’s draft. Observational averages; samples and manager choices differ.', 8)}
-      <details className="draft-panel content-card"><summary>Rookie analysis</summary>
-        <p className="draft-description">{summary.rookies.count} rookie picks by active managers; {summary.rookies.unknownPicks} player picks have unknown rookie status. Classification uses NFL rookie-season metadata, never missing NFL draft metadata. Movement is compared separately within each position.</p>
-        {table('Rookies versus non-rookies', summary.rookieComparison || [], [
-          ['Position', r => r.position], ['Group', r => r.rookie ? 'Rookie' : 'Non-rookie'], ['Picks', r => r.picks],
-          ['Avg FPTS above expectation', r => <Movement value={r.averageSurplus}/>], ['Above expectation %', r => fmt(r.successRate)], ['Selections', r => <Evidence row={r}/>]
-        ], 'Points are compared with the same positional draft slot in other seasons. Small groups are descriptive and do not establish a rookie advantage.', 6)}
-        {table('Rookie selections by manager', summary.rookies.teams, [
-          ['Manager / team', teamCell], ['Seasons', r => r.seasons.join(', ')], ['Rookie picks', r => r.picks],
-          ['Rookie share %', r => fmt(r.rookieShare)], ['Avg rookie round', r => fmt(r.averageDraftRound)],
-           ['Underlying picks', r => <Evidence row={r}/>],
-        ], 'Compare share and average round alongside sample sizes; performance is shown separately by position.')}
-        {Object.entries(summary.rookies.positions).filter(([, rows]) => rows.length).map(([pos, rows]) =>
-          table(`${pos} rookie movement`, rows, positionTeamColumns))}
-      </details>
-      <details className="draft-panel content-card"><summary>Historical round patterns</summary>
-        {Object.entries(summary.trends).map(([title, rows]) => table(title, rows, roundColumns))}
-      </details>
-    </>}
-    <p className="draft-description">Final ranks include eligible undrafted players and use average ranks for tied FPTS. Missing values display — and never become a manufactured rank. The selected player earns season points regardless of later fantasy ownership.
-      {' '}Scoring reconciles normalized weekly totals and actual NFL game records; covered bye/non-participation gaps contribute no points. {data.audit.fixed} of {data.audit.previouslyUnevaluable} previously unresolved completed-season picks were recovered; {data.audit.remaining} remain unresolved.</p>
+    </> : <DraftSummary summary={summary} Team={Team} Player={Player} Points={Points}/>}
+    {season && <p className="draft-description">Final ranks include eligible undrafted players and use average ranks for tied FPTS. Missing values display — and never become a manufactured rank. The selected player earns season points regardless of later fantasy ownership.
+      {' '}Scoring reconciles normalized weekly totals and actual NFL game records; covered bye/non-participation gaps contribute no points. {data.audit.fixed} of {data.audit.previouslyUnevaluable} previously unresolved completed-season picks were recovered; {data.audit.remaining} remain unresolved.</p>}
   </div>;
 }
 
