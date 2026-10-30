@@ -24,3 +24,11 @@ it('has a fixed-size green badge after an image error without a broken image ico
  expect(screen.getByText('GB').dataset.logoProvenance).toBe('generated-badge');
  expect(screen.getByText('Green Bay Example')).toBeTruthy();
 });
+
+it('deduplicates normalized archive references and reaches the badge after one failure',()=>{
+ const asset=catalog.seasons['2026']['6'].asset;
+ const view=render(<Team team={{teamId:6,name:'LOVE MEEEE',logo:asset}} season={2026}/>);
+ fireEvent.error(view.container.querySelector('img'));
+ expect(view.container.querySelector('img')).toBeNull();
+ expect(view.container.querySelector('[data-logo-provenance="generated-badge"]')).toBeTruthy();
+});

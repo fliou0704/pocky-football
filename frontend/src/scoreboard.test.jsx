@@ -47,6 +47,6 @@ it('renders committed live status and scores, final outcomes and ties', () => {
 });
 it('uses committed logos and falls back after image failure or absent logo', () => {
  const team=season(2026).league.standings.find(t=>t.logo);const view=render(<Team team={team}/>);
- const img=view.container.querySelector('img');expect(img.getAttribute('src')).toContain('team-logos/');fireEvent.error(img);fireEvent.error(view.container.querySelector('img'));expect(view.container.querySelector('.team-logo-fallback')).toBeTruthy();
+ const img=view.container.querySelector('img');expect(img.getAttribute('src')).toContain('team-logos/');for(let tries=0;tries<3&&view.container.querySelector('img');tries++) fireEvent.error(view.container.querySelector('img'));expect(view.container.querySelector('.team-logo-fallback')).toBeTruthy();
  view.rerender(<Team team={{...team,teamId:999,logo:null}}/>);expect(screen.getByText(team.name)).toBeTruthy();expect(view.container.querySelector('img')).toBeNull();
 });
