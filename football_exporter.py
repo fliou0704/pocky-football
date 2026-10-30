@@ -134,7 +134,8 @@ def validate(payload, config):
         if any(not isinstance(team[field], (int, float)) or not math.isfinite(team[field]) for field in ("pointsFor", "pointsAgainst")):
             raise ValueError("Points totals must be finite numbers")
         logo = team["logo"]
-        if logo is not None and not (isinstance(logo, str) and (logo.startswith("https://") or logo.startswith("team-logos/"))):
+        if logo is not None and not (isinstance(logo, str) and (logo.startswith("https://") or logo.startswith("team-logos/")
+                or re.fullmatch(r'data/'+re.escape(league['slug'])+r'/team-logos/[a-f0-9]{64}\.(svg|webp)', logo))):
             raise ValueError("Invalid team logo path")
 
 
@@ -182,9 +183,14 @@ def generate(slug, config_path=CONFIG_PATH, output=PUBLIC_DATA, current_only=Fal
         league = League(league_id=config["leagueId"], year=year,
                         espn_s2=os.environ.get(s2_name) if s2_name else None,
                         swid=os.environ.get(swid_name) if swid_name else None)
+        from football_team_logos import refresh_catalog
+        catalog = refresh_catalog(league.espn_request, output, slug, year,
+                                  {'espn_s2': os.environ.get(s2_name) if s2_name else None,
+                                   'SWID': os.environ.get(swid_name) if swid_name else None})
         folder = Path(output) / slug / str(year)
         payload, teams = build_season(league, config, slug, cached_logo,
-                                      lambda week, detail: write_json(folder / 'lineups' / f'{week}.json', detail))
+                                      lambda week, detail: write_json(folder / 'lineups' / f'{week}.json', detail),
+                                      logo_records=catalog['seasons'].get(str(year), {}))
         for team in payload['standings']:
             team_seasons.setdefault(str(team['teamId']), []).append(year)
         write_json(folder / "league.json", payload)

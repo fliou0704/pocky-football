@@ -31,7 +31,7 @@ def _roster(team):
     return rows
 
 
-def build_season(league, config, slug, logo_resolver, detail_writer=None):
+def build_season(league, config, slug, logo_resolver, detail_writer=None, logo_records=None):
     complete = int(league.scoringPeriodId) > int(league.finalScoringPeriod)
     regular_weeks = int(league.settings.reg_season_count)
     teams = sorted(league.teams, key=lambda team: team.standing)
@@ -49,7 +49,7 @@ def build_season(league, config, slug, logo_resolver, detail_writer=None):
         team_rows.append({
             "teamId": team.team_id, "name": team.team_name,
             "abbreviation": team.team_abbrev,
-            "logo": overrides.get(str(team.team_id)) or logo_resolver(team.logo_url),
+            "logo": overrides.get(str(team.team_id)) or (logo_records or {}).get(str(team.team_id), {}).get('asset') or logo_resolver(team.logo_url),
             "owner": owner_name(owner, config.get("ownerNameOverrides", {}), league.year, team.team_id),
             "rank": team.standing, "finalRank": team.final_standing if complete and team.final_standing else None,
             "division": team.division_name or None,

@@ -8,6 +8,7 @@ import hashlib
 import json
 import math
 import os
+import re
 from pathlib import Path
 import shutil
 import subprocess
@@ -42,6 +43,12 @@ def hashes(root):
             for name, data in snapshots(root).items()}
 
 
+def asset_hashes(root):
+    folder = Path(root)/SLUG/'team-logos'
+    return {str(p.relative_to(root)): hashlib.sha256(p.read_bytes()).hexdigest()
+            for p in sorted(folder.glob('*')) if p.is_file() and re.fullmatch(r'[a-f0-9]{64}\.(svg|webp)', p.name)}
+
+
 def semantic(value):
     # Attempt times are not sports changes. Preserve previous files on a no-change fetch.
     if isinstance(value, dict):
@@ -65,6 +72,8 @@ def validate(root, baseline=None, require_metadata=False):
     year = config['season']
     years = set(range(config.get('firstSeason', year), year + 1))
     data = snapshots(root)  # Parse every JSON, including derived profiles and pair files.
+    from football_team_logos import validate_catalog
+    validate_catalog(root, SLUG)
     def get(name):
         require(name in data, 'Missing required JSON: ' + name)
         return data[name]
@@ -164,19 +173,21 @@ def validate(root, baseline=None, require_metadata=False):
     if meta_path.exists():
         meta = read(meta_path)
         require(meta['dataHashes'] == hashes(root), 'Persisted generation hashes do not match data')
+        require(meta.get('assetHashes', {}) == asset_hashes(root), 'Persisted logo asset hashes do not match files')
     elif require_metadata:
         raise ValueError('Missing persisted refresh metadata')
     return home
 
 
-def update_derived_metadata(root):
+def update_derived_metadata(root, builder='team-of-week-v2'):
     """Record an offline derived repair without claiming a new ESPN fetch."""
     path = Path(root) / SLUG / META
     if path.exists():
         meta = read(path)
         meta['dataHashes'] = hashes(root)
+        meta['assetHashes'] = asset_hashes(root)
         meta['generationId'] = hashlib.sha256(json.dumps(meta['dataHashes'], sort_keys=True).encode()).hexdigest()
-        meta['derivedBuilder'] = 'team-of-week-v2'
+        meta['derivedBuilder'] = builder
         write_json(path, meta)
 
 
@@ -202,6 +213,7 @@ def refresh(output=PUBLIC_DATA, generator=None):
             'lastCompletedWeek': home['state']['lastCompletedWeek'], 'generationId': digest,
             'producedChanges': changed, 'sourceRevision': git('rev-parse', 'HEAD'),
             'runId': os.environ.get('GITHUB_RUN_ID'), 'dataHashes': hashes(candidate),
+            'assetHashes': asset_hashes(candidate),
         })
         validate(candidate, baseline=output, require_metadata=True)
         # No candidate file reaches the working tree before the whole release validates.
@@ -225,9 +237,10 @@ def persist(cwd=ROOT):
     changed = bool(git('diff', '--cached', '--name-only', cwd=cwd))
     if changed:
         paths = git('diff', '--cached', '--name-only', cwd=cwd).splitlines()
-        require(all(p.startswith('frontend/public/data/') and p.endswith('.json') for p in paths),
+        require(all((p.startswith('frontend/public/data/') and p.endswith('.json')) or
+                    re.fullmatch(r'frontend/public/data/'+SLUG+r'/team-logos/[a-f0-9]{64}\.(svg|webp)', p) for p in paths),
                 'Refusing to commit unrelated staged files')
-        print(f'Changed generated JSON files={len(paths)}')
+        print(f'Changed generated data files={len(paths)}')
         git('-c', 'user.name=github-actions[bot]', '-c', 'user.email=41898282+github-actions[bot]@users.noreply.github.com',
             'commit', '-m', 'chore(data): refresh Pocky Football snapshots', cwd=cwd)
         # A non-fast-forward or protected-branch rejection is fatal; never force or deploy anyway.
@@ -262,6 +275,12 @@ def public_check(root=PUBLIC_DATA, exact=False, attempts=1):
                     actual = hashlib.sha256(json.dumps(r.json(), sort_keys=True, ensure_ascii=False,
                          separators=(',', ':'), allow_nan=False).encode()).hexdigest()
                     require(actual == local['dataHashes'][name], 'Public source JSON hash mismatch: '+name)
+                for extension in ('.webp', '.svg'):
+                    name = next((p for p in local.get('assetHashes', {}) if p.endswith(extension)), None)
+                    if name:
+                        r = requests.get(base+name, params={'generation':local['generationId'],'attempt':attempt}, timeout=30)
+                        r.raise_for_status()
+                        require(hashlib.sha256(r.content).hexdigest() == local['assetHashes'][name], 'Public logo asset hash mismatch')
             else:
                 require(local['lastSuccessfulEspnFetchAt'] >= remote['lastSuccessfulEspnFetchAt'],
                         'Refusing to replace a newer public generation')

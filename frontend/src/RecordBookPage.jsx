@@ -5,7 +5,7 @@ import MatchupDetails from './MatchupDetails.jsx';
 import './record-book.css';
 
 function Holder({ holder, Team, seasonOnly = false }) {
-  return <div className="rb-holder">{holder.name && <strong className="rb-player">{holder.name}</strong>}{holder.team && <Team team={holder.team}/>}
+  return <div className="rb-holder">{holder.name && <strong className="rb-player">{holder.name}</strong>}{holder.team && <Team team={holder.team} logoSeason={holder.season}/>}
     {holder.teams?.length > 1 && <small>Contributions for {holder.teams.map(t => t.name).join(', ')}</small>}
     <small>{holder.season}{!seasonOnly && holder.week ? ` · Week ${holder.week}` : ''}{holder.startWeek ? ` · Weeks ${holder.startWeek}–${holder.endWeek}` : ''}{holder.isPlayoff ? ` · ${holder.roundLabel || 'Playoffs'}` : ''}</small>
     {holder.name && <small>{holder.nflTeam} · {holder.position}{!seasonOnly && holder.nflOpponent ? ` · vs. ${holder.nflOpponent}` : ''}</small>}
@@ -42,7 +42,7 @@ export default function RecordBookPage({ path, loadData, year, onYearChange, Tea
   const manifest={lineupPath:data.lineupPath};
   return <div className="record-book">
     <label className="select-control rb-season">Season<select aria-label="Record Book season" value={selected} onChange={event=>onYearChange(event.target.value)}><option value="All-Time">All-Time</option>{data.years.map(y=><option key={y} value={y}>{y}</option>)}</select></label>
-    {selected === 'All-Time' ? <Section title="Championship History"><div className="content-card rb-timeline"><ol>{view.champions.map(c=><li key={c.season}><span>{c.season}</span><span aria-hidden="true">♛</span><Team team={c.team}/></li>)}</ol></div></Section> : <>
+    {selected === 'All-Time' ? <Section title="Championship History"><div className="content-card rb-timeline"><ol>{view.champions.map(c=><li key={c.season}><span>{c.season}</span><span aria-hidden="true">♛</span><Team team={c.team} logoSeason={c.season}/></li>)}</ol></div></Section> : <>
       <Section title={`${selected} Honors`}><div className="rb-premier"><article className="content-card rb-award"><p className="rb-kicker">Champion</p>{view.champions.length ? <Team team={view.champions[0].team}/> : <p>Unavailable</p>}</article>
         <article className="content-card rb-award"><p className="rb-kicker">Most Valuable Player</p>{view.mvp.holders.map((h,i)=><div key={i} className="rb-leader"><Holder holder={h} Team={Team} seasonOnly/><strong className="rb-value">{h.value.toFixed(2)} <small>FPTS</small></strong></div>)}</article></div></Section>
       <Section title="All-Fantasy Team" meta="9 starters · 7 bench"><div className="content-card rb-roster">{[['Starters',false],['Bench',true]].map(([label,bench])=><div className="rb-roster-group" key={label}><h3>{label}</h3><ol>{view.allFantasyTeam.filter(p=>(p.awardSlot==='BE')===bench).map((p,index)=><li key={p.playerId}><span className="lineup-slot">{p.awardSlot}{bench ? ` ${index+1}` : ''}</span><div><Holder holder={p} Team={Team} seasonOnly/>{p.tiedAlternates.length>0 && <small>Tied: {p.tiedAlternates.map(a=>a.name).join(', ')}</small>}</div><strong>{p.value.toFixed(2)} <small>FPTS</small></strong></li>)}</ol></div>)}</div></Section>
