@@ -1,7 +1,7 @@
 import React from 'react';
 import { readFileSync } from 'node:fs';
 import { afterEach, expect, it, vi } from 'vitest';
-import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
 import { App } from './main.jsx';
 import { BrandingSeason, Team, TeamLogoCatalog } from './Match.jsx';
 import configuration from './team-branding.json' with { type: 'json' };
@@ -24,7 +24,7 @@ for (const [route,heading] of [['#/', '2026 Season'], ['#/scoreboard/2021','Scor
     vi.stubGlobal('fetch', vi.fn(async url => ({ok:true,json:async()=>JSON.parse(readFileSync(`${process.cwd()}/public/data/${String(url).split('data/')[1]}`,'utf8'))})));
     window.location.hash = route; render(<App/>);
     await screen.findByRole('heading',{name:heading,exact:true});
-    if (heading === 'Scoreboard') expect(await screen.findByRole('heading',{name:'Team of the Week'})).toBeTruthy();
+    if (heading === 'Scoreboard') { const button = screen.getByRole('button',{name:'View Weekly Recap'}); await waitFor(()=>expect(button.disabled).toBe(false)); fireEvent.click(button); expect(await screen.findByRole('heading',{name:'Team of the Week'})).toBeTruthy(); }
     if (heading === 'Draft') expect(await screen.findByLabelText('Draft season')).toBeTruthy();
     expect(screen.queryByRole('alert')).toBeNull();
   });

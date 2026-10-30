@@ -61,6 +61,8 @@ class ReleaseTests(unittest.TestCase):
         write_json(self.root/slug/'h2h/1-2.json', {'schemaVersion': 1})
         from football_team_of_week import build_team_of_week
         build_team_of_week(self.root, slug, [2026])
+        from football_weekly import build_weekly
+        build_weekly(self.root, slug, [2026])
 
     def generate(self, slug, output, current_only):
         self.assertTrue(current_only)
@@ -70,6 +72,8 @@ class ReleaseTests(unittest.TestCase):
         write_json(path, data)
         from football_team_of_week import build_team_of_week
         build_team_of_week(output, slug, [2026])
+        from football_weekly import build_weekly
+        build_weekly(output, slug, [2026])
 
     def test_changed_refresh_validates_before_promotion_and_hashes_release(self):
         self.assertTrue(pipeline.refresh(self.root, self.generate))
@@ -198,7 +202,8 @@ class ReleaseTests(unittest.TestCase):
             for target in ('football_activity.generate_activity', 'football_player_scoring.generate_player_scoring',
                            'football_h2h.build_h2h', 'football_record_book.build_record_book',
                            'football_player_metadata.generate', 'football_players.build_players',
-                           'football_draft_analysis.build_draft_analysis', 'football_team_of_week.build_team_of_week'):
+                           'football_draft_analysis.build_draft_analysis', 'football_team_of_week.build_team_of_week',
+                           'football_weekly.build_weekly'):
                 stack.enter_context(patch(target))
             generate(pipeline.SLUG, output=self.root, current_only=True)
             self.assertEqual(league.call_count, 1)
@@ -223,6 +228,14 @@ class ReleaseTests(unittest.TestCase):
             return Mock(json=lambda: pipeline.read(self.root/name))
         with patch('requests.get', side_effect=response):
             pipeline.public_check(self.root, exact=True)
+
+    def test_stale_weekly_contract_rejected(self):
+        path = self.root/pipeline.SLUG/'2026/weekly.json'
+        data = pipeline.read(path)
+        data['allPlay']['1']['wins'] += 1
+        write_json(path, data)
+        with self.assertRaisesRegex(ValueError, 'Weekly stories do not match'):
+            pipeline.validate(self.root)
 
 
 class PersistenceTests(unittest.TestCase):

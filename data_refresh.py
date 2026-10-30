@@ -96,6 +96,10 @@ def validate(root, baseline=None, require_metadata=False):
     for player in get(f'{SLUG}/players-index.json')['players']:
         # Require every profile linked by the frontend index.
         require(f"{SLUG}/players/{player['espnId']}.json" in data, 'Missing player profile')
+    from football_weekly import weekly_contracts
+    for y, expected in weekly_contracts(root, SLUG, sorted(years)).items():
+        require(get(f'{SLUG}/{y}/weekly.json') == expected,
+                'Weekly stories do not match source snapshots')
     home = get(f'{SLUG}/{year}/home.json')
     league = get(f'{SLUG}/{year}/league.json')
     teams = get(f'{SLUG}/{year}/teams.json')

@@ -193,6 +193,10 @@ def generate(slug, config_path=CONFIG_PATH, output=PUBLIC_DATA, current_only=Fal
                                       logo_records=catalog['seasons'].get(str(year), {}))
         for team in payload['standings']:
             team_seasons.setdefault(str(team['teamId']), []).append(year)
+        if year == config['season']:
+            from football_weekly import capture_entering_ranks
+            previous = json.loads((folder/'teams.json').read_text()) if (folder/'teams.json').exists() else None
+            capture_entering_ranks(payload, teams, previous)
         write_json(folder / "league.json", payload)
         write_json(folder / "teams.json", teams)
         generate_activity(league.espn_request, folder, year, {t["teamId"] for t in payload["standings"]})
@@ -227,6 +231,8 @@ def generate(slug, config_path=CONFIG_PATH, output=PUBLIC_DATA, current_only=Fal
     build_draft_analysis(output, slug, years)
     from football_team_of_week import build_team_of_week
     build_team_of_week(output, slug, [config['season']] if current_only else years)
+    from football_weekly import build_weekly
+    build_weekly(output, slug, years)
     write_json(Path(output) / "site.json", {
         "schemaVersion": 1,
         "leaguePath": f"{slug}/{config['season']}/league.json",

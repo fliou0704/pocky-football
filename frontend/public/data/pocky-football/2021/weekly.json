@@ -1,0 +1,2658 @@
+{
+  "schemaVersion": 1,
+  "season": 2021,
+  "allPlay": {
+    "1": {
+      "wins": 82,
+      "losses": 44,
+      "ties": 0
+    },
+    "2": {
+      "wins": 70,
+      "losses": 56,
+      "ties": 0
+    },
+    "3": {
+      "wins": 66,
+      "losses": 60,
+      "ties": 0
+    },
+    "5": {
+      "wins": 73,
+      "losses": 53,
+      "ties": 0
+    },
+    "6": {
+      "wins": 92,
+      "losses": 33,
+      "ties": 1
+    },
+    "7": {
+      "wins": 49,
+      "losses": 77,
+      "ties": 0
+    },
+    "9": {
+      "wins": 81,
+      "losses": 45,
+      "ties": 0
+    },
+    "10": {
+      "wins": 36,
+      "losses": 90,
+      "ties": 0
+    },
+    "11": {
+      "wins": 37,
+      "losses": 89,
+      "ties": 0
+    },
+    "12": {
+      "wins": 43,
+      "losses": 82,
+      "ties": 1
+    }
+  },
+  "excludedAllPlayWeeks": [],
+  "weeks": {
+    "1": {
+      "week": 1,
+      "phase": "regular",
+      "topTeam": {
+        "teamId": 2,
+        "points": 149.98,
+        "rank": 1
+      },
+      "leaderboard": [
+        {
+          "teamId": 2,
+          "points": 149.98,
+          "rank": 1
+        },
+        {
+          "teamId": 5,
+          "points": 148.0,
+          "rank": 2
+        },
+        {
+          "teamId": 1,
+          "points": 132.84,
+          "rank": 3
+        },
+        {
+          "teamId": 9,
+          "points": 131.62,
+          "rank": 4
+        },
+        {
+          "teamId": 12,
+          "points": 128.66,
+          "rank": 5
+        },
+        {
+          "teamId": 10,
+          "points": 128.38,
+          "rank": 6
+        },
+        {
+          "teamId": 6,
+          "points": 122.36,
+          "rank": 7
+        },
+        {
+          "teamId": 3,
+          "points": 118.14,
+          "rank": 8
+        },
+        {
+          "teamId": 11,
+          "points": 110.96,
+          "rank": 9
+        },
+        {
+          "teamId": 7,
+          "points": 108.92,
+          "rank": 10
+        }
+      ],
+      "topPlayers": [
+        {
+          "playerId": 2976499,
+          "name": "Amari Cooper",
+          "slot": "WR",
+          "nflTeam": "DAL",
+          "position": "WR",
+          "points": 38.9,
+          "nflOpponent": "TB",
+          "teamId": 3,
+          "bench": false
+        },
+        {
+          "playerId": 3116406,
+          "name": "Tyreek Hill",
+          "slot": "WR",
+          "nflTeam": "KC",
+          "position": "WR",
+          "points": 37.1,
+          "nflOpponent": "CLE",
+          "teamId": 6,
+          "bench": false
+        },
+        {
+          "playerId": 3917315,
+          "name": "Kyler Murray",
+          "slot": "QB",
+          "nflTeam": "ARI",
+          "position": "QB",
+          "points": 33.56,
+          "nflOpponent": "TEN",
+          "teamId": 12,
+          "bench": false
+        },
+        {
+          "playerId": 3139477,
+          "name": "Patrick Mahomes",
+          "slot": "QB",
+          "nflTeam": "KC",
+          "position": "QB",
+          "points": 33.28,
+          "nflOpponent": "CLE",
+          "teamId": 10,
+          "bench": false
+        },
+        {
+          "playerId": 3126486,
+          "name": "Deebo Samuel",
+          "slot": "BE",
+          "nflTeam": "SF",
+          "position": "WR",
+          "points": 31.9,
+          "nflOpponent": "DET",
+          "teamId": 9,
+          "bench": true
+        }
+      ],
+      "awards": [
+        {
+          "id": "2021-1-10-12",
+          "match": {
+            "week": 1,
+            "homeTeamId": 10,
+            "awayTeamId": 12,
+            "homeScore": 128.38,
+            "awayScore": 128.66,
+            "status": "final",
+            "winnerTeamId": 12,
+            "bracket": "regular",
+            "phase": "regular",
+            "roundLabel": null,
+            "isPlayoff": false,
+            "isBye": false
+          },
+          "labels": [
+            "Closest Matchup"
+          ]
+        }
+      ],
+      "stories": [
+        {
+          "teamId": 1,
+          "kind": "firstWin"
+        },
+        {
+          "teamId": 2,
+          "kind": "firstWin"
+        },
+        {
+          "teamId": 3,
+          "kind": "firstWin"
+        },
+        {
+          "teamId": 5,
+          "kind": "firstWin"
+        },
+        {
+          "teamId": 12,
+          "kind": "firstWin"
+        }
+      ]
+    },
+    "2": {
+      "week": 2,
+      "phase": "regular",
+      "topTeam": {
+        "teamId": 2,
+        "points": 159.98,
+        "rank": 1
+      },
+      "leaderboard": [
+        {
+          "teamId": 2,
+          "points": 159.98,
+          "rank": 1
+        },
+        {
+          "teamId": 1,
+          "points": 148.92,
+          "rank": 2
+        },
+        {
+          "teamId": 6,
+          "points": 146.94,
+          "rank": 3
+        },
+        {
+          "teamId": 12,
+          "points": 145.3,
+          "rank": 4
+        },
+        {
+          "teamId": 5,
+          "points": 142.76,
+          "rank": 5
+        },
+        {
+          "teamId": 9,
+          "points": 142.1,
+          "rank": 6
+        },
+        {
+          "teamId": 10,
+          "points": 132.52,
+          "rank": 7
+        },
+        {
+          "teamId": 11,
+          "points": 114.12,
+          "rank": 8
+        },
+        {
+          "teamId": 7,
+          "points": 91.82,
+          "rank": 9
+        },
+        {
+          "teamId": 3,
+          "points": 84.46,
+          "rank": 10
+        }
+      ],
+      "topPlayers": [
+        {
+          "playerId": 3043078,
+          "name": "Derrick Henry",
+          "slot": "RB",
+          "nflTeam": "TEN",
+          "position": "RB",
+          "points": 47.7,
+          "nflOpponent": "SEA",
+          "teamId": 1,
+          "bench": false
+        },
+        {
+          "playerId": 3042519,
+          "name": "Aaron Jones",
+          "slot": "RB",
+          "nflTeam": "GB",
+          "position": "RB",
+          "points": 41.5,
+          "nflOpponent": "DET",
+          "teamId": 6,
+          "bench": false
+        },
+        {
+          "playerId": 2977187,
+          "name": "Cooper Kupp",
+          "slot": "WR",
+          "nflTeam": "LAR",
+          "position": "WR",
+          "points": 36.8,
+          "nflOpponent": "IND",
+          "teamId": 2,
+          "bench": false
+        },
+        {
+          "playerId": 3917315,
+          "name": "Kyler Murray",
+          "slot": "QB",
+          "nflTeam": "ARI",
+          "position": "QB",
+          "points": 33.1,
+          "nflOpponent": "MIN",
+          "teamId": 12,
+          "bench": false
+        },
+        {
+          "playerId": 3916387,
+          "name": "Lamar Jackson",
+          "slot": "QB",
+          "nflTeam": "BAL",
+          "position": "QB",
+          "points": 32.26,
+          "nflOpponent": "KC",
+          "teamId": 5,
+          "bench": false
+        }
+      ],
+      "awards": [
+        {
+          "id": "2021-2-6-12",
+          "match": {
+            "week": 2,
+            "homeTeamId": 12,
+            "awayTeamId": 6,
+            "homeScore": 145.3,
+            "awayScore": 146.94,
+            "status": "final",
+            "winnerTeamId": 6,
+            "bracket": "regular",
+            "phase": "regular",
+            "roundLabel": null,
+            "isPlayoff": false,
+            "isBye": false
+          },
+          "labels": [
+            "Closest Matchup"
+          ]
+        }
+      ],
+      "stories": [
+        {
+          "teamId": 6,
+          "kind": "firstWin"
+        },
+        {
+          "teamId": 9,
+          "kind": "firstWin"
+        },
+        {
+          "teamId": 10,
+          "kind": "firstWin"
+        }
+      ]
+    },
+    "3": {
+      "week": 3,
+      "phase": "regular",
+      "topTeam": {
+        "teamId": 2,
+        "points": 172.48,
+        "rank": 1
+      },
+      "leaderboard": [
+        {
+          "teamId": 2,
+          "points": 172.48,
+          "rank": 1
+        },
+        {
+          "teamId": 1,
+          "points": 168.22,
+          "rank": 2
+        },
+        {
+          "teamId": 6,
+          "points": 145.34,
+          "rank": 3
+        },
+        {
+          "teamId": 7,
+          "points": 140.04,
+          "rank": 4
+        },
+        {
+          "teamId": 11,
+          "points": 134.42,
+          "rank": 5
+        },
+        {
+          "teamId": 3,
+          "points": 112.52,
+          "rank": 6
+        },
+        {
+          "teamId": 12,
+          "points": 112.04,
+          "rank": 7
+        },
+        {
+          "teamId": 10,
+          "points": 110.8,
+          "rank": 8
+        },
+        {
+          "teamId": 9,
+          "points": 97.94,
+          "rank": 9
+        },
+        {
+          "teamId": 5,
+          "points": 93.28,
+          "rank": 10
+        }
+      ],
+      "topPlayers": [
+        {
+          "playerId": 3918298,
+          "name": "Josh Allen",
+          "slot": "QB",
+          "nflTeam": "BUF",
+          "position": "QB",
+          "points": 37.22,
+          "nflOpponent": "WSH",
+          "teamId": 3,
+          "bench": false
+        },
+        {
+          "playerId": 3045138,
+          "name": "Mike Williams",
+          "slot": "FLEX",
+          "nflTeam": "LAC",
+          "position": "WR",
+          "points": 33.2,
+          "nflOpponent": "KC",
+          "teamId": 2,
+          "bench": false
+        },
+        {
+          "playerId": 16800,
+          "name": "Davante Adams",
+          "slot": "WR",
+          "nflTeam": "GB",
+          "position": "WR",
+          "points": 31.2,
+          "nflOpponent": "SF",
+          "teamId": 5,
+          "bench": false
+        },
+        {
+          "playerId": 4038941,
+          "name": "Justin Herbert",
+          "slot": "QB",
+          "nflTeam": "LAC",
+          "position": "QB",
+          "points": 30.84,
+          "nflOpponent": "KC",
+          "teamId": 7,
+          "bench": false
+        },
+        {
+          "playerId": 2977187,
+          "name": "Cooper Kupp",
+          "slot": "WR",
+          "nflTeam": "LAR",
+          "position": "WR",
+          "points": 30.6,
+          "nflOpponent": "TB",
+          "teamId": 2,
+          "bench": false
+        }
+      ],
+      "awards": [
+        {
+          "id": "2021-3-6-11",
+          "match": {
+            "week": 3,
+            "homeTeamId": 6,
+            "awayTeamId": 11,
+            "homeScore": 145.34,
+            "awayScore": 134.42,
+            "status": "final",
+            "winnerTeamId": 6,
+            "bracket": "regular",
+            "phase": "regular",
+            "roundLabel": null,
+            "isPlayoff": false,
+            "isBye": false
+          },
+          "labels": [
+            "Closest Matchup"
+          ]
+        }
+      ],
+      "stories": [
+        {
+          "teamId": 1,
+          "kind": "streak",
+          "count": 3
+        },
+        {
+          "teamId": 2,
+          "kind": "streak",
+          "count": 3
+        },
+        {
+          "teamId": 7,
+          "kind": "firstWin"
+        }
+      ]
+    },
+    "4": {
+      "week": 4,
+      "phase": "regular",
+      "topTeam": {
+        "teamId": 6,
+        "points": 132.96,
+        "rank": 1
+      },
+      "leaderboard": [
+        {
+          "teamId": 6,
+          "points": 132.96,
+          "rank": 1
+        },
+        {
+          "teamId": 9,
+          "points": 132.32,
+          "rank": 2
+        },
+        {
+          "teamId": 11,
+          "points": 128.78,
+          "rank": 3
+        },
+        {
+          "teamId": 5,
+          "points": 125.74,
+          "rank": 4
+        },
+        {
+          "teamId": 10,
+          "points": 122.02,
+          "rank": 5
+        },
+        {
+          "teamId": 1,
+          "points": 121.5,
+          "rank": 6
+        },
+        {
+          "teamId": 3,
+          "points": 119.92,
+          "rank": 7
+        },
+        {
+          "teamId": 7,
+          "points": 105.48,
+          "rank": 8
+        },
+        {
+          "teamId": 12,
+          "points": 98.22,
+          "rank": 9
+        },
+        {
+          "teamId": 2,
+          "points": 95.82,
+          "rank": 10
+        }
+      ],
+      "topPlayers": [
+        {
+          "playerId": 3116406,
+          "name": "Tyreek Hill",
+          "slot": "WR",
+          "nflTeam": "KC",
+          "position": "WR",
+          "points": 47.6,
+          "nflOpponent": "PHI",
+          "teamId": 6,
+          "bench": false
+        },
+        {
+          "playerId": 3126486,
+          "name": "Deebo Samuel",
+          "slot": "WR",
+          "nflTeam": "SF",
+          "position": "WR",
+          "points": 35.7,
+          "nflOpponent": "SEA",
+          "teamId": 9,
+          "bench": false
+        },
+        {
+          "playerId": 15807,
+          "name": "Cordarrelle Patterson",
+          "slot": "BE",
+          "nflTeam": "ATL",
+          "position": "RB",
+          "points": 34.6,
+          "nflOpponent": "WSH",
+          "teamId": 5,
+          "bench": true
+        },
+        {
+          "playerId": 3915416,
+          "name": "DJ Moore",
+          "slot": "WR",
+          "nflTeam": "CAR",
+          "position": "WR",
+          "points": 31.9,
+          "nflOpponent": "DAL",
+          "teamId": 11,
+          "bench": false
+        },
+        {
+          "playerId": 3139477,
+          "name": "Patrick Mahomes",
+          "slot": "QB",
+          "nflTeam": "KC",
+          "position": "QB",
+          "points": 31.72,
+          "nflOpponent": "PHI",
+          "teamId": 10,
+          "bench": false
+        }
+      ],
+      "awards": [
+        {
+          "id": "2021-4-3-10",
+          "match": {
+            "week": 4,
+            "homeTeamId": 3,
+            "awayTeamId": 10,
+            "homeScore": 119.92,
+            "awayScore": 122.02,
+            "status": "final",
+            "winnerTeamId": 10,
+            "bracket": "regular",
+            "phase": "regular",
+            "roundLabel": null,
+            "isPlayoff": false,
+            "isBye": false
+          },
+          "labels": [
+            "Closest Matchup"
+          ]
+        }
+      ],
+      "stories": [
+        {
+          "teamId": 6,
+          "kind": "streak",
+          "count": 3
+        },
+        {
+          "teamId": 11,
+          "kind": "firstWin"
+        }
+      ]
+    },
+    "5": {
+      "week": 5,
+      "phase": "regular",
+      "topTeam": {
+        "teamId": 5,
+        "points": 175.08,
+        "rank": 1
+      },
+      "leaderboard": [
+        {
+          "teamId": 5,
+          "points": 175.08,
+          "rank": 1
+        },
+        {
+          "teamId": 6,
+          "points": 168.54,
+          "rank": 2
+        },
+        {
+          "teamId": 7,
+          "points": 158.38,
+          "rank": 3
+        },
+        {
+          "teamId": 1,
+          "points": 128.5,
+          "rank": 4
+        },
+        {
+          "teamId": 3,
+          "points": 121.9,
+          "rank": 5
+        },
+        {
+          "teamId": 12,
+          "points": 117.76,
+          "rank": 6
+        },
+        {
+          "teamId": 9,
+          "points": 110.66,
+          "rank": 7
+        },
+        {
+          "teamId": 10,
+          "points": 109.08,
+          "rank": 8
+        },
+        {
+          "teamId": 11,
+          "points": 104.78,
+          "rank": 9
+        },
+        {
+          "teamId": 2,
+          "points": 103.38,
+          "rank": 10
+        }
+      ],
+      "topPlayers": [
+        {
+          "playerId": 4038941,
+          "name": "Justin Herbert",
+          "slot": "BE",
+          "nflTeam": "LAC",
+          "position": "QB",
+          "points": 42.82,
+          "nflOpponent": "CLE",
+          "teamId": 7,
+          "bench": true
+        },
+        {
+          "playerId": 3916387,
+          "name": "Lamar Jackson",
+          "slot": "QB",
+          "nflTeam": "BAL",
+          "position": "QB",
+          "points": 41.88,
+          "nflOpponent": "IND",
+          "teamId": 5,
+          "bench": false
+        },
+        {
+          "playerId": 3116365,
+          "name": "Mark Andrews",
+          "slot": "TE",
+          "nflTeam": "BAL",
+          "position": "TE",
+          "points": 41.7,
+          "nflOpponent": "IND",
+          "teamId": 6,
+          "bench": false
+        },
+        {
+          "playerId": 2330,
+          "name": "Tom Brady",
+          "slot": "QB",
+          "nflTeam": "TB",
+          "position": "QB",
+          "points": 37.74,
+          "nflOpponent": "MIA",
+          "teamId": 6,
+          "bench": false
+        },
+        {
+          "playerId": 16800,
+          "name": "Davante Adams",
+          "slot": "WR",
+          "nflTeam": "GB",
+          "position": "WR",
+          "points": 37.6,
+          "nflOpponent": "CIN",
+          "teamId": 5,
+          "bench": false
+        }
+      ],
+      "awards": [
+        {
+          "id": "2021-5-9-11",
+          "match": {
+            "week": 5,
+            "homeTeamId": 9,
+            "awayTeamId": 11,
+            "homeScore": 110.66,
+            "awayScore": 104.78,
+            "status": "final",
+            "winnerTeamId": 9,
+            "bracket": "regular",
+            "phase": "regular",
+            "roundLabel": null,
+            "isPlayoff": false,
+            "isBye": false
+          },
+          "labels": [
+            "Closest Matchup"
+          ]
+        }
+      ],
+      "stories": [
+        {
+          "teamId": 6,
+          "kind": "streak",
+          "count": 4
+        }
+      ]
+    },
+    "6": {
+      "week": 6,
+      "phase": "regular",
+      "topTeam": {
+        "teamId": 6,
+        "points": 154.98,
+        "rank": 1
+      },
+      "leaderboard": [
+        {
+          "teamId": 6,
+          "points": 154.98,
+          "rank": 1
+        },
+        {
+          "teamId": 9,
+          "points": 152.1,
+          "rank": 2
+        },
+        {
+          "teamId": 1,
+          "points": 141.44,
+          "rank": 3
+        },
+        {
+          "teamId": 3,
+          "points": 140.92,
+          "rank": 4
+        },
+        {
+          "teamId": 5,
+          "points": 126.48,
+          "rank": 5
+        },
+        {
+          "teamId": 11,
+          "points": 121.9,
+          "rank": 6
+        },
+        {
+          "teamId": 2,
+          "points": 114.04,
+          "rank": 7
+        },
+        {
+          "teamId": 12,
+          "points": 113.26,
+          "rank": 8
+        },
+        {
+          "teamId": 10,
+          "points": 112.38,
+          "rank": 9
+        },
+        {
+          "teamId": 7,
+          "points": 103.7,
+          "rank": 10
+        }
+      ],
+      "topPlayers": [
+        {
+          "playerId": 4241389,
+          "name": "CeeDee Lamb",
+          "slot": "WR",
+          "nflTeam": "DAL",
+          "position": "WR",
+          "points": 36.1,
+          "nflOpponent": "NE",
+          "teamId": 9,
+          "bench": false
+        },
+        {
+          "playerId": 3043078,
+          "name": "Derrick Henry",
+          "slot": "RB",
+          "nflTeam": "TEN",
+          "position": "RB",
+          "points": 35.6,
+          "nflOpponent": "BUF",
+          "teamId": 1,
+          "bench": false
+        },
+        {
+          "playerId": 2977187,
+          "name": "Cooper Kupp",
+          "slot": "WR",
+          "nflTeam": "LAR",
+          "position": "WR",
+          "points": 34.0,
+          "nflOpponent": "NYG",
+          "teamId": 2,
+          "bench": false
+        },
+        {
+          "playerId": 3115364,
+          "name": "Leonard Fournette",
+          "slot": "RB",
+          "nflTeam": "TB",
+          "position": "RB",
+          "points": 30.7,
+          "nflOpponent": "PHI",
+          "teamId": 6,
+          "bench": false
+        },
+        {
+          "playerId": 16460,
+          "name": "Adam Thielen",
+          "slot": "BE",
+          "nflTeam": "MIN",
+          "position": "WR",
+          "points": 29.8,
+          "nflOpponent": "CAR",
+          "teamId": 9,
+          "bench": true
+        }
+      ],
+      "awards": [
+        {
+          "id": "2021-6-2-7",
+          "match": {
+            "week": 6,
+            "homeTeamId": 2,
+            "awayTeamId": 7,
+            "homeScore": 114.04,
+            "awayScore": 103.7,
+            "status": "final",
+            "winnerTeamId": 2,
+            "bracket": "regular",
+            "phase": "regular",
+            "roundLabel": null,
+            "isPlayoff": false,
+            "isBye": false
+          },
+          "labels": [
+            "Closest Matchup"
+          ]
+        }
+      ],
+      "stories": [
+        {
+          "teamId": 6,
+          "kind": "streak",
+          "count": 5
+        },
+        {
+          "teamId": 9,
+          "kind": "streak",
+          "count": 3
+        }
+      ]
+    },
+    "7": {
+      "week": 7,
+      "phase": "regular",
+      "topTeam": {
+        "teamId": 9,
+        "points": 160.46,
+        "rank": 1
+      },
+      "leaderboard": [
+        {
+          "teamId": 9,
+          "points": 160.46,
+          "rank": 1
+        },
+        {
+          "teamId": 7,
+          "points": 158.12,
+          "rank": 2
+        },
+        {
+          "teamId": 5,
+          "points": 151.88,
+          "rank": 3
+        },
+        {
+          "teamId": 3,
+          "points": 134.04,
+          "rank": 4
+        },
+        {
+          "teamId": 2,
+          "points": 122.4,
+          "rank": 5
+        },
+        {
+          "teamId": 1,
+          "points": 106.06,
+          "rank": 6
+        },
+        {
+          "teamId": 6,
+          "points": 105.94,
+          "rank": 7
+        },
+        {
+          "teamId": 12,
+          "points": 105.94,
+          "rank": 7
+        },
+        {
+          "teamId": 11,
+          "points": 91.24,
+          "rank": 9
+        },
+        {
+          "teamId": 10,
+          "points": 72.04,
+          "rank": 10
+        }
+      ],
+      "topPlayers": [
+        {
+          "playerId": 2977187,
+          "name": "Cooper Kupp",
+          "slot": "WR",
+          "nflTeam": "LAR",
+          "position": "WR",
+          "points": 37.6,
+          "nflOpponent": "DET",
+          "teamId": 2,
+          "bench": false
+        },
+        {
+          "playerId": 4362628,
+          "name": "Ja'Marr Chase",
+          "slot": "FLEX",
+          "nflTeam": "CIN",
+          "position": "WR",
+          "points": 34.1,
+          "nflOpponent": "BAL",
+          "teamId": 5,
+          "bench": false
+        },
+        {
+          "playerId": 3054850,
+          "name": "Alvin Kamara",
+          "slot": "RB",
+          "nflTeam": "NO",
+          "position": "RB",
+          "points": 33.9,
+          "nflOpponent": "SEA",
+          "teamId": 7,
+          "bench": false
+        },
+        {
+          "playerId": 16737,
+          "name": "Mike Evans",
+          "slot": "WR",
+          "nflTeam": "TB",
+          "position": "WR",
+          "points": 31.6,
+          "nflOpponent": "CHI",
+          "teamId": 10,
+          "bench": false
+        },
+        {
+          "playerId": 4259545,
+          "name": "D'Andre Swift",
+          "slot": "RB",
+          "nflTeam": "DET",
+          "position": "RB",
+          "points": 28.4,
+          "nflOpponent": "LAR",
+          "teamId": 12,
+          "bench": false
+        }
+      ],
+      "awards": [
+        {
+          "id": "2021-7-2-3",
+          "match": {
+            "week": 7,
+            "homeTeamId": 3,
+            "awayTeamId": 2,
+            "homeScore": 134.04,
+            "awayScore": 122.4,
+            "status": "final",
+            "winnerTeamId": 3,
+            "bracket": "regular",
+            "phase": "regular",
+            "roundLabel": null,
+            "isPlayoff": false,
+            "isBye": false
+          },
+          "labels": [
+            "Closest Matchup"
+          ]
+        }
+      ],
+      "stories": [
+        {
+          "teamId": 1,
+          "kind": "streak",
+          "count": 3
+        },
+        {
+          "teamId": 9,
+          "kind": "streak",
+          "count": 4
+        }
+      ]
+    },
+    "8": {
+      "week": 8,
+      "phase": "regular",
+      "topTeam": {
+        "teamId": 1,
+        "points": 146.3,
+        "rank": 1
+      },
+      "leaderboard": [
+        {
+          "teamId": 1,
+          "points": 146.3,
+          "rank": 1
+        },
+        {
+          "teamId": 9,
+          "points": 142.86,
+          "rank": 2
+        },
+        {
+          "teamId": 6,
+          "points": 135.0,
+          "rank": 3
+        },
+        {
+          "teamId": 5,
+          "points": 130.56,
+          "rank": 4
+        },
+        {
+          "teamId": 7,
+          "points": 128.02,
+          "rank": 5
+        },
+        {
+          "teamId": 2,
+          "points": 124.9,
+          "rank": 6
+        },
+        {
+          "teamId": 3,
+          "points": 105.96,
+          "rank": 7
+        },
+        {
+          "teamId": 10,
+          "points": 93.9,
+          "rank": 8
+        },
+        {
+          "teamId": 11,
+          "points": 80.52,
+          "rank": 9
+        },
+        {
+          "teamId": 12,
+          "points": 68.96,
+          "rank": 10
+        }
+      ],
+      "topPlayers": [
+        {
+          "playerId": 4240657,
+          "name": "Michael Carter",
+          "slot": "BE",
+          "nflTeam": "NYJ",
+          "position": "RB",
+          "points": 32.2,
+          "nflOpponent": "CIN",
+          "teamId": 5,
+          "bench": true
+        },
+        {
+          "playerId": 4047646,
+          "name": "A.J. Brown",
+          "slot": "WR",
+          "nflTeam": "TEN",
+          "position": "WR",
+          "points": 31.5,
+          "nflOpponent": "IND",
+          "teamId": 9,
+          "bench": false
+        },
+        {
+          "playerId": 4035687,
+          "name": "Michael Pittman Jr.",
+          "slot": "FLEX",
+          "nflTeam": "IND",
+          "position": "WR",
+          "points": 30.6,
+          "nflOpponent": "TEN",
+          "teamId": 7,
+          "bench": false
+        },
+        {
+          "playerId": 3918298,
+          "name": "Josh Allen",
+          "slot": "QB",
+          "nflTeam": "BUF",
+          "position": "QB",
+          "points": 29.46,
+          "nflOpponent": "MIA",
+          "teamId": 3,
+          "bench": false
+        },
+        {
+          "playerId": 3116165,
+          "name": "Chris Godwin",
+          "slot": "WR",
+          "nflTeam": "TB",
+          "position": "WR",
+          "points": 28.0,
+          "nflOpponent": "NO",
+          "teamId": 2,
+          "bench": false
+        }
+      ],
+      "awards": [
+        {
+          "id": "2021-8-2-9",
+          "match": {
+            "week": 8,
+            "homeTeamId": 2,
+            "awayTeamId": 9,
+            "homeScore": 124.9,
+            "awayScore": 142.86,
+            "status": "final",
+            "winnerTeamId": 9,
+            "bracket": "regular",
+            "phase": "regular",
+            "roundLabel": null,
+            "isPlayoff": false,
+            "isBye": false
+          },
+          "labels": [
+            "Closest Matchup"
+          ]
+        }
+      ],
+      "stories": [
+        {
+          "teamId": 1,
+          "kind": "streak",
+          "count": 4
+        },
+        {
+          "teamId": 9,
+          "kind": "streak",
+          "count": 5
+        }
+      ]
+    },
+    "9": {
+      "week": 9,
+      "phase": "regular",
+      "topTeam": {
+        "teamId": 5,
+        "points": 144.24,
+        "rank": 1
+      },
+      "leaderboard": [
+        {
+          "teamId": 5,
+          "points": 144.24,
+          "rank": 1
+        },
+        {
+          "teamId": 7,
+          "points": 132.34,
+          "rank": 2
+        },
+        {
+          "teamId": 9,
+          "points": 113.78,
+          "rank": 3
+        },
+        {
+          "teamId": 1,
+          "points": 112.08,
+          "rank": 4
+        },
+        {
+          "teamId": 12,
+          "points": 104.4,
+          "rank": 5
+        },
+        {
+          "teamId": 2,
+          "points": 95.72,
+          "rank": 6
+        },
+        {
+          "teamId": 3,
+          "points": 89.26,
+          "rank": 7
+        },
+        {
+          "teamId": 11,
+          "points": 89.18,
+          "rank": 8
+        },
+        {
+          "teamId": 6,
+          "points": 87.7,
+          "rank": 9
+        },
+        {
+          "teamId": 10,
+          "points": 75.34,
+          "rank": 10
+        }
+      ],
+      "topPlayers": [
+        {
+          "playerId": 3045147,
+          "name": "James Conner",
+          "slot": "BE",
+          "nflTeam": "ARI",
+          "position": "RB",
+          "points": 40.3,
+          "nflOpponent": "SF",
+          "teamId": 5,
+          "bench": true
+        },
+        {
+          "playerId": 4242335,
+          "name": "Jonathan Taylor",
+          "slot": "RB",
+          "nflTeam": "IND",
+          "position": "RB",
+          "points": 34.0,
+          "nflOpponent": "NYJ",
+          "teamId": 9,
+          "bench": false
+        },
+        {
+          "playerId": 4038941,
+          "name": "Justin Herbert",
+          "slot": "QB",
+          "nflTeam": "LAC",
+          "position": "QB",
+          "points": 31.64,
+          "nflOpponent": "PHI",
+          "teamId": 7,
+          "bench": false
+        },
+        {
+          "playerId": 3916387,
+          "name": "Lamar Jackson",
+          "slot": "QB",
+          "nflTeam": "BAL",
+          "position": "QB",
+          "points": 30.64,
+          "nflOpponent": "MIN",
+          "teamId": 5,
+          "bench": false
+        },
+        {
+          "playerId": 3128720,
+          "name": "Nick Chubb",
+          "slot": "RB",
+          "nflTeam": "CLE",
+          "position": "RB",
+          "points": 30.3,
+          "nflOpponent": "CIN",
+          "teamId": 12,
+          "bench": false
+        }
+      ],
+      "awards": [
+        {
+          "id": "2021-9-2-11",
+          "match": {
+            "week": 9,
+            "homeTeamId": 2,
+            "awayTeamId": 11,
+            "homeScore": 95.72,
+            "awayScore": 89.18,
+            "status": "final",
+            "winnerTeamId": 2,
+            "bracket": "regular",
+            "phase": "regular",
+            "roundLabel": null,
+            "isPlayoff": false,
+            "isBye": false
+          },
+          "labels": [
+            "Closest Matchup"
+          ]
+        },
+        {
+          "id": "2021-9-5-7",
+          "match": {
+            "week": 9,
+            "homeTeamId": 5,
+            "awayTeamId": 7,
+            "homeScore": 144.24,
+            "awayScore": 132.34,
+            "status": "final",
+            "winnerTeamId": 5,
+            "bracket": "regular",
+            "phase": "regular",
+            "roundLabel": null,
+            "isPlayoff": false,
+            "isBye": false
+          },
+          "labels": [
+            "Top Two Scorers"
+          ]
+        }
+      ],
+      "stories": [
+        {
+          "teamId": 1,
+          "kind": "streak",
+          "count": 5
+        },
+        {
+          "teamId": 5,
+          "kind": "streak",
+          "count": 3
+        },
+        {
+          "teamId": 9,
+          "kind": "streak",
+          "count": 6
+        }
+      ]
+    },
+    "10": {
+      "week": 10,
+      "phase": "regular",
+      "topTeam": {
+        "teamId": 6,
+        "points": 140.8,
+        "rank": 1
+      },
+      "leaderboard": [
+        {
+          "teamId": 6,
+          "points": 140.8,
+          "rank": 1
+        },
+        {
+          "teamId": 9,
+          "points": 138.76,
+          "rank": 2
+        },
+        {
+          "teamId": 3,
+          "points": 129.54,
+          "rank": 3
+        },
+        {
+          "teamId": 10,
+          "points": 118.94,
+          "rank": 4
+        },
+        {
+          "teamId": 2,
+          "points": 115.4,
+          "rank": 5
+        },
+        {
+          "teamId": 11,
+          "points": 96.18,
+          "rank": 6
+        },
+        {
+          "teamId": 5,
+          "points": 94.62,
+          "rank": 7
+        },
+        {
+          "teamId": 7,
+          "points": 89.7,
+          "rank": 8
+        },
+        {
+          "teamId": 12,
+          "points": 89.68,
+          "rank": 9
+        },
+        {
+          "teamId": 1,
+          "points": 78.52,
+          "rank": 10
+        }
+      ],
+      "topPlayers": [
+        {
+          "playerId": 3139477,
+          "name": "Patrick Mahomes",
+          "slot": "QB",
+          "nflTeam": "KC",
+          "position": "QB",
+          "points": 36.24,
+          "nflOpponent": "LV",
+          "teamId": 10,
+          "bench": false
+        },
+        {
+          "playerId": 3126486,
+          "name": "Deebo Samuel",
+          "slot": "WR",
+          "nflTeam": "SF",
+          "position": "WR",
+          "points": 30.3,
+          "nflOpponent": "LAR",
+          "teamId": 9,
+          "bench": false
+        },
+        {
+          "playerId": 2976212,
+          "name": "Stefon Diggs",
+          "slot": "WR",
+          "nflTeam": "BUF",
+          "position": "WR",
+          "points": 30.2,
+          "nflOpponent": "NYJ",
+          "teamId": 10,
+          "bench": false
+        },
+        {
+          "playerId": 3115375,
+          "name": "Darrel Williams",
+          "slot": "FLEX",
+          "nflTeam": "KC",
+          "position": "RB",
+          "points": 29.4,
+          "nflOpponent": "LV",
+          "teamId": 6,
+          "bench": false
+        },
+        {
+          "playerId": 4241389,
+          "name": "CeeDee Lamb",
+          "slot": "BE",
+          "nflTeam": "DAL",
+          "position": "WR",
+          "points": 28.6,
+          "nflOpponent": "ATL",
+          "teamId": 9,
+          "bench": true
+        }
+      ],
+      "awards": [
+        {
+          "id": "2021-10-10-11",
+          "match": {
+            "week": 10,
+            "homeTeamId": 11,
+            "awayTeamId": 10,
+            "homeScore": 96.18,
+            "awayScore": 118.94,
+            "status": "final",
+            "winnerTeamId": 10,
+            "bracket": "regular",
+            "phase": "regular",
+            "roundLabel": null,
+            "isPlayoff": false,
+            "isBye": false
+          },
+          "labels": [
+            "Closest Matchup"
+          ]
+        }
+      ],
+      "stories": [
+        {
+          "teamId": 9,
+          "kind": "streak",
+          "count": 7
+        }
+      ]
+    },
+    "11": {
+      "week": 11,
+      "phase": "regular",
+      "topTeam": {
+        "teamId": 9,
+        "points": 172.34,
+        "rank": 1
+      },
+      "leaderboard": [
+        {
+          "teamId": 9,
+          "points": 172.34,
+          "rank": 1
+        },
+        {
+          "teamId": 2,
+          "points": 134.22,
+          "rank": 2
+        },
+        {
+          "teamId": 6,
+          "points": 116.58,
+          "rank": 3
+        },
+        {
+          "teamId": 10,
+          "points": 112.3,
+          "rank": 4
+        },
+        {
+          "teamId": 3,
+          "points": 108.16,
+          "rank": 5
+        },
+        {
+          "teamId": 5,
+          "points": 104.5,
+          "rank": 6
+        },
+        {
+          "teamId": 11,
+          "points": 101.98,
+          "rank": 7
+        },
+        {
+          "teamId": 12,
+          "points": 100.32,
+          "rank": 8
+        },
+        {
+          "teamId": 1,
+          "points": 87.88,
+          "rank": 9
+        },
+        {
+          "teamId": 7,
+          "points": 75.98,
+          "rank": 10
+        }
+      ],
+      "topPlayers": [
+        {
+          "playerId": 4242335,
+          "name": "Jonathan Taylor",
+          "slot": "RB",
+          "nflTeam": "IND",
+          "position": "RB",
+          "points": 53.4,
+          "nflOpponent": "BUF",
+          "teamId": 9,
+          "bench": false
+        },
+        {
+          "playerId": 3068267,
+          "name": "Austin Ekeler",
+          "slot": "RB",
+          "nflTeam": "LAC",
+          "position": "RB",
+          "points": 41.5,
+          "nflOpponent": "PIT",
+          "teamId": 1,
+          "bench": false
+        },
+        {
+          "playerId": 4262921,
+          "name": "Justin Jefferson",
+          "slot": "WR",
+          "nflTeam": "MIN",
+          "position": "WR",
+          "points": 37.2,
+          "nflOpponent": "GB",
+          "teamId": 3,
+          "bench": false
+        },
+        {
+          "playerId": 4038941,
+          "name": "Justin Herbert",
+          "slot": "QB",
+          "nflTeam": "LAC",
+          "position": "QB",
+          "points": 34.28,
+          "nflOpponent": "PIT",
+          "teamId": 7,
+          "bench": false
+        },
+        {
+          "playerId": 8439,
+          "name": "Aaron Rodgers",
+          "slot": "BE",
+          "nflTeam": "GB",
+          "position": "QB",
+          "points": 33.5,
+          "nflOpponent": "MIN",
+          "teamId": 9,
+          "bench": true
+        }
+      ],
+      "awards": [
+        {
+          "id": "2021-11-5-12",
+          "match": {
+            "week": 11,
+            "homeTeamId": 5,
+            "awayTeamId": 12,
+            "homeScore": 104.5,
+            "awayScore": 100.32,
+            "status": "final",
+            "winnerTeamId": 5,
+            "bracket": "regular",
+            "phase": "regular",
+            "roundLabel": null,
+            "isPlayoff": false,
+            "isBye": false
+          },
+          "labels": [
+            "Closest Matchup"
+          ]
+        }
+      ],
+      "stories": [
+        {
+          "teamId": 2,
+          "kind": "streak",
+          "count": 3
+        },
+        {
+          "teamId": 9,
+          "kind": "streak",
+          "count": 8
+        }
+      ]
+    },
+    "12": {
+      "week": 12,
+      "phase": "regular",
+      "topTeam": {
+        "teamId": 6,
+        "points": 168.44,
+        "rank": 1
+      },
+      "leaderboard": [
+        {
+          "teamId": 6,
+          "points": 168.44,
+          "rank": 1
+        },
+        {
+          "teamId": 5,
+          "points": 128.4,
+          "rank": 2
+        },
+        {
+          "teamId": 3,
+          "points": 127.26,
+          "rank": 3
+        },
+        {
+          "teamId": 9,
+          "points": 118.68,
+          "rank": 4
+        },
+        {
+          "teamId": 1,
+          "points": 108.08,
+          "rank": 5
+        },
+        {
+          "teamId": 12,
+          "points": 93.92,
+          "rank": 6
+        },
+        {
+          "teamId": 11,
+          "points": 92.16,
+          "rank": 7
+        },
+        {
+          "teamId": 7,
+          "points": 89.42,
+          "rank": 8
+        },
+        {
+          "teamId": 10,
+          "points": 88.02,
+          "rank": 9
+        },
+        {
+          "teamId": 2,
+          "points": 70.48,
+          "rank": 10
+        }
+      ],
+      "topPlayers": [
+        {
+          "playerId": 3115364,
+          "name": "Leonard Fournette",
+          "slot": "RB",
+          "nflTeam": "TB",
+          "position": "RB",
+          "points": 44.1,
+          "nflOpponent": "IND",
+          "teamId": 6,
+          "bench": false
+        },
+        {
+          "playerId": 3116385,
+          "name": "Joe Mixon",
+          "slot": "RB",
+          "nflTeam": "CIN",
+          "position": "RB",
+          "points": 32.3,
+          "nflOpponent": "PIT",
+          "teamId": 5,
+          "bench": false
+        },
+        {
+          "playerId": 4372016,
+          "name": "Jaylen Waddle",
+          "slot": "WR",
+          "nflTeam": "MIA",
+          "position": "WR",
+          "points": 28.7,
+          "nflOpponent": "CAR",
+          "teamId": 3,
+          "bench": false
+        },
+        {
+          "playerId": 4241555,
+          "name": "Elijah Mitchell",
+          "slot": "RB",
+          "nflTeam": "SF",
+          "position": "RB",
+          "points": 27.8,
+          "nflOpponent": "MIN",
+          "teamId": 7,
+          "bench": false
+        },
+        {
+          "playerId": 15807,
+          "name": "Cordarrelle Patterson",
+          "slot": "FLEX",
+          "nflTeam": "ATL",
+          "position": "RB",
+          "points": 27.5,
+          "nflOpponent": "JAX",
+          "teamId": 5,
+          "bench": false
+        }
+      ],
+      "awards": [
+        {
+          "id": "2021-12-3-5",
+          "match": {
+            "week": 12,
+            "homeTeamId": 3,
+            "awayTeamId": 5,
+            "homeScore": 127.26,
+            "awayScore": 128.4,
+            "status": "final",
+            "winnerTeamId": 5,
+            "bracket": "regular",
+            "phase": "regular",
+            "roundLabel": null,
+            "isPlayoff": false,
+            "isBye": false
+          },
+          "labels": [
+            "Closest Matchup"
+          ]
+        }
+      ],
+      "stories": [
+        {
+          "teamId": 6,
+          "kind": "streak",
+          "count": 3
+        },
+        {
+          "teamId": 9,
+          "kind": "streak",
+          "count": 9
+        }
+      ]
+    },
+    "13": {
+      "week": 13,
+      "phase": "regular",
+      "topTeam": {
+        "teamId": 1,
+        "points": 151.3,
+        "rank": 1
+      },
+      "leaderboard": [
+        {
+          "teamId": 1,
+          "points": 151.3,
+          "rank": 1
+        },
+        {
+          "teamId": 2,
+          "points": 138.36,
+          "rank": 2
+        },
+        {
+          "teamId": 6,
+          "points": 136.82,
+          "rank": 3
+        },
+        {
+          "teamId": 3,
+          "points": 123.8,
+          "rank": 4
+        },
+        {
+          "teamId": 7,
+          "points": 117.68,
+          "rank": 5
+        },
+        {
+          "teamId": 9,
+          "points": 114.5,
+          "rank": 6
+        },
+        {
+          "teamId": 12,
+          "points": 109.32,
+          "rank": 7
+        },
+        {
+          "teamId": 5,
+          "points": 108.02,
+          "rank": 8
+        },
+        {
+          "teamId": 11,
+          "points": 88.8,
+          "rank": 9
+        },
+        {
+          "teamId": 10,
+          "points": 78.76,
+          "rank": 10
+        }
+      ],
+      "topPlayers": [
+        {
+          "playerId": 3040151,
+          "name": "George Kittle",
+          "slot": "TE",
+          "nflTeam": "SF",
+          "position": "TE",
+          "points": 39.6,
+          "nflOpponent": "SEA",
+          "teamId": 1,
+          "bench": false
+        },
+        {
+          "playerId": 4262921,
+          "name": "Justin Jefferson",
+          "slot": "WR",
+          "nflTeam": "MIN",
+          "position": "WR",
+          "points": 35.6,
+          "nflOpponent": "DET",
+          "teamId": 3,
+          "bench": false
+        },
+        {
+          "playerId": 3917315,
+          "name": "Kyler Murray",
+          "slot": "QB",
+          "nflTeam": "ARI",
+          "position": "QB",
+          "points": 30.82,
+          "nflOpponent": "CHI",
+          "teamId": 12,
+          "bench": false
+        },
+        {
+          "playerId": 3932905,
+          "name": "Diontae Johnson",
+          "slot": "WR",
+          "nflTeam": "PIT",
+          "position": "WR",
+          "points": 30.5,
+          "nflOpponent": "BAL",
+          "teamId": 11,
+          "bench": false
+        },
+        {
+          "playerId": 3116165,
+          "name": "Chris Godwin",
+          "slot": "WR",
+          "nflTeam": "TB",
+          "position": "WR",
+          "points": 30.2,
+          "nflOpponent": "ATL",
+          "teamId": 2,
+          "bench": false
+        }
+      ],
+      "awards": [
+        {
+          "id": "2021-13-7-9",
+          "match": {
+            "week": 13,
+            "homeTeamId": 7,
+            "awayTeamId": 9,
+            "homeScore": 117.68,
+            "awayScore": 114.5,
+            "status": "final",
+            "winnerTeamId": 7,
+            "bracket": "regular",
+            "phase": "regular",
+            "roundLabel": null,
+            "isPlayoff": false,
+            "isBye": false
+          },
+          "labels": [
+            "Closest Matchup"
+          ]
+        }
+      ],
+      "stories": [
+        {
+          "teamId": 6,
+          "kind": "streak",
+          "count": 4
+        }
+      ]
+    },
+    "14": {
+      "week": 14,
+      "phase": "regular",
+      "topTeam": {
+        "teamId": 3,
+        "points": 153.82,
+        "rank": 1
+      },
+      "leaderboard": [
+        {
+          "teamId": 3,
+          "points": 153.82,
+          "rank": 1
+        },
+        {
+          "teamId": 1,
+          "points": 148.98,
+          "rank": 2
+        },
+        {
+          "teamId": 6,
+          "points": 145.62,
+          "rank": 3
+        },
+        {
+          "teamId": 2,
+          "points": 136.4,
+          "rank": 4
+        },
+        {
+          "teamId": 12,
+          "points": 131.12,
+          "rank": 5
+        },
+        {
+          "teamId": 10,
+          "points": 104.12,
+          "rank": 6
+        },
+        {
+          "teamId": 7,
+          "points": 103.7,
+          "rank": 7
+        },
+        {
+          "teamId": 11,
+          "points": 97.3,
+          "rank": 8
+        },
+        {
+          "teamId": 5,
+          "points": 93.18,
+          "rank": 9
+        },
+        {
+          "teamId": 9,
+          "points": 78.54,
+          "rank": 10
+        }
+      ],
+      "topPlayers": [
+        {
+          "playerId": 3918298,
+          "name": "Josh Allen",
+          "slot": "QB",
+          "nflTeam": "BUF",
+          "position": "QB",
+          "points": 35.22,
+          "nflOpponent": "TB",
+          "teamId": 3,
+          "bench": false
+        },
+        {
+          "playerId": 3116593,
+          "name": "Dalvin Cook",
+          "slot": "RB",
+          "nflTeam": "MIN",
+          "position": "RB",
+          "points": 35.2,
+          "nflOpponent": "PIT",
+          "teamId": 12,
+          "bench": false
+        },
+        {
+          "playerId": 16800,
+          "name": "Davante Adams",
+          "slot": "WR",
+          "nflTeam": "GB",
+          "position": "WR",
+          "points": 34.1,
+          "nflOpponent": "CHI",
+          "teamId": 5,
+          "bench": false
+        },
+        {
+          "playerId": 3040151,
+          "name": "George Kittle",
+          "slot": "TE",
+          "nflTeam": "SF",
+          "position": "TE",
+          "points": 34.1,
+          "nflOpponent": "CIN",
+          "teamId": 1,
+          "bench": false
+        },
+        {
+          "playerId": 3045147,
+          "name": "James Conner",
+          "slot": "BE",
+          "nflTeam": "ARI",
+          "position": "RB",
+          "points": 33.5,
+          "nflOpponent": "LAR",
+          "teamId": 5,
+          "bench": true
+        }
+      ],
+      "awards": [
+        {
+          "id": "2021-14-1-6",
+          "match": {
+            "week": 14,
+            "homeTeamId": 6,
+            "awayTeamId": 1,
+            "homeScore": 145.62,
+            "awayScore": 148.98,
+            "status": "final",
+            "winnerTeamId": 1,
+            "bracket": "regular",
+            "phase": "regular",
+            "roundLabel": null,
+            "isPlayoff": false,
+            "isBye": false
+          },
+          "labels": [
+            "Closest Matchup"
+          ]
+        }
+      ],
+      "stories": []
+    },
+    "15": {
+      "week": 15,
+      "phase": "playoffs",
+      "topTeam": {
+        "teamId": 9,
+        "points": 147.62,
+        "rank": 1
+      },
+      "leaderboard": [
+        {
+          "teamId": 9,
+          "points": 147.62,
+          "rank": 1
+        },
+        {
+          "teamId": 11,
+          "points": 108.14,
+          "rank": 2
+        },
+        {
+          "teamId": 2,
+          "points": 103.66,
+          "rank": 3
+        },
+        {
+          "teamId": 12,
+          "points": 97.48,
+          "rank": 4
+        },
+        {
+          "teamId": 10,
+          "points": 97.2,
+          "rank": 5
+        },
+        {
+          "teamId": 3,
+          "points": 76.3,
+          "rank": 6
+        },
+        {
+          "teamId": 5,
+          "points": 75.74,
+          "rank": 7
+        },
+        {
+          "teamId": 7,
+          "points": 74.44,
+          "rank": 8
+        }
+      ],
+      "topPlayers": [
+        {
+          "playerId": 15847,
+          "name": "Travis Kelce",
+          "slot": "FLEX",
+          "nflTeam": "KC",
+          "position": "TE",
+          "points": 41.1,
+          "nflOpponent": "LAC",
+          "teamId": 9,
+          "bench": false
+        },
+        {
+          "playerId": 3116365,
+          "name": "Mark Andrews",
+          "slot": "TE",
+          "nflTeam": "BAL",
+          "position": "TE",
+          "points": 35.6,
+          "nflOpponent": "GB",
+          "teamId": 6,
+          "bench": false
+        },
+        {
+          "playerId": 2977187,
+          "name": "Cooper Kupp",
+          "slot": "WR",
+          "nflTeam": "LAR",
+          "position": "WR",
+          "points": 34.7,
+          "nflOpponent": "SEA",
+          "teamId": 2,
+          "bench": false
+        },
+        {
+          "playerId": 3116406,
+          "name": "Tyreek Hill",
+          "slot": "WR",
+          "nflTeam": "KC",
+          "position": "WR",
+          "points": 32.8,
+          "nflOpponent": "LAC",
+          "teamId": 6,
+          "bench": false
+        },
+        {
+          "playerId": 3139477,
+          "name": "Patrick Mahomes",
+          "slot": "QB",
+          "nflTeam": "KC",
+          "position": "QB",
+          "points": 29.6,
+          "nflOpponent": "LAC",
+          "teamId": 10,
+          "bench": false
+        }
+      ],
+      "awards": [
+        {
+          "id": "2021-15-2-5",
+          "match": {
+            "week": 15,
+            "homeTeamId": 2,
+            "awayTeamId": 5,
+            "homeScore": 103.66,
+            "awayScore": 75.74,
+            "status": "final",
+            "winnerTeamId": 2,
+            "bracket": "championship",
+            "phase": "playoffs",
+            "roundLabel": "Playoffs — First Round",
+            "isPlayoff": true,
+            "isBye": false
+          },
+          "labels": [
+            "Closest Matchup"
+          ]
+        }
+      ],
+      "stories": []
+    },
+    "16": {
+      "week": 16,
+      "phase": "playoffs",
+      "topTeam": {
+        "teamId": 5,
+        "points": 151.22,
+        "rank": 1
+      },
+      "leaderboard": [
+        {
+          "teamId": 5,
+          "points": 151.22,
+          "rank": 1
+        },
+        {
+          "teamId": 3,
+          "points": 122.86,
+          "rank": 2
+        },
+        {
+          "teamId": 9,
+          "points": 122.48,
+          "rank": 3
+        },
+        {
+          "teamId": 12,
+          "points": 115.0,
+          "rank": 4
+        },
+        {
+          "teamId": 6,
+          "points": 110.08,
+          "rank": 5
+        },
+        {
+          "teamId": 7,
+          "points": 101.84,
+          "rank": 6
+        },
+        {
+          "teamId": 2,
+          "points": 99.9,
+          "rank": 7
+        },
+        {
+          "teamId": 11,
+          "points": 90.96,
+          "rank": 8
+        },
+        {
+          "teamId": 1,
+          "points": 83.78,
+          "rank": 9
+        },
+        {
+          "teamId": 10,
+          "points": 73.22,
+          "rank": 10
+        }
+      ],
+      "topPlayers": [
+        {
+          "playerId": 4239993,
+          "name": "Tee Higgins",
+          "slot": "WR",
+          "nflTeam": "CIN",
+          "position": "WR",
+          "points": 43.4,
+          "nflOpponent": "BAL",
+          "teamId": 12,
+          "bench": false
+        },
+        {
+          "playerId": 3915511,
+          "name": "Joe Burrow",
+          "slot": "BE",
+          "nflTeam": "CIN",
+          "position": "QB",
+          "points": 38.1,
+          "nflOpponent": "BAL",
+          "teamId": 3,
+          "bench": true
+        },
+        {
+          "playerId": 3116136,
+          "name": "Justin Jackson",
+          "slot": "BE",
+          "nflTeam": "LAC",
+          "position": "RB",
+          "points": 34.2,
+          "nflOpponent": "HOU",
+          "teamId": 6,
+          "bench": true
+        },
+        {
+          "playerId": 16800,
+          "name": "Davante Adams",
+          "slot": "WR",
+          "nflTeam": "GB",
+          "position": "WR",
+          "points": 33.4,
+          "nflOpponent": "CLE",
+          "teamId": 5,
+          "bench": false
+        },
+        {
+          "playerId": 3116385,
+          "name": "Joe Mixon",
+          "slot": "RB",
+          "nflTeam": "CIN",
+          "position": "RB",
+          "points": 31.5,
+          "nflOpponent": "BAL",
+          "teamId": 5,
+          "bench": false
+        }
+      ],
+      "awards": [
+        {
+          "id": "2021-16-6-9",
+          "match": {
+            "week": 16,
+            "homeTeamId": 6,
+            "awayTeamId": 9,
+            "homeScore": 110.08,
+            "awayScore": 122.48,
+            "status": "final",
+            "winnerTeamId": 9,
+            "bracket": "championship",
+            "phase": "playoffs",
+            "roundLabel": "Playoffs — Semifinal",
+            "isPlayoff": true,
+            "isBye": false
+          },
+          "labels": [
+            "Closest Matchup"
+          ]
+        },
+        {
+          "id": "2021-16-3-5",
+          "match": {
+            "week": 16,
+            "homeTeamId": 5,
+            "awayTeamId": 3,
+            "homeScore": 151.22,
+            "awayScore": 122.86,
+            "status": "final",
+            "winnerTeamId": 5,
+            "bracket": "placement",
+            "phase": "playoffs",
+            "roundLabel": "Winners Consolation",
+            "isPlayoff": true,
+            "isBye": false
+          },
+          "labels": [
+            "Top Two Scorers"
+          ]
+        }
+      ],
+      "stories": []
+    },
+    "17": {
+      "week": 17,
+      "phase": "playoffs",
+      "topTeam": {
+        "teamId": 5,
+        "points": 161.9,
+        "rank": 1
+      },
+      "leaderboard": [
+        {
+          "teamId": 5,
+          "points": 161.9,
+          "rank": 1
+        },
+        {
+          "teamId": 10,
+          "points": 146.06,
+          "rank": 2
+        },
+        {
+          "teamId": 2,
+          "points": 141.48,
+          "rank": 3
+        },
+        {
+          "teamId": 7,
+          "points": 126.28,
+          "rank": 4
+        },
+        {
+          "teamId": 6,
+          "points": 126.2,
+          "rank": 5
+        },
+        {
+          "teamId": 9,
+          "points": 121.42,
+          "rank": 6
+        },
+        {
+          "teamId": 12,
+          "points": 107.82,
+          "rank": 7
+        },
+        {
+          "teamId": 3,
+          "points": 105.8,
+          "rank": 8
+        },
+        {
+          "teamId": 11,
+          "points": 80.06,
+          "rank": 9
+        },
+        {
+          "teamId": 1,
+          "points": 56.56,
+          "rank": 10
+        }
+      ],
+      "topPlayers": [
+        {
+          "playerId": 4362628,
+          "name": "Ja'Marr Chase",
+          "slot": "WR",
+          "nflTeam": "CIN",
+          "position": "WR",
+          "points": 55.6,
+          "nflOpponent": "KC",
+          "teamId": 5,
+          "bench": false
+        },
+        {
+          "playerId": 4374302,
+          "name": "Amon-Ra St. Brown",
+          "slot": "BE",
+          "nflTeam": "DET",
+          "position": "WR",
+          "points": 35.4,
+          "nflOpponent": "SEA",
+          "teamId": 3,
+          "bench": true
+        },
+        {
+          "playerId": 3915511,
+          "name": "Joe Burrow",
+          "slot": "BE",
+          "nflTeam": "CIN",
+          "position": "QB",
+          "points": 34.84,
+          "nflOpponent": "KC",
+          "teamId": 3,
+          "bench": true
+        },
+        {
+          "playerId": 3139925,
+          "name": "Rashaad Penny",
+          "slot": "RB",
+          "nflTeam": "SEA",
+          "position": "RB",
+          "points": 32.5,
+          "nflOpponent": "DET",
+          "teamId": 10,
+          "bench": false
+        },
+        {
+          "playerId": 4047650,
+          "name": "DK Metcalf",
+          "slot": "WR",
+          "nflTeam": "SEA",
+          "position": "WR",
+          "points": 30.9,
+          "nflOpponent": "DET",
+          "teamId": 7,
+          "bench": false
+        }
+      ],
+      "awards": [
+        {
+          "id": "2021-17-2-9",
+          "match": {
+            "week": 17,
+            "homeTeamId": 9,
+            "awayTeamId": 2,
+            "homeScore": 121.42,
+            "awayScore": 141.48,
+            "status": "final",
+            "winnerTeamId": 2,
+            "bracket": "championship",
+            "phase": "playoffs",
+            "roundLabel": "Championship",
+            "isPlayoff": true,
+            "isBye": false
+          },
+          "labels": [
+            "Closest Matchup"
+          ]
+        }
+      ],
+      "stories": []
+    }
+  },
+  "previews": {
+    "1": {},
+    "2": {},
+    "3": {},
+    "4": {},
+    "5": {},
+    "6": {},
+    "7": {},
+    "8": {},
+    "9": {},
+    "10": {},
+    "11": {},
+    "12": {},
+    "13": {},
+    "14": {},
+    "15": {},
+    "16": {},
+    "17": {}
+  },
+  "rules": {
+    "topTwo": "Requires unique first and second scores; ambiguous ties omitted.",
+    "rivalry": "Verified managers; actual prior regular and playoff meetings; W–L–T includes ties.",
+    "rankings": "Top Two Showdown requires archived official entering-week ranks; omitted when unavailable."
+  }
+}
