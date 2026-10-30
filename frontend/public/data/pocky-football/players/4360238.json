@@ -22,7 +22,7 @@
       "team": "HOU"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T02:33:56.948805+00:00",
+  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -257,19 +257,7 @@
           "points": null,
           "nflTeam": "PHI",
           "nflOpponent": "WSH",
-          "rosters": [
-            {
-              "team": {
-                "teamId": 5,
-                "name": "The Concep",
-                "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
-              },
-              "slot": "BE",
-              "points": null,
-              "nflTeam": "PHI",
-              "nflOpponent": null
-            }
-          ]
+          "rosters": []
         },
         {
           "gameState": "upcoming",
@@ -401,26 +389,32 @@
           },
           "weeks": [
             6,
-            7,
-            8
+            7
           ],
           "evidence": [
-            "current_roster",
             "transaction",
             "weekly_roster"
           ]
         }
       ],
-      "rosterSnapshot": [
-        {
-          "teamId": 5,
-          "name": "The Concep",
-          "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
-        }
-      ],
+      "rosterSnapshot": [],
       "rosterSnapshotLabel": "Current roster",
       "draft": [],
       "transactions": [
+        {
+          "type": "drop",
+          "timestamp": "2026-10-30T16:12:43.784000+00:00",
+          "timestampKind": "proposed",
+          "week": 8,
+          "fromTeams": [
+            {
+              "teamId": 5,
+              "name": "The Concep",
+              "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
+            }
+          ],
+          "toTeams": []
+        },
         {
           "type": "free_agent_add",
           "timestamp": "2026-10-15T21:46:41.090000+00:00",

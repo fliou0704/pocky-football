@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "season": 2026,
-  "generatedAt": "2026-10-30T02:33:48.485795+00:00",
+  "generatedAt": "2026-10-30T19:03:00.885075+00:00",
   "coverage": {
     "complete": true,
     "status": "independently_verified_counts",
@@ -47,28 +47,28 @@
     "missingPlayerCount": 0,
     "failedCardPlayerCount": 0,
     "unknownPlayerNames": 0,
-    "sourceEventCount": 497,
+    "sourceEventCount": 500,
     "sourceUniqueCounts": {
-      "period": 497,
-      "playercard": 244
+      "period": 500,
+      "playercard": 246
     },
-    "sourceAppearances": 830,
-    "repeatedSourceIdAppearancesMerged": 333,
-    "overlappingSourceIds": 244,
+    "sourceAppearances": 841,
+    "repeatedSourceIdAppearancesMerged": 341,
+    "overlappingSourceIds": 246,
     "playercardOnlyExecutedCounts": {},
     "executedPayloadConflictCount": 0,
     "excludedSourceCounts": {
       "FUTURE_ROSTER:EXECUTED": 31,
-      "ROSTER:EXECUTED": 205,
+      "ROSTER:EXECUTED": 206,
       "TRADE_DECLINE:EXECUTED": 3,
       "TRADE_PROPOSAL:CANCELED": 1,
       "WAIVER:FAILED_INVALIDPLAYERSOURCE": 2,
       "WAIVER:FAILED_PLAYERALREADYDROPPED": 4,
       "WAIVER:PENDING": 7
     },
-    "executedMovementCount": 244,
+    "executedMovementCount": 246,
     "firstTimestamp": "2026-09-08T23:52:26.964000+00:00",
-    "lastTimestamp": "2026-10-28T23:20:52.734000+00:00",
+    "lastTimestamp": "2026-10-30T16:13:42.166000+00:00",
     "usesFaab": false,
     "independentCounters": {
       "available": true,
@@ -120,13 +120,13 @@
         {
           "teamId": 5,
           "source": {
-            "acquisitions": 10,
-            "drops": 9,
+            "acquisitions": 11,
+            "drops": 10,
             "trades": 0
           },
           "observed": {
-            "acquisitions": 10,
-            "drops": 9,
+            "acquisitions": 11,
+            "drops": 10,
             "trades": 0
           },
           "acquisitionPeriodDifferences": []
@@ -226,7 +226,7 @@
     "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published.",
     "communicationFeed": {
       "status": "returned",
-      "topicCount": 84,
+      "topicCount": 86,
       "usedForExecutedMovements": false
     },
     "draft": {
@@ -250,9 +250,9 @@
     "semanticDuplicateGroups": [],
     "issues": [],
     "ownership": {
-      "arrivalsChecked": 229,
-      "departuresChecked": 62,
-      "reAcquisitionsChecked": 19,
+      "arrivalsChecked": 230,
+      "departuresChecked": 63,
+      "reAcquisitionsChecked": 20,
       "anomalies": [],
       "scope": "Executed movement chain including drafts; internal sanity check, not an independent roster reconstruction."
     },
@@ -6120,6 +6120,52 @@
               "name": "Michael Mayer"
             }
           ]
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-2124c6232fdd2eabc968",
+      "season": 2026,
+      "timestamp": "2026-10-30T16:12:43.784000+00:00",
+      "timestampKind": "proposed",
+      "type": "drop",
+      "week": 8,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 5,
+          "playersAdded": [],
+          "playersDropped": [
+            {
+              "playerId": 4360238,
+              "name": "Dameon Pierce"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-f0a58306821ae4f94e75",
+      "season": 2026,
+      "timestamp": "2026-10-30T16:13:42.166000+00:00",
+      "timestampKind": "proposed",
+      "type": "free_agent_add",
+      "week": 8,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 5,
+          "playersAdded": [
+            {
+              "playerId": 15818,
+              "name": "Keenan Allen"
+            }
+          ],
+          "playersDropped": []
         }
       ],
       "faab": null,
