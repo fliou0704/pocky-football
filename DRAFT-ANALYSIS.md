@@ -57,3 +57,103 @@ All 896 completed-season picks now have final rankings. The 160 current 2026 pic
 ## Validation
 
 Run `python -m unittest discover -s tests -v`, `pnpm --dir frontend test`, and `VITE_BASE_PATH=/pocky-football/ pnpm --dir frontend build`. Targeted tests cover original draft order, round ranking/ties/normalization, overall and positional movement including undrafted players, original positional order despite missing scoring, active identity filtering in all Summary sections, historical inactive managers, positive/zero score recovery, genuine missing data, source conflicts, D/ST IDs and provisional seasons. UI tests cover table expansion, draft ordering/rank cells, team logos, removed UI and season selection.
+
+## Gain-based rankings and ongoing NFL seasons (2026 update)
+
+Positional draft-slot gain is actual overall pick minus the original overall
+pick of the Nth selection at that position, where N is performance positional
+rank (including eligible undrafted players), not draft-order positional rank.
+If N exceeds the drafted positional pool, the benchmark is the final overall
+pick of the **entire draft + 1**. Canonical picks mark this with
+`benchmarkStatus: below_drafted_range`; the UI says “Below drafted positional
+range”. Missing/unreliable ranks have no benchmark. Legacy fractional input is
+rejected defensively, but the builder no longer produces fractional ranks.
+
+All Draft performance ranks use competition ranking: 1, 2, 2, 4. Numerical ties
+remain tied; player IDs only determine deterministic display ordering. Round
+Rank, round wins, and value standouts now maximize **raw positional draft-slot
+gain**, replacing both the FPTS-based Round Rank and relative-gain standout.
+Best positional finish remains separate supporting recognition. Manager Average
+Round Rank is still ascending, now averaging gain-based round ranks. Summary
+retains its active-manager filter, current branding, and finalized-season-only
+scope; positional averages now include known out-of-range finishes.
+
+Completed seasons preserve the existing full fantasy-season evaluation window
+(all scheduled league matchup weeks, including playoffs); total fantasy points
+determine positional performance. Ongoing seasons use only fully completed NFL
+regular-season weeks. The normalized schedule must contain the established
+32-team, 272-game, 17-games-per-team regular season; partial schedules, unknown
+statuses and unfinished/rescheduled events cannot establish a completed week.
+No calendar-date completion inference is added. A canceled event is terminal.
+A future NFL schedule-format change would require updating this validation.
+
+Ongoing positional ranking uses exact unrounded total points / verified NFL
+games played, displaying FPPG to two decimals. Participation uses the existing
+`football_player_games.game_state` evidence contract and matched scheduled
+NFL event IDs. Explicit played zeroes count; byes, DNP and canceled games do
+not. Covered absent actual-season records mean nonparticipation; absent source
+coverage, unknown participation, mismatched events and conflicting scores stay
+unavailable. Positive actual NFL stats may establish participation under the
+existing contract. Fantasy starts and elapsed weeks never provide the divisor.
+
+Normal qualification requires at least `ceil(completed NFL weeks / 2)` games
+(and at least one). Independently, the complete available reliable-scoring
+positional pool is competition-ranked by cumulative points, including undrafted
+players. A below-threshold player qualifies when this cumulative positional rank
+is within the number drafted at that position, with at least one verified game
+and valid FPPG. They then enter the **same FPPG** leaderboard. Canonical picks
+track `qualification` (`normal`, `total_points`, `insufficient_games`,
+`missing_participation`, `missing_scoring`, or `final`), `gamesPlayed`, `fppg`,
+and `rankingBasis`. UI exception label: “Qualified by total points”.
+
+Reliable individual picks remain evaluable when another selection is unavailable;
+round comparisons explicitly label partial coverage. Incomplete draft coverage or
+source-level scoring conflicts prevent benchmarks/ranks. Provisional season
+averages remain local to that season and do not enter finalized career Summary.
+Year folders with valid drafts are discovered automatically; there is no latest
+year constant in the Draft builder or selector.
+
+All meaningful data headers are sortable through the shared `draft-sort.jsx`
+controls: Summary overall/positions/tendencies/rookies/historical rounds, season
+Overall Performance, expanded underlying picks, round tables, gains/losses, and
+Full Draft Board. Numeric source fields drive rank sorts (not formatted QB/K
+labels); missing values remain last in either direction, ties use stable IDs,
+and sorting copies rows without changing statistics or expansion state. Native
+buttons support keyboard activation and `aria-sort` communicates direction.
+There are no action-only or decorative columns requiring a sorting exemption.
+Tables retain horizontal overflow within their containers on narrow screens.
+
+Offline checks against committed examples:
+
+| Season / player | Performance rank | Actual pick | Benchmark | Gain |
+|---|---:|---:|---:|---:|
+| 2025 Jaxon Smith-Njigba | WR2 | 30 | 3 | +27 |
+| 2025 Josh Allen | QB1 | 26 | 25 | +1 |
+| 2025 Trey McBride | TE1 | 28 | 21 | +7 |
+| 2024 Christian McCaffrey | RB67 | 1 | 161 | -160 |
+| 2026 Jared Goff (provisional) | QB2 | 141 | 49 | +92 |
+| 2026 Breece Hall (provisional exception) | RB17 | 38 | 31 | +7 |
+
+Goff: 18.02 + 28.94 + 20.48 + 19.36 + 29.78 + 16.44 = 133.02 / 6 =
+22.17 FPPG; his bye is excluded. Hall: 8.5 + 14.2 + 19.8 = 42.5 / 3 =
+14.1667 FPPG; four explicitly unplayed games are excluded. The snapshot confirms
+seven NFL weeks, so the normal minimum is four. The total-points exception admits
+Hall. The generated 2026 snapshot evaluates 146/160 picks; 14 have insufficient
+participation. These are unavailable evaluations, not fabricated low rankings.
+
+The existing refresh already rebuilds Draft after normalized scoring and
+player-games refresh, then validates/persists the whole generation. No workflow,
+frequency, logo archive, rollback guard, source snapshots, or ESPN export behavior
+changed. Offline regeneration updates derived generation hashes via
+`update_derived_metadata` without claiming a fresh ESPN fetch. Older methodology
+sections/reports describe earlier releases; this section supersedes their
+midrank, out-of-range exclusion, final-only season and relative-gain rules.
+
+Release validation: 171 Python tests, 38 Node tests, and 68 React tests pass;
+production build and release JSON validation pass. jsdom concurrency is capped
+at two workers because unrestricted workers caused real-data render tests to
+compete for CPU and exceed the existing five-second timeout; assertion checks
+and timeouts are unchanged. Browser checks covered Summary and inline sorting,
+2025 Round 3 gain order, 2024 McCaffrey fallback, 2023 Tucker/Elliott tied K2,
+2026 provisional rounds and Hall's exception, keyboard sorting, and 390px/320px
+layouts without page-level horizontal overflow.

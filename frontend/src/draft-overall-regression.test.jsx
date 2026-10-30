@@ -24,16 +24,16 @@ for (const missing of [true, false]) {
       expect(rows.length).toBe(season.teams.length);
       expect(rows.length).toBeGreaterThan(0);
       const ranks = rows.map(row => within(row).getAllByRole('cell')[1].textContent);
-      if (year !== '2026') {
-        expect(ranks.every(rank => rank !== '—')).toBe(true);
+      if (season.picks.some(p=>p.roundRank != null)) {
+        expect(ranks.some(rank => rank !== '—')).toBe(true);
         expect(ranks.map(Number)).toEqual(ranks.map(Number).sort((a,b)=>a-b));
       } else expect(ranks.every(rank => rank === '—')).toBe(true);
-      const button = within(table).getAllByRole('button')[0];
+      const button = within(table).getAllByRole('button', {name: /historical draft picks/})[0];
       const manager = button.getAttribute('aria-label').replace(': historical draft picks','');
       const expected = season.picks.filter(p=>p.manager === manager);
       expect(expected.length).toBeGreaterThan(0);
-      if (year !== '2026') {
-        const mean = expected.reduce((sum,p)=>sum+p.roundRank,0)/expected.length;
+      if (season.picks.some(p=>p.roundRank != null)) {
+        const mean = expected.filter(p=>p.roundRank != null).reduce((sum,p)=>sum+p.roundRank,0)/expected.filter(p=>p.roundRank != null).length;
         expect(Number(ranks[0])).toBeCloseTo(mean,0);
       }
       fireEvent.click(button);

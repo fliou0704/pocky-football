@@ -18,14 +18,74 @@ def avg(values):
     return round(mean(values), 3) if values else None
 
 
-def midranks(rows, key):
-    """Average ranks for ties, keyed by player ID; stable and order independent."""
-    result = {}
+def competition_ranks(rows, key):
+    """Standard competition ranks; player ID orders display, never breaks ties."""
     ordered = sorted(rows, key=lambda p: (-p[key], p['playerId']))
-    for i, p in enumerate(ordered):
-        ties = [j + 1 for j, other in enumerate(ordered) if other[key] == p[key]]
-        result[p['playerId']] = mean(ties)
+    result = {}; previous = None; rank = 0
+    for index, player in enumerate(ordered, 1):
+        if previous is None or player[key] != previous:
+            rank = index
+        result[player['playerId']] = rank
+        previous = player[key]
     return result
+
+
+# Retain the import contract for downstream callers; semantics are competition ranks.
+midranks = competition_ranks
+
+
+def completed_nfl_weeks(games):
+    schedule = games.get('games', [])
+    # A partial schedule cannot establish that all NFL games in a week ended.
+    teams = {t for g in schedule for t in (g.get('home'), g.get('away'))} - {None}
+    if (len(teams) != 32 or len({g.get('id') for g in schedule}) != 272
+            or any(sum(team in (g.get('home'), g.get('away')) for g in schedule) != 17 for team in teams)):
+        return []
+    weeks = sorted({g['week'] for g in schedule if 1 <= g['week'] <= 18})
+    return [w for w in weeks if all((g.get('complete') is True or g.get('canceled') is True)
+                                  and not g.get('completionUnknown')
+                                  for g in schedule if g['week'] == w)]
+
+
+def participation(player, weeks, games):
+    """Verified NFL appearances, including played zeroes; never fantasy starts."""
+    pid = str(player['playerId']); records = games.get('players', {}).get(pid, {})
+    covered = (pid in games.get('coverage', {}).get('playersWithActualSeasonRecords', [])
+               and set(weeks) <= set(games.get('weeks', [])))
+    teams = {int(w): r.get('nflTeam') for w, r in records.items() if r.get('nflTeam')}
+    teams.update({int(w): t for w, t in player.get('nflTeamsByWeek', {}).items() if t not in (None, 'FA', '—')})
+    played = 0
+    for week in weeks:
+        record = records.get(str(week)); scheduled = [g for g in games.get('games', []) if g['week'] == week]
+        nearest = min(teams, key=lambda w: (abs(w-week), w > week)) if teams else None
+        team = teams.get(nearest)
+        events = [g for g in scheduled if team in (g.get('home'), g.get('away'))] if team else []
+        if len(events) > 1:
+            return None
+        if events and events[0].get('canceled'):
+            continue
+        if record:
+            if record.get('played') is True and not any(str(record.get('eventId')) == str(g.get('id')) for g in scheduled):
+                return None
+            if events and str(record.get('eventId')) != str(events[0].get('id')):
+                return None
+            if record.get('played') is False and any(number(value) and value != 0 for value in
+                    (record.get('points'), player.get('pointsByWeek', {}).get(str(week)))):
+                return None
+            if events:
+                from football_player_games import game_state
+                state = game_state(week, record, team, games['games'], True,
+                                   defense=int(pid) < 0, source_covered=covered)
+                if state == 'played':
+                    played += 1
+                elif state not in ('bye', 'did_not_play'):
+                    return None
+            elif record.get('played') is not False:
+                return None
+        elif not covered:
+            return None
+        # Covered absent actual records explicitly mean no production/participation.
+    return played
 
 
 def identity_lookup(config):
@@ -192,26 +252,27 @@ def tendencies(rows):
     return result
 
 
-def positional_benchmark(actual_pick, final_rank, draft_picks):
-    """Fractional midranks have no Nth selection: never interpolate capital."""
-    if final_rank is None:
+def positional_benchmark(actual_pick, final_rank, draft_picks, final_draft_pick=None):
+    if not number(final_rank) or final_rank < 1:
         return None, 'missing_rank'
     if final_rank != int(final_rank):
         return None, 'fractional_tie'
-    if not 1 <= int(final_rank) <= len(draft_picks):
-        return None, 'beyond_drafted_position'
-    reference = draft_picks[int(final_rank) - 1]
-    return actual_pick - reference, 'available'
+    if final_rank > len(draft_picks):
+        if final_draft_pick is None:
+            return None, 'beyond_drafted_position'
+        return actual_pick - (final_draft_pick + 1), 'below_drafted_range'
+    return actual_pick - draft_picks[int(final_rank) - 1], 'available'
 
 
 def apply_benchmarks(picks, valid=True):
+    last = max((p['overallPick'] for p in picks), default=0)
     for pos in POSITIONS:
         cohort = [p for p in picks if p['position'] == pos]
-        order = [p['overallPick'] for p in cohort]
+        order = sorted(p['overallPick'] for p in cohort)
         for p in cohort:
-            gain, status = positional_benchmark(p['overallPick'], p['positionalRank'], order)
+            gain, status = positional_benchmark(p['overallPick'], p['positionalRank'], order, last)
             p['draftPositionGain'] = gain if valid else None
-            p['benchmarkStatus'] = status if valid else 'provisional'
+            p['benchmarkStatus'] = status if valid else 'unreliable_dataset'
             p['benchmarkPick'] = p['overallPick'] - gain if gain is not None and valid else None
 
 
@@ -221,7 +282,11 @@ def analyze_season(year, league, teams, draft, scoring, games, metadata, identit
     complete = bool(league['league']['complete'])
     conflicts = scoring.get('coverage', {}).get('conflicts') or scoring.get('coverage', {}).get('lineupComparison', {}).get('scoreConflicts')
     valid = complete and draft.get('coverage', {}).get('complete', False) and not conflicts and set(used_weeks) <= set(scoring.get('weeks', []))
-    selected_weeks = used_weeks if complete else final_weeks
+    nfl_weeks = completed_nfl_weeks(games)
+    selected_weeks = used_weeks if complete else nfl_weeks
+    dataset_valid = draft.get('coverage', {}).get('complete', False) and not conflicts
+    minimum_games = math.ceil(len(nfl_weeks) / 2)
+    drafted_counts = {pos: sum(p.get('position') == pos for p in draft['picks']) for pos in POSITIONS}
     source_map = {int(p['playerId']): p for p in scoring.get('players', [])}
     # Include game-record-only zero scorers and drafted IDs; metadata supplies identity,
     # never a fabricated score. Negative D/ST IDs remain signed ESPN identifiers.
@@ -234,9 +299,19 @@ def analyze_season(year, league, teams, draft, scoring, games, metadata, identit
         detail = scoring_details(player, selected_weeks, games)
         details[pid] = detail
         if detail['points'] is not None and pos in POSITIONS:
-            pool.append({**player, 'points': detail['points']})
-    overall = midranks(pool, 'points')
-    positional = {pos: midranks([p for p in pool if p['position'] == pos], 'points') for pos in POSITIONS}
+            gp = participation(player, selected_weeks, games)
+            pool.append({**player, 'points': detail['points'], 'gamesPlayed': gp,
+                         'fppg': detail['points'] / gp if gp else None})
+    total_ranks = {pos: competition_ranks([p for p in pool if p['position'] == pos], 'points') for pos in POSITIONS}
+    for player in pool:
+        normal = player['gamesPlayed'] is not None and player['gamesPlayed'] >= max(1, minimum_games)
+        exception = player['fppg'] is not None and total_ranks[player['position']].get(player['playerId'], math.inf) <= drafted_counts[player['position']]
+        player['qualification'] = 'final' if complete else 'normal' if normal else 'total_points' if exception else 'insufficient_games' if player['gamesPlayed'] is not None else 'missing_participation'
+    eligible = [p for p in pool if complete or p['qualification'] in ('normal', 'total_points')]
+    metric = 'points' if complete else 'fppg'
+    overall = competition_ranks(eligible, metric)
+    positional = {pos: competition_ranks([p for p in eligible if p['position'] == pos], metric) for pos in POSITIONS}
+    rank_valid = valid if complete else dataset_valid and bool(nfl_weeks)
     player_map = {p['playerId']: p for p in pool}
     team_map = {t['teamId']: t for t in league['standings']}
     n = len(team_map)
@@ -249,7 +324,10 @@ def analyze_season(year, league, teams, draft, scoring, games, metadata, identit
                       'playerName': original.get('playerName') or source.get('name') or meta.get('name') or str(pid),
                       'position': pos, 'nflTeam': source.get('nflTeam'), 'headshot': meta.get('headshot'),
                       'rookie': rookie_status(meta, year), 'points': details[pid]['points'],
-                      'overallRank': overall.get(pid) if valid else None, 'positionalRank': positional.get(pos, {}).get(pid) if valid else None,
+                      'overallRank': overall.get(pid) if rank_valid else None, 'positionalRank': positional.get(pos, {}).get(pid) if rank_valid else None,
+                      'gamesPlayed': player.get('gamesPlayed'), 'fppg': player.get('fppg'),
+                      'qualification': player.get('qualification', 'missing_scoring'), 'rankingBasis': metric,
+                      'cumulativePositionalRank': total_ranks.get(pos, {}).get(pid),
                       'teamCount': n, 'draftCapital': len(draft['picks']) + 1 - original['overallPick'],
                       'pointsSurplus': None, 'draftPositionGain': None, 'benchmarkPick': None, 'benchmarkStatus': 'provisional',
                       'positionalMovement': None, 'overallMovement': None, 'draftPositionRank': None,
@@ -265,21 +343,20 @@ def analyze_season(year, league, teams, draft, scoring, games, metadata, identit
             pick['draftPositionRank'] = i + 1
             if pick['positionalRank'] is not None:
                 pick['positionalMovement'] = i + 1 - pick['positionalRank']
-    if valid:
+    apply_benchmarks(picks, rank_valid)
+    if rank_valid:
         for pick in picks:
             if pick['overallRank'] is not None:
                 pick['overallMovement'] = pick['overallPick'] - pick['overallRank']
         for rnd in sorted({p['round'] for p in picks}):
-            cohort = [p for p in picks if p['round'] == rnd]
-            # Every selection needs known points for a defensible round comparison.
-            if any(p['points'] is None for p in cohort):
-                continue
-            ranks = midranks(cohort, 'points'); best = max(p['points'] for p in cohort)
+            cohort = [p for p in picks if p['round'] == rnd and p['draftPositionGain'] is not None]
+            ranks = competition_ranks(cohort, 'draftPositionGain')
+            best = max((p['draftPositionGain'] for p in cohort), default=None)
             for p in cohort:
-                p.update(roundRank=ranks[p['playerId']],
-                         roundWinner=p['points'] == best)
-    apply_benchmarks(picks, valid)
+                p.update(roundRank=ranks[p['playerId']], roundWinner=p['draftPositionGain'] == best)
     return {'season': year, 'complete': complete, 'performanceEligible': bool(valid), 'weeks': used_weeks, 'completedWeeks': final_weeks,
+            'completedNflWeeks': nfl_weeks, 'minimumGames': minimum_games, 'rankingBasis': metric,
+            'analysisAvailable': bool(rank_valid),
             'teamCount': n, 'draftCoverage': draft.get('coverage'), 'picks': picks, 'teams': round_aggregates(picks),
             'risers': sorted([p for p in picks if p['draftPositionGain'] is not None and p['draftPositionGain'] > 0], key=lambda p: (-p['draftPositionGain'], p['overallPick'])),
             'fallers': sorted([p for p in picks if p['draftPositionGain'] is not None and p['draftPositionGain'] < 0], key=lambda p: (p['draftPositionGain'], p['overallPick'])),
@@ -368,7 +445,7 @@ def build_draft_analysis(output='frontend/public/data', slug='pocky-football', y
     read = lambda path: json.loads(path.read_text()) if path.exists() else {}
     identities = identity_lookup(read(ROOT / 'draft-manager-identities.json'))
     metadata = {p['espnId']: p for p in read(root/'players.json').get('players', [])}
-    years = sorted(years or [int(p.name) for p in root.iterdir() if p.name.isdigit()])
+    years = sorted(years or [int(p.name) for p in root.iterdir() if p.name.isdigit() and read(p/'draft.json').get('picks')])
     seasons = {str(y): analyze_season(y, read(root/f'{y}/league.json'), read(root/f'{y}/teams.json'), read(root/f'{y}/draft.json'),
                                     read(root/f'{y}/player-scoring.json'), read(root/f'{y}/player-games.json'), metadata, identities) for y in years}
     latest = max(years)
@@ -390,7 +467,7 @@ def build_draft_analysis(output='frontend/public/data', slug='pocky-football', y
     for season in seasons.values():
         season['overallPerformance'] = summary_aggregate(season['picks'], {})
         for round_ in season['rounds']:
-            round_['standouts'] = round_standouts(round_['picks'], season['performanceEligible'])
+            round_['standouts'] = round_standouts(round_['picks'], season['analysisAvailable'])
     audit = build_audit(seasons, root, metadata)
     data = {'schemaVersion': 1, 'years': list(reversed(years)), 'seasons': seasons, 'summary': summary, 'audit': audit}
     from football_exporter import write_json

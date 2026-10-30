@@ -59,3 +59,7 @@
 .draft-round-standout { display:flex; flex-wrap:wrap; align-items:center; gap:12px 24px; padding:13px; border-left:3px solid var(--brand); background:#edf6ef; border-radius:6px; }
 .draft-round-standout>p { margin:0; font-size:.85rem; }
 .draft-round-standout .team { min-width:0; }
+.draft-sort { background:none; border:0; padding:0; color:inherit; font:inherit; font-weight:700; text-align:left; cursor:pointer; }
+.draft-sort:focus-visible { outline:2px solid var(--brand); outline-offset:4px; }
+.draft-sort span { white-space:nowrap; }
+@media(max-width:600px) { .draft-page .draft-summary-table .team { min-width:0; } .draft-page .draft-summary-table .team-name { white-space:normal; } }

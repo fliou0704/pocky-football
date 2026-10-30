@@ -38,7 +38,7 @@ it('keeps picks in original round and overall order and expands the whole round'
   const round = await screen.findByRole('table', { name: 'Round 1', exact: true });
   let rows = within(round).getAllByRole('row');
   expect(rows.slice(1).map(r => within(r).getAllByRole('cell')[1].textContent)).toEqual(['1', '2', '3']);
-  expect(within(rows[1]).getAllByRole('cell')[0].textContent).toBe('2.0');
+  expect(within(rows[1]).getAllByRole('cell')[0].textContent).toBe('2');
   const section = round.closest('section');
   fireEvent.click(within(section).getByRole('button', { name: 'Show all 4' }));
   expect(within(round).getAllByRole('row')).toHaveLength(5);
@@ -97,7 +97,7 @@ for (const year of ['Summary', '2021', '2022', '2023', '2024', '2025', '2026']) 
       expect(screen.getByRole('heading', { name: year === 'Summary' ? 'Overall Round Performance' : 'Overall Performance' })).toBeTruthy();
       let evidence;
       const managerTable = screen.getByRole('table', { name: year === 'Summary' ? 'Overall Round Performance' : 'Overall Performance' });
-      fireEvent.click(within(managerTable).getAllByRole('button')[0]);
+      fireEvent.click(within(managerTable).getAllByRole('button', {name: /historical draft picks/})[0]);
       evidence = within(managerTable).getByRole('table');
       expect(within(evidence).getAllByRole('row').length).toBeGreaterThan(1);
       expect(evidence.querySelector('.draft-player')).toBeTruthy();
