@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import { Team } from './Match.jsx';
 import PlayerPortrait from './PlayerPortrait.jsx';
 import { playerHash } from './player-view.js';
 
-export default function TeamOfWeek({ season, week, matches = [], completedWeek = false, path, loadData, embedded = false }) {
+export default function TeamOfWeek({ season, week, matches = [], completedWeek = false, path, loadData, embedded = false, teams = new Map() }) {
   const [loaded, setLoaded] = useState(null);
   useEffect(() => {
     let active = true;
@@ -31,6 +32,7 @@ export default function TeamOfWeek({ season, week, matches = [], completedWeek =
       <div className="totw-identity">
         {player.hasProfile ? <a href={playerHash(player.playerId, season)}>{player.name}</a> : <strong>{player.name}</strong>}
         <span>{player.nflTeam || '—'} · {player.position}</span>
+        <span className="totw-owner">{player.teamId != null && teams.has(player.teamId) ? <Team team={teams.get(player.teamId)} link season={season}/> : player.teamId === null ? 'Free Agent' : 'Unknown'}</span>
       </div>
       <strong className="totw-points" aria-label={`${player.points.toFixed(2)} fantasy points`}>{player.points.toFixed(2)}<small>FPTS</small></strong>
     </li>)}</ol> : <p className="totw-unavailable" role="status">{!loaded ? 'Loading Team of the Week…' : 'Team of the Week is unavailable for this completed week. Reliable scoring coverage is needed.'}</p>}

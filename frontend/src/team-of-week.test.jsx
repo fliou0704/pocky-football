@@ -52,7 +52,7 @@ it('switches week and season without showing a previous lineup', async()=>{
  expect(screen.queryByText(derived.weeks['2'].totalPoints.toFixed(2))).toBeNull();
  expect(screen.getByText('Loading Team of the Week…')).toBeTruthy();
 });
-it('places the latest completed lineup at the bottom of the real Home recap', async()=>{
+it('places the latest completed lineup first in the real Home recap', async()=>{
  const json=path=>JSON.parse(readFileSync(`${process.cwd()}/public/data/${path}`));
  vi.stubGlobal('fetch',vi.fn(async url=>({ok:true,json:async()=>json(String(url).split('data/')[1])})));
  window.location.hash='#/';
@@ -63,6 +63,6 @@ it('places the latest completed lineup at the bottom of the real Home recap', as
  await waitFor(()=>expect(section.querySelectorAll('li')).toHaveLength(9));
  const recap=section.parentElement;
  expect(within(recap).getByRole('heading',{name:'Weekly Recap'})).toBeTruthy();
- expect(section).toBe(recap.lastElementChild);
- expect(within(recap).getByRole('heading',{name:'Top Performances'})).toBeTruthy();
+ expect(section).toBe(recap.children[1]);
+ expect(within(recap).getByRole('heading',{name:'Top Performers'})).toBeTruthy();
 });
