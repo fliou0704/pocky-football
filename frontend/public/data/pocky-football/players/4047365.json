@@ -22,7 +22,7 @@
       "team": "LV"
     }
   },
-  "metadataGeneratedAt": "2026-10-29T20:41:07.307020+00:00",
+  "metadataGeneratedAt": "2026-10-30T02:33:56.948805+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -116,7 +116,7 @@
               "team": {
                 "teamId": 2,
                 "name": "Juwan's Team",
-                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+                "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
               },
               "slot": "BE",
               "points": 0.0,
@@ -159,7 +159,7 @@
               "team": {
                 "teamId": 2,
                 "name": "Juwan's Team",
-                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+                "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
               },
               "slot": "BE",
               "points": 0.0,
@@ -202,7 +202,7 @@
               "team": {
                 "teamId": 2,
                 "name": "Juwan's Team",
-                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+                "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
               },
               "slot": "BE",
               "points": 0.0,
@@ -245,7 +245,7 @@
               "team": {
                 "teamId": 2,
                 "name": "Juwan's Team",
-                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+                "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
               },
               "slot": "BE",
               "points": 0.0,
@@ -288,7 +288,7 @@
               "team": {
                 "teamId": 2,
                 "name": "Juwan's Team",
-                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+                "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
               },
               "slot": "BE",
               "points": 0.0,
@@ -331,7 +331,7 @@
               "team": {
                 "teamId": 2,
                 "name": "Juwan's Team",
-                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+                "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
               },
               "slot": "BE",
               "points": 0.0,
@@ -374,7 +374,7 @@
               "team": {
                 "teamId": 2,
                 "name": "Juwan's Team",
-                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+                "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
               },
               "slot": "BE",
               "points": 20.1,
@@ -384,13 +384,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 15.0,
+            "rushYards": 33.0,
+            "rushTD": 1.0,
+            "receptions": 5.0,
+            "recYards": 8.0,
+            "recTD": 1.0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "upcoming",
+          "fantasyStatus": "live",
           "status": "upcoming",
-          "points": null,
+          "points": 21.1,
           "nflTeam": "GB",
           "nflOpponent": "CAR",
           "rosters": [
@@ -398,12 +417,12 @@
               "team": {
                 "teamId": 2,
                 "name": "Juwan's Team",
-                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+                "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
               },
               "slot": "BE",
-              "points": null,
+              "points": 21.1,
               "nflTeam": "GB",
-              "nflOpponent": null
+              "nflOpponent": "CAR"
             }
           ]
         },
@@ -533,7 +552,7 @@
           "team": {
             "teamId": 2,
             "name": "Juwan's Team",
-            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+            "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
           },
           "weeks": [
             1,
@@ -556,7 +575,7 @@
         {
           "teamId": 2,
           "name": "Juwan's Team",
-          "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+          "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
         }
       ],
       "rosterSnapshotLabel": "Current roster",
@@ -566,7 +585,7 @@
           "team": {
             "teamId": 2,
             "name": "Juwan's Team",
-            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-07.svg"
+            "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
           },
           "round": 9,
           "pickInRound": 5,

@@ -22,7 +22,7 @@
       "team": "GB"
     }
   },
-  "metadataGeneratedAt": "2026-10-29T20:41:07.307020+00:00",
+  "metadataGeneratedAt": "2026-10-30T02:33:56.948805+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -106,7 +106,7 @@
               "team": {
                 "teamId": 5,
                 "name": "The Concep",
-                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+                "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
               },
               "slot": "BE",
               "points": 32.7,
@@ -149,7 +149,7 @@
               "team": {
                 "teamId": 5,
                 "name": "The Concep",
-                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+                "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
               },
               "slot": "BE",
               "points": 14.1,
@@ -192,7 +192,7 @@
               "team": {
                 "teamId": 5,
                 "name": "The Concep",
-                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+                "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
               },
               "slot": "FLEX",
               "points": 22.6,
@@ -235,7 +235,7 @@
               "team": {
                 "teamId": 5,
                 "name": "The Concep",
-                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+                "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
               },
               "slot": "WR",
               "points": 7.7,
@@ -278,7 +278,7 @@
               "team": {
                 "teamId": 5,
                 "name": "The Concep",
-                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+                "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
               },
               "slot": "WR",
               "points": 32.3,
@@ -321,7 +321,7 @@
               "team": {
                 "teamId": 5,
                 "name": "The Concep",
-                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+                "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
               },
               "slot": "WR",
               "points": 9.4,
@@ -364,7 +364,7 @@
               "team": {
                 "teamId": 5,
                 "name": "The Concep",
-                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+                "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
               },
               "slot": "WR",
               "points": 10.7,
@@ -374,13 +374,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 6.0,
+            "recYards": 100.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "upcoming",
+          "fantasyStatus": "live",
           "status": "upcoming",
-          "points": null,
+          "points": 14.0,
           "nflTeam": "GB",
           "nflOpponent": "CAR",
           "rosters": [
@@ -388,12 +407,12 @@
               "team": {
                 "teamId": 5,
                 "name": "The Concep",
-                "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+                "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
               },
               "slot": "WR",
-              "points": null,
+              "points": 14.0,
               "nflTeam": "GB",
-              "nflOpponent": null
+              "nflOpponent": "CAR"
             }
           ]
         },
@@ -523,7 +542,7 @@
           "team": {
             "teamId": 5,
             "name": "The Concep",
-            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+            "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
           },
           "weeks": [
             1,
@@ -546,7 +565,7 @@
         {
           "teamId": 5,
           "name": "The Concep",
-          "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+          "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
         }
       ],
       "rosterSnapshotLabel": "Current roster",
@@ -556,7 +575,7 @@
           "team": {
             "teamId": 5,
             "name": "The Concep",
-            "logo": "https://g.espncdn.com/lm-static/logo-packs/core/SimpleShields/shields-7.svg"
+            "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
           },
           "round": 9,
           "pickInRound": 4,

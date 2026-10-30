@@ -22,7 +22,7 @@
       "team": "GB"
     }
   },
-  "metadataGeneratedAt": "2026-10-29T20:41:07.307020+00:00",
+  "metadataGeneratedAt": "2026-10-30T02:33:56.948805+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -106,7 +106,7 @@
               "team": {
                 "teamId": 15,
                 "name": "Gibb me dak",
-                "logo": null
+                "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
               },
               "slot": "BE",
               "points": 5.0,
@@ -149,7 +149,7 @@
               "team": {
                 "teamId": 15,
                 "name": "Gibb me dak",
-                "logo": null
+                "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
               },
               "slot": "BE",
               "points": 1.4,
@@ -192,7 +192,7 @@
               "team": {
                 "teamId": 15,
                 "name": "Gibb me dak",
-                "logo": null
+                "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
               },
               "slot": "BE",
               "points": 0.0,
@@ -235,7 +235,7 @@
               "team": {
                 "teamId": 15,
                 "name": "Gibb me dak",
-                "logo": null
+                "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
               },
               "slot": "BE",
               "points": 0.0,
@@ -278,7 +278,7 @@
               "team": {
                 "teamId": 15,
                 "name": "Gibb me dak",
-                "logo": null
+                "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
               },
               "slot": "BE",
               "points": 0.0,
@@ -321,7 +321,7 @@
               "team": {
                 "teamId": 15,
                 "name": "Gibb me dak",
-                "logo": null
+                "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
               },
               "slot": "BE",
               "points": 0.0,
@@ -363,12 +363,31 @@
         },
         {
           "gameState": "upcoming",
-          "nflStats": {},
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "upcoming",
+          "fantasyStatus": "live",
           "status": "upcoming",
-          "points": null,
+          "points": 0.0,
           "nflTeam": "GB",
           "nflOpponent": "CAR",
           "rosters": []
@@ -499,7 +518,7 @@
           "team": {
             "teamId": 15,
             "name": "Gibb me dak",
-            "logo": null
+            "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
           },
           "weeks": [
             1,
@@ -524,7 +543,7 @@
           "team": {
             "teamId": 15,
             "name": "Gibb me dak",
-            "logo": null
+            "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
           },
           "round": 13,
           "pickInRound": 2,
@@ -542,7 +561,7 @@
             {
               "teamId": 15,
               "name": "Gibb me dak",
-              "logo": null
+              "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
             }
           ],
           "toTeams": []

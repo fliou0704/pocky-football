@@ -22,7 +22,7 @@
       "team": "CAR"
     }
   },
-  "metadataGeneratedAt": "2026-10-29T20:41:07.307020+00:00",
+  "metadataGeneratedAt": "2026-10-30T02:33:56.948805+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -142,7 +142,7 @@
               "team": {
                 "teamId": 6,
                 "name": "LOVE MEEEE",
-                "logo": null
+                "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
               },
               "slot": "BE",
               "points": 24.08,
@@ -185,7 +185,7 @@
               "team": {
                 "teamId": 6,
                 "name": "LOVE MEEEE",
-                "logo": null
+                "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
               },
               "slot": "QB",
               "points": 13.64,
@@ -228,7 +228,7 @@
               "team": {
                 "teamId": 6,
                 "name": "LOVE MEEEE",
-                "logo": null
+                "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
               },
               "slot": "QB",
               "points": 21.46,
@@ -252,7 +252,7 @@
               "team": {
                 "teamId": 6,
                 "name": "LOVE MEEEE",
-                "logo": null
+                "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
               },
               "slot": "BE",
               "points": null,
@@ -295,7 +295,7 @@
               "team": {
                 "teamId": 6,
                 "name": "LOVE MEEEE",
-                "logo": null
+                "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
               },
               "slot": "QB",
               "points": 19.84,
@@ -338,7 +338,7 @@
               "team": {
                 "teamId": 6,
                 "name": "LOVE MEEEE",
-                "logo": null
+                "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
               },
               "slot": "QB",
               "points": 5.42,
@@ -348,13 +348,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 25.0,
+            "passYards": 104.0,
+            "passTD": 0,
+            "interceptions": 1.0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "upcoming",
+          "fantasyStatus": "live",
           "status": "upcoming",
-          "points": null,
+          "points": 2.16,
           "nflTeam": "CAR",
           "nflOpponent": "GB",
           "rosters": [
@@ -362,12 +381,12 @@
               "team": {
                 "teamId": 6,
                 "name": "LOVE MEEEE",
-                "logo": null
+                "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
               },
               "slot": "QB",
-              "points": null,
+              "points": 2.16,
               "nflTeam": "CAR",
-              "nflOpponent": null
+              "nflOpponent": "GB"
             }
           ]
         },
@@ -497,7 +516,7 @@
           "team": {
             "teamId": 6,
             "name": "LOVE MEEEE",
-            "logo": null
+            "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
           },
           "weeks": [
             2,
@@ -519,7 +538,7 @@
         {
           "teamId": 6,
           "name": "LOVE MEEEE",
-          "logo": null
+          "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
         }
       ],
       "rosterSnapshotLabel": "Current roster",
@@ -535,7 +554,7 @@
             {
               "teamId": 6,
               "name": "LOVE MEEEE",
-              "logo": null
+              "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
             }
           ]
         }
