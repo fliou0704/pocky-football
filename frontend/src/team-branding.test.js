@@ -35,7 +35,7 @@ test('unknown IDs, missing periods and logo-only periods use default green', () 
 });
 test('missing images leave initials as final fallback', () => {
   assert.deepEqual(resolve({ ...team, logo: null }, 2023, config).logoCandidates, []);
-  assert.equal(resolve({ ...team, logo: null }, 2023, config).initials, 'C');
+  assert.equal(resolve({ ...team, logo: null }, 2023, config).initials, 'CT');
 });
 test('rejects overlapping ranges, malformed IDs, colors and unsafe image paths', () => {
   for (const period of [{ startSeason: 2024, endSeason: 2023 }, { startSeason: 2024, primaryColor: 'red' }, { startSeason: 2024, logoOverride: '../secret.png' }]) assert.throws(() => validateBranding({ teams: { 11: [period] } }));

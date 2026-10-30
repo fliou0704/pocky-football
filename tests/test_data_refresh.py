@@ -260,6 +260,17 @@ class PersistenceTests(unittest.TestCase):
         self.assertNotEqual(pipeline.git('rev-parse', 'HEAD', cwd=self.clone),
                             pipeline.git('rev-parse', 'origin/main', cwd=self.clone))
 
+    def test_logo_assets_are_persisted_with_narrow_filename_rules(self):
+        import hashlib
+        content=b'<svg xmlns="http://www.w3.org/2000/svg"/>'
+        relative='frontend/public/data/pocky-football/team-logos/'+hashlib.sha256(content).hexdigest()+'.svg'
+        path=self.clone/relative;path.parent.mkdir(parents=True);path.write_bytes(content)
+        sha=pipeline.persist(self.clone)
+        self.assertIn(relative,pipeline.git('ls-tree','-r','--name-only',sha,cwd=self.clone))
+        (path.parent/'unrelated.bin').write_bytes(b'not allowed')
+        with self.assertRaisesRegex(ValueError,'unrelated staged files'):
+            pipeline.persist(self.clone)
+
     def test_concurrent_main_advance_rejects_stale_checkout(self):
         # A newer code/data commit advances main while an older run is working.
         other = self.root/'other'

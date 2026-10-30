@@ -1,11 +1,14 @@
 import React, { createContext, useContext, useState } from 'react';
 import { assetUrl } from './asset-url.js';
 import { resolveTeamBranding } from './team-branding.js';
+import logoCatalog from '../public/data/pocky-football/team-logos.json' with { type: 'json' };
 
 export const BrandingSeason = createContext('All-Time');
-export function Team({ team, link = false, season }) {
+export const TeamLogoCatalog = createContext(logoCatalog);
+export function Team({ team, link = false, season, logoSeason }) {
   const contextSeason = useContext(BrandingSeason);
-  const branding = team ? resolveTeamBranding(team, season ?? contextSeason) : null;
+  const catalog = useContext(TeamLogoCatalog);
+  const branding = team ? resolveTeamBranding(team, season ?? contextSeason, undefined, catalog, logoSeason ?? team.season ?? season ?? contextSeason) : null;
   const candidates = branding?.logoCandidates || [];
   const signature = candidates.join('|');
   const [failure, setFailure] = useState({ signature: '', count: 0 });
@@ -13,7 +16,7 @@ export function Team({ team, link = false, season }) {
   if (!team) return <span className="team-name">Bye</span>;
   const logo = assetUrl(candidates[failedCount], import.meta.env.BASE_URL);
   const content = <>
-    {logo ? <img src={logo} width="36" height="36" alt="" loading="lazy" onError={() => setFailure({ signature, count: failedCount + 1 })}/> : <span className="team-logo-fallback" aria-hidden="true">{team.name.slice(0, 1)}</span>}
+    {logo ? <img src={logo} width="36" height="36" alt="" loading="lazy" data-logo-provenance={branding.logoSources[candidates[failedCount]]} onError={() => setFailure({ signature, count: failedCount + 1 })}/> : <span className="team-logo-fallback" data-logo-provenance="generated-badge" aria-hidden="true">{branding.initials}</span>}
     <span className="team-name">{team.name}</span>
   </>;
   return link ? <a className="team team-link" href={`#/teams/${season}/${team.teamId}`}>{content}</a> : <span className="team">{content}</span>;
