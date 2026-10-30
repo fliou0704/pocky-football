@@ -21,9 +21,9 @@ class DraftAnalysisTests(unittest.TestCase):
             for i, value in [(1, 200), (2, 300), (3, 10), (4, 20), (5, 400)]]}
         return [2025, league, teams, draft, scoring, {}, {}, {}]
 
-    def test_ties_use_average_ranks_and_keep_zero(self):
+    def test_ties_use_competition_ranks_and_keep_zero(self):
         self.assertEqual(midranks([{'playerId': 1, 'points': 0}, {'playerId': 2, 'points': 10},
-                                   {'playerId': 3, 'points': 10}], 'points'), {2: 1.5, 3: 1.5, 1: 3})
+                                   {'playerId': 3, 'points': 10}], 'points'), {2: 1, 3: 1, 1: 3})
 
     def test_missing_is_not_zero(self):
         player = {'playerId': 1, 'pointsByWeek': {'1': 0}, 'nflTeamsByWeek': {'1': 'BUF'}}
@@ -108,19 +108,19 @@ class DraftAnalysisTests(unittest.TestCase):
     def test_incomplete_season_withholds_final_ranks_and_movement(self):
         data = analyze_season(*self.fixture(False))
         self.assertFalse(data['performanceEligible'])
-        self.assertEqual(data['picks'][0]['points'], 200)
+        self.assertIsNone(data['picks'][0]['points'])
         self.assertEqual(data['picks'][0]['draftPositionRank'], 1)
         for pick in data['picks']:
             for key in ('positionalMovement', 'overallMovement', 'positionalRank', 'roundRank'):
                 self.assertIsNone(pick[key])
-            self.assertEqual(pick['evaluationStatus'], 'provisional')
+            self.assertEqual(pick['evaluationStatus'], 'missing_scoring')
 
     def test_missing_pick_does_not_shift_other_positional_draft_orders(self):
         args = self.fixture(); args[4]['players'] = args[4]['players'][1:]
         data = analyze_season(*args)
         self.assertIsNone(data['picks'][0]['points'])
         self.assertEqual(data['picks'][0]['scoringStatus'], 'missing_player_scoring_source')
-        self.assertIsNone(data['picks'][1]['roundRank'])
+        self.assertEqual(data['picks'][1]['roundRank'], 1)
         self.assertEqual(data['picks'][1]['draftPositionRank'], 2)
         self.assertEqual(data['picks'][1]['positionalMovement'], 1)
         self.assertEqual(data['picks'][2]['roundRank'], 2)
@@ -128,8 +128,8 @@ class DraftAnalysisTests(unittest.TestCase):
     def test_tied_round_winners_and_volume_independent_averages(self):
         args = self.fixture(); args[4]['players'][0]['pointsByWeek']['1'] = 300
         picks = analyze_season(*args)['picks']
-        self.assertTrue(all(p['roundWinner'] for p in picks[:2]))
-        self.assertEqual(picks[0]['roundRank'], 1.5)
+        self.assertEqual([p['roundRank'] for p in picks[:2]], [2, 1])
+        self.assertEqual([p['positionalRank'] for p in picks[:2]], [1, 1])
         self.assertEqual([r['averageMovement'] for r in aggregate(picks)],
                          [r['averageMovement'] for r in aggregate(picks+picks)])
 

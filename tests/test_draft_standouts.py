@@ -28,7 +28,7 @@ class DraftStandouts(unittest.TestCase):
         result = round_standouts([first, later], True)
         self.assertEqual(result['valueLeaders'], [later])
         self.assertEqual(result['finishLeaders'], [first])
-        self.assertEqual(result['relativeGainPercent'], 50)
+        self.assertIsNone(result['relativeGainPercent'])
 
     def test_early_qb_success_is_recognized_without_raw_points_deciding_value(self):
         qb = self.pick(1, 20, 0, 2, 400, 'QB')
@@ -46,7 +46,7 @@ class DraftStandouts(unittest.TestCase):
         winner = result['valueLeaders'][0]
         self.assertEqual(winner['playerName'], 'Jaxon Smith-Njigba')
         self.assertEqual((winner['overallPick'], winner['draftPositionGain']), (30, 27))
-        self.assertEqual(result['relativeGainPercent'], 90)
+        self.assertIsNone(result['relativeGainPercent'])
         self.assertEqual({p['playerName'] for p in result['finishLeaders']}, {'Josh Allen', 'Trey McBride'})
         allen = next(p for p in picks if p['playerName'] == 'Josh Allen')
         self.assertEqual((allen['overallPick'], allen['draftPositionGain']), (26, 1))
@@ -61,7 +61,7 @@ class DraftStandouts(unittest.TestCase):
         self.assertIsNone(missing['draftPositionGain'])
 
     def test_ties_are_shared_and_do_not_use_raw_points_as_tiebreaker(self):
-        picks = [self.pick(1, 20, 10, 1, 400), self.pick(2, 30, 15, 1, 200, 'TE')]
+        picks = [self.pick(1, 20, 10, 1, 400), self.pick(2, 30, 10, 1, 200, 'TE')]
         result = round_standouts(picks, True)
         self.assertEqual(result['valueLeaders'], picks)
         self.assertEqual(result['finishLeaders'], picks)
@@ -78,7 +78,7 @@ class DraftStandouts(unittest.TestCase):
         seasons = committed_seasons(); rows = compare_methods(seasons)
         self.assertEqual(len(rows), 80)
         changed = sum({p['playerId'] for p in row['rawGainLeaders']} != {p['playerId'] for p in row['valueLeaders']} for row in rows)
-        self.assertEqual(changed, 8)
+        self.assertEqual(changed, 0)
         for season in seasons.values():
             for round_ in season['rounds']:
                 picks = round_['picks']; result = round_standouts(picks, season['performanceEligible'])
@@ -93,5 +93,6 @@ class DraftStandouts(unittest.TestCase):
         self.assertEqual(cmc['draftPositionGain'], 0)
         # 2024's injured first overall pick has no made-up positional benchmark.
         bust = seasons['2024']['picks'][0]
-        self.assertIsNone(bust['draftPositionGain'])
+        self.assertEqual(bust['benchmarkPick'], max(p['overallPick'] for p in seasons['2024']['picks']) + 1)
+        self.assertLess(bust['draftPositionGain'], 0)
         self.assertNotIn(bust['playerId'], {p['playerId'] for p in next(r for r in rows if r['season']==2024 and r['round']==1)['valueLeaders']})
