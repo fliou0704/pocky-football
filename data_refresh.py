@@ -14,6 +14,7 @@ import shutil
 import subprocess
 import tempfile
 import time
+from contextlib import contextmanager
 
 from football_exporter import ROOT, PUBLIC_DATA, read_config, write_json
 
@@ -143,7 +144,7 @@ def validate(root, baseline=None, require_metadata=False):
         get(f'{SLUG}/h2h/{a}-{b}.json')
     if baseline is not None:
         previous = snapshots(baseline)
-        require(set(previous) <= set(data), 'Previously published JSON disappeared')
+        require(set(previous)-{f'{SLUG}/live.json'} <= set(data), 'Previously published JSON disappeared')
         require({p['espnId'] for p in previous[f'{SLUG}/players-index.json']['players']} <=
                 {p['espnId'] for p in get(f'{SLUG}/players-index.json')['players']}, 'Player index entries disappeared')
         for name, old in previous.items():
@@ -174,10 +175,16 @@ def validate(root, baseline=None, require_metadata=False):
         require({e['id'] for e in previous[f'{SLUG}/{year}/activity.json']['events']} <=
                 {e['id'] for e in activity['events']}, 'Activity events disappeared')
     meta_path = root / SLUG / META
+    from football_live import validate_live
+    validate_live(root, SLUG, read(meta_path) if meta_path.exists() else None)
     if meta_path.exists():
         meta = read(meta_path)
         require(meta['dataHashes'] == hashes(root), 'Persisted generation hashes do not match data')
         require(meta.get('assetHashes', {}) == asset_hashes(root), 'Persisted logo asset hashes do not match files')
+        if meta.get('mode') == 'live':
+            full_hashes = {k:v for k,v in meta['dataHashes'].items() if k != f'{SLUG}/live.json'}
+            require(hashlib.sha256(json.dumps(full_hashes, sort_keys=True).encode()).hexdigest() == meta['baseGenerationId'],
+                    'Live release changed its full base generation')
     elif require_metadata:
         raise ValueError('Missing persisted refresh metadata')
     return home
@@ -195,14 +202,46 @@ def update_derived_metadata(root, builder='team-of-week-v2'):
         write_json(path, meta)
 
 
-def refresh(output=PUBLIC_DATA, generator=None):
+@contextmanager
+def refresh_lock(output):
+    import fcntl
+    key = hashlib.sha256(str(Path(output).resolve()).encode()).hexdigest()[:20]
+    with open(Path(tempfile.gettempdir())/('pocky-refresh-'+key+'.lock'), 'a') as lock:
+        try:
+            fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except BlockingIOError:
+            raise ReleaseError('Another refresh owns this data directory') from None
+        try:
+            yield
+        finally:
+            fcntl.flock(lock, fcntl.LOCK_UN)
+
+
+def refresh(output=PUBLIC_DATA, generator=None, mode='full'):
+    started = time.perf_counter()
+    with refresh_lock(output):
+        try:
+            return _refresh(output, generator, mode)
+        finally:
+            print(f'Refresh total (collection, JSON, staging, validation): {time.perf_counter()-started:.3f}s', flush=True)
+
+
+def _refresh(output=PUBLIC_DATA, generator=None, mode='full'):
+    if mode == 'live':
+        return _refresh_live(Path(output))
     from football_exporter import generate
+    from football_http import instrument
     output = Path(output)
     with tempfile.TemporaryDirectory() as tmp:
         candidate = Path(tmp) / 'data'
         shutil.copytree(output, candidate)
+        with instrument(mode) as metrics:
+            if mode == 'full':
+                (candidate / SLUG / 'live.json').unlink(missing_ok=True)
+                (generator or generate)(SLUG, output=candidate, current_only=True)
+            else:
+                raise ValueError('Unknown refresh mode')
         (candidate / SLUG / META).unlink(missing_ok=True)
-        (generator or generate)(SLUG, output=candidate, current_only=True)
         home = validate(candidate, baseline=output)
         changed = semantic(snapshots(candidate)) != semantic(snapshots(output))
         print(f'ESPN fetched=true; validation=passed; sportsChanged={str(changed).lower()}')
@@ -218,10 +257,51 @@ def refresh(output=PUBLIC_DATA, generator=None):
             'producedChanges': changed, 'sourceRevision': git('rev-parse', 'HEAD'),
             'runId': os.environ.get('GITHUB_RUN_ID'), 'dataHashes': hashes(candidate),
             'assetHashes': asset_hashes(candidate),
+            'mode': mode,
         })
         validate(candidate, baseline=output, require_metadata=True)
         # No candidate file reaches the working tree before the whole release validates.
+        if not (candidate/SLUG/'live.json').exists():
+            (output/SLUG/'live.json').unlink(missing_ok=True)
         shutil.copytree(candidate, output, dirs_exist_ok=True)
+        return True
+
+
+def _refresh_live(output):
+    """Validate the persisted base once; prove all base bytes unchanged after collection."""
+    from football_http import instrument
+    from football_live import collect, validate_live
+    home = validate(output, require_metadata=True)
+    prior = read(output/SLUG/META)
+    def base_bytes(root):
+        return {str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest()
+                for p in root.rglob('*') if p.is_file() and str(p.relative_to(root)) not in (f'{SLUG}/live.json',f'{SLUG}/{META}')}
+    before = base_bytes(output)
+    with tempfile.TemporaryDirectory() as tmp:
+        candidate = Path(tmp)/'data'
+        shutil.copytree(output, candidate)
+        with instrument('live') as metrics:
+            changed = collect(candidate, SLUG, metrics=metrics)
+        require(before == base_bytes(candidate), 'Live refresh changed full-snapshot data')
+        if not changed:
+            print('ESPN fetched=true; validation=passed; sportsChanged=false; no publishable changes')
+            return False
+        path = candidate/SLUG/'live.json'
+        overlay = read(path)
+        data_hashes = dict(prior['dataHashes'])
+        data_hashes[f'{SLUG}/live.json'] = hashlib.sha256(json.dumps(overlay,sort_keys=True,ensure_ascii=False,separators=(',',':'),allow_nan=False).encode()).hexdigest()
+        meta = {'schemaVersion':1, 'mode':'live','baseGenerationId':overlay['baseGenerationId'],
+                'lastSuccessfulEspnFetchAt':overlay['fetchedAt'], 'season':home['season'],
+                'latestMatchupPeriod':home['state']['currentWeek'], 'lastCompletedWeek':home['state']['lastCompletedWeek'],
+                'generationId':hashlib.sha256(json.dumps(data_hashes,sort_keys=True).encode()).hexdigest(),
+                'producedChanges':True,'sourceRevision':git('rev-parse','HEAD'),'runId':os.environ.get('GITHUB_RUN_ID'),
+                'dataHashes':data_hashes,'assetHashes':prior.get('assetHashes',{}),
+                'liveContentHash':hashlib.sha256(path.read_bytes()).hexdigest()}
+        validate_live(candidate, SLUG, meta)
+        require(before == base_bytes(output), 'Base changed while live refresh was staged')
+        write_json(output/SLUG/'live.json', overlay)
+        write_json(output/SLUG/META, meta)
+        print('ESPN fetched=true; validation=passed; sportsChanged=true; changed data files=2')
         return True
 
 
@@ -271,8 +351,11 @@ def public_check(root=PUBLIC_DATA, exact=False, attempts=1):
             if exact:
                 require(remote['generationId'] == local['generationId'], 'Public generation mismatch')
                 # Prove source data reached Pages too, rather than trusting metadata alone.
-                for name in ('site.json', f"{SLUG}/{local['season']}/home.json", f"{SLUG}/{local['season']}/teams.json",
-                             f"{SLUG}/{local['season']}/team-of-week.json"):
+                names = ['site.json', f"{SLUG}/{local['season']}/home.json", f"{SLUG}/{local['season']}/teams.json",
+                         f"{SLUG}/{local['season']}/team-of-week.json"]
+                if local.get('mode') == 'live':
+                    names.append(f'{SLUG}/live.json')
+                for name in names:
                     r = requests.get(base+name, params={'generation': local['generationId'], 'attempt': attempt},
                                      headers={'Cache-Control': 'no-cache'}, timeout=30)
                     r.raise_for_status()
@@ -298,11 +381,45 @@ def public_check(root=PUBLIC_DATA, exact=False, attempts=1):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('command', choices=('refresh', 'validate', 'persist', 'guard', 'verify'))
+    parser.add_argument('command', choices=('refresh', 'validate', 'persist', 'guard', 'verify', 'plan', 'complete'))
+    parser.add_argument('--mode', choices=('full', 'live'), default='full')
+    parser.add_argument('--dry-run', action='store_true')
+    parser.add_argument('--reconcile-on-period-change', action='store_true')
+    parser.add_argument('--state', type=Path, default=ROOT/'.cache/live-schedule/state.json')
     args = parser.parse_args()
     try:
         if args.command == 'refresh':
-            refresh()
+            if args.dry_run:
+                with tempfile.TemporaryDirectory() as tmp:
+                    target = Path(tmp)/'data'
+                    shutil.copytree(PUBLIC_DATA, target)
+                    changed = refresh(target, mode=args.mode)
+                print('Dry run: no working-tree data promoted or published')
+            else:
+                from football_live import ReconciliationRequired
+                try:
+                    changed = refresh(mode=args.mode)
+                except ReconciliationRequired:
+                    if not args.reconcile_on_period_change or args.mode != 'live':
+                        raise
+                    print('Period transition: running one full reconciliation')
+                    args.mode = 'full'
+                    changed = refresh(mode='full')
+            if os.environ.get('GITHUB_OUTPUT'):
+                with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+                    output.write(f'changed={str(changed).lower()}\nmode={args.mode}\n')
+        elif args.command == 'plan':
+            from football_schedule import plan
+            from football_http import instrument
+            with instrument('schedule') as metrics:
+                result = plan(args.state, os.environ.get('LIVE_REFRESH_ENABLED', 'false').lower() == 'true', args.dry_run, metrics=metrics)
+            print('Schedule decision: '+json.dumps(result, sort_keys=True))
+            if os.environ.get('GITHUB_OUTPUT'):
+                with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+                    output.write(f"due={str(result['due']).lower()}\nmode={result['mode']}\n")
+        elif args.command == 'complete':
+            from football_schedule import complete
+            complete(args.state, args.mode)
         elif args.command == 'validate':
             validate(PUBLIC_DATA)
             print('JSON validation=passed')
