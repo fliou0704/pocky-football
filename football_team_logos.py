@@ -166,8 +166,12 @@ def synchronize(root, slug, observations, cookies=None, recheck=False, downloade
             failed_recently = (previous.get('lastFailureUrl') == source and previous.get('lastFailureAt')
                                and now - datetime.fromisoformat(previous['lastFailureAt']) < timedelta(days=1))
             if failed_recently and not recheck:
+                from football_http import cache_hit
+                cache_hit('logo-negative-cache')
                 failure = previous.get('observedSourceStatus','unavailable')
             elif cached and fresh and not recheck:
+                from football_http import cache_hit
+                cache_hit('logo-archive')
                 found = cached
             else:
                 try:

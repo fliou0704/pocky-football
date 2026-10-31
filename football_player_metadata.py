@@ -196,7 +196,10 @@ def generate(folder, cache, refresh=False, use_sleeper=False, check_images=False
         sf=cached_source(cache,'sleeper.json',SLEEPER,refresh);sleeper=list(json.loads(sf.read_text()).values());source_paths['sleeper']=sf
     checks=json.loads((cache/'headshots.json').read_text()) if (cache/'headshots.json').exists() and not recheck_images else {}
     def image_check(candidate):
-        if candidate in checks:return checks[candidate]
+        if candidate in checks:
+            from football_http import cache_hit
+            cache_hit('headshot-verification')
+            return checks[candidate]
         try:
             with requests.get(candidate,stream=True,timeout=8) as r:
                 status='valid' if r.status_code==200 and r.headers.get('content-type','').lower().startswith('image/') and url(r.url) else 'invalid' if r.status_code in (404,410) else 'unverified'
