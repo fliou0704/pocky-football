@@ -11,7 +11,7 @@ from contextlib import redirect_stdout
 import requests
 import data_refresh as pipeline
 import football_live as live
-from football_http import instrument, get_json
+from football_http import instrument, get_json, cache_hit
 
 
 def source(league_id, season=2026, week=2):
@@ -142,15 +142,19 @@ class HttpTests(unittest.TestCase):
         with patch.object(requests.Session,'send',return_value=response), redirect_stdout(output):
             with instrument('test') as metrics:
                 requests.get('https://lm-api-reads.fantasy.espn.com/a?view=mScoreboard&token=PRIVATE',cookies={'espn_s2':'SECRET'})
+                requests.get('https://lm-api-reads.fantasy.espn.com/a?view=PRIVATE')
+                cache_hit('fixture')
             result=metrics.summary()
-        self.assertEqual(result['totalRequests'],1)
+        self.assertEqual(result['totalRequests'],2)
+        self.assertEqual(result['localCacheHits'],{'fixture':1})
         row=result['categories']['fantasy:mScoreboard']
         self.assertEqual((row['decodedBytes'],row['cacheHits']),(2,1))
         self.assertNotIn('SECRET',output.getvalue()); self.assertNotIn('PRIVATE',output.getvalue())
 
     def test_bounded_retries_no_auth_or_rate_limit_retries(self):
-        with patch('requests.get',side_effect=requests.Timeout()), patch('football_http.time.sleep'):
+        with patch('requests.get',side_effect=requests.Timeout()) as get, patch('football_http.time.sleep'):
             with self.assertRaises(ValueError): get_json('https://site.api.espn.com/a')
+            self.assertEqual(get.call_count,2)
         for status in (401,403,429):
             with patch('requests.get',return_value=Mock(status_code=status)) as get:
                 with self.assertRaises(ValueError): get_json('https://site.api.espn.com/a')
@@ -167,6 +171,21 @@ class HttpTests(unittest.TestCase):
                 requests.get('https://site.api.espn.com/scoreboard')
         row=metrics.summary()['categories']['nfl:scoreboard']
         self.assertEqual((row['requests'],row['failed'],row['retries'],row['conditional']),(3,1,1,1))
+
+    def test_redirect_body_counted_once_and_each_hop_observed(self):
+        def send(session,request,**kwargs):
+            if request.url.endswith('/origin'):
+                hop=requests.Response();hop.status_code=302;hop.request=request;hop._content=b'';hop._content_consumed=True
+                result=session.send(requests.Request('GET','https://example.com/final').prepare(),**kwargs)
+                result.history=[hop]
+                return result
+            result=requests.Response();result.status_code=200;result.request=request;result._content=b'{}';result._content_consumed=True
+            return result
+        with patch.object(requests.Session,'send',send),redirect_stdout(io.StringIO()):
+            with instrument('redirect') as metrics:requests.get('https://example.com/origin')
+        result=metrics.summary()
+        self.assertEqual(result['totalRequests'],2)
+        self.assertEqual(result['categories']['other']['decodedBytes'],2)
 
 
 if __name__ == '__main__': unittest.main()

@@ -90,5 +90,17 @@ class ScheduleTests(unittest.TestCase):
         state={'finalSeenAt':{'1':(NOW-timedelta(hours=2)).isoformat()},'lastFullAt':(NOW-timedelta(hours=1)).isoformat()}
         d,_=decide([final],state,NOW);self.assertFalse(d['due'])
 
+    def test_holiday_and_saturday_windows_are_timestamp_driven(self):
+        for kickoff in [instant('2026-11-26T17:30:00Z'),instant('2026-12-19T21:30:00Z')]:
+            d,_=decide([event(kickoff)],now=kickoff-timedelta(minutes=45));self.assertTrue(d['due'])
+
+    def test_long_observed_game_gets_real_postgame_window_and_old_cold_final_does_not(self):
+        delayed=event(NOW-timedelta(hours=14),'in','STATUS_DELAYED')
+        _,state=decide([delayed],now=NOW)
+        final={**delayed,'completed':True,'state':'post','name':'STATUS_FINAL'}
+        d,_=decide([final],state,NOW+timedelta(minutes=10));self.assertEqual(d['mode'],'live')
+        d,state=decide([final],now=NOW);self.assertEqual(d['mode'],'full')
+        d,_=decide([final],state,NOW+timedelta(minutes=15));self.assertEqual(d['mode'],'full')
+
 
 if __name__ == '__main__': unittest.main()
