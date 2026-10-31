@@ -4,21 +4,30 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'full, live (controlled manual), auto (flag gated), or plan (read-only)'
+        type: choice
+        options: [full, live, auto, plan]
+        default: full
   schedule:
     # Monday/Tuesday recap and Friday after Thursday games, 14:00 UTC.
     - cron: '0 14 * * 1,2,5'
+    # Dormant unless the LIVE_REFRESH_ENABLED repository variable is explicitly true.
+    - cron: '7,22,37,52 * * * *'
 
 permissions:
   contents: read
   pages: write
   id-token: write
 
-concurrency:
-  group: github-pages
-  cancel-in-progress: false
-
 jobs:
   deploy:
+    if: github.event_name != 'schedule' || github.event.schedule != '7,22,37,52 * * * *' || vars.LIVE_REFRESH_ENABLED == 'true'
+    timeout-minutes: 15
+    concurrency:
+      group: github-pages
+      cancel-in-progress: false
     permissions:
       contents: write
       pages: write
@@ -47,72 +56,119 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: |
+            .cache/live-schedule
             .cache/player-metadata
             .cache/player-games/participation
             .cache/player-games/game-status
           key: player-metadata-${{ github.run_id }}
           restore-keys: player-metadata-
 
+      - name: Decide refresh mode and game-window eligibility
+        id: decision
+        env:
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+          REQUESTED_MODE: ${{ inputs.mode || 'full' }}
+          LIVE_REFRESH_ENABLED: ${{ vars.LIVE_REFRESH_ENABLED || 'false' }}
+        run: |
+          if [[ "$REQUESTED_MODE" == 'plan' ]]; then
+            GITHUB_OUTPUT='' python data_refresh.py plan --dry-run
+            echo 'due=false' >> "$GITHUB_OUTPUT"
+            echo 'mode=skip' >> "$GITHUB_OUTPUT"
+          elif [[ "$SCHEDULE" == '7,22,37,52 * * * *' || "$REQUESTED_MODE" == 'auto' ]]; then
+            python data_refresh.py plan
+          else
+            echo 'due=true' >> "$GITHUB_OUTPUT"
+            echo "mode=$REQUESTED_MODE" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Test exporter
-        run: python -m unittest discover -s tests -v
+        if: steps.decision.outputs.due == 'true'
+        env:
+          MODE: ${{ steps.decision.outputs.mode }}
+        run: |
+          if [[ "$MODE" == 'live' ]]; then
+            python -m unittest discover -s tests -p 'test_football_live.py' -v
+            python -m unittest discover -s tests -p 'test_football_schedule.py' -v
+          else
+            python -m unittest discover -s tests -v
+          fi
 
       - name: Stage and validate current-season ESPN refresh
         id: refresh
-        if: github.event_name != 'push'
+        if: github.event_name != 'push' && steps.decision.outputs.due == 'true'
         env:
           ESPN_S2: ${{ secrets.ESPN_S2 }}
           SWID: ${{ secrets.SWID }}
+          MODE: ${{ steps.decision.outputs.mode }}
         run: |
           if [[ -z "$ESPN_S2" || -z "$SWID" ]]; then
             echo "Required ESPN_S2 / SWID secrets are missing." >&2
             exit 1
           fi
-          python data_refresh.py refresh
+          python data_refresh.py refresh --mode "$MODE" --reconcile-on-period-change
 
       - name: Validate release JSON
         id: validation
+        if: github.event_name == 'push' || steps.refresh.outputs.changed == 'true'
         run: python data_refresh.py validate
 
       - uses: pnpm/action-setup@v6
+        if: github.event_name == 'push' || steps.refresh.outputs.changed == 'true'
         with:
           version: 11.19.0
 
       - uses: actions/setup-node@v4
+        if: github.event_name == 'push' || steps.refresh.outputs.changed == 'true'
         with:
           node-version: '22'
           cache: pnpm
           cache-dependency-path: frontend/pnpm-lock.yaml
 
       - name: Install frontend dependencies
+        if: github.event_name == 'push' || steps.refresh.outputs.changed == 'true'
         working-directory: frontend
         run: pnpm install --frozen-lockfile
 
       - name: Test and build frontend
+        if: github.event_name == 'push' || steps.refresh.outputs.changed == 'true'
         working-directory: frontend
         run: |
-          pnpm test
+          if [[ "${{ github.event_name }}" == 'push' || "${{ steps.refresh.outputs.mode }}" != 'live' ]]; then
+            pnpm test
+          fi
           pnpm build
 
       - name: Persist validated snapshots
         id: persistence
-        if: github.event_name != 'push'
+        if: github.event_name != 'push' && steps.refresh.outputs.changed == 'true'
         run: python data_refresh.py persist
 
       - name: Reject outdated checkouts or public data rollback
         id: guard
+        if: github.event_name == 'push' || steps.refresh.outputs.changed == 'true'
         run: python data_refresh.py guard
 
       - uses: actions/configure-pages@v5
+        if: github.event_name == 'push' || steps.refresh.outputs.changed == 'true'
       - uses: actions/upload-pages-artifact@v4
+        if: github.event_name == 'push' || steps.refresh.outputs.changed == 'true'
         with:
           path: frontend/dist
       - id: deployment
+        if: github.event_name == 'push' || steps.refresh.outputs.changed == 'true'
         uses: actions/deploy-pages@v4
 
       - name: Verify public generation and source JSON
         id: verification
-        if: hashFiles('frontend/public/data/pocky-football/refresh.json') != ''
+        if: (github.event_name == 'push' || steps.refresh.outputs.changed == 'true') && hashFiles('frontend/public/data/pocky-football/refresh.json') != ''
         run: python data_refresh.py verify
+
+      - name: Record successful collection/reconciliation for duplicate prevention
+        if: github.event_name != 'push' && steps.refresh.outcome == 'success' && (steps.refresh.outputs.changed == 'false' || steps.verification.outcome == 'success')
+        env:
+          MODE: ${{ steps.refresh.outputs.mode }}
+        run: python data_refresh.py complete --mode "$MODE"
 
       - name: Report release outcome
         if: always()
