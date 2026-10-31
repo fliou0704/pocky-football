@@ -1,13 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastSuccessfulEspnFetchAt": "2026-10-30T19:03:18.115841+00:00",
+  "mode": "live",
+  "baseGenerationId": "f0818694a778c327f5e317a07f0595ae13fd440331dd1ee8656b9b98b4073b35",
+  "lastSuccessfulEspnFetchAt": "2026-10-31T09:52:32.550930+00:00",
   "season": 2026,
   "latestMatchupPeriod": 8,
   "lastCompletedWeek": 7,
-  "generationId": "f0818694a778c327f5e317a07f0595ae13fd440331dd1ee8656b9b98b4073b35",
+  "generationId": "655856a00d0853d77bb22a32fd24d8536ee0d422432b45931b1b71603b0fe6c5",
   "producedChanges": true,
-  "sourceRevision": "a91d3837abce51fff6086f8650a9bee625430e6b",
-  "runId": "41111383720",
+  "sourceRevision": "9d0588cfb0fb0adcbd1a80bb9540b9390bbb4aab",
+  "runId": "41190371506",
   "dataHashes": {
     "pocky-football/2021/activity.json": "e151564904b4e31cf7068cb79849cfae8ae621d42be634e62e97a4bbdf3fdcd3",
     "pocky-football/2021/draft.json": "59467c151fc9a05dec1d2347e4d85ec00aec16d0a86118a47a9b362b9fe72c53",
@@ -750,7 +752,8 @@
     "pocky-football/players.json": "33813decf997057f537738d26622b3f17170cb9a2c8a88fd2eaebdd448e63478",
     "pocky-football/record-book.json": "1e9b90d2e10e84821741772dc8bf776ab9db9fa3a181a2b3735099cab74d87fd",
     "pocky-football/team-logos.json": "557f8e0ca7750c5e39ebfdb2509d451c7086e8d3188e7a82d624248c97a6d0bc",
-    "site.json": "8e52dac1702cf152d547d8cc8a53823e6b4a1f93043b3681ae1295b407ce2bf4"
+    "site.json": "8e52dac1702cf152d547d8cc8a53823e6b4a1f93043b3681ae1295b407ce2bf4",
+    "pocky-football/live.json": "73e06e9183d0f9b26dbf8514540b6cc16dfe1557b3dfaf6d23bd01a255636e15"
   },
   "assetHashes": {
     "pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp": "0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5",
@@ -788,5 +791,5 @@
     "pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp": "fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3",
     "pocky-football/team-logos/ff5bc13f2cd80a1a738fe3c4be4b9611967a0f556300460c1f44ffa34a7fc6bb.svg": "ff5bc13f2cd80a1a738fe3c4be4b9611967a0f556300460c1f44ffa34a7fc6bb"
   },
-  "derivedBuilder": "weekly-stories-v1"
+  "liveContentHash": "9f47b7814e9ed64e1c0c63b8d266cee14c2c17a015f89e0685be8136263fea72"
 }
