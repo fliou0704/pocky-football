@@ -24,7 +24,10 @@ def category(url):
     parsed = urlsplit(url)
     host = parsed.hostname or ''
     if host == 'lm-api-reads.fantasy.espn.com':
-        return 'fantasy:' + ','.join(sorted(parse_qs(parsed.query).get('view', ['other'])))
+        known = {'mTeam','mRoster','mMatchup','mSettings','mStandings','mStatus','mMatchupScore',
+                 'mScoreboard','mDraftDetail','mTransactions2','mPositionalRatings','kona_playercard',
+                 'kona_league_communication','kona_league_messageboard','players_wl','proTeamSchedules_wl'}
+        return 'fantasy:' + ','.join(sorted({v if v in known else 'other' for v in parse_qs(parsed.query).get('view', ['other'])}))
     if host in ('site.api.espn.com', 'sports.core.api.espn.com'):
         return 'nfl:' + ('scoreboard' if 'scoreboard' in parsed.path else 'eventlog' if 'eventlog' in parsed.path else 'status')
     if host.endswith('espncdn.com') or host == 'mystique-api.fantasy.espn.com':
@@ -77,6 +80,10 @@ def instrument(label):
             return response
         finally:
             end = time.perf_counter()
+            if response is not None:
+                # Session.send recursively follows redirects. Each hop has its own observation;
+                # associate the outer call with its original response, not the final body twice.
+                response = next((hop for hop in response.history if hop.request is request), response)
             if key == 'other' and response is not None and response.headers.get('Content-Type','').lower().startswith('image/'):
                 key = 'images:external'
             with metrics.lock:
