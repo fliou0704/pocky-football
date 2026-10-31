@@ -14,11 +14,14 @@ import DraftPage from './DraftPage.jsx';
 import { playerHash } from './player-view.js';
 import { h2hHash } from './h2h-view.js';
 import './style.css';
+import { loadLive, loadCurrent } from './live-data.js';
 
 const dataBase = `${import.meta.env.BASE_URL}data/`;
-async function getData(path) {
-  const response = await fetch(`${dataBase}${path}`);
+async function getData(path, options = {}) {
+  const {raw = false, ...requestOptions} = options;
+  const response = await fetch(`${dataBase}${path}`, requestOptions);
   if (!response.ok) throw new Error('Site data is unavailable');
+  if (raw) return response.text();
   const value = await response.json();
   if (![1,2].includes(value.schemaVersion)) throw new Error('Unsupported site data');
   return value;
@@ -111,7 +114,7 @@ function TeamPage({ league, teamsData, selectedId, onTeamChange, draftPath, acti
       </div></Section>
     </div>}
     {activeTab === 'Roster' && <div role="tabpanel" id="panel-Roster" aria-labelledby="tab-Roster">
-    <Section title={data.rosterLabel} meta={league.league.complete ? 'Season-end membership' : 'Live season membership'}><div className="content-card">{[['starter', 'Starters'], ['bench', 'Bench'], ['ir', 'Injured Reserve']].map(([group, title]) => { const rows = orderedRoster(data.roster).filter(player => player.group === group); return rows.length > 0 && <div className="roster-group" key={group}><h3>{title}</h3><ul>{rows.map(player => <li className="lineup-row" key={player.playerId}><span className="lineup-slot">{player.displaySlot}</span><div className="lineup-player"><strong>{player.name}</strong><small>{player.nflTeam} · {player.position}{player.injuryStatus && player.injuryStatus !== 'ACTIVE' ? ` · ${player.injuryStatus}` : ''}</small></div><strong>{points(player.seasonPoints)}<small>Season FPTS</small></strong></li>)}</ul></div>; })}</div></Section>
+    <Section title={data.rosterLabel} meta={league.league.complete ? 'Season-end membership' : 'Live season membership'}><div className="content-card">{[['starter', 'Starters'], ['bench', 'Bench'], ['ir', 'Injured Reserve']].map(([group, title]) => { const rows = orderedRoster(data.roster).filter(player => player.group === group); return rows.length > 0 && <div className="roster-group" key={group}><h3>{title}</h3><ul>{rows.map(player => <li className="lineup-row" key={player.playerId}><span className="lineup-slot">{player.displaySlot}</span><div className="lineup-player"><strong>{player.name}</strong><small>{player.nflTeam} · {player.position}{player.injuryStatus && player.injuryStatus !== 'ACTIVE' ? ` · ${player.injuryStatus}` : ''}</small></div><strong>{points(player.liveWeek ? player.points : player.seasonPoints)}<small>{player.liveWeek ? `Week ${player.liveWeek} FPTS` : 'Season FPTS'}</small></strong></li>)}</ul></div>; })}</div></Section>
     {data.formerPlayers.length > 0 && <Section title="Dropped / Former Players" meta="Seen on this team in weekly ESPN rosters"><div className="content-card roster-group"><ul>{data.formerPlayers.map(player => <li key={player.playerId}><div><strong>{player.name}</strong><small>Weeks {player.weeks.join(', ')}</small></div></li>)}</ul></div></Section>}
     {league.league.complete && <p className="archive-note">Final Roster shows season-end membership. Former players were found in weekly roster snapshots; neither list represents every weekly lineup.</p>}
     </div>}
@@ -137,8 +140,9 @@ export function App() {
     if (!manifest || !season) return;
     let active = true; setData(null); setError(null);
     const prefix = manifest.leaguePath.replace(/\d+\/league\.json$/, `${season}/`);
-    Promise.all([getData(`${prefix}league.json`), ['teams', 'scoreboard'].includes(route.page) ? getData(`${prefix}teams.json`) : Promise.resolve(null),
-                 season === currentSeason ? getData(`${prefix}home.json`) : Promise.resolve(null)])
+    (season === currentSeason ? loadLive(getData) : Promise.resolve(null)).then(bundle => loadCurrent(
+      [`${prefix}league.json`, ['teams', 'scoreboard'].includes(route.page) ? `${prefix}teams.json` : null,
+       season === currentSeason ? `${prefix}home.json` : null], getData, bundle))
       .then(([league, teamsData, homeData]) => { if (active) { setData({league, teamsData}); if (homeData) setHome(homeData); document.title = league.league.name; } })
       .catch(problem => { if (active) setError(problem.message); });
     return () => { active = false; };

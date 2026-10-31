@@ -6,6 +6,8 @@ PR #28's infrastructure audit is incorporated on main. Stage 1 retains GitHub Pa
 
 The implementation is split into a collector/scheduler PR and a browser/workflow pilot PR. Automatic activation defaults to **disabled**. There was no active NFL game window during the initial Saturday-morning checks, so this is not evidence of a successful live-game production pilot. Publication results are recorded below as controlled checks become available.
 
+Collector/scheduler [PR #29](https://github.com/fliou0704/pocky-football/pull/29) is merged. The pilot workflow and narrow browser adapter are a separate follow-up. The repository pilot variable was checked and is absent, so the quarter-hour job remains disabled. Local verification passed **198 Python tests**, **115 frontend tests** (40 Node + 75 Vitest), and the production build. Desktop roster labels and mobile scoreboard scores were verified with a replayed authentic source response; the mobile page was 390 px wide with no horizontal overflow or broken images. This replay was confined to ignored build output and was replaced by the clean production build.
+
 ## Commands and configuration
 
 ```sh
