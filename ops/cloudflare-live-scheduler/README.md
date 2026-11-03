@@ -34,7 +34,7 @@ publisher is introduced.
   Scripts Edit for the intended account and `CLOUDFLARE_ACCOUNT_ID`.
 - A **new/restricted fine-grained GitHub token**, selecting only
   `fliou0704/pocky-football`, repository **Actions: read/write** (metadata read is
-  implicit). Store it only as Cloudflare secret `GITHUB_DISPATCH_TOKEN`.
+  implicit). Store it only as Cloudflare secret `GITHUB_TOKEN`.
 - No ESPN or Supabase credentials in Cloudflare. Do not copy a basketball token.
 
 From this directory, using the same Wrangler deployment approach as basketball:
@@ -42,7 +42,7 @@ From this directory, using the same Wrangler deployment approach as basketball:
 ```sh
 npx wrangler@4.156.0 login
 npx wrangler@4.156.0 deploy
-npx wrangler@4.156.0 secret put GITHUB_DISPATCH_TOKEN
+npx wrangler@4.156.0 secret put GITHUB_TOKEN
 ```
 
 The initial deployment is disabled (`SCHEDULER_ENABLED=false`). The GitHub
