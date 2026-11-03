@@ -22,7 +22,7 @@
       "team": "HOU"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -378,8 +378,8 @@
           "nflStats": {},
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
+          "fantasyStatus": "final",
+          "status": "final",
           "points": null,
           "nflTeam": "HOU",
           "nflOpponent": null,
@@ -407,7 +407,19 @@
           "points": null,
           "nflTeam": "HOU",
           "nflOpponent": "LAC",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "HOU",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -533,7 +545,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",

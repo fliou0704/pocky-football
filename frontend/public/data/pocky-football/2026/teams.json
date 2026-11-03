@@ -4,16 +4,16 @@
   "season": 2026,
   "complete": false,
   "teams": {
-    "6": {
-      "teamId": 6,
+    "15": {
+      "teamId": 15,
       "weeks": [
         {
           "week": 1,
-          "opponentTeamId": 1,
-          "opponentLogo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp",
-          "score": 137.1,
-          "opponentScore": 132.56,
-          "result": "W",
+          "opponentTeamId": 12,
+          "opponentLogo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp",
+          "score": 126.8,
+          "opponentScore": 126.86,
+          "result": "L",
           "status": "final",
           "phase": "regular",
           "bracket": "regular",
@@ -21,20 +21,20 @@
           "isPlayoff": false,
           "isBye": false,
           "cumulativeRecord": {
-            "wins": 1,
-            "losses": 0,
+            "wins": 0,
+            "losses": 1,
             "ties": 0
           },
-          "scoreRank": 2,
+          "scoreRank": 7,
           "displayRoundLabel": null
         },
         {
           "week": 2,
-          "opponentTeamId": 15,
-          "opponentLogo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp",
-          "score": 102.3,
-          "opponentScore": 159.36,
-          "result": "L",
+          "opponentTeamId": 6,
+          "opponentLogo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp",
+          "score": 159.36,
+          "opponentScore": 102.3,
+          "result": "W",
           "status": "final",
           "phase": "regular",
           "bracket": "regular",
@@ -46,15 +46,15 @@
             "losses": 1,
             "ties": 0
           },
-          "scoreRank": 7,
+          "scoreRank": 1,
           "displayRoundLabel": null
         },
         {
           "week": 3,
-          "opponentTeamId": 16,
-          "opponentLogo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp",
-          "score": 144.34,
-          "opponentScore": 118.82,
+          "opponentTeamId": 11,
+          "opponentLogo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg",
+          "score": 153.94,
+          "opponentScore": 91.8,
           "result": "W",
           "status": "final",
           "phase": "regular",
@@ -67,15 +67,15 @@
             "losses": 1,
             "ties": 0
           },
-          "scoreRank": 3,
+          "scoreRank": 2,
           "displayRoundLabel": null
         },
         {
           "week": 4,
-          "opponentTeamId": 5,
-          "opponentLogo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg",
-          "score": 173.76,
-          "opponentScore": 109.98,
+          "opponentTeamId": 2,
+          "opponentLogo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg",
+          "score": 153.5,
+          "opponentScore": 122.72,
           "result": "W",
           "status": "final",
           "phase": "regular",
@@ -88,15 +88,15 @@
             "losses": 1,
             "ties": 0
           },
-          "scoreRank": 1,
+          "scoreRank": 2,
           "displayRoundLabel": null
         },
         {
           "week": 5,
-          "opponentTeamId": 3,
-          "opponentLogo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp",
-          "score": 104.2,
-          "opponentScore": 120.5,
+          "opponentTeamId": 1,
+          "opponentLogo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp",
+          "score": 120.64,
+          "opponentScore": 138.16,
           "result": "L",
           "status": "final",
           "phase": "regular",
@@ -109,15 +109,36 @@
             "losses": 2,
             "ties": 0
           },
-          "scoreRank": 9,
+          "scoreRank": 7,
           "displayRoundLabel": null
         },
         {
           "week": 6,
-          "opponentTeamId": 12,
-          "opponentLogo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp",
-          "score": 111.54,
-          "opponentScore": 97.48,
+          "opponentTeamId": 13,
+          "opponentLogo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg",
+          "score": 74.52,
+          "opponentScore": 102.8,
+          "result": "L",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 3,
+            "losses": 3,
+            "ties": 0
+          },
+          "scoreRank": 10,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 7,
+          "opponentTeamId": 16,
+          "opponentLogo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp",
+          "score": 110.78,
+          "opponentScore": 80.96,
           "result": "W",
           "status": "final",
           "phase": "regular",
@@ -127,18 +148,18 @@
           "isBye": false,
           "cumulativeRecord": {
             "wins": 4,
-            "losses": 2,
+            "losses": 3,
             "ties": 0
           },
           "scoreRank": 4,
           "displayRoundLabel": null
         },
         {
-          "week": 7,
-          "opponentTeamId": 13,
-          "opponentLogo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg",
-          "score": 139.22,
-          "opponentScore": 130.94,
+          "week": 8,
+          "opponentTeamId": 5,
+          "opponentLogo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg",
+          "score": 142.7,
+          "opponentScore": 103.68,
           "result": "W",
           "status": "final",
           "phase": "regular",
@@ -148,20 +169,20 @@
           "isBye": false,
           "cumulativeRecord": {
             "wins": 5,
-            "losses": 2,
+            "losses": 3,
             "ties": 0
           },
-          "scoreRank": 1,
+          "scoreRank": 2,
           "displayRoundLabel": null
         },
         {
-          "week": 8,
-          "opponentTeamId": 11,
-          "opponentLogo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg",
-          "score": 22.16,
-          "opponentScore": 0.0,
+          "week": 9,
+          "opponentTeamId": 3,
+          "opponentLogo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp",
+          "score": null,
+          "opponentScore": null,
           "result": "—",
-          "status": "live",
+          "status": "upcoming",
           "phase": "regular",
           "bracket": "regular",
           "roundLabel": null,
@@ -172,7 +193,58 @@
           "displayRoundLabel": null
         },
         {
-          "week": 9,
+          "week": 10,
+          "opponentTeamId": 12,
+          "opponentLogo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 11,
+          "opponentTeamId": 6,
+          "opponentLogo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 12,
+          "opponentTeamId": 11,
+          "opponentLogo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 13,
           "opponentTeamId": 2,
           "opponentLogo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg",
           "score": null,
@@ -189,7 +261,7 @@
           "displayRoundLabel": null
         },
         {
-          "week": 10,
+          "week": 14,
           "opponentTeamId": 1,
           "opponentLogo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp",
           "score": null,
@@ -204,324 +276,195 @@
           "cumulativeRecord": null,
           "scoreRank": null,
           "displayRoundLabel": null
-        },
-        {
-          "week": 11,
-          "opponentTeamId": 15,
-          "opponentLogo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 12,
-          "opponentTeamId": 16,
-          "opponentLogo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 13,
-          "opponentTeamId": 5,
-          "opponentLogo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 14,
-          "opponentTeamId": 3,
-          "opponentLogo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
         }
       ],
-      "averageScore": 130.35,
-      "highScore": 173.76,
-      "lowScore": 102.3,
+      "averageScore": 130.28,
+      "highScore": 159.36,
+      "lowScore": 74.52,
       "roster": [
         {
-          "playerId": 4430807,
-          "name": "Bijan Robinson",
-          "nflTeam": "ATL",
+          "playerId": 4429795,
+          "name": "Jahmyr Gibbs",
+          "nflTeam": "DET",
           "position": "RB",
           "slot": "RB",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 145.7
+          "seasonPoints": 195.8
         },
         {
-          "playerId": 4870808,
-          "name": "Jeremiyah Love",
-          "nflTeam": "ARI",
-          "position": "RB",
-          "slot": "RB",
-          "group": "starter",
+          "playerId": 4047646,
+          "name": "A.J. Brown",
+          "nflTeam": "NE",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
           "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 51.1
+          "seasonPoints": 19.1
         },
         {
-          "playerId": 4361307,
-          "name": "Trey McBride",
-          "nflTeam": "ARI",
-          "position": "TE",
-          "slot": "TE",
-          "group": "starter",
+          "playerId": 4258173,
+          "name": "Nico Collins",
+          "nflTeam": "HOU",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 130.2
+          "seasonPoints": 76.1
         },
         {
-          "playerId": 4429615,
-          "name": "Zay Flowers",
-          "nflTeam": "BAL",
+          "playerId": 4239993,
+          "name": "Tee Higgins",
+          "nflTeam": "CIN",
           "position": "WR",
           "slot": "WR",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 122.2
+          "seasonPoints": 139.6
         },
         {
-          "playerId": 4685472,
-          "name": "Tetairoa McMillan",
-          "nflTeam": "CAR",
-          "position": "WR",
-          "slot": "WR",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 108.9
-        },
-        {
-          "playerId": 4871023,
-          "name": "Carnell Tate",
-          "nflTeam": "TEN",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 77.3
-        },
-        {
-          "playerId": 3040151,
-          "name": "George Kittle",
-          "nflTeam": "SF",
-          "position": "TE",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 104.5
-        },
-        {
-          "playerId": 4426385,
-          "name": "Zach Charbonnet",
-          "nflTeam": "SEA",
-          "position": "RB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 0.0
-        },
-        {
-          "playerId": 4568490,
-          "name": "RJ Harvey",
-          "nflTeam": "DEN",
-          "position": "RB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 67.4
-        },
-        {
-          "playerId": 3953687,
-          "name": "Brandon Aubrey",
-          "nflTeam": "DAL",
-          "position": "K",
-          "slot": "K",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 59.0
-        },
-        {
-          "playerId": -16007,
-          "name": "Broncos D/ST",
-          "nflTeam": "DEN",
-          "position": "D/ST",
-          "slot": "D/ST",
-          "group": "starter",
-          "injuryStatus": "NORMAL",
-          "seasonPoints": 49.0
-        },
-        {
-          "playerId": 4685720,
-          "name": "Bryce Young",
-          "nflTeam": "CAR",
-          "position": "QB",
-          "slot": "QB",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 126.24
-        },
-        {
-          "playerId": 4832800,
-          "name": "Denzel Boston",
-          "nflTeam": "CLE",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 77.2
-        },
-        {
-          "playerId": 3054850,
-          "name": "Alvin Kamara",
-          "nflTeam": "NO",
-          "position": "RB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 65.8
-        },
-        {
-          "playerId": -16016,
-          "name": "Vikings D/ST",
-          "nflTeam": "MIN",
-          "position": "D/ST",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "NORMAL",
-          "seasonPoints": 74.0
-        },
-        {
-          "playerId": 4685261,
-          "name": "Germie Bernard",
-          "nflTeam": "PIT",
-          "position": "WR",
-          "slot": "RB/WR/TE",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 58.8
-        },
-        {
-          "playerId": 4880281,
-          "name": "Jordyn Tyson",
-          "nflTeam": "NO",
+          "playerId": 16800,
+          "name": "Davante Adams",
+          "nflTeam": "LAR",
           "position": "WR",
           "slot": "IR",
           "group": "ir",
           "injuryStatus": "INJURY_RESERVE",
-          "seasonPoints": 0.0
+          "seasonPoints": 102.0
+        },
+        {
+          "playerId": 4569173,
+          "name": "Rhamondre Stevenson",
+          "nflTeam": "NE",
+          "position": "RB",
+          "slot": "RB/WR/TE",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 98.9
+        },
+        {
+          "playerId": 3916148,
+          "name": "Tony Pollard",
+          "nflTeam": "TEN",
+          "position": "RB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 116.5
+        },
+        {
+          "playerId": 4429023,
+          "name": "MarShawn Lloyd",
+          "nflTeam": "GB",
+          "position": "RB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 51.8
+        },
+        {
+          "playerId": 2577417,
+          "name": "Dak Prescott",
+          "nflTeam": "DAL",
+          "position": "QB",
+          "slot": "QB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 147.94
+        },
+        {
+          "playerId": 4241416,
+          "name": "Chuba Hubbard",
+          "nflTeam": "CAR",
+          "position": "RB",
+          "slot": "RB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 133.0
+        },
+        {
+          "playerId": 3916433,
+          "name": "Jakobi Meyers",
+          "nflTeam": "JAX",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonPoints": 65.1
+        },
+        {
+          "playerId": 4242355,
+          "name": "Jake Ferguson",
+          "nflTeam": "DAL",
+          "position": "TE",
+          "slot": "TE",
+          "group": "starter",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonPoints": 44.5
+        },
+        {
+          "playerId": 4366031,
+          "name": "Tank Dell",
+          "nflTeam": "HOU",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 5.5
+        },
+        {
+          "playerId": -16026,
+          "name": "Seahawks D/ST",
+          "nflTeam": "SEA",
+          "position": "D/ST",
+          "slot": "D/ST",
+          "group": "starter",
+          "injuryStatus": "NORMAL",
+          "seasonPoints": 67.0
+        },
+        {
+          "playerId": 17427,
+          "name": "Cairo Santos",
+          "nflTeam": "CHI",
+          "position": "K",
+          "slot": "K",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 70.0
+        },
+        {
+          "playerId": 3046779,
+          "name": "Jared Goff",
+          "nflTeam": "DET",
+          "position": "QB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 142.06
+        },
+        {
+          "playerId": 4870795,
+          "name": "Makai Lemon",
+          "nflTeam": "PHI",
+          "position": "WR",
+          "slot": "WR",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 61.6
         }
       ],
       "rosterLabel": "Current Roster",
       "formerPlayers": [
         {
-          "playerId": 8439,
-          "name": "Aaron Rodgers",
-          "weeks": [
-            5
-          ]
-        },
-        {
-          "playerId": 4040715,
-          "name": "Jalen Hurts",
-          "weeks": [
-            6
-          ]
-        },
-        {
-          "playerId": 3046779,
-          "name": "Jared Goff",
-          "weeks": [
-            1
-          ]
-        },
-        {
-          "playerId": 4689114,
-          "name": "Jaxson Dart",
-          "weeks": [
-            1,
-            2
-          ]
-        },
-        {
-          "playerId": 2973405,
-          "name": "Kalif Raymond",
-          "weeks": [
-            2,
-            3,
-            4
-          ]
-        },
-        {
-          "playerId": 4870795,
-          "name": "Makai Lemon",
-          "weeks": [
-            1,
-            2
-          ]
-        },
-        {
-          "playerId": 4682648,
-          "name": "Malachi Fields",
-          "weeks": [
-            1,
-            2,
-            3
-          ]
-        },
-        {
-          "playerId": 4697815,
-          "name": "Rachaad White",
+          "playerId": 4362249,
+          "name": "Jayden Reed",
           "weeks": [
             1,
             2,
             3,
             4,
-            5
-          ]
-        },
-        {
-          "playerId": 4360516,
-          "name": "Tyrone Tracy Jr.",
-          "weeks": [
-            7
+            5,
+            6
           ]
         }
       ]
@@ -680,17 +623,21 @@
           "week": 8,
           "opponentTeamId": 6,
           "opponentLogo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp",
-          "score": 0.0,
-          "opponentScore": 22.16,
-          "result": "—",
-          "status": "live",
+          "score": 118.88,
+          "opponentScore": 73.26,
+          "result": "W",
+          "status": "final",
           "phase": "regular",
           "bracket": "regular",
           "roundLabel": null,
           "isPlayoff": false,
           "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
+          "cumulativeRecord": {
+            "wins": 5,
+            "losses": 3,
+            "ties": 0
+          },
+          "scoreRank": 4,
           "displayRoundLabel": null
         },
         {
@@ -796,7 +743,7 @@
           "displayRoundLabel": null
         }
       ],
-      "averageScore": 124.14,
+      "averageScore": 123.48,
       "highScore": 152.64,
       "lowScore": 89.9,
       "roster": [
@@ -808,17 +755,7 @@
           "slot": "WR",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 128.4
-        },
-        {
-          "playerId": 4429160,
-          "name": "De'Von Achane",
-          "nflTeam": "MIA",
-          "position": "RB",
-          "slot": "IR",
-          "group": "ir",
-          "injuryStatus": "INJURY_RESERVE",
-          "seasonPoints": 24.6
+          "seasonPoints": 141.0
         },
         {
           "playerId": 4361370,
@@ -835,8 +772,8 @@
           "name": "DeVonta Smith",
           "nflTeam": "PHI",
           "position": "WR",
-          "slot": "WR",
-          "group": "starter",
+          "slot": "IR",
+          "group": "ir",
           "injuryStatus": "QUESTIONABLE",
           "seasonPoints": 69.0
         },
@@ -848,7 +785,7 @@
           "slot": "RB",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 122.8
+          "seasonPoints": 150.7
         },
         {
           "playerId": 4426348,
@@ -858,7 +795,7 @@
           "slot": "QB",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 85.66
+          "seasonPoints": 100.64
         },
         {
           "playerId": 5083076,
@@ -868,17 +805,7 @@
           "slot": "BE",
           "group": "bench",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 66.7
-        },
-        {
-          "playerId": 4432708,
-          "name": "Marvin Harrison Jr.",
-          "nflTeam": "HOU",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 33.5
+          "seasonPoints": 90.1
         },
         {
           "playerId": 4430027,
@@ -888,7 +815,7 @@
           "slot": "TE",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 79.4
+          "seasonPoints": 85.9
         },
         {
           "playerId": 4038815,
@@ -898,17 +825,17 @@
           "slot": "BE",
           "group": "bench",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 33.0
+          "seasonPoints": 44.6
         },
         {
           "playerId": 3042519,
           "name": "Aaron Jones Sr.",
           "nflTeam": "MIN",
           "position": "RB",
-          "slot": "RB",
-          "group": "starter",
+          "slot": "BE",
+          "group": "bench",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 73.8
+          "seasonPoints": 79.8
         },
         {
           "playerId": 3121023,
@@ -918,7 +845,7 @@
           "slot": "RB/WR/TE",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 56.8
+          "seasonPoints": 64.0
         },
         {
           "playerId": 3917315,
@@ -927,8 +854,8 @@
           "position": "QB",
           "slot": "BE",
           "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 53.68
+          "injuryStatus": "QUESTIONABLE",
+          "seasonPoints": 73.58
         },
         {
           "playerId": 4360689,
@@ -948,15 +875,15 @@
           "slot": "D/ST",
           "group": "starter",
           "injuryStatus": "NORMAL",
-          "seasonPoints": 6.0
+          "seasonPoints": 10.0
         },
         {
           "playerId": 2971573,
           "name": "Ka'imi Fairbairn",
           "nflTeam": "HOU",
           "position": "K",
-          "slot": "K",
-          "group": "starter",
+          "slot": "BE",
+          "group": "bench",
           "injuryStatus": "ACTIVE",
           "seasonPoints": 75.0
         },
@@ -965,14 +892,587 @@
           "name": "Braelon Allen",
           "nflTeam": "NYJ",
           "position": "RB",
-          "slot": "BE",
-          "group": "bench",
+          "slot": "RB",
+          "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 76.3
+          "seasonPoints": 99.6
+        },
+        {
+          "playerId": 3150744,
+          "name": "Chase McLaughlin",
+          "nflTeam": "TB",
+          "position": "K",
+          "slot": "K",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 89.0
+        },
+        {
+          "playerId": 5081432,
+          "name": "Antonio Williams",
+          "nflTeam": "WSH",
+          "position": "WR",
+          "slot": "WR",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 54.9
         }
       ],
       "rosterLabel": "Current Roster",
-      "formerPlayers": []
+      "formerPlayers": [
+        {
+          "playerId": 4429160,
+          "name": "De'Von Achane",
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "playerId": 4432708,
+          "name": "Marvin Harrison Jr.",
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    "6": {
+      "teamId": 6,
+      "weeks": [
+        {
+          "week": 1,
+          "opponentTeamId": 1,
+          "opponentLogo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp",
+          "score": 137.1,
+          "opponentScore": 132.56,
+          "result": "W",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 1,
+            "losses": 0,
+            "ties": 0
+          },
+          "scoreRank": 2,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 2,
+          "opponentTeamId": 15,
+          "opponentLogo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp",
+          "score": 102.3,
+          "opponentScore": 159.36,
+          "result": "L",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 1,
+            "losses": 1,
+            "ties": 0
+          },
+          "scoreRank": 7,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 3,
+          "opponentTeamId": 16,
+          "opponentLogo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp",
+          "score": 144.34,
+          "opponentScore": 118.82,
+          "result": "W",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 2,
+            "losses": 1,
+            "ties": 0
+          },
+          "scoreRank": 3,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 4,
+          "opponentTeamId": 5,
+          "opponentLogo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg",
+          "score": 173.76,
+          "opponentScore": 109.98,
+          "result": "W",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 3,
+            "losses": 1,
+            "ties": 0
+          },
+          "scoreRank": 1,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 5,
+          "opponentTeamId": 3,
+          "opponentLogo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp",
+          "score": 104.2,
+          "opponentScore": 120.5,
+          "result": "L",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 3,
+            "losses": 2,
+            "ties": 0
+          },
+          "scoreRank": 9,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 6,
+          "opponentTeamId": 12,
+          "opponentLogo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp",
+          "score": 111.54,
+          "opponentScore": 97.48,
+          "result": "W",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 4,
+            "losses": 2,
+            "ties": 0
+          },
+          "scoreRank": 4,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 7,
+          "opponentTeamId": 13,
+          "opponentLogo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg",
+          "score": 139.22,
+          "opponentScore": 130.94,
+          "result": "W",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 5,
+            "losses": 2,
+            "ties": 0
+          },
+          "scoreRank": 1,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 8,
+          "opponentTeamId": 11,
+          "opponentLogo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg",
+          "score": 73.26,
+          "opponentScore": 118.88,
+          "result": "L",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 5,
+            "losses": 3,
+            "ties": 0
+          },
+          "scoreRank": 10,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 9,
+          "opponentTeamId": 2,
+          "opponentLogo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 10,
+          "opponentTeamId": 1,
+          "opponentLogo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 11,
+          "opponentTeamId": 15,
+          "opponentLogo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 12,
+          "opponentTeamId": 16,
+          "opponentLogo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 13,
+          "opponentTeamId": 5,
+          "opponentLogo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 14,
+          "opponentTeamId": 3,
+          "opponentLogo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null,
+          "displayRoundLabel": null
+        }
+      ],
+      "averageScore": 123.22,
+      "highScore": 173.76,
+      "lowScore": 73.26,
+      "roster": [
+        {
+          "playerId": 4430807,
+          "name": "Bijan Robinson",
+          "nflTeam": "ATL",
+          "position": "RB",
+          "slot": "RB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 153.3
+        },
+        {
+          "playerId": 4870808,
+          "name": "Jeremiyah Love",
+          "nflTeam": "ARI",
+          "position": "RB",
+          "slot": "RB",
+          "group": "starter",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonPoints": 53.4
+        },
+        {
+          "playerId": 4361307,
+          "name": "Trey McBride",
+          "nflTeam": "ARI",
+          "position": "TE",
+          "slot": "TE",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 150.4
+        },
+        {
+          "playerId": 4429615,
+          "name": "Zay Flowers",
+          "nflTeam": "BAL",
+          "position": "WR",
+          "slot": "WR",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 122.2
+        },
+        {
+          "playerId": 4685472,
+          "name": "Tetairoa McMillan",
+          "nflTeam": "CAR",
+          "position": "WR",
+          "slot": "WR",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 108.9
+        },
+        {
+          "playerId": 4871023,
+          "name": "Carnell Tate",
+          "nflTeam": "TEN",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "OUT",
+          "seasonPoints": 77.3
+        },
+        {
+          "playerId": 3040151,
+          "name": "George Kittle",
+          "nflTeam": "SF",
+          "position": "TE",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 104.5
+        },
+        {
+          "playerId": 4426385,
+          "name": "Zach Charbonnet",
+          "nflTeam": "SEA",
+          "position": "RB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 5.9
+        },
+        {
+          "playerId": 4568490,
+          "name": "RJ Harvey",
+          "nflTeam": "DEN",
+          "position": "RB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "INJURY_RESERVE",
+          "seasonPoints": 67.4
+        },
+        {
+          "playerId": 3953687,
+          "name": "Brandon Aubrey",
+          "nflTeam": "DAL",
+          "position": "K",
+          "slot": "K",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 71.0
+        },
+        {
+          "playerId": -16007,
+          "name": "Broncos D/ST",
+          "nflTeam": "DEN",
+          "position": "D/ST",
+          "slot": "D/ST",
+          "group": "starter",
+          "injuryStatus": "NORMAL",
+          "seasonPoints": 50.0
+        },
+        {
+          "playerId": 4685720,
+          "name": "Bryce Young",
+          "nflTeam": "CAR",
+          "position": "QB",
+          "slot": "QB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 126.24
+        },
+        {
+          "playerId": 4832800,
+          "name": "Denzel Boston",
+          "nflTeam": "CLE",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 86.9
+        },
+        {
+          "playerId": 3054850,
+          "name": "Alvin Kamara",
+          "nflTeam": "NO",
+          "position": "RB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 65.8
+        },
+        {
+          "playerId": -16016,
+          "name": "Vikings D/ST",
+          "nflTeam": "MIN",
+          "position": "D/ST",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "NORMAL",
+          "seasonPoints": 79.0
+        },
+        {
+          "playerId": 4685261,
+          "name": "Germie Bernard",
+          "nflTeam": "PIT",
+          "position": "WR",
+          "slot": "RB/WR/TE",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 66.8
+        },
+        {
+          "playerId": 4880281,
+          "name": "Jordyn Tyson",
+          "nflTeam": "NO",
+          "position": "WR",
+          "slot": "IR",
+          "group": "ir",
+          "injuryStatus": "INJURY_RESERVE",
+          "seasonPoints": 0.0
+        }
+      ],
+      "rosterLabel": "Current Roster",
+      "formerPlayers": [
+        {
+          "playerId": 8439,
+          "name": "Aaron Rodgers",
+          "weeks": [
+            5
+          ]
+        },
+        {
+          "playerId": 4040715,
+          "name": "Jalen Hurts",
+          "weeks": [
+            6
+          ]
+        },
+        {
+          "playerId": 3046779,
+          "name": "Jared Goff",
+          "weeks": [
+            1
+          ]
+        },
+        {
+          "playerId": 4689114,
+          "name": "Jaxson Dart",
+          "weeks": [
+            1,
+            2
+          ]
+        },
+        {
+          "playerId": 2973405,
+          "name": "Kalif Raymond",
+          "weeks": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "playerId": 4870795,
+          "name": "Makai Lemon",
+          "weeks": [
+            1,
+            2
+          ]
+        },
+        {
+          "playerId": 4682648,
+          "name": "Malachi Fields",
+          "weeks": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "playerId": 4697815,
+          "name": "Rachaad White",
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "playerId": 4360516,
+          "name": "Tyrone Tracy Jr.",
+          "weeks": [
+            7
+          ]
+        }
+      ]
     },
     "3": {
       "teamId": 3,
@@ -1128,17 +1628,21 @@
           "week": 8,
           "opponentTeamId": 1,
           "opponentLogo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
+          "score": 97.66,
+          "opponentScore": 108.1,
+          "result": "L",
+          "status": "final",
           "phase": "regular",
           "bracket": "regular",
           "roundLabel": null,
           "isPlayoff": false,
           "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
+          "cumulativeRecord": {
+            "wins": 5,
+            "losses": 3,
+            "ties": 0
+          },
+          "scoreRank": 8,
           "displayRoundLabel": null
         },
         {
@@ -1244,7 +1748,7 @@
           "displayRoundLabel": null
         }
       ],
-      "averageScore": 112.48,
+      "averageScore": 110.63,
       "highScore": 132.92,
       "lowScore": 91.32,
       "roster": [
@@ -1256,7 +1760,7 @@
           "slot": "RB",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 137.5
+          "seasonPoints": 144.2
         },
         {
           "playerId": 3117251,
@@ -1276,7 +1780,7 @@
           "slot": "WR",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 38.0
+          "seasonPoints": 56.3
         },
         {
           "playerId": 3918298,
@@ -1286,7 +1790,7 @@
           "slot": "QB",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 161.26
+          "seasonPoints": 187.82
         },
         {
           "playerId": 4612826,
@@ -1295,8 +1799,8 @@
           "position": "WR",
           "slot": "WR",
           "group": "starter",
-          "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 39.0
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 51.6
         },
         {
           "playerId": 4360248,
@@ -1306,7 +1810,7 @@
           "slot": "TE",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 63.1
+          "seasonPoints": 65.7
         },
         {
           "playerId": 4432710,
@@ -1326,7 +1830,7 @@
           "slot": "BE",
           "group": "bench",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 83.6
+          "seasonPoints": 97.58
         },
         {
           "playerId": 4688813,
@@ -1336,7 +1840,7 @@
           "slot": "BE",
           "group": "bench",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 57.4
+          "seasonPoints": 69.7
         },
         {
           "playerId": 3116365,
@@ -1346,7 +1850,7 @@
           "slot": "BE",
           "group": "bench",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 50.4
+          "seasonPoints": 54.8
         },
         {
           "playerId": 4569559,
@@ -1366,7 +1870,7 @@
           "slot": "RB",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 65.3
+          "seasonPoints": 72.2
         },
         {
           "playerId": 3895856,
@@ -1386,7 +1890,7 @@
           "slot": "K",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 62.0
+          "seasonPoints": 78.0
         },
         {
           "playerId": -16004,
@@ -1396,7 +1900,7 @@
           "slot": "D/ST",
           "group": "starter",
           "injuryStatus": "NORMAL",
-          "seasonPoints": 48.0
+          "seasonPoints": 50.0
         },
         {
           "playerId": 3046439,
@@ -1405,8 +1909,8 @@
           "position": "TE",
           "slot": "RB/WR/TE",
           "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 67.6
+          "injuryStatus": "QUESTIONABLE",
+          "seasonPoints": 73.6
         }
       ],
       "rosterLabel": "Current Roster",
@@ -1512,1503 +2016,6 @@
           "name": "Tyjae Spears",
           "weeks": [
             1
-          ]
-        }
-      ]
-    },
-    "15": {
-      "teamId": 15,
-      "weeks": [
-        {
-          "week": 1,
-          "opponentTeamId": 12,
-          "opponentLogo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp",
-          "score": 126.8,
-          "opponentScore": 126.86,
-          "result": "L",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": {
-            "wins": 0,
-            "losses": 1,
-            "ties": 0
-          },
-          "scoreRank": 7,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 2,
-          "opponentTeamId": 6,
-          "opponentLogo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp",
-          "score": 159.36,
-          "opponentScore": 102.3,
-          "result": "W",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": {
-            "wins": 1,
-            "losses": 1,
-            "ties": 0
-          },
-          "scoreRank": 1,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 3,
-          "opponentTeamId": 11,
-          "opponentLogo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg",
-          "score": 153.94,
-          "opponentScore": 91.8,
-          "result": "W",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": {
-            "wins": 2,
-            "losses": 1,
-            "ties": 0
-          },
-          "scoreRank": 2,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 4,
-          "opponentTeamId": 2,
-          "opponentLogo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg",
-          "score": 153.5,
-          "opponentScore": 122.72,
-          "result": "W",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": {
-            "wins": 3,
-            "losses": 1,
-            "ties": 0
-          },
-          "scoreRank": 2,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 5,
-          "opponentTeamId": 1,
-          "opponentLogo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp",
-          "score": 120.64,
-          "opponentScore": 138.16,
-          "result": "L",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": {
-            "wins": 3,
-            "losses": 2,
-            "ties": 0
-          },
-          "scoreRank": 7,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 6,
-          "opponentTeamId": 13,
-          "opponentLogo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg",
-          "score": 74.52,
-          "opponentScore": 102.8,
-          "result": "L",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": {
-            "wins": 3,
-            "losses": 3,
-            "ties": 0
-          },
-          "scoreRank": 10,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 7,
-          "opponentTeamId": 16,
-          "opponentLogo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp",
-          "score": 110.78,
-          "opponentScore": 80.96,
-          "result": "W",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": {
-            "wins": 4,
-            "losses": 3,
-            "ties": 0
-          },
-          "scoreRank": 4,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 8,
-          "opponentTeamId": 5,
-          "opponentLogo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg",
-          "score": 24.9,
-          "opponentScore": 17.3,
-          "result": "—",
-          "status": "live",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 9,
-          "opponentTeamId": 3,
-          "opponentLogo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 10,
-          "opponentTeamId": 12,
-          "opponentLogo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 11,
-          "opponentTeamId": 6,
-          "opponentLogo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 12,
-          "opponentTeamId": 11,
-          "opponentLogo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 13,
-          "opponentTeamId": 2,
-          "opponentLogo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 14,
-          "opponentTeamId": 1,
-          "opponentLogo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        }
-      ],
-      "averageScore": 128.51,
-      "highScore": 159.36,
-      "lowScore": 74.52,
-      "roster": [
-        {
-          "playerId": 4429795,
-          "name": "Jahmyr Gibbs",
-          "nflTeam": "DET",
-          "position": "RB",
-          "slot": "RB",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 171.0
-        },
-        {
-          "playerId": 4047646,
-          "name": "A.J. Brown",
-          "nflTeam": "NE",
-          "position": "WR",
-          "slot": "WR",
-          "group": "starter",
-          "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 19.1
-        },
-        {
-          "playerId": 4258173,
-          "name": "Nico Collins",
-          "nflTeam": "HOU",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 76.1
-        },
-        {
-          "playerId": 4239993,
-          "name": "Tee Higgins",
-          "nflTeam": "CIN",
-          "position": "WR",
-          "slot": "WR",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 102.1
-        },
-        {
-          "playerId": 16800,
-          "name": "Davante Adams",
-          "nflTeam": "LAR",
-          "position": "WR",
-          "slot": "IR",
-          "group": "ir",
-          "injuryStatus": "INJURY_RESERVE",
-          "seasonPoints": 102.0
-        },
-        {
-          "playerId": 4569173,
-          "name": "Rhamondre Stevenson",
-          "nflTeam": "NE",
-          "position": "RB",
-          "slot": "RB/WR/TE",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 86.9
-        },
-        {
-          "playerId": 3916148,
-          "name": "Tony Pollard",
-          "nflTeam": "TEN",
-          "position": "RB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 87.8
-        },
-        {
-          "playerId": 4429023,
-          "name": "MarShawn Lloyd",
-          "nflTeam": "GB",
-          "position": "RB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 51.8
-        },
-        {
-          "playerId": 2577417,
-          "name": "Dak Prescott",
-          "nflTeam": "DAL",
-          "position": "QB",
-          "slot": "QB",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 128.14
-        },
-        {
-          "playerId": 4241416,
-          "name": "Chuba Hubbard",
-          "nflTeam": "CAR",
-          "position": "RB",
-          "slot": "RB",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 133.0
-        },
-        {
-          "playerId": 3916433,
-          "name": "Jakobi Meyers",
-          "nflTeam": "JAX",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 60.7
-        },
-        {
-          "playerId": 4242355,
-          "name": "Jake Ferguson",
-          "nflTeam": "DAL",
-          "position": "TE",
-          "slot": "TE",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 44.5
-        },
-        {
-          "playerId": 4366031,
-          "name": "Tank Dell",
-          "nflTeam": "HOU",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 5.5
-        },
-        {
-          "playerId": -16026,
-          "name": "Seahawks D/ST",
-          "nflTeam": "SEA",
-          "position": "D/ST",
-          "slot": "D/ST",
-          "group": "starter",
-          "injuryStatus": "NORMAL",
-          "seasonPoints": 66.0
-        },
-        {
-          "playerId": 17427,
-          "name": "Cairo Santos",
-          "nflTeam": "CHI",
-          "position": "K",
-          "slot": "K",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 59.0
-        },
-        {
-          "playerId": 3046779,
-          "name": "Jared Goff",
-          "nflTeam": "DET",
-          "position": "QB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 133.02
-        }
-      ],
-      "rosterLabel": "Current Roster",
-      "formerPlayers": [
-        {
-          "playerId": 4362249,
-          "name": "Jayden Reed",
-          "weeks": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6
-          ]
-        }
-      ]
-    },
-    "5": {
-      "teamId": 5,
-      "weeks": [
-        {
-          "week": 1,
-          "opponentTeamId": 13,
-          "opponentLogo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg",
-          "score": 128.6,
-          "opponentScore": 88.82,
-          "result": "W",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": {
-            "wins": 1,
-            "losses": 0,
-            "ties": 0
-          },
-          "scoreRank": 5,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 2,
-          "opponentTeamId": 3,
-          "opponentLogo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp",
-          "score": 82.28,
-          "opponentScore": 132.92,
-          "result": "L",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": {
-            "wins": 1,
-            "losses": 1,
-            "ties": 0
-          },
-          "scoreRank": 10,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 3,
-          "opponentTeamId": 12,
-          "opponentLogo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp",
-          "score": 110.3,
-          "opponentScore": 112.04,
-          "result": "L",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": {
-            "wins": 1,
-            "losses": 2,
-            "ties": 0
-          },
-          "scoreRank": 7,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 4,
-          "opponentTeamId": 6,
-          "opponentLogo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp",
-          "score": 109.98,
-          "opponentScore": 173.76,
-          "result": "L",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": {
-            "wins": 1,
-            "losses": 3,
-            "ties": 0
-          },
-          "scoreRank": 8,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 5,
-          "opponentTeamId": 11,
-          "opponentLogo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg",
-          "score": 170.52,
-          "opponentScore": 146.16,
-          "result": "W",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": {
-            "wins": 2,
-            "losses": 3,
-            "ties": 0
-          },
-          "scoreRank": 1,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 6,
-          "opponentTeamId": 2,
-          "opponentLogo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg",
-          "score": 96.58,
-          "opponentScore": 89.36,
-          "result": "W",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": {
-            "wins": 3,
-            "losses": 3,
-            "ties": 0
-          },
-          "scoreRank": 8,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 7,
-          "opponentTeamId": 1,
-          "opponentLogo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp",
-          "score": 114.4,
-          "opponentScore": 102.72,
-          "result": "W",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": {
-            "wins": 4,
-            "losses": 3,
-            "ties": 0
-          },
-          "scoreRank": 3,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 8,
-          "opponentTeamId": 15,
-          "opponentLogo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp",
-          "score": 17.3,
-          "opponentScore": 24.9,
-          "result": "—",
-          "status": "live",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 9,
-          "opponentTeamId": 16,
-          "opponentLogo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 10,
-          "opponentTeamId": 13,
-          "opponentLogo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 11,
-          "opponentTeamId": 3,
-          "opponentLogo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 12,
-          "opponentTeamId": 12,
-          "opponentLogo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 13,
-          "opponentTeamId": 6,
-          "opponentLogo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 14,
-          "opponentTeamId": 11,
-          "opponentLogo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        }
-      ],
-      "averageScore": 116.09,
-      "highScore": 170.52,
-      "lowScore": 82.28,
-      "roster": [
-        {
-          "playerId": 4426515,
-          "name": "Puka Nacua",
-          "nflTeam": "LAR",
-          "position": "WR",
-          "slot": "WR",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 113.6
-        },
-        {
-          "playerId": 4890973,
-          "name": "Ashton Jeanty",
-          "nflTeam": "LV",
-          "position": "RB",
-          "slot": "RB",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 122.0
-        },
-        {
-          "playerId": 4361579,
-          "name": "Javonte Williams",
-          "nflTeam": "DAL",
-          "position": "RB",
-          "slot": "RB",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 130.5
-        },
-        {
-          "playerId": 4567750,
-          "name": "Emeka Egbuka",
-          "nflTeam": "TB",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "OUT",
-          "seasonPoints": 71.1
-        },
-        {
-          "playerId": 4723086,
-          "name": "Colston Loveland",
-          "nflTeam": "CHI",
-          "position": "TE",
-          "slot": "TE",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 62.4
-        },
-        {
-          "playerId": 4035538,
-          "name": "David Montgomery",
-          "nflTeam": "HOU",
-          "position": "RB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 45.5
-        },
-        {
-          "playerId": 4432620,
-          "name": "Parker Washington",
-          "nflTeam": "JAX",
-          "position": "WR",
-          "slot": "RB/WR/TE",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 91.9
-        },
-        {
-          "playerId": 4248528,
-          "name": "Christian Watson",
-          "nflTeam": "GB",
-          "position": "WR",
-          "slot": "WR",
-          "group": "starter",
-          "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 146.8
-        },
-        {
-          "playerId": 4241985,
-          "name": "J.K. Dobbins",
-          "nflTeam": "DEN",
-          "position": "RB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 58.0
-        },
-        {
-          "playerId": 12483,
-          "name": "Matthew Stafford",
-          "nflTeam": "LAR",
-          "position": "QB",
-          "slot": "QB",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 123.36
-        },
-        {
-          "playerId": 4575131,
-          "name": "Jacory Croskey-Merritt",
-          "nflTeam": "WSH",
-          "position": "RB",
-          "slot": "IR",
-          "group": "ir",
-          "injuryStatus": "INJURY_RESERVE",
-          "seasonPoints": 44.9
-        },
-        {
-          "playerId": 4870653,
-          "name": "KC Concepcion",
-          "nflTeam": "CLE",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 62.9
-        },
-        {
-          "playerId": 4249087,
-          "name": "Matt Gay",
-          "nflTeam": "LV",
-          "position": "K",
-          "slot": "K",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 71.0
-        },
-        {
-          "playerId": -16014,
-          "name": "Rams D/ST",
-          "nflTeam": "LAR",
-          "position": "D/ST",
-          "slot": "D/ST",
-          "group": "starter",
-          "injuryStatus": "NORMAL",
-          "seasonPoints": 26.0
-        },
-        {
-          "playerId": 4361411,
-          "name": "Pat Freiermuth",
-          "nflTeam": "PIT",
-          "position": "TE",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 67.4
-        },
-        {
-          "playerId": 4373626,
-          "name": "Tyler Allgeier",
-          "nflTeam": "ARI",
-          "position": "RB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 48.0
-        },
-        {
-          "playerId": 15818,
-          "name": "Keenan Allen",
-          "nflTeam": "IND",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 60.8
-        }
-      ],
-      "rosterLabel": "Current Roster",
-      "formerPlayers": [
-        {
-          "playerId": -16006,
-          "name": "Cowboys D/ST",
-          "weeks": [
-            5
-          ]
-        },
-        {
-          "playerId": 3117256,
-          "name": "Dalton Schultz",
-          "weeks": [
-            3
-          ]
-        },
-        {
-          "playerId": 4360238,
-          "name": "Dameon Pierce",
-          "weeks": [
-            6,
-            7
-          ]
-        },
-        {
-          "playerId": 3055899,
-          "name": "Harrison Butker",
-          "weeks": [
-            1,
-            2,
-            3,
-            4
-          ]
-        },
-        {
-          "playerId": 4678008,
-          "name": "Jonathon Brooks",
-          "weeks": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ]
-        },
-        {
-          "playerId": 5083315,
-          "name": "Kenyon Sadiq",
-          "weeks": [
-            4,
-            5
-          ]
-        },
-        {
-          "playerId": 4429025,
-          "name": "Quentin Johnston",
-          "weeks": [
-            1,
-            2,
-            3,
-            4
-          ]
-        },
-        {
-          "playerId": -16033,
-          "name": "Ravens D/ST",
-          "weeks": [
-            1,
-            2,
-            3,
-            4
-          ]
-        },
-        {
-          "playerId": 4567104,
-          "name": "Will Reichard",
-          "weeks": [
-            5
-          ]
-        },
-        {
-          "playerId": 4431545,
-          "name": "Will Shipley",
-          "weeks": [
-            5
-          ]
-        }
-      ]
-    },
-    "12": {
-      "teamId": 12,
-      "weeks": [
-        {
-          "week": 1,
-          "opponentTeamId": 15,
-          "opponentLogo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp",
-          "score": 126.86,
-          "opponentScore": 126.8,
-          "result": "W",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": {
-            "wins": 1,
-            "losses": 0,
-            "ties": 0
-          },
-          "scoreRank": 6,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 2,
-          "opponentTeamId": 16,
-          "opponentLogo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp",
-          "score": 116.88,
-          "opponentScore": 144.76,
-          "result": "L",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": {
-            "wins": 1,
-            "losses": 1,
-            "ties": 0
-          },
-          "scoreRank": 6,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 3,
-          "opponentTeamId": 5,
-          "opponentLogo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg",
-          "score": 112.04,
-          "opponentScore": 110.3,
-          "result": "W",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": {
-            "wins": 2,
-            "losses": 1,
-            "ties": 0
-          },
-          "scoreRank": 6,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 4,
-          "opponentTeamId": 3,
-          "opponentLogo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp",
-          "score": 100.1,
-          "opponentScore": 91.32,
-          "result": "W",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": {
-            "wins": 3,
-            "losses": 1,
-            "ties": 0
-          },
-          "scoreRank": 9,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 5,
-          "opponentTeamId": 13,
-          "opponentLogo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg",
-          "score": 142.94,
-          "opponentScore": 140.44,
-          "result": "W",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": {
-            "wins": 4,
-            "losses": 1,
-            "ties": 0
-          },
-          "scoreRank": 4,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 6,
-          "opponentTeamId": 6,
-          "opponentLogo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp",
-          "score": 97.48,
-          "opponentScore": 111.54,
-          "result": "L",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": {
-            "wins": 4,
-            "losses": 2,
-            "ties": 0
-          },
-          "scoreRank": 7,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 7,
-          "opponentTeamId": 11,
-          "opponentLogo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg",
-          "score": 75.3,
-          "opponentScore": 89.9,
-          "result": "L",
-          "status": "final",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": {
-            "wins": 4,
-            "losses": 3,
-            "ties": 0
-          },
-          "scoreRank": 10,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 8,
-          "opponentTeamId": 2,
-          "opponentLogo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 9,
-          "opponentTeamId": 1,
-          "opponentLogo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 10,
-          "opponentTeamId": 15,
-          "opponentLogo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 11,
-          "opponentTeamId": 16,
-          "opponentLogo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 12,
-          "opponentTeamId": 5,
-          "opponentLogo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 13,
-          "opponentTeamId": 3,
-          "opponentLogo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        },
-        {
-          "week": 14,
-          "opponentTeamId": 13,
-          "opponentLogo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
-          "phase": "regular",
-          "bracket": "regular",
-          "roundLabel": null,
-          "isPlayoff": false,
-          "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
-          "displayRoundLabel": null
-        }
-      ],
-      "averageScore": 110.23,
-      "highScore": 142.94,
-      "lowScore": 75.3,
-      "roster": [
-        {
-          "playerId": 3929630,
-          "name": "Saquon Barkley",
-          "nflTeam": "PHI",
-          "position": "RB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 38.1
-        },
-        {
-          "playerId": 3043078,
-          "name": "Derrick Henry",
-          "nflTeam": "BAL",
-          "position": "RB",
-          "slot": "RB",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 122.7
-        },
-        {
-          "playerId": 4430737,
-          "name": "Kyren Williams",
-          "nflTeam": "LAR",
-          "position": "RB",
-          "slot": "RB",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 137.1
-        },
-        {
-          "playerId": 4426354,
-          "name": "George Pickens",
-          "nflTeam": "DAL",
-          "position": "WR",
-          "slot": "WR",
-          "group": "starter",
-          "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 97.5
-        },
-        {
-          "playerId": 4426388,
-          "name": "Jameson Williams",
-          "nflTeam": "DET",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 83.7
-        },
-        {
-          "playerId": 4431299,
-          "name": "Rome Odunze",
-          "nflTeam": "CHI",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 60.1
-        },
-        {
-          "playerId": 16737,
-          "name": "Mike Evans",
-          "nflTeam": "SF",
-          "position": "WR",
-          "slot": "IR",
-          "group": "ir",
-          "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 89.0
-        },
-        {
-          "playerId": 3139477,
-          "name": "Patrick Mahomes",
-          "nflTeam": "KC",
-          "position": "QB",
-          "slot": "QB",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 100.06
-        },
-        {
-          "playerId": 2976212,
-          "name": "Stefon Diggs",
-          "nflTeam": "WSH",
-          "position": "WR",
-          "slot": "WR",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 69.4
-        },
-        {
-          "playerId": 15847,
-          "name": "Travis Kelce",
-          "nflTeam": "KC",
-          "position": "TE",
-          "slot": "TE",
-          "group": "starter",
-          "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 70.3
-        },
-        {
-          "playerId": 4373678,
-          "name": "Khalil Shakir",
-          "nflTeam": "BUF",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 55.0
-        },
-        {
-          "playerId": 4683062,
-          "name": "Xavier Worthy",
-          "nflTeam": "KC",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 51.7
-        },
-        {
-          "playerId": 4571557,
-          "name": "Spencer Shrader",
-          "nflTeam": "IND",
-          "position": "K",
-          "slot": "K",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 87.0
-        },
-        {
-          "playerId": 4832955,
-          "name": "Emmett Johnson",
-          "nflTeam": "KC",
-          "position": "RB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 26.1
-        },
-        {
-          "playerId": -16012,
-          "name": "Chiefs D/ST",
-          "nflTeam": "KC",
-          "position": "D/ST",
-          "slot": "D/ST",
-          "group": "starter",
-          "injuryStatus": "NORMAL",
-          "seasonPoints": 36.0
-        },
-        {
-          "playerId": 4697815,
-          "name": "Rachaad White",
-          "nflTeam": "WSH",
-          "position": "RB",
-          "slot": "RB/WR/TE",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 48.8
-        },
-        {
-          "playerId": 4723820,
-          "name": "Omar Cooper Jr.",
-          "nflTeam": "NYJ",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 48.8
-        }
-      ],
-      "rosterLabel": "Current Roster",
-      "formerPlayers": [
-        {
-          "playerId": -16005,
-          "name": "Browns D/ST",
-          "weeks": [
-            5
-          ]
-        },
-        {
-          "playerId": 3046779,
-          "name": "Jared Goff",
-          "weeks": [
-            5
-          ]
-        },
-        {
-          "playerId": 2473037,
-          "name": "Jason Myers",
-          "weeks": [
-            1,
-            2,
-            3,
-            4,
-            6,
-            7
-          ]
-        },
-        {
-          "playerId": 15818,
-          "name": "Keenan Allen",
-          "weeks": [
-            1,
-            2
-          ]
-        },
-        {
-          "playerId": 4036133,
-          "name": "T.J. Hockenson",
-          "weeks": [
-            5
-          ]
-        },
-        {
-          "playerId": 4373626,
-          "name": "Tyler Allgeier",
-          "weeks": [
-            1
-          ]
-        },
-        {
-          "playerId": 4362921,
-          "name": "Tyquan Thornton",
-          "weeks": [
-            3,
-            4
-          ]
-        },
-        {
-          "playerId": 3116406,
-          "name": "Tyreek Hill",
-          "weeks": [
-            5
           ]
         }
       ]
@@ -3167,17 +2174,21 @@
           "week": 8,
           "opponentTeamId": 12,
           "opponentLogo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
+          "score": 174.18,
+          "opponentScore": 86.64,
+          "result": "W",
+          "status": "final",
           "phase": "regular",
           "bracket": "regular",
           "roundLabel": null,
           "isPlayoff": false,
           "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
+          "cumulativeRecord": {
+            "wins": 4,
+            "losses": 4,
+            "ties": 0
+          },
+          "scoreRank": 1,
           "displayRoundLabel": null
         },
         {
@@ -3283,8 +2294,8 @@
           "displayRoundLabel": null
         }
       ],
-      "averageScore": 125.87,
-      "highScore": 155.34,
+      "averageScore": 131.91,
+      "highScore": 174.18,
       "lowScore": 89.36,
       "roster": [
         {
@@ -3295,7 +2306,7 @@
           "slot": "WR",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 196.16
+          "seasonPoints": 219.96
         },
         {
           "playerId": 4362238,
@@ -3305,7 +2316,7 @@
           "slot": "RB",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 74.8
+          "seasonPoints": 90.9
         },
         {
           "playerId": 4567048,
@@ -3315,7 +2326,7 @@
           "slot": "RB",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 147.7
+          "seasonPoints": 160.1
         },
         {
           "playerId": 4596448,
@@ -3325,7 +2336,7 @@
           "slot": "RB/WR/TE",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 109.6
+          "seasonPoints": 130.6
         },
         {
           "playerId": 4372016,
@@ -3334,18 +2345,18 @@
           "position": "WR",
           "slot": "BE",
           "group": "bench",
-          "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 63.9
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 78.8
         },
         {
           "playerId": 3915416,
           "name": "DJ Moore",
           "nflTeam": "BUF",
           "position": "WR",
-          "slot": "BE",
-          "group": "bench",
+          "slot": "WR",
+          "group": "starter",
           "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 36.3
+          "seasonPoints": 52.9
         },
         {
           "playerId": 4569987,
@@ -3355,7 +2366,7 @@
           "slot": "BE",
           "group": "bench",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 119.5
+          "seasonPoints": 140.8
         },
         {
           "playerId": 3915511,
@@ -3365,7 +2376,7 @@
           "slot": "QB",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 130.12
+          "seasonPoints": 169.6
         },
         {
           "playerId": 4047365,
@@ -3378,24 +2389,14 @@
           "seasonPoints": 43.3
         },
         {
-          "playerId": -16034,
-          "name": "Texans D/ST",
-          "nflTeam": "HOU",
-          "position": "D/ST",
-          "slot": "D/ST",
-          "group": "starter",
-          "injuryStatus": "NORMAL",
-          "seasonPoints": 29.0
-        },
-        {
           "playerId": 4702555,
           "name": "Jonah Coleman",
           "nflTeam": "DEN",
           "position": "RB",
-          "slot": "IR",
-          "group": "ir",
+          "slot": "BE",
+          "group": "bench",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 23.7
+          "seasonPoints": 44.1
         },
         {
           "playerId": 3929645,
@@ -3428,26 +2429,6 @@
           "seasonPoints": 146.02
         },
         {
-          "playerId": 2573401,
-          "name": "Tyler Higbee",
-          "nflTeam": "LAR",
-          "position": "TE",
-          "slot": "TE",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 54.0
-        },
-        {
-          "playerId": 4695193,
-          "name": "Efton Chism III",
-          "nflTeam": "NE",
-          "position": "WR",
-          "slot": "WR",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 28.24
-        },
-        {
           "playerId": 17372,
           "name": "Chris Boswell",
           "nflTeam": "PIT",
@@ -3455,7 +2436,27 @@
           "slot": "K",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 69.0
+          "seasonPoints": 77.0
+        },
+        {
+          "playerId": -16030,
+          "name": "Jaguars D/ST",
+          "nflTeam": "JAX",
+          "position": "D/ST",
+          "slot": "D/ST",
+          "group": "starter",
+          "injuryStatus": "NORMAL",
+          "seasonPoints": 55.0
+        },
+        {
+          "playerId": 4036133,
+          "name": "T.J. Hockenson",
+          "nflTeam": "MIN",
+          "position": "TE",
+          "slot": "TE",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 78.5
         }
       ],
       "rosterLabel": "Current Roster",
@@ -3510,6 +2511,14 @@
           ]
         },
         {
+          "playerId": 4695193,
+          "name": "Efton Chism III",
+          "weeks": [
+            6,
+            7
+          ]
+        },
+        {
           "playerId": 4360234,
           "name": "Evan McPherson",
           "weeks": [
@@ -3523,6 +2532,565 @@
           "name": "Terrance Ferguson",
           "weeks": [
             3
+          ]
+        },
+        {
+          "playerId": -16034,
+          "name": "Texans D/ST",
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "playerId": 2573401,
+          "name": "Tyler Higbee",
+          "weeks": [
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    "5": {
+      "teamId": 5,
+      "weeks": [
+        {
+          "week": 1,
+          "opponentTeamId": 13,
+          "opponentLogo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg",
+          "score": 128.6,
+          "opponentScore": 88.82,
+          "result": "W",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 1,
+            "losses": 0,
+            "ties": 0
+          },
+          "scoreRank": 5,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 2,
+          "opponentTeamId": 3,
+          "opponentLogo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp",
+          "score": 82.28,
+          "opponentScore": 132.92,
+          "result": "L",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 1,
+            "losses": 1,
+            "ties": 0
+          },
+          "scoreRank": 10,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 3,
+          "opponentTeamId": 12,
+          "opponentLogo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp",
+          "score": 110.3,
+          "opponentScore": 112.04,
+          "result": "L",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 1,
+            "losses": 2,
+            "ties": 0
+          },
+          "scoreRank": 7,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 4,
+          "opponentTeamId": 6,
+          "opponentLogo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp",
+          "score": 109.98,
+          "opponentScore": 173.76,
+          "result": "L",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 1,
+            "losses": 3,
+            "ties": 0
+          },
+          "scoreRank": 8,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 5,
+          "opponentTeamId": 11,
+          "opponentLogo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg",
+          "score": 170.52,
+          "opponentScore": 146.16,
+          "result": "W",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 2,
+            "losses": 3,
+            "ties": 0
+          },
+          "scoreRank": 1,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 6,
+          "opponentTeamId": 2,
+          "opponentLogo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg",
+          "score": 96.58,
+          "opponentScore": 89.36,
+          "result": "W",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 3,
+            "losses": 3,
+            "ties": 0
+          },
+          "scoreRank": 8,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 7,
+          "opponentTeamId": 1,
+          "opponentLogo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp",
+          "score": 114.4,
+          "opponentScore": 102.72,
+          "result": "W",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 4,
+            "losses": 3,
+            "ties": 0
+          },
+          "scoreRank": 3,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 8,
+          "opponentTeamId": 15,
+          "opponentLogo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp",
+          "score": 103.68,
+          "opponentScore": 142.7,
+          "result": "L",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 4,
+            "losses": 4,
+            "ties": 0
+          },
+          "scoreRank": 7,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 9,
+          "opponentTeamId": 16,
+          "opponentLogo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 10,
+          "opponentTeamId": 13,
+          "opponentLogo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 11,
+          "opponentTeamId": 3,
+          "opponentLogo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 12,
+          "opponentTeamId": 12,
+          "opponentLogo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 13,
+          "opponentTeamId": 6,
+          "opponentLogo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 14,
+          "opponentTeamId": 11,
+          "opponentLogo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null,
+          "displayRoundLabel": null
+        }
+      ],
+      "averageScore": 114.54,
+      "highScore": 170.52,
+      "lowScore": 82.28,
+      "roster": [
+        {
+          "playerId": 4426515,
+          "name": "Puka Nacua",
+          "nflTeam": "LAR",
+          "position": "WR",
+          "slot": "WR",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 138.6
+        },
+        {
+          "playerId": 4890973,
+          "name": "Ashton Jeanty",
+          "nflTeam": "LV",
+          "position": "RB",
+          "slot": "RB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 132.3
+        },
+        {
+          "playerId": 4361579,
+          "name": "Javonte Williams",
+          "nflTeam": "DAL",
+          "position": "RB",
+          "slot": "RB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 137.2
+        },
+        {
+          "playerId": 4567750,
+          "name": "Emeka Egbuka",
+          "nflTeam": "TB",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonPoints": 71.1
+        },
+        {
+          "playerId": 4723086,
+          "name": "Colston Loveland",
+          "nflTeam": "CHI",
+          "position": "TE",
+          "slot": "TE",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 73.9
+        },
+        {
+          "playerId": 4035538,
+          "name": "David Montgomery",
+          "nflTeam": "HOU",
+          "position": "RB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonPoints": 45.5
+        },
+        {
+          "playerId": 4432620,
+          "name": "Parker Washington",
+          "nflTeam": "JAX",
+          "position": "WR",
+          "slot": "RB/WR/TE",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 95.5
+        },
+        {
+          "playerId": 4248528,
+          "name": "Christian Watson",
+          "nflTeam": "GB",
+          "position": "WR",
+          "slot": "WR",
+          "group": "starter",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonPoints": 146.8
+        },
+        {
+          "playerId": 4241985,
+          "name": "J.K. Dobbins",
+          "nflTeam": "DEN",
+          "position": "RB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 59.3
+        },
+        {
+          "playerId": 12483,
+          "name": "Matthew Stafford",
+          "nflTeam": "LAR",
+          "position": "QB",
+          "slot": "QB",
+          "group": "starter",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonPoints": 131.64
+        },
+        {
+          "playerId": 4575131,
+          "name": "Jacory Croskey-Merritt",
+          "nflTeam": "WSH",
+          "position": "RB",
+          "slot": "IR",
+          "group": "ir",
+          "injuryStatus": "INJURY_RESERVE",
+          "seasonPoints": 44.9
+        },
+        {
+          "playerId": 4870653,
+          "name": "KC Concepcion",
+          "nflTeam": "CLE",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 69.6
+        },
+        {
+          "playerId": 4249087,
+          "name": "Matt Gay",
+          "nflTeam": "LV",
+          "position": "K",
+          "slot": "K",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 81.0
+        },
+        {
+          "playerId": -16014,
+          "name": "Rams D/ST",
+          "nflTeam": "LAR",
+          "position": "D/ST",
+          "slot": "D/ST",
+          "group": "starter",
+          "injuryStatus": "NORMAL",
+          "seasonPoints": 37.0
+        },
+        {
+          "playerId": 4361411,
+          "name": "Pat Freiermuth",
+          "nflTeam": "PIT",
+          "position": "TE",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 79.0
+        },
+        {
+          "playerId": 4373626,
+          "name": "Tyler Allgeier",
+          "nflTeam": "ARI",
+          "position": "RB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 84.1
+        },
+        {
+          "playerId": 15818,
+          "name": "Keenan Allen",
+          "nflTeam": "IND",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 74.5
+        }
+      ],
+      "rosterLabel": "Current Roster",
+      "formerPlayers": [
+        {
+          "playerId": -16006,
+          "name": "Cowboys D/ST",
+          "weeks": [
+            5
+          ]
+        },
+        {
+          "playerId": 3117256,
+          "name": "Dalton Schultz",
+          "weeks": [
+            3
+          ]
+        },
+        {
+          "playerId": 4360238,
+          "name": "Dameon Pierce",
+          "weeks": [
+            6,
+            7
+          ]
+        },
+        {
+          "playerId": 3055899,
+          "name": "Harrison Butker",
+          "weeks": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "playerId": 4678008,
+          "name": "Jonathon Brooks",
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "playerId": 5083315,
+          "name": "Kenyon Sadiq",
+          "weeks": [
+            4,
+            5
+          ]
+        },
+        {
+          "playerId": 4429025,
+          "name": "Quentin Johnston",
+          "weeks": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "playerId": -16033,
+          "name": "Ravens D/ST",
+          "weeks": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "playerId": 4567104,
+          "name": "Will Reichard",
+          "weeks": [
+            5
+          ]
+        },
+        {
+          "playerId": 4431545,
+          "name": "Will Shipley",
+          "weeks": [
+            5
           ]
         }
       ]
@@ -3681,17 +3249,21 @@
           "week": 8,
           "opponentTeamId": 3,
           "opponentLogo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp",
-          "score": null,
-          "opponentScore": null,
-          "result": "—",
-          "status": "upcoming",
+          "score": 108.1,
+          "opponentScore": 97.66,
+          "result": "W",
+          "status": "final",
           "phase": "regular",
           "bracket": "regular",
           "roundLabel": null,
           "isPlayoff": false,
           "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
+          "cumulativeRecord": {
+            "wins": 4,
+            "losses": 4,
+            "ties": 0
+          },
+          "scoreRank": 6,
           "displayRoundLabel": null
         },
         {
@@ -3797,7 +3369,7 @@
           "displayRoundLabel": null
         }
       ],
-      "averageScore": 112.38,
+      "averageScore": 111.85,
       "highScore": 138.16,
       "lowScore": 75.64,
       "roster": [
@@ -3809,7 +3381,7 @@
           "slot": "WR",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 72.1
+          "seasonPoints": 86.4
         },
         {
           "playerId": 4379399,
@@ -3819,7 +3391,7 @@
           "slot": "RB",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 113.6
+          "seasonPoints": 131.7
         },
         {
           "playerId": 4239996,
@@ -3848,7 +3420,7 @@
           "position": "QB",
           "slot": "QB",
           "group": "starter",
-          "injuryStatus": "ACTIVE",
+          "injuryStatus": "OUT",
           "seasonPoints": 79.08
         },
         {
@@ -3858,8 +3430,8 @@
           "position": "RB",
           "slot": "BE",
           "group": "bench",
-          "injuryStatus": "INJURY_RESERVE",
-          "seasonPoints": 14.0
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 19.7
         },
         {
           "playerId": 4360761,
@@ -3869,7 +3441,7 @@
           "slot": "WR",
           "group": "starter",
           "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 81.88
+          "seasonPoints": 108.68
         },
         {
           "playerId": 4429096,
@@ -3879,7 +3451,7 @@
           "slot": "RB/WR/TE",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 69.5
+          "seasonPoints": 82.8
         },
         {
           "playerId": 4429205,
@@ -3889,7 +3461,7 @@
           "slot": "BE",
           "group": "bench",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 37.5
+          "seasonPoints": 49.1
         },
         {
           "playerId": 4360569,
@@ -3899,7 +3471,7 @@
           "slot": "RB",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 18.7
+          "seasonPoints": 20.7
         },
         {
           "playerId": 4429059,
@@ -3918,8 +3490,8 @@
           "position": "TE",
           "slot": "TE",
           "group": "starter",
-          "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 60.5
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 79.1
         },
         {
           "playerId": 4887558,
@@ -3930,16 +3502,6 @@
           "group": "bench",
           "injuryStatus": "ACTIVE",
           "seasonPoints": 74.8
-        },
-        {
-          "playerId": -16020,
-          "name": "Jets D/ST",
-          "nflTeam": "NYJ",
-          "position": "D/ST",
-          "slot": "D/ST",
-          "group": "starter",
-          "injuryStatus": "NORMAL",
-          "seasonPoints": 40.0
         },
         {
           "playerId": 4567104,
@@ -3970,6 +3532,16 @@
           "group": "bench",
           "injuryStatus": "ACTIVE",
           "seasonPoints": 128.68
+        },
+        {
+          "playerId": -16027,
+          "name": "Buccaneers D/ST",
+          "nflTeam": "TB",
+          "position": "D/ST",
+          "slot": "D/ST",
+          "group": "starter",
+          "injuryStatus": "NORMAL",
+          "seasonPoints": 82.0
         }
       ],
       "rosterLabel": "Current Roster",
@@ -3979,13 +3551,6 @@
           "name": "Bengals D/ST",
           "weeks": [
             5
-          ]
-        },
-        {
-          "playerId": -16027,
-          "name": "Buccaneers D/ST",
-          "weeks": [
-            2
           ]
         },
         {
@@ -4031,6 +3596,13 @@
           ]
         },
         {
+          "playerId": -16020,
+          "name": "Jets D/ST",
+          "weeks": [
+            7
+          ]
+        },
+        {
           "playerId": -16014,
           "name": "Rams D/ST",
           "weeks": [
@@ -4045,6 +3617,522 @@
           "name": "Ravens D/ST",
           "weeks": [
             6
+          ]
+        }
+      ]
+    },
+    "12": {
+      "teamId": 12,
+      "weeks": [
+        {
+          "week": 1,
+          "opponentTeamId": 15,
+          "opponentLogo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp",
+          "score": 126.86,
+          "opponentScore": 126.8,
+          "result": "W",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 1,
+            "losses": 0,
+            "ties": 0
+          },
+          "scoreRank": 6,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 2,
+          "opponentTeamId": 16,
+          "opponentLogo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp",
+          "score": 116.88,
+          "opponentScore": 144.76,
+          "result": "L",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 1,
+            "losses": 1,
+            "ties": 0
+          },
+          "scoreRank": 6,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 3,
+          "opponentTeamId": 5,
+          "opponentLogo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg",
+          "score": 112.04,
+          "opponentScore": 110.3,
+          "result": "W",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 2,
+            "losses": 1,
+            "ties": 0
+          },
+          "scoreRank": 6,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 4,
+          "opponentTeamId": 3,
+          "opponentLogo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp",
+          "score": 100.1,
+          "opponentScore": 91.32,
+          "result": "W",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 3,
+            "losses": 1,
+            "ties": 0
+          },
+          "scoreRank": 9,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 5,
+          "opponentTeamId": 13,
+          "opponentLogo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg",
+          "score": 142.94,
+          "opponentScore": 140.44,
+          "result": "W",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 4,
+            "losses": 1,
+            "ties": 0
+          },
+          "scoreRank": 4,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 6,
+          "opponentTeamId": 6,
+          "opponentLogo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp",
+          "score": 97.48,
+          "opponentScore": 111.54,
+          "result": "L",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 4,
+            "losses": 2,
+            "ties": 0
+          },
+          "scoreRank": 7,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 7,
+          "opponentTeamId": 11,
+          "opponentLogo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg",
+          "score": 75.3,
+          "opponentScore": 89.9,
+          "result": "L",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 4,
+            "losses": 3,
+            "ties": 0
+          },
+          "scoreRank": 10,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 8,
+          "opponentTeamId": 2,
+          "opponentLogo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg",
+          "score": 86.64,
+          "opponentScore": 174.18,
+          "result": "L",
+          "status": "final",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": {
+            "wins": 4,
+            "losses": 4,
+            "ties": 0
+          },
+          "scoreRank": 9,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 9,
+          "opponentTeamId": 1,
+          "opponentLogo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 10,
+          "opponentTeamId": 15,
+          "opponentLogo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 11,
+          "opponentTeamId": 16,
+          "opponentLogo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 12,
+          "opponentTeamId": 5,
+          "opponentLogo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 13,
+          "opponentTeamId": 3,
+          "opponentLogo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null,
+          "displayRoundLabel": null
+        },
+        {
+          "week": 14,
+          "opponentTeamId": 13,
+          "opponentLogo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg",
+          "score": null,
+          "opponentScore": null,
+          "result": "—",
+          "status": "upcoming",
+          "phase": "regular",
+          "bracket": "regular",
+          "roundLabel": null,
+          "isPlayoff": false,
+          "isBye": false,
+          "cumulativeRecord": null,
+          "scoreRank": null,
+          "displayRoundLabel": null
+        }
+      ],
+      "averageScore": 107.28,
+      "highScore": 142.94,
+      "lowScore": 75.3,
+      "roster": [
+        {
+          "playerId": 3929630,
+          "name": "Saquon Barkley",
+          "nflTeam": "PHI",
+          "position": "RB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 50.5
+        },
+        {
+          "playerId": 3043078,
+          "name": "Derrick Henry",
+          "nflTeam": "BAL",
+          "position": "RB",
+          "slot": "RB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 136.7
+        },
+        {
+          "playerId": 4430737,
+          "name": "Kyren Williams",
+          "nflTeam": "LAR",
+          "position": "RB",
+          "slot": "RB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 150.0
+        },
+        {
+          "playerId": 4426354,
+          "name": "George Pickens",
+          "nflTeam": "DAL",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 104.3
+        },
+        {
+          "playerId": 4426388,
+          "name": "Jameson Williams",
+          "nflTeam": "DET",
+          "position": "WR",
+          "slot": "WR",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 100.7
+        },
+        {
+          "playerId": 4431299,
+          "name": "Rome Odunze",
+          "nflTeam": "CHI",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 72.8
+        },
+        {
+          "playerId": 16737,
+          "name": "Mike Evans",
+          "nflTeam": "SF",
+          "position": "WR",
+          "slot": "IR",
+          "group": "ir",
+          "injuryStatus": "QUESTIONABLE",
+          "seasonPoints": 89.0
+        },
+        {
+          "playerId": 3139477,
+          "name": "Patrick Mahomes",
+          "nflTeam": "KC",
+          "position": "QB",
+          "slot": "QB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 125.5
+        },
+        {
+          "playerId": 2976212,
+          "name": "Stefon Diggs",
+          "nflTeam": "WSH",
+          "position": "WR",
+          "slot": "WR",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 82.2
+        },
+        {
+          "playerId": 15847,
+          "name": "Travis Kelce",
+          "nflTeam": "KC",
+          "position": "TE",
+          "slot": "TE",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 82.0
+        },
+        {
+          "playerId": 4373678,
+          "name": "Khalil Shakir",
+          "nflTeam": "BUF",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 66.4
+        },
+        {
+          "playerId": 4683062,
+          "name": "Xavier Worthy",
+          "nflTeam": "KC",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 56.0
+        },
+        {
+          "playerId": 4571557,
+          "name": "Spencer Shrader",
+          "nflTeam": "IND",
+          "position": "K",
+          "slot": "K",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 88.0
+        },
+        {
+          "playerId": 4832955,
+          "name": "Emmett Johnson",
+          "nflTeam": "KC",
+          "position": "RB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 51.4
+        },
+        {
+          "playerId": -16012,
+          "name": "Chiefs D/ST",
+          "nflTeam": "KC",
+          "position": "D/ST",
+          "slot": "D/ST",
+          "group": "starter",
+          "injuryStatus": "NORMAL",
+          "seasonPoints": 38.0
+        },
+        {
+          "playerId": 4697815,
+          "name": "Rachaad White",
+          "nflTeam": "WSH",
+          "position": "RB",
+          "slot": "RB/WR/TE",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 62.8
+        },
+        {
+          "playerId": 4723820,
+          "name": "Omar Cooper Jr.",
+          "nflTeam": "NYJ",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 48.8
+        }
+      ],
+      "rosterLabel": "Current Roster",
+      "formerPlayers": [
+        {
+          "playerId": -16005,
+          "name": "Browns D/ST",
+          "weeks": [
+            5
+          ]
+        },
+        {
+          "playerId": 3046779,
+          "name": "Jared Goff",
+          "weeks": [
+            5
+          ]
+        },
+        {
+          "playerId": 2473037,
+          "name": "Jason Myers",
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "playerId": 15818,
+          "name": "Keenan Allen",
+          "weeks": [
+            1,
+            2
+          ]
+        },
+        {
+          "playerId": 4036133,
+          "name": "T.J. Hockenson",
+          "weeks": [
+            5
+          ]
+        },
+        {
+          "playerId": 4373626,
+          "name": "Tyler Allgeier",
+          "weeks": [
+            1
+          ]
+        },
+        {
+          "playerId": 4362921,
+          "name": "Tyquan Thornton",
+          "weeks": [
+            3,
+            4
+          ]
+        },
+        {
+          "playerId": 3116406,
+          "name": "Tyreek Hill",
+          "weeks": [
+            5
           ]
         }
       ]
@@ -4203,17 +4291,21 @@
           "week": 8,
           "opponentTeamId": 16,
           "opponentLogo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp",
-          "score": 0.0,
-          "opponentScore": 42.42,
-          "result": "—",
-          "status": "live",
+          "score": 131.06,
+          "opponentScore": 117.22,
+          "result": "W",
+          "status": "final",
           "phase": "regular",
           "bracket": "regular",
           "roundLabel": null,
           "isPlayoff": false,
           "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
+          "cumulativeRecord": {
+            "wins": 3,
+            "losses": 5,
+            "ties": 0
+          },
+          "scoreRank": 3,
           "displayRoundLabel": null
         },
         {
@@ -4319,7 +4411,7 @@
           "displayRoundLabel": null
         }
       ],
-      "averageScore": 113.81,
+      "averageScore": 115.97,
       "highScore": 140.44,
       "lowScore": 88.82,
       "roster": [
@@ -4331,7 +4423,7 @@
           "slot": "WR",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 97.1
+          "seasonPoints": 128.2
         },
         {
           "playerId": 4426502,
@@ -4341,7 +4433,7 @@
           "slot": "WR",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 108.0
+          "seasonPoints": 109.8
         },
         {
           "playerId": 4432665,
@@ -4351,15 +4443,15 @@
           "slot": "TE",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 95.5
+          "seasonPoints": 123.7
         },
         {
           "playerId": 4427366,
           "name": "Breece Hall",
           "nflTeam": "NYJ",
           "position": "RB",
-          "slot": "BE",
-          "group": "bench",
+          "slot": "RB",
+          "group": "starter",
           "injuryStatus": "QUESTIONABLE",
           "seasonPoints": 42.5
         },
@@ -4371,7 +4463,7 @@
           "slot": "RB",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 79.7
+          "seasonPoints": 86.6
         },
         {
           "playerId": 4431452,
@@ -4381,7 +4473,7 @@
           "slot": "QB",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 138.46
+          "seasonPoints": 160.92
         },
         {
           "playerId": 4685278,
@@ -4391,7 +4483,7 @@
           "slot": "RB/WR/TE",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 97.0
+          "seasonPoints": 115.6
         },
         {
           "playerId": 4035687,
@@ -4411,7 +4503,7 @@
           "slot": "BE",
           "group": "bench",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 76.5
+          "seasonPoints": 77.9
         },
         {
           "playerId": 4572680,
@@ -4431,7 +4523,7 @@
           "slot": "BE",
           "group": "bench",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 114.2
+          "seasonPoints": 133.6
         },
         {
           "playerId": 4426338,
@@ -4441,7 +4533,7 @@
           "slot": "BE",
           "group": "bench",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 95.84
+          "seasonPoints": 115.12
         },
         {
           "playerId": 4361050,
@@ -4461,7 +4553,7 @@
           "slot": "D/ST",
           "group": "starter",
           "injuryStatus": "NORMAL",
-          "seasonPoints": 57.0
+          "seasonPoints": 73.0
         },
         {
           "playerId": 4689936,
@@ -4471,17 +4563,17 @@
           "slot": "K",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 58.0
+          "seasonPoints": 64.0
         },
         {
           "playerId": 4371733,
           "name": "Kenny Gainwell",
           "nflTeam": "TB",
           "position": "RB",
-          "slot": "RB",
-          "group": "starter",
-          "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 39.0
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 53.0
         }
       ],
       "rosterLabel": "Current Roster",
@@ -4651,17 +4743,21 @@
           "week": 8,
           "opponentTeamId": 13,
           "opponentLogo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg",
-          "score": 42.42,
-          "opponentScore": 0.0,
-          "result": "—",
-          "status": "live",
+          "score": 117.22,
+          "opponentScore": 131.06,
+          "result": "L",
+          "status": "final",
           "phase": "regular",
           "bracket": "regular",
           "roundLabel": null,
           "isPlayoff": false,
           "isBye": false,
-          "cumulativeRecord": null,
-          "scoreRank": null,
+          "cumulativeRecord": {
+            "wins": 1,
+            "losses": 7,
+            "ties": 0
+          },
+          "scoreRank": 5,
           "displayRoundLabel": null
         },
         {
@@ -4767,7 +4863,7 @@
           "displayRoundLabel": null
         }
       ],
-      "averageScore": 109.25,
+      "averageScore": 110.24,
       "highScore": 144.76,
       "lowScore": 80.96,
       "roster": [
@@ -4779,7 +4875,7 @@
           "slot": "BE",
           "group": "bench",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 57.5
+          "seasonPoints": 62.2
         },
         {
           "playerId": 4241389,
@@ -4789,7 +4885,7 @@
           "slot": "RB/WR/TE",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 155.5
+          "seasonPoints": 168.3
         },
         {
           "playerId": 4569618,
@@ -4799,7 +4895,7 @@
           "slot": "WR",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 99.4
+          "seasonPoints": 113.7
         },
         {
           "playerId": 4696981,
@@ -4818,8 +4914,8 @@
           "position": "RB",
           "slot": "RB",
           "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 88.4
+          "injuryStatus": "QUESTIONABLE",
+          "seasonPoints": 118.3
         },
         {
           "playerId": 4431459,
@@ -4829,7 +4925,7 @@
           "slot": "TE",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 69.9
+          "seasonPoints": 75.7
         },
         {
           "playerId": 4569587,
@@ -4839,7 +4935,7 @@
           "slot": "BE",
           "group": "bench",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 61.6
+          "seasonPoints": 77.3
         },
         {
           "playerId": 4038941,
@@ -4849,7 +4945,7 @@
           "slot": "BE",
           "group": "bench",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 62.44
+          "seasonPoints": 70.22
         },
         {
           "playerId": 4608686,
@@ -4899,7 +4995,7 @@
           "slot": "D/ST",
           "group": "starter",
           "injuryStatus": "NORMAL",
-          "seasonPoints": 42.0
+          "seasonPoints": 51.0
         },
         {
           "playerId": 4036378,
@@ -4928,8 +5024,8 @@
           "position": "K",
           "slot": "K",
           "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 63.0
+          "injuryStatus": "QUESTIONABLE",
+          "seasonPoints": 66.0
         },
         {
           "playerId": 4428718,
@@ -5475,10 +5571,10 @@
       "week": 8,
       "homeTeamId": 3,
       "awayTeamId": 1,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
-      "winnerTeamId": null,
+      "homeScore": 97.66,
+      "awayScore": 108.1,
+      "status": "final",
+      "winnerTeamId": 1,
       "bracket": "regular",
       "phase": "regular",
       "roundLabel": null,
@@ -5489,10 +5585,10 @@
       "week": 8,
       "homeTeamId": 11,
       "awayTeamId": 6,
-      "homeScore": 0.0,
-      "awayScore": 22.16,
-      "status": "live",
-      "winnerTeamId": null,
+      "homeScore": 118.88,
+      "awayScore": 73.26,
+      "status": "final",
+      "winnerTeamId": 11,
       "bracket": "regular",
       "phase": "regular",
       "roundLabel": null,
@@ -5503,10 +5599,10 @@
       "week": 8,
       "homeTeamId": 12,
       "awayTeamId": 2,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
-      "winnerTeamId": null,
+      "homeScore": 86.64,
+      "awayScore": 174.18,
+      "status": "final",
+      "winnerTeamId": 2,
       "bracket": "regular",
       "phase": "regular",
       "roundLabel": null,
@@ -5517,10 +5613,10 @@
       "week": 8,
       "homeTeamId": 13,
       "awayTeamId": 16,
-      "homeScore": 0.0,
-      "awayScore": 42.42,
-      "status": "live",
-      "winnerTeamId": null,
+      "homeScore": 131.06,
+      "awayScore": 117.22,
+      "status": "final",
+      "winnerTeamId": 13,
       "bracket": "regular",
       "phase": "regular",
       "roundLabel": null,
@@ -5531,10 +5627,10 @@
       "week": 8,
       "homeTeamId": 15,
       "awayTeamId": 5,
-      "homeScore": 24.9,
-      "awayScore": 17.3,
-      "status": "live",
-      "winnerTeamId": null,
+      "homeScore": 142.7,
+      "awayScore": 103.68,
+      "status": "final",
+      "winnerTeamId": 15,
       "bracket": "regular",
       "phase": "regular",
       "roundLabel": null,
@@ -5972,6 +6068,18 @@
       "12": 6,
       "2": 7,
       "1": 8,
+      "13": 9,
+      "16": 10
+    },
+    "9": {
+      "15": 1,
+      "11": 2,
+      "6": 3,
+      "3": 4,
+      "2": 5,
+      "5": 6,
+      "1": 7,
+      "12": 8,
       "13": 9,
       "16": 10
     }

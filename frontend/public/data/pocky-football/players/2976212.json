@@ -22,7 +22,7 @@
       "team": "MIN"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,25 +47,25 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 6,
-        "points": 69.4,
-        "average": 11.57,
+        "weeks": 7,
+        "points": 82.2,
+        "average": 11.74,
         "high": {
           "season": 2026,
           "week": 2,
           "points": 21.7
         },
-        "starts": 2,
-        "starterPoints": 15.8
+        "starts": 3,
+        "starterPoints": 28.6
       },
       "seasonStats": {
-        "gp": 2,
-        "points": 15.8,
-        "fppg": 7.9,
+        "gp": 3,
+        "points": 28.6,
+        "fppg": 9.53,
         "nflStats": {
-          "receptions": 24.0,
-          "recYards": 214.0,
-          "recTD": 4.0,
+          "receptions": 27.0,
+          "recYards": 252.0,
+          "recTD": 5.0,
           "rushYards": 0
         },
         "participationComplete": true,
@@ -355,13 +355,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 3.0,
+            "recYards": 38.0,
+            "recTD": 1.0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 12.8,
           "nflTeam": "WSH",
           "nflOpponent": "PHI",
           "rosters": [
@@ -372,9 +391,9 @@
                 "logo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp"
               },
               "slot": "WR",
-              "points": null,
+              "points": 12.8,
               "nflTeam": "WSH",
-              "nflOpponent": null
+              "nflOpponent": "PHI"
             }
           ]
         },
@@ -388,7 +407,19 @@
           "points": null,
           "nflTeam": "WSH",
           "nflOpponent": "LAR",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp"
+              },
+              "slot": "WR",
+              "points": null,
+              "nflTeam": "WSH",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -514,7 +545,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -4681,15 +4713,15 @@
     }
   ],
   "career": {
-    "weeks": 90,
-    "points": 1277.52,
-    "average": 14.19,
+    "weeks": 91,
+    "points": 1290.32,
+    "average": 14.18,
     "high": {
       "season": 2022,
       "week": 2,
       "points": 44.8
     },
-    "starts": 61,
-    "starterPoints": 1000.92
+    "starts": 62,
+    "starterPoints": 1013.72
   }
 }

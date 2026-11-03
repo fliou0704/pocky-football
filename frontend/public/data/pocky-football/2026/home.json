@@ -3,118 +3,118 @@
   "season": 2026,
   "state": {
     "phase": "regular",
-    "currentWeek": 8,
-    "lastCompletedWeek": 7,
+    "currentWeek": 9,
+    "lastCompletedWeek": 8,
     "regularSeasonWeeks": 14
   },
   "currentMatchups": [
     {
-      "week": 8,
-      "homeTeamId": 12,
-      "awayTeamId": 2,
-      "homeScore": 0.0,
-      "awayScore": 0.0,
-      "status": "upcoming",
-      "bracket": "regular",
-      "winnerTeamId": null
-    },
-    {
-      "week": 8,
-      "homeTeamId": 3,
-      "awayTeamId": 1,
-      "homeScore": 0.0,
-      "awayScore": 0.0,
-      "status": "upcoming",
-      "bracket": "regular",
-      "winnerTeamId": null
-    },
-    {
-      "week": 8,
-      "homeTeamId": 15,
-      "awayTeamId": 5,
-      "homeScore": 24.9,
-      "awayScore": 17.3,
-      "status": "live",
-      "bracket": "regular",
-      "winnerTeamId": null
-    },
-    {
-      "week": 8,
-      "homeTeamId": 13,
-      "awayTeamId": 16,
-      "homeScore": 0.0,
-      "awayScore": 42.42,
-      "status": "live",
-      "bracket": "regular",
-      "winnerTeamId": null
-    },
-    {
-      "week": 8,
-      "homeTeamId": 11,
+      "week": 9,
+      "homeTeamId": 2,
       "awayTeamId": 6,
       "homeScore": 0.0,
-      "awayScore": 22.16,
-      "status": "live",
+      "awayScore": 0.0,
+      "status": "upcoming",
+      "bracket": "regular",
+      "winnerTeamId": null
+    },
+    {
+      "week": 9,
+      "homeTeamId": 1,
+      "awayTeamId": 12,
+      "homeScore": 0.0,
+      "awayScore": 0.0,
+      "status": "upcoming",
+      "bracket": "regular",
+      "winnerTeamId": null
+    },
+    {
+      "week": 9,
+      "homeTeamId": 3,
+      "awayTeamId": 15,
+      "homeScore": 0.0,
+      "awayScore": 0.0,
+      "status": "upcoming",
+      "bracket": "regular",
+      "winnerTeamId": null
+    },
+    {
+      "week": 9,
+      "homeTeamId": 5,
+      "awayTeamId": 16,
+      "homeScore": 0.0,
+      "awayScore": 0.0,
+      "status": "upcoming",
+      "bracket": "regular",
+      "winnerTeamId": null
+    },
+    {
+      "week": 9,
+      "homeTeamId": 13,
+      "awayTeamId": 11,
+      "homeScore": 0.0,
+      "awayScore": 0.0,
+      "status": "upcoming",
       "bracket": "regular",
       "winnerTeamId": null
     }
   ],
   "recap": {
-    "week": 7,
+    "week": 8,
     "phase": "regular",
     "topTeam": {
-      "teamId": 6,
-      "points": 139.22
+      "teamId": 2,
+      "points": 174.18
     },
     "closestMatchup": {
-      "week": 7,
-      "homeTeamId": 2,
-      "awayTeamId": 3,
-      "homeScore": 96.52,
-      "awayScore": 101.12,
+      "week": 8,
+      "homeTeamId": 3,
+      "awayTeamId": 1,
+      "homeScore": 97.66,
+      "awayScore": 108.1,
       "status": "final",
       "bracket": "regular",
-      "winnerTeamId": 3
+      "winnerTeamId": 1
     },
     "topPlayers": [
-      {
-        "playerId": 3916148,
-        "name": "Tony Pollard",
-        "teamId": 15,
-        "points": 36.5,
-        "slot": "BE",
-        "bench": true
-      },
-      {
-        "playerId": 4430878,
-        "name": "Jaxon Smith-Njigba",
-        "teamId": 2,
-        "points": 31.3,
-        "slot": "WR",
-        "bench": false
-      },
       {
         "playerId": 3915511,
         "name": "Joe Burrow",
         "teamId": 2,
-        "points": 28.88,
-        "slot": "BE",
-        "bench": true
+        "points": 39.48,
+        "slot": "QB",
+        "bench": false
       },
       {
-        "playerId": 4429615,
-        "name": "Zay Flowers",
-        "teamId": 6,
-        "points": 27.7,
+        "playerId": 4239993,
+        "name": "Tee Higgins",
+        "teamId": 15,
+        "points": 37.5,
         "slot": "WR",
         "bench": false
       },
       {
-        "playerId": 4431452,
-        "name": "Drake Maye",
+        "playerId": 4373626,
+        "name": "Tyler Allgeier",
+        "teamId": 5,
+        "points": 36.1,
+        "slot": "BE",
+        "bench": true
+      },
+      {
+        "playerId": 4362628,
+        "name": "Ja'Marr Chase",
         "teamId": 13,
-        "points": 27.44,
-        "slot": "QB",
+        "points": 31.1,
+        "slot": "WR",
+        "bench": false
+      },
+      {
+        "playerId": 4882093,
+        "name": "Bhayshul Tuten",
+        "teamId": 16,
+        "points": 29.9,
+        "slot": "RB",
         "bench": false
       }
     ],

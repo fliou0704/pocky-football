@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "season": 2026,
-  "generatedAt": "2026-10-30T19:03:00.885075+00:00",
+  "generatedAt": "2026-11-03T14:50:46.947536+00:00",
   "coverage": {
     "complete": true,
     "status": "independently_verified_counts",
@@ -12,7 +12,7 @@
       "mTeam.transactionCounter"
     ],
     "cardOnlyTradeExplanation": "Period feed acceptance placeholders have no executed status/items and distinct source IDs; executed playercard transfers supply the movement.",
-    "queriedThroughPeriod": 8,
+    "queriedThroughPeriod": 9,
     "requestedPeriods": [
       0,
       1,
@@ -23,7 +23,8 @@
       6,
       7,
       8,
-      9
+      9,
+      10
     ],
     "successfulPeriods": [
       0,
@@ -35,40 +36,41 @@
       6,
       7,
       8,
-      9
+      9,
+      10
     ],
     "failedPeriods": [],
     "sourceSweepCompleted": true,
     "playerUniverseSweepCompleted": true,
     "playerUniverseReturnedCount": 1055,
     "knownPlayerCoverageCompleted": true,
-    "requestedPlayerCount": 213,
+    "requestedPlayerCount": 215,
     "returnedPlayerCount": 1055,
     "missingPlayerCount": 0,
     "failedCardPlayerCount": 0,
     "unknownPlayerNames": 0,
-    "sourceEventCount": 500,
+    "sourceEventCount": 528,
     "sourceUniqueCounts": {
-      "period": 500,
-      "playercard": 246
+      "period": 528,
+      "playercard": 254
     },
-    "sourceAppearances": 841,
-    "repeatedSourceIdAppearancesMerged": 341,
-    "overlappingSourceIds": 246,
+    "sourceAppearances": 833,
+    "repeatedSourceIdAppearancesMerged": 305,
+    "overlappingSourceIds": 254,
     "playercardOnlyExecutedCounts": {},
     "executedPayloadConflictCount": 0,
     "excludedSourceCounts": {
-      "FUTURE_ROSTER:EXECUTED": 31,
-      "ROSTER:EXECUTED": 206,
+      "FUTURE_ROSTER:EXECUTED": 35,
+      "ROSTER:EXECUTED": 222,
       "TRADE_DECLINE:EXECUTED": 3,
       "TRADE_PROPOSAL:CANCELED": 1,
       "WAIVER:FAILED_INVALIDPLAYERSOURCE": 2,
       "WAIVER:FAILED_PLAYERALREADYDROPPED": 4,
       "WAIVER:PENDING": 7
     },
-    "executedMovementCount": 246,
+    "executedMovementCount": 254,
     "firstTimestamp": "2026-09-08T23:52:26.964000+00:00",
-    "lastTimestamp": "2026-10-30T16:13:42.166000+00:00",
+    "lastTimestamp": "2026-11-01T14:19:37.936000+00:00",
     "usesFaab": false,
     "independentCounters": {
       "available": true,
@@ -78,13 +80,13 @@
         {
           "teamId": 1,
           "source": {
-            "acquisitions": 10,
-            "drops": 9,
+            "acquisitions": 11,
+            "drops": 10,
             "trades": 0
           },
           "observed": {
-            "acquisitions": 10,
-            "drops": 9,
+            "acquisitions": 11,
+            "drops": 10,
             "trades": 0
           },
           "acquisitionPeriodDifferences": []
@@ -92,13 +94,13 @@
         {
           "teamId": 2,
           "source": {
-            "acquisitions": 9,
-            "drops": 8,
+            "acquisitions": 11,
+            "drops": 11,
             "trades": 0
           },
           "observed": {
-            "acquisitions": 9,
-            "drops": 8,
+            "acquisitions": 11,
+            "drops": 11,
             "trades": 0
           },
           "acquisitionPeriodDifferences": []
@@ -148,13 +150,13 @@
         {
           "teamId": 11,
           "source": {
-            "acquisitions": 1,
-            "drops": 0,
+            "acquisitions": 3,
+            "drops": 2,
             "trades": 0
           },
           "observed": {
-            "acquisitions": 1,
-            "drops": 0,
+            "acquisitions": 3,
+            "drops": 2,
             "trades": 0
           },
           "acquisitionPeriodDifferences": []
@@ -190,12 +192,12 @@
         {
           "teamId": 15,
           "source": {
-            "acquisitions": 1,
+            "acquisitions": 2,
             "drops": 1,
             "trades": 0
           },
           "observed": {
-            "acquisitions": 1,
+            "acquisitions": 2,
             "drops": 1,
             "trades": 0
           },
@@ -226,7 +228,7 @@
     "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published.",
     "communicationFeed": {
       "status": "returned",
-      "topicCount": 86,
+      "topicCount": 94,
       "usedForExecutedMovements": false
     },
     "draft": {
@@ -250,9 +252,9 @@
     "semanticDuplicateGroups": [],
     "issues": [],
     "ownership": {
-      "arrivalsChecked": 230,
-      "departuresChecked": 63,
-      "reAcquisitionsChecked": 20,
+      "arrivalsChecked": 236,
+      "departuresChecked": 69,
+      "reAcquisitionsChecked": 23,
       "anomalies": [],
       "scope": "Executed movement chain including drafts; internal sanity check, not an independent roster reconstruction."
     },
@@ -262,7 +264,7 @@
       "activityAssignments": 160
     },
     "lineupWindows": {
-      "rosterEntriesChecked": 1324,
+      "rosterEntriesChecked": 1491,
       "weeksChecked": [
         1,
         2,
@@ -271,7 +273,8 @@
         5,
         6,
         7,
-        8
+        8,
+        9
       ],
       "anomalies": [],
       "scope": "Player ownership anywhere within scoring period; precise historical snapshot timestamps are unavailable."
@@ -6166,6 +6169,210 @@
             }
           ],
           "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-6728e25756bf5f726280",
+      "season": 2026,
+      "timestamp": "2026-10-31T00:08:49.979000+00:00",
+      "timestampKind": "proposed",
+      "type": "drop",
+      "week": 8,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [],
+          "playersDropped": [
+            {
+              "playerId": 4695193,
+              "name": "Efton Chism III"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-8b172bcc6c5dc90a05b2",
+      "season": 2026,
+      "timestamp": "2026-10-31T00:10:04.956000+00:00",
+      "timestampKind": "proposed",
+      "type": "free_agent_add",
+      "week": 8,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": -16030,
+              "name": "Jaguars D/ST"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": -16034,
+              "name": "Texans D/ST"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-243a269c7b80e4f3ed74",
+      "season": 2026,
+      "timestamp": "2026-10-31T07:31:57.443000+00:00",
+      "timestampKind": "proposed",
+      "type": "free_agent_add",
+      "week": 8,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 15,
+          "playersAdded": [
+            {
+              "playerId": 4870795,
+              "name": "Makai Lemon"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-23e8d2e33dd045c8e107",
+      "season": 2026,
+      "timestamp": "2026-10-31T15:26:16.362000+00:00",
+      "timestampKind": "proposed",
+      "type": "free_agent_add",
+      "week": 8,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": 4036133,
+              "name": "T.J. Hockenson"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": 2573401,
+              "name": "Tyler Higbee"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-278a91b165c27f7f6770",
+      "season": 2026,
+      "timestamp": "2026-11-01T08:16:20.919000+00:00",
+      "timestampKind": "proposed",
+      "type": "free_agent_add",
+      "week": 8,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 1,
+          "playersAdded": [
+            {
+              "playerId": -16027,
+              "name": "Buccaneers D/ST"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": -16020,
+              "name": "Jets D/ST"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-f8364dfdf46c01c3327b",
+      "season": 2026,
+      "timestamp": "2026-11-01T14:15:20.692000+00:00",
+      "timestampKind": "proposed",
+      "type": "drop",
+      "week": 8,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 11,
+          "playersAdded": [],
+          "playersDropped": [
+            {
+              "playerId": 4429160,
+              "name": "De'Von Achane"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-a9ee60fe94cff092aa2b",
+      "season": 2026,
+      "timestamp": "2026-11-01T14:16:31.186000+00:00",
+      "timestampKind": "proposed",
+      "type": "free_agent_add",
+      "week": 8,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 11,
+          "playersAdded": [
+            {
+              "playerId": 3150744,
+              "name": "Chase McLaughlin"
+            }
+          ],
+          "playersDropped": []
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-f7d28764405025c90eb1",
+      "season": 2026,
+      "timestamp": "2026-11-01T14:19:37.936000+00:00",
+      "timestampKind": "proposed",
+      "type": "free_agent_add",
+      "week": 8,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 11,
+          "playersAdded": [
+            {
+              "playerId": 5081432,
+              "name": "Antonio Williams"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": 4432708,
+              "name": "Marvin Harrison Jr."
+            }
+          ]
         }
       ],
       "faab": null,

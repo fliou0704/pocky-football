@@ -22,7 +22,7 @@
       "team": "ATL"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,24 +55,24 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 145.7,
-        "average": 20.81,
+        "weeks": 8,
+        "points": 153.3,
+        "average": 19.16,
         "high": {
           "season": 2026,
           "week": 3,
           "points": 35.3
         },
-        "starts": 7,
-        "starterPoints": 145.7
+        "starts": 8,
+        "starterPoints": 153.3
       },
       "seasonStats": {
-        "gp": 7,
-        "points": 145.7,
-        "fppg": 20.81,
+        "gp": 8,
+        "points": 153.3,
+        "fppg": 19.16,
         "nflStats": {
-          "rushAttempts": 131.0,
-          "rushYards": 704.0,
+          "rushAttempts": 150.0,
+          "rushYards": 780.0,
           "rushTD": 4.0,
           "receptions": 25.0,
           "recYards": 203.0,
@@ -384,13 +384,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 19.0,
+            "rushYards": 76.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 7.6,
           "nflTeam": "ATL",
           "nflOpponent": "TB",
           "rosters": [
@@ -401,9 +420,9 @@
                 "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
               },
               "slot": "RB",
-              "points": null,
+              "points": 7.6,
               "nflTeam": "ATL",
-              "nflOpponent": null
+              "nflOpponent": "TB"
             }
           ]
         },
@@ -417,7 +436,19 @@
           "points": null,
           "nflTeam": "ATL",
           "nflOpponent": "CIN",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
+              },
+              "slot": "RB",
+              "points": null,
+              "nflTeam": "ATL",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -543,7 +574,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -3090,15 +3122,15 @@
     }
   ],
   "career": {
-    "weeks": 58,
-    "points": 1104.5,
-    "average": 19.04,
+    "weeks": 59,
+    "points": 1112.1,
+    "average": 18.85,
     "high": {
       "season": 2025,
       "week": 17,
       "points": 39.9
     },
-    "starts": 55,
-    "starterPoints": 1039.8
+    "starts": 56,
+    "starterPoints": 1047.4
   }
 }

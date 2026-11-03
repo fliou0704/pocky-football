@@ -20,10 +20,17 @@
   "source": "kona_playercard actual statSplitTypeId=1, statSourceId=0",
   "coverage": {
     "returnedPlayerCount": 1055,
-    "playersWithWeeklyScores": 741,
+    "playersWithWeeklyScores": 749,
     "conflicts": [],
+    "retainedObservedWeeks": [
+      {
+        "playerId": 4241474,
+        "week": 7,
+        "source": "previous-validated-snapshot"
+      }
+    ],
     "lineupComparison": {
-      "lineupScoresChecked": 1123,
+      "lineupScoresChecked": 1256,
       "scoreConflicts": [],
       "historicalNflTeamsCorrected": 10
     }
@@ -35,6 +42,7 @@
       "position": "WR",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 8.0,
         "7": 5.7,
         "6": 25.7,
         "5": 14.4,
@@ -44,6 +52,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT",
@@ -59,6 +68,7 @@
       "position": "RB",
       "nflTeam": "CHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -68,6 +78,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CHI",
         "7": "CHI",
         "6": "CHI",
         "5": "CHI",
@@ -83,6 +94,7 @@
       "position": "QB",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -92,6 +104,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -107,6 +120,7 @@
       "position": "WR",
       "nflTeam": "ATL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -116,6 +130,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ATL",
         "7": "ATL",
         "6": "ATL",
         "5": "ATL",
@@ -131,6 +146,7 @@
       "position": "QB",
       "nflTeam": "CLE",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -140,6 +156,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "5": "CLE",
@@ -155,6 +172,7 @@
       "position": "K",
       "nflTeam": "NYJ",
       "pointsByWeek": {
+        "8": 15.0,
         "7": 4.0,
         "6": 15.0,
         "5": 7.0,
@@ -164,6 +182,7 @@
         "1": 14.0
       },
       "nflTeamsByWeek": {
+        "8": "NYJ",
         "7": "NYJ",
         "6": "NYJ",
         "5": "NYJ",
@@ -179,6 +198,7 @@
       "position": "RB",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -188,6 +208,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI",
         "5": "ARI",
@@ -203,9 +224,11 @@
       "position": "RB",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 1.9,
         "6": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "6": "PHI"
       }
     },
@@ -215,6 +238,7 @@
       "position": "WR",
       "nflTeam": "CHI",
       "pointsByWeek": {
+        "8": 18.6,
         "7": 23.7,
         "6": 17.5,
         "5": 8.9,
@@ -224,6 +248,7 @@
         "1": 9.5
       },
       "nflTeamsByWeek": {
+        "8": "CHI",
         "7": "CHI",
         "6": "CHI",
         "5": "CHI",
@@ -239,6 +264,7 @@
       "position": "QB",
       "nflTeam": "CLE",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -248,6 +274,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "5": "CLE",
@@ -263,6 +290,7 @@
       "position": "K",
       "nflTeam": "BUF",
       "pointsByWeek": {
+        "8": 16.0,
         "6": 17.0,
         "5": 13.0,
         "4": 8.0,
@@ -271,6 +299,7 @@
         "1": 13.0
       },
       "nflTeamsByWeek": {
+        "8": "BUF",
         "6": "BUF",
         "5": "BUF",
         "4": "BUF",
@@ -361,6 +390,7 @@
       "position": "RB",
       "nflTeam": "CIN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.6,
         "5": 0.0,
         "4": 0.0,
@@ -369,6 +399,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CIN",
         "7": "CIN",
         "5": "CIN",
         "4": "CIN",
@@ -378,11 +409,24 @@
       }
     },
     {
+      "playerId": 4431353,
+      "name": "Xavier Restrepo",
+      "position": "WR",
+      "nflTeam": "TEN",
+      "pointsByWeek": {
+        "8": 0.0
+      },
+      "nflTeamsByWeek": {
+        "8": "TEN"
+      }
+    },
+    {
       "playerId": 4249087,
       "name": "Matt Gay",
       "position": "K",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 10.0,
         "7": 8.0,
         "6": 12.0,
         "5": 5.0,
@@ -392,6 +436,7 @@
         "1": 10.0
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -427,6 +472,7 @@
       "position": "WR",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 7.7,
         "7": 4.0,
         "6": 10.0,
         "5": 3.5,
@@ -436,6 +482,7 @@
         "1": 5.5
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -451,6 +498,7 @@
       "position": "WR",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 1.4,
         "7": 0.0,
         "6": 4.4,
         "4": 0.0,
@@ -459,6 +507,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC",
         "4": "KC",
@@ -473,6 +522,7 @@
       "position": "WR",
       "nflTeam": "MIA",
       "pointsByWeek": {
+        "8": 13.6,
         "7": 0.0,
         "5": 12.0,
         "4": 1.3,
@@ -481,6 +531,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIA",
         "7": "MIA",
         "5": "MIA",
         "4": "MIA",
@@ -521,6 +572,7 @@
       "position": "WR",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 13.7,
         "7": 6.1,
         "6": 16.2,
         "5": 9.5,
@@ -530,6 +582,7 @@
         "1": 9.2
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -545,6 +598,7 @@
       "position": "WR",
       "nflTeam": "MIN",
       "pointsByWeek": {
+        "8": 3.1,
         "7": 5.4,
         "5": 0.0,
         "4": 1.8,
@@ -553,6 +607,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "MIN",
@@ -567,6 +622,7 @@
       "position": "WR",
       "nflTeam": "BUF",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -575,6 +631,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "BUF",
         "6": "BUF",
         "5": "BUF",
         "4": "BUF",
@@ -589,6 +646,7 @@
       "position": "QB",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 6.98,
         "7": 10.54,
         "6": 12.6,
         "5": 0.0,
@@ -598,6 +656,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI",
         "5": "PHI",
@@ -613,6 +672,7 @@
       "position": "QB",
       "nflTeam": "MIN",
       "pointsByWeek": {
+        "8": 19.9,
         "7": 13.9,
         "5": 18.26,
         "4": 11.48,
@@ -621,6 +681,7 @@
         "1": -0.38
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "MIN",
@@ -635,6 +696,7 @@
       "position": "WR",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 1.2,
         "7": 2.1,
         "6": 6.8,
         "5": 0.0,
@@ -644,6 +706,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -671,6 +734,7 @@
       "position": "WR",
       "nflTeam": "MIN",
       "pointsByWeek": {
+        "8": 11.6,
         "7": 4.3,
         "5": 0.0,
         "4": 9.1,
@@ -679,6 +743,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "MIN",
@@ -715,6 +780,7 @@
       "position": "TE",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -722,6 +788,7 @@
         "3": 1.9
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI",
         "5": "PHI",
@@ -753,6 +820,7 @@
       "position": "WR",
       "nflTeam": "TEN",
       "pointsByWeek": {
+        "8": 18.1,
         "7": 0.0,
         "6": 0.0,
         "5": 5.8,
@@ -762,6 +830,7 @@
         "1": -0.3
       },
       "nflTeamsByWeek": {
+        "8": "TEN",
         "7": "TEN",
         "6": "TEN",
         "5": "TEN",
@@ -777,6 +846,7 @@
       "position": "RB",
       "nflTeam": "DEN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 14.0,
         "6": 14.6,
         "5": 0.7,
@@ -786,6 +856,7 @@
         "1": 8.1
       },
       "nflTeamsByWeek": {
+        "8": "DEN",
         "7": "DEN",
         "6": "DEN",
         "5": "DEN",
@@ -801,6 +872,7 @@
       "position": "TE",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 11.7,
         "7": 8.4,
         "6": 9.3,
         "4": 3.5,
@@ -809,6 +881,7 @@
         "1": 10.1
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC",
         "4": "KC",
@@ -823,6 +896,7 @@
       "position": "WR",
       "nflTeam": "DEN",
       "pointsByWeek": {
+        "8": 1.3,
         "7": 0.0,
         "6": 1.2,
         "5": 3.6,
@@ -832,6 +906,7 @@
         "1": 0.5
       },
       "nflTeamsByWeek": {
+        "8": "DEN",
         "7": "DEN",
         "6": "DEN",
         "5": "DEN",
@@ -847,12 +922,14 @@
       "position": "QB",
       "nflTeam": "TB",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "TB",
         "7": "TB",
         "6": "TB",
         "5": "TB",
@@ -865,6 +942,7 @@
       "position": "QB",
       "nflTeam": "NYJ",
       "pointsByWeek": {
+        "8": 18.0,
         "7": 23.48,
         "6": 11.98,
         "5": 9.98,
@@ -874,6 +952,7 @@
         "1": 9.3
       },
       "nflTeamsByWeek": {
+        "8": "NYJ",
         "7": "NYJ",
         "6": "NYJ",
         "5": "NYJ",
@@ -889,6 +968,7 @@
       "position": "RB",
       "nflTeam": "NYJ",
       "pointsByWeek": {
+        "8": 23.3,
         "7": 19.4,
         "6": 12.4,
         "5": 18.6,
@@ -898,6 +978,7 @@
         "1": 4.0
       },
       "nflTeamsByWeek": {
+        "8": "NYJ",
         "7": "NYJ",
         "6": "NYJ",
         "5": "NYJ",
@@ -913,6 +994,7 @@
       "position": "RB",
       "nflTeam": "MIA / WSH",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.1,
@@ -921,6 +1003,7 @@
         "1": 1.6
       },
       "nflTeamsByWeek": {
+        "8": "MIA",
         "7": "MIA",
         "5": "MIA",
         "4": "WSH",
@@ -935,6 +1018,7 @@
       "position": "WR",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -944,6 +1028,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -959,6 +1044,7 @@
       "position": "WR",
       "nflTeam": "CHI",
       "pointsByWeek": {
+        "8": 12.7,
         "7": 10.9,
         "6": 6.9,
         "5": 5.0,
@@ -968,6 +1054,7 @@
         "1": 7.2
       },
       "nflTeamsByWeek": {
+        "8": "CHI",
         "7": "CHI",
         "6": "CHI",
         "5": "CHI",
@@ -999,11 +1086,13 @@
       "position": "RB",
       "nflTeam": "CHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CHI",
         "7": "CHI",
         "6": "CHI",
         "5": "CHI"
@@ -1015,6 +1104,7 @@
       "position": "RB",
       "nflTeam": "MIN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 1.6,
         "4": 1.2,
@@ -1023,6 +1113,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "MIN",
@@ -1037,6 +1128,7 @@
       "position": "WR",
       "nflTeam": "DET",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 2.0,
         "5": 0.0,
         "4": 13.5,
@@ -1045,6 +1137,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DET",
         "7": "DET",
         "5": "DET",
         "4": "DET",
@@ -1083,6 +1176,7 @@
       "position": "WR",
       "nflTeam": "NE",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -1092,6 +1186,7 @@
         "1": 9.1
       },
       "nflTeamsByWeek": {
+        "8": "NE",
         "7": "NE",
         "6": "NE",
         "5": "NE",
@@ -1107,6 +1202,7 @@
       "position": "QB",
       "nflTeam": "NE",
       "pointsByWeek": {
+        "8": 22.46,
         "7": 27.44,
         "6": 23.8,
         "5": 39.46,
@@ -1116,6 +1212,7 @@
         "1": 9.82
       },
       "nflTeamsByWeek": {
+        "8": "NE",
         "7": "NE",
         "6": "NE",
         "5": "NE",
@@ -1131,6 +1228,7 @@
       "position": "RB",
       "nflTeam": "NYJ",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -1140,6 +1238,7 @@
         "1": 19.8
       },
       "nflTeamsByWeek": {
+        "8": "NYJ",
         "7": "NYJ",
         "6": "NYJ",
         "5": "NYJ",
@@ -1179,6 +1278,7 @@
       "position": "RB",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "4": 0.0,
@@ -1187,6 +1287,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC",
         "4": "KC",
@@ -1201,6 +1302,7 @@
       "position": "TE",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 5.8,
         "7": 0.0,
         "6": 0.0,
         "5": 21.4,
@@ -1210,6 +1312,7 @@
         "1": 10.3
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -1225,6 +1328,7 @@
       "position": "WR",
       "nflTeam": "JAX",
       "pointsByWeek": {
+        "8": 0.5,
         "6": 15.9,
         "5": 1.9,
         "4": 0.0,
@@ -1233,6 +1337,7 @@
         "1": 2.1
       },
       "nflTeamsByWeek": {
+        "8": "JAX",
         "6": "JAX",
         "5": "JAX",
         "4": "JAX",
@@ -1271,6 +1376,7 @@
       "position": "QB",
       "nflTeam": "NE",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -1280,6 +1386,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "NE",
         "7": "NE",
         "6": "NE",
         "5": "NE",
@@ -1295,6 +1402,7 @@
       "position": "QB",
       "nflTeam": "NYJ",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -1304,6 +1412,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "NYJ",
         "7": "NYJ",
         "6": "NYJ",
         "5": "NYJ",
@@ -1319,6 +1428,7 @@
       "position": "WR",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -1328,6 +1438,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -1359,6 +1470,7 @@
       "position": "WR",
       "nflTeam": "TB",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -1368,6 +1480,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "TB",
         "7": "TB",
         "6": "TB",
         "5": "TB",
@@ -1383,6 +1496,7 @@
       "position": "WR",
       "nflTeam": "CHI",
       "pointsByWeek": {
+        "8": 1.4,
         "7": 0.0,
         "6": 5.5,
         "5": 3.2,
@@ -1392,6 +1506,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CHI",
         "7": "CHI",
         "6": "CHI",
         "5": "CHI",
@@ -1431,6 +1546,7 @@
       "position": "QB",
       "nflTeam": "DEN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -1440,6 +1556,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DEN",
         "7": "DEN",
         "6": "DEN",
         "5": "DEN",
@@ -1455,6 +1572,7 @@
       "position": "TE",
       "nflTeam": "MIN",
       "pointsByWeek": {
+        "8": 15.8,
         "7": 13.5,
         "5": 1.7,
         "4": 24.9,
@@ -1463,6 +1581,7 @@
         "1": 13.6
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "MIN",
@@ -1477,6 +1596,7 @@
       "position": "RB",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 12.4,
         "7": 15.1,
         "6": 0.0,
         "5": 0.0,
@@ -1486,6 +1606,7 @@
         "1": 9.0
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI",
         "5": "PHI",
@@ -1501,6 +1622,7 @@
       "position": "WR",
       "nflTeam": "DET",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -1509,6 +1631,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DET",
         "7": "DET",
         "5": "DET",
         "4": "DET",
@@ -1541,6 +1664,7 @@
       "position": "TE",
       "nflTeam": "DAL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 1.9,
@@ -1550,6 +1674,7 @@
         "1": 2.2
       },
       "nflTeamsByWeek": {
+        "8": "DAL",
         "7": "DAL",
         "6": "DAL",
         "5": "DAL",
@@ -1591,6 +1716,7 @@
       "position": "WR",
       "nflTeam": "CIN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -1599,6 +1725,7 @@
         "1": 3.2
       },
       "nflTeamsByWeek": {
+        "8": "CIN",
         "7": "CIN",
         "5": "CIN",
         "4": "CIN",
@@ -1613,6 +1740,7 @@
       "position": "WR",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -1622,6 +1750,7 @@
         "1": 5.6
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT",
@@ -1661,6 +1790,7 @@
       "position": "WR",
       "nflTeam": "MIA",
       "pointsByWeek": {
+        "8": 8.3,
         "7": 21.0,
         "5": 0.0,
         "4": 0.0,
@@ -1669,6 +1799,7 @@
         "1": 14.4
       },
       "nflTeamsByWeek": {
+        "8": "MIA",
         "7": "MIA",
         "5": "MIA",
         "4": "MIA",
@@ -1683,11 +1814,13 @@
       "position": "TE",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 15.5
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI",
         "5": "ARI"
@@ -1699,6 +1832,7 @@
       "position": "WR",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 1.6,
@@ -1708,6 +1842,7 @@
         "1": 0.8
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -1723,6 +1858,7 @@
       "position": "QB",
       "nflTeam": "ATL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -1732,6 +1868,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ATL",
         "7": "ATL",
         "6": "ATL",
         "5": "ATL",
@@ -1771,6 +1908,7 @@
       "position": "WR",
       "nflTeam": "CLE",
       "pointsByWeek": {
+        "8": 9.7,
         "7": 5.7,
         "6": 2.5,
         "5": 13.6,
@@ -1780,6 +1918,7 @@
         "1": 13.9
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "5": "CLE",
@@ -1795,6 +1934,7 @@
       "position": "TE",
       "nflTeam": "NE",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -1804,6 +1944,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "NE",
         "7": "NE",
         "6": "NE",
         "5": "NE",
@@ -1837,6 +1978,7 @@
       "position": "WR",
       "nflTeam": "DEN",
       "pointsByWeek": {
+        "8": 14.9,
         "7": 8.8,
         "6": 6.4,
         "5": 4.8,
@@ -1846,6 +1988,7 @@
         "1": 1.2
       },
       "nflTeamsByWeek": {
+        "8": "DEN",
         "7": "DEN",
         "6": "DEN",
         "5": "DEN",
@@ -1861,6 +2004,7 @@
       "position": "TE",
       "nflTeam": "NE",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -1870,6 +2014,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "NE",
         "7": "NE",
         "6": "NE",
         "5": "NE",
@@ -1885,6 +2030,7 @@
       "position": "RB",
       "nflTeam": "LAR",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -1894,6 +2040,7 @@
         "1": 3.4
       },
       "nflTeamsByWeek": {
+        "8": "LAR",
         "7": "LAR",
         "6": "LAR",
         "5": "LAR",
@@ -1933,6 +2080,7 @@
       "position": "RB",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 4.7,
         "6": 7.9,
         "5": 4.9,
         "4": 13.3,
@@ -1941,6 +2089,7 @@
         "1": 8.3
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC",
         "4": "LAC",
@@ -1955,6 +2104,7 @@
       "position": "RB",
       "nflTeam": "NE",
       "pointsByWeek": {
+        "8": 3.8,
         "7": 1.3,
         "6": 5.7,
         "5": 4.9,
@@ -1964,6 +2114,7 @@
         "1": 1.1
       },
       "nflTeamsByWeek": {
+        "8": "NE",
         "7": "NE",
         "6": "NE",
         "5": "NE",
@@ -1979,6 +2130,7 @@
       "position": "QB",
       "nflTeam": "LAR",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -1988,6 +2140,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LAR",
         "7": "LAR",
         "6": "LAR",
         "5": "LAR",
@@ -2003,6 +2156,7 @@
       "position": "TE",
       "nflTeam": "MIN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 2.7,
         "5": 8.3,
         "4": 1.4,
@@ -2011,6 +2165,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "MIN",
@@ -2073,6 +2228,7 @@
       "position": "TE",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 8.3,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -2082,6 +2238,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI",
         "5": "PHI",
@@ -2097,6 +2254,7 @@
       "position": "RB",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 14.0,
         "6": 15.7,
         "5": 3.0,
         "4": 0.0,
@@ -2105,6 +2263,7 @@
         "1": 4.7
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH",
@@ -2119,6 +2278,7 @@
       "position": "RB",
       "nflTeam": "BAL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -2128,6 +2288,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "BAL",
         "7": "BAL",
         "6": "BAL",
         "5": "BAL",
@@ -2143,6 +2304,7 @@
       "position": "RB",
       "nflTeam": "CHI",
       "pointsByWeek": {
+        "8": 27.9,
         "7": 19.0,
         "6": 23.0,
         "5": 17.3,
@@ -2152,6 +2314,7 @@
         "1": 32.4
       },
       "nflTeamsByWeek": {
+        "8": "CHI",
         "7": "CHI",
         "6": "CHI",
         "5": "CHI",
@@ -2167,6 +2330,7 @@
       "position": "WR",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -2174,6 +2338,7 @@
         "3": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -2187,6 +2352,7 @@
       "position": "TE",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -2196,6 +2362,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -2211,6 +2378,7 @@
       "position": "QB",
       "nflTeam": "LAR",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -2220,6 +2388,7 @@
         "1": 1.42
       },
       "nflTeamsByWeek": {
+        "8": "LAR",
         "7": "LAR",
         "6": "LAR",
         "5": "LAR",
@@ -2259,6 +2428,7 @@
       "position": "RB",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -2268,6 +2438,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -2283,6 +2454,7 @@
       "position": "K",
       "nflTeam": "DEN",
       "pointsByWeek": {
+        "8": 9.0,
         "7": 14.0,
         "6": 7.0,
         "5": 10.0,
@@ -2292,6 +2464,7 @@
         "1": 4.0
       },
       "nflTeamsByWeek": {
+        "8": "DEN",
         "7": "DEN",
         "6": "DEN",
         "5": "DEN",
@@ -2307,6 +2480,7 @@
       "position": "RB",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -2316,6 +2490,7 @@
         "1": 4.0
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -2331,6 +2506,7 @@
       "position": "TE",
       "nflTeam": "CLE",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -2340,6 +2516,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "5": "CLE",
@@ -2355,6 +2532,7 @@
       "position": "WR",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -2363,6 +2541,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC",
         "4": "LAC",
@@ -2377,6 +2556,7 @@
       "position": "QB",
       "nflTeam": "CLE",
       "pointsByWeek": {
+        "8": 11.16,
         "7": 18.22,
         "6": 9.46,
         "5": 12.2,
@@ -2386,6 +2566,7 @@
         "1": 14.0
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "5": "CLE",
@@ -2443,10 +2624,12 @@
       "position": "TE",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 1.7
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND"
       }
@@ -2457,6 +2640,7 @@
       "position": "RB",
       "nflTeam": "TEN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -2466,6 +2650,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "TEN",
         "7": "TEN",
         "6": "TEN",
         "5": "TEN",
@@ -2481,12 +2666,14 @@
       "position": "WR",
       "nflTeam": "LAR",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LAR",
         "7": "LAR",
         "6": "LAR",
         "5": "LAR",
@@ -2499,6 +2686,7 @@
       "position": "TE",
       "nflTeam": "TB",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 3.1,
         "5": 0.0,
@@ -2508,6 +2696,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "TB",
         "7": "TB",
         "6": "TB",
         "5": "TB",
@@ -2523,6 +2712,7 @@
       "position": "QB",
       "nflTeam": "ATL / PHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "4": 0.0,
         "3": -2.0,
@@ -2530,6 +2720,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ATL",
         "7": "ATL",
         "4": "PHI",
         "3": "PHI",
@@ -2543,6 +2734,7 @@
       "position": "RB",
       "nflTeam": "BUF",
       "pointsByWeek": {
+        "8": 5.3,
         "6": 4.7,
         "5": 11.2,
         "4": 3.2,
@@ -2551,6 +2743,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "BUF",
         "6": "BUF",
         "5": "BUF",
         "4": "BUF",
@@ -2565,6 +2758,7 @@
       "position": "QB",
       "nflTeam": "CHI",
       "pointsByWeek": {
+        "8": 13.98,
         "7": 22.12,
         "6": 16.5,
         "5": 0.0,
@@ -2574,6 +2768,7 @@
         "1": 37.26
       },
       "nflTeamsByWeek": {
+        "8": "CHI",
         "7": "CHI",
         "6": "CHI",
         "5": "CHI",
@@ -2589,6 +2784,7 @@
       "position": "TE",
       "nflTeam": "LAR",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -2598,6 +2794,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LAR",
         "7": "LAR",
         "6": "LAR",
         "5": "LAR",
@@ -2613,6 +2810,7 @@
       "position": "WR",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 13.8,
         "7": 3.4,
         "6": 1.9,
         "5": 0.0,
@@ -2622,6 +2820,7 @@
         "1": 5.7
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -2637,6 +2836,7 @@
       "position": "WR",
       "nflTeam": "BUF",
       "pointsByWeek": {
+        "8": 16.6,
         "6": 0.0,
         "5": 0.0,
         "4": 2.7,
@@ -2645,6 +2845,7 @@
         "1": 21.0
       },
       "nflTeamsByWeek": {
+        "8": "BUF",
         "6": "BUF",
         "5": "BUF",
         "4": "BUF",
@@ -2659,6 +2860,7 @@
       "position": "WR",
       "nflTeam": "NYJ",
       "pointsByWeek": {
+        "8": 27.2,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -2668,6 +2870,7 @@
         "1": 9.0
       },
       "nflTeamsByWeek": {
+        "8": "NYJ",
         "7": "NYJ",
         "6": "NYJ",
         "5": "NYJ",
@@ -2678,11 +2881,24 @@
       }
     },
     {
+      "playerId": 4361988,
+      "name": "James Mitchell",
+      "position": "TE",
+      "nflTeam": "DAL",
+      "pointsByWeek": {
+        "8": 6.0
+      },
+      "nflTeamsByWeek": {
+        "8": "DAL"
+      }
+    },
+    {
       "playerId": 4697745,
       "name": "Tyler Loop",
       "position": "K",
       "nflTeam": "BAL",
       "pointsByWeek": {
+        "8": 3.0,
         "7": 7.0,
         "6": 3.0,
         "5": 14.0,
@@ -2692,6 +2908,7 @@
         "1": 14.0
       },
       "nflTeamsByWeek": {
+        "8": "BAL",
         "7": "BAL",
         "6": "BAL",
         "5": "BAL",
@@ -2707,6 +2924,7 @@
       "position": "TE",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 10.2,
         "6": 4.7,
         "5": 0.0,
         "4": 8.8,
@@ -2715,6 +2933,7 @@
         "1": 5.2
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC",
         "4": "LAC",
@@ -2753,10 +2972,24 @@
       "position": "WR",
       "nflTeam": "DET",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DET",
         "7": "DET"
+      }
+    },
+    {
+      "playerId": 3948283,
+      "name": "Stephen Carlson",
+      "position": "TE",
+      "nflTeam": "CHI",
+      "pointsByWeek": {
+        "8": 0.0
+      },
+      "nflTeamsByWeek": {
+        "8": "CHI"
       }
     },
     {
@@ -2765,6 +2998,7 @@
       "position": "WR",
       "nflTeam": "DET",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -2773,6 +3007,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DET",
         "7": "DET",
         "5": "DET",
         "4": "DET",
@@ -2835,6 +3070,7 @@
       "position": "QB",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -2844,6 +3080,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -2859,6 +3096,7 @@
       "position": "RB",
       "nflTeam": "BAL",
       "pointsByWeek": {
+        "8": 14.0,
         "7": 5.9,
         "6": 5.0,
         "5": 21.0,
@@ -2868,6 +3106,7 @@
         "1": 35.3
       },
       "nflTeamsByWeek": {
+        "8": "BAL",
         "7": "BAL",
         "6": "BAL",
         "5": "BAL",
@@ -2883,6 +3122,7 @@
       "position": "QB",
       "nflTeam": "CIN",
       "pointsByWeek": {
+        "8": 39.48,
         "7": 28.88,
         "5": 24.6,
         "4": 23.72,
@@ -2891,6 +3131,7 @@
         "1": 14.16
       },
       "nflTeamsByWeek": {
+        "8": "CIN",
         "7": "CIN",
         "5": "CIN",
         "4": "CIN",
@@ -2905,9 +3146,11 @@
       "position": "RB",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC"
       }
     },
@@ -2917,11 +3160,13 @@
       "position": "WR",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 1.8
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV"
@@ -2933,6 +3178,7 @@
       "position": "WR",
       "nflTeam": "DET",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -2941,6 +3187,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DET",
         "7": "DET",
         "5": "DET",
         "4": "DET",
@@ -2955,6 +3202,7 @@
       "position": "TE",
       "nflTeam": "DET",
       "pointsByWeek": {
+        "8": 1.7,
         "7": 1.4,
         "5": 0.0,
         "4": 0.0,
@@ -2963,6 +3211,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DET",
         "7": "DET",
         "5": "DET",
         "4": "DET",
@@ -2977,6 +3226,7 @@
       "position": "RB",
       "nflTeam": "JAX",
       "pointsByWeek": {
+        "8": 29.9,
         "6": 24.7,
         "5": 11.6,
         "4": 11.1,
@@ -2985,6 +3235,7 @@
         "1": 9.8
       },
       "nflTeamsByWeek": {
+        "8": "JAX",
         "6": "JAX",
         "5": "JAX",
         "4": "JAX",
@@ -2999,6 +3250,7 @@
       "position": "RB",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 8.3,
@@ -3008,6 +3260,7 @@
         "1": 2.2
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI",
         "5": "PHI",
@@ -3023,6 +3276,7 @@
       "position": "RB",
       "nflTeam": "BUF",
       "pointsByWeek": {
+        "8": 3.0,
         "6": 1.9,
         "5": 4.3,
         "4": 1.7,
@@ -3031,6 +3285,7 @@
         "1": 0.3
       },
       "nflTeamsByWeek": {
+        "8": "BUF",
         "6": "BUF",
         "5": "BUF",
         "4": "BUF",
@@ -3045,6 +3300,7 @@
       "position": "TE",
       "nflTeam": "CHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -3054,6 +3310,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CHI",
         "7": "CHI",
         "6": "CHI",
         "5": "CHI",
@@ -3069,6 +3326,7 @@
       "position": "RB",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 25.3,
         "7": 3.7,
         "6": 4.4,
         "4": 2.0,
@@ -3077,6 +3335,7 @@
         "1": 8.8
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC",
         "4": "KC",
@@ -3091,6 +3350,7 @@
       "position": "RB",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 5.7,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -3100,6 +3360,7 @@
         "1": 7.8
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -3115,6 +3376,7 @@
       "position": "WR",
       "nflTeam": "CHI",
       "pointsByWeek": {
+        "8": 7.3,
         "7": 0.0,
         "6": 3.8,
         "5": 3.4,
@@ -3124,6 +3386,7 @@
         "1": 16.4
       },
       "nflTeamsByWeek": {
+        "8": "CHI",
         "7": "CHI",
         "6": "CHI",
         "5": "CHI",
@@ -3139,6 +3402,7 @@
       "position": "QB",
       "nflTeam": "BAL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -3148,6 +3412,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "BAL",
         "7": "BAL",
         "6": "BAL",
         "5": "BAL",
@@ -3187,10 +3452,12 @@
       "position": "WR",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 1.7,
         "6": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC"
       }
@@ -3225,6 +3492,7 @@
       "position": "TE",
       "nflTeam": "BAL",
       "pointsByWeek": {
+        "8": 2.5,
         "7": 5.5,
         "6": 14.4,
         "5": 4.6,
@@ -3234,6 +3502,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "BAL",
         "7": "BAL",
         "6": "BAL",
         "5": "BAL",
@@ -3249,6 +3518,7 @@
       "position": "RB",
       "nflTeam": "DEN",
       "pointsByWeek": {
+        "8": 2.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.3,
@@ -3258,6 +3528,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DEN",
         "7": "DEN",
         "6": "DEN",
         "5": "DEN",
@@ -3273,6 +3544,7 @@
       "position": "K",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 11.0,
         "6": 6.0,
         "5": 6.0,
         "4": 12.0,
@@ -3281,6 +3553,7 @@
         "1": 2.0
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC",
         "4": "LAC",
@@ -3295,6 +3568,7 @@
       "position": "WR",
       "nflTeam": "JAX",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -3303,6 +3577,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "JAX",
         "6": "JAX",
         "5": "JAX",
         "4": "JAX",
@@ -3317,6 +3592,7 @@
       "position": "RB",
       "nflTeam": "DAL",
       "pointsByWeek": {
+        "8": 5.3,
         "7": 3.8,
         "6": 1.9,
         "5": 0.0,
@@ -3325,6 +3601,7 @@
         "2": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DAL",
         "7": "DAL",
         "6": "DAL",
         "5": "DAL",
@@ -3339,6 +3616,7 @@
       "position": "RB",
       "nflTeam": "BAL",
       "pointsByWeek": {
+        "8": 7.5,
         "7": 6.3,
         "6": 3.9,
         "5": 9.8,
@@ -3348,6 +3626,7 @@
         "1": 3.8
       },
       "nflTeamsByWeek": {
+        "8": "BAL",
         "7": "BAL",
         "6": "BAL",
         "5": "BAL",
@@ -3363,6 +3642,7 @@
       "position": "TE",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 3.0,
         "6": 5.0,
         "5": 4.7,
         "4": 0.0,
@@ -3371,6 +3651,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC",
         "4": "LAC",
@@ -3385,6 +3666,7 @@
       "position": "WR",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -3393,6 +3675,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC",
         "4": "LAC",
@@ -3407,6 +3690,7 @@
       "position": "WR",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -3415,6 +3699,7 @@
         "2": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -3429,6 +3714,7 @@
       "position": "TE",
       "nflTeam": "MIA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 1.5,
         "4": 2.5,
@@ -3437,6 +3723,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIA",
         "7": "MIA",
         "5": "MIA",
         "4": "MIA",
@@ -3497,6 +3784,7 @@
       "position": "TE",
       "nflTeam": "MIN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -3505,6 +3793,7 @@
         "1": 4.2
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "MIN",
@@ -3533,6 +3822,7 @@
       "position": "TE",
       "nflTeam": "TB",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 1.4,
         "5": 5.5,
@@ -3542,6 +3832,7 @@
         "1": 5.6
       },
       "nflTeamsByWeek": {
+        "8": "TB",
         "7": "TB",
         "6": "TB",
         "5": "TB",
@@ -3557,6 +3848,7 @@
       "position": "RB",
       "nflTeam": "CLE",
       "pointsByWeek": {
+        "8": 6.9,
         "7": 23.4,
         "6": 0.0,
         "5": 8.0,
@@ -3566,6 +3858,7 @@
         "1": 7.0
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "5": "CLE",
@@ -3581,6 +3874,7 @@
       "position": "QB",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 2.22,
@@ -3590,6 +3884,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -3605,6 +3900,7 @@
       "position": "RB",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -3614,6 +3910,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI",
         "5": "ARI",
@@ -3629,6 +3926,7 @@
       "position": "QB",
       "nflTeam": "BAL",
       "pointsByWeek": {
+        "8": -0.06,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -3638,6 +3936,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "BAL",
         "7": "BAL",
         "6": "BAL",
         "5": "BAL",
@@ -3653,6 +3952,7 @@
       "position": "RB",
       "nflTeam": "NYJ",
       "pointsByWeek": {
+        "8": 0.0,
         "7": -0.1,
         "6": 0.0,
         "5": 0.0,
@@ -3662,6 +3962,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "NYJ",
         "7": "NYJ",
         "6": "NYJ",
         "5": "NYJ",
@@ -3703,6 +4004,7 @@
       "position": "QB",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 19.52,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -3712,6 +4014,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI",
         "5": "ARI",
@@ -3727,6 +4030,7 @@
       "position": "WR",
       "nflTeam": "DET",
       "pointsByWeek": {
+        "8": 12.6,
         "7": 24.2,
         "5": 12.9,
         "4": 15.5,
@@ -3735,6 +4039,7 @@
         "1": 28.7
       },
       "nflTeamsByWeek": {
+        "8": "DET",
         "7": "DET",
         "5": "DET",
         "4": "DET",
@@ -3749,6 +4054,7 @@
       "position": "TE",
       "nflTeam": "CLE",
       "pointsByWeek": {
+        "8": 1.9,
         "7": 0.0,
         "6": 1.8,
         "5": 0.0,
@@ -3758,6 +4064,7 @@
         "1": 2.4
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "5": "CLE",
@@ -3773,6 +4080,7 @@
       "position": "TE",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -3781,6 +4089,7 @@
         "1": 10.8
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC",
         "4": "LAC",
@@ -3819,6 +4128,7 @@
       "position": "K",
       "nflTeam": "LAR / NYJ",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 4.0,
         "3": 0.0,
@@ -3826,6 +4136,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LAR",
         "7": "LAR",
         "6": "LAR",
         "3": "NYJ",
@@ -3839,6 +4150,7 @@
       "position": "TE",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 7.2,
         "7": 9.8,
         "6": 12.1,
         "5": 9.8,
@@ -3848,6 +4160,7 @@
         "1": 23.7
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI",
         "5": "PHI",
@@ -3889,6 +4202,7 @@
       "position": "RB",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -3897,6 +4211,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC",
         "4": "LAC",
@@ -3935,6 +4250,7 @@
       "position": "WR",
       "nflTeam": "BAL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 27.7,
         "6": 12.7,
         "5": 14.6,
@@ -3944,6 +4260,7 @@
         "1": 26.0
       },
       "nflTeamsByWeek": {
+        "8": "BAL",
         "7": "BAL",
         "6": "BAL",
         "5": "BAL",
@@ -3959,6 +4276,7 @@
       "position": "WR",
       "nflTeam": "MIA",
       "pointsByWeek": {
+        "8": 6.9,
         "7": 5.5,
         "5": 2.6,
         "4": 0.0,
@@ -3967,6 +4285,7 @@
         "1": 3.5
       },
       "nflTeamsByWeek": {
+        "8": "MIA",
         "7": "MIA",
         "5": "MIA",
         "4": "MIA",
@@ -3981,11 +4300,13 @@
       "position": "RB",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.4
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH"
@@ -3997,6 +4318,7 @@
       "position": "WR",
       "nflTeam": "MIA",
       "pointsByWeek": {
+        "8": 1.8,
         "7": 0.0,
         "5": 3.2,
         "4": 0.0,
@@ -4005,6 +4327,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIA",
         "7": "MIA",
         "5": "MIA",
         "4": "MIA",
@@ -4019,6 +4342,7 @@
       "position": "TE",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -4028,6 +4352,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT",
@@ -4043,6 +4368,7 @@
       "position": "RB",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 0.8,
         "7": 9.3,
         "6": 11.8,
         "5": 0.8,
@@ -4052,6 +4378,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI",
         "5": "ARI",
@@ -4091,6 +4418,7 @@
       "position": "WR",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 3.7,
         "7": 5.0,
         "6": 0.0,
         "5": 0.0,
@@ -4100,6 +4428,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI",
         "5": "PHI",
@@ -4115,6 +4444,7 @@
       "position": "TE",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -4124,6 +4454,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI",
         "5": "PHI",
@@ -4139,6 +4470,7 @@
       "position": "RB",
       "nflTeam": "DET",
       "pointsByWeek": {
+        "8": 24.8,
         "7": 17.3,
         "5": 37.7,
         "4": 17.7,
@@ -4147,6 +4479,7 @@
         "1": 33.6
       },
       "nflTeamsByWeek": {
+        "8": "DET",
         "7": "DET",
         "5": "DET",
         "4": "DET",
@@ -4161,6 +4494,7 @@
       "position": "RB",
       "nflTeam": "BUF",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -4169,6 +4503,7 @@
         "1": 0.3
       },
       "nflTeamsByWeek": {
+        "8": "BUF",
         "6": "BUF",
         "5": "BUF",
         "4": "BUF",
@@ -4183,6 +4518,7 @@
       "position": "WR",
       "nflTeam": "DAL",
       "pointsByWeek": {
+        "8": 12.8,
         "7": 24.4,
         "6": 16.0,
         "5": 2.9,
@@ -4192,6 +4528,7 @@
         "1": 15.4
       },
       "nflTeamsByWeek": {
+        "8": "DAL",
         "7": "DAL",
         "6": "DAL",
         "5": "DAL",
@@ -4231,6 +4568,7 @@
       "position": "QB",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 25.44,
         "7": 6.0,
         "6": 10.48,
         "4": 17.0,
@@ -4239,6 +4577,7 @@
         "1": 21.66
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC",
         "4": "KC",
@@ -4277,12 +4616,14 @@
       "position": "TE",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
         "3": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC",
         "4": "LAC",
@@ -4295,6 +4636,7 @@
       "position": "RB",
       "nflTeam": "ATL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -4304,6 +4646,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ATL",
         "7": "ATL",
         "6": "ATL",
         "5": "ATL",
@@ -4319,6 +4662,7 @@
       "position": "RB",
       "nflTeam": "CIN",
       "pointsByWeek": {
+        "8": 16.1,
         "7": 9.8,
         "5": 7.0,
         "4": 19.1,
@@ -4327,6 +4671,7 @@
         "1": 18.8
       },
       "nflTeamsByWeek": {
+        "8": "CIN",
         "7": "CIN",
         "5": "CIN",
         "4": "CIN",
@@ -4341,6 +4686,7 @@
       "position": "WR",
       "nflTeam": "LAR",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -4350,6 +4696,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LAR",
         "7": "LAR",
         "6": "LAR",
         "5": "LAR",
@@ -4365,6 +4712,7 @@
       "position": "TE",
       "nflTeam": "NYJ",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.9,
         "6": 1.9,
         "5": 0.0,
@@ -4374,6 +4722,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "NYJ",
         "7": "NYJ",
         "6": "NYJ",
         "5": "NYJ",
@@ -4389,6 +4738,7 @@
       "position": "TE",
       "nflTeam": "CIN",
       "pointsByWeek": {
+        "8": 7.1,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -4397,6 +4747,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CIN",
         "7": "CIN",
         "5": "CIN",
         "4": "CIN",
@@ -4411,6 +4762,7 @@
       "position": "RB",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 12.4,
         "7": 9.7,
         "6": 27.9,
         "4": 30.9,
@@ -4419,6 +4771,7 @@
         "1": 34.1
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC",
         "4": "KC",
@@ -4433,9 +4786,11 @@
       "position": "K",
       "nflTeam": "MIA",
       "pointsByWeek": {
+        "8": 8.0,
         "7": 4.0
       },
       "nflTeamsByWeek": {
+        "8": "MIA",
         "7": "MIA"
       }
     },
@@ -4495,6 +4850,7 @@
       "position": "WR",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -4504,6 +4860,7 @@
         "1": 10.1
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -4543,6 +4900,7 @@
       "position": "TE",
       "nflTeam": "MIA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -4551,6 +4909,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIA",
         "7": "MIA",
         "5": "MIA",
         "4": "MIA",
@@ -4565,9 +4924,11 @@
       "position": "K",
       "nflTeam": "LAR",
       "pointsByWeek": {
+        "8": 6.0,
         "7": 5.0
       },
       "nflTeamsByWeek": {
+        "8": "LAR",
         "7": "LAR"
       }
     },
@@ -4634,11 +4995,24 @@
       }
     },
     {
+      "playerId": 3059722,
+      "name": "Zay Jones",
+      "position": "WR",
+      "nflTeam": "ARI",
+      "pointsByWeek": {
+        "8": 0.0
+      },
+      "nflTeamsByWeek": {
+        "8": "ARI"
+      }
+    },
+    {
       "playerId": 4575131,
       "name": "Jacory Croskey-Merritt",
       "position": "RB",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 14.2,
         "4": 7.0,
@@ -4647,6 +5021,7 @@
         "1": 12.6
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH",
@@ -4675,6 +5050,7 @@
       "position": "TE",
       "nflTeam": "BUF",
       "pointsByWeek": {
+        "8": 1.6,
         "6": 1.0,
         "5": 1.6,
         "4": 3.3,
@@ -4683,6 +5059,7 @@
         "1": 1.7
       },
       "nflTeamsByWeek": {
+        "8": "BUF",
         "6": "BUF",
         "5": "BUF",
         "4": "BUF",
@@ -4717,6 +5094,7 @@
       "position": "RB",
       "nflTeam": "JAX",
       "pointsByWeek": {
+        "8": 1.3,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -4725,6 +5103,7 @@
         "1": 4.2
       },
       "nflTeamsByWeek": {
+        "8": "JAX",
         "6": "JAX",
         "5": "JAX",
         "4": "JAX",
@@ -4739,6 +5118,7 @@
       "position": "TE",
       "nflTeam": "ATL",
       "pointsByWeek": {
+        "8": 1.9,
         "7": 4.1,
         "6": 1.6,
         "5": 0.0,
@@ -4748,6 +5128,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ATL",
         "7": "ATL",
         "6": "ATL",
         "5": "ATL",
@@ -4763,6 +5144,7 @@
       "position": "QB",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 6.46,
         "7": 3.62,
         "6": 13.76,
         "5": 11.08,
@@ -4772,6 +5154,7 @@
         "1": 9.04
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -4787,6 +5170,7 @@
       "position": "WR",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 3.6,
         "6": 1.4,
         "5": 0.0,
@@ -4796,6 +5180,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI",
         "5": "PHI",
@@ -4835,6 +5220,7 @@
       "position": "WR",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 2.1,
         "6": 11.8,
         "5": 4.3,
@@ -4844,6 +5230,7 @@
         "1": 1.4
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -4859,6 +5246,7 @@
       "position": "TE",
       "nflTeam": "CLE",
       "pointsByWeek": {
+        "8": 23.4,
         "7": 13.1,
         "6": 1.9,
         "5": 1.4,
@@ -4868,6 +5256,7 @@
         "1": 4.1
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "5": "CLE",
@@ -4931,6 +5320,7 @@
       "position": "WR",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 7.6,
         "7": 0.0,
         "6": 2.3,
         "5": 0.0,
@@ -4940,6 +5330,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -4955,10 +5346,12 @@
       "position": "WR",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH"
       }
@@ -4969,6 +5362,7 @@
       "position": "RB",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -4978,6 +5372,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -5017,6 +5412,7 @@
       "position": "WR",
       "nflTeam": "TB",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -5026,6 +5422,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "TB",
         "7": "TB",
         "6": "TB",
         "5": "TB",
@@ -5041,6 +5438,7 @@
       "position": "WR",
       "nflTeam": "CIN",
       "pointsByWeek": {
+        "8": 6.4,
         "7": 0.0,
         "5": 3.2,
         "4": 15.2,
@@ -5049,6 +5447,7 @@
         "1": 3.8
       },
       "nflTeamsByWeek": {
+        "8": "CIN",
         "7": "CIN",
         "5": "CIN",
         "4": "CIN",
@@ -5063,6 +5462,7 @@
       "position": "RB",
       "nflTeam": "NE",
       "pointsByWeek": {
+        "8": 12.0,
         "7": 22.5,
         "6": 3.6,
         "5": 17.5,
@@ -5072,6 +5472,7 @@
         "1": 14.5
       },
       "nflTeamsByWeek": {
+        "8": "NE",
         "7": "NE",
         "6": "NE",
         "5": "NE",
@@ -5133,6 +5534,7 @@
       "position": "RB",
       "nflTeam": "BAL",
       "pointsByWeek": {
+        "8": 0.5,
         "7": 1.9,
         "6": 0.0,
         "5": 0.0,
@@ -5142,6 +5544,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "BAL",
         "7": "BAL",
         "6": "BAL",
         "5": "BAL",
@@ -5157,11 +5560,13 @@
       "position": "TE",
       "nflTeam": "BAL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "BAL",
         "7": "BAL",
         "6": "BAL",
         "5": "BAL"
@@ -5173,6 +5578,7 @@
       "position": "QB",
       "nflTeam": "JAX",
       "pointsByWeek": {
+        "8": 19.4,
         "6": 27.34,
         "5": 21.74,
         "4": 13.08,
@@ -5181,6 +5587,7 @@
         "1": 26.1
       },
       "nflTeamsByWeek": {
+        "8": "JAX",
         "6": "JAX",
         "5": "JAX",
         "4": "JAX",
@@ -5209,6 +5616,7 @@
       "position": "TE",
       "nflTeam": "CIN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 10.4,
         "5": 1.5,
         "4": 0.0,
@@ -5217,6 +5625,7 @@
         "1": 4.9
       },
       "nflTeamsByWeek": {
+        "8": "CIN",
         "7": "CIN",
         "5": "CIN",
         "4": "CIN",
@@ -5231,6 +5640,7 @@
       "position": "WR",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 11.1,
         "6": 10.6,
         "5": 4.6,
         "4": 11.7,
@@ -5239,6 +5649,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH",
@@ -5277,6 +5688,7 @@
       "position": "WR",
       "nflTeam": "CLE",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 10.4,
@@ -5286,6 +5698,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "5": "CLE",
@@ -5301,6 +5714,7 @@
       "position": "QB",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -5310,6 +5724,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT",
@@ -5337,6 +5752,7 @@
       "position": "QB",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 13.0,
@@ -5346,6 +5762,7 @@
         "1": 24.72
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI",
         "5": "PHI",
@@ -5361,6 +5778,7 @@
       "position": "WR",
       "nflTeam": "MIN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -5368,6 +5786,7 @@
         "2": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "MIN",
@@ -5381,6 +5800,7 @@
       "position": "WR",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -5390,6 +5810,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT",
@@ -5405,6 +5826,7 @@
       "position": "TE",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 2.7,
         "6": 0.0,
         "5": 0.0,
@@ -5414,6 +5836,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -5429,6 +5852,7 @@
       "position": "K",
       "nflTeam": "DET",
       "pointsByWeek": {
+        "8": 6.0,
         "7": 9.0,
         "5": 10.0,
         "4": 18.0,
@@ -5437,6 +5861,7 @@
         "1": 7.0
       },
       "nflTeamsByWeek": {
+        "8": "DET",
         "7": "DET",
         "5": "DET",
         "4": "DET",
@@ -5451,6 +5876,7 @@
       "position": "RB",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 0.9,
         "7": 3.3,
         "6": 8.0,
         "5": 5.1,
@@ -5460,6 +5886,7 @@
         "1": 2.9
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -5475,6 +5902,7 @@
       "position": "WR",
       "nflTeam": "CLE",
       "pointsByWeek": {
+        "8": 1.3,
         "7": 0.0,
         "6": 2.2,
         "5": 0.0,
@@ -5484,6 +5912,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "5": "CLE",
@@ -5499,6 +5928,7 @@
       "position": "TE",
       "nflTeam": "TB",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 1.5,
@@ -5508,6 +5938,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "TB",
         "7": "TB",
         "6": "TB",
         "5": "TB",
@@ -5523,6 +5954,7 @@
       "position": "TE",
       "nflTeam": "ATL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 8.2,
         "6": 0.0,
         "5": 0.0,
@@ -5532,6 +5964,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ATL",
         "7": "ATL",
         "6": "ATL",
         "5": "ATL",
@@ -5547,6 +5980,7 @@
       "position": "QB",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 3.46,
         "7": 16.48,
         "6": 6.92,
         "5": 25.28,
@@ -5556,6 +5990,7 @@
         "1": 16.48
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI",
         "5": "ARI",
@@ -5571,6 +6006,7 @@
       "position": "K",
       "nflTeam": "CIN",
       "pointsByWeek": {
+        "8": 5.0,
         "7": 5.0,
         "5": 7.0,
         "4": 5.0,
@@ -5579,6 +6015,7 @@
         "1": 19.0
       },
       "nflTeamsByWeek": {
+        "8": "CIN",
         "7": "CIN",
         "5": "CIN",
         "4": "CIN",
@@ -5593,6 +6030,7 @@
       "position": "TE",
       "nflTeam": "MIN",
       "pointsByWeek": {
+        "8": 3.4,
         "7": 0.0,
         "5": 2.0,
         "4": 0.0,
@@ -5601,6 +6039,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "MIN",
@@ -5615,11 +6054,13 @@
       "position": "RB",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 11.8,
         "6": 15.0,
         "5": 3.2
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI",
         "5": "PHI"
@@ -5655,6 +6096,7 @@
       "position": "WR",
       "nflTeam": "DAL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -5664,6 +6106,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DAL",
         "7": "DAL",
         "6": "DAL",
         "5": "DAL",
@@ -5725,6 +6168,7 @@
       "position": "QB",
       "nflTeam": "MIA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -5733,6 +6177,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIA",
         "7": "MIA",
         "5": "MIA",
         "4": "MIA",
@@ -5747,6 +6192,7 @@
       "position": "WR",
       "nflTeam": "CLE",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 6.1,
         "6": 10.9,
         "5": 4.9,
@@ -5756,6 +6202,7 @@
         "1": 4.6
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "5": "CLE",
@@ -5771,6 +6218,7 @@
       "position": "TE",
       "nflTeam": "CIN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 5.6,
         "5": 5.5,
         "4": 0.0,
@@ -5779,6 +6227,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CIN",
         "7": "CIN",
         "5": "CIN",
         "4": "CIN",
@@ -5817,6 +6266,7 @@
       "position": "TE",
       "nflTeam": "ATL",
       "pointsByWeek": {
+        "8": 2.6,
         "7": 13.2,
         "6": 23.0,
         "5": 15.2,
@@ -5826,6 +6276,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ATL",
         "7": "ATL",
         "6": "ATL",
         "5": "ATL",
@@ -5841,6 +6292,7 @@
       "position": "K",
       "nflTeam": "MIN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 12.0,
         "5": 16.0,
         "4": 19.0,
@@ -5849,6 +6301,7 @@
         "1": 7.0
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "MIN",
@@ -5863,6 +6316,7 @@
       "position": "WR",
       "nflTeam": "ATL",
       "pointsByWeek": {
+        "8": 1.4,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -5872,6 +6326,7 @@
         "1": 1.5
       },
       "nflTeamsByWeek": {
+        "8": "ATL",
         "7": "ATL",
         "6": "ATL",
         "5": "ATL",
@@ -5887,22 +6342,24 @@
       "position": "RB",
       "nflTeam": "ATL",
       "pointsByWeek": {
-        "7": 0.0,
+        "8": 0.0,
         "6": 3.0,
         "5": 1.6,
         "4": 25.7,
         "3": 11.0,
         "2": 8.7,
-        "1": 3.1
+        "1": 3.1,
+        "7": 0.0
       },
       "nflTeamsByWeek": {
-        "7": "ATL",
+        "8": "ATL",
         "6": "ATL",
         "5": "ATL",
         "4": "ATL",
         "3": "ATL",
         "2": "ATL",
-        "1": "ATL"
+        "1": "ATL",
+        "7": "ATL"
       }
     },
     {
@@ -5911,6 +6368,7 @@
       "position": "WR",
       "nflTeam": "BUF",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -5919,6 +6377,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "BUF",
         "6": "BUF",
         "5": "BUF",
         "4": "BUF",
@@ -5933,6 +6392,7 @@
       "position": "TE",
       "nflTeam": "NYJ",
       "pointsByWeek": {
+        "8": 4.9,
         "7": 25.2,
         "6": 7.3,
         "5": 5.4,
@@ -5942,6 +6402,7 @@
         "1": 1.8
       },
       "nflTeamsByWeek": {
+        "8": "NYJ",
         "7": "NYJ",
         "6": "NYJ",
         "5": "NYJ",
@@ -5957,6 +6418,7 @@
       "position": "WR",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 20.5,
         "5": 0.0,
@@ -5966,6 +6428,7 @@
         "1": 8.3
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI",
         "5": "PHI",
@@ -5981,6 +6444,7 @@
       "position": "QB",
       "nflTeam": "ATL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": -0.64,
@@ -5990,6 +6454,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ATL",
         "7": "ATL",
         "6": "ATL",
         "5": "ATL",
@@ -6005,6 +6470,7 @@
       "position": "TE",
       "nflTeam": "DET",
       "pointsByWeek": {
+        "8": 6.5,
         "7": 2.8,
         "5": 19.8,
         "4": 22.4,
@@ -6013,6 +6479,7 @@
         "1": 9.8
       },
       "nflTeamsByWeek": {
+        "8": "DET",
         "7": "DET",
         "5": "DET",
         "4": "DET",
@@ -6051,6 +6518,7 @@
       "position": "WR",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -6060,6 +6528,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -6075,6 +6544,7 @@
       "position": "RB",
       "nflTeam": "CLE",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 9.5,
         "5": 0.0,
@@ -6083,6 +6553,7 @@
         "2": 0.3
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "5": "CLE",
@@ -6097,11 +6568,13 @@
       "position": "QB",
       "nflTeam": "MIN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "MIN"
@@ -6137,6 +6610,7 @@
       "position": "WR",
       "nflTeam": "BAL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 2.5,
         "6": 0.0,
         "5": 0.0,
@@ -6146,6 +6620,7 @@
         "1": 3.5
       },
       "nflTeamsByWeek": {
+        "8": "BAL",
         "7": "BAL",
         "6": "BAL",
         "5": "BAL",
@@ -6185,6 +6660,7 @@
       "position": "TE",
       "nflTeam": "DEN",
       "pointsByWeek": {
+        "8": 5.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -6194,6 +6670,7 @@
         "1": 3.0
       },
       "nflTeamsByWeek": {
+        "8": "DEN",
         "7": "DEN",
         "6": "DEN",
         "5": "DEN",
@@ -6209,6 +6686,7 @@
       "position": "TE",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 3.2,
         "6": 0.0,
         "5": 1.4,
@@ -6218,6 +6696,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -6253,6 +6732,7 @@
       "position": "QB",
       "nflTeam": "CHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 1.18,
@@ -6262,6 +6742,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CHI",
         "7": "CHI",
         "6": "CHI",
         "5": "CHI",
@@ -6277,6 +6758,7 @@
       "position": "QB",
       "nflTeam": "ATL",
       "pointsByWeek": {
+        "8": -1.9,
         "7": 20.42,
         "6": 23.1,
         "5": 14.4,
@@ -6286,6 +6768,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ATL",
         "7": "ATL",
         "6": "ATL",
         "5": "ATL",
@@ -6301,6 +6784,7 @@
       "position": "WR",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.4,
         "5": 0.0,
         "4": -0.4,
@@ -6309,6 +6793,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC",
         "4": "LAC",
@@ -6363,6 +6848,7 @@
       "position": "K",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 15.0,
         "6": 7.0,
         "5": 8.0,
         "4": 7.0,
@@ -6371,6 +6857,7 @@
         "1": 5.0
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH",
@@ -6385,6 +6872,7 @@
       "position": "WR",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -6394,6 +6882,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT",
@@ -6409,6 +6898,7 @@
       "position": "WR",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": -2.0,
         "4": 0.0,
@@ -6417,6 +6907,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC",
         "4": "KC",
@@ -6431,6 +6922,7 @@
       "position": "WR",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 3.9,
         "7": 3.9,
         "6": 9.7,
         "5": 12.0,
@@ -6440,6 +6932,7 @@
         "1": 15.5
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI",
         "5": "ARI",
@@ -6455,6 +6948,7 @@
       "position": "RB",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 11.6,
         "7": 14.6,
         "6": 7.9,
         "5": 0.0,
@@ -6464,6 +6958,7 @@
         "1": 4.1
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT",
@@ -6503,6 +6998,7 @@
       "position": "QB",
       "nflTeam": "LAR",
       "pointsByWeek": {
+        "8": 8.28,
         "7": 17.5,
         "6": 16.88,
         "5": 27.32,
@@ -6512,6 +7008,7 @@
         "1": 4.1
       },
       "nflTeamsByWeek": {
+        "8": "LAR",
         "7": "LAR",
         "6": "LAR",
         "5": "LAR",
@@ -6551,6 +7048,7 @@
       "position": "RB",
       "nflTeam": "NE",
       "pointsByWeek": {
+        "8": 0.6,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -6560,6 +7058,7 @@
         "1": 2.9
       },
       "nflTeamsByWeek": {
+        "8": "NE",
         "7": "NE",
         "6": "NE",
         "5": "NE",
@@ -6575,9 +7074,11 @@
       "position": "RB",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 7.7,
         "7": 6.4
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI"
       }
     },
@@ -6587,11 +7088,13 @@
       "position": "WR",
       "nflTeam": "CIN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 1.7,
         "5": 0.0,
         "4": 7.9
       },
       "nflTeamsByWeek": {
+        "8": "CIN",
         "7": "CIN",
         "5": "CIN",
         "4": "CIN"
@@ -6603,6 +7106,7 @@
       "position": "WR",
       "nflTeam": "DAL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -6612,6 +7116,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DAL",
         "7": "DAL",
         "6": "DAL",
         "5": "DAL",
@@ -6627,6 +7132,7 @@
       "position": "WR",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -6635,6 +7141,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH",
@@ -6685,6 +7192,7 @@
       "position": "TE",
       "nflTeam": "JAX",
       "pointsByWeek": {
+        "8": 1.8,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -6693,6 +7201,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "JAX",
         "6": "JAX",
         "5": "JAX",
         "4": "JAX",
@@ -6707,6 +7216,7 @@
       "position": "TE",
       "nflTeam": "NYJ",
       "pointsByWeek": {
+        "8": 3.2,
         "7": 1.6,
         "6": 2.2,
         "5": 0.3,
@@ -6716,6 +7226,7 @@
         "1": 11.4
       },
       "nflTeamsByWeek": {
+        "8": "NYJ",
         "7": "NYJ",
         "6": "NYJ",
         "5": "NYJ",
@@ -6731,6 +7242,7 @@
       "position": "QB",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 4.88,
         "7": 13.08,
         "6": 16.02,
         "5": 22.0,
@@ -6740,6 +7252,7 @@
         "1": 12.54
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT",
@@ -6755,6 +7268,7 @@
       "position": "TE",
       "nflTeam": "TB",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -6764,6 +7278,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "TB",
         "7": "TB",
         "6": "TB",
         "5": "TB",
@@ -6779,6 +7294,7 @@
       "position": "WR",
       "nflTeam": "MIN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 4.7,
         "4": 2.4,
@@ -6787,6 +7303,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "MIN",
@@ -6801,6 +7318,7 @@
       "position": "WR",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -6810,6 +7328,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI",
         "5": "PHI",
@@ -6825,6 +7344,7 @@
       "position": "WR",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 10.4,
         "6": 8.0,
         "5": 6.1,
         "4": 5.1,
@@ -6833,6 +7353,7 @@
         "1": 16.4
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH",
@@ -6847,6 +7368,7 @@
       "position": "TE",
       "nflTeam": "DEN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -6856,6 +7378,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DEN",
         "7": "DEN",
         "6": "DEN",
         "5": "DEN",
@@ -6871,6 +7394,7 @@
       "position": "RB",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.6,
@@ -6878,6 +7402,7 @@
         "3": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT",
@@ -6915,6 +7440,7 @@
       "position": "RB",
       "nflTeam": "MIN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -6923,6 +7449,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "MIN",
@@ -6937,6 +7464,7 @@
       "position": "RB",
       "nflTeam": "DEN",
       "pointsByWeek": {
+        "8": 20.4,
         "7": 8.9,
         "6": 0.0,
         "5": 0.0,
@@ -6946,6 +7474,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DEN",
         "7": "DEN",
         "6": "DEN",
         "5": "DEN",
@@ -6961,6 +7490,7 @@
       "position": "RB",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 10.3,
         "7": 21.6,
         "6": 15.8,
         "5": 10.7,
@@ -6970,6 +7500,7 @@
         "1": 32.7
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -6985,6 +7516,7 @@
       "position": "RB",
       "nflTeam": "CLE",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.2,
         "5": 0.0,
@@ -6994,6 +7526,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "5": "CLE",
@@ -7025,6 +7558,7 @@
       "position": "QB",
       "nflTeam": "JAX",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -7033,6 +7567,7 @@
         "1": -0.3
       },
       "nflTeamsByWeek": {
+        "8": "JAX",
         "6": "JAX",
         "5": "JAX",
         "4": "JAX",
@@ -7109,6 +7644,7 @@
       "position": "WR",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 3.7,
         "5": 12.2,
         "4": 0.0,
@@ -7117,6 +7653,7 @@
         "1": 3.4
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH",
@@ -7131,6 +7668,7 @@
       "position": "RB",
       "nflTeam": "MIN",
       "pointsByWeek": {
+        "8": 2.0,
         "7": 6.8,
         "5": 0.0,
         "4": 0.0,
@@ -7139,6 +7677,7 @@
         "1": 11.9
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "MIN",
@@ -7153,6 +7692,7 @@
       "position": "TE",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -7162,6 +7702,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -7177,6 +7718,7 @@
       "position": "QB",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 7.78,
         "6": 8.76,
         "5": 10.24,
         "4": 9.56,
@@ -7185,6 +7727,7 @@
         "1": 13.26
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC",
         "4": "LAC",
@@ -7249,6 +7792,7 @@
       "position": "RB",
       "nflTeam": "JAX",
       "pointsByWeek": {
+        "8": 12.8,
         "6": 5.5,
         "5": 2.1,
         "4": 9.5,
@@ -7257,6 +7801,7 @@
         "1": 2.3
       },
       "nflTeamsByWeek": {
+        "8": "JAX",
         "6": "JAX",
         "5": "JAX",
         "4": "JAX",
@@ -7271,6 +7816,7 @@
       "position": "WR",
       "nflTeam": "BUF",
       "pointsByWeek": {
+        "8": 1.4,
         "6": 15.9,
         "5": 7.7,
         "4": 23.6,
@@ -7279,6 +7825,7 @@
         "1": 1.1
       },
       "nflTeamsByWeek": {
+        "8": "BUF",
         "6": "BUF",
         "5": "BUF",
         "4": "BUF",
@@ -7293,6 +7840,7 @@
       "position": "TE",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 7.1,
         "5": 3.4,
@@ -7302,6 +7850,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -7317,6 +7866,7 @@
       "position": "RB",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 3.8,
         "6": 1.3,
         "5": 0.0,
         "4": 0.0,
@@ -7325,6 +7875,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH",
@@ -7339,6 +7890,7 @@
       "position": "TE",
       "nflTeam": "BAL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -7348,6 +7900,7 @@
         "1": 2.3
       },
       "nflTeamsByWeek": {
+        "8": "BAL",
         "7": "BAL",
         "6": "BAL",
         "5": "BAL",
@@ -7363,6 +7916,7 @@
       "position": "WR",
       "nflTeam": "CIN",
       "pointsByWeek": {
+        "8": 31.1,
         "7": 17.2,
         "5": 19.7,
         "4": 5.7,
@@ -7371,6 +7925,7 @@
         "1": 3.2
       },
       "nflTeamsByWeek": {
+        "8": "CIN",
         "7": "CIN",
         "5": "CIN",
         "4": "CIN",
@@ -7385,6 +7940,7 @@
       "position": "QB",
       "nflTeam": "BUF",
       "pointsByWeek": {
+        "8": -0.2,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -7393,6 +7949,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "BUF",
         "6": "BUF",
         "5": "BUF",
         "4": "BUF",
@@ -7407,6 +7964,7 @@
       "position": "K",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 6.0,
         "7": 3.0,
         "6": 12.0,
         "4": 6.0,
@@ -7415,6 +7973,7 @@
         "1": 7.0
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC",
         "4": "KC",
@@ -7429,6 +7988,7 @@
       "position": "WR",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 3.4,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -7438,6 +7998,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI",
         "5": "ARI",
@@ -7501,6 +8062,7 @@
       "position": "WR",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 2.8,
         "7": 3.9,
         "6": 4.1,
         "5": 5.4,
@@ -7510,6 +8072,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -7525,6 +8088,7 @@
       "position": "WR",
       "nflTeam": "TB",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -7534,6 +8098,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "TB",
         "7": "TB",
         "6": "TB",
         "5": "TB",
@@ -7549,6 +8114,7 @@
       "position": "RB",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 4.3,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -7558,6 +8124,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -7591,6 +8158,7 @@
       "position": "WR",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -7600,6 +8168,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI",
         "5": "PHI",
@@ -7615,6 +8184,7 @@
       "position": "QB",
       "nflTeam": "DET",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -7623,6 +8193,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DET",
         "7": "DET",
         "5": "DET",
         "4": "DET",
@@ -7637,11 +8208,13 @@
       "position": "RB",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 5.6,
         "6": 2.7,
         "5": 2.4,
         "4": 5.0
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH"
@@ -7653,6 +8226,7 @@
       "position": "QB",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -7662,6 +8236,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT",
@@ -7695,6 +8270,7 @@
       "position": "WR",
       "nflTeam": "MIN / NYG",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -7703,6 +8279,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "NYG",
@@ -7717,6 +8294,7 @@
       "position": "RB",
       "nflTeam": "TEN",
       "pointsByWeek": {
+        "8": 28.7,
         "7": 36.5,
         "6": 7.6,
         "5": 5.2,
@@ -7726,6 +8304,7 @@
         "1": 4.4
       },
       "nflTeamsByWeek": {
+        "8": "TEN",
         "7": "TEN",
         "6": "TEN",
         "5": "TEN",
@@ -7741,6 +8320,7 @@
       "position": "TE",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 4.0,
         "5": 0.0,
@@ -7750,6 +8330,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -7789,6 +8370,7 @@
       "position": "WR",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -7797,6 +8379,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC",
         "4": "LAC",
@@ -7811,6 +8394,7 @@
       "position": "WR",
       "nflTeam": "NYJ",
       "pointsByWeek": {
+        "8": 8.8,
         "7": 0.0,
         "6": 0.4,
         "5": 2.9,
@@ -7820,6 +8404,7 @@
         "1": 1.7
       },
       "nflTeamsByWeek": {
+        "8": "NYJ",
         "7": "NYJ",
         "6": "NYJ",
         "5": "NYJ",
@@ -7885,6 +8470,7 @@
       "position": "WR",
       "nflTeam": "LAR",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -7894,6 +8480,7 @@
         "1": 1.8
       },
       "nflTeamsByWeek": {
+        "8": "LAR",
         "7": "LAR",
         "6": "LAR",
         "5": "LAR",
@@ -7957,6 +8544,7 @@
       "position": "QB",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -7966,6 +8554,7 @@
         "1": 12.78
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -7981,6 +8570,7 @@
       "position": "RB",
       "nflTeam": "CLE",
       "pointsByWeek": {
+        "8": 12.9,
         "7": 10.7,
         "6": 0.0,
         "5": 0.0,
@@ -7990,6 +8580,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "5": "CLE",
@@ -8093,6 +8684,7 @@
       "position": "K",
       "nflTeam": "ATL",
       "pointsByWeek": {
+        "8": -1.0,
         "7": 11.0,
         "6": 1.0,
         "5": 12.0,
@@ -8102,6 +8694,7 @@
         "1": 8.0
       },
       "nflTeamsByWeek": {
+        "8": "ATL",
         "7": "ATL",
         "6": "ATL",
         "5": "ATL",
@@ -8117,6 +8710,7 @@
       "position": "WR",
       "nflTeam": "TB",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 7.0,
         "5": 0.0,
@@ -8126,6 +8720,7 @@
         "1": 6.6
       },
       "nflTeamsByWeek": {
+        "8": "TB",
         "7": "TB",
         "6": "TB",
         "5": "TB",
@@ -8141,6 +8736,7 @@
       "position": "TE",
       "nflTeam": "DEN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 1.2,
         "6": 3.3,
         "5": 9.5,
@@ -8150,6 +8746,7 @@
         "1": 14.3
       },
       "nflTeamsByWeek": {
+        "8": "DEN",
         "7": "DEN",
         "6": "DEN",
         "5": "DEN",
@@ -8189,6 +8786,7 @@
       "position": "WR",
       "nflTeam": "ATL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 2.7,
         "6": 0.9,
         "5": 3.5,
@@ -8198,6 +8796,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ATL",
         "7": "ATL",
         "6": "ATL",
         "5": "ATL",
@@ -8239,6 +8838,7 @@
       "position": "TE",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -8248,6 +8848,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -8287,6 +8888,7 @@
       "position": "D/ST",
       "nflTeam": "ATL",
       "pointsByWeek": {
+        "8": 2.0,
         "7": 7.0,
         "6": 4.0,
         "5": 10.0,
@@ -8296,6 +8898,7 @@
         "1": 7.0
       },
       "nflTeamsByWeek": {
+        "8": "ATL",
         "7": "ATL",
         "6": "ATL",
         "5": "ATL",
@@ -8311,6 +8914,7 @@
       "position": "D/ST",
       "nflTeam": "BUF",
       "pointsByWeek": {
+        "8": 16.0,
         "6": 0.0,
         "5": -3.0,
         "4": 1.0,
@@ -8319,6 +8923,7 @@
         "1": 5.0
       },
       "nflTeamsByWeek": {
+        "8": "BUF",
         "6": "BUF",
         "5": "BUF",
         "4": "BUF",
@@ -8333,6 +8938,7 @@
       "position": "D/ST",
       "nflTeam": "CHI",
       "pointsByWeek": {
+        "8": 10.0,
         "7": 3.0,
         "6": 13.0,
         "5": -2.0,
@@ -8342,6 +8948,7 @@
         "1": 2.0
       },
       "nflTeamsByWeek": {
+        "8": "CHI",
         "7": "CHI",
         "6": "CHI",
         "5": "CHI",
@@ -8357,6 +8964,7 @@
       "position": "D/ST",
       "nflTeam": "CIN",
       "pointsByWeek": {
+        "8": 2.0,
         "7": 8.0,
         "5": 9.0,
         "4": 4.0,
@@ -8365,6 +8973,7 @@
         "1": 20.0
       },
       "nflTeamsByWeek": {
+        "8": "CIN",
         "7": "CIN",
         "5": "CIN",
         "4": "CIN",
@@ -8379,6 +8988,7 @@
       "position": "D/ST",
       "nflTeam": "CLE",
       "pointsByWeek": {
+        "8": 2.0,
         "7": 5.0,
         "6": 10.0,
         "5": 11.0,
@@ -8388,6 +8998,7 @@
         "1": -1.0
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "5": "CLE",
@@ -8403,6 +9014,7 @@
       "position": "D/ST",
       "nflTeam": "DAL",
       "pointsByWeek": {
+        "8": 3.0,
         "7": 4.0,
         "6": 5.0,
         "5": -2.0,
@@ -8412,6 +9024,7 @@
         "1": 2.0
       },
       "nflTeamsByWeek": {
+        "8": "DAL",
         "7": "DAL",
         "6": "DAL",
         "5": "DAL",
@@ -8427,6 +9040,7 @@
       "position": "D/ST",
       "nflTeam": "DEN",
       "pointsByWeek": {
+        "8": 1.0,
         "7": 3.0,
         "6": 11.0,
         "5": 14.0,
@@ -8436,6 +9050,7 @@
         "1": 2.0
       },
       "nflTeamsByWeek": {
+        "8": "DEN",
         "7": "DEN",
         "6": "DEN",
         "5": "DEN",
@@ -8451,6 +9066,7 @@
       "position": "D/ST",
       "nflTeam": "DET",
       "pointsByWeek": {
+        "8": 8.0,
         "7": 6.0,
         "5": 7.0,
         "4": -1.0,
@@ -8459,6 +9075,7 @@
         "1": 5.0
       },
       "nflTeamsByWeek": {
+        "8": "DET",
         "7": "DET",
         "5": "DET",
         "4": "DET",
@@ -8499,6 +9116,7 @@
       "position": "D/ST",
       "nflTeam": "TEN",
       "pointsByWeek": {
+        "8": 2.0,
         "7": 0.0,
         "6": 19.0,
         "5": 2.0,
@@ -8508,6 +9126,7 @@
         "1": -1.0
       },
       "nflTeamsByWeek": {
+        "8": "TEN",
         "7": "TEN",
         "6": "TEN",
         "5": "TEN",
@@ -8523,11 +9142,13 @@
       "position": "WR",
       "nflTeam": "DET",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DET",
         "7": "DET",
         "5": "DET",
         "4": "DET"
@@ -8539,6 +9160,7 @@
       "position": "D/ST",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 1.0,
         "7": 8.0,
         "6": 5.0,
         "5": -1.0,
@@ -8548,6 +9170,7 @@
         "1": -5.0
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -8563,6 +9186,7 @@
       "position": "WR",
       "nflTeam": "LAR",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 6.9,
         "5": 22.1,
@@ -8572,6 +9196,7 @@
         "1": 5.6
       },
       "nflTeamsByWeek": {
+        "8": "LAR",
         "7": "LAR",
         "6": "LAR",
         "5": "LAR",
@@ -8587,6 +9212,7 @@
       "position": "D/ST",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 2.0,
         "7": -1.0,
         "6": 14.0,
         "4": 1.0,
@@ -8595,6 +9221,7 @@
         "1": 14.0
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC",
         "4": "KC",
@@ -8609,6 +9236,7 @@
       "position": "D/ST",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 6.0,
         "7": 1.0,
         "6": 1.0,
         "5": -6.0,
@@ -8618,6 +9246,7 @@
         "1": 14.0
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -8649,6 +9278,7 @@
       "position": "D/ST",
       "nflTeam": "LAR",
       "pointsByWeek": {
+        "8": 11.0,
         "7": 1.0,
         "6": 2.0,
         "5": -1.0,
@@ -8658,6 +9288,7 @@
         "1": 1.0
       },
       "nflTeamsByWeek": {
+        "8": "LAR",
         "7": "LAR",
         "6": "LAR",
         "5": "LAR",
@@ -8673,6 +9304,7 @@
       "position": "D/ST",
       "nflTeam": "MIA",
       "pointsByWeek": {
+        "8": 5.0,
         "7": 3.0,
         "5": 1.0,
         "4": 5.0,
@@ -8681,6 +9313,7 @@
         "1": 6.0
       },
       "nflTeamsByWeek": {
+        "8": "MIA",
         "7": "MIA",
         "5": "MIA",
         "4": "MIA",
@@ -8695,6 +9328,7 @@
       "position": "D/ST",
       "nflTeam": "MIN",
       "pointsByWeek": {
+        "8": 5.0,
         "7": 11.0,
         "5": 13.0,
         "4": 10.0,
@@ -8703,6 +9337,7 @@
         "1": 5.0
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "MIN",
@@ -8717,6 +9352,7 @@
       "position": "D/ST",
       "nflTeam": "NE",
       "pointsByWeek": {
+        "8": 9.0,
         "7": -1.0,
         "6": 5.0,
         "5": 6.0,
@@ -8726,6 +9362,7 @@
         "1": 7.0
       },
       "nflTeamsByWeek": {
+        "8": "NE",
         "7": "NE",
         "6": "NE",
         "5": "NE",
@@ -8813,6 +9450,7 @@
       "position": "D/ST",
       "nflTeam": "NYJ",
       "pointsByWeek": {
+        "8": -2.0,
         "7": 0.0,
         "6": 3.0,
         "5": 18.0,
@@ -8822,6 +9460,7 @@
         "1": 11.0
       },
       "nflTeamsByWeek": {
+        "8": "NYJ",
         "7": "NYJ",
         "6": "NYJ",
         "5": "NYJ",
@@ -8837,6 +9476,7 @@
       "position": "D/ST",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 4.0,
         "7": -6.0,
         "6": 1.0,
         "5": 1.0,
@@ -8846,6 +9486,7 @@
         "1": 5.0
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI",
         "5": "PHI",
@@ -8861,6 +9502,7 @@
       "position": "D/ST",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 5.0,
         "7": -1.0,
         "6": 7.0,
         "5": -3.0,
@@ -8870,6 +9512,7 @@
         "1": 12.0
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI",
         "5": "ARI",
@@ -8885,6 +9528,7 @@
       "position": "D/ST",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 16.0,
         "7": 9.0,
         "6": 11.0,
         "5": 1.0,
@@ -8894,6 +9538,7 @@
         "1": 19.0
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT",
@@ -8909,6 +9554,7 @@
       "position": "D/ST",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 5.0,
         "6": 1.0,
         "5": 5.0,
         "4": 6.0,
@@ -8917,6 +9563,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC",
         "4": "LAC",
@@ -8955,6 +9602,7 @@
       "position": "D/ST",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 1.0,
         "7": 9.0,
         "6": 6.0,
         "5": 11.0,
@@ -8964,6 +9612,7 @@
         "1": 14.0
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -9003,6 +9652,7 @@
       "position": "D/ST",
       "nflTeam": "TB",
       "pointsByWeek": {
+        "8": 15.0,
         "7": 28.0,
         "6": 7.0,
         "5": 6.0,
@@ -9012,6 +9662,7 @@
         "1": 8.0
       },
       "nflTeamsByWeek": {
+        "8": "TB",
         "7": "TB",
         "6": "TB",
         "5": "TB",
@@ -9027,6 +9678,7 @@
       "position": "D/ST",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 14.0,
         "6": 3.0,
         "5": 3.0,
         "4": 7.0,
@@ -9035,6 +9687,7 @@
         "1": 3.0
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH",
@@ -9087,6 +9740,7 @@
       "position": "D/ST",
       "nflTeam": "JAX",
       "pointsByWeek": {
+        "8": 21.0,
         "6": -2.0,
         "5": 4.0,
         "4": 4.0,
@@ -9095,6 +9749,7 @@
         "1": 14.0
       },
       "nflTeamsByWeek": {
+        "8": "JAX",
         "6": "JAX",
         "5": "JAX",
         "4": "JAX",
@@ -9109,6 +9764,7 @@
       "position": "D/ST",
       "nflTeam": "BAL",
       "pointsByWeek": {
+        "8": -1.0,
         "7": -3.0,
         "6": 10.0,
         "5": 5.0,
@@ -9118,6 +9774,7 @@
         "1": 8.0
       },
       "nflTeamsByWeek": {
+        "8": "BAL",
         "7": "BAL",
         "6": "BAL",
         "5": "BAL",
@@ -9157,10 +9814,12 @@
       "position": "QB",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI"
       }
@@ -9171,6 +9830,7 @@
       "position": "WR",
       "nflTeam": "TEN",
       "pointsByWeek": {
+        "8": 15.7,
         "7": 4.7,
         "6": 5.2,
         "5": 11.3,
@@ -9180,6 +9840,7 @@
         "1": 8.8
       },
       "nflTeamsByWeek": {
+        "8": "TEN",
         "7": "TEN",
         "6": "TEN",
         "5": "TEN",
@@ -9195,6 +9856,7 @@
       "position": "RB",
       "nflTeam": "DEN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.6,
         "5": 1.1,
@@ -9204,6 +9866,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DEN",
         "7": "DEN",
         "6": "DEN",
         "5": "DEN",
@@ -9243,6 +9906,7 @@
       "position": "QB",
       "nflTeam": "TEN",
       "pointsByWeek": {
+        "8": 26.26,
         "7": 5.74,
         "6": 6.78,
         "5": 5.0,
@@ -9252,6 +9916,7 @@
         "1": 11.7
       },
       "nflTeamsByWeek": {
+        "8": "TEN",
         "7": "TEN",
         "6": "TEN",
         "5": "TEN",
@@ -9267,6 +9932,7 @@
       "position": "WR",
       "nflTeam": "CLE",
       "pointsByWeek": {
+        "8": 6.7,
         "7": 23.2,
         "6": 7.9,
         "5": 1.5,
@@ -9276,6 +9942,7 @@
         "1": 7.8
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "5": "CLE",
@@ -9291,6 +9958,7 @@
       "position": "WR",
       "nflTeam": "DEN",
       "pointsByWeek": {
+        "8": 2.0,
         "7": 1.5,
         "6": 0.0,
         "5": 1.8,
@@ -9299,6 +9967,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DEN",
         "7": "DEN",
         "6": "DEN",
         "5": "DEN",
@@ -9313,10 +9982,12 @@
       "position": "RB",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI"
       }
@@ -9327,6 +9998,7 @@
       "position": "WR",
       "nflTeam": "MIA",
       "pointsByWeek": {
+        "8": 15.0,
         "7": 6.5,
         "5": 12.1,
         "4": 12.0,
@@ -9335,6 +10007,7 @@
         "1": 6.3
       },
       "nflTeamsByWeek": {
+        "8": "MIA",
         "7": "MIA",
         "5": "MIA",
         "4": "MIA",
@@ -9349,6 +10022,7 @@
       "position": "TE",
       "nflTeam": "BUF",
       "pointsByWeek": {
+        "8": 1.7,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -9357,6 +10031,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "BUF",
         "6": "BUF",
         "5": "BUF",
         "4": "BUF",
@@ -9397,6 +10072,7 @@
       "position": "TE",
       "nflTeam": "CHI",
       "pointsByWeek": {
+        "8": 11.5,
         "7": 19.9,
         "6": 18.5,
         "5": 3.9,
@@ -9406,6 +10082,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CHI",
         "7": "CHI",
         "6": "CHI",
         "5": "CHI",
@@ -9421,6 +10098,7 @@
       "position": "TE",
       "nflTeam": "TEN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -9430,6 +10108,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "TEN",
         "7": "TEN",
         "6": "TEN",
         "5": "TEN",
@@ -9445,6 +10124,7 @@
       "position": "QB",
       "nflTeam": "DEN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -9454,6 +10134,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DEN",
         "7": "DEN",
         "6": "DEN",
         "5": "DEN",
@@ -9469,6 +10150,7 @@
       "position": "TE",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 1.8,
         "6": 0.0,
         "5": 1.9,
@@ -9478,6 +10160,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -9493,6 +10176,7 @@
       "position": "RB",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -9502,6 +10186,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT",
@@ -9517,6 +10202,7 @@
       "position": "TE",
       "nflTeam": "JAX",
       "pointsByWeek": {
+        "8": 10.1,
         "6": 8.8,
         "5": 4.0,
         "4": 2.5,
@@ -9525,6 +10211,7 @@
         "1": 1.9
       },
       "nflTeamsByWeek": {
+        "8": "JAX",
         "6": "JAX",
         "5": "JAX",
         "4": "JAX",
@@ -9587,6 +10274,7 @@
       "position": "K",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 1.0,
         "7": 3.0,
         "6": 9.0,
         "5": 21.0,
@@ -9596,6 +10284,7 @@
         "1": 7.0
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -9635,6 +10324,7 @@
       "position": "WR",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 12.8,
         "6": 16.4,
         "5": 0.0,
         "4": 8.5,
@@ -9643,6 +10333,7 @@
         "1": 15.5
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH",
@@ -9681,6 +10372,7 @@
       "position": "WR",
       "nflTeam": "MIN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 4.2,
         "4": 0.0,
@@ -9689,6 +10381,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "MIN",
@@ -9703,6 +10396,7 @@
       "position": "TE",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 3.2,
         "6": 13.9,
         "5": 10.0,
         "4": 2.5,
@@ -9711,6 +10405,7 @@
         "1": 3.6
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH",
@@ -9725,6 +10420,7 @@
       "position": "QB",
       "nflTeam": "BUF",
       "pointsByWeek": {
+        "8": 26.56,
         "6": 18.3,
         "5": 30.5,
         "4": 18.52,
@@ -9733,6 +10429,7 @@
         "1": 35.66
       },
       "nflTeamsByWeek": {
+        "8": "BUF",
         "6": "BUF",
         "5": "BUF",
         "4": "BUF",
@@ -9747,6 +10444,7 @@
       "position": "WR",
       "nflTeam": "LAR",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 2.5,
         "6": 3.5,
         "5": 0.0,
@@ -9756,6 +10454,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LAR",
         "7": "LAR",
         "6": "LAR",
         "5": "LAR",
@@ -9771,6 +10470,7 @@
       "position": "TE",
       "nflTeam": "ATL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 2.2,
         "6": 0.0,
         "5": 2.3,
@@ -9780,6 +10480,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ATL",
         "7": "ATL",
         "6": "ATL",
         "5": "ATL",
@@ -9795,6 +10496,7 @@
       "position": "QB",
       "nflTeam": "TEN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -9804,6 +10506,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "TEN",
         "7": "TEN",
         "6": "TEN",
         "5": "TEN",
@@ -9819,12 +10522,14 @@
       "position": "RB",
       "nflTeam": "CLE / NO",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 7.9,
         "2": 0.0,
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "2": "NO",
@@ -9837,11 +10542,13 @@
       "position": "RB",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA"
@@ -9853,6 +10560,7 @@
       "position": "TE",
       "nflTeam": "JAX",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -9861,6 +10569,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "JAX",
         "6": "JAX",
         "5": "JAX",
         "4": "JAX",
@@ -9899,6 +10608,7 @@
       "position": "WR",
       "nflTeam": "LAR",
       "pointsByWeek": {
+        "8": 7.2,
         "7": 0.0,
         "6": 0.0,
         "5": 1.4,
@@ -9908,6 +10618,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LAR",
         "7": "LAR",
         "6": "LAR",
         "5": "LAR",
@@ -9923,6 +10634,7 @@
       "position": "WR",
       "nflTeam": "DAL",
       "pointsByWeek": {
+        "8": 13.1,
         "7": 11.0,
         "6": 17.0,
         "5": 12.0,
@@ -9932,6 +10644,7 @@
         "1": 4.2
       },
       "nflTeamsByWeek": {
+        "8": "DAL",
         "7": "DAL",
         "6": "DAL",
         "5": "DAL",
@@ -9947,6 +10660,7 @@
       "position": "QB",
       "nflTeam": "DEN",
       "pointsByWeek": {
+        "8": 19.28,
         "7": 26.18,
         "6": 4.48,
         "5": 7.92,
@@ -9956,6 +10670,7 @@
         "1": 5.44
       },
       "nflTeamsByWeek": {
+        "8": "DEN",
         "7": "DEN",
         "6": "DEN",
         "5": "DEN",
@@ -9971,6 +10686,7 @@
       "position": "QB",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 28.18,
         "7": 20.4,
         "6": 18.52,
         "5": 13.72,
@@ -9980,6 +10696,7 @@
         "1": 13.8
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -10043,6 +10760,7 @@
       "position": "TE",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 1.4,
         "5": 0.0,
@@ -10052,6 +10770,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI",
         "5": "PHI",
@@ -10115,6 +10834,7 @@
       "position": "QB",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 14.98,
         "6": 21.0,
         "5": 32.26,
         "4": 0.0,
@@ -10123,6 +10843,7 @@
         "1": 17.66
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH",
@@ -10137,12 +10858,14 @@
       "position": "TE",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 7.7,
         "4": 0.0,
         "3": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC",
         "4": "LAC",
@@ -10155,6 +10878,7 @@
       "position": "WR",
       "nflTeam": "DAL",
       "pointsByWeek": {
+        "8": 6.8,
         "7": 15.7,
         "6": 13.3,
         "5": 28.0,
@@ -10164,6 +10888,7 @@
         "1": 5.8
       },
       "nflTeamsByWeek": {
+        "8": "DAL",
         "7": "DAL",
         "6": "DAL",
         "5": "DAL",
@@ -10191,6 +10916,7 @@
       "position": "RB",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 5.3,
         "6": 0.4,
         "5": 5.9,
         "4": 11.3,
@@ -10199,6 +10925,7 @@
         "1": 0.9
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC",
         "4": "LAC",
@@ -10213,6 +10940,7 @@
       "position": "RB",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 6.0,
         "7": 0.0,
         "6": 0.9,
         "5": 11.5,
@@ -10222,6 +10950,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -10237,6 +10966,7 @@
       "position": "WR",
       "nflTeam": "CIN",
       "pointsByWeek": {
+        "8": 37.5,
         "7": 26.8,
         "5": 4.2,
         "4": 26.7,
@@ -10245,6 +10975,7 @@
         "1": 8.9
       },
       "nflTeamsByWeek": {
+        "8": "CIN",
         "7": "CIN",
         "5": "CIN",
         "4": "CIN",
@@ -10259,6 +10990,7 @@
       "position": "QB",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -10267,6 +10999,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC",
         "4": "LAC",
@@ -10329,6 +11062,7 @@
       "position": "TE",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -10338,6 +11072,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI",
         "5": "ARI",
@@ -10353,6 +11088,7 @@
       "position": "WR",
       "nflTeam": "DEN",
       "pointsByWeek": {
+        "8": 4.9,
         "7": 7.6,
         "6": 3.3,
         "5": 2.9,
@@ -10362,6 +11098,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DEN",
         "7": "DEN",
         "6": "DEN",
         "5": "DEN",
@@ -10377,6 +11114,7 @@
       "position": "RB",
       "nflTeam": "MIN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -10385,6 +11123,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "MIN",
@@ -10399,6 +11138,7 @@
       "position": "QB",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "4": 0.0,
@@ -10407,6 +11147,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC",
         "4": "KC",
@@ -10421,6 +11162,7 @@
       "position": "RB",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 2.9,
         "7": 5.8,
         "6": 2.7,
         "5": 2.9,
@@ -10430,6 +11172,7 @@
         "1": 1.0
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -10445,6 +11188,7 @@
       "position": "WR",
       "nflTeam": "NYJ",
       "pointsByWeek": {
+        "8": 14.3,
         "7": 4.6,
         "6": 8.4,
         "5": 23.4,
@@ -10454,6 +11198,7 @@
         "1": 13.9
       },
       "nflTeamsByWeek": {
+        "8": "NYJ",
         "7": "NYJ",
         "6": "NYJ",
         "5": "NYJ",
@@ -10469,6 +11214,7 @@
       "position": "K",
       "nflTeam": "JAX",
       "pointsByWeek": {
+        "8": 6.0,
         "6": 10.0,
         "5": 9.0,
         "4": 14.0,
@@ -10477,6 +11223,7 @@
         "1": 12.0
       },
       "nflTeamsByWeek": {
+        "8": "JAX",
         "6": "JAX",
         "5": "JAX",
         "4": "JAX",
@@ -10491,10 +11238,12 @@
       "position": "WR",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 1.9,
         "7": 0.0,
         "6": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT"
       }
@@ -10505,6 +11254,7 @@
       "position": "WR",
       "nflTeam": "BUF",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -10513,6 +11263,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "BUF",
         "6": "BUF",
         "5": "BUF",
         "4": "BUF",
@@ -10527,10 +11278,12 @@
       "position": "WR",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 1.3,
         "6": 2.3
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC"
       }
@@ -10567,6 +11320,7 @@
       "position": "WR",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 2.7,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -10576,6 +11330,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI",
         "5": "ARI",
@@ -10586,11 +11341,24 @@
       }
     },
     {
+      "playerId": 4700712,
+      "name": "Cam Grandy",
+      "position": "TE",
+      "nflTeam": "CIN",
+      "pointsByWeek": {
+        "8": 0.0
+      },
+      "nflTeamsByWeek": {
+        "8": "CIN"
+      }
+    },
+    {
       "playerId": 4241961,
       "name": "Connor Heyward",
       "position": "RB",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 2.3,
         "6": 0.0,
         "5": 0.0,
@@ -10600,6 +11368,7 @@
         "1": 0.1
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -10615,6 +11384,7 @@
       "position": "QB",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -10624,6 +11394,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -10639,6 +11410,7 @@
       "position": "QB",
       "nflTeam": "BAL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -10648,6 +11420,7 @@
         "1": 24.96
       },
       "nflTeamsByWeek": {
+        "8": "BAL",
         "7": "BAL",
         "6": "BAL",
         "5": "BAL",
@@ -10663,6 +11436,7 @@
       "position": "WR",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 18.3,
         "7": 0.0,
         "6": 0.0,
         "4": 0.0,
@@ -10671,6 +11445,7 @@
         "1": 9.9
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC",
         "4": "KC",
@@ -10685,6 +11460,7 @@
       "position": "WR",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 26.8,
         "7": 10.6,
         "6": 7.2,
         "5": 7.28,
@@ -10694,6 +11470,7 @@
         "1": 10.6
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI",
         "5": "ARI",
@@ -10709,6 +11486,7 @@
       "position": "QB",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 5.34,
@@ -10717,6 +11495,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH",
@@ -10791,6 +11570,7 @@
       "position": "WR",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 1.4,
         "6": 0.0,
         "5": 6.4,
@@ -10800,6 +11580,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -10815,6 +11596,7 @@
       "position": "RB",
       "nflTeam": "DEN",
       "pointsByWeek": {
+        "8": 1.3,
         "7": 8.3,
         "6": 13.6,
         "5": 15.4,
@@ -10824,6 +11606,7 @@
         "1": 3.6
       },
       "nflTeamsByWeek": {
+        "8": "DEN",
         "7": "DEN",
         "6": "DEN",
         "5": "DEN",
@@ -10839,6 +11622,7 @@
       "position": "TE",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -10848,6 +11632,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI",
         "5": "ARI",
@@ -10863,6 +11648,7 @@
       "position": "TE",
       "nflTeam": "JAX",
       "pointsByWeek": {
+        "8": 7.5,
         "6": 9.4,
         "5": 13.8,
         "4": 16.5,
@@ -10871,6 +11657,7 @@
         "1": 10.3
       },
       "nflTeamsByWeek": {
+        "8": "JAX",
         "6": "JAX",
         "5": "JAX",
         "4": "JAX",
@@ -10885,6 +11672,7 @@
       "position": "TE",
       "nflTeam": "NE",
       "pointsByWeek": {
+        "8": 1.5,
         "7": 14.6,
         "6": 2.1,
         "5": 10.7,
@@ -10894,6 +11682,7 @@
         "1": 7.2
       },
       "nflTeamsByWeek": {
+        "8": "NE",
         "7": "NE",
         "6": "NE",
         "5": "NE",
@@ -10909,6 +11698,7 @@
       "position": "TE",
       "nflTeam": "DEN",
       "pointsByWeek": {
+        "8": 8.4,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -10918,6 +11708,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DEN",
         "7": "DEN",
         "6": "DEN",
         "5": "DEN",
@@ -10933,6 +11724,7 @@
       "position": "WR",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 12.6,
         "6": 2.7,
         "5": 0.0,
         "4": 0.0,
@@ -10941,6 +11733,7 @@
         "1": 19.2
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC",
         "4": "LAC",
@@ -10979,6 +11772,7 @@
       "position": "RB",
       "nflTeam": "TB",
       "pointsByWeek": {
+        "8": 21.0,
         "7": 24.0,
         "6": 6.9,
         "5": 31.5,
@@ -10988,6 +11782,7 @@
         "1": 20.3
       },
       "nflTeamsByWeek": {
+        "8": "TB",
         "7": "TB",
         "6": "TB",
         "5": "TB",
@@ -11003,6 +11798,7 @@
       "position": "TE",
       "nflTeam": "TEN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -11012,6 +11808,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "TEN",
         "7": "TEN",
         "6": "TEN",
         "5": "TEN",
@@ -11027,6 +11824,7 @@
       "position": "WR",
       "nflTeam": "BAL",
       "pointsByWeek": {
+        "8": 3.2,
         "7": 5.3,
         "6": 0.0,
         "5": 11.2,
@@ -11036,6 +11834,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "BAL",
         "7": "BAL",
         "6": "BAL",
         "5": "BAL",
@@ -11051,6 +11850,7 @@
       "position": "WR",
       "nflTeam": "JAX",
       "pointsByWeek": {
+        "8": 3.6,
         "6": 10.4,
         "5": 30.4,
         "4": 2.0,
@@ -11059,6 +11859,7 @@
         "1": 19.3
       },
       "nflTeamsByWeek": {
+        "8": "JAX",
         "6": "JAX",
         "5": "JAX",
         "4": "JAX",
@@ -11073,6 +11874,7 @@
       "position": "WR",
       "nflTeam": "DAL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 4.0,
@@ -11082,6 +11884,7 @@
         "1": 2.0
       },
       "nflTeamsByWeek": {
+        "8": "DAL",
         "7": "DAL",
         "6": "DAL",
         "5": "DAL",
@@ -11121,6 +11924,7 @@
       "position": "RB",
       "nflTeam": "JAX",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.1,
         "5": 0.0,
         "4": 0.0,
@@ -11129,6 +11933,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "JAX",
         "6": "JAX",
         "5": "JAX",
         "4": "JAX",
@@ -11143,6 +11948,7 @@
       "position": "QB",
       "nflTeam": "TB",
       "pointsByWeek": {
+        "8": 0.0,
         "7": -0.3,
         "6": 11.16,
         "5": 13.86,
@@ -11152,6 +11958,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "TB",
         "7": "TB",
         "6": "TB",
         "5": "TB",
@@ -11167,6 +11974,7 @@
       "position": "WR",
       "nflTeam": "DAL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 2.2,
@@ -11176,6 +11984,7 @@
         "1": 1.8
       },
       "nflTeamsByWeek": {
+        "8": "DAL",
         "7": "DAL",
         "6": "DAL",
         "5": "DAL",
@@ -11215,6 +12024,7 @@
       "position": "WR",
       "nflTeam": "ATL",
       "pointsByWeek": {
+        "8": 1.8,
         "7": 19.6,
         "6": 12.2,
         "5": 18.8,
@@ -11224,6 +12034,7 @@
         "1": 5.5
       },
       "nflTeamsByWeek": {
+        "8": "ATL",
         "7": "ATL",
         "6": "ATL",
         "5": "ATL",
@@ -11239,6 +12050,7 @@
       "position": "WR",
       "nflTeam": "JAX",
       "pointsByWeek": {
+        "8": 4.4,
         "6": 13.3,
         "5": 5.7,
         "4": 6.3,
@@ -11247,6 +12059,7 @@
         "1": 12.2
       },
       "nflTeamsByWeek": {
+        "8": "JAX",
         "6": "JAX",
         "5": "JAX",
         "4": "JAX",
@@ -11261,6 +12074,7 @@
       "position": "TE",
       "nflTeam": "DAL",
       "pointsByWeek": {
+        "8": 7.1,
         "7": 3.1,
         "6": 7.5,
         "5": 0.0,
@@ -11270,6 +12084,7 @@
         "1": 3.4
       },
       "nflTeamsByWeek": {
+        "8": "DAL",
         "7": "DAL",
         "6": "DAL",
         "5": "DAL",
@@ -11285,6 +12100,7 @@
       "position": "RB",
       "nflTeam": "BUF",
       "pointsByWeek": {
+        "8": 18.1,
         "6": 24.3,
         "5": 22.8,
         "4": 16.3,
@@ -11293,6 +12109,7 @@
         "1": 9.9
       },
       "nflTeamsByWeek": {
+        "8": "BUF",
         "6": "BUF",
         "5": "BUF",
         "4": "BUF",
@@ -11307,6 +12124,7 @@
       "position": "WR",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -11316,6 +12134,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -11331,6 +12150,7 @@
       "position": "WR",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 0.3,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -11340,6 +12160,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -11355,6 +12176,7 @@
       "position": "RB",
       "nflTeam": "CHI",
       "pointsByWeek": {
+        "8": 3.8,
         "7": 1.3,
         "6": 14.5,
         "5": 9.0,
@@ -11364,6 +12186,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CHI",
         "7": "CHI",
         "6": "CHI",
         "5": "CHI",
@@ -11379,6 +12202,7 @@
       "position": "WR",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -11388,6 +12212,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -11403,6 +12228,7 @@
       "position": "RB",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 5.9,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -11412,6 +12238,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -11427,6 +12254,7 @@
       "position": "RB",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 2.3,
         "7": 0.0,
         "6": 0.0,
         "5": 2.2,
@@ -11436,6 +12264,7 @@
         "1": 13.0
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI",
         "5": "ARI",
@@ -11451,6 +12280,7 @@
       "position": "WR",
       "nflTeam": "DET",
       "pointsByWeek": {
+        "8": 17.0,
         "7": 26.1,
         "5": 18.7,
         "4": 16.2,
@@ -11459,6 +12289,7 @@
         "1": 8.5
       },
       "nflTeamsByWeek": {
+        "8": "DET",
         "7": "DET",
         "5": "DET",
         "4": "DET",
@@ -11473,6 +12304,7 @@
       "position": "WR",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 11.7,
         "7": 19.7,
         "6": 4.9,
         "5": 9.3,
@@ -11482,6 +12314,7 @@
         "1": 2.5
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI",
         "5": "PHI",
@@ -11497,6 +12330,7 @@
       "position": "TE",
       "nflTeam": "BUF",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -11505,6 +12339,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "BUF",
         "6": "BUF",
         "5": "BUF",
         "4": "BUF",
@@ -11519,6 +12354,7 @@
       "position": "RB",
       "nflTeam": "DAL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.3,
         "6": 3.9,
         "5": 0.5,
@@ -11528,6 +12364,7 @@
         "1": 0.7
       },
       "nflTeamsByWeek": {
+        "8": "DAL",
         "7": "DAL",
         "6": "DAL",
         "5": "DAL",
@@ -11543,6 +12380,7 @@
       "position": "WR",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "4": 28.1,
@@ -11551,6 +12389,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC",
         "4": "KC",
@@ -11565,6 +12404,7 @@
       "position": "RB",
       "nflTeam": "CHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -11574,6 +12414,7 @@
         "1": 20.4
       },
       "nflTeamsByWeek": {
+        "8": "CHI",
         "7": "CHI",
         "6": "CHI",
         "5": "CHI",
@@ -11631,6 +12472,7 @@
       "position": "RB",
       "nflTeam": "DET",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -11639,6 +12481,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DET",
         "7": "DET",
         "5": "DET",
         "4": "DET",
@@ -11653,12 +12496,14 @@
       "position": "QB",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "4": 0.0,
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC",
         "4": "KC",
@@ -11671,6 +12516,7 @@
       "position": "WR",
       "nflTeam": "TB",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 17.8,
         "5": 17.2,
@@ -11680,6 +12526,7 @@
         "1": 11.3
       },
       "nflTeamsByWeek": {
+        "8": "TB",
         "7": "TB",
         "6": "TB",
         "5": "TB",
@@ -11695,6 +12542,7 @@
       "position": "WR",
       "nflTeam": "BAL",
       "pointsByWeek": {
+        "8": 2.3,
         "7": 5.5,
         "6": 8.0,
         "5": 0.0,
@@ -11704,6 +12552,7 @@
         "1": 2.1
       },
       "nflTeamsByWeek": {
+        "8": "BAL",
         "7": "BAL",
         "6": "BAL",
         "5": "BAL",
@@ -11719,6 +12568,7 @@
       "position": "QB",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 11.04,
@@ -11727,6 +12577,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH",
@@ -11741,6 +12592,7 @@
       "position": "WR",
       "nflTeam": "JAX",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 7.3,
         "4": 6.2,
@@ -11749,6 +12601,7 @@
         "1": 10.0
       },
       "nflTeamsByWeek": {
+        "8": "JAX",
         "6": "JAX",
         "5": "JAX",
         "4": "JAX",
@@ -11787,6 +12640,7 @@
       "position": "WR",
       "nflTeam": "HOU / MIA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -11795,6 +12649,7 @@
         "1": 2.2
       },
       "nflTeamsByWeek": {
+        "8": "MIA",
         "7": "MIA",
         "5": "HOU",
         "4": "HOU",
@@ -11809,6 +12664,7 @@
       "position": "QB",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -11818,6 +12674,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -11881,6 +12738,7 @@
       "position": "WR",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 3.9,
         "7": 2.7,
         "6": 1.9,
         "5": 15.1,
@@ -11890,6 +12748,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI",
         "5": "PHI",
@@ -11905,6 +12764,7 @@
       "position": "TE",
       "nflTeam": "MIA",
       "pointsByWeek": {
+        "8": 8.3,
         "7": 13.6,
         "5": 9.7,
         "4": 0.0,
@@ -11913,6 +12773,7 @@
         "1": 3.8
       },
       "nflTeamsByWeek": {
+        "8": "MIA",
         "7": "MIA",
         "5": "MIA",
         "4": "MIA",
@@ -11927,6 +12788,7 @@
       "position": "TE",
       "nflTeam": "CLE",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -11936,6 +12798,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "5": "CLE",
@@ -11951,11 +12814,13 @@
       "position": "RB",
       "nflTeam": "MIA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIA",
         "7": "MIA",
         "5": "MIA",
         "4": "MIA"
@@ -11967,6 +12832,7 @@
       "position": "WR",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 4.5,
         "6": 5.0,
         "5": 3.6,
@@ -11976,6 +12842,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI",
         "5": "ARI",
@@ -11991,6 +12858,7 @@
       "position": "TE",
       "nflTeam": "DEN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -11999,6 +12867,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DEN",
         "7": "DEN",
         "6": "DEN",
         "5": "DEN",
@@ -12013,6 +12882,7 @@
       "position": "RB",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "4": 0.0,
@@ -12021,6 +12891,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC",
         "4": "KC",
@@ -12035,6 +12906,7 @@
       "position": "WR",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 1.4,
         "7": 7.6,
         "6": 20.3,
         "5": 5.3,
@@ -12044,6 +12916,7 @@
         "1": 8.0
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT",
@@ -12059,6 +12932,7 @@
       "position": "QB",
       "nflTeam": "MIN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -12067,6 +12941,7 @@
         "1": 19.22
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "MIN",
@@ -12081,6 +12956,7 @@
       "position": "QB",
       "nflTeam": "CLE",
       "pointsByWeek": {
+        "8": 0.08,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -12090,6 +12966,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "5": "CLE",
@@ -12105,6 +12982,7 @@
       "position": "WR",
       "nflTeam": "NE",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 7.8,
         "6": 5.7,
         "5": 0.0,
@@ -12114,6 +12992,7 @@
         "1": 5.6
       },
       "nflTeamsByWeek": {
+        "8": "NE",
         "7": "NE",
         "6": "NE",
         "5": "NE",
@@ -12129,6 +13008,7 @@
       "position": "WR",
       "nflTeam": "TEN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 9.9,
         "6": 19.0,
         "5": 1.6,
@@ -12138,6 +13018,7 @@
         "1": 7.8
       },
       "nflTeamsByWeek": {
+        "8": "TEN",
         "7": "TEN",
         "6": "TEN",
         "5": "TEN",
@@ -12153,9 +13034,11 @@
       "position": "WR",
       "nflTeam": "TEN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "TEN",
         "7": "TEN"
       }
     },
@@ -12165,6 +13048,7 @@
       "position": "QB",
       "nflTeam": "CHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.72,
@@ -12174,6 +13058,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CHI",
         "7": "CHI",
         "6": "CHI",
         "5": "CHI",
@@ -12189,6 +13074,7 @@
       "position": "TE",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -12197,6 +13083,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH",
@@ -12211,6 +13098,7 @@
       "position": "WR",
       "nflTeam": "JAX",
       "pointsByWeek": {
+        "8": 8.2,
         "6": 0.0,
         "5": 0.0,
         "4": 9.7,
@@ -12219,6 +13107,7 @@
         "1": 7.0
       },
       "nflTeamsByWeek": {
+        "8": "JAX",
         "6": "JAX",
         "5": "JAX",
         "4": "JAX",
@@ -12233,6 +13122,7 @@
       "position": "TE",
       "nflTeam": "TEN",
       "pointsByWeek": {
+        "8": 14.6,
         "7": 5.4,
         "6": 0.0,
         "5": 0.0,
@@ -12242,6 +13132,7 @@
         "1": 6.8
       },
       "nflTeamsByWeek": {
+        "8": "TEN",
         "7": "TEN",
         "6": "TEN",
         "5": "TEN",
@@ -12257,12 +13148,14 @@
       "position": "TE",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "4": 0.0,
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC",
         "4": "KC",
@@ -12275,6 +13168,7 @@
       "position": "RB",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 21.3,
         "7": 16.7,
         "6": 9.8,
         "5": 36.8,
@@ -12284,6 +13178,7 @@
         "1": 10.3
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT",
@@ -12299,6 +13194,7 @@
       "position": "WR",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -12308,6 +13204,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -12323,6 +13220,7 @@
       "position": "RB",
       "nflTeam": "TEN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 1.8,
         "5": 9.8,
@@ -12332,6 +13230,7 @@
         "1": 4.4
       },
       "nflTeamsByWeek": {
+        "8": "TEN",
         "7": "TEN",
         "6": "TEN",
         "5": "TEN",
@@ -12347,6 +13246,7 @@
       "position": "WR",
       "nflTeam": "CHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -12356,6 +13256,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CHI",
         "7": "CHI",
         "6": "CHI",
         "5": "CHI",
@@ -12371,6 +13272,7 @@
       "position": "TE",
       "nflTeam": "TEN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -12380,6 +13282,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "TEN",
         "7": "TEN",
         "6": "TEN",
         "5": "TEN",
@@ -12395,6 +13298,7 @@
       "position": "WR",
       "nflTeam": "NYJ",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -12402,6 +13306,7 @@
         "3": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "NYJ",
         "7": "NYJ",
         "6": "NYJ",
         "5": "NYJ",
@@ -12415,6 +13320,7 @@
       "position": "K",
       "nflTeam": "TEN",
       "pointsByWeek": {
+        "8": 9.0,
         "7": 6.0,
         "6": 18.0,
         "5": 3.0,
@@ -12424,6 +13330,7 @@
         "1": 5.0
       },
       "nflTeamsByWeek": {
+        "8": "TEN",
         "7": "TEN",
         "6": "TEN",
         "5": "TEN",
@@ -12439,6 +13346,7 @@
       "position": "WR",
       "nflTeam": "LAR",
       "pointsByWeek": {
+        "8": 25.0,
         "7": 21.8,
         "6": 14.0,
         "5": 37.7,
@@ -12448,6 +13356,7 @@
         "1": 12.4
       },
       "nflTeamsByWeek": {
+        "8": "LAR",
         "7": "LAR",
         "6": "LAR",
         "5": "LAR",
@@ -12487,6 +13396,7 @@
       "position": "WR",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -12496,6 +13406,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -12511,6 +13422,7 @@
       "position": "TE",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 28.2,
         "7": 13.3,
         "6": 11.0,
         "5": 23.0,
@@ -12520,6 +13432,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -12535,6 +13448,7 @@
       "position": "WR",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 6.1,
         "6": 0.0,
         "5": 3.6,
         "4": 9.0,
@@ -12543,6 +13457,7 @@
         "1": 5.0
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC",
         "4": "LAC",
@@ -12557,6 +13472,7 @@
       "position": "TE",
       "nflTeam": "CHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 5.8,
         "6": 2.3,
         "5": 1.8,
@@ -12566,6 +13482,7 @@
         "1": 11.5
       },
       "nflTeamsByWeek": {
+        "8": "CHI",
         "7": "CHI",
         "6": "CHI",
         "5": "CHI",
@@ -12581,6 +13498,7 @@
       "position": "WR",
       "nflTeam": "TB",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 12.7,
         "6": 2.7,
         "5": 7.4,
@@ -12590,6 +13508,7 @@
         "1": -0.4
       },
       "nflTeamsByWeek": {
+        "8": "TB",
         "7": "TB",
         "6": "TB",
         "5": "TB",
@@ -12605,10 +13524,12 @@
       "position": "WR",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 4.1,
         "5": 2.6
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC"
       }
@@ -12619,6 +13540,7 @@
       "position": "WR",
       "nflTeam": "BAL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 8.9,
@@ -12628,6 +13550,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "BAL",
         "7": "BAL",
         "6": "BAL",
         "5": "BAL",
@@ -12667,6 +13590,7 @@
       "position": "QB",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 17.52,
         "7": 13.98,
         "6": 11.02,
         "5": 8.3,
@@ -12676,6 +13600,7 @@
         "1": 0.52
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -12691,6 +13616,7 @@
       "position": "WR",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -12699,6 +13625,7 @@
         "1": 1.4
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH",
@@ -12713,6 +13640,7 @@
       "position": "WR",
       "nflTeam": "NYJ",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -12720,6 +13648,7 @@
         "3": 3.3
       },
       "nflTeamsByWeek": {
+        "8": "NYJ",
         "7": "NYJ",
         "6": "NYJ",
         "5": "NYJ",
@@ -12733,6 +13662,7 @@
       "position": "TE",
       "nflTeam": "LAR",
       "pointsByWeek": {
+        "8": 2.8,
         "7": 18.0,
         "6": 0.0,
         "5": 4.4,
@@ -12742,6 +13672,7 @@
         "1": 2.3
       },
       "nflTeamsByWeek": {
+        "8": "LAR",
         "7": "LAR",
         "6": "LAR",
         "5": "LAR",
@@ -12757,6 +13688,7 @@
       "position": "RB",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 8.3,
         "7": 2.7,
         "6": 6.0,
         "5": 2.0,
@@ -12766,6 +13698,7 @@
         "1": 4.1
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -12781,6 +13714,7 @@
       "position": "K",
       "nflTeam": "CLE",
       "pointsByWeek": {
+        "8": 7.0,
         "7": 8.0,
         "6": 7.0,
         "5": 7.0,
@@ -12790,6 +13724,7 @@
         "1": 4.0
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "5": "CLE",
@@ -12827,6 +13762,7 @@
       "position": "WR",
       "nflTeam": "MIN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 3.0,
         "4": 2.8,
@@ -12835,6 +13771,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "MIN",
@@ -12849,6 +13786,7 @@
       "position": "RB",
       "nflTeam": "NE",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 4.3,
         "6": 3.0,
         "5": 4.8,
@@ -12858,6 +13796,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "NE",
         "7": "NE",
         "6": "NE",
         "5": "NE",
@@ -12921,6 +13860,7 @@
       "position": "RB",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -12929,6 +13869,7 @@
         "2": 1.6
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT",
@@ -12943,6 +13884,7 @@
       "position": "RB",
       "nflTeam": "NE",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -12952,6 +13894,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "NE",
         "7": "NE",
         "6": "NE",
         "5": "NE",
@@ -12967,6 +13910,7 @@
       "position": "K",
       "nflTeam": "NE",
       "pointsByWeek": {
+        "8": 5.0,
         "7": 7.0,
         "6": 8.0,
         "5": 9.0,
@@ -12976,6 +13920,7 @@
         "1": 6.0
       },
       "nflTeamsByWeek": {
+        "8": "NE",
         "7": "NE",
         "6": "NE",
         "5": "NE",
@@ -12991,6 +13936,7 @@
       "position": "TE",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 12.4,
         "7": 7.4,
         "6": 12.5,
         "5": 3.2,
@@ -13000,6 +13946,7 @@
         "1": 3.8
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT",
@@ -13041,6 +13988,7 @@
       "position": "RB",
       "nflTeam": "TB",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -13050,6 +13998,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "TB",
         "7": "TB",
         "6": "TB",
         "5": "TB",
@@ -13065,6 +14014,7 @@
       "position": "TE",
       "nflTeam": "DET",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 2.1,
         "4": 1.8,
@@ -13073,6 +14023,7 @@
         "1": 1.5
       },
       "nflTeamsByWeek": {
+        "8": "DET",
         "7": "DET",
         "5": "DET",
         "4": "DET",
@@ -13087,6 +14038,7 @@
       "position": "RB",
       "nflTeam": "ATL",
       "pointsByWeek": {
+        "8": 7.6,
         "7": 17.2,
         "6": 7.3,
         "5": 15.8,
@@ -13096,6 +14048,7 @@
         "1": 31.3
       },
       "nflTeamsByWeek": {
+        "8": "ATL",
         "7": "ATL",
         "6": "ATL",
         "5": "ATL",
@@ -13111,6 +14064,7 @@
       "position": "WR",
       "nflTeam": "DEN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -13118,6 +14072,7 @@
         "3": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DEN",
         "7": "DEN",
         "6": "DEN",
         "5": "DEN",
@@ -13195,6 +14150,7 @@
       "position": "WR",
       "nflTeam": "CLE",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -13204,6 +14160,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "5": "CLE",
@@ -13219,6 +14176,7 @@
       "position": "WR",
       "nflTeam": "TB",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -13228,6 +14186,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "TB",
         "7": "TB",
         "6": "TB",
         "5": "TB",
@@ -13243,6 +14202,7 @@
       "position": "TE",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -13251,6 +14211,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH",
@@ -13265,6 +14226,7 @@
       "position": "TE",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -13274,6 +14236,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -13289,6 +14252,7 @@
       "position": "WR",
       "nflTeam": "NYJ",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 2.5,
         "5": 4.6,
@@ -13298,6 +14262,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "NYJ",
         "7": "NYJ",
         "6": "NYJ",
         "5": "NYJ",
@@ -13313,6 +14278,7 @@
       "position": "RB",
       "nflTeam": "MIA",
       "pointsByWeek": {
+        "8": 0.5,
         "7": 0.8,
         "5": 1.1,
         "4": 0.7,
@@ -13321,6 +14287,7 @@
         "1": -0.1
       },
       "nflTeamsByWeek": {
+        "8": "MIA",
         "7": "MIA",
         "5": "MIA",
         "4": "MIA",
@@ -13335,6 +14302,7 @@
       "position": "QB",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -13344,6 +14312,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI",
         "5": "ARI",
@@ -13359,6 +14328,7 @@
       "position": "RB",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 18.5,
         "6": 5.2,
         "5": 13.2,
@@ -13368,6 +14338,7 @@
         "1": 0.3
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -13407,6 +14378,7 @@
       "position": "WR",
       "nflTeam": "BUF",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 4.7,
         "5": 0.0,
         "4": 1.3,
@@ -13415,6 +14387,7 @@
         "1": 10.4
       },
       "nflTeamsByWeek": {
+        "8": "BUF",
         "6": "BUF",
         "5": "BUF",
         "4": "BUF",
@@ -13429,6 +14402,7 @@
       "position": "QB",
       "nflTeam": "NE",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -13438,6 +14412,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "NE",
         "7": "NE",
         "6": "NE",
         "5": "NE",
@@ -13453,6 +14428,7 @@
       "position": "K",
       "nflTeam": "TB",
       "pointsByWeek": {
+        "8": 12.0,
         "7": 12.0,
         "6": 17.0,
         "5": 7.0,
@@ -13462,6 +14438,7 @@
         "1": 11.0
       },
       "nflTeamsByWeek": {
+        "8": "TB",
         "7": "TB",
         "6": "TB",
         "5": "TB",
@@ -13477,6 +14454,7 @@
       "position": "TE",
       "nflTeam": "DAL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -13486,6 +14464,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DAL",
         "7": "DAL",
         "6": "DAL",
         "5": "DAL",
@@ -13501,6 +14480,7 @@
       "position": "WR",
       "nflTeam": "MIN",
       "pointsByWeek": {
+        "8": 14.3,
         "7": 8.4,
         "5": 18.8,
         "4": 0.0,
@@ -13509,6 +14489,7 @@
         "1": 31.2
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "MIN",
@@ -13523,10 +14504,12 @@
       "position": "WR",
       "nflTeam": "BUF",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "BUF",
         "6": "BUF",
         "5": "BUF"
       }
@@ -13537,6 +14520,7 @@
       "position": "RB",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -13545,6 +14529,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH",
@@ -13559,6 +14544,7 @@
       "position": "RB",
       "nflTeam": "LAR",
       "pointsByWeek": {
+        "8": 12.9,
         "7": 18.1,
         "6": 9.7,
         "5": 19.6,
@@ -13568,6 +14554,7 @@
         "1": 15.5
       },
       "nflTeamsByWeek": {
+        "8": "LAR",
         "7": "LAR",
         "6": "LAR",
         "5": "LAR",
@@ -13583,6 +14570,7 @@
       "position": "TE",
       "nflTeam": "CIN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 10.4,
         "4": 1.2,
@@ -13591,6 +14579,7 @@
         "1": 1.4
       },
       "nflTeamsByWeek": {
+        "8": "CIN",
         "7": "CIN",
         "5": "CIN",
         "4": "CIN",
@@ -13653,6 +14642,7 @@
       "position": "K",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 4.0,
         "7": 3.0,
         "6": 2.0,
         "5": 6.0,
@@ -13662,6 +14652,7 @@
         "1": 6.0
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI",
         "5": "PHI",
@@ -13677,6 +14668,7 @@
       "position": "TE",
       "nflTeam": "BUF",
       "pointsByWeek": {
+        "8": 18.6,
         "6": 10.8,
         "5": 3.7,
         "4": 1.7,
@@ -13685,6 +14677,7 @@
         "1": 18.0
       },
       "nflTeamsByWeek": {
+        "8": "BUF",
         "6": "BUF",
         "5": "BUF",
         "4": "BUF",
@@ -13723,6 +14716,7 @@
       "position": "QB",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -13732,6 +14726,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI",
         "5": "PHI",
@@ -13747,6 +14742,7 @@
       "position": "K",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 8.0,
         "7": 11.0,
         "6": 17.0,
         "5": 13.0,
@@ -13756,6 +14752,7 @@
         "1": 8.0
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT",
@@ -13771,6 +14768,7 @@
       "position": "RB",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 6.7,
         "7": 19.0,
         "6": 21.1,
         "5": 11.2,
@@ -13780,6 +14778,7 @@
         "1": 25.1
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -13795,6 +14794,7 @@
       "position": "QB",
       "nflTeam": "DAL",
       "pointsByWeek": {
+        "8": 19.8,
         "7": 23.28,
         "6": 11.02,
         "5": 12.64,
@@ -13804,6 +14804,7 @@
         "1": 14.4
       },
       "nflTeamsByWeek": {
+        "8": "DAL",
         "7": "DAL",
         "6": "DAL",
         "5": "DAL",
@@ -13814,11 +14815,24 @@
       }
     },
     {
+      "playerId": 4391845,
+      "name": "Cody Schrader",
+      "position": "RB",
+      "nflTeam": "DEN",
+      "pointsByWeek": {
+        "8": 0.0
+      },
+      "nflTeamsByWeek": {
+        "8": "DEN"
+      }
+    },
+    {
       "playerId": 4602788,
       "name": "Jackson Meeks",
       "position": "TE",
       "nflTeam": "DET",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -13827,6 +14841,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DET",
         "7": "DET",
         "5": "DET",
         "4": "DET",
@@ -13841,6 +14856,7 @@
       "position": "WR",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 21.3,
         "6": 26.7,
         "5": 7.5,
@@ -13850,6 +14866,7 @@
         "1": 4.7
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -13865,6 +14882,7 @@
       "position": "TE",
       "nflTeam": "MIA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -13873,6 +14891,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIA",
         "7": "MIA",
         "5": "MIA",
         "4": "MIA",
@@ -13887,6 +14906,7 @@
       "position": "WR",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 12.3,
         "7": 3.8,
         "6": 8.7,
         "5": 7.7,
@@ -13896,6 +14916,7 @@
         "1": 5.7
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -13911,6 +14932,7 @@
       "position": "TE",
       "nflTeam": "DAL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 3.3,
         "5": 4.9,
@@ -13920,6 +14942,7 @@
         "1": 2.6
       },
       "nflTeamsByWeek": {
+        "8": "DAL",
         "7": "DAL",
         "6": "DAL",
         "5": "DAL",
@@ -13935,6 +14958,7 @@
       "position": "QB",
       "nflTeam": "CIN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -13943,6 +14967,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CIN",
         "7": "CIN",
         "5": "CIN",
         "4": "CIN",
@@ -13981,6 +15006,7 @@
       "position": "TE",
       "nflTeam": "LAR",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -13990,6 +15016,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LAR",
         "7": "LAR",
         "6": "LAR",
         "5": "LAR",
@@ -14029,6 +15056,7 @@
       "position": "RB",
       "nflTeam": "NYJ",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -14038,6 +15066,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "NYJ",
         "7": "NYJ",
         "6": "NYJ",
         "5": "NYJ",
@@ -14053,6 +15082,7 @@
       "position": "WR",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -14062,6 +15092,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT",
@@ -14077,6 +15108,7 @@
       "position": "WR",
       "nflTeam": "NE",
       "pointsByWeek": {
+        "8": 11.3,
         "7": 0.0,
         "6": 2.2,
         "5": 18.1,
@@ -14086,6 +15118,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "NE",
         "7": "NE",
         "6": "NE",
         "5": "NE",
@@ -14101,6 +15134,7 @@
       "position": "QB",
       "nflTeam": "MIA",
       "pointsByWeek": {
+        "8": 14.64,
         "7": 26.02,
         "5": 18.88,
         "4": 2.5,
@@ -14109,6 +15143,7 @@
         "1": 16.7
       },
       "nflTeamsByWeek": {
+        "8": "MIA",
         "7": "MIA",
         "5": "MIA",
         "4": "MIA",
@@ -14123,6 +15158,7 @@
       "position": "WR",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 4.0,
         "7": 2.8,
         "6": 4.7,
         "4": 0.0,
@@ -14131,6 +15167,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC",
         "4": "KC",
@@ -14145,6 +15182,7 @@
       "position": "K",
       "nflTeam": "CHI",
       "pointsByWeek": {
+        "8": 11.0,
         "7": 14.0,
         "6": 8.0,
         "5": 0.0,
@@ -14154,6 +15192,7 @@
         "1": 12.0
       },
       "nflTeamsByWeek": {
+        "8": "CHI",
         "7": "CHI",
         "6": "CHI",
         "5": "CHI",
@@ -14169,6 +15208,7 @@
       "position": "TE",
       "nflTeam": "NE",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -14178,6 +15218,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "NE",
         "7": "NE",
         "6": "NE",
         "5": "NE",
@@ -14193,6 +15234,7 @@
       "position": "WR",
       "nflTeam": "BAL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -14202,6 +15244,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "BAL",
         "7": "BAL",
         "6": "BAL",
         "5": "BAL",
@@ -14217,6 +15260,7 @@
       "position": "TE",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 9.5,
         "7": 7.4,
         "6": 8.3,
         "4": 3.7,
@@ -14225,6 +15269,7 @@
         "1": 1.5
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC",
         "4": "KC",
@@ -14239,6 +15284,7 @@
       "position": "QB",
       "nflTeam": "TB",
       "pointsByWeek": {
+        "8": 1.4,
         "7": 6.66,
         "6": 0.0,
         "5": 0.0,
@@ -14248,6 +15294,7 @@
         "1": 11.64
       },
       "nflTeamsByWeek": {
+        "8": "TB",
         "7": "TB",
         "6": "TB",
         "5": "TB",
@@ -14263,6 +15310,7 @@
       "position": "TE",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 20.2,
         "7": 27.1,
         "6": 12.3,
         "5": 21.6,
@@ -14272,6 +15320,7 @@
         "1": 24.5
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI",
         "5": "ARI",
@@ -14287,6 +15336,7 @@
       "position": "TE",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 3.0,
         "7": 4.7,
         "6": 5.8,
         "5": 8.7,
@@ -14296,6 +15346,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI",
         "5": "ARI",
@@ -14311,6 +15362,7 @@
       "position": "RB",
       "nflTeam": "MIA",
       "pointsByWeek": {
+        "8": 6.9,
         "7": 17.3,
         "5": 14.8,
         "4": 18.0,
@@ -14319,6 +15371,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIA",
         "7": "MIA",
         "5": "MIA",
         "4": "MIA",
@@ -14357,6 +15410,7 @@
       "position": "WR",
       "nflTeam": "NYJ",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 22.5,
         "6": 22.3,
         "5": 0.0,
@@ -14366,6 +15420,7 @@
         "1": 4.0
       },
       "nflTeamsByWeek": {
+        "8": "NYJ",
         "7": "NYJ",
         "6": "NYJ",
         "5": "NYJ",
@@ -14381,6 +15436,7 @@
       "position": "RB",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 36.1,
         "7": 7.9,
         "6": 5.8,
         "5": 3.6,
@@ -14390,6 +15446,7 @@
         "1": 9.0
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI",
         "5": "ARI",
@@ -14405,6 +15462,7 @@
       "position": "RB",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 5.0,
         "6": 7.0,
         "5": 12.6,
         "4": 11.6,
@@ -14413,6 +15471,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC",
         "4": "LAC",
@@ -14427,6 +15486,7 @@
       "position": "K",
       "nflTeam": "DAL",
       "pointsByWeek": {
+        "8": 12.0,
         "7": 14.0,
         "6": 1.0,
         "5": 5.0,
@@ -14436,6 +15496,7 @@
         "1": 2.0
       },
       "nflTeamsByWeek": {
+        "8": "DAL",
         "7": "DAL",
         "6": "DAL",
         "5": "DAL",
@@ -14451,6 +15512,7 @@
       "position": "TE",
       "nflTeam": "NE",
       "pointsByWeek": {
+        "8": 6.0,
         "7": 14.1,
         "6": 14.8,
         "5": 13.4,
@@ -14460,6 +15522,7 @@
         "1": 5.6
       },
       "nflTeamsByWeek": {
+        "8": "NE",
         "7": "NE",
         "6": "NE",
         "5": "NE",
@@ -14475,6 +15538,7 @@
       "position": "TE",
       "nflTeam": "LAR",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 9.8,
         "6": 14.1,
         "5": 1.3,
@@ -14484,6 +15548,7 @@
         "1": 1.6
       },
       "nflTeamsByWeek": {
+        "8": "LAR",
         "7": "LAR",
         "6": "LAR",
         "5": "LAR",
@@ -14499,6 +15564,7 @@
       "position": "QB",
       "nflTeam": "DAL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -14508,6 +15574,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DAL",
         "7": "DAL",
         "6": "DAL",
         "5": "DAL",
@@ -14523,6 +15590,7 @@
       "position": "TE",
       "nflTeam": "CHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -14532,6 +15600,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CHI",
         "7": "CHI",
         "6": "CHI",
         "5": "CHI",
@@ -14583,6 +15652,7 @@
       "position": "WR",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -14592,6 +15662,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI",
         "5": "ARI",
@@ -14607,6 +15678,7 @@
       "position": "WR",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 6.2,
         "5": 0.0,
         "4": 0.0,
@@ -14615,6 +15687,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC",
         "4": "LAC",
@@ -14629,6 +15702,7 @@
       "position": "WR",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 4.9,
@@ -14638,6 +15712,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI",
         "5": "ARI",
@@ -14653,6 +15728,7 @@
       "position": "WR",
       "nflTeam": "DEN",
       "pointsByWeek": {
+        "8": 9.3,
         "7": 7.5,
         "6": 3.9,
         "5": 9.8,
@@ -14662,6 +15738,7 @@
         "1": 3.1
       },
       "nflTeamsByWeek": {
+        "8": "DEN",
         "7": "DEN",
         "6": "DEN",
         "5": "DEN",
@@ -14677,6 +15754,7 @@
       "position": "RB",
       "nflTeam": "TB",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 11.2,
         "6": 0.0,
         "5": 1.8,
@@ -14686,6 +15764,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "TB",
         "7": "TB",
         "6": "TB",
         "5": "TB",
@@ -14701,6 +15780,7 @@
       "position": "WR",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 23.8,
         "7": 31.3,
         "6": 25.4,
         "5": 22.8,
@@ -14710,6 +15790,7 @@
         "1": 26.2
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -14725,6 +15806,7 @@
       "position": "WR",
       "nflTeam": "TB",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 6.7,
         "6": 7.7,
         "5": 7.0,
@@ -14734,6 +15816,7 @@
         "1": 8.3
       },
       "nflTeamsByWeek": {
+        "8": "TB",
         "7": "TB",
         "6": "TB",
         "5": "TB",
@@ -14749,6 +15832,7 @@
       "position": "TE",
       "nflTeam": "CIN",
       "pointsByWeek": {
+        "8": 17.6,
         "7": 7.6,
         "5": 7.4,
         "4": 13.0,
@@ -14757,6 +15841,7 @@
         "1": 18.8
       },
       "nflTeamsByWeek": {
+        "8": "CIN",
         "7": "CIN",
         "5": "CIN",
         "4": "CIN",
@@ -14771,6 +15856,7 @@
       "position": "TE",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 4.3,
         "7": 8.6,
         "6": 4.6,
         "5": 5.0,
@@ -14780,6 +15866,7 @@
         "1": 3.3
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -14795,6 +15882,7 @@
       "position": "RB",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.8,
         "6": 2.9,
         "5": 0.0,
@@ -14804,6 +15892,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -14819,6 +15908,7 @@
       "position": "WR",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -14828,6 +15918,7 @@
         "1": 8.8
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT",
@@ -14867,6 +15958,7 @@
       "position": "WR",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 4.4,
         "5": 11.3,
@@ -14876,6 +15968,7 @@
         "1": 15.3
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI",
         "5": "PHI",
@@ -14891,6 +15984,7 @@
       "position": "K",
       "nflTeam": "SEA",
       "pointsByWeek": {
+        "8": 2.0,
         "7": 8.0,
         "6": 7.0,
         "5": 23.0,
@@ -14900,6 +15994,7 @@
         "1": 7.0
       },
       "nflTeamsByWeek": {
+        "8": "SEA",
         "7": "SEA",
         "6": "SEA",
         "5": "SEA",
@@ -14915,6 +16010,7 @@
       "position": "TE",
       "nflTeam": "LAR",
       "pointsByWeek": {
+        "8": 2.4,
         "7": 3.4,
         "6": 4.2,
         "5": 13.3,
@@ -14924,6 +16020,7 @@
         "1": 1.2
       },
       "nflTeamsByWeek": {
+        "8": "LAR",
         "7": "LAR",
         "6": "LAR",
         "5": "LAR",
@@ -14937,8 +16034,9 @@
       "playerId": 4369466,
       "name": "Ryan Miller",
       "position": "WR",
-      "nflTeam": "MIA",
+      "nflTeam": "MIA / NE",
       "pointsByWeek": {
+        "8": 0.0,
         "5": 0.0,
         "4": 0.0,
         "3": 3.5,
@@ -14946,6 +16044,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "NE",
         "5": "MIA",
         "4": "MIA",
         "3": "MIA",
@@ -14959,6 +16058,7 @@
       "position": "QB",
       "nflTeam": "BAL",
       "pointsByWeek": {
+        "8": -2.0,
         "7": 15.12,
         "6": 13.4,
         "5": 24.04,
@@ -14968,6 +16068,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "BAL",
         "7": "BAL",
         "6": "BAL",
         "5": "BAL",
@@ -14983,6 +16084,7 @@
       "position": "QB",
       "nflTeam": "CIN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -14990,6 +16092,7 @@
         "2": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CIN",
         "7": "CIN",
         "5": "CIN",
         "4": "CIN",
@@ -15003,6 +16106,7 @@
       "position": "TE",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -15012,6 +16116,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -15043,6 +16148,7 @@
       "position": "RB",
       "nflTeam": "TEN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -15052,6 +16158,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "TEN",
         "7": "TEN",
         "6": "TEN",
         "5": "TEN",
@@ -15091,6 +16198,7 @@
       "position": "RB",
       "nflTeam": "PHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -15100,6 +16208,7 @@
         "1": 0.3
       },
       "nflTeamsByWeek": {
+        "8": "PHI",
         "7": "PHI",
         "6": "PHI",
         "5": "PHI",
@@ -15115,6 +16224,7 @@
       "position": "WR",
       "nflTeam": "NE",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 11.2,
         "5": 2.6,
@@ -15124,6 +16234,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "NE",
         "7": "NE",
         "6": "NE",
         "5": "NE",
@@ -15139,6 +16250,7 @@
       "position": "RB",
       "nflTeam": "DAL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -15148,6 +16260,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DAL",
         "7": "DAL",
         "6": "DAL",
         "5": "DAL",
@@ -15187,6 +16300,7 @@
       "position": "TE",
       "nflTeam": "MIA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -15195,6 +16309,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIA",
         "7": "MIA",
         "5": "MIA",
         "4": "MIA",
@@ -15209,6 +16324,7 @@
       "position": "WR",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 7.7,
         "6": 6.7,
         "5": 0.0,
         "4": 5.0,
@@ -15217,6 +16333,7 @@
         "1": 3.7
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC",
         "4": "LAC",
@@ -15277,6 +16394,7 @@
       "position": "RB",
       "nflTeam": "CLE",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 2.3,
@@ -15286,6 +16404,7 @@
         "1": 5.6
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "5": "CLE",
@@ -15301,6 +16420,7 @@
       "position": "RB",
       "nflTeam": "MIN",
       "pointsByWeek": {
+        "8": 0.4,
         "7": 0.0,
         "5": 2.1,
         "4": 2.0,
@@ -15309,6 +16429,7 @@
         "1": 1.1
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "MIN",
@@ -15387,6 +16508,7 @@
       "position": "WR",
       "nflTeam": "NE",
       "pointsByWeek": {
+        "8": 6.7,
         "7": 2.6,
         "6": 0.0,
         "5": 10.9,
@@ -15396,6 +16518,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "NE",
         "7": "NE",
         "6": "NE",
         "5": "NE",
@@ -15411,6 +16534,7 @@
       "position": "WR",
       "nflTeam": "DEN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -15420,6 +16544,7 @@
         "1": 8.2
       },
       "nflTeamsByWeek": {
+        "8": "DEN",
         "7": "DEN",
         "6": "DEN",
         "5": "DEN",
@@ -15459,6 +16584,7 @@
       "position": "RB",
       "nflTeam": "DET",
       "pointsByWeek": {
+        "8": 8.0,
         "7": 0.5,
         "5": 1.1,
         "4": 2.7,
@@ -15467,6 +16593,7 @@
         "1": 2.8
       },
       "nflTeamsByWeek": {
+        "8": "DET",
         "7": "DET",
         "5": "DET",
         "4": "DET",
@@ -15481,6 +16608,7 @@
       "position": "TE",
       "nflTeam": "NYJ",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -15490,6 +16618,7 @@
         "1": 1.4
       },
       "nflTeamsByWeek": {
+        "8": "NYJ",
         "7": "NYJ",
         "6": "NYJ",
         "5": "NYJ",
@@ -15529,6 +16658,7 @@
       "position": "WR",
       "nflTeam": "CIN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -15537,6 +16667,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CIN",
         "7": "CIN",
         "5": "CIN",
         "4": "CIN",
@@ -15551,6 +16682,7 @@
       "position": "RB",
       "nflTeam": "LAR",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -15558,6 +16690,7 @@
         "3": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LAR",
         "7": "LAR",
         "6": "LAR",
         "5": "LAR",
@@ -15566,11 +16699,24 @@
       }
     },
     {
+      "playerId": 4566192,
+      "name": "Joshua Karty",
+      "position": "K",
+      "nflTeam": "LAR",
+      "pointsByWeek": {
+        "8": 0.0
+      },
+      "nflTeamsByWeek": {
+        "8": "LAR"
+      }
+    },
+    {
       "playerId": 4373678,
       "name": "Khalil Shakir",
       "position": "WR",
       "nflTeam": "BUF",
       "pointsByWeek": {
+        "8": 11.4,
         "6": 13.4,
         "5": 11.0,
         "4": 13.2,
@@ -15579,6 +16725,7 @@
         "1": 9.0
       },
       "nflTeamsByWeek": {
+        "8": "BUF",
         "6": "BUF",
         "5": "BUF",
         "4": "BUF",
@@ -15593,6 +16740,7 @@
       "position": "RB",
       "nflTeam": "MIN",
       "pointsByWeek": {
+        "8": 6.0,
         "7": 3.6,
         "5": 18.7,
         "4": 16.8,
@@ -15601,6 +16749,7 @@
         "1": 10.0
       },
       "nflTeamsByWeek": {
+        "8": "MIN",
         "7": "MIN",
         "5": "MIN",
         "4": "MIN",
@@ -15657,6 +16806,7 @@
       "position": "RB",
       "nflTeam": "LAC",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -15665,6 +16815,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "LAC",
         "6": "LAC",
         "5": "LAC",
         "4": "LAC",
@@ -15679,6 +16830,7 @@
       "position": "WR",
       "nflTeam": "CHI",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -15688,6 +16840,7 @@
         "1": 7.1
       },
       "nflTeamsByWeek": {
+        "8": "CHI",
         "7": "CHI",
         "6": "CHI",
         "5": "CHI",
@@ -15703,6 +16856,7 @@
       "position": "WR",
       "nflTeam": "ATL",
       "pointsByWeek": {
+        "8": 11.5,
         "7": 1.6,
         "6": 17.7,
         "5": 7.4,
@@ -15712,6 +16866,7 @@
         "1": 2.9
       },
       "nflTeamsByWeek": {
+        "8": "ATL",
         "7": "ATL",
         "6": "ATL",
         "5": "ATL",
@@ -15751,11 +16906,13 @@
       "position": "WR",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 4.4,
         "6": 0.0,
         "5": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT"
@@ -15791,6 +16948,7 @@
       "position": "TE",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 11.6,
         "7": 4.0,
         "6": 3.1,
         "5": 21.5,
@@ -15800,6 +16958,7 @@
         "1": 15.6
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT",
@@ -15815,6 +16974,7 @@
       "position": "WR",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -15823,6 +16983,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH",
@@ -15837,6 +16998,7 @@
       "position": "QB",
       "nflTeam": "NYJ",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -15844,6 +17006,7 @@
         "3": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "NYJ",
         "7": "NYJ",
         "6": "NYJ",
         "5": "NYJ",
@@ -15857,6 +17020,7 @@
       "position": "WR",
       "nflTeam": "TEN",
       "pointsByWeek": {
+        "8": 6.4,
         "7": 7.4,
         "6": 1.3,
         "5": 2.7,
@@ -15866,6 +17030,7 @@
         "1": 8.1
       },
       "nflTeamsByWeek": {
+        "8": "TEN",
         "7": "TEN",
         "6": "TEN",
         "5": "TEN",
@@ -15931,6 +17096,7 @@
       "position": "WR",
       "nflTeam": "NE",
       "pointsByWeek": {
+        "8": 16.6,
         "7": 5.3,
         "6": 19.6,
         "5": 22.5,
@@ -15940,6 +17106,7 @@
         "1": 7.0
       },
       "nflTeamsByWeek": {
+        "8": "NE",
         "7": "NE",
         "6": "NE",
         "5": "NE",
@@ -15979,6 +17146,7 @@
       "position": "TE",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 1.6,
         "7": 0.0,
         "6": 0.0,
         "4": 0.0,
@@ -15987,6 +17155,7 @@
         "1": 1.9
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC",
         "4": "KC",
@@ -16001,6 +17170,7 @@
       "position": "WR",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 1.6,
         "5": 1.2,
         "4": 9.5,
@@ -16009,6 +17179,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH",
@@ -16023,6 +17194,7 @@
       "position": "WR",
       "nflTeam": "ATL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -16032,6 +17204,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "ATL",
         "7": "ATL",
         "6": "ATL",
         "5": "ATL",
@@ -16047,9 +17220,11 @@
       "position": "RB",
       "nflTeam": "ATL",
       "pointsByWeek": {
+        "8": 2.5,
         "7": 3.8
       },
       "nflTeamsByWeek": {
+        "8": "ATL",
         "7": "ATL"
       }
     },
@@ -16059,6 +17234,7 @@
       "position": "RB",
       "nflTeam": "MIA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -16067,6 +17243,7 @@
         "1": 10.6
       },
       "nflTeamsByWeek": {
+        "8": "MIA",
         "7": "MIA",
         "5": "MIA",
         "4": "MIA",
@@ -16081,6 +17258,7 @@
       "position": "RB",
       "nflTeam": "DAL",
       "pointsByWeek": {
+        "8": 6.7,
         "7": 21.5,
         "6": 13.0,
         "5": 14.2,
@@ -16090,6 +17268,7 @@
         "1": 24.2
       },
       "nflTeamsByWeek": {
+        "8": "DAL",
         "7": "DAL",
         "6": "DAL",
         "5": "DAL",
@@ -16105,6 +17284,7 @@
       "position": "RB",
       "nflTeam": "NYJ",
       "pointsByWeek": {
+        "8": 1.5,
         "7": 8.4,
         "6": 3.6,
         "5": 2.7,
@@ -16114,6 +17294,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "NYJ",
         "7": "NYJ",
         "6": "NYJ",
         "5": "NYJ",
@@ -16129,6 +17310,7 @@
       "position": "RB",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -16138,6 +17320,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT",
@@ -16177,12 +17360,14 @@
       "position": "K",
       "nflTeam": "BAL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "BAL",
         "7": "BAL",
         "6": "BAL",
         "5": "BAL",
@@ -16195,6 +17380,7 @@
       "position": "QB",
       "nflTeam": "PIT",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": -0.2,
@@ -16204,6 +17390,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "PIT",
         "7": "PIT",
         "6": "PIT",
         "5": "PIT",
@@ -16219,6 +17406,7 @@
       "position": "K",
       "nflTeam": "ARI",
       "pointsByWeek": {
+        "8": 10.0,
         "7": 11.0,
         "6": 19.0,
         "5": 2.0,
@@ -16228,6 +17416,7 @@
         "1": 15.0
       },
       "nflTeamsByWeek": {
+        "8": "ARI",
         "7": "ARI",
         "6": "ARI",
         "5": "ARI",
@@ -16243,6 +17432,7 @@
       "position": "RB",
       "nflTeam": "TEN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 2.4,
         "6": 0.0,
         "5": 0.0,
@@ -16250,6 +17440,7 @@
         "3": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "TEN",
         "7": "TEN",
         "6": "TEN",
         "5": "TEN",
@@ -16263,6 +17454,7 @@
       "position": "RB",
       "nflTeam": "TB",
       "pointsByWeek": {
+        "8": 14.0,
         "7": 8.8,
         "6": 3.4,
         "5": 5.8,
@@ -16272,6 +17464,7 @@
         "1": 2.8
       },
       "nflTeamsByWeek": {
+        "8": "TB",
         "7": "TB",
         "6": "TB",
         "5": "TB",
@@ -16287,6 +17480,7 @@
       "position": "QB",
       "nflTeam": "DET",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -16295,6 +17489,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DET",
         "7": "DET",
         "5": "DET",
         "4": "DET",
@@ -16309,6 +17504,7 @@
       "position": "TE",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 10.3,
         "7": 6.2,
         "6": 16.5,
         "5": 1.2,
@@ -16318,6 +17514,7 @@
         "1": 9.2
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -16333,6 +17530,7 @@
       "position": "QB",
       "nflTeam": "IND",
       "pointsByWeek": {
+        "8": 0.72,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -16342,6 +17540,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "IND",
         "7": "IND",
         "6": "IND",
         "5": "IND",
@@ -16357,6 +17556,7 @@
       "position": "TE",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "4": 0.0,
@@ -16365,6 +17565,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC",
         "4": "KC",
@@ -16374,11 +17575,24 @@
       }
     },
     {
+      "playerId": 4044144,
+      "name": "Kenny Yeboah",
+      "position": "TE",
+      "nflTeam": "ARI",
+      "pointsByWeek": {
+        "8": 0.0
+      },
+      "nflTeamsByWeek": {
+        "8": "ARI"
+      }
+    },
+    {
       "playerId": 4431142,
       "name": "Jimmy Holiday",
       "position": "WR",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "4": 0.0,
@@ -16387,6 +17601,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC",
         "4": "KC",
@@ -16401,6 +17616,7 @@
       "position": "WR",
       "nflTeam": "TEN",
       "pointsByWeek": {
+        "8": 2.0,
         "7": 0.0,
         "6": 0.0,
         "5": 5.3,
@@ -16410,6 +17626,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "TEN",
         "7": "TEN",
         "6": "TEN",
         "5": "TEN",
@@ -16425,6 +17642,7 @@
       "position": "WR",
       "nflTeam": "CLE",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -16434,6 +17652,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "CLE",
         "7": "CLE",
         "6": "CLE",
         "5": "CLE",
@@ -16449,6 +17668,7 @@
       "position": "QB",
       "nflTeam": "DET",
       "pointsByWeek": {
+        "8": 9.04,
         "7": 18.02,
         "5": 28.94,
         "4": 20.48,
@@ -16457,6 +17677,7 @@
         "1": 16.44
       },
       "nflTeamsByWeek": {
+        "8": "DET",
         "7": "DET",
         "5": "DET",
         "4": "DET",
@@ -16471,6 +17692,7 @@
       "position": "RB",
       "nflTeam": "LAR",
       "pointsByWeek": {
+        "8": 13.3,
         "7": 17.1,
         "6": 14.0,
         "5": 16.2,
@@ -16480,6 +17702,7 @@
         "1": 5.4
       },
       "nflTeamsByWeek": {
+        "8": "LAR",
         "7": "LAR",
         "6": "LAR",
         "5": "LAR",
@@ -16519,6 +17742,7 @@
       "position": "WR",
       "nflTeam": "LV",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -16528,6 +17752,7 @@
         "1": 11.3
       },
       "nflTeamsByWeek": {
+        "8": "LV",
         "7": "LV",
         "6": "LV",
         "5": "LV",
@@ -16543,6 +17768,7 @@
       "position": "TE",
       "nflTeam": "TEN",
       "pointsByWeek": {
+        "8": 6.6,
         "7": 1.4,
         "6": 0.0,
         "5": 1.5,
@@ -16552,6 +17778,7 @@
         "1": 1.7
       },
       "nflTeamsByWeek": {
+        "8": "TEN",
         "7": "TEN",
         "6": "TEN",
         "5": "TEN",
@@ -16567,6 +17794,7 @@
       "position": "TE",
       "nflTeam": "WSH",
       "pointsByWeek": {
+        "8": 0.0,
         "6": 1.4,
         "5": 1.1,
         "4": 0.0,
@@ -16575,6 +17803,7 @@
         "1": 3.3
       },
       "nflTeamsByWeek": {
+        "8": "WSH",
         "6": "WSH",
         "5": "WSH",
         "4": "WSH",
@@ -16589,6 +17818,7 @@
       "position": "WR",
       "nflTeam": "NYJ",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -16598,6 +17828,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "NYJ",
         "7": "NYJ",
         "6": "NYJ",
         "5": "NYJ",
@@ -16613,6 +17844,7 @@
       "position": "RB",
       "nflTeam": "DET",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -16621,6 +17853,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "DET",
         "7": "DET",
         "5": "DET",
         "4": "DET",
@@ -16635,6 +17868,7 @@
       "position": "WR",
       "nflTeam": "KC",
       "pointsByWeek": {
+        "8": 4.3,
         "7": 4.1,
         "6": 14.3,
         "4": 11.0,
@@ -16643,6 +17877,7 @@
         "1": 4.8
       },
       "nflTeamsByWeek": {
+        "8": "KC",
         "7": "KC",
         "6": "KC",
         "4": "KC",
@@ -16657,6 +17892,7 @@
       "position": "TE",
       "nflTeam": "BAL",
       "pointsByWeek": {
+        "8": 4.4,
         "7": 5.3,
         "6": 1.4,
         "5": 4.8,
@@ -16666,6 +17902,7 @@
         "1": 8.9
       },
       "nflTeamsByWeek": {
+        "8": "BAL",
         "7": "BAL",
         "6": "BAL",
         "5": "BAL",
@@ -16705,6 +17942,7 @@
       "position": "QB",
       "nflTeam": "JAX",
       "pointsByWeek": {
+        "8": 0.32,
         "6": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -16713,6 +17951,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "JAX",
         "6": "JAX",
         "5": "JAX",
         "4": "JAX",
@@ -16727,6 +17966,7 @@
       "position": "RB",
       "nflTeam": "CIN",
       "pointsByWeek": {
+        "8": 2.9,
         "7": 7.6,
         "5": 15.8,
         "4": 0.7,
@@ -16735,6 +17975,7 @@
         "1": 8.0
       },
       "nflTeamsByWeek": {
+        "8": "CIN",
         "7": "CIN",
         "5": "CIN",
         "4": "CIN",
@@ -16749,11 +17990,13 @@
       "position": "RB",
       "nflTeam": "TEN",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.3
       },
       "nflTeamsByWeek": {
+        "8": "TEN",
         "7": "TEN",
         "6": "TEN",
         "5": "TEN"
@@ -16765,6 +18008,7 @@
       "position": "RB",
       "nflTeam": "MIA",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "5": 0.0,
         "4": 0.0,
@@ -16773,6 +18017,7 @@
         "1": 0.0
       },
       "nflTeamsByWeek": {
+        "8": "MIA",
         "7": "MIA",
         "5": "MIA",
         "4": "MIA",
@@ -16787,6 +18032,7 @@
       "position": "TE",
       "nflTeam": "BAL",
       "pointsByWeek": {
+        "8": 0.0,
         "7": 0.0,
         "6": 0.0,
         "5": 0.0,
@@ -16796,6 +18042,7 @@
         "1": 1.4
       },
       "nflTeamsByWeek": {
+        "8": "BAL",
         "7": "BAL",
         "6": "BAL",
         "5": "BAL",

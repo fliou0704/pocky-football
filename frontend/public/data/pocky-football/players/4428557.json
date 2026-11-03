@@ -22,7 +22,7 @@
       "team": "TEN"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
+        "weeks": 8,
         "points": 27.1,
-        "average": 3.87,
+        "average": 3.39,
         "high": {
           "season": 2026,
           "week": 5,
@@ -312,13 +312,32 @@
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "TEN",
           "nflOpponent": "CIN",
           "rosters": []
@@ -2979,9 +2998,9 @@
     }
   ],
   "career": {
-    "weeks": 58,
+    "weeks": 59,
     "points": 406.2,
-    "average": 7.0,
+    "average": 6.88,
     "high": {
       "season": 2024,
       "week": 15,

@@ -22,7 +22,7 @@
       "team": null
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,9 +47,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 28.24,
-        "average": 4.03,
+        "weeks": 8,
+        "points": 34.94,
+        "average": 4.37,
         "high": {
           "season": 2026,
           "week": 4,
@@ -63,8 +63,8 @@
         "points": 2.6,
         "fppg": 1.3,
         "nflStats": {
-          "receptions": 10.0,
-          "recYards": 114.0,
+          "receptions": 15.0,
+          "recYards": 151.0,
           "recTD": 1.0,
           "rushYards": 2.0
         },
@@ -314,28 +314,35 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 5.0,
+            "recYards": 37.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 6.7,
           "nflTeam": "NE",
           "nflOpponent": "MIA",
-          "rosters": [
-            {
-              "team": {
-                "teamId": 2,
-                "name": "Juwan's Team",
-                "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
-              },
-              "slot": "WR",
-              "points": null,
-              "nflTeam": "NE",
-              "nflOpponent": null
-            }
-          ]
+          "rosters": []
         },
         {
           "gameState": "upcoming",
@@ -467,26 +474,32 @@
           },
           "weeks": [
             6,
-            7,
-            8
+            7
           ],
           "evidence": [
-            "current_roster",
             "transaction",
             "weekly_roster"
           ]
         }
       ],
-      "rosterSnapshot": [
-        {
-          "teamId": 2,
-          "name": "Juwan's Team",
-          "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
-        }
-      ],
+      "rosterSnapshot": [],
       "rosterSnapshotLabel": "Current roster",
       "draft": [],
       "transactions": [
+        {
+          "type": "drop",
+          "timestamp": "2026-10-31T00:08:49.979000+00:00",
+          "timestampKind": "proposed",
+          "week": 8,
+          "fromTeams": [
+            {
+              "teamId": 2,
+              "name": "Juwan's Team",
+              "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
+            }
+          ],
+          "toTeams": []
+        },
         {
           "type": "waiver_add",
           "timestamp": "2026-10-14T08:00:20.250000+00:00",
@@ -509,9 +522,9 @@
     }
   ],
   "career": {
-    "weeks": 7,
-    "points": 28.24,
-    "average": 4.03,
+    "weeks": 8,
+    "points": 34.94,
+    "average": 4.37,
     "high": {
       "season": 2026,
       "week": 4,

@@ -22,7 +22,7 @@
       "team": "BAL"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -43,9 +43,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 50.4,
-        "average": 7.2,
+        "weeks": 8,
+        "points": 54.8,
+        "average": 6.85,
         "high": {
           "season": 2026,
           "week": 4,
@@ -59,8 +59,8 @@
         "points": 23.9,
         "fppg": 7.97,
         "nflStats": {
-          "receptions": 26.0,
-          "recYards": 204.0,
+          "receptions": 29.0,
+          "recYards": 218.0,
           "recTD": 1.0
         },
         "participationComplete": true,
@@ -369,13 +369,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 3.0,
+            "recYards": 14.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 4.4,
           "nflTeam": "BAL",
           "nflOpponent": "BUF",
           "rosters": [
@@ -386,9 +405,9 @@
                 "logo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 4.4,
               "nflTeam": "BAL",
-              "nflOpponent": null
+              "nflOpponent": "BUF"
             }
           ]
         },
@@ -402,7 +421,19 @@
           "points": null,
           "nflTeam": "BAL",
           "nflOpponent": "JAX",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Good Christians Hate Sinners",
+                "logo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "BAL",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -528,7 +559,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -4728,9 +4760,9 @@
     }
   ],
   "career": {
-    "weeks": 92,
-    "points": 997.2,
-    "average": 10.84,
+    "weeks": 93,
+    "points": 1001.6,
+    "average": 10.77,
     "high": {
       "season": 2021,
       "week": 5,

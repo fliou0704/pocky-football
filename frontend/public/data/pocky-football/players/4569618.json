@@ -22,7 +22,7 @@
       "team": "NYJ"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,24 +47,24 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 99.4,
-        "average": 14.2,
+        "weeks": 8,
+        "points": 113.7,
+        "average": 14.21,
         "high": {
           "season": 2026,
           "week": 3,
           "points": 26.7
         },
-        "starts": 7,
-        "starterPoints": 99.4
+        "starts": 8,
+        "starterPoints": 113.7
       },
       "seasonStats": {
-        "gp": 7,
-        "points": 99.4,
-        "fppg": 14.2,
+        "gp": 8,
+        "points": 113.7,
+        "fppg": 14.21,
         "nflStats": {
-          "receptions": 37.0,
-          "recYards": 444.0,
+          "receptions": 43.0,
+          "recYards": 527.0,
           "recTD": 3.0,
           "rushYards": 0
         },
@@ -374,13 +374,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 6.0,
+            "recYards": 83.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 14.3,
           "nflTeam": "NYJ",
           "nflOpponent": "LV",
           "rosters": [
@@ -391,9 +410,9 @@
                 "logo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp"
               },
               "slot": "WR",
-              "points": null,
+              "points": 14.3,
               "nflTeam": "NYJ",
-              "nflOpponent": null
+              "nflOpponent": "LV"
             }
           ]
         },
@@ -407,7 +426,19 @@
           "points": null,
           "nflTeam": "NYJ",
           "nflOpponent": "KC",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Eat the Booty Like Groceries",
+                "logo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp"
+              },
+              "slot": "WR",
+              "points": null,
+              "nflTeam": "NYJ",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -533,7 +564,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -3908,15 +3940,15 @@
     }
   ],
   "career": {
-    "weeks": 75,
-    "points": 879.7,
-    "average": 11.73,
+    "weeks": 76,
+    "points": 894.0,
+    "average": 11.76,
     "high": {
       "season": 2022,
       "week": 2,
       "points": 30.0
     },
-    "starts": 54,
-    "starterPoints": 721.5
+    "starts": 55,
+    "starterPoints": 735.8
   }
 }

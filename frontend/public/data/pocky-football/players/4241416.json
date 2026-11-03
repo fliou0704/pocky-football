@@ -22,7 +22,7 @@
       "team": "CAR"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -67,9 +67,9 @@
         "starterPoints": 109.3
       },
       "seasonStats": {
-        "gp": 5,
-        "points": 84.4,
-        "fppg": 16.88,
+        "gp": 6,
+        "points": 109.3,
+        "fppg": 18.22,
         "nflStats": {
           "rushAttempts": 118.0,
           "rushYards": 540.0,
@@ -388,7 +388,7 @@
           },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
+          "fantasyStatus": "final",
           "status": "final",
           "points": 24.9,
           "nflTeam": "CAR",
@@ -417,7 +417,19 @@
           "points": null,
           "nflTeam": "CAR",
           "nflOpponent": "DEN",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
+              },
+              "slot": "RB",
+              "points": null,
+              "nflTeam": "CAR",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -543,7 +555,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",

@@ -8,7 +8,7 @@
     "nflTeam": "DEN",
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png"
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -37,27 +37,27 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 49.0,
-        "average": 7.0,
+        "weeks": 8,
+        "points": 50.0,
+        "average": 6.25,
         "high": {
           "season": 2026,
           "week": 5,
           "points": 14.0
         },
-        "starts": 4,
-        "starterPoints": 43.0
+        "starts": 5,
+        "starterPoints": 44.0
       },
       "seasonStats": {
-        "gp": 4,
-        "points": 43.0,
-        "fppg": 10.75,
+        "gp": 5,
+        "points": 44.0,
+        "fppg": 8.8,
         "nflStats": {
-          "sacks": 21.0,
+          "sacks": 23.0,
           "defInterceptions": 7.0,
           "fumbleRecoveries": 3.0,
           "defTD": 1.0,
-          "pointsAllowed": 141.0
+          "pointsAllowed": 165.0
         },
         "participationComplete": true,
         "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
@@ -365,13 +365,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 2.0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 24.0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 1.0,
           "nflTeam": "DEN",
           "nflOpponent": "KC",
           "rosters": [
@@ -382,9 +401,9 @@
                 "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
               },
               "slot": "D/ST",
-              "points": null,
+              "points": 1.0,
               "nflTeam": "DEN",
-              "nflOpponent": null
+              "nflOpponent": "KC"
             }
           ]
         },
@@ -398,7 +417,19 @@
           "points": null,
           "nflTeam": "DEN",
           "nflOpponent": "CAR",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
+              },
+              "slot": "D/ST",
+              "points": null,
+              "nflTeam": "DEN",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "bye",
@@ -524,7 +555,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -3870,15 +3902,15 @@
     }
   ],
   "career": {
-    "weeks": 75,
-    "points": 571.0,
-    "average": 7.61,
+    "weeks": 76,
+    "points": 572.0,
+    "average": 7.53,
     "high": {
       "season": 2024,
       "week": 7,
       "points": 21.0
     },
-    "starts": 55,
-    "starterPoints": 440.0
+    "starts": 56,
+    "starterPoints": 441.0
   }
 }

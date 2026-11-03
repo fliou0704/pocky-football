@@ -22,7 +22,7 @@
       "team": "MIA"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 6,
+        "weeks": 7,
         "points": 24.6,
-        "average": 4.1,
+        "average": 3.51,
         "high": {
           "season": 2026,
           "week": 2,
@@ -365,28 +365,35 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "MIA",
           "nflOpponent": "NE",
-          "rosters": [
-            {
-              "team": {
-                "teamId": 11,
-                "name": "Choose Olave",
-                "logo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg"
-              },
-              "slot": "IR",
-              "points": null,
-              "nflTeam": "MIA",
-              "nflOpponent": null
-            }
-          ]
+          "rosters": []
         },
         {
           "gameState": "upcoming",
@@ -523,23 +530,16 @@
             4,
             5,
             6,
-            7,
-            8
+            7
           ],
           "evidence": [
-            "current_roster",
             "draft",
+            "transaction",
             "weekly_roster"
           ]
         }
       ],
-      "rosterSnapshot": [
-        {
-          "teamId": 11,
-          "name": "Choose Olave",
-          "logo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg"
-        }
-      ],
+      "rosterSnapshot": [],
       "rosterSnapshotLabel": "Current roster",
       "draft": [
         {
@@ -555,7 +555,22 @@
           "keeper": false
         }
       ],
-      "transactions": [],
+      "transactions": [
+        {
+          "type": "drop",
+          "timestamp": "2026-11-01T14:15:20.692000+00:00",
+          "timestampKind": "proposed",
+          "week": 8,
+          "fromTeams": [
+            {
+              "teamId": 11,
+              "name": "Choose Olave",
+              "logo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg"
+            }
+          ],
+          "toTeams": []
+        }
+      ],
       "activityCoverage": {
         "status": "independently_verified_counts",
         "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
@@ -3071,9 +3086,9 @@
     }
   ],
   "career": {
-    "weeks": 57,
+    "weeks": 58,
     "points": 838.0,
-    "average": 14.7,
+    "average": 14.45,
     "high": {
       "season": 2023,
       "week": 3,

@@ -22,7 +22,7 @@
       "team": "PHI"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,9 +47,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
+        "weeks": 8,
         "points": 69.0,
-        "average": 9.86,
+        "average": 8.62,
         "high": {
           "season": 2026,
           "week": 2,
@@ -374,13 +374,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "PHI",
           "nflOpponent": "WSH",
           "rosters": [
@@ -390,10 +409,10 @@
                 "name": "Choose Olave",
                 "logo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg"
               },
-              "slot": "WR",
-              "points": null,
+              "slot": "IR",
+              "points": 0.0,
               "nflTeam": "PHI",
-              "nflOpponent": null
+              "nflOpponent": "WSH"
             }
           ]
         },
@@ -407,7 +426,19 @@
           "points": null,
           "nflTeam": "PHI",
           "nflOpponent": "NYG",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Choose Olave",
+                "logo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg"
+              },
+              "slot": "IR",
+              "points": null,
+              "nflTeam": "PHI",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "bye",
@@ -533,7 +564,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -4775,9 +4807,9 @@
     }
   ],
   "career": {
-    "weeks": 92,
+    "weeks": 93,
     "points": 1138.0,
-    "average": 12.37,
+    "average": 12.24,
     "high": {
       "season": 2025,
       "week": 7,

@@ -22,7 +22,7 @@
       "team": "NO"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -294,8 +294,8 @@
           "nflStats": {},
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
+          "fantasyStatus": "final",
+          "status": "final",
           "points": null,
           "nflTeam": "NO",
           "nflOpponent": null,
@@ -323,7 +323,19 @@
           "points": null,
           "nflTeam": "NO",
           "nflOpponent": "CLE",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
+              },
+              "slot": "IR",
+              "points": null,
+              "nflTeam": "NO",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -442,7 +454,8 @@
             "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
           },
           "weeks": [
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",

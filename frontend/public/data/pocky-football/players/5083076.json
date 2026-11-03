@@ -22,7 +22,7 @@
       "team": "CLE"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -43,9 +43,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 66.7,
-        "average": 9.53,
+        "weeks": 8,
+        "points": 90.1,
+        "average": 11.26,
         "high": {
           "season": 2026,
           "week": 3,
@@ -59,8 +59,8 @@
         "points": 17.7,
         "fppg": 5.9,
         "nflStats": {
-          "receptions": 25.0,
-          "recYards": 257.0,
+          "receptions": 35.0,
+          "recYards": 411.0,
           "recTD": 3.0
         },
         "participationComplete": true,
@@ -369,13 +369,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 10.0,
+            "recYards": 154.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 23.4,
           "nflTeam": "CLE",
           "nflOpponent": "PIT",
           "rosters": [
@@ -386,9 +405,9 @@
                 "logo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg"
               },
               "slot": "BE",
-              "points": null,
+              "points": 23.4,
               "nflTeam": "CLE",
-              "nflOpponent": null
+              "nflOpponent": "PIT"
             }
           ]
         },
@@ -402,7 +421,19 @@
           "points": null,
           "nflTeam": "CLE",
           "nflOpponent": "NO",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Choose Olave",
+                "logo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "CLE",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -528,7 +559,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -1341,9 +1373,9 @@
     }
   ],
   "career": {
-    "weeks": 24,
-    "points": 253.1,
-    "average": 10.55,
+    "weeks": 25,
+    "points": 276.5,
+    "average": 11.06,
     "high": {
       "season": 2025,
       "week": 14,

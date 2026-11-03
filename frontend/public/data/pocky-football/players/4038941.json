@@ -22,7 +22,7 @@
       "team": "LAC"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,9 +51,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 6,
-        "points": 62.44,
-        "average": 10.41,
+        "weeks": 7,
+        "points": 70.22,
+        "average": 10.03,
         "high": {
           "season": 2026,
           "week": 1,
@@ -67,10 +67,10 @@
         "points": 0,
         "fppg": null,
         "nflStats": {
-          "passYards": 1141.0,
+          "passYards": 1398.0,
           "passTD": 5.0,
-          "interceptions": 8.0,
-          "rushYards": 168.0,
+          "interceptions": 10.0,
+          "rushYards": 183.0,
           "rushTD": 0
         },
         "participationComplete": true,
@@ -360,13 +360,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 32.0,
+            "passYards": 257.0,
+            "passTD": 0,
+            "interceptions": 2.0,
+            "rushAttempts": 4.0,
+            "rushYards": 15.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 7.78,
           "nflTeam": "LAC",
           "nflOpponent": "LAR",
           "rosters": [
@@ -377,9 +396,9 @@
                 "logo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 7.78,
               "nflTeam": "LAC",
-              "nflOpponent": null
+              "nflOpponent": "LAR"
             }
           ]
         },
@@ -393,7 +412,19 @@
           "points": null,
           "nflTeam": "LAC",
           "nflOpponent": "HOU",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Eat the Booty Like Groceries",
+                "logo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "LAC",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -519,7 +550,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -4761,9 +4793,9 @@
     }
   ],
   "career": {
-    "weeks": 91,
-    "points": 1530.9,
-    "average": 16.82,
+    "weeks": 92,
+    "points": 1538.68,
+    "average": 16.72,
     "high": {
       "season": 2021,
       "week": 5,

@@ -22,7 +22,7 @@
       "team": "NYJ"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,21 +55,21 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
+        "weeks": 8,
         "points": 42.5,
-        "average": 6.07,
+        "average": 5.31,
         "high": {
           "season": 2026,
           "week": 1,
           "points": 19.8
         },
-        "starts": 3,
+        "starts": 4,
         "starterPoints": 42.5
       },
       "seasonStats": {
-        "gp": 3,
+        "gp": 4,
         "points": 42.5,
-        "fppg": 14.17,
+        "fppg": 10.62,
         "nflStats": {
           "rushAttempts": 51.0,
           "rushYards": 163.0,
@@ -384,13 +384,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "NYJ",
           "nflOpponent": "LV",
           "rosters": [
@@ -400,10 +419,10 @@
                 "name": "The Trenches PerryG",
                 "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
               },
-              "slot": "BE",
-              "points": null,
+              "slot": "RB",
+              "points": 0.0,
               "nflTeam": "NYJ",
-              "nflOpponent": null
+              "nflOpponent": "LV"
             }
           ]
         },
@@ -417,7 +436,19 @@
           "points": null,
           "nflTeam": "NYJ",
           "nflOpponent": "KC",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
+              },
+              "slot": "RB",
+              "points": null,
+              "nflTeam": "NYJ",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -543,7 +574,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -3805,15 +3837,15 @@
     }
   ],
   "career": {
-    "weeks": 75,
+    "weeks": 76,
     "points": 896.66,
-    "average": 11.96,
+    "average": 11.8,
     "high": {
       "season": 2023,
       "week": 16,
       "points": 43.1
     },
-    "starts": 52,
+    "starts": 53,
     "starterPoints": 778.26
   }
 }

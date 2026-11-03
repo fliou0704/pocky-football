@@ -22,7 +22,7 @@
       "team": "GB"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -59,9 +59,9 @@
         "starterPoints": 100.0
       },
       "seasonStats": {
-        "gp": 5,
-        "points": 82.7,
-        "fppg": 16.54,
+        "gp": 6,
+        "points": 100.0,
+        "fppg": 16.67,
         "nflStats": {
           "receptions": 42.0,
           "recYards": 708.0,
@@ -397,7 +397,7 @@
           },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
+          "fantasyStatus": "final",
           "status": "final",
           "points": 17.3,
           "nflTeam": "GB",
@@ -426,7 +426,19 @@
           "points": null,
           "nflTeam": "GB",
           "nflOpponent": "NE",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "The Concep",
+                "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
+              },
+              "slot": "WR",
+              "points": null,
+              "nflTeam": "GB",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -552,7 +564,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",

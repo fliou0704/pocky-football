@@ -574,11 +574,33 @@
       "teamBId": 15,
       "summary": {
         "wins": 27,
-        "losses": 36,
+        "losses": 37,
         "ties": 0,
-        "total": 63
+        "total": 64
       },
       "rows": [
+        {
+          "season": 2026,
+          "week": 8,
+          "teamAId": 6,
+          "teamBId": 15,
+          "teamA": {
+            "teamId": 6,
+            "name": "LOVE MEEEE",
+            "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
+          },
+          "teamB": {
+            "teamId": 15,
+            "name": "Gibb me dak",
+            "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
+          },
+          "teamAScore": 73.26,
+          "teamBScore": 142.7,
+          "result": "L",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": false
+        },
         {
           "season": 2026,
           "week": 7,
@@ -1976,9 +1998,9 @@
       "seasonSummaries": {
         "2026": {
           "wins": 4,
-          "losses": 3,
+          "losses": 4,
           "ties": 0,
-          "total": 7
+          "total": 8
         },
         "2025": {
           "wins": 9,
@@ -2010,12 +2032,34 @@
       "teamAId": 15,
       "teamBId": 6,
       "summary": {
-        "wins": 36,
+        "wins": 37,
         "losses": 27,
         "ties": 0,
-        "total": 63
+        "total": 64
       },
       "rows": [
+        {
+          "season": 2026,
+          "week": 8,
+          "teamAId": 15,
+          "teamBId": 6,
+          "teamA": {
+            "teamId": 15,
+            "name": "Gibb me dak",
+            "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
+          },
+          "teamB": {
+            "teamId": 6,
+            "name": "LOVE MEEEE",
+            "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
+          },
+          "teamAScore": 142.7,
+          "teamBScore": 73.26,
+          "result": "W",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": false
+        },
         {
           "season": 2026,
           "week": 7,
@@ -3412,10 +3456,10 @@
       ],
       "seasonSummaries": {
         "2026": {
-          "wins": 3,
+          "wins": 4,
           "losses": 4,
           "ties": 0,
-          "total": 7
+          "total": 8
         },
         "2025": {
           "wins": 5,

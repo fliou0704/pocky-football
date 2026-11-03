@@ -22,7 +22,7 @@
       "team": null
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,24 +55,24 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 6,
-        "points": 18.7,
-        "average": 3.12,
+        "weeks": 7,
+        "points": 20.7,
+        "average": 2.96,
         "high": {
           "season": 2026,
           "week": 1,
           "points": 11.9
         },
-        "starts": 0,
-        "starterPoints": null
+        "starts": 1,
+        "starterPoints": 2.0
       },
       "seasonStats": {
-        "gp": 0,
-        "points": 0,
-        "fppg": null,
+        "gp": 1,
+        "points": 2.0,
+        "fppg": 2.0,
         "nflStats": {
-          "rushAttempts": 30.0,
-          "rushYards": 127.0,
+          "rushAttempts": 38.0,
+          "rushYards": 147.0,
           "rushTD": 1.0,
           "receptions": 0,
           "recYards": 0,
@@ -365,13 +365,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 8.0,
+            "rushYards": 20.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 2.0,
           "nflTeam": "MIN",
           "nflOpponent": "DET",
           "rosters": [
@@ -382,9 +401,9 @@
                 "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
               },
               "slot": "RB",
-              "points": null,
+              "points": 2.0,
               "nflTeam": "MIN",
-              "nflOpponent": null
+              "nflOpponent": "DET"
             }
           ]
         },
@@ -398,7 +417,19 @@
           "points": null,
           "nflTeam": "MIN",
           "nflOpponent": "BUF",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
+              },
+              "slot": "RB",
+              "points": null,
+              "nflTeam": "MIN",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -524,7 +555,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -2220,15 +2252,15 @@
     }
   ],
   "career": {
-    "weeks": 40,
-    "points": 262.6,
-    "average": 6.57,
+    "weeks": 41,
+    "points": 264.6,
+    "average": 6.45,
     "high": {
       "season": 2024,
       "week": 4,
       "points": 24.0
     },
-    "starts": 13,
-    "starterPoints": 146.4
+    "starts": 14,
+    "starterPoints": 148.4
   }
 }

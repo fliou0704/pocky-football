@@ -22,7 +22,7 @@
       "team": "HOU"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 3,
+        "weeks": 4,
         "points": 30.0,
-        "average": 10.0,
+        "average": 7.5,
         "high": {
           "season": 2026,
           "week": 6,
@@ -248,13 +248,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "PHI",
           "nflOpponent": "WSH",
           "rosters": []
@@ -2109,9 +2128,9 @@
     }
   ],
   "career": {
-    "weeks": 37,
+    "weeks": 38,
     "points": 279.1,
-    "average": 7.54,
+    "average": 7.34,
     "high": {
       "season": 2022,
       "week": 4,

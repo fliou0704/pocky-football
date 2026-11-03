@@ -22,7 +22,7 @@
       "team": "LA"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,9 +51,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 6,
-        "points": 133.02,
-        "average": 22.17,
+        "weeks": 7,
+        "points": 142.06,
+        "average": 20.29,
         "high": {
           "season": 2026,
           "week": 2,
@@ -67,9 +67,9 @@
         "points": 28.94,
         "fppg": 28.94,
         "nflStats": {
-          "passYards": 1788.0,
-          "passTD": 14.0,
-          "interceptions": 0,
+          "passYards": 1964.0,
+          "passTD": 15.0,
+          "interceptions": 1.0,
           "rushYards": 15.0,
           "rushTD": 1.0
         },
@@ -312,13 +312,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 25.0,
+            "passYards": 176.0,
+            "passTD": 1.0,
+            "interceptions": 1.0,
+            "rushAttempts": 3.0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 9.04,
           "nflTeam": "DET",
           "nflOpponent": "MIN",
           "rosters": [
@@ -329,9 +348,9 @@
                 "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 9.04,
               "nflTeam": "DET",
-              "nflOpponent": null
+              "nflOpponent": "MIN"
             }
           ]
         },
@@ -345,7 +364,19 @@
           "points": null,
           "nflTeam": "DET",
           "nflOpponent": "MIA",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "DET",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -494,7 +525,8 @@
           },
           "weeks": [
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -3914,9 +3946,9 @@
     }
   ],
   "career": {
-    "weeks": 74,
-    "points": 1327.96,
-    "average": 17.95,
+    "weeks": 75,
+    "points": 1337.0,
+    "average": 17.83,
     "high": {
       "season": 2024,
       "week": 15,

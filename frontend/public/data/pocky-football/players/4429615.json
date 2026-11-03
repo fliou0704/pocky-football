@@ -22,7 +22,7 @@
       "team": "BAL"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,21 +47,21 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
+        "weeks": 8,
         "points": 122.2,
-        "average": 17.46,
+        "average": 15.28,
         "high": {
           "season": 2026,
           "week": 7,
           "points": 27.7
         },
-        "starts": 5,
+        "starts": 6,
         "starterPoints": 106.8
       },
       "seasonStats": {
-        "gp": 5,
+        "gp": 6,
         "points": 106.8,
-        "fppg": 21.36,
+        "fppg": 17.8,
         "nflStats": {
           "receptions": 40.0,
           "recYards": 608.0,
@@ -374,13 +374,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "BAL",
           "nflOpponent": "BUF",
           "rosters": [
@@ -391,9 +410,9 @@
                 "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
               },
               "slot": "WR",
-              "points": null,
+              "points": 0.0,
               "nflTeam": "BAL",
-              "nflOpponent": null
+              "nflOpponent": "BUF"
             }
           ]
         },
@@ -407,7 +426,19 @@
           "points": null,
           "nflTeam": "BAL",
           "nflOpponent": "JAX",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
+              },
+              "slot": "WR",
+              "points": null,
+              "nflTeam": "BAL",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -533,7 +564,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -3074,15 +3106,15 @@
     }
   ],
   "career": {
-    "weeks": 58,
+    "weeks": 59,
     "points": 781.4,
-    "average": 13.47,
+    "average": 13.24,
     "high": {
       "season": 2025,
       "week": 18,
       "points": 29.8
     },
-    "starts": 41,
+    "starts": 42,
     "starterPoints": 551.1
   }
 }

@@ -22,7 +22,7 @@
       "team": null
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -378,7 +378,7 @@
           },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
+          "fantasyStatus": "final",
           "status": "final",
           "points": 9.6,
           "nflTeam": "CAR",
@@ -407,7 +407,19 @@
           "points": null,
           "nflTeam": "CAR",
           "nflOpponent": "DEN",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Eat the Booty Like Groceries",
+                "logo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "CAR",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -533,7 +545,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",

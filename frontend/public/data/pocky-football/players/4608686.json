@@ -22,7 +22,7 @@
       "team": "CHI"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
+        "weeks": 8,
         "points": 59.3,
-        "average": 8.47,
+        "average": 7.41,
         "high": {
           "season": 2026,
           "week": 4,
@@ -384,13 +384,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "CHI",
           "nflOpponent": "SEA",
           "rosters": [
@@ -401,9 +420,9 @@
                 "logo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 0.0,
               "nflTeam": "CHI",
-              "nflOpponent": null
+              "nflOpponent": "SEA"
             }
           ]
         },
@@ -417,7 +436,19 @@
           "points": null,
           "nflTeam": "CHI",
           "nflOpponent": "TB",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Eat the Booty Like Groceries",
+                "logo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "CHI",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "bye",
@@ -543,7 +574,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -1316,9 +1348,9 @@
     }
   ],
   "career": {
-    "weeks": 24,
+    "weeks": 25,
     "points": 206.0,
-    "average": 8.58,
+    "average": 8.24,
     "high": {
       "season": 2026,
       "week": 4,

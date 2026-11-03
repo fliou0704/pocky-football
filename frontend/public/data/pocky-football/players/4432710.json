@@ -22,7 +22,7 @@
       "team": "NE"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
+        "weeks": 8,
         "points": 33.8,
-        "average": 4.83,
+        "average": 4.22,
         "high": {
           "season": 2026,
           "week": 2,
@@ -384,13 +384,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "NE",
           "nflOpponent": "MIA",
           "rosters": [
@@ -401,9 +420,9 @@
                 "logo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 0.0,
               "nflTeam": "NE",
-              "nflOpponent": null
+              "nflOpponent": "MIA"
             }
           ]
         },
@@ -417,7 +436,19 @@
           "points": null,
           "nflTeam": "NE",
           "nflOpponent": "GB",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Good Christians Hate Sinners",
+                "logo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "NE",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -543,7 +574,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -1418,9 +1450,9 @@
     }
   ],
   "career": {
-    "weeks": 24,
+    "weeks": 25,
     "points": 240.0,
-    "average": 10.0,
+    "average": 9.6,
     "high": {
       "season": 2025,
       "week": 11,

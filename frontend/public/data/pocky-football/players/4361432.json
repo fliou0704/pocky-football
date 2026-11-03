@@ -22,7 +22,7 @@
       "team": "GB"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,9 +47,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
+        "weeks": 8,
         "points": 58.1,
-        "average": 8.3,
+        "average": 7.26,
         "high": {
           "season": 2026,
           "week": 4,
@@ -374,13 +374,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "NE",
           "nflOpponent": "MIA",
           "rosters": [
@@ -391,9 +410,9 @@
                 "logo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 0.0,
               "nflTeam": "NE",
-              "nflOpponent": null
+              "nflOpponent": "MIA"
             }
           ]
         },
@@ -407,7 +426,19 @@
           "points": null,
           "nflTeam": "NE",
           "nflOpponent": "GB",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Eat the Booty Like Groceries",
+                "logo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "NE",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -533,7 +564,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -3912,9 +3944,9 @@
     }
   ],
   "career": {
-    "weeks": 75,
+    "weeks": 76,
     "points": 631.6,
-    "average": 8.42,
+    "average": 8.31,
     "high": {
       "season": 2025,
       "week": 4,

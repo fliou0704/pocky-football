@@ -22,7 +22,7 @@
       "team": "CIN"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,25 +47,25 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 6,
-        "points": 97.1,
-        "average": 16.18,
+        "weeks": 7,
+        "points": 128.2,
+        "average": 18.31,
         "high": {
           "season": 2026,
-          "week": 2,
-          "points": 26.5
+          "week": 8,
+          "points": 31.1
         },
-        "starts": 6,
-        "starterPoints": 97.1
+        "starts": 7,
+        "starterPoints": 128.2
       },
       "seasonStats": {
-        "gp": 6,
-        "points": 97.1,
-        "fppg": 16.18,
+        "gp": 7,
+        "points": 128.2,
+        "fppg": 18.31,
         "nflStats": {
-          "receptions": 32.0,
-          "recYards": 351.0,
-          "recTD": 5.0,
+          "receptions": 43.0,
+          "recYards": 492.0,
+          "recTD": 6.0,
           "rushYards": 0
         },
         "participationComplete": true,
@@ -355,13 +355,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 11.0,
+            "recYards": 141.0,
+            "recTD": 1.0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 31.1,
           "nflTeam": "CIN",
           "nflOpponent": "TEN",
           "rosters": [
@@ -372,9 +391,9 @@
                 "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
               },
               "slot": "WR",
-              "points": null,
+              "points": 31.1,
               "nflTeam": "CIN",
-              "nflOpponent": null
+              "nflOpponent": "TEN"
             }
           ]
         },
@@ -388,7 +407,19 @@
           "points": null,
           "nflTeam": "CIN",
           "nflOpponent": "ATL",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
+              },
+              "slot": "WR",
+              "points": null,
+              "nflTeam": "CIN",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -514,7 +545,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -4723,15 +4755,15 @@
     }
   ],
   "career": {
-    "weeks": 91,
-    "points": 1623.42,
-    "average": 17.84,
+    "weeks": 92,
+    "points": 1654.52,
+    "average": 17.98,
     "high": {
       "season": 2021,
       "week": 17,
       "points": 55.6
     },
-    "starts": 70,
-    "starterPoints": 1366.62
+    "starts": 71,
+    "starterPoints": 1397.72
   }
 }

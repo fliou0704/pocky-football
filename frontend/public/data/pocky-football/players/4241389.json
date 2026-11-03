@@ -22,7 +22,7 @@
       "team": "DAL"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,24 +47,24 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 155.5,
-        "average": 22.21,
+        "weeks": 8,
+        "points": 168.3,
+        "average": 21.04,
         "high": {
           "season": 2026,
           "week": 4,
           "points": 41.3
         },
-        "starts": 7,
-        "starterPoints": 155.5
+        "starts": 8,
+        "starterPoints": 168.3
       },
       "seasonStats": {
-        "gp": 7,
-        "points": 155.5,
-        "fppg": 22.21,
+        "gp": 8,
+        "points": 168.3,
+        "fppg": 21.04,
         "nflStats": {
-          "receptions": 53.0,
-          "recYards": 651.0,
+          "receptions": 60.0,
+          "recYards": 709.0,
           "recTD": 6.0,
           "rushYards": -6.0
         },
@@ -374,13 +374,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 7.0,
+            "recYards": 58.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 12.8,
           "nflTeam": "DAL",
           "nflOpponent": "ARI",
           "rosters": [
@@ -391,9 +410,9 @@
                 "logo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp"
               },
               "slot": "FLEX",
-              "points": null,
+              "points": 12.8,
               "nflTeam": "DAL",
-              "nflOpponent": null
+              "nflOpponent": "ARI"
             }
           ]
         },
@@ -407,7 +426,19 @@
           "points": null,
           "nflTeam": "DAL",
           "nflOpponent": "IND",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Eat the Booty Like Groceries",
+                "logo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp"
+              },
+              "slot": "FLEX",
+              "points": null,
+              "nflTeam": "DAL",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -533,7 +564,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -4742,15 +4774,15 @@
     }
   ],
   "career": {
-    "weeks": 92,
-    "points": 1557.4,
-    "average": 16.93,
+    "weeks": 93,
+    "points": 1570.2,
+    "average": 16.88,
     "high": {
       "season": 2026,
       "week": 4,
       "points": 41.3
     },
-    "starts": 77,
-    "starterPoints": 1405.3
+    "starts": 78,
+    "starterPoints": 1418.1
   }
 }

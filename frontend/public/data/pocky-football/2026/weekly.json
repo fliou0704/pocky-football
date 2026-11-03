@@ -3,58 +3,57 @@
   "season": 2026,
   "allPlay": {
     "1": {
-      "wins": 31,
-      "losses": 32,
+      "wins": 35,
+      "losses": 37,
       "ties": 0
     },
     "2": {
-      "wins": 37,
+      "wins": 46,
       "losses": 26,
       "ties": 0
     },
     "3": {
-      "wins": 25,
-      "losses": 38,
+      "wins": 27,
+      "losses": 45,
       "ties": 0
     },
     "5": {
-      "wins": 28,
-      "losses": 35,
+      "wins": 31,
+      "losses": 41,
       "ties": 0
     },
     "6": {
       "wins": 43,
-      "losses": 20,
+      "losses": 29,
       "ties": 0
     },
     "11": {
-      "wins": 41,
-      "losses": 22,
+      "wins": 47,
+      "losses": 25,
       "ties": 0
     },
     "12": {
-      "wins": 22,
-      "losses": 41,
+      "wins": 23,
+      "losses": 49,
       "ties": 0
     },
     "13": {
-      "wins": 30,
-      "losses": 33,
+      "wins": 37,
+      "losses": 35,
       "ties": 0
     },
     "15": {
-      "wins": 37,
-      "losses": 26,
+      "wins": 45,
+      "losses": 27,
       "ties": 0
     },
     "16": {
-      "wins": 21,
-      "losses": 42,
+      "wins": 26,
+      "losses": 46,
       "ties": 0
     }
   },
   "excludedAllPlayWeeks": [
-    8,
     9,
     10,
     11,
@@ -1161,6 +1160,147 @@
           "count": 3
         }
       ]
+    },
+    "8": {
+      "week": 8,
+      "phase": "regular",
+      "topTeam": {
+        "teamId": 2,
+        "points": 174.18,
+        "rank": 1
+      },
+      "leaderboard": [
+        {
+          "teamId": 2,
+          "points": 174.18,
+          "rank": 1
+        },
+        {
+          "teamId": 15,
+          "points": 142.7,
+          "rank": 2
+        },
+        {
+          "teamId": 13,
+          "points": 131.06,
+          "rank": 3
+        },
+        {
+          "teamId": 11,
+          "points": 118.88,
+          "rank": 4
+        },
+        {
+          "teamId": 16,
+          "points": 117.22,
+          "rank": 5
+        },
+        {
+          "teamId": 1,
+          "points": 108.1,
+          "rank": 6
+        },
+        {
+          "teamId": 5,
+          "points": 103.68,
+          "rank": 7
+        },
+        {
+          "teamId": 3,
+          "points": 97.66,
+          "rank": 8
+        },
+        {
+          "teamId": 12,
+          "points": 86.64,
+          "rank": 9
+        },
+        {
+          "teamId": 6,
+          "points": 73.26,
+          "rank": 10
+        }
+      ],
+      "topPlayers": [
+        {
+          "playerId": 3915511,
+          "name": "Joe Burrow",
+          "slot": "QB",
+          "nflTeam": "CIN",
+          "position": "QB",
+          "points": 39.48,
+          "nflOpponent": "TEN",
+          "teamId": 2,
+          "bench": false
+        },
+        {
+          "playerId": 4239993,
+          "name": "Tee Higgins",
+          "slot": "WR",
+          "nflTeam": "CIN",
+          "position": "WR",
+          "points": 37.5,
+          "nflOpponent": "TEN",
+          "teamId": 15,
+          "bench": false
+        },
+        {
+          "playerId": 4373626,
+          "name": "Tyler Allgeier",
+          "slot": "BE",
+          "nflTeam": "ARI",
+          "position": "RB",
+          "points": 36.1,
+          "nflOpponent": "DAL",
+          "teamId": 5,
+          "bench": true
+        },
+        {
+          "playerId": 4362628,
+          "name": "Ja'Marr Chase",
+          "slot": "WR",
+          "nflTeam": "CIN",
+          "position": "WR",
+          "points": 31.1,
+          "nflOpponent": "TEN",
+          "teamId": 13,
+          "bench": false
+        },
+        {
+          "playerId": 4882093,
+          "name": "Bhayshul Tuten",
+          "slot": "RB",
+          "nflTeam": "JAX",
+          "position": "RB",
+          "points": 29.9,
+          "nflOpponent": "IND",
+          "teamId": 16,
+          "bench": false
+        }
+      ],
+      "awards": [
+        {
+          "id": "2026-8-1-3",
+          "match": {
+            "week": 8,
+            "homeTeamId": 3,
+            "awayTeamId": 1,
+            "homeScore": 97.66,
+            "awayScore": 108.1,
+            "status": "final",
+            "winnerTeamId": 1,
+            "bracket": "regular",
+            "phase": "regular",
+            "roundLabel": null,
+            "isPlayoff": false,
+            "isBye": false
+          },
+          "labels": [
+            "Closest Matchup"
+          ]
+        }
+      ],
+      "stories": []
     }
   },
   "previews": {
@@ -1171,17 +1311,7 @@
     "5": {},
     "6": {},
     "7": {},
-    "8": {
-      "2026-8-1-3": [
-        "Rivalry Tied 4–4"
-      ],
-      "2026-8-6-11": [
-        "Top Two Showdown"
-      ],
-      "2026-8-13-16": [
-        "Rivalry Tied 3–3"
-      ]
-    },
+    "8": {},
     "9": {
       "2026-9-2-6": [
         "Rivalry Tied 3–3"

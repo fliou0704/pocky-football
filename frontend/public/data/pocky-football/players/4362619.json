@@ -22,7 +22,7 @@
       "team": "WAS"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,13 +55,13 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 6,
-        "points": 30.4,
-        "average": 5.07,
+        "weeks": 7,
+        "points": 43.2,
+        "average": 6.17,
         "high": {
           "season": 2026,
-          "week": 3,
-          "points": 9.7
+          "week": 8,
+          "points": 12.8
         },
         "starts": 0,
         "starterPoints": null
@@ -71,11 +71,11 @@
         "points": 0,
         "fppg": null,
         "nflStats": {
-          "rushAttempts": 39.0,
-          "rushYards": 168.0,
-          "rushTD": 2.0,
-          "receptions": 1.0,
-          "recYards": 6.0,
+          "rushAttempts": 45.0,
+          "rushYards": 209.0,
+          "rushTD": 3.0,
+          "receptions": 2.0,
+          "recYards": 23.0,
           "recTD": 0
         },
         "participationComplete": true,
@@ -329,13 +329,32 @@
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 6.0,
+            "rushYards": 41.0,
+            "rushTD": 1.0,
+            "receptions": 1.0,
+            "recYards": 17.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 12.8,
           "nflTeam": "JAX",
           "nflOpponent": "IND",
           "rosters": []
@@ -520,13 +539,13 @@
     }
   ],
   "career": {
-    "weeks": 6,
-    "points": 30.4,
-    "average": 5.07,
+    "weeks": 7,
+    "points": 43.2,
+    "average": 6.17,
     "high": {
       "season": 2026,
-      "week": 3,
-      "points": 9.7
+      "week": 8,
+      "points": 12.8
     },
     "starts": 0,
     "starterPoints": null

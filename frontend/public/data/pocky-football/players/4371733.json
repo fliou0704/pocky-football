@@ -22,7 +22,7 @@
       "team": "PHI"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,13 +55,13 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 39.0,
-        "average": 5.57,
+        "weeks": 8,
+        "points": 53.0,
+        "average": 6.62,
         "high": {
           "season": 2026,
-          "week": 4,
-          "points": 10.7
+          "week": 8,
+          "points": 14.0
         },
         "starts": 4,
         "starterPoints": 28.7
@@ -71,8 +71,8 @@
         "points": 28.7,
         "fppg": 7.17,
         "nflStats": {
-          "rushAttempts": 33.0,
-          "rushYards": 149.0,
+          "rushAttempts": 58.0,
+          "rushYards": 289.0,
           "rushTD": 0,
           "receptions": 12.0,
           "recYards": 61.0,
@@ -384,13 +384,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 25.0,
+            "rushYards": 140.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 14.0,
           "nflTeam": "TB",
           "nflOpponent": "ATL",
           "rosters": [
@@ -400,10 +419,10 @@
                 "name": "The Trenches PerryG",
                 "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
               },
-              "slot": "RB",
-              "points": null,
+              "slot": "BE",
+              "points": 14.0,
               "nflTeam": "TB",
-              "nflOpponent": null
+              "nflOpponent": "ATL"
             }
           ]
         },
@@ -417,7 +436,19 @@
           "points": null,
           "nflTeam": "TB",
           "nflOpponent": "CHI",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "TB",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "bye",
@@ -557,7 +588,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -3614,9 +3646,9 @@
     }
   ],
   "career": {
-    "weeks": 75,
-    "points": 568.98,
-    "average": 7.59,
+    "weeks": 76,
+    "points": 582.98,
+    "average": 7.67,
     "high": {
       "season": 2025,
       "week": 4,

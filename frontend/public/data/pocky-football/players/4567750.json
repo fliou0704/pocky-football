@@ -22,7 +22,7 @@
       "team": "TB"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,9 +47,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
+        "weeks": 8,
         "points": 71.1,
-        "average": 10.16,
+        "average": 8.89,
         "high": {
           "season": 2026,
           "week": 6,
@@ -374,13 +374,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "TB",
           "nflOpponent": "ATL",
           "rosters": [
@@ -391,9 +410,9 @@
                 "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
               },
               "slot": "BE",
-              "points": null,
+              "points": 0.0,
               "nflTeam": "TB",
-              "nflOpponent": null
+              "nflOpponent": "ATL"
             }
           ]
         },
@@ -407,7 +426,19 @@
           "points": null,
           "nflTeam": "TB",
           "nflOpponent": "CHI",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "The Concep",
+                "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "TB",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "bye",
@@ -533,7 +564,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -1406,9 +1438,9 @@
     }
   ],
   "career": {
-    "weeks": 24,
+    "weeks": 25,
     "points": 266.8,
-    "average": 11.12,
+    "average": 10.67,
     "high": {
       "season": 2025,
       "week": 5,

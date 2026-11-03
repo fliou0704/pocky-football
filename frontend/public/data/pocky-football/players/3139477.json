@@ -22,7 +22,7 @@
       "team": "KC"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,26 +51,26 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 6,
-        "points": 100.06,
-        "average": 16.68,
+        "weeks": 7,
+        "points": 125.5,
+        "average": 17.93,
         "high": {
           "season": 2026,
           "week": 2,
           "points": 28.98
         },
-        "starts": 6,
-        "starterPoints": 100.06
+        "starts": 7,
+        "starterPoints": 125.5
       },
       "seasonStats": {
-        "gp": 6,
-        "points": 100.06,
-        "fppg": 16.68,
+        "gp": 7,
+        "points": 125.5,
+        "fppg": 17.93,
         "nflStats": {
-          "passYards": 1474.0,
-          "passTD": 9.0,
+          "passYards": 1795.0,
+          "passTD": 12.0,
           "interceptions": 4.0,
-          "rushYards": 71.0,
+          "rushYards": 77.0,
           "rushTD": 1.0
         },
         "participationComplete": true,
@@ -360,13 +360,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 41.0,
+            "passYards": 321.0,
+            "passTD": 3.0,
+            "interceptions": 0,
+            "rushAttempts": 2.0,
+            "rushYards": 6.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 25.44,
           "nflTeam": "KC",
           "nflOpponent": "DEN",
           "rosters": [
@@ -377,9 +396,9 @@
                 "logo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp"
               },
               "slot": "QB",
-              "points": null,
+              "points": 25.44,
               "nflTeam": "KC",
-              "nflOpponent": null
+              "nflOpponent": "DEN"
             }
           ]
         },
@@ -393,7 +412,19 @@
           "points": null,
           "nflTeam": "KC",
           "nflOpponent": "NYJ",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp"
+              },
+              "slot": "QB",
+              "points": null,
+              "nflTeam": "KC",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -519,7 +550,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -4733,15 +4765,15 @@
     }
   ],
   "career": {
-    "weeks": 91,
-    "points": 1728.04,
-    "average": 18.99,
+    "weeks": 92,
+    "points": 1753.48,
+    "average": 19.06,
     "high": {
       "season": 2021,
       "week": 10,
       "points": 36.24
     },
-    "starts": 82,
-    "starterPoints": 1658.16
+    "starts": 83,
+    "starterPoints": 1683.6
   }
 }

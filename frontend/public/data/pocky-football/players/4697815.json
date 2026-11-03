@@ -22,7 +22,7 @@
       "team": "TB"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 6,
-        "points": 48.8,
-        "average": 8.13,
+        "weeks": 7,
+        "points": 62.8,
+        "average": 8.97,
         "high": {
           "season": 2026,
           "week": 6,
@@ -71,11 +71,11 @@
         "points": 0,
         "fppg": null,
         "nflStats": {
-          "rushAttempts": 36.0,
-          "rushYards": 145.0,
-          "rushTD": 0,
-          "receptions": 14.0,
-          "recYards": 83.0,
+          "rushAttempts": 47.0,
+          "rushYards": 200.0,
+          "rushTD": 1.0,
+          "receptions": 16.0,
+          "recYards": 88.0,
           "recTD": 2.0
         },
         "participationComplete": true,
@@ -365,13 +365,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 11.0,
+            "rushYards": 55.0,
+            "rushTD": 1.0,
+            "receptions": 2.0,
+            "recYards": 5.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 14.0,
           "nflTeam": "WSH",
           "nflOpponent": "PHI",
           "rosters": [
@@ -381,10 +400,10 @@
                 "name": "semanto gay and kissed allen ",
                 "logo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp"
               },
-              "slot": "FLEX",
-              "points": null,
+              "slot": "BE",
+              "points": 14.0,
               "nflTeam": "WSH",
-              "nflOpponent": null
+              "nflOpponent": "PHI"
             }
           ]
         },
@@ -398,7 +417,19 @@
           "points": null,
           "nflTeam": "WSH",
           "nflOpponent": "LAR",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp"
+              },
+              "slot": "FLEX",
+              "points": null,
+              "nflTeam": "WSH",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -538,7 +569,8 @@
           "weeks": [
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -3997,9 +4029,9 @@
     }
   ],
   "career": {
-    "weeks": 74,
-    "points": 798.4,
-    "average": 10.79,
+    "weeks": 75,
+    "points": 812.4,
+    "average": 10.83,
     "high": {
       "season": 2024,
       "week": 7,

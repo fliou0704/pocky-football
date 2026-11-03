@@ -22,7 +22,7 @@
       "team": "DET"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,26 +47,26 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 6,
-        "points": 128.4,
-        "average": 21.4,
+        "weeks": 7,
+        "points": 141.0,
+        "average": 20.14,
         "high": {
           "season": 2026,
           "week": 2,
           "points": 35.2
         },
-        "starts": 6,
-        "starterPoints": 128.4
+        "starts": 7,
+        "starterPoints": 141.0
       },
       "seasonStats": {
-        "gp": 6,
-        "points": 128.4,
-        "fppg": 21.4,
+        "gp": 7,
+        "points": 141.0,
+        "fppg": 20.14,
         "nflStats": {
-          "receptions": 46.0,
-          "recYards": 525.0,
+          "receptions": 53.0,
+          "recYards": 571.0,
           "recTD": 5.0,
-          "rushYards": -1.0
+          "rushYards": 9.0
         },
         "participationComplete": true,
         "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
@@ -355,13 +355,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 1.0,
+            "rushYards": 10.0,
+            "rushTD": 0,
+            "receptions": 7.0,
+            "recYards": 46.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 12.6,
           "nflTeam": "DET",
           "nflOpponent": "MIN",
           "rosters": [
@@ -372,9 +391,9 @@
                 "logo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg"
               },
               "slot": "WR",
-              "points": null,
+              "points": 12.6,
               "nflTeam": "DET",
-              "nflOpponent": null
+              "nflOpponent": "MIN"
             }
           ]
         },
@@ -388,7 +407,19 @@
           "points": null,
           "nflTeam": "DET",
           "nflOpponent": "MIA",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Choose Olave",
+                "logo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg"
+              },
+              "slot": "WR",
+              "points": null,
+              "nflTeam": "DET",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -514,7 +545,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -4565,15 +4597,15 @@
     }
   ],
   "career": {
-    "weeks": 91,
-    "points": 1594.38,
-    "average": 17.52,
+    "weeks": 92,
+    "points": 1606.98,
+    "average": 17.47,
     "high": {
       "season": 2025,
       "week": 15,
       "points": 41.4
     },
-    "starts": 65,
-    "starterPoints": 1239.88
+    "starts": 66,
+    "starterPoints": 1252.48
   }
 }

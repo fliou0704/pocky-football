@@ -22,7 +22,7 @@
       "team": "NYG"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,9 +47,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 61.6,
-        "average": 8.8,
+        "weeks": 8,
+        "points": 77.3,
+        "average": 9.66,
         "high": {
           "season": 2026,
           "week": 3,
@@ -63,9 +63,9 @@
         "points": 0,
         "fppg": null,
         "nflStats": {
-          "receptions": 29.0,
-          "recYards": 205.0,
-          "recTD": 2.0,
+          "receptions": 35.0,
+          "recYards": 262.0,
+          "recTD": 3.0,
           "rushYards": 1.0
         },
         "participationComplete": true,
@@ -374,13 +374,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 6.0,
+            "recYards": 57.0,
+            "recTD": 1.0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 15.7,
           "nflTeam": "TEN",
           "nflOpponent": "CIN",
           "rosters": [
@@ -391,9 +410,9 @@
                 "logo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 15.7,
               "nflTeam": "TEN",
-              "nflOpponent": null
+              "nflOpponent": "CIN"
             }
           ]
         },
@@ -407,7 +426,19 @@
           "points": null,
           "nflTeam": "TEN",
           "nflOpponent": null,
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 16,
+                "name": "Eat the Booty Like Groceries",
+                "logo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "TEN",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -533,7 +564,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -3009,9 +3041,9 @@
     }
   ],
   "career": {
-    "weeks": 58,
-    "points": 513.8,
-    "average": 8.86,
+    "weeks": 59,
+    "points": 529.5,
+    "average": 8.97,
     "high": {
       "season": 2025,
       "week": 12,

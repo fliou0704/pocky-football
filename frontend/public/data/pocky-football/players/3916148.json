@@ -22,7 +22,7 @@
       "team": "DAL"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 87.8,
-        "average": 12.54,
+        "weeks": 8,
+        "points": 116.5,
+        "average": 14.56,
         "high": {
           "season": 2026,
           "week": 7,
@@ -71,11 +71,11 @@
         "points": 13.6,
         "fppg": 13.6,
         "nflStats": {
-          "rushAttempts": 112.0,
-          "rushYards": 478.0,
-          "rushTD": 4.0,
-          "receptions": 11.0,
-          "recYards": 50.0,
+          "rushAttempts": 133.0,
+          "rushYards": 595.0,
+          "rushTD": 6.0,
+          "receptions": 14.0,
+          "recYards": 70.0,
           "recTD": 0
         },
         "participationComplete": true,
@@ -384,13 +384,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 21.0,
+            "rushYards": 117.0,
+            "rushTD": 2.0,
+            "receptions": 3.0,
+            "recYards": 20.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 28.7,
           "nflTeam": "TEN",
           "nflOpponent": "CIN",
           "rosters": [
@@ -401,9 +420,9 @@
                 "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 28.7,
               "nflTeam": "TEN",
-              "nflOpponent": null
+              "nflOpponent": "CIN"
             }
           ]
         },
@@ -417,7 +436,19 @@
           "points": null,
           "nflTeam": "TEN",
           "nflOpponent": null,
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "TEN",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -543,7 +574,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -4762,9 +4794,9 @@
     }
   ],
   "career": {
-    "weeks": 92,
-    "points": 1108.3,
-    "average": 12.05,
+    "weeks": 93,
+    "points": 1137.0,
+    "average": 12.23,
     "high": {
       "season": 2022,
       "week": 11,

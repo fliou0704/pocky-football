@@ -8,7 +8,7 @@
     "nflTeam": "CLE",
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png"
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -37,9 +37,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 42.0,
-        "average": 6.0,
+        "weeks": 8,
+        "points": 44.0,
+        "average": 5.5,
         "high": {
           "season": 2026,
           "week": 5,
@@ -53,11 +53,11 @@
         "points": 10.0,
         "fppg": 5.0,
         "nflStats": {
-          "sacks": 20.0,
-          "defInterceptions": 5.0,
+          "sacks": 21.0,
+          "defInterceptions": 6.0,
           "fumbleRecoveries": 4.0,
           "defTD": 0,
-          "pointsAllowed": 146.0
+          "pointsAllowed": 173.0
         },
         "participationComplete": true,
         "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
@@ -305,13 +305,32 @@
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 1.0,
+            "defInterceptions": 1.0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 27.0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 2.0,
           "nflTeam": "CLE",
           "nflOpponent": "PIT",
           "rosters": []
@@ -4301,9 +4320,9 @@
     }
   ],
   "career": {
-    "weeks": 92,
-    "points": 624.0,
-    "average": 6.78,
+    "weeks": 93,
+    "points": 626.0,
+    "average": 6.73,
     "high": {
       "season": 2022,
       "week": 13,

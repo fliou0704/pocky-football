@@ -22,7 +22,7 @@
       "team": "TB"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -378,8 +378,8 @@
           "nflStats": {},
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
+          "fantasyStatus": "final",
+          "status": "final",
           "points": null,
           "nflTeam": "SF",
           "nflOpponent": null,
@@ -407,7 +407,19 @@
           "points": null,
           "nflTeam": "SF",
           "nflOpponent": "LV",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp"
+              },
+              "slot": "IR",
+              "points": null,
+              "nflTeam": "SF",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -533,7 +545,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",

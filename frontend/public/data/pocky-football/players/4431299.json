@@ -22,7 +22,7 @@
       "team": "CHI"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,9 +47,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 60.1,
-        "average": 8.59,
+        "weeks": 8,
+        "points": 72.8,
+        "average": 9.1,
         "high": {
           "season": 2026,
           "week": 4,
@@ -63,8 +63,8 @@
         "points": 5.0,
         "fppg": 5.0,
         "nflStats": {
-          "receptions": 24.0,
-          "recYards": 381.0,
+          "receptions": 28.0,
+          "recYards": 468.0,
           "recTD": 0,
           "rushYards": 0
         },
@@ -374,13 +374,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 4.0,
+            "recYards": 87.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 12.7,
           "nflTeam": "CHI",
           "nflOpponent": "SEA",
           "rosters": [
@@ -391,9 +410,9 @@
                 "logo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 12.7,
               "nflTeam": "CHI",
-              "nflOpponent": null
+              "nflOpponent": "SEA"
             }
           ]
         },
@@ -407,7 +426,19 @@
           "points": null,
           "nflTeam": "CHI",
           "nflOpponent": "TB",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "CHI",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "bye",
@@ -533,7 +564,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -2197,9 +2229,9 @@
     }
   ],
   "career": {
-    "weeks": 41,
-    "points": 351.1,
-    "average": 8.56,
+    "weeks": 42,
+    "points": 363.8,
+    "average": 8.66,
     "high": {
       "season": 2025,
       "week": 2,

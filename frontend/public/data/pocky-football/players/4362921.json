@@ -22,7 +22,7 @@
       "team": "NE"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,9 +47,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 6,
+        "weeks": 7,
         "points": 44.9,
-        "average": 7.48,
+        "average": 6.41,
         "high": {
           "season": 2026,
           "week": 4,
@@ -295,13 +295,32 @@
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "KC",
           "nflOpponent": "DEN",
           "rosters": []
@@ -1184,9 +1203,9 @@
     }
   ],
   "career": {
-    "weeks": 23,
+    "weeks": 24,
     "points": 125.7,
-    "average": 5.47,
+    "average": 5.24,
     "high": {
       "season": 2026,
       "week": 4,

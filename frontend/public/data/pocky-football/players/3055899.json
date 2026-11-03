@@ -22,7 +22,7 @@
       "team": "CAR"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -43,9 +43,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 6,
-        "points": 49.0,
-        "average": 8.17,
+        "weeks": 7,
+        "points": 55.0,
+        "average": 7.86,
         "high": {
           "season": 2026,
           "week": 2,
@@ -59,9 +59,9 @@
         "points": 34.0,
         "fppg": 8.5,
         "nflStats": {
-          "fgMade": 11.0,
-          "fgAttempts": 16.0,
-          "extraPoints": 14.0
+          "fgMade": 12.0,
+          "fgAttempts": 18.0,
+          "extraPoints": 17.0
         },
         "participationComplete": true,
         "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
@@ -314,13 +314,32 @@
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 1.0,
+            "fgAttempts": 2.0,
+            "extraPoints": 3.0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 6.0,
           "nflTeam": "KC",
           "nflOpponent": "DEN",
           "rosters": []
@@ -4702,9 +4721,9 @@
     }
   ],
   "career": {
-    "weeks": 91,
-    "points": 676.0,
-    "average": 7.43,
+    "weeks": 92,
+    "points": 682.0,
+    "average": 7.41,
     "high": {
       "season": 2023,
       "week": 17,

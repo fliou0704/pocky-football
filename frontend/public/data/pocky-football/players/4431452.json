@@ -22,7 +22,7 @@
       "team": "NE"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,27 +51,27 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 138.46,
-        "average": 19.78,
+        "weeks": 8,
+        "points": 160.92,
+        "average": 20.12,
         "high": {
           "season": 2026,
           "week": 5,
           "points": 39.46
         },
-        "starts": 4,
-        "starterPoints": 64.82
+        "starts": 5,
+        "starterPoints": 87.28
       },
       "seasonStats": {
-        "gp": 4,
-        "points": 64.82,
-        "fppg": 16.2,
+        "gp": 5,
+        "points": 87.28,
+        "fppg": 17.46,
         "nflStats": {
-          "passYards": 1784.0,
-          "passTD": 13.0,
+          "passYards": 1983.0,
+          "passTD": 15.0,
           "interceptions": 8.0,
-          "rushYards": 211.0,
-          "rushTD": 2.0
+          "rushYards": 216.0,
+          "rushTD": 3.0
         },
         "participationComplete": true,
         "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
@@ -379,13 +379,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 20.0,
+            "passYards": 199.0,
+            "passTD": 2.0,
+            "interceptions": 0,
+            "rushAttempts": 8.0,
+            "rushYards": 5.0,
+            "rushTD": 1.0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 22.46,
           "nflTeam": "NE",
           "nflOpponent": "MIA",
           "rosters": [
@@ -396,9 +415,9 @@
                 "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
               },
               "slot": "QB",
-              "points": null,
+              "points": 22.46,
               "nflTeam": "NE",
-              "nflOpponent": null
+              "nflOpponent": "MIA"
             }
           ]
         },
@@ -412,7 +431,19 @@
           "points": null,
           "nflTeam": "NE",
           "nflOpponent": "GB",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
+              },
+              "slot": "QB",
+              "points": null,
+              "nflTeam": "NE",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -538,7 +569,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -2048,15 +2080,15 @@
     }
   ],
   "career": {
-    "weeks": 41,
-    "points": 667.56,
-    "average": 16.28,
+    "weeks": 42,
+    "points": 690.02,
+    "average": 16.43,
     "high": {
       "season": 2026,
       "week": 5,
       "points": 39.46
     },
-    "starts": 11,
-    "starterPoints": 213.1
+    "starts": 12,
+    "starterPoints": 235.56
   }
 }

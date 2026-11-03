@@ -22,7 +22,7 @@
       "team": "CIN"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,27 +55,27 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 6,
-        "points": 74.8,
-        "average": 12.47,
+        "weeks": 7,
+        "points": 90.9,
+        "average": 12.99,
         "high": {
           "season": 2026,
           "week": 4,
           "points": 19.1
         },
-        "starts": 6,
-        "starterPoints": 74.8
+        "starts": 7,
+        "starterPoints": 90.9
       },
       "seasonStats": {
-        "gp": 6,
-        "points": 74.8,
-        "fppg": 12.47,
+        "gp": 7,
+        "points": 90.9,
+        "fppg": 12.99,
         "nflStats": {
-          "rushAttempts": 82.0,
-          "rushYards": 285.0,
+          "rushAttempts": 94.0,
+          "rushYards": 340.0,
           "rushTD": 1.0,
-          "receptions": 28.0,
-          "recYards": 143.0,
+          "receptions": 36.0,
+          "recYards": 189.0,
           "recTD": 0
         },
         "participationComplete": true,
@@ -365,13 +365,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 12.0,
+            "rushYards": 55.0,
+            "rushTD": 0,
+            "receptions": 8.0,
+            "recYards": 46.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 16.1,
           "nflTeam": "CIN",
           "nflOpponent": "TEN",
           "rosters": [
@@ -382,9 +401,9 @@
                 "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
               },
               "slot": "RB",
-              "points": null,
+              "points": 16.1,
               "nflTeam": "CIN",
-              "nflOpponent": null
+              "nflOpponent": "TEN"
             }
           ]
         },
@@ -398,7 +417,19 @@
           "points": null,
           "nflTeam": "CIN",
           "nflOpponent": "ATL",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Juwan's Team",
+                "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
+              },
+              "slot": "RB",
+              "points": null,
+              "nflTeam": "CIN",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -524,7 +555,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -2235,15 +2267,15 @@
     }
   ],
   "career": {
-    "weeks": 40,
-    "points": 612.4,
-    "average": 15.31,
+    "weeks": 41,
+    "points": 628.5,
+    "average": 15.33,
     "high": {
       "season": 2025,
       "week": 16,
       "points": 32.9
     },
-    "starts": 27,
-    "starterPoints": 463.8
+    "starts": 28,
+    "starterPoints": 479.9
   }
 }

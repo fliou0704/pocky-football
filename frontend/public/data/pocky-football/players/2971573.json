@@ -22,7 +22,7 @@
       "team": null
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -373,8 +373,8 @@
           "nflStats": {},
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
+          "fantasyStatus": "final",
+          "status": "final",
           "points": null,
           "nflTeam": "HOU",
           "nflOpponent": null,
@@ -385,7 +385,7 @@
                 "name": "Choose Olave",
                 "logo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg"
               },
-              "slot": "K",
+              "slot": "BE",
               "points": null,
               "nflTeam": "HOU",
               "nflOpponent": null
@@ -402,7 +402,19 @@
           "points": null,
           "nflTeam": "HOU",
           "nflOpponent": "LAC",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Choose Olave",
+                "logo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "HOU",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -528,7 +540,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",

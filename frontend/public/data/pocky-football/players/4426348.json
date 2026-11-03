@@ -22,7 +22,7 @@
       "team": "WAS"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,26 +51,26 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 6,
-        "points": 85.66,
-        "average": 14.28,
+        "weeks": 7,
+        "points": 100.64,
+        "average": 14.38,
         "high": {
           "season": 2026,
           "week": 5,
           "points": 32.26
         },
-        "starts": 4,
-        "starterPoints": 85.66
+        "starts": 5,
+        "starterPoints": 100.64
       },
       "seasonStats": {
-        "gp": 4,
-        "points": 85.66,
-        "fppg": 21.41,
+        "gp": 5,
+        "points": 100.64,
+        "fppg": 20.13,
         "nflStats": {
-          "passYards": 759.0,
-          "passTD": 5.0,
+          "passYards": 976.0,
+          "passTD": 6.0,
           "interceptions": 0,
-          "rushYards": 213.0,
+          "rushYards": 236.0,
           "rushTD": 2.0
         },
         "participationComplete": true,
@@ -360,13 +360,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 29.0,
+            "passYards": 217.0,
+            "passTD": 1.0,
+            "interceptions": 0,
+            "rushAttempts": 2.0,
+            "rushYards": 23.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 14.98,
           "nflTeam": "WSH",
           "nflOpponent": "PHI",
           "rosters": [
@@ -377,9 +396,9 @@
                 "logo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg"
               },
               "slot": "QB",
-              "points": null,
+              "points": 14.98,
               "nflTeam": "WSH",
-              "nflOpponent": null
+              "nflOpponent": "PHI"
             }
           ]
         },
@@ -393,7 +412,19 @@
           "points": null,
           "nflTeam": "WSH",
           "nflOpponent": "LAR",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Choose Olave",
+                "logo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg"
+              },
+              "slot": "QB",
+              "points": null,
+              "nflTeam": "WSH",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -519,7 +550,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -2228,15 +2260,15 @@
     }
   ],
   "career": {
-    "weeks": 40,
-    "points": 555.76,
-    "average": 13.89,
+    "weeks": 41,
+    "points": 570.74,
+    "average": 13.92,
     "high": {
       "season": 2024,
       "week": 16,
       "points": 34.42
     },
-    "starts": 22,
-    "starterPoints": 420.26
+    "starts": 23,
+    "starterPoints": 435.24
   }
 }

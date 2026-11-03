@@ -22,7 +22,7 @@
       "team": "PIT"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -43,9 +43,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 67.4,
-        "average": 9.63,
+        "weeks": 8,
+        "points": 79.0,
+        "average": 9.88,
         "high": {
           "season": 2026,
           "week": 5,
@@ -59,8 +59,8 @@
         "points": 7.1,
         "fppg": 3.55,
         "nflStats": {
-          "receptions": 23.0,
-          "recYards": 200.0,
+          "receptions": 25.0,
+          "recYards": 235.0,
           "recTD": 4.0
         },
         "participationComplete": true,
@@ -309,13 +309,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 1.0,
+            "rushYards": 1.0,
+            "rushTD": 1.0,
+            "receptions": 2.0,
+            "recYards": 35.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "final",
+          "status": "final",
+          "points": 11.6,
           "nflTeam": "PIT",
           "nflOpponent": "CLE",
           "rosters": [
@@ -326,9 +345,9 @@
                 "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
               },
               "slot": "BE",
-              "points": null,
+              "points": 11.6,
               "nflTeam": "PIT",
-              "nflOpponent": null
+              "nflOpponent": "CLE"
             }
           ]
         },
@@ -342,7 +361,19 @@
           "points": null,
           "nflTeam": "PIT",
           "nflOpponent": null,
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "The Concep",
+                "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "PIT",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -463,7 +494,8 @@
           "weeks": [
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
@@ -3599,9 +3631,9 @@
     }
   ],
   "career": {
-    "weeks": 75,
-    "points": 612.4,
-    "average": 8.17,
+    "weeks": 76,
+    "points": 624.0,
+    "average": 8.21,
     "high": {
       "season": 2024,
       "week": 18,

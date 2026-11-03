@@ -22,7 +22,7 @@
       "team": "LV"
     }
   },
-  "metadataGeneratedAt": "2026-10-30T19:03:07.183141+00:00",
+  "metadataGeneratedAt": "2026-11-03T14:50:57.250288+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -407,7 +407,7 @@
           },
           "season": 2026,
           "week": 8,
-          "fantasyStatus": "live",
+          "fantasyStatus": "final",
           "status": "final",
           "points": 23.2,
           "nflTeam": "GB",
@@ -436,7 +436,19 @@
           "points": null,
           "nflTeam": "GB",
           "nflOpponent": "NE",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Juwan's Team",
+                "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "GB",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -562,7 +574,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "evidence": [
             "current_roster",
