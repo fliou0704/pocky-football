@@ -6,6 +6,26 @@ from football_exporter import write_json
 POSITIONS={1:'QB',2:'RB',3:'WR',4:'TE',5:'K',16:'D/ST'}
 
 
+def preserve_observed_weeks(data, previous):
+    """Retain verified history on sparse ESPN responses; explicit corrections still win.
+
+    Never restore an entirely missing player or an empty response: release validation
+    must continue rejecting those broader coverage failures.
+    """
+    old = {p['playerId']:p for p in previous.get('players', [])}
+    retained = []
+    for player in data['players']:
+        prior = old.get(player['playerId'], {})
+        for week, points in prior.get('pointsByWeek', {}).items():
+            if week not in player['pointsByWeek']:
+                player['pointsByWeek'][week] = points
+                if week in prior.get('nflTeamsByWeek', {}):
+                    player['nflTeamsByWeek'][week] = prior['nflTeamsByWeek'][week]
+                retained.append({'playerId':player['playerId'], 'week':int(week), 'source':'previous-validated-snapshot'})
+    data['coverage']['retainedObservedWeeks'] = retained
+    return data
+
+
 def normalize_player_scoring(raw, season, weeks):
     from espn_api.football.constant import PRO_TEAM_MAP
     from football_record_book import numeric
@@ -32,6 +52,9 @@ def generate_player_scoring(client,folder,season):
     filters={'players':{'filterStatsForTopScoringPeriodIds':{'value':18,'additionalValue':[f'00{season}',f'10{season}']}}}
     raw=client.league_get(params={'view':'kona_playercard'},headers={'x-fantasy-filter':json.dumps(filters)})
     data=normalize_player_scoring(raw,season,weeks)
+    previous_path = folder/'player-scoring.json'
+    if previous_path.exists():
+        preserve_observed_weeks(data, json.loads(previous_path.read_text()))
     from football_player_games import generate_player_games
     schedule=client.get_pro_schedule()
     generate_player_games(client,folder,season,raw,schedule)
