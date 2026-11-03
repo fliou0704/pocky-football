@@ -76,9 +76,14 @@ class WeeklyTests(unittest.TestCase):
             for recap in data['weeks'].values():
                 self.assertEqual(len({a['id'] for a in recap['awards']}),len(recap['awards']))
             if year==2026:
-                league=json.loads((root/'league.json').read_text());teams=json.loads((root/'teams.json').read_text())
+                # Rank-capture behavior uses a frozen boundary fixture; committed data
+                # above continues to be checked without pinning its current NFL week.
+                league={'league':{'complete':False,'regularSeasonWeeks':14},'standings':[
+                    dict(teamId=1,rank=1,wins=1,losses=0,ties=0,pointsFor=100),
+                    dict(teamId=2,rank=2,wins=0,losses=1,ties=0,pointsFor=90)]}
+                teams={'matchups':[game(1),game(2,status='upcoming')]}
                 capture_entering_ranks(league,teams)
-                self.assertIn('8',teams['enteringWeekRanks'])
+                self.assertEqual(teams['enteringWeekRanks'],{'2':{'1':1,'2':2}})
                 league['standings'][0]['wins']+=1
                 teams.pop('enteringWeekRanks')
                 capture_entering_ranks(league,teams)
