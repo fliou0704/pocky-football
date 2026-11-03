@@ -164,6 +164,17 @@ jobs:
         if: (github.event_name == 'push' || steps.refresh.outputs.changed == 'true') && hashFiles('frontend/public/data/pocky-football/refresh.json') != ''
         run: python data_refresh.py verify
 
+      - name: Publish optional validated live snapshot to Supabase
+        id: supabase
+        if: github.event_name != 'push' && steps.refresh.outcome == 'success' && steps.refresh.outputs.mode == 'live' && (steps.refresh.outputs.changed == 'false' || steps.verification.outcome == 'success')
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_PUBLISHABLE_KEY: ${{ secrets.SUPABASE_PUBLISHABLE_KEY }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: |
+          python football_supabase.py || { echo '::warning::Supabase publication failed; Pages remains independent.'; exit 1; }
+
       - name: Record successful collection/reconciliation for duplicate prevention
         if: github.event_name != 'push' && steps.refresh.outcome == 'success' && (steps.refresh.outputs.changed == 'false' || steps.verification.outcome == 'success')
         env:
@@ -180,6 +191,7 @@ jobs:
           GUARD: ${{ steps.guard.outcome }}
           DEPLOYMENT: ${{ steps.deployment.outcome }}
           VERIFICATION: ${{ steps.verification.outcome }}
+          SUPABASE: ${{ steps.supabase.outcome }}
         run: |
           python - <<'PY'
           import json, os, pathlib, subprocess
@@ -190,7 +202,7 @@ jobs:
                    f"Generation: {meta.get('generationId', 'legacy snapshot; first refresh pending')}",
                    f"Last persisted ESPN fetch: {meta.get('lastSuccessfulEspnFetchAt', 'unknown')}"]
           lines += [f'{key}: {os.environ[key]}' for key in
-                    ('TRIGGER', 'REFRESH', 'VALIDATION', 'PERSISTENCE', 'GUARD', 'DEPLOYMENT', 'VERIFICATION')]
+                    ('TRIGGER', 'REFRESH', 'VALIDATION', 'PERSISTENCE', 'GUARD', 'DEPLOYMENT', 'VERIFICATION', 'SUPABASE')]
           print('\n'.join(lines))
           with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as output:
               output.write('\n\n'.join(lines) + '\n')
