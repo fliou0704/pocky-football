@@ -10,7 +10,7 @@ test('constructs one auto dispatch to football main only',async()=>{
  let calls=0;
  const result=await dispatch({SCHEDULER_ENABLED:'true',GITHUB_TOKEN:'fixture'},async(url,options)=>{
   calls++;assert.equal(url,'https://api.github.com/repos/fliou0704/pocky-football/actions/workflows/pages.yml/dispatches');
-  assert.equal(options.method,'POST');assert.equal(options.redirect,'error');
+  assert.equal(options.method,'POST');assert.equal(options.redirect,'manual');
   assert.deepEqual(JSON.parse(options.body),{ref:'main',inputs:{mode:'auto'}});
   assert.equal(options.headers.Authorization,'Bearer fixture');return {status:204};
  });

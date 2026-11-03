@@ -12,7 +12,7 @@ export async function dispatch(env, fetcher = fetch) {
   let response;
   try {
     response = await fetcher('https://api.github.com/repos/fliou0704/pocky-football/actions/workflows/pages.yml/dispatches', {
-    method:'POST', redirect:'error', signal:AbortSignal.timeout(15000),
+    method:'POST', redirect:'manual', signal:AbortSignal.timeout(15000),
     headers:{Authorization:`Bearer ${env.GITHUB_TOKEN}`,Accept:'application/vnd.github+json',
       'Content-Type':'application/json','User-Agent':'PockyFootballCron','X-GitHub-Api-Version':'2022-11-28'},
     body:JSON.stringify({ref:'main',inputs:{mode:'auto'}})
