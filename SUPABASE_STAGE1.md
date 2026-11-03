@@ -33,14 +33,13 @@ backend environment variables and are sent using `apikey`, without redirects.
 
 ## Pipeline
 
-The optional workflow step runs after a successful live refresh and, for changed
-data, successful Pages verification. It also runs on unchanged successful live
-checks, enabling recovery from an earlier database outage without another ESPN
-request. It validates the existing release again, checks snapshot shape/digest
-and sensitive fields, reads the existing database row, skips redundant writes,
-and independently verifies both authenticated and public readback. Failures are
-reported as a workflow warning and step failure with `continue-on-error`; Pages,
-Git persistence and scheduler completion remain independent.
+The live workflow validates and persists its snapshot to Git, checks latest-main
+and public rollback safety, then publishes to Supabase without building/deploying
+Pages. Unchanged live checks retry/read back the persisted snapshot without
+another ESPN request. Supabase failure fails the live job and leaves that candidate
+available for retry; scheduler completion requires verified publication. Full
+refreshes and code deployments retain the existing Pages pipeline. See
+`ops/cloudflare-live-scheduler/README.md` for dispatch setup and reversible cutover.
 
 Full reconciliations have no live overlay and are not published to this table.
 The next successful live collection replaces the prior week; `source_at`/`week`
