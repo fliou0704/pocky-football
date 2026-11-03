@@ -23,7 +23,7 @@ permissions:
 
 jobs:
   deploy:
-    if: github.event_name != 'schedule' || github.event.schedule != '7,22,37,52 * * * *' || vars.LIVE_REFRESH_ENABLED == 'true'
+    if: github.event_name != 'schedule' || github.event.schedule != '7,22,37,52 * * * *' || (vars.LIVE_REFRESH_ENABLED == 'true' && vars.CLOUDFLARE_LIVE_VERIFIED != 'true')
     timeout-minutes: 15
     concurrency:
       group: github-pages
@@ -110,28 +110,28 @@ jobs:
 
       - name: Validate release JSON
         id: validation
-        if: github.event_name == 'push' || steps.refresh.outputs.changed == 'true'
+        if: github.event_name == 'push' || (steps.refresh.outputs.changed == 'true' && steps.refresh.outputs.mode == 'full')
         run: python data_refresh.py validate
 
       - uses: pnpm/action-setup@v6
-        if: github.event_name == 'push' || steps.refresh.outputs.changed == 'true'
+        if: github.event_name == 'push' || (steps.refresh.outputs.changed == 'true' && steps.refresh.outputs.mode == 'full')
         with:
           version: 11.19.0
 
       - uses: actions/setup-node@v4
-        if: github.event_name == 'push' || steps.refresh.outputs.changed == 'true'
+        if: github.event_name == 'push' || (steps.refresh.outputs.changed == 'true' && steps.refresh.outputs.mode == 'full')
         with:
           node-version: '22'
           cache: pnpm
           cache-dependency-path: frontend/pnpm-lock.yaml
 
       - name: Install frontend dependencies
-        if: github.event_name == 'push' || steps.refresh.outputs.changed == 'true'
+        if: github.event_name == 'push' || (steps.refresh.outputs.changed == 'true' && steps.refresh.outputs.mode == 'full')
         working-directory: frontend
         run: pnpm install --frozen-lockfile
 
       - name: Test and build frontend
-        if: github.event_name == 'push' || steps.refresh.outputs.changed == 'true'
+        if: github.event_name == 'push' || (steps.refresh.outputs.changed == 'true' && steps.refresh.outputs.mode == 'full')
         working-directory: frontend
         run: |
           if [[ "${{ github.event_name }}" == 'push' || "${{ steps.refresh.outputs.mode }}" != 'live' ]]; then
@@ -146,37 +146,36 @@ jobs:
 
       - name: Reject outdated checkouts or public data rollback
         id: guard
-        if: github.event_name == 'push' || steps.refresh.outputs.changed == 'true'
+        if: github.event_name == 'push' || steps.refresh.outputs.changed == 'true' || (steps.refresh.outcome == 'success' && steps.refresh.outputs.mode == 'live')
         run: python data_refresh.py guard
 
       - uses: actions/configure-pages@v5
-        if: github.event_name == 'push' || steps.refresh.outputs.changed == 'true'
+        if: github.event_name == 'push' || (steps.refresh.outputs.changed == 'true' && steps.refresh.outputs.mode == 'full')
       - uses: actions/upload-pages-artifact@v4
-        if: github.event_name == 'push' || steps.refresh.outputs.changed == 'true'
+        if: github.event_name == 'push' || (steps.refresh.outputs.changed == 'true' && steps.refresh.outputs.mode == 'full')
         with:
           path: frontend/dist
       - id: deployment
-        if: github.event_name == 'push' || steps.refresh.outputs.changed == 'true'
+        if: github.event_name == 'push' || (steps.refresh.outputs.changed == 'true' && steps.refresh.outputs.mode == 'full')
         uses: actions/deploy-pages@v4
 
       - name: Verify public generation and source JSON
         id: verification
-        if: (github.event_name == 'push' || steps.refresh.outputs.changed == 'true') && hashFiles('frontend/public/data/pocky-football/refresh.json') != ''
+        if: (github.event_name == 'push' || (steps.refresh.outputs.changed == 'true' && steps.refresh.outputs.mode == 'full')) && hashFiles('frontend/public/data/pocky-football/refresh.json') != ''
         run: python data_refresh.py verify
 
-      - name: Publish optional validated live snapshot to Supabase
+      - name: Publish validated live snapshot to Supabase
         id: supabase
-        if: github.event_name != 'push' && steps.refresh.outcome == 'success' && steps.refresh.outputs.mode == 'live' && (steps.refresh.outputs.changed == 'false' || steps.verification.outcome == 'success')
-        continue-on-error: true
+        if: github.event_name != 'push' && steps.refresh.outcome == 'success' && steps.refresh.outputs.mode == 'live' && steps.guard.outcome == 'success' && (steps.refresh.outputs.changed == 'false' || steps.persistence.outcome == 'success')
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_PUBLISHABLE_KEY: ${{ secrets.SUPABASE_PUBLISHABLE_KEY }}
           SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
         run: |
-          python football_supabase.py || { echo '::warning::Supabase publication failed; Pages remains independent.'; exit 1; }
+          python football_supabase.py || { echo '::warning::Supabase publication failed; persisted snapshot retained for retry.'; exit 1; }
 
       - name: Record successful collection/reconciliation for duplicate prevention
-        if: github.event_name != 'push' && steps.refresh.outcome == 'success' && (steps.refresh.outputs.changed == 'false' || steps.verification.outcome == 'success')
+        if: github.event_name != 'push' && steps.refresh.outcome == 'success' && ((steps.refresh.outputs.mode == 'live' && steps.supabase.outcome == 'success') || (steps.refresh.outputs.mode == 'full' && (steps.refresh.outputs.changed == 'false' || steps.verification.outcome == 'success')))
         env:
           MODE: ${{ steps.refresh.outputs.mode }}
         run: python data_refresh.py complete --mode "$MODE"

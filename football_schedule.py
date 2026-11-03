@@ -7,7 +7,7 @@ from pathlib import Path
 from football_http import get_json
 
 UTC = timezone.utc
-INTERVAL = timedelta(minutes=15)
+INTERVAL = timedelta(minutes=5)
 
 
 def instant(value):
@@ -69,7 +69,7 @@ def decide(events, state=None, now=None):
         elif now-kickoff > timedelta(hours=24):
             attention.append(eid)
     last = instant(state['lastSuccessfulAt']) if state.get('lastSuccessfulAt') else None
-    due = last is None or int(now.timestamp())//900 > int(last.timestamp())//900
+    due = last is None or int(now.timestamp())//int(INTERVAL.total_seconds()) > int(last.timestamp())//int(INTERVAL.total_seconds())
     new_finals = set(completed)-set(state.get('reconciledIds', []))
     mode = 'live' if active else 'full' if new_finals and not attention else 'skip'
     if mode == 'full' and state.get('lastFullAt'):

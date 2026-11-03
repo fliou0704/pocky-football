@@ -59,8 +59,8 @@ class ScheduleTests(unittest.TestCase):
     def test_late_action_duplicate_prevention_and_next_slot(self):
         events=[event(NOW-timedelta(hours=2),'in','STATUS_IN_PROGRESS')]
         state={'lastSuccessfulAt':(NOW+timedelta(minutes=3)).isoformat()}
-        d,_=decide(events,state,NOW+timedelta(minutes=14));self.assertFalse(d['due'])
-        d,_=decide(events,state,NOW+timedelta(minutes=17));self.assertTrue(d['due'])
+        d,_=decide(events,state,NOW+timedelta(minutes=4));self.assertFalse(d['due'])
+        d,_=decide(events,state,NOW+timedelta(minutes=7));self.assertTrue(d['due'])
 
     def test_dst_and_utc_equivalent_clocks(self):
         a=instant('2026-11-01T01:30:00-04:00'); b=instant('2026-11-01T01:30:00-05:00')
