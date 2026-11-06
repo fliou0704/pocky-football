@@ -22,7 +22,7 @@
       "team": "JAX"
     }
   },
-  "metadataGeneratedAt": "2026-11-03T20:25:31.048513+00:00",
+  "metadataGeneratedAt": "2026-11-06T05:11:05.367406+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,25 +55,25 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 118.3,
-        "average": 16.9,
+        "weeks": 8,
+        "points": 127.2,
+        "average": 15.9,
         "high": {
           "season": 2026,
           "week": 8,
           "points": 29.9
         },
-        "starts": 7,
-        "starterPoints": 118.3
+        "starts": 8,
+        "starterPoints": 127.2
       },
       "seasonStats": {
         "gp": 8,
         "points": null,
         "fppg": null,
         "nflStats": {
-          "rushAttempts": 110.0,
-          "rushYards": 492.0,
-          "rushTD": 3.0,
+          "rushAttempts": 122.0,
+          "rushYards": 521.0,
+          "rushTD": 4.0,
           "receptions": 15.0,
           "recYards": 181.0,
           "recTD": 3.0
@@ -408,13 +408,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 12.0,
+            "rushYards": 29.0,
+            "rushTD": 1.0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "live",
+          "status": "final",
+          "points": 8.9,
           "nflTeam": "JAX",
           "nflOpponent": "BAL",
           "rosters": [
@@ -425,9 +444,9 @@
                 "logo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp"
               },
               "slot": "RB",
-              "points": null,
+              "points": 8.9,
               "nflTeam": "JAX",
-              "nflOpponent": null
+              "nflOpponent": "BAL"
             }
           ]
         },
@@ -1217,15 +1236,15 @@
     }
   ],
   "career": {
-    "weeks": 24,
-    "points": 206.9,
-    "average": 8.62,
+    "weeks": 25,
+    "points": 215.8,
+    "average": 8.63,
     "high": {
       "season": 2026,
       "week": 8,
       "points": 29.9
     },
-    "starts": 7,
-    "starterPoints": 118.3
+    "starts": 8,
+    "starterPoints": 127.2
   }
 }

@@ -22,7 +22,7 @@
       "team": "DAL"
     }
   },
-  "metadataGeneratedAt": "2026-11-03T20:25:31.048513+00:00",
+  "metadataGeneratedAt": "2026-11-06T05:11:05.367406+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -337,24 +337,12 @@
           "nflStats": {},
           "season": 2026,
           "week": 9,
-          "fantasyStatus": "upcoming",
+          "fantasyStatus": "live",
           "status": "upcoming",
           "points": null,
           "nflTeam": "HOU",
           "nflOpponent": "LAC",
-          "rosters": [
-            {
-              "team": {
-                "teamId": 1,
-                "name": "Brian's Original Fried Haddock",
-                "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
-              },
-              "slot": "BE",
-              "points": null,
-              "nflTeam": "HOU",
-              "nflOpponent": null
-            }
-          ]
+          "rosters": []
         },
         {
           "gameState": "upcoming",
@@ -474,11 +462,9 @@
           },
           "weeks": [
             7,
-            8,
-            9
+            8
           ],
           "evidence": [
-            "current_roster",
             "transaction",
             "weekly_roster"
           ]
@@ -498,16 +484,24 @@
           ]
         }
       ],
-      "rosterSnapshot": [
-        {
-          "teamId": 1,
-          "name": "Brian's Original Fried Haddock",
-          "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
-        }
-      ],
+      "rosterSnapshot": [],
       "rosterSnapshotLabel": "Current roster",
       "draft": [],
       "transactions": [
+        {
+          "type": "drop",
+          "timestamp": "2026-11-04T08:13:22.957000+00:00",
+          "timestampKind": "processed",
+          "week": 9,
+          "fromTeams": [
+            {
+              "teamId": 1,
+              "name": "Brian's Original Fried Haddock",
+              "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
+            }
+          ],
+          "toTeams": []
+        },
         {
           "type": "waiver_add",
           "timestamp": "2026-10-21T07:17:30.833000+00:00",

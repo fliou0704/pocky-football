@@ -22,7 +22,7 @@
       "team": "JAX"
     }
   },
-  "metadataGeneratedAt": "2026-11-03T20:25:31.048513+00:00",
+  "metadataGeneratedAt": "2026-11-06T05:11:05.367406+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -43,13 +43,13 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 62.0,
-        "average": 8.86,
+        "weeks": 8,
+        "points": 79.0,
+        "average": 9.88,
         "high": {
           "season": 2026,
-          "week": 4,
-          "points": 14.0
+          "week": 9,
+          "points": 17.0
         },
         "starts": 6,
         "starterPoints": 56.0
@@ -59,9 +59,9 @@
         "points": 56.0,
         "fppg": 9.33,
         "nflStats": {
-          "fgMade": 10.0,
-          "fgAttempts": 12.0,
-          "extraPoints": 22.0
+          "fgMade": 14.0,
+          "fgAttempts": 16.0,
+          "extraPoints": 25.0
         },
         "participationComplete": true,
         "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
@@ -369,13 +369,32 @@
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 4.0,
+            "fgAttempts": 4.0,
+            "extraPoints": 3.0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "live",
+          "status": "final",
+          "points": 17.0,
           "nflTeam": "JAX",
           "nflOpponent": "BAL",
           "rosters": []
@@ -1184,13 +1203,13 @@
     }
   ],
   "career": {
-    "weeks": 24,
-    "points": 224.0,
-    "average": 9.33,
+    "weeks": 25,
+    "points": 241.0,
+    "average": 9.64,
     "high": {
-      "season": 2025,
+      "season": 2026,
       "week": 9,
-      "points": 16.0
+      "points": 17.0
     },
     "starts": 7,
     "starterPoints": 55.0

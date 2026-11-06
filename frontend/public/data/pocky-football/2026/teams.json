@@ -359,7 +359,7 @@
           "position": "RB",
           "slot": "BE",
           "group": "bench",
-          "injuryStatus": "ACTIVE",
+          "injuryStatus": "QUESTIONABLE",
           "seasonPoints": 51.8
         },
         {
@@ -389,8 +389,8 @@
           "position": "WR",
           "slot": "BE",
           "group": "bench",
-          "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 65.1
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 75.6
         },
         {
           "playerId": 4242355,
@@ -644,10 +644,10 @@
           "week": 9,
           "opponentTeamId": 13,
           "opponentLogo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg",
-          "score": null,
-          "opponentScore": null,
+          "score": 0.0,
+          "opponentScore": 13.58,
           "result": "—",
-          "status": "upcoming",
+          "status": "live",
           "phase": "regular",
           "bracket": "regular",
           "roundLabel": null,
@@ -754,7 +754,7 @@
           "position": "WR",
           "slot": "WR",
           "group": "starter",
-          "injuryStatus": "ACTIVE",
+          "injuryStatus": "QUESTIONABLE",
           "seasonPoints": 141.0
         },
         {
@@ -762,8 +762,8 @@
           "name": "Chris Olave",
           "nflTeam": "NO",
           "position": "WR",
-          "slot": "BE",
-          "group": "bench",
+          "slot": "WR",
+          "group": "starter",
           "injuryStatus": "ACTIVE",
           "seasonPoints": 124.6
         },
@@ -802,9 +802,9 @@
           "name": "Harold Fannin Jr.",
           "nflTeam": "CLE",
           "position": "TE",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
+          "slot": "RB/WR/TE",
+          "group": "starter",
+          "injuryStatus": "QUESTIONABLE",
           "seasonPoints": 90.1
         },
         {
@@ -842,8 +842,8 @@
           "name": "Dallas Goedert",
           "nflTeam": "PHI",
           "position": "TE",
-          "slot": "RB/WR/TE",
-          "group": "starter",
+          "slot": "BE",
+          "group": "bench",
           "injuryStatus": "ACTIVE",
           "seasonPoints": 64.0
         },
@@ -882,8 +882,8 @@
           "name": "Ka'imi Fairbairn",
           "nflTeam": "HOU",
           "position": "K",
-          "slot": "BE",
-          "group": "bench",
+          "slot": "K",
+          "group": "starter",
           "injuryStatus": "ACTIVE",
           "seasonPoints": 75.0
         },
@@ -902,8 +902,8 @@
           "name": "Chase McLaughlin",
           "nflTeam": "TB",
           "position": "K",
-          "slot": "K",
-          "group": "starter",
+          "slot": "BE",
+          "group": "bench",
           "injuryStatus": "ACTIVE",
           "seasonPoints": 89.0
         },
@@ -912,8 +912,8 @@
           "name": "Antonio Williams",
           "nflTeam": "WSH",
           "position": "WR",
-          "slot": "WR",
-          "group": "starter",
+          "slot": "BE",
+          "group": "bench",
           "injuryStatus": "ACTIVE",
           "seasonPoints": 54.9
         }
@@ -1123,10 +1123,10 @@
           "week": 9,
           "opponentTeamId": 2,
           "opponentLogo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg",
-          "score": null,
-          "opponentScore": null,
+          "score": 5.3,
+          "opponentScore": 12.0,
           "result": "—",
-          "status": "upcoming",
+          "status": "live",
           "phase": "regular",
           "bracket": "regular",
           "roundLabel": null,
@@ -1241,9 +1241,9 @@
           "name": "Jeremiyah Love",
           "nflTeam": "ARI",
           "position": "RB",
-          "slot": "RB",
-          "group": "starter",
-          "injuryStatus": "OUT",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "INJURY_RESERVE",
           "seasonPoints": 53.4
         },
         {
@@ -1264,7 +1264,7 @@
           "slot": "WR",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 122.2
+          "seasonPoints": 127.5
         },
         {
           "playerId": 4685472,
@@ -1291,8 +1291,8 @@
           "name": "George Kittle",
           "nflTeam": "SF",
           "position": "TE",
-          "slot": "BE",
-          "group": "bench",
+          "slot": "RB/WR/TE",
+          "group": "starter",
           "injuryStatus": "ACTIVE",
           "seasonPoints": 104.5
         },
@@ -1301,8 +1301,8 @@
           "name": "Zach Charbonnet",
           "nflTeam": "SEA",
           "position": "RB",
-          "slot": "BE",
-          "group": "bench",
+          "slot": "RB",
+          "group": "starter",
           "injuryStatus": "ACTIVE",
           "seasonPoints": 5.9
         },
@@ -1341,8 +1341,8 @@
           "name": "Bryce Young",
           "nflTeam": "CAR",
           "position": "QB",
-          "slot": "QB",
-          "group": "starter",
+          "slot": "BE",
+          "group": "bench",
           "injuryStatus": "ACTIVE",
           "seasonPoints": 126.24
         },
@@ -1353,7 +1353,7 @@
           "position": "WR",
           "slot": "BE",
           "group": "bench",
-          "injuryStatus": "ACTIVE",
+          "injuryStatus": "QUESTIONABLE",
           "seasonPoints": 86.9
         },
         {
@@ -1363,7 +1363,7 @@
           "position": "RB",
           "slot": "BE",
           "group": "bench",
-          "injuryStatus": "ACTIVE",
+          "injuryStatus": "QUESTIONABLE",
           "seasonPoints": 65.8
         },
         {
@@ -1377,16 +1377,6 @@
           "seasonPoints": 79.0
         },
         {
-          "playerId": 4685261,
-          "name": "Germie Bernard",
-          "nflTeam": "PIT",
-          "position": "WR",
-          "slot": "RB/WR/TE",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 66.8
-        },
-        {
           "playerId": 4880281,
           "name": "Jordyn Tyson",
           "nflTeam": "NO",
@@ -1395,6 +1385,16 @@
           "group": "ir",
           "injuryStatus": "INJURY_RESERVE",
           "seasonPoints": 0.0
+        },
+        {
+          "playerId": 14880,
+          "name": "Kirk Cousins",
+          "nflTeam": "LV",
+          "position": "QB",
+          "slot": "QB",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 159.66
         }
       ],
       "rosterLabel": "Current Roster",
@@ -1404,6 +1404,15 @@
           "name": "Aaron Rodgers",
           "weeks": [
             5
+          ]
+        },
+        {
+          "playerId": 4685261,
+          "name": "Germie Bernard",
+          "weeks": [
+            6,
+            7,
+            8
           ]
         },
         {
@@ -1767,8 +1776,8 @@
           "name": "Christian McCaffrey",
           "nflTeam": "SF",
           "position": "RB",
-          "slot": "BE",
-          "group": "bench",
+          "slot": "RB",
+          "group": "starter",
           "injuryStatus": "QUESTIONABLE",
           "seasonPoints": 144.0
         },
@@ -1850,7 +1859,7 @@
           "slot": "BE",
           "group": "bench",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 54.8
+          "seasonPoints": 58.7
         },
         {
           "playerId": 4569559,
@@ -1867,20 +1876,10 @@
           "name": "Ollie Gordon II",
           "nflTeam": "MIA",
           "position": "RB",
-          "slot": "RB",
+          "slot": "RB/WR/TE",
           "group": "starter",
           "injuryStatus": "ACTIVE",
           "seasonPoints": 72.2
-        },
-        {
-          "playerId": 3895856,
-          "name": "Christian Kirk",
-          "nflTeam": "SF",
-          "position": "WR",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 0.0
         },
         {
           "playerId": 3917232,
@@ -1893,24 +1892,34 @@
           "seasonPoints": 78.0
         },
         {
-          "playerId": -16004,
-          "name": "Bengals D/ST",
-          "nflTeam": "CIN",
-          "position": "D/ST",
-          "slot": "D/ST",
-          "group": "starter",
-          "injuryStatus": "NORMAL",
-          "seasonPoints": 50.0
-        },
-        {
           "playerId": 3046439,
           "name": "Hunter Henry",
           "nflTeam": "NE",
           "position": "TE",
-          "slot": "RB/WR/TE",
-          "group": "starter",
+          "slot": "BE",
+          "group": "bench",
           "injuryStatus": "QUESTIONABLE",
           "seasonPoints": 73.6
+        },
+        {
+          "playerId": -16003,
+          "name": "Bears D/ST",
+          "nflTeam": "CHI",
+          "position": "D/ST",
+          "slot": "D/ST",
+          "group": "starter",
+          "injuryStatus": "NORMAL",
+          "seasonPoints": 56.0
+        },
+        {
+          "playerId": 4432708,
+          "name": "Marvin Harrison Jr.",
+          "nflTeam": "HOU",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 33.5
         }
       ],
       "rosterLabel": "Current Roster",
@@ -1928,6 +1937,13 @@
           ]
         },
         {
+          "playerId": -16004,
+          "name": "Bengals D/ST",
+          "weeks": [
+            8
+          ]
+        },
+        {
           "playerId": 4361741,
           "name": "Brock Purdy",
           "weeks": [
@@ -1939,6 +1955,14 @@
           "name": "Browns D/ST",
           "weeks": [
             1
+          ]
+        },
+        {
+          "playerId": 3895856,
+          "name": "Christian Kirk",
+          "weeks": [
+            7,
+            8
           ]
         },
         {
@@ -2195,10 +2219,10 @@
           "week": 9,
           "opponentTeamId": 6,
           "opponentLogo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp",
-          "score": null,
-          "opponentScore": null,
+          "score": 12.0,
+          "opponentScore": 5.3,
           "result": "—",
-          "status": "upcoming",
+          "status": "live",
           "phase": "regular",
           "bracket": "regular",
           "roundLabel": null,
@@ -2429,16 +2453,6 @@
           "seasonPoints": 146.02
         },
         {
-          "playerId": 17372,
-          "name": "Chris Boswell",
-          "nflTeam": "PIT",
-          "position": "K",
-          "slot": "K",
-          "group": "starter",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 77.0
-        },
-        {
           "playerId": -16030,
           "name": "Jaguars D/ST",
           "nflTeam": "JAX",
@@ -2446,7 +2460,7 @@
           "slot": "D/ST",
           "group": "starter",
           "injuryStatus": "NORMAL",
-          "seasonPoints": 55.0
+          "seasonPoints": 67.0
         },
         {
           "playerId": 4036133,
@@ -2457,6 +2471,16 @@
           "group": "starter",
           "injuryStatus": "ACTIVE",
           "seasonPoints": 78.5
+        },
+        {
+          "playerId": 5082424,
+          "name": "Dominic Zvada",
+          "nflTeam": "NYG",
+          "position": "K",
+          "slot": "K",
+          "group": "starter",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 57.0
         }
       ],
       "rosterLabel": "Current Roster",
@@ -2477,6 +2501,14 @@
             3,
             4,
             5
+          ]
+        },
+        {
+          "playerId": 17372,
+          "name": "Chris Boswell",
+          "weeks": [
+            7,
+            8
           ]
         },
         {
@@ -2732,10 +2764,10 @@
           "week": 9,
           "opponentTeamId": 16,
           "opponentLogo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp",
-          "score": null,
-          "opponentScore": null,
+          "score": 14.1,
+          "opponentScore": 8.9,
           "result": "—",
-          "status": "upcoming",
+          "status": "live",
           "phase": "regular",
           "bracket": "regular",
           "roundLabel": null,
@@ -2872,7 +2904,7 @@
           "position": "WR",
           "slot": "BE",
           "group": "bench",
-          "injuryStatus": "QUESTIONABLE",
+          "injuryStatus": "ACTIVE",
           "seasonPoints": 71.1
         },
         {
@@ -2892,7 +2924,7 @@
           "position": "RB",
           "slot": "BE",
           "group": "bench",
-          "injuryStatus": "QUESTIONABLE",
+          "injuryStatus": "OUT",
           "seasonPoints": 45.5
         },
         {
@@ -2903,7 +2935,7 @@
           "slot": "RB/WR/TE",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 95.5
+          "seasonPoints": 109.6
         },
         {
           "playerId": 4248528,
@@ -2932,7 +2964,7 @@
           "position": "QB",
           "slot": "QB",
           "group": "starter",
-          "injuryStatus": "QUESTIONABLE",
+          "injuryStatus": "ACTIVE",
           "seasonPoints": 131.64
         },
         {
@@ -3270,10 +3302,10 @@
           "week": 9,
           "opponentTeamId": 12,
           "opponentLogo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp",
-          "score": null,
-          "opponentScore": null,
+          "score": 0.0,
+          "opponentScore": 5.58,
           "result": "—",
-          "status": "upcoming",
+          "status": "live",
           "phase": "regular",
           "bracket": "regular",
           "roundLabel": null,
@@ -3410,7 +3442,7 @@
           "position": "WR",
           "slot": "WR",
           "group": "starter",
-          "injuryStatus": "ACTIVE",
+          "injuryStatus": "QUESTIONABLE",
           "seasonPoints": 120.5
         },
         {
@@ -3420,7 +3452,7 @@
           "position": "QB",
           "slot": "IR",
           "group": "ir",
-          "injuryStatus": "OUT",
+          "injuryStatus": "INJURY_RESERVE",
           "seasonPoints": 79.08
         },
         {
@@ -3490,18 +3522,8 @@
           "position": "TE",
           "slot": "TE",
           "group": "starter",
-          "injuryStatus": "ACTIVE",
+          "injuryStatus": "QUESTIONABLE",
           "seasonPoints": 79.1
-        },
-        {
-          "playerId": 4887558,
-          "name": "Emanuel Wilson",
-          "nflTeam": "SEA",
-          "position": "RB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 74.8
         },
         {
           "playerId": 4567104,
@@ -3512,16 +3534,6 @@
           "group": "starter",
           "injuryStatus": "ACTIVE",
           "seasonPoints": 80.0
-        },
-        {
-          "playerId": 3117256,
-          "name": "Dalton Schultz",
-          "nflTeam": "HOU",
-          "position": "TE",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 65.2
         },
         {
           "playerId": 4432577,
@@ -3542,6 +3554,26 @@
           "group": "starter",
           "injuryStatus": "NORMAL",
           "seasonPoints": 82.0
+        },
+        {
+          "playerId": 4597500,
+          "name": "Adonai Mitchell",
+          "nflTeam": "NYJ",
+          "position": "WR",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 48.5
+        },
+        {
+          "playerId": 5081397,
+          "name": "Dylan Sampson",
+          "nflTeam": "CLE",
+          "position": "RB",
+          "slot": "BE",
+          "group": "bench",
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 23.6
         }
       ],
       "rosterLabel": "Current Roster",
@@ -3585,6 +3617,26 @@
             4,
             5,
             6
+          ]
+        },
+        {
+          "playerId": 3117256,
+          "name": "Dalton Schultz",
+          "weeks": [
+            7,
+            8
+          ]
+        },
+        {
+          "playerId": 4887558,
+          "name": "Emanuel Wilson",
+          "weeks": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
           ]
         },
         {
@@ -3796,10 +3848,10 @@
           "week": 9,
           "opponentTeamId": 1,
           "opponentLogo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp",
-          "score": null,
-          "opponentScore": null,
+          "score": 5.58,
+          "opponentScore": 0.0,
           "result": "—",
-          "status": "upcoming",
+          "status": "live",
           "phase": "regular",
           "bracket": "regular",
           "roundLabel": null,
@@ -3906,7 +3958,7 @@
           "position": "RB",
           "slot": "BE",
           "group": "bench",
-          "injuryStatus": "ACTIVE",
+          "injuryStatus": "QUESTIONABLE",
           "seasonPoints": 50.5
         },
         {
@@ -3917,7 +3969,7 @@
           "slot": "RB",
           "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 136.7
+          "seasonPoints": 142.28
         },
         {
           "playerId": 4430737,
@@ -3936,7 +3988,7 @@
           "position": "WR",
           "slot": "BE",
           "group": "bench",
-          "injuryStatus": "ACTIVE",
+          "injuryStatus": "QUESTIONABLE",
           "seasonPoints": 104.3
         },
         {
@@ -4312,10 +4364,10 @@
           "week": 9,
           "opponentTeamId": 11,
           "opponentLogo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg",
-          "score": null,
-          "opponentScore": null,
+          "score": 13.58,
+          "opponentScore": 0.0,
           "result": "—",
-          "status": "upcoming",
+          "status": "live",
           "phase": "regular",
           "bracket": "regular",
           "roundLabel": null,
@@ -4452,7 +4504,7 @@
           "position": "RB",
           "slot": "RB",
           "group": "starter",
-          "injuryStatus": "QUESTIONABLE",
+          "injuryStatus": "ACTIVE",
           "seasonPoints": 42.5
         },
         {
@@ -4470,8 +4522,8 @@
           "name": "Drake Maye",
           "nflTeam": "NE",
           "position": "QB",
-          "slot": "QB",
-          "group": "starter",
+          "slot": "BE",
+          "group": "bench",
           "injuryStatus": "ACTIVE",
           "seasonPoints": 160.92
         },
@@ -4520,20 +4572,10 @@
           "name": "Trevor Lawrence",
           "nflTeam": "JAX",
           "position": "QB",
-          "slot": "BE",
-          "group": "bench",
+          "slot": "QB",
+          "group": "starter",
           "injuryStatus": "ACTIVE",
-          "seasonPoints": 133.6
-        },
-        {
-          "playerId": 4426338,
-          "name": "Bo Nix",
-          "nflTeam": "DEN",
-          "position": "QB",
-          "slot": "BE",
-          "group": "bench",
-          "injuryStatus": "ACTIVE",
-          "seasonPoints": 115.12
+          "seasonPoints": 147.18
         },
         {
           "playerId": 4361050,
@@ -4550,8 +4592,8 @@
           "name": "Steelers D/ST",
           "nflTeam": "PIT",
           "position": "D/ST",
-          "slot": "D/ST",
-          "group": "starter",
+          "slot": "BE",
+          "group": "bench",
           "injuryStatus": "NORMAL",
           "seasonPoints": 73.0
         },
@@ -4574,10 +4616,34 @@
           "group": "bench",
           "injuryStatus": "ACTIVE",
           "seasonPoints": 53.0
+        },
+        {
+          "playerId": -16034,
+          "name": "Texans D/ST",
+          "nflTeam": "HOU",
+          "position": "D/ST",
+          "slot": "D/ST",
+          "group": "starter",
+          "injuryStatus": "NORMAL",
+          "seasonPoints": 29.0
         }
       ],
       "rosterLabel": "Current Roster",
       "formerPlayers": [
+        {
+          "playerId": 4426338,
+          "name": "Bo Nix",
+          "weeks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
         {
           "playerId": 3126486,
           "name": "Deebo Samuel Sr.",
@@ -4764,10 +4830,10 @@
           "week": 9,
           "opponentTeamId": 5,
           "opponentLogo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg",
-          "score": null,
-          "opponentScore": null,
+          "score": 8.9,
+          "opponentScore": 14.1,
           "result": "—",
-          "status": "upcoming",
+          "status": "live",
           "phase": "regular",
           "bracket": "regular",
           "roundLabel": null,
@@ -4894,7 +4960,7 @@
           "position": "WR",
           "slot": "WR",
           "group": "starter",
-          "injuryStatus": "ACTIVE",
+          "injuryStatus": "QUESTIONABLE",
           "seasonPoints": 113.7
         },
         {
@@ -4914,8 +4980,8 @@
           "position": "RB",
           "slot": "RB",
           "group": "starter",
-          "injuryStatus": "QUESTIONABLE",
-          "seasonPoints": 118.3
+          "injuryStatus": "ACTIVE",
+          "seasonPoints": 127.2
         },
         {
           "playerId": 4431459,
@@ -5024,7 +5090,7 @@
           "position": "K",
           "slot": "K",
           "group": "starter",
-          "injuryStatus": "DOUBTFUL",
+          "injuryStatus": "INJURY_RESERVE",
           "seasonPoints": 66.0
         },
         {
@@ -5641,9 +5707,9 @@
       "week": 9,
       "homeTeamId": 1,
       "awayTeamId": 12,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0.0,
+      "awayScore": 5.58,
+      "status": "live",
       "winnerTeamId": null,
       "bracket": "regular",
       "phase": "regular",
@@ -5655,9 +5721,9 @@
       "week": 9,
       "homeTeamId": 2,
       "awayTeamId": 6,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 12.0,
+      "awayScore": 5.3,
+      "status": "live",
       "winnerTeamId": null,
       "bracket": "regular",
       "phase": "regular",
@@ -5683,9 +5749,9 @@
       "week": 9,
       "homeTeamId": 5,
       "awayTeamId": 16,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 14.1,
+      "awayScore": 8.9,
+      "status": "live",
       "winnerTeamId": null,
       "bracket": "regular",
       "phase": "regular",
@@ -5697,9 +5763,9 @@
       "week": 9,
       "homeTeamId": 13,
       "awayTeamId": 11,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 13.58,
+      "awayScore": 0.0,
+      "status": "live",
       "winnerTeamId": null,
       "bracket": "regular",
       "phase": "regular",

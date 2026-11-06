@@ -22,7 +22,7 @@
       "team": "DEN"
     }
   },
-  "metadataGeneratedAt": "2026-11-03T20:25:31.048513+00:00",
+  "metadataGeneratedAt": "2026-11-06T05:11:05.367406+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -426,24 +426,12 @@
           "nflStats": {},
           "season": 2026,
           "week": 9,
-          "fantasyStatus": "upcoming",
+          "fantasyStatus": "live",
           "status": "upcoming",
           "points": null,
           "nflTeam": "DEN",
           "nflOpponent": "CAR",
-          "rosters": [
-            {
-              "team": {
-                "teamId": 13,
-                "name": "The Trenches PerryG",
-                "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
-              },
-              "slot": "BE",
-              "points": null,
-              "nflTeam": "DEN",
-              "nflOpponent": null
-            }
-          ]
+          "rosters": []
         },
         {
           "gameState": "bye",
@@ -569,23 +557,16 @@
             5,
             6,
             7,
-            8,
-            9
+            8
           ],
           "evidence": [
-            "current_roster",
             "draft",
+            "transaction",
             "weekly_roster"
           ]
         }
       ],
-      "rosterSnapshot": [
-        {
-          "teamId": 13,
-          "name": "The Trenches PerryG",
-          "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
-        }
-      ],
+      "rosterSnapshot": [],
       "rosterSnapshotLabel": "Current roster",
       "draft": [
         {
@@ -601,7 +582,22 @@
           "keeper": false
         }
       ],
-      "transactions": [],
+      "transactions": [
+        {
+          "type": "drop",
+          "timestamp": "2026-11-05T21:02:21.004000+00:00",
+          "timestampKind": "proposed",
+          "week": 9,
+          "fromTeams": [
+            {
+              "teamId": 13,
+              "name": "The Trenches PerryG",
+              "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
+            }
+          ],
+          "toTeams": []
+        }
+      ],
       "activityCoverage": {
         "status": "independently_verified_counts",
         "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "season": 2026,
-  "generatedAt": "2026-11-03T20:25:25.206742+00:00",
+  "generatedAt": "2026-11-06T05:10:58.562689+00:00",
   "coverage": {
     "complete": true,
     "status": "independently_verified_counts",
@@ -44,33 +44,33 @@
     "playerUniverseSweepCompleted": true,
     "playerUniverseReturnedCount": 1055,
     "knownPlayerCoverageCompleted": true,
-    "requestedPlayerCount": 218,
+    "requestedPlayerCount": 219,
     "returnedPlayerCount": 1055,
     "missingPlayerCount": 0,
     "failedCardPlayerCount": 0,
     "unknownPlayerNames": 0,
-    "sourceEventCount": 535,
+    "sourceEventCount": 551,
     "sourceUniqueCounts": {
-      "period": 535,
-      "playercard": 254
+      "period": 551,
+      "playercard": 261
     },
-    "sourceAppearances": 854,
-    "repeatedSourceIdAppearancesMerged": 319,
-    "overlappingSourceIds": 254,
+    "sourceAppearances": 916,
+    "repeatedSourceIdAppearancesMerged": 365,
+    "overlappingSourceIds": 261,
     "playercardOnlyExecutedCounts": {},
     "executedPayloadConflictCount": 0,
     "excludedSourceCounts": {
       "FUTURE_ROSTER:EXECUTED": 35,
-      "ROSTER:EXECUTED": 226,
+      "ROSTER:EXECUTED": 234,
       "TRADE_DECLINE:EXECUTED": 3,
       "TRADE_PROPOSAL:CANCELED": 1,
-      "WAIVER:FAILED_INVALIDPLAYERSOURCE": 2,
+      "WAIVER:FAILED_INVALIDPLAYERSOURCE": 3,
       "WAIVER:FAILED_PLAYERALREADYDROPPED": 4,
       "WAIVER:PENDING": 10
     },
-    "executedMovementCount": 254,
+    "executedMovementCount": 261,
     "firstTimestamp": "2026-09-08T23:52:26.964000+00:00",
-    "lastTimestamp": "2026-11-01T14:19:37.936000+00:00",
+    "lastTimestamp": "2026-11-05T21:02:21.004000+00:00",
     "usesFaab": false,
     "independentCounters": {
       "available": true,
@@ -80,13 +80,13 @@
         {
           "teamId": 1,
           "source": {
-            "acquisitions": 11,
-            "drops": 10,
+            "acquisitions": 13,
+            "drops": 12,
             "trades": 0
           },
           "observed": {
-            "acquisitions": 11,
-            "drops": 10,
+            "acquisitions": 13,
+            "drops": 12,
             "trades": 0
           },
           "acquisitionPeriodDifferences": []
@@ -94,13 +94,13 @@
         {
           "teamId": 2,
           "source": {
-            "acquisitions": 11,
-            "drops": 11,
+            "acquisitions": 12,
+            "drops": 12,
             "trades": 0
           },
           "observed": {
-            "acquisitions": 11,
-            "drops": 11,
+            "acquisitions": 12,
+            "drops": 12,
             "trades": 0
           },
           "acquisitionPeriodDifferences": []
@@ -108,13 +108,13 @@
         {
           "teamId": 3,
           "source": {
-            "acquisitions": 11,
-            "drops": 11,
+            "acquisitions": 13,
+            "drops": 13,
             "trades": 0
           },
           "observed": {
-            "acquisitions": 11,
-            "drops": 11,
+            "acquisitions": 13,
+            "drops": 13,
             "trades": 0
           },
           "acquisitionPeriodDifferences": []
@@ -136,13 +136,13 @@
         {
           "teamId": 6,
           "source": {
-            "acquisitions": 10,
-            "drops": 9,
+            "acquisitions": 11,
+            "drops": 10,
             "trades": 0
           },
           "observed": {
-            "acquisitions": 10,
-            "drops": 9,
+            "acquisitions": 11,
+            "drops": 10,
             "trades": 0
           },
           "acquisitionPeriodDifferences": []
@@ -178,13 +178,13 @@
         {
           "teamId": 13,
           "source": {
-            "acquisitions": 1,
-            "drops": 1,
+            "acquisitions": 2,
+            "drops": 2,
             "trades": 0
           },
           "observed": {
-            "acquisitions": 1,
-            "drops": 1,
+            "acquisitions": 2,
+            "drops": 2,
             "trades": 0
           },
           "acquisitionPeriodDifferences": []
@@ -228,7 +228,7 @@
     "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published.",
     "communicationFeed": {
       "status": "returned",
-      "topicCount": 94,
+      "topicCount": 101,
       "usedForExecutedMovements": false
     },
     "draft": {
@@ -252,9 +252,9 @@
     "semanticDuplicateGroups": [],
     "issues": [],
     "ownership": {
-      "arrivalsChecked": 236,
-      "departuresChecked": 69,
-      "reAcquisitionsChecked": 23,
+      "arrivalsChecked": 243,
+      "departuresChecked": 76,
+      "reAcquisitionsChecked": 26,
       "anomalies": [],
       "scope": "Executed movement chain including drafts; internal sanity check, not an independent roster reconstruction."
     },
@@ -6371,6 +6371,202 @@
             {
               "playerId": 4432708,
               "name": "Marvin Harrison Jr."
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-09962fa8cd2b919238c2",
+      "season": 2026,
+      "timestamp": "2026-11-04T08:13:22.956000+00:00",
+      "timestampKind": "processed",
+      "type": "waiver_add",
+      "week": 9,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 1,
+          "playersAdded": [
+            {
+              "playerId": 4597500,
+              "name": "Adonai Mitchell"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": 4887558,
+              "name": "Emanuel Wilson"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": "PROCESS"
+    },
+    {
+      "id": "event-49325b937f93fbb0463a",
+      "season": 2026,
+      "timestamp": "2026-11-04T08:13:22.957000+00:00",
+      "timestampKind": "processed",
+      "type": "waiver_add",
+      "week": 9,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": -16003,
+              "name": "Bears D/ST"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": -16004,
+              "name": "Bengals D/ST"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": "PROCESS"
+    },
+    {
+      "id": "event-94af460f7e5ac33e5979",
+      "season": 2026,
+      "timestamp": "2026-11-04T08:13:22.957000+00:00",
+      "timestampKind": "processed",
+      "type": "waiver_add",
+      "week": 9,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 1,
+          "playersAdded": [
+            {
+              "playerId": 5081397,
+              "name": "Dylan Sampson"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": 3117256,
+              "name": "Dalton Schultz"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": "PROCESS"
+    },
+    {
+      "id": "event-5047ada5cf0d923a3188",
+      "season": 2026,
+      "timestamp": "2026-11-05T16:48:01.692000+00:00",
+      "timestampKind": "proposed",
+      "type": "free_agent_add",
+      "week": 9,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 6,
+          "playersAdded": [
+            {
+              "playerId": 14880,
+              "name": "Kirk Cousins"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": 4685261,
+              "name": "Germie Bernard"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-f8d97d8aa17de4c044db",
+      "season": 2026,
+      "timestamp": "2026-11-05T17:41:38.761000+00:00",
+      "timestampKind": "proposed",
+      "type": "free_agent_add",
+      "week": 9,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 2,
+          "playersAdded": [
+            {
+              "playerId": 5082424,
+              "name": "Dominic Zvada"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": 17372,
+              "name": "Chris Boswell"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-559300f98bc86f8ce38d",
+      "season": 2026,
+      "timestamp": "2026-11-05T19:01:15.024000+00:00",
+      "timestampKind": "proposed",
+      "type": "free_agent_add",
+      "week": 9,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 3,
+          "playersAdded": [
+            {
+              "playerId": 4432708,
+              "name": "Marvin Harrison Jr."
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": 3895856,
+              "name": "Christian Kirk"
+            }
+          ]
+        }
+      ],
+      "faab": null,
+      "waiverType": null
+    },
+    {
+      "id": "event-043265cd16018c23b270",
+      "season": 2026,
+      "timestamp": "2026-11-05T21:02:21.004000+00:00",
+      "timestampKind": "proposed",
+      "type": "free_agent_add",
+      "week": 9,
+      "status": "executed",
+      "teams": [
+        {
+          "teamId": 13,
+          "playersAdded": [
+            {
+              "playerId": -16034,
+              "name": "Texans D/ST"
+            }
+          ],
+          "playersDropped": [
+            {
+              "playerId": 4426338,
+              "name": "Bo Nix"
             }
           ]
         }

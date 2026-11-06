@@ -22,7 +22,7 @@
       "team": "JAX"
     }
   },
-  "metadataGeneratedAt": "2026-11-03T20:25:31.048513+00:00",
+  "metadataGeneratedAt": "2026-11-06T05:11:05.367406+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,26 +51,26 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 133.6,
-        "average": 19.09,
+        "weeks": 8,
+        "points": 147.18,
+        "average": 18.4,
         "high": {
           "season": 2026,
           "week": 6,
           "points": 27.34
         },
-        "starts": 3,
-        "starterPoints": 40.98
+        "starts": 4,
+        "starterPoints": 54.56
       },
       "seasonStats": {
         "gp": 3,
         "points": 40.98,
         "fppg": 13.66,
         "nflStats": {
-          "passYards": 1690.0,
-          "passTD": 17.0,
+          "passYards": 1932.0,
+          "passTD": 18.0,
           "interceptions": 4.0,
-          "rushYards": 80.0,
+          "rushYards": 79.0,
           "rushTD": 0
         },
         "participationComplete": true,
@@ -403,13 +403,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 26.0,
+            "passYards": 242.0,
+            "passTD": 1.0,
+            "interceptions": 0,
+            "rushAttempts": 1.0,
+            "rushYards": -1.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "live",
+          "status": "final",
+          "points": 13.58,
           "nflTeam": "JAX",
           "nflOpponent": "BAL",
           "rosters": [
@@ -419,10 +438,10 @@
                 "name": "The Trenches PerryG",
                 "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
               },
-              "slot": "BE",
-              "points": null,
+              "slot": "QB",
+              "points": 13.58,
               "nflTeam": "JAX",
-              "nflOpponent": null
+              "nflOpponent": "BAL"
             }
           ]
         },
@@ -4336,15 +4355,15 @@
     }
   ],
   "career": {
-    "weeks": 92,
-    "points": 1374.18,
-    "average": 14.94,
+    "weeks": 93,
+    "points": 1387.76,
+    "average": 14.92,
     "high": {
       "season": 2025,
       "week": 15,
       "points": 44.3
     },
-    "starts": 10,
-    "starterPoints": 158.9
+    "starts": 11,
+    "starterPoints": 172.48
   }
 }

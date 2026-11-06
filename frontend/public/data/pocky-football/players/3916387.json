@@ -22,7 +22,7 @@
       "team": "BAL"
     }
   },
-  "metadataGeneratedAt": "2026-11-03T20:25:31.048513+00:00",
+  "metadataGeneratedAt": "2026-11-06T05:11:05.367406+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,9 +51,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
+        "weeks": 9,
         "points": 79.08,
-        "average": 9.88,
+        "average": 8.79,
         "high": {
           "season": 2026,
           "week": 1,
@@ -422,13 +422,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 9,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "live",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "BAL",
           "nflOpponent": "JAX",
           "rosters": [
@@ -439,9 +458,9 @@
                 "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
               },
               "slot": "IR",
-              "points": null,
+              "points": 0.0,
               "nflTeam": "BAL",
-              "nflOpponent": null
+              "nflOpponent": "JAX"
             }
           ]
         },
@@ -4784,9 +4803,9 @@
     }
   ],
   "career": {
-    "weeks": 93,
+    "weeks": 94,
     "points": 1531.6,
-    "average": 16.47,
+    "average": 16.29,
     "high": {
       "season": 2022,
       "week": 2,

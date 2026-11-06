@@ -109,20 +109,13 @@
         "points": null
       },
       {
-        "playerId": 17372,
-        "name": "Chris Boswell",
-        "slot": "K",
-        "nflTeam": "PIT",
-        "position": "K",
-        "points": null
-      },
-      {
         "playerId": -16030,
         "name": "Jaguars D/ST",
         "slot": "D/ST",
         "nflTeam": "JAX",
         "position": "D/ST",
-        "points": null
+        "points": 12.0,
+        "nflOpponent": "BAL"
       },
       {
         "playerId": 4036133,
@@ -130,6 +123,14 @@
         "slot": "TE",
         "nflTeam": "MIN",
         "position": "TE",
+        "points": null
+      },
+      {
+        "playerId": 5082424,
+        "name": "Dominic Zvada",
+        "slot": "K",
+        "nflTeam": "NYG",
+        "position": "K",
         "points": null
       }
     ],
@@ -145,7 +146,7 @@
       {
         "playerId": 4870808,
         "name": "Jeremiyah Love",
-        "slot": "RB",
+        "slot": "BE",
         "nflTeam": "ARI",
         "position": "RB",
         "points": null
@@ -164,7 +165,8 @@
         "slot": "WR",
         "nflTeam": "BAL",
         "position": "WR",
-        "points": null
+        "points": 5.3,
+        "nflOpponent": "JAX"
       },
       {
         "playerId": 4685472,
@@ -185,7 +187,7 @@
       {
         "playerId": 3040151,
         "name": "George Kittle",
-        "slot": "BE",
+        "slot": "FLEX",
         "nflTeam": "SF",
         "position": "TE",
         "points": null
@@ -193,7 +195,7 @@
       {
         "playerId": 4426385,
         "name": "Zach Charbonnet",
-        "slot": "BE",
+        "slot": "RB",
         "nflTeam": "SEA",
         "position": "RB",
         "points": null
@@ -225,7 +227,7 @@
       {
         "playerId": 4685720,
         "name": "Bryce Young",
-        "slot": "QB",
+        "slot": "BE",
         "nflTeam": "CAR",
         "position": "QB",
         "points": null
@@ -255,19 +257,19 @@
         "points": null
       },
       {
-        "playerId": 4685261,
-        "name": "Germie Bernard",
-        "slot": "FLEX",
-        "nflTeam": "PIT",
-        "position": "WR",
-        "points": null
-      },
-      {
         "playerId": 4880281,
         "name": "Jordyn Tyson",
         "slot": "IR",
         "nflTeam": "NO",
         "position": "WR",
+        "points": null
+      },
+      {
+        "playerId": 14880,
+        "name": "Kirk Cousins",
+        "slot": "QB",
+        "nflTeam": "LV",
+        "position": "QB",
         "points": null
       }
     ],
@@ -310,7 +312,8 @@
         "slot": "IR",
         "nflTeam": "BAL",
         "position": "QB",
-        "points": null
+        "points": 0.0,
+        "nflOpponent": "JAX"
       },
       {
         "playerId": 4685512,
@@ -369,27 +372,11 @@
         "points": null
       },
       {
-        "playerId": 4887558,
-        "name": "Emanuel Wilson",
-        "slot": "BE",
-        "nflTeam": "SEA",
-        "position": "RB",
-        "points": null
-      },
-      {
         "playerId": 4567104,
         "name": "Will Reichard",
         "slot": "K",
         "nflTeam": "MIN",
         "position": "K",
-        "points": null
-      },
-      {
-        "playerId": 3117256,
-        "name": "Dalton Schultz",
-        "slot": "BE",
-        "nflTeam": "HOU",
-        "position": "TE",
         "points": null
       },
       {
@@ -406,6 +393,22 @@
         "slot": "D/ST",
         "nflTeam": "TB",
         "position": "D/ST",
+        "points": null
+      },
+      {
+        "playerId": 4597500,
+        "name": "Adonai Mitchell",
+        "slot": "BE",
+        "nflTeam": "NYJ",
+        "position": "WR",
+        "points": null
+      },
+      {
+        "playerId": 5081397,
+        "name": "Dylan Sampson",
+        "slot": "BE",
+        "nflTeam": "CLE",
+        "position": "RB",
         "points": null
       }
     ],
@@ -424,7 +427,8 @@
         "slot": "RB",
         "nflTeam": "BAL",
         "position": "RB",
-        "points": null
+        "points": 5.58,
+        "nflOpponent": "JAX"
       },
       {
         "playerId": 4430737,
@@ -559,7 +563,7 @@
       {
         "playerId": 3117251,
         "name": "Christian McCaffrey",
-        "slot": "BE",
+        "slot": "RB",
         "nflTeam": "SF",
         "position": "RB",
         "points": null
@@ -626,7 +630,8 @@
         "slot": "BE",
         "nflTeam": "BAL",
         "position": "TE",
-        "points": null
+        "points": 3.9,
+        "nflOpponent": "JAX"
       },
       {
         "playerId": 4569559,
@@ -639,17 +644,9 @@
       {
         "playerId": 4711533,
         "name": "Ollie Gordon II",
-        "slot": "RB",
+        "slot": "FLEX",
         "nflTeam": "MIA",
         "position": "RB",
-        "points": null
-      },
-      {
-        "playerId": 3895856,
-        "name": "Christian Kirk",
-        "slot": "BE",
-        "nflTeam": "SF",
-        "position": "WR",
         "points": null
       },
       {
@@ -661,19 +658,27 @@
         "points": null
       },
       {
-        "playerId": -16004,
-        "name": "Bengals D/ST",
+        "playerId": 3046439,
+        "name": "Hunter Henry",
+        "slot": "BE",
+        "nflTeam": "NE",
+        "position": "TE",
+        "points": null
+      },
+      {
+        "playerId": -16003,
+        "name": "Bears D/ST",
         "slot": "D/ST",
-        "nflTeam": "CIN",
+        "nflTeam": "CHI",
         "position": "D/ST",
         "points": null
       },
       {
-        "playerId": 3046439,
-        "name": "Hunter Henry",
-        "slot": "FLEX",
-        "nflTeam": "NE",
-        "position": "TE",
+        "playerId": 4432708,
+        "name": "Marvin Harrison Jr.",
+        "slot": "BE",
+        "nflTeam": "HOU",
+        "position": "WR",
         "points": null
       }
     ],
@@ -764,7 +769,8 @@
         "slot": "BE",
         "nflTeam": "JAX",
         "position": "WR",
-        "points": null
+        "points": 10.5,
+        "nflOpponent": "BAL"
       },
       {
         "playerId": 4242355,
@@ -870,7 +876,8 @@
         "slot": "FLEX",
         "nflTeam": "JAX",
         "position": "WR",
-        "points": null
+        "points": 14.1,
+        "nflOpponent": "BAL"
       },
       {
         "playerId": 4248528,
@@ -992,7 +999,8 @@
         "slot": "RB",
         "nflTeam": "JAX",
         "position": "RB",
-        "points": null
+        "points": 8.9,
+        "nflOpponent": "BAL"
       },
       {
         "playerId": 4431459,
@@ -1080,7 +1088,8 @@
         "slot": "K",
         "nflTeam": "BAL",
         "position": "K",
-        "points": null
+        "points": 0.0,
+        "nflOpponent": "JAX"
       },
       {
         "playerId": 4428718,
@@ -1135,7 +1144,7 @@
       {
         "playerId": 4431452,
         "name": "Drake Maye",
-        "slot": "QB",
+        "slot": "BE",
         "nflTeam": "NE",
         "position": "QB",
         "points": null
@@ -1175,18 +1184,11 @@
       {
         "playerId": 4360310,
         "name": "Trevor Lawrence",
-        "slot": "BE",
+        "slot": "QB",
         "nflTeam": "JAX",
         "position": "QB",
-        "points": null
-      },
-      {
-        "playerId": 4426338,
-        "name": "Bo Nix",
-        "slot": "BE",
-        "nflTeam": "DEN",
-        "position": "QB",
-        "points": null
+        "points": 13.58,
+        "nflOpponent": "BAL"
       },
       {
         "playerId": 4361050,
@@ -1199,7 +1201,7 @@
       {
         "playerId": -16023,
         "name": "Steelers D/ST",
-        "slot": "D/ST",
+        "slot": "BE",
         "nflTeam": "PIT",
         "position": "D/ST",
         "points": null
@@ -1219,6 +1221,14 @@
         "nflTeam": "TB",
         "position": "RB",
         "points": null
+      },
+      {
+        "playerId": -16034,
+        "name": "Texans D/ST",
+        "slot": "D/ST",
+        "nflTeam": "HOU",
+        "position": "D/ST",
+        "points": null
       }
     ],
     "11": [
@@ -1233,7 +1243,7 @@
       {
         "playerId": 4361370,
         "name": "Chris Olave",
-        "slot": "BE",
+        "slot": "WR",
         "nflTeam": "NO",
         "position": "WR",
         "points": null
@@ -1265,7 +1275,7 @@
       {
         "playerId": 5083076,
         "name": "Harold Fannin Jr.",
-        "slot": "BE",
+        "slot": "FLEX",
         "nflTeam": "CLE",
         "position": "TE",
         "points": null
@@ -1297,7 +1307,7 @@
       {
         "playerId": 3121023,
         "name": "Dallas Goedert",
-        "slot": "FLEX",
+        "slot": "BE",
         "nflTeam": "PHI",
         "position": "TE",
         "points": null
@@ -1329,7 +1339,7 @@
       {
         "playerId": 2971573,
         "name": "Ka'imi Fairbairn",
-        "slot": "BE",
+        "slot": "K",
         "nflTeam": "HOU",
         "position": "K",
         "points": null
@@ -1345,7 +1355,7 @@
       {
         "playerId": 3150744,
         "name": "Chase McLaughlin",
-        "slot": "K",
+        "slot": "BE",
         "nflTeam": "TB",
         "position": "K",
         "points": null
@@ -1353,7 +1363,7 @@
       {
         "playerId": 5081432,
         "name": "Antonio Williams",
-        "slot": "WR",
+        "slot": "BE",
         "nflTeam": "WSH",
         "position": "WR",
         "points": null

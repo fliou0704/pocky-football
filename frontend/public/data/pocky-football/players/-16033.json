@@ -8,7 +8,7 @@
     "nflTeam": "BAL",
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png"
   },
-  "metadataGeneratedAt": "2026-11-03T20:25:31.048513+00:00",
+  "metadataGeneratedAt": "2026-11-06T05:11:05.367406+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -37,9 +37,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 32.0,
-        "average": 4.0,
+        "weeks": 9,
+        "points": 33.0,
+        "average": 3.67,
         "high": {
           "season": 2026,
           "week": 6,
@@ -55,9 +55,9 @@
         "nflStats": {
           "sacks": 17.0,
           "defInterceptions": 4.0,
-          "fumbleRecoveries": 4.0,
+          "fumbleRecoveries": 5.0,
           "defTD": 0,
-          "pointsAllowed": 197.0
+          "pointsAllowed": 230.0
         },
         "participationComplete": true,
         "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
@@ -372,13 +372,32 @@
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 1.0,
+            "defTD": 0,
+            "pointsAllowed": 33.0
+          },
           "season": 2026,
           "week": 9,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "live",
+          "status": "final",
+          "points": 1.0,
           "nflTeam": "BAL",
           "nflOpponent": "JAX",
           "rosters": []
@@ -4641,9 +4660,9 @@
     }
   ],
   "career": {
-    "weeks": 93,
-    "points": 574.0,
-    "average": 6.17,
+    "weeks": 94,
+    "points": 575.0,
+    "average": 6.12,
     "high": {
       "season": 2025,
       "week": 15,

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T20:25:31.048513+00:00",
+  "generatedAt": "2026-11-06T05:11:05.367406+00:00",
   "seasons": [
     2021,
     2022,
@@ -13,8 +13,8 @@
   "sources": {
     "nflverse": {
       "url": "https://github.com/nflverse/nflverse-data/releases/download/players/players.csv",
-      "sha256": "c7aa3f10082805992e4b2f3924de7c1cf62beffe166fcaf463be0d45f1f5227b",
-      "cachedAt": "2026-11-03T20:25:30.629436+00:00"
+      "sha256": "814b25afe4ffa5ace64624ac6864ee63fa392c2c9ce82c04552b2a495867c30b",
+      "cachedAt": "2026-11-06T05:11:04.770273+00:00"
     }
   },
   "players": [
@@ -73,6 +73,7 @@
         "2026/lineups/5.json",
         "2026/lineups/6.json",
         "2026/lineups/7.json",
+        "2026/lineups/9.json",
         "2026/teams.json"
       ],
       "position": "D/ST",
@@ -2107,7 +2108,6 @@
         "2026/activity.json",
         "2026/lineups/5.json",
         "2026/lineups/8.json",
-        "2026/lineups/9.json",
         "2026/teams.json"
       ],
       "position": "D/ST",
@@ -2124,7 +2124,8 @@
       "seasons": [
         2021,
         2022,
-        2024
+        2024,
+        2026
       ],
       "observedIn": [
         "2021/activity.json",
@@ -2149,7 +2150,10 @@
         "2022/activity.json",
         "2022/lineups/4.json",
         "2022/teams.json",
-        "2024/activity.json"
+        "2024/activity.json",
+        "2026/activity.json",
+        "2026/lineups/9.json",
+        "2026/teams.json"
       ],
       "position": "D/ST",
       "nflTeam": "CHI",
@@ -4166,7 +4170,8 @@
         2021,
         2022,
         2023,
-        2024
+        2024,
+        2026
       ],
       "observedIn": [
         "2021/activity.json",
@@ -4237,7 +4242,10 @@
         "2024/lineups/7.json",
         "2024/lineups/8.json",
         "2024/lineups/9.json",
-        "2024/teams.json"
+        "2024/teams.json",
+        "2026/activity.json",
+        "2026/lineups/9.json",
+        "2026/teams.json"
       ],
       "match": {
         "method": "nflverse_espn_id",
@@ -7798,7 +7806,6 @@
         "2026/activity.json",
         "2026/lineups/7.json",
         "2026/lineups/8.json",
-        "2026/lineups/9.json",
         "2026/teams.json"
       ],
       "match": {
@@ -16466,7 +16473,6 @@
         "2026/lineups/3.json",
         "2026/lineups/7.json",
         "2026/lineups/8.json",
-        "2026/lineups/9.json",
         "2026/teams.json"
       ],
       "match": {
@@ -20270,7 +20276,6 @@
         "2026/activity.json",
         "2026/lineups/7.json",
         "2026/lineups/8.json",
-        "2026/lineups/9.json",
         "2026/teams.json"
       ],
       "match": {
@@ -36893,7 +36898,7 @@
       "birthDate": "1999-11-26",
       "college": "Michigan",
       "jerseyNumber": null,
-      "nflTeam": "NE",
+      "nflTeam": "CLE",
       "rookieSeason": 2022,
       "lastSeason": 2026,
       "ids": {
@@ -37925,7 +37930,6 @@
         "2026/lineups/6.json",
         "2026/lineups/7.json",
         "2026/lineups/8.json",
-        "2026/lineups/9.json",
         "2026/teams.json"
       ],
       "match": {
@@ -43017,6 +43021,7 @@
         "2026/lineups/5.json",
         "2026/lineups/6.json",
         "2026/lineups/7.json",
+        "2026/lineups/9.json",
         "2026/teams.json"
       ],
       "match": {
@@ -44511,7 +44516,7 @@
       "birthDate": "2003-09-06",
       "college": "Notre Dame",
       "jerseyNumber": null,
-      "nflTeam": "CLE",
+      "nflTeam": "NO",
       "rookieSeason": 2024,
       "lastSeason": 2026,
       "ids": {
@@ -45537,7 +45542,8 @@
       "name": "Adonai Mitchell",
       "seasons": [
         2024,
-        2025
+        2025,
+        2026
       ],
       "observedIn": [
         "2024/activity.json",
@@ -45549,7 +45555,10 @@
         "2025/lineups/15.json",
         "2025/lineups/16.json",
         "2025/lineups/17.json",
-        "2025/teams.json"
+        "2025/teams.json",
+        "2026/activity.json",
+        "2026/lineups/9.json",
+        "2026/teams.json"
       ],
       "match": {
         "method": "nflverse_espn_id",
@@ -46431,7 +46440,6 @@
         "2026/lineups/6.json",
         "2026/lineups/7.json",
         "2026/lineups/8.json",
-        "2026/lineups/9.json",
         "2026/teams.json"
       ],
       "match": {
@@ -49220,7 +49228,6 @@
         "2026/lineups/6.json",
         "2026/lineups/7.json",
         "2026/lineups/8.json",
-        "2026/lineups/9.json",
         "2026/teams.json"
       ],
       "match": {
@@ -49356,12 +49363,16 @@
       "entityType": "player",
       "name": "Dylan Sampson",
       "seasons": [
-        2025
+        2025,
+        2026
       ],
       "observedIn": [
         "2025/activity.json",
         "2025/lineups/2.json",
-        "2025/teams.json"
+        "2025/teams.json",
+        "2026/activity.json",
+        "2026/lineups/9.json",
+        "2026/teams.json"
       ],
       "match": {
         "method": "nflverse_espn_id",
@@ -49473,6 +49484,7 @@
         "2026/activity.json",
         "2026/lineups/6.json",
         "2026/lineups/7.json",
+        "2026/lineups/9.json",
         "2026/teams.json"
       ],
       "match": {
