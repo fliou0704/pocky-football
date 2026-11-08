@@ -8,8 +8,8 @@
       "week": 9,
       "homeTeamId": 1,
       "awayTeamId": 12,
-      "homeScore": 34.34,
-      "awayScore": 93.46,
+      "homeScore": 40.26,
+      "awayScore": 91.46,
       "status": "live",
       "winnerTeamId": null,
       "bracket": "regular",
@@ -23,7 +23,7 @@
       "homeTeamId": 2,
       "awayTeamId": 6,
       "homeScore": 94.84,
-      "awayScore": 78.28,
+      "awayScore": 77.28,
       "status": "live",
       "winnerTeamId": null,
       "bracket": "regular",
@@ -36,7 +36,7 @@
       "week": 9,
       "homeTeamId": 3,
       "awayTeamId": 15,
-      "homeScore": 31.5,
+      "homeScore": 32.1,
       "awayScore": 70.96,
       "status": "live",
       "winnerTeamId": null,
@@ -51,7 +51,7 @@
       "homeTeamId": 5,
       "awayTeamId": 16,
       "homeScore": 86.82,
-      "awayScore": 48.8,
+      "awayScore": 50.8,
       "status": "live",
       "winnerTeamId": null,
       "bracket": "regular",
@@ -65,7 +65,7 @@
       "homeTeamId": 13,
       "awayTeamId": 11,
       "homeScore": 99.08,
-      "awayScore": 68.72,
+      "awayScore": 72.02,
       "status": "live",
       "winnerTeamId": null,
       "bracket": "regular",
@@ -214,7 +214,7 @@
           "position": "RB",
           "nflTeam": "DEN",
           "injuryStatus": "ACTIVE",
-          "points": 18.3
+          "points": 18.8
         },
         {
           "playerId": 5082424,
@@ -270,7 +270,7 @@
           "position": "RB",
           "nflTeam": "NO",
           "injuryStatus": "ACTIVE",
-          "points": 5.1
+          "points": 7.9
         },
         {
           "playerId": 3953687,
@@ -279,7 +279,7 @@
           "position": "K",
           "nflTeam": "DAL",
           "injuryStatus": "ACTIVE",
-          "points": 9.0
+          "points": 8.0
         },
         {
           "playerId": 4361307,
@@ -389,7 +389,7 @@
           "position": "D/ST",
           "nflTeam": "NYG",
           "injuryStatus": null,
-          "points": 12.0
+          "points": 13.0
         },
         {
           "playerId": 3916387,
@@ -461,7 +461,7 @@
           "position": "RB",
           "nflTeam": "HOU",
           "injuryStatus": "ACTIVE",
-          "points": 0.6
+          "points": 0.9
         },
         {
           "playerId": 4429096,
@@ -488,7 +488,7 @@
           "position": "QB",
           "nflTeam": "HOU",
           "injuryStatus": "ACTIVE",
-          "points": 1.24
+          "points": 6.16
         },
         {
           "playerId": 4567104,
@@ -660,7 +660,7 @@
           "slot": "BE",
           "position": "WR",
           "nflTeam": "KC",
-          "injuryStatus": "OUT",
+          "injuryStatus": "QUESTIONABLE",
           "points": 10.8
         },
         {
@@ -670,7 +670,7 @@
           "position": "RB",
           "nflTeam": "WSH",
           "injuryStatus": "ACTIVE",
-          "points": 8.9
+          "points": 6.9
         },
         {
           "playerId": 4723820,
@@ -753,7 +753,7 @@
           "position": "RB",
           "nflTeam": "IND",
           "injuryStatus": "ACTIVE",
-          "points": 8.9
+          "points": 9.5
         },
         {
           "playerId": 4360248,
@@ -1227,7 +1227,7 @@
           "position": "TE",
           "nflTeam": "IND",
           "injuryStatus": "ACTIVE",
-          "points": 6.4
+          "points": 8.4
         },
         {
           "playerId": 4569587,
@@ -1474,7 +1474,7 @@
           "position": "K",
           "nflTeam": "HOU",
           "injuryStatus": "ACTIVE",
-          "points": 0.0
+          "points": 1.0
         },
         {
           "playerId": 3042519,
@@ -1492,7 +1492,7 @@
           "position": "TE",
           "nflTeam": "PHI",
           "injuryStatus": "ACTIVE",
-          "points": 7.9
+          "points": 10.0
         },
         {
           "playerId": 3150744,
@@ -1546,7 +1546,7 @@
           "position": "QB",
           "nflTeam": "NO",
           "injuryStatus": "ACTIVE",
-          "points": 13.34
+          "points": 13.62
         },
         {
           "playerId": 4361370,
@@ -1555,7 +1555,7 @@
           "position": "WR",
           "nflTeam": "NO",
           "injuryStatus": "ACTIVE",
-          "points": 15.1
+          "points": 16.8
         },
         {
           "playerId": 4374302,
@@ -1573,7 +1573,7 @@
           "position": "QB",
           "nflTeam": "WSH",
           "injuryStatus": "ACTIVE",
-          "points": 13.92
+          "points": 14.52
         },
         {
           "playerId": 4430027,
@@ -1633,6 +1633,6 @@
     "pocky-football/2026/home.json": "b537a55859c1805b68a1a430bbb0e03c11a15b15fcf2952480fed49856b6f5b0",
     "pocky-football/2026/teams.json": "0aa8695c1a7b0f61f7389e37761f880e234a688d6a82dade1881ee64b9c06685"
   },
-  "snapshotId": "01952c0037705874b2a482540fd837a60b443106abc7c8a20b934830014146ba",
-  "fetchedAt": "2026-11-08T21:10:33.312377+00:00"
+  "snapshotId": "5a3dfb0fa894358ce6ebcf0bd5ab1fbe5c572fc83093be8c7e979c6298fd556c",
+  "fetchedAt": "2026-11-08T21:15:32.392985+00:00"
 }
