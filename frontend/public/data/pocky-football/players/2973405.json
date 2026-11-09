@@ -22,7 +22,7 @@
       "team": null
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,9 +47,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 63.5,
-        "average": 7.94,
+        "weeks": 9,
+        "points": 70.7,
+        "average": 7.86,
         "high": {
           "season": 2026,
           "week": 3,
@@ -63,8 +63,8 @@
         "points": 0,
         "fppg": null,
         "nflStats": {
-          "receptions": 28.0,
-          "recYards": 258.0,
+          "receptions": 32.0,
+          "recYards": 290.0,
           "recTD": 1.0,
           "rushYards": 37.0
         },
@@ -357,13 +357,32 @@
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 4.0,
+            "recYards": 32.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 7.2,
           "nflTeam": "CHI",
           "nflOpponent": "TB",
           "rosters": []
@@ -535,9 +554,9 @@
     }
   ],
   "career": {
-    "weeks": 8,
-    "points": 63.5,
-    "average": 7.94,
+    "weeks": 9,
+    "points": 70.7,
+    "average": 7.86,
     "high": {
       "season": 2026,
       "week": 3,

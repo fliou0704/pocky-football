@@ -22,7 +22,7 @@
       "team": "NYG"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 50.5,
-        "average": 6.31,
+        "weeks": 9,
+        "points": 58.7,
+        "average": 6.52,
         "high": {
           "season": 2026,
           "week": 7,
@@ -71,9 +71,9 @@
         "points": 29.1,
         "fppg": 7.28,
         "nflStats": {
-          "rushAttempts": 56.0,
-          "rushYards": 274.0,
-          "rushTD": 2.0,
+          "rushAttempts": 69.0,
+          "rushYards": 296.0,
+          "rushTD": 3.0,
           "receptions": 7.0,
           "recYards": 41.0,
           "recTD": 0
@@ -427,13 +427,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 13.0,
+            "rushYards": 22.0,
+            "rushTD": 1.0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 8.2,
           "nflTeam": "PHI",
           "nflOpponent": "NYG",
           "rosters": [
@@ -444,9 +463,9 @@
                 "logo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 8.2,
               "nflTeam": "PHI",
-              "nflOpponent": null
+              "nflOpponent": "NYG"
             }
           ]
         },
@@ -4794,9 +4813,9 @@
     }
   ],
   "career": {
-    "weeks": 93,
-    "points": 1293.9,
-    "average": 13.91,
+    "weeks": 94,
+    "points": 1302.1,
+    "average": 13.85,
     "high": {
       "season": 2024,
       "week": 12,

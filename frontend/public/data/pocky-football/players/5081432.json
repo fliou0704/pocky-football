@@ -22,7 +22,7 @@
       "team": "WAS"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,9 +47,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 54.9,
-        "average": 7.84,
+        "weeks": 8,
+        "points": 60.4,
+        "average": 7.55,
         "high": {
           "season": 2026,
           "week": 1,
@@ -63,8 +63,8 @@
         "points": 10.4,
         "fppg": 10.4,
         "nflStats": {
-          "receptions": 23.0,
-          "recYards": 259.0,
+          "receptions": 26.0,
+          "recYards": 284.0,
           "recTD": 1.0,
           "rushYards": 0
         },
@@ -314,13 +314,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 3.0,
+            "recYards": 25.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 5.5,
           "nflTeam": "WSH",
           "nflOpponent": "LAR",
           "rosters": [
@@ -331,9 +350,9 @@
                 "logo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg"
               },
               "slot": "BE",
-              "points": null,
+              "points": 5.5,
               "nflTeam": "WSH",
-              "nflOpponent": null
+              "nflOpponent": "LAR"
             }
           ]
         },
@@ -496,9 +515,9 @@
     }
   ],
   "career": {
-    "weeks": 7,
-    "points": 54.9,
-    "average": 7.84,
+    "weeks": 8,
+    "points": 60.4,
+    "average": 7.55,
     "high": {
       "season": 2026,
       "week": 1,

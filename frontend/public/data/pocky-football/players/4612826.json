@@ -22,7 +22,7 @@
       "team": "LAC"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,15 +47,15 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
+        "weeks": 8,
         "points": 51.6,
-        "average": 7.37,
+        "average": 6.45,
         "high": {
           "season": 2026,
           "week": 1,
           "points": 19.2
         },
-        "starts": 4,
+        "starts": 5,
         "starterPoints": 48.9
       },
       "seasonStats": {
@@ -398,13 +398,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "LAC",
           "nflOpponent": "HOU",
           "rosters": [
@@ -415,9 +434,9 @@
                 "logo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp"
               },
               "slot": "WR",
-              "points": null,
+              "points": 0.0,
               "nflTeam": "LAC",
-              "nflOpponent": null
+              "nflOpponent": "HOU"
             }
           ]
         },
@@ -2253,15 +2272,15 @@
     }
   ],
   "career": {
-    "weeks": 41,
+    "weeks": 42,
     "points": 473.4,
-    "average": 11.55,
+    "average": 11.27,
     "high": {
       "season": 2024,
       "week": 17,
       "points": 29.4
     },
-    "starts": 23,
+    "starts": 24,
     "starterPoints": 290.3
   }
 }

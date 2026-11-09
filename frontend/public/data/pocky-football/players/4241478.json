@@ -22,7 +22,7 @@
       "team": "PHI"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,9 +47,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
+        "weeks": 9,
         "points": 69.0,
-        "average": 8.62,
+        "average": 7.67,
         "high": {
           "season": 2026,
           "week": 2,
@@ -417,13 +417,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "PHI",
           "nflOpponent": "NYG",
           "rosters": [
@@ -434,9 +453,9 @@
                 "logo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg"
               },
               "slot": "IR",
-              "points": null,
+              "points": 0.0,
               "nflTeam": "PHI",
-              "nflOpponent": null
+              "nflOpponent": "NYG"
             }
           ]
         },
@@ -4807,9 +4826,9 @@
     }
   ],
   "career": {
-    "weeks": 93,
+    "weeks": 94,
     "points": 1138.0,
-    "average": 12.24,
+    "average": 12.11,
     "high": {
       "season": 2025,
       "week": 7,

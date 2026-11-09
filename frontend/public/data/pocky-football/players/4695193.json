@@ -22,7 +22,7 @@
       "team": null
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,13 +47,13 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 34.94,
-        "average": 4.37,
+        "weeks": 9,
+        "points": 50.84,
+        "average": 5.65,
         "high": {
           "season": 2026,
-          "week": 4,
-          "points": 12.2
+          "week": 9,
+          "points": 15.9
         },
         "starts": 2,
         "starterPoints": 2.6
@@ -63,9 +63,9 @@
         "points": 2.6,
         "fppg": 1.3,
         "nflStats": {
-          "receptions": 15.0,
-          "recYards": 151.0,
-          "recTD": 1.0,
+          "receptions": 20.0,
+          "recYards": 200.0,
+          "recTD": 2.0,
           "rushYards": 2.0
         },
         "participationComplete": true,
@@ -345,13 +345,32 @@
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 5.0,
+            "recYards": 49.0,
+            "recTD": 1.0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 15.9,
           "nflTeam": "NE",
           "nflOpponent": "GB",
           "rosters": []
@@ -522,13 +541,13 @@
     }
   ],
   "career": {
-    "weeks": 8,
-    "points": 34.94,
-    "average": 4.37,
+    "weeks": 9,
+    "points": 50.84,
+    "average": 5.65,
     "high": {
       "season": 2026,
-      "week": 4,
-      "points": 12.2
+      "week": 9,
+      "points": 15.9
     },
     "starts": 2,
     "starterPoints": 2.6

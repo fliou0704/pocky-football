@@ -22,7 +22,7 @@
       "team": "LA"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,27 +55,27 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 150.0,
-        "average": 18.75,
+        "weeks": 9,
+        "points": 159.1,
+        "average": 17.68,
         "high": {
           "season": 2026,
           "week": 4,
           "points": 36.7
         },
-        "starts": 7,
-        "starterPoints": 130.4
+        "starts": 8,
+        "starterPoints": 139.5
       },
       "seasonStats": {
         "gp": 7,
         "points": 130.4,
         "fppg": 18.63,
         "nflStats": {
-          "rushAttempts": 112.0,
-          "rushYards": 548.0,
+          "rushAttempts": 127.0,
+          "rushYards": 593.0,
           "rushTD": 6.0,
-          "receptions": 33.0,
-          "recYards": 242.0,
+          "receptions": 36.0,
+          "recYards": 258.0,
           "recTD": 1.0
         },
         "participationComplete": true,
@@ -427,13 +427,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 15.0,
+            "rushYards": 45.0,
+            "rushTD": 0,
+            "receptions": 3.0,
+            "recYards": 16.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 9.1,
           "nflTeam": "LAR",
           "nflOpponent": "WSH",
           "rosters": [
@@ -444,9 +463,9 @@
                 "logo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp"
               },
               "slot": "RB",
-              "points": null,
+              "points": 9.1,
               "nflTeam": "LAR",
-              "nflOpponent": null
+              "nflOpponent": "WSH"
             }
           ]
         },
@@ -3891,15 +3910,15 @@
     }
   ],
   "career": {
-    "weeks": 76,
-    "points": 970.9,
-    "average": 12.78,
+    "weeks": 77,
+    "points": 980.0,
+    "average": 12.73,
     "high": {
       "season": 2023,
       "week": 12,
       "points": 38.4
     },
-    "starts": 43,
-    "starterPoints": 720.4
+    "starts": 44,
+    "starterPoints": 729.5
   }
 }

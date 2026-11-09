@@ -22,7 +22,7 @@
       "team": "GB"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,25 +47,25 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 146.8,
-        "average": 18.35,
+        "weeks": 9,
+        "points": 176.9,
+        "average": 19.66,
         "high": {
           "season": 2026,
           "week": 1,
           "points": 32.7
         },
-        "starts": 6,
-        "starterPoints": 100.0
+        "starts": 7,
+        "starterPoints": 130.1
       },
       "seasonStats": {
         "gp": 6,
         "points": 100.0,
         "fppg": 16.67,
         "nflStats": {
-          "receptions": 42.0,
-          "recYards": 708.0,
-          "recTD": 6.0,
+          "receptions": 49.0,
+          "recYards": 879.0,
+          "recTD": 7.0,
           "rushYards": 0
         },
         "participationComplete": true,
@@ -417,13 +417,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 7.0,
+            "recYards": 171.0,
+            "recTD": 1.0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 30.1,
           "nflTeam": "GB",
           "nflOpponent": "NE",
           "rosters": [
@@ -434,9 +453,9 @@
                 "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
               },
               "slot": "WR",
-              "points": null,
+              "points": 30.1,
               "nflTeam": "GB",
-              "nflOpponent": null
+              "nflOpponent": "NE"
             }
           ]
         },
@@ -3755,15 +3774,15 @@
     }
   ],
   "career": {
-    "weeks": 76,
-    "points": 649.9,
-    "average": 8.55,
+    "weeks": 77,
+    "points": 680.0,
+    "average": 8.83,
     "high": {
       "season": 2022,
       "week": 10,
       "points": 32.7
     },
-    "starts": 15,
-    "starterPoints": 188.1
+    "starts": 16,
+    "starterPoints": 218.2
   }
 }

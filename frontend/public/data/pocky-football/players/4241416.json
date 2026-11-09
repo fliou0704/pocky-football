@@ -22,7 +22,7 @@
       "team": "CAR"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,27 +55,27 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 133.0,
-        "average": 19.0,
+        "weeks": 8,
+        "points": 146.6,
+        "average": 18.32,
         "high": {
           "season": 2026,
           "week": 4,
           "points": 25.9
         },
-        "starts": 6,
-        "starterPoints": 109.3
+        "starts": 7,
+        "starterPoints": 122.9
       },
       "seasonStats": {
         "gp": 6,
         "points": 109.3,
         "fppg": 18.22,
         "nflStats": {
-          "rushAttempts": 118.0,
-          "rushYards": 540.0,
+          "rushAttempts": 134.0,
+          "rushYards": 619.0,
           "rushTD": 5.0,
-          "receptions": 22.0,
-          "recYards": 150.0,
+          "receptions": 26.0,
+          "recYards": 167.0,
           "recTD": 2.0
         },
         "participationComplete": true,
@@ -408,13 +408,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 16.0,
+            "rushYards": 79.0,
+            "rushTD": 0,
+            "receptions": 4.0,
+            "recYards": 17.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 13.6,
           "nflTeam": "CAR",
           "nflOpponent": "DEN",
           "rosters": [
@@ -425,9 +444,9 @@
                 "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
               },
               "slot": "RB",
-              "points": null,
+              "points": 13.6,
               "nflTeam": "CAR",
-              "nflOpponent": null
+              "nflOpponent": "DEN"
             }
           ]
         },
@@ -4608,15 +4627,15 @@
     }
   ],
   "career": {
-    "weeks": 92,
-    "points": 907.8,
-    "average": 9.87,
+    "weeks": 93,
+    "points": 921.4,
+    "average": 9.91,
     "high": {
       "season": 2024,
       "week": 16,
       "points": 32.5
     },
-    "starts": 36,
-    "starterPoints": 527.0
+    "starts": 37,
+    "starterPoints": 540.6
   }
 }

@@ -22,7 +22,7 @@
       "team": "NYJ"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,27 +55,27 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 42.5,
-        "average": 5.31,
+        "weeks": 9,
+        "points": 54.2,
+        "average": 6.02,
         "high": {
           "season": 2026,
           "week": 1,
           "points": 19.8
         },
-        "starts": 4,
-        "starterPoints": 42.5
+        "starts": 5,
+        "starterPoints": 54.2
       },
       "seasonStats": {
         "gp": 4,
         "points": 42.5,
         "fppg": 10.62,
         "nflStats": {
-          "rushAttempts": 51.0,
-          "rushYards": 163.0,
+          "rushAttempts": 66.0,
+          "rushYards": 224.0,
           "rushTD": 1.0,
-          "receptions": 10.0,
-          "recYards": 102.0,
+          "receptions": 13.0,
+          "recYards": 128.0,
           "recTD": 0
         },
         "participationComplete": true,
@@ -427,13 +427,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 15.0,
+            "rushYards": 61.0,
+            "rushTD": 0,
+            "receptions": 3.0,
+            "recYards": 26.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 11.7,
           "nflTeam": "NYJ",
           "nflOpponent": "KC",
           "rosters": [
@@ -444,9 +463,9 @@
                 "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
               },
               "slot": "RB",
-              "points": null,
+              "points": 11.7,
               "nflTeam": "NYJ",
-              "nflOpponent": null
+              "nflOpponent": "KC"
             }
           ]
         },
@@ -3837,15 +3856,15 @@
     }
   ],
   "career": {
-    "weeks": 76,
-    "points": 896.66,
+    "weeks": 77,
+    "points": 908.36,
     "average": 11.8,
     "high": {
       "season": 2023,
       "week": 16,
       "points": 43.1
     },
-    "starts": 53,
-    "starterPoints": 778.26
+    "starts": 54,
+    "starterPoints": 789.96
   }
 }

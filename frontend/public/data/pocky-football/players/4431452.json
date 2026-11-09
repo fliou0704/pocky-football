@@ -22,7 +22,7 @@
       "team": "NE"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,9 +51,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 160.92,
-        "average": 20.12,
+        "weeks": 9,
+        "points": 179.18,
+        "average": 19.91,
         "high": {
           "season": 2026,
           "week": 5,
@@ -67,10 +67,10 @@
         "points": 87.28,
         "fppg": 17.46,
         "nflStats": {
-          "passYards": 1983.0,
-          "passTD": 15.0,
-          "interceptions": 8.0,
-          "rushYards": 216.0,
+          "passYards": 2282.0,
+          "passTD": 18.0,
+          "interceptions": 11.0,
+          "rushYards": 219.0,
           "rushTD": 3.0
         },
         "participationComplete": true,
@@ -422,13 +422,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 38.0,
+            "passYards": 299.0,
+            "passTD": 3.0,
+            "interceptions": 3.0,
+            "rushAttempts": 1.0,
+            "rushYards": 3.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 18.26,
           "nflTeam": "NE",
           "nflOpponent": "GB",
           "rosters": [
@@ -439,9 +458,9 @@
                 "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
               },
               "slot": "BE",
-              "points": null,
+              "points": 18.26,
               "nflTeam": "NE",
-              "nflOpponent": null
+              "nflOpponent": "GB"
             }
           ]
         },
@@ -2080,9 +2099,9 @@
     }
   ],
   "career": {
-    "weeks": 42,
-    "points": 690.02,
-    "average": 16.43,
+    "weeks": 43,
+    "points": 708.28,
+    "average": 16.47,
     "high": {
       "season": 2026,
       "week": 5,

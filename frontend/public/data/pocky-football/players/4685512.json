@@ -22,7 +22,7 @@
       "team": "SEA"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,13 +55,13 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 19.7,
-        "average": 2.46,
+        "weeks": 9,
+        "points": 31.5,
+        "average": 3.5,
         "high": {
           "season": 2026,
-          "week": 1,
-          "points": 7.8
+          "week": 9,
+          "points": 11.8
         },
         "starts": 3,
         "starterPoints": 14.0
@@ -71,11 +71,11 @@
         "points": 14.0,
         "fppg": 4.67,
         "nflStats": {
-          "rushAttempts": 38.0,
-          "rushYards": 148.0,
+          "rushAttempts": 47.0,
+          "rushYards": 172.0,
           "rushTD": 0,
-          "receptions": 6.0,
-          "recYards": 29.0,
+          "receptions": 10.0,
+          "recYards": 83.0,
           "recTD": 0
         },
         "participationComplete": true,
@@ -427,13 +427,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 9.0,
+            "rushYards": 24.0,
+            "rushTD": 0,
+            "receptions": 4.0,
+            "recYards": 54.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 11.8,
           "nflTeam": "SEA",
           "nflOpponent": "ARI",
           "rosters": [
@@ -444,9 +463,9 @@
                 "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 11.8,
               "nflTeam": "SEA",
-              "nflOpponent": null
+              "nflOpponent": "ARI"
             }
           ]
         },
@@ -614,13 +633,13 @@
     }
   ],
   "career": {
-    "weeks": 8,
-    "points": 19.7,
-    "average": 2.46,
+    "weeks": 9,
+    "points": 31.5,
+    "average": 3.5,
     "high": {
       "season": 2026,
-      "week": 1,
-      "points": 7.8
+      "week": 9,
+      "points": 11.8
     },
     "starts": 3,
     "starterPoints": 14.0

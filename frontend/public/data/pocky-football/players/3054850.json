@@ -22,7 +22,7 @@
       "team": "NO"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 65.8,
-        "average": 9.4,
+        "weeks": 8,
+        "points": 73.7,
+        "average": 9.21,
         "high": {
           "season": 2026,
           "week": 4,
@@ -71,11 +71,11 @@
         "points": 14.9,
         "fppg": 14.9,
         "nflStats": {
-          "rushAttempts": 41.0,
-          "rushYards": 125.0,
+          "rushAttempts": 47.0,
+          "rushYards": 157.0,
           "rushTD": 2.0,
-          "receptions": 22.0,
-          "recYards": 133.0,
+          "receptions": 25.0,
+          "recYards": 150.0,
           "recTD": 1.0
         },
         "participationComplete": true,
@@ -384,13 +384,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 6.0,
+            "rushYards": 32.0,
+            "rushTD": 0,
+            "receptions": 3.0,
+            "recYards": 17.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 7.9,
           "nflTeam": "NO",
           "nflOpponent": "CLE",
           "rosters": [
@@ -401,9 +420,9 @@
                 "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 7.9,
               "nflTeam": "NO",
-              "nflOpponent": null
+              "nflOpponent": "CLE"
             }
           ]
         },
@@ -4751,9 +4770,9 @@
     }
   ],
   "career": {
-    "weeks": 92,
-    "points": 1111.2,
-    "average": 12.08,
+    "weeks": 93,
+    "points": 1119.1,
+    "average": 12.03,
     "high": {
       "season": 2024,
       "week": 2,

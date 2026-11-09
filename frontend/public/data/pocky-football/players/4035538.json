@@ -22,7 +22,7 @@
       "team": "CHI"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
+        "weeks": 8,
         "points": 45.5,
-        "average": 6.5,
+        "average": 5.69,
         "high": {
           "season": 2026,
           "week": 1,
@@ -408,13 +408,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "HOU",
           "nflOpponent": "LAC",
           "rosters": [
@@ -425,9 +444,9 @@
                 "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
               },
               "slot": "BE",
-              "points": null,
+              "points": 0.0,
               "nflTeam": "HOU",
-              "nflOpponent": null
+              "nflOpponent": "LAC"
             }
           ]
         },
@@ -4758,9 +4777,9 @@
     }
   ],
   "career": {
-    "weeks": 92,
+    "weeks": 93,
     "points": 1014.04,
-    "average": 11.02,
+    "average": 10.9,
     "high": {
       "season": 2023,
       "week": 4,

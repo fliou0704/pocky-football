@@ -22,7 +22,7 @@
       "team": "LA"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,25 +55,25 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 82.8,
-        "average": 10.35,
+        "weeks": 9,
+        "points": 94.6,
+        "average": 10.51,
         "high": {
           "season": 2026,
           "week": 7,
           "points": 17.1
         },
-        "starts": 1,
-        "starterPoints": 13.3
+        "starts": 2,
+        "starterPoints": 25.1
       },
       "seasonStats": {
         "gp": 1,
         "points": 13.3,
         "fppg": 13.3,
         "nflStats": {
-          "rushAttempts": 75.0,
-          "rushYards": 389.0,
-          "rushTD": 3.0,
+          "rushAttempts": 86.0,
+          "rushYards": 447.0,
+          "rushTD": 4.0,
           "receptions": 10.0,
           "recYards": 99.0,
           "recTD": 1.0
@@ -427,13 +427,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 11.0,
+            "rushYards": 58.0,
+            "rushTD": 1.0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 11.8,
           "nflTeam": "LAR",
           "nflOpponent": "WSH",
           "rosters": [
@@ -443,10 +462,10 @@
                 "name": "Brian's Original Fried Haddock",
                 "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
               },
-              "slot": "FLEX",
-              "points": null,
+              "slot": "RB",
+              "points": 11.8,
               "nflTeam": "LAR",
-              "nflOpponent": null
+              "nflOpponent": "WSH"
             }
           ]
         },
@@ -1907,15 +1926,15 @@
     }
   ],
   "career": {
-    "weeks": 42,
-    "points": 238.5,
-    "average": 5.68,
+    "weeks": 43,
+    "points": 250.3,
+    "average": 5.82,
     "high": {
       "season": 2025,
       "week": 14,
       "points": 26.1
     },
-    "starts": 1,
-    "starterPoints": 13.3
+    "starts": 2,
+    "starterPoints": 25.1
   }
 }

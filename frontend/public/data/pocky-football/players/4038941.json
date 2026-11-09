@@ -22,7 +22,7 @@
       "team": "LAC"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,9 +51,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 70.22,
-        "average": 10.03,
+        "weeks": 8,
+        "points": 80.64,
+        "average": 10.08,
         "high": {
           "season": 2026,
           "week": 1,
@@ -67,10 +67,10 @@
         "points": 0,
         "fppg": null,
         "nflStats": {
-          "passYards": 1398.0,
-          "passTD": 5.0,
-          "interceptions": 10.0,
-          "rushYards": 183.0,
+          "passYards": 1591.0,
+          "passTD": 6.0,
+          "interceptions": 11.0,
+          "rushYards": 190.0,
           "rushTD": 0
         },
         "participationComplete": true,
@@ -403,13 +403,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 23.0,
+            "passYards": 193.0,
+            "passTD": 1.0,
+            "interceptions": 1.0,
+            "rushAttempts": 1.0,
+            "rushYards": 7.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 10.42,
           "nflTeam": "LAC",
           "nflOpponent": "HOU",
           "rosters": [
@@ -420,9 +439,9 @@
                 "logo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 10.42,
               "nflTeam": "LAC",
-              "nflOpponent": null
+              "nflOpponent": "HOU"
             }
           ]
         },
@@ -4793,9 +4812,9 @@
     }
   ],
   "career": {
-    "weeks": 92,
-    "points": 1538.68,
-    "average": 16.72,
+    "weeks": 93,
+    "points": 1549.1,
+    "average": 16.66,
     "high": {
       "season": 2021,
       "week": 5,

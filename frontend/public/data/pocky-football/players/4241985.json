@@ -22,7 +22,7 @@
       "team": "BAL"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 59.3,
-        "average": 7.41,
+        "weeks": 9,
+        "points": 62.5,
+        "average": 6.94,
         "high": {
           "season": 2026,
           "week": 5,
@@ -71,11 +71,11 @@
         "points": 8.3,
         "fppg": 8.3,
         "nflStats": {
-          "rushAttempts": 94.0,
-          "rushYards": 306.0,
+          "rushAttempts": 98.0,
+          "rushYards": 324.0,
           "rushTD": 3.0,
-          "receptions": 8.0,
-          "recYards": 27.0,
+          "receptions": 9.0,
+          "recYards": 31.0,
           "recTD": 0
         },
         "participationComplete": true,
@@ -427,13 +427,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 4.0,
+            "rushYards": 18.0,
+            "rushTD": 0,
+            "receptions": 1.0,
+            "recYards": 4.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 3.2,
           "nflTeam": "DEN",
           "nflOpponent": "CAR",
           "rosters": [
@@ -444,9 +463,9 @@
                 "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
               },
               "slot": "BE",
-              "points": null,
+              "points": 3.2,
               "nflTeam": "DEN",
-              "nflOpponent": null
+              "nflOpponent": "CAR"
             }
           ]
         },
@@ -3876,9 +3895,9 @@
     }
   ],
   "career": {
-    "weeks": 76,
-    "points": 459.9,
-    "average": 6.05,
+    "weeks": 77,
+    "points": 463.1,
+    "average": 6.01,
     "high": {
       "season": 2024,
       "week": 9,

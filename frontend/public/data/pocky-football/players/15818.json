@@ -22,7 +22,7 @@
       "team": "LAC"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,9 +47,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 74.5,
-        "average": 9.31,
+        "weeks": 9,
+        "points": 81.1,
+        "average": 9.01,
         "high": {
           "season": 2026,
           "week": 3,
@@ -63,8 +63,8 @@
         "points": 0,
         "fppg": null,
         "nflStats": {
-          "receptions": 36.0,
-          "recYards": 325.0,
+          "receptions": 40.0,
+          "recYards": 351.0,
           "recTD": 1.0,
           "rushYards": 0
         },
@@ -357,13 +357,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 4.0,
+            "recYards": 26.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 6.6,
           "nflTeam": "IND",
           "nflOpponent": "DAL",
           "rosters": [
@@ -374,9 +393,9 @@
                 "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
               },
               "slot": "BE",
-              "points": null,
+              "points": 6.6,
               "nflTeam": "IND",
-              "nflOpponent": null
+              "nflOpponent": "DAL"
             }
           ]
         },
@@ -4769,9 +4788,9 @@
     }
   ],
   "career": {
-    "weeks": 93,
-    "points": 1142.26,
-    "average": 12.28,
+    "weeks": 94,
+    "points": 1148.86,
+    "average": 12.22,
     "high": {
       "season": 2023,
       "week": 3,

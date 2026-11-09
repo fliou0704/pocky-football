@@ -22,7 +22,7 @@
       "team": "NYG"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,24 +47,24 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 120.5,
-        "average": 17.21,
+        "weeks": 8,
+        "points": 129.8,
+        "average": 16.23,
         "high": {
           "season": 2026,
           "week": 5,
           "points": 29.1
         },
-        "starts": 7,
-        "starterPoints": 120.5
+        "starts": 8,
+        "starterPoints": 129.8
       },
       "seasonStats": {
         "gp": 7,
         "points": 120.5,
         "fppg": 17.21,
         "nflStats": {
-          "receptions": 48.0,
-          "recYards": 605.0,
+          "receptions": 53.0,
+          "recYards": 648.0,
           "recTD": 2.0,
           "rushYards": 0
         },
@@ -398,13 +398,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 5.0,
+            "recYards": 43.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 9.3,
           "nflTeam": "NYG",
           "nflOpponent": "PHI",
           "rosters": [
@@ -415,9 +434,9 @@
                 "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
               },
               "slot": "WR",
-              "points": null,
+              "points": 9.3,
               "nflTeam": "NYG",
-              "nflOpponent": null
+              "nflOpponent": "PHI"
             }
           ]
         },
@@ -2093,15 +2112,15 @@
     }
   ],
   "career": {
-    "weeks": 41,
-    "points": 451.2,
-    "average": 11.0,
+    "weeks": 42,
+    "points": 460.5,
+    "average": 10.96,
     "high": {
       "season": 2025,
       "week": 2,
       "points": 37.7
     },
-    "starts": 24,
-    "starterPoints": 397.7
+    "starts": 25,
+    "starterPoints": 407.0
   }
 }

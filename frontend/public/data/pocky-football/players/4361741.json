@@ -22,7 +22,7 @@
       "team": "SF"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,9 +51,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 146.02,
-        "average": 20.86,
+        "weeks": 8,
+        "points": 171.3,
+        "average": 21.41,
         "high": {
           "season": 2026,
           "week": 3,
@@ -67,11 +67,11 @@
         "points": 80.28,
         "fppg": 20.07,
         "nflStats": {
-          "passYards": 1748.0,
-          "passTD": 15.0,
-          "interceptions": 4.0,
-          "rushYards": 161.0,
-          "rushTD": 1.0
+          "passYards": 1980.0,
+          "passTD": 17.0,
+          "interceptions": 5.0,
+          "rushYards": 201.0,
+          "rushTD": 2.0
         },
         "participationComplete": true,
         "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
@@ -391,13 +391,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 25.0,
+            "passYards": 232.0,
+            "passTD": 2.0,
+            "interceptions": 1.0,
+            "rushAttempts": 7.0,
+            "rushYards": 40.0,
+            "rushTD": 1.0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 25.28,
           "nflTeam": "SF",
           "nflOpponent": "LV",
           "rosters": [
@@ -408,9 +427,9 @@
                 "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
               },
               "slot": "BE",
-              "points": null,
+              "points": 25.28,
               "nflTeam": "SF",
-              "nflOpponent": null
+              "nflOpponent": "LV"
             }
           ]
         },
@@ -3799,9 +3818,9 @@
     }
   ],
   "career": {
-    "weeks": 75,
-    "points": 992.12,
-    "average": 13.23,
+    "weeks": 76,
+    "points": 1017.4,
+    "average": 13.39,
     "high": {
       "season": 2025,
       "week": 17,

@@ -22,7 +22,7 @@
       "team": "PHI"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 53.0,
-        "average": 6.62,
+        "weeks": 9,
+        "points": 63.6,
+        "average": 7.07,
         "high": {
           "season": 2026,
           "week": 8,
@@ -71,11 +71,11 @@
         "points": 28.7,
         "fppg": 7.17,
         "nflStats": {
-          "rushAttempts": 58.0,
-          "rushYards": 289.0,
+          "rushAttempts": 63.0,
+          "rushYards": 305.0,
           "rushTD": 0,
-          "receptions": 12.0,
-          "recYards": 61.0,
+          "receptions": 15.0,
+          "recYards": 121.0,
           "recTD": 1.0
         },
         "participationComplete": true,
@@ -427,13 +427,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 5.0,
+            "rushYards": 16.0,
+            "rushTD": 0,
+            "receptions": 3.0,
+            "recYards": 60.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 10.6,
           "nflTeam": "TB",
           "nflOpponent": "CHI",
           "rosters": [
@@ -444,9 +463,9 @@
                 "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
               },
               "slot": "BE",
-              "points": null,
+              "points": 10.6,
               "nflTeam": "TB",
-              "nflOpponent": null
+              "nflOpponent": "CHI"
             }
           ]
         },
@@ -3646,9 +3665,9 @@
     }
   ],
   "career": {
-    "weeks": 76,
-    "points": 582.98,
-    "average": 7.67,
+    "weeks": 77,
+    "points": 593.58,
+    "average": 7.71,
     "high": {
       "season": 2025,
       "week": 4,

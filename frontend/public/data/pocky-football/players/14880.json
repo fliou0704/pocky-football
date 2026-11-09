@@ -22,7 +22,7 @@
       "team": "WAS"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,9 +51,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 159.66,
-        "average": 19.96,
+        "weeks": 9,
+        "points": 172.3,
+        "average": 19.14,
         "high": {
           "season": 2026,
           "week": 8,
@@ -67,11 +67,11 @@
         "points": 0,
         "fppg": null,
         "nflStats": {
-          "passYards": 2124.0,
-          "passTD": 19.0,
-          "interceptions": 5.0,
+          "passYards": 2340.0,
+          "passTD": 20.0,
+          "interceptions": 8.0,
           "rushYards": 7.0,
-          "rushTD": 1.0
+          "rushTD": 2.0
         },
         "participationComplete": true,
         "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
@@ -326,13 +326,32 @@
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 32.0,
+            "passYards": 216.0,
+            "passTD": 1.0,
+            "interceptions": 3.0,
+            "rushAttempts": 2.0,
+            "rushYards": 0,
+            "rushTD": 1.0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 12.64,
           "nflTeam": "LV",
           "nflOpponent": "SF",
           "rosters": [
@@ -342,10 +361,10 @@
                 "name": "LOVE MEEEE",
                 "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
               },
-              "slot": "QB",
-              "points": null,
+              "slot": "BE",
+              "points": 12.64,
               "nflTeam": "LV",
-              "nflOpponent": null
+              "nflOpponent": "SF"
             }
           ]
         },
@@ -3769,9 +3788,9 @@
     }
   ],
   "career": {
-    "weeks": 76,
-    "points": 1077.64,
-    "average": 14.18,
+    "weeks": 77,
+    "points": 1090.28,
+    "average": 14.16,
     "high": {
       "season": 2024,
       "week": 5,

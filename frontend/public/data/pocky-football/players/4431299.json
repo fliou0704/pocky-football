@@ -22,7 +22,7 @@
       "team": "CHI"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,13 +47,13 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 72.8,
-        "average": 9.1,
+        "weeks": 9,
+        "points": 88.8,
+        "average": 9.87,
         "high": {
           "season": 2026,
-          "week": 4,
-          "points": 15.4
+          "week": 9,
+          "points": 16.0
         },
         "starts": 1,
         "starterPoints": 5.0
@@ -63,9 +63,9 @@
         "points": 5.0,
         "fppg": 5.0,
         "nflStats": {
-          "receptions": 28.0,
-          "recYards": 468.0,
-          "recTD": 0,
+          "receptions": 32.0,
+          "recYards": 528.0,
+          "recTD": 1.0,
           "rushYards": 0
         },
         "participationComplete": true,
@@ -417,13 +417,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 4.0,
+            "recYards": 60.0,
+            "recTD": 1.0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 16.0,
           "nflTeam": "CHI",
           "nflOpponent": "TB",
           "rosters": [
@@ -434,9 +453,9 @@
                 "logo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 16.0,
               "nflTeam": "CHI",
-              "nflOpponent": null
+              "nflOpponent": "TB"
             }
           ]
         },
@@ -2229,9 +2248,9 @@
     }
   ],
   "career": {
-    "weeks": 42,
-    "points": 363.8,
-    "average": 8.66,
+    "weeks": 43,
+    "points": 379.8,
+    "average": 8.83,
     "high": {
       "season": 2025,
       "week": 2,

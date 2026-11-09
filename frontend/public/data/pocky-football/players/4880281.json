@@ -22,7 +22,7 @@
       "team": "NO"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,13 +47,13 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 0.0,
-        "average": 0.0,
+        "weeks": 8,
+        "points": 5.0,
+        "average": 0.62,
         "high": {
           "season": 2026,
-          "week": 1,
-          "points": 0.0
+          "week": 9,
+          "points": 5.0
         },
         "starts": 0,
         "starterPoints": null
@@ -63,8 +63,8 @@
         "points": 0,
         "fppg": null,
         "nflStats": {
-          "receptions": 0,
-          "recYards": 0,
+          "receptions": 4.0,
+          "recYards": 30.0,
           "recTD": 0,
           "rushYards": 0
         },
@@ -314,13 +314,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 4.0,
+            "recYards": 30.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 5.0,
           "nflTeam": "NO",
           "nflOpponent": "CLE",
           "rosters": [
@@ -330,10 +349,10 @@
                 "name": "LOVE MEEEE",
                 "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
               },
-              "slot": "IR",
-              "points": null,
+              "slot": "BE",
+              "points": 5.0,
               "nflTeam": "NO",
-              "nflOpponent": null
+              "nflOpponent": "CLE"
             }
           ]
         },
@@ -496,13 +515,13 @@
     }
   ],
   "career": {
-    "weeks": 7,
-    "points": 0.0,
-    "average": 0.0,
+    "weeks": 8,
+    "points": 5.0,
+    "average": 0.62,
     "high": {
       "season": 2026,
-      "week": 1,
-      "points": 0.0
+      "week": 9,
+      "points": 5.0
     },
     "starts": 0,
     "starterPoints": null

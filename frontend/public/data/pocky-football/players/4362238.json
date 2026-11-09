@@ -22,7 +22,7 @@
       "team": "CIN"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 90.9,
-        "average": 12.99,
+        "weeks": 8,
+        "points": 101.4,
+        "average": 12.68,
         "high": {
           "season": 2026,
           "week": 4,
@@ -71,11 +71,11 @@
         "points": 90.9,
         "fppg": 12.99,
         "nflStats": {
-          "rushAttempts": 94.0,
-          "rushYards": 340.0,
+          "rushAttempts": 103.0,
+          "rushYards": 397.0,
           "rushTD": 1.0,
-          "receptions": 36.0,
-          "recYards": 189.0,
+          "receptions": 39.0,
+          "recYards": 207.0,
           "recTD": 0
         },
         "participationComplete": true,
@@ -408,13 +408,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 9.0,
+            "rushYards": 57.0,
+            "rushTD": 0,
+            "receptions": 3.0,
+            "recYards": 18.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 10.5,
           "nflTeam": "CIN",
           "nflOpponent": "ATL",
           "rosters": [
@@ -424,10 +443,10 @@
                 "name": "Juwan's Team",
                 "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
               },
-              "slot": "RB",
-              "points": null,
+              "slot": "BE",
+              "points": 10.5,
               "nflTeam": "CIN",
-              "nflOpponent": null
+              "nflOpponent": "ATL"
             }
           ]
         },
@@ -2267,9 +2286,9 @@
     }
   ],
   "career": {
-    "weeks": 41,
-    "points": 628.5,
-    "average": 15.33,
+    "weeks": 42,
+    "points": 639.0,
+    "average": 15.21,
     "high": {
       "season": 2025,
       "week": 16,

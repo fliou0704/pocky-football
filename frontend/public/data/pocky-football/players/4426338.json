@@ -22,7 +22,7 @@
       "team": "DEN"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,26 +51,26 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 115.12,
-        "average": 14.39,
+        "weeks": 9,
+        "points": 130.8,
+        "average": 14.53,
         "high": {
           "season": 2026,
           "week": 7,
           "points": 26.18
         },
-        "starts": 0,
-        "starterPoints": null
+        "starts": 1,
+        "starterPoints": 15.68
       },
       "seasonStats": {
         "gp": 0,
         "points": 0,
         "fppg": null,
         "nflStats": {
-          "passYards": 1493.0,
-          "passTD": 9.0,
-          "interceptions": 3.0,
-          "rushYards": 114.0,
+          "passYards": 1730.0,
+          "passTD": 11.0,
+          "interceptions": 4.0,
+          "rushYards": 116.0,
           "rushTD": 2.0
         },
         "participationComplete": true,
@@ -422,16 +422,47 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 37.0,
+            "passYards": 237.0,
+            "passTD": 2.0,
+            "interceptions": 1.0,
+            "rushAttempts": 5.0,
+            "rushYards": 2.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 15.68,
           "nflTeam": "DEN",
           "nflOpponent": "CAR",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 6,
+                "name": "LOVE MEEEE",
+                "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
+              },
+              "slot": "QB",
+              "points": 15.68,
+              "nflTeam": "DEN",
+              "nflOpponent": "CAR"
+            }
+          ]
         },
         {
           "gameState": "bye",
@@ -545,6 +576,21 @@
       "ownership": [
         {
           "team": {
+            "teamId": 6,
+            "name": "LOVE MEEEE",
+            "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
+          },
+          "weeks": [
+            9
+          ],
+          "evidence": [
+            "current_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
             "teamId": 13,
             "name": "The Trenches PerryG",
             "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
@@ -566,7 +612,13 @@
           ]
         }
       ],
-      "rosterSnapshot": [],
+      "rosterSnapshot": [
+        {
+          "teamId": 6,
+          "name": "LOVE MEEEE",
+          "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
+        }
+      ],
       "rosterSnapshotLabel": "Current roster",
       "draft": [
         {
@@ -583,6 +635,20 @@
         }
       ],
       "transactions": [
+        {
+          "type": "waiver_add",
+          "timestamp": "2026-11-07T08:56:47.867000+00:00",
+          "timestampKind": "processed",
+          "week": 9,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 6,
+              "name": "LOVE MEEEE",
+              "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
+            }
+          ]
+        },
         {
           "type": "drop",
           "timestamp": "2026-11-05T21:02:21.004000+00:00",
@@ -2153,15 +2219,15 @@
     }
   ],
   "career": {
-    "weeks": 42,
-    "points": 737.16,
-    "average": 17.55,
+    "weeks": 43,
+    "points": 752.84,
+    "average": 17.51,
     "high": {
       "season": 2025,
       "week": 7,
       "points": 39.96
     },
-    "starts": 8,
-    "starterPoints": 126.14
+    "starts": 9,
+    "starterPoints": 141.82
   }
 }

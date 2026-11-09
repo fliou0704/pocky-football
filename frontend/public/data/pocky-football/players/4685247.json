@@ -22,7 +22,7 @@
       "team": "NYJ"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 99.6,
-        "average": 12.45,
+        "weeks": 9,
+        "points": 105.0,
+        "average": 11.67,
         "high": {
           "season": 2026,
           "week": 8,
@@ -71,11 +71,11 @@
         "points": 54.3,
         "fppg": 18.1,
         "nflStats": {
-          "rushAttempts": 112.0,
-          "rushYards": 565.0,
+          "rushAttempts": 120.0,
+          "rushYards": 598.0,
           "rushTD": 3.0,
-          "receptions": 17.0,
-          "recYards": 81.0,
+          "receptions": 19.0,
+          "recYards": 102.0,
           "recTD": 0
         },
         "participationComplete": true,
@@ -391,13 +391,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 8.0,
+            "rushYards": 33.0,
+            "rushTD": 0,
+            "receptions": 2.0,
+            "recYards": 21.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 5.4,
           "nflTeam": "NYJ",
           "nflOpponent": "KC",
           "rosters": [
@@ -407,10 +426,10 @@
                 "name": "Choose Olave",
                 "logo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg"
               },
-              "slot": "RB",
-              "points": null,
+              "slot": "BE",
+              "points": 5.4,
               "nflTeam": "NYJ",
-              "nflOpponent": null
+              "nflOpponent": "KC"
             }
           ]
         },
@@ -2033,9 +2052,9 @@
     }
   ],
   "career": {
-    "weeks": 42,
-    "points": 200.1,
-    "average": 4.76,
+    "weeks": 43,
+    "points": 205.5,
+    "average": 4.78,
     "high": {
       "season": 2026,
       "week": 8,

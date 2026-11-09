@@ -22,7 +22,7 @@
       "team": "LAC"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 62.2,
-        "average": 8.89,
+        "weeks": 8,
+        "points": 68.2,
+        "average": 8.53,
         "high": {
           "season": 2026,
           "week": 2,
@@ -71,8 +71,8 @@
         "points": 49.6,
         "fppg": 9.92,
         "nflStats": {
-          "rushAttempts": 89.0,
-          "rushYards": 309.0,
+          "rushAttempts": 102.0,
+          "rushYards": 369.0,
           "rushTD": 3.0,
           "receptions": 11.0,
           "recYards": 63.0,
@@ -408,13 +408,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 13.0,
+            "rushYards": 60.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 6.0,
           "nflTeam": "LAC",
           "nflOpponent": "HOU",
           "rosters": [
@@ -425,9 +444,9 @@
                 "logo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 6.0,
               "nflTeam": "LAC",
-              "nflOpponent": null
+              "nflOpponent": "HOU"
             }
           ]
         },
@@ -1431,9 +1450,9 @@
     }
   ],
   "career": {
-    "weeks": 24,
-    "points": 197.9,
-    "average": 8.25,
+    "weeks": 25,
+    "points": 203.9,
+    "average": 8.16,
     "high": {
       "season": 2025,
       "week": 4,

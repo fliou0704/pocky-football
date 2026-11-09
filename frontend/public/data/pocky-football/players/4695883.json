@@ -22,7 +22,7 @@
       "team": null
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,9 +47,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 79.4,
-        "average": 11.34,
+        "weeks": 8,
+        "points": 86.0,
+        "average": 10.75,
         "high": {
           "season": 2026,
           "week": 1,
@@ -63,10 +63,10 @@
         "points": 0,
         "fppg": null,
         "nflStats": {
-          "receptions": 27.0,
-          "recYards": 364.0,
+          "receptions": 31.0,
+          "recYards": 393.0,
           "recTD": 3.0,
-          "rushYards": 0
+          "rushYards": -3.0
         },
         "participationComplete": true,
         "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
@@ -398,13 +398,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 1.0,
+            "rushYards": -3.0,
+            "rushTD": 0,
+            "receptions": 4.0,
+            "recYards": 29.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 6.6,
           "nflTeam": "CAR",
           "nflOpponent": "DEN",
           "rosters": [
@@ -415,9 +434,9 @@
                 "logo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 6.6,
               "nflTeam": "CAR",
-              "nflOpponent": null
+              "nflOpponent": "DEN"
             }
           ]
         },
@@ -1220,9 +1239,9 @@
     }
   ],
   "career": {
-    "weeks": 24,
-    "points": 169.8,
-    "average": 7.07,
+    "weeks": 25,
+    "points": 176.4,
+    "average": 7.06,
     "high": {
       "season": 2026,
       "week": 1,

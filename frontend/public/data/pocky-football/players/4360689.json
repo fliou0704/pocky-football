@@ -22,7 +22,7 @@
       "team": "NO"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,9 +51,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 125.94,
-        "average": 17.99,
+        "weeks": 8,
+        "points": 145.64,
+        "average": 18.2,
         "high": {
           "season": 2026,
           "week": 6,
@@ -67,10 +67,10 @@
         "points": 39.74,
         "fppg": 19.87,
         "nflStats": {
-          "passYards": 1721.0,
-          "passTD": 13.0,
+          "passYards": 1986.0,
+          "passTD": 14.0,
           "interceptions": 6.0,
-          "rushYards": 111.0,
+          "rushYards": 162.0,
           "rushTD": 2.0
         },
         "participationComplete": true,
@@ -403,13 +403,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 35.0,
+            "passYards": 265.0,
+            "passTD": 1.0,
+            "interceptions": 0,
+            "rushAttempts": 10.0,
+            "rushYards": 51.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 19.7,
           "nflTeam": "NO",
           "nflOpponent": "CLE",
           "rosters": [
@@ -420,9 +439,9 @@
                 "logo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg"
               },
               "slot": "BE",
-              "points": null,
+              "points": 19.7,
               "nflTeam": "NO",
-              "nflOpponent": null
+              "nflOpponent": "CLE"
             }
           ]
         },
@@ -590,9 +609,9 @@
     }
   ],
   "career": {
-    "weeks": 7,
-    "points": 125.94,
-    "average": 17.99,
+    "weeks": 8,
+    "points": 145.64,
+    "average": 18.2,
     "high": {
       "season": 2026,
       "week": 6,

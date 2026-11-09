@@ -22,7 +22,7 @@
       "team": "CAR"
     }
   },
-  "metadataGeneratedAt": "2026-11-06T20:15:07.158379+00:00",
+  "metadataGeneratedAt": "2026-11-09T06:11:09.957621+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,9 +51,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 126.24,
-        "average": 18.03,
+        "weeks": 8,
+        "points": 146.58,
+        "average": 18.32,
         "high": {
           "season": 2026,
           "week": 1,
@@ -67,10 +67,10 @@
         "points": 70.72,
         "fppg": 14.14,
         "nflStats": {
-          "passYards": 1921.0,
-          "passTD": 13.0,
-          "interceptions": 5.0,
-          "rushYards": 34.0,
+          "passYards": 2197.0,
+          "passTD": 16.0,
+          "interceptions": 6.0,
+          "rushYards": 47.0,
           "rushTD": 1.0
         },
         "participationComplete": true,
@@ -391,28 +391,35 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 39.0,
+            "passYards": 276.0,
+            "passTD": 3.0,
+            "interceptions": 1.0,
+            "rushAttempts": 1.0,
+            "rushYards": 13.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 20.34,
           "nflTeam": "CAR",
           "nflOpponent": "DEN",
-          "rosters": [
-            {
-              "team": {
-                "teamId": 6,
-                "name": "LOVE MEEEE",
-                "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
-              },
-              "slot": "BE",
-              "points": null,
-              "nflTeam": "CAR",
-              "nflOpponent": null
-            }
-          ]
+          "rosters": []
         },
         {
           "gameState": "upcoming",
@@ -537,26 +544,32 @@
             5,
             6,
             7,
-            8,
-            9
+            8
           ],
           "evidence": [
-            "current_roster",
             "transaction",
             "weekly_roster"
           ]
         }
       ],
-      "rosterSnapshot": [
-        {
-          "teamId": 6,
-          "name": "LOVE MEEEE",
-          "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
-        }
-      ],
+      "rosterSnapshot": [],
       "rosterSnapshotLabel": "Current roster",
       "draft": [],
       "transactions": [
+        {
+          "type": "drop",
+          "timestamp": "2026-11-07T08:56:47.867000+00:00",
+          "timestampKind": "processed",
+          "week": 9,
+          "fromTeams": [
+            {
+              "teamId": 6,
+              "name": "LOVE MEEEE",
+              "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
+            }
+          ],
+          "toTeams": []
+        },
         {
           "type": "waiver_add",
           "timestamp": "2026-09-16T07:19:41.650000+00:00",
@@ -1280,9 +1293,9 @@
     }
   ],
   "career": {
-    "weeks": 24,
-    "points": 282.62,
-    "average": 11.78,
+    "weeks": 25,
+    "points": 302.96,
+    "average": 12.12,
     "high": {
       "season": 2026,
       "week": 1,

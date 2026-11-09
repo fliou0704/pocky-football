@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-06T20:15:07.158379+00:00",
+  "generatedAt": "2026-11-09T06:11:09.957621+00:00",
   "seasons": [
     2021,
     2022,
@@ -13,8 +13,8 @@
   "sources": {
     "nflverse": {
       "url": "https://github.com/nflverse/nflverse-data/releases/download/players/players.csv",
-      "sha256": "30376f8541621c9d58258b7e4e296345890e4d5dd4c8b3d4a72fbdcb3d1416a1",
-      "cachedAt": "2026-11-06T20:15:02.639319+00:00"
+      "sha256": "ef34907e6df321ab1de0acbe8228de0663edc376af3bc7286b88b54540260a9f",
+      "cachedAt": "2026-11-09T06:11:09.185764+00:00"
     }
   },
   "players": [
@@ -383,7 +383,6 @@
         "2026/activity.json",
         "2026/lineups/2.json",
         "2026/lineups/8.json",
-        "2026/lineups/9.json",
         "2026/teams.json"
       ],
       "position": "D/ST",
@@ -942,7 +941,8 @@
         2021,
         2022,
         2023,
-        2024
+        2024,
+        2026
       ],
       "observedIn": [
         "2021/activity.json",
@@ -963,7 +963,10 @@
         "2023/teams.json",
         "2024/activity.json",
         "2024/lineups/10.json",
-        "2024/teams.json"
+        "2024/teams.json",
+        "2026/activity.json",
+        "2026/lineups/9.json",
+        "2026/teams.json"
       ],
       "position": "D/ST",
       "nflTeam": "NYG",
@@ -9525,8 +9528,8 @@
       "weightPounds": 235,
       "birthDate": "1992-12-11",
       "college": "N.C. State; Florida",
-      "jerseyNumber": "7",
-      "nflTeam": "ARI",
+      "jerseyNumber": null,
+      "nflTeam": "BAL",
       "rookieSeason": 2016,
       "lastSeason": 2026,
       "ids": {
@@ -9550,7 +9553,6 @@
         "weightPounds": "nflverse",
         "birthDate": "nflverse",
         "college": "nflverse",
-        "jerseyNumber": "nflverse",
         "nflTeam": "nflverse",
         "rookieSeason": "nflverse",
         "lastSeason": "nflverse",
@@ -15343,7 +15345,8 @@
       "seasons": [
         2021,
         2022,
-        2024
+        2024,
+        2026
       ],
       "observedIn": [
         "2021/activity.json",
@@ -15390,7 +15393,10 @@
         "2024/lineups/10.json",
         "2024/lineups/11.json",
         "2024/lineups/4.json",
-        "2024/teams.json"
+        "2024/teams.json",
+        "2026/activity.json",
+        "2026/lineups/9.json",
+        "2026/teams.json"
       ],
       "match": {
         "method": "nflverse_espn_id",
@@ -25512,7 +25518,6 @@
         "2026/lineups/6.json",
         "2026/lineups/7.json",
         "2026/lineups/8.json",
-        "2026/lineups/9.json",
         "2026/teams.json"
       ],
       "match": {
@@ -26241,7 +26246,8 @@
         2021,
         2022,
         2023,
-        2024
+        2024,
+        2026
       ],
       "observedIn": [
         "2021/activity.json",
@@ -26313,7 +26319,10 @@
         "2024/lineups/7.json",
         "2024/lineups/8.json",
         "2024/lineups/9.json",
-        "2024/teams.json"
+        "2024/teams.json",
+        "2026/activity.json",
+        "2026/lineups/9.json",
+        "2026/teams.json"
       ],
       "match": {
         "method": "nflverse_espn_id",
@@ -37930,6 +37939,7 @@
         "2026/lineups/6.json",
         "2026/lineups/7.json",
         "2026/lineups/8.json",
+        "2026/lineups/9.json",
         "2026/teams.json"
       ],
       "match": {
@@ -40013,7 +40023,6 @@
         "2026/lineups/6.json",
         "2026/lineups/7.json",
         "2026/lineups/8.json",
-        "2026/lineups/9.json",
         "2026/teams.json"
       ],
       "match": {
@@ -47032,7 +47041,6 @@
         "2026/lineups/6.json",
         "2026/lineups/7.json",
         "2026/lineups/8.json",
-        "2026/lineups/9.json",
         "2026/teams.json"
       ],
       "match": {
@@ -49644,6 +49652,61 @@
         "team": "NYJ"
       },
       "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mnswulwto4yqkgmugoiq",
+      "headshotValidation": "valid",
+      "fieldSources": {
+        "name": "espn",
+        "position": "espn",
+        "positionGroup": "nflverse",
+        "heightInches": "nflverse",
+        "weightPounds": "nflverse",
+        "birthDate": "nflverse",
+        "college": "nflverse",
+        "jerseyNumber": "nflverse",
+        "nflTeam": "nflverse",
+        "rookieSeason": "nflverse",
+        "lastSeason": "nflverse",
+        "headshot": "nflverse"
+      }
+    },
+    {
+      "espnId": 5083754,
+      "entityType": "player",
+      "name": "Ryan Flournoy",
+      "seasons": [
+        2026
+      ],
+      "observedIn": [
+        "2026/activity.json",
+        "2026/lineups/9.json",
+        "2026/teams.json"
+      ],
+      "match": {
+        "method": "nflverse_espn_id",
+        "sleeperEspnIdMatch": false,
+        "nflverseIdCollision": false
+      },
+      "position": "WR",
+      "positionGroup": "WR",
+      "heightInches": 73,
+      "weightPounds": 205,
+      "birthDate": "1999-10-27",
+      "college": "Southeast Missouri State; Iowa Western CC",
+      "jerseyNumber": "19",
+      "nflTeam": "DAL",
+      "rookieSeason": 2024,
+      "lastSeason": 2026,
+      "ids": {
+        "gsis": "00-0039410",
+        "nfl": "57336",
+        "pfr": "FlouRy00"
+      },
+      "nflDraft": {
+        "year": 2024,
+        "round": 6,
+        "overallPick": 216,
+        "team": "DAL"
+      },
+      "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tqwq3cgpqu7j9hzoyicx",
       "headshotValidation": "valid",
       "fieldSources": {
         "name": "espn",

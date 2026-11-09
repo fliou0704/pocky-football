@@ -1,8 +1,8 @@
 {
-  "totalEntities": 547,
-  "humanPlayers": 515,
+  "totalEntities": 548,
+  "humanPlayers": 516,
   "teamDefenses": 32,
-  "nflverseMatches": 515,
+  "nflverseMatches": 516,
   "sleeperFallbackMatches": 0,
   "espnOnlyPlayers": 0,
   "unresolvedIdentityPlayers": [],
@@ -62,6 +62,12 @@
         "espnId": 16733,
         "name": "Odell Beckham Jr.",
         "position": "WR",
+        "lastSeason": 2026
+      },
+      {
+        "espnId": 2578570,
+        "name": "Jacoby Brissett",
+        "position": "QB",
         "lastSeason": 2026
       },
       {
@@ -883,44 +889,44 @@
   "sleeperIdCollisions": [],
   "coverage": {
     "headshot": {
-      "count": 515,
+      "count": 516,
       "percent": 100.0
     },
     "heightInches": {
-      "count": 515,
+      "count": 516,
       "percent": 100.0
     },
     "weightPounds": {
-      "count": 515,
+      "count": 516,
       "percent": 100.0
     },
     "birthDate": {
-      "count": 515,
+      "count": 516,
       "percent": 100.0
     },
     "college": {
-      "count": 515,
+      "count": 516,
       "percent": 100.0
     },
     "position": {
-      "count": 515,
+      "count": 516,
       "percent": 100.0
     },
     "nflTeam": {
-      "count": 515,
+      "count": 516,
       "percent": 100.0
     },
     "jerseyNumber": {
       "count": 457,
-      "percent": 88.74
+      "percent": 88.57
     },
     "nflDraftAny": {
-      "count": 430,
-      "percent": 83.5
+      "count": 431,
+      "percent": 83.53
     },
     "nflDraftComplete": {
-      "count": 430,
-      "percent": 83.5
+      "count": 431,
+      "percent": 83.53
     }
   },
   "imageChecks": {
@@ -1319,6 +1325,7 @@
     "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tpls1aptxx9x8xaqvjtj": "valid",
     "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tqdctdun0bv60d5ziwtl": "valid",
     "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tqp08nwo3jmhbu7al0ey": "valid",
+    "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tqwq3cgpqu7j9hzoyicx": "valid",
     "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/trqs4qje1ctnwxs9shwd": "valid",
     "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tt4zrtxlhifaljhj0rn7": "valid",
     "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ttifog0hjxprlhkagugu": "valid",
@@ -1441,12 +1448,12 @@
     "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zwlil5uar0xasdbf6frm": "valid"
   },
   "schemaVersion": 1,
-  "generatedAt": "2026-11-06T20:15:07.158379+00:00",
+  "generatedAt": "2026-11-09T06:11:09.957621+00:00",
   "sources": {
     "nflverse": {
       "url": "https://github.com/nflverse/nflverse-data/releases/download/players/players.csv",
-      "sha256": "30376f8541621c9d58258b7e4e296345890e4d5dd4c8b3d4a72fbdcb3d1416a1",
-      "cachedAt": "2026-11-06T20:15:02.639319+00:00"
+      "sha256": "ef34907e6df321ab1de0acbe8228de0663edc376af3bc7286b88b54540260a9f",
+      "cachedAt": "2026-11-09T06:11:09.185764+00:00"
     }
   },
   "universeFiles": [
