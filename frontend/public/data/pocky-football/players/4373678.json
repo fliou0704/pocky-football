@@ -22,7 +22,7 @@
       "team": "BUF"
     }
   },
-  "metadataGeneratedAt": "2026-11-09T23:16:42.914730+00:00",
+  "metadataGeneratedAt": "2026-11-10T05:31:10.496791+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,9 +47,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 66.4,
-        "average": 9.49,
+        "weeks": 8,
+        "points": 76.2,
+        "average": 9.53,
         "high": {
           "season": 2026,
           "week": 6,
@@ -63,8 +63,8 @@
         "points": 0,
         "fppg": null,
         "nflStats": {
-          "receptions": 27.0,
-          "recYards": 354.0,
+          "receptions": 31.0,
+          "recYards": 412.0,
           "recTD": 1.0,
           "rushYards": 0
         },
@@ -398,13 +398,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 4.0,
+            "recYards": 58.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 9.8,
           "nflTeam": "BUF",
           "nflOpponent": "MIN",
           "rosters": [
@@ -415,9 +434,9 @@
                 "logo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 9.8,
               "nflTeam": "BUF",
-              "nflOpponent": null
+              "nflOpponent": "MIN"
             }
           ]
         },
@@ -2860,9 +2879,9 @@
     }
   ],
   "career": {
-    "weeks": 58,
-    "points": 449.4,
-    "average": 7.75,
+    "weeks": 59,
+    "points": 459.2,
+    "average": 7.78,
     "high": {
       "season": 2024,
       "week": 14,

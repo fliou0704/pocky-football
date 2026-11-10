@@ -22,7 +22,7 @@
       "team": "GB"
     }
   },
-  "metadataGeneratedAt": "2026-11-09T23:16:42.914730+00:00",
+  "metadataGeneratedAt": "2026-11-10T05:31:10.496791+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 7,
-        "points": 79.8,
-        "average": 11.4,
+        "weeks": 8,
+        "points": 82.9,
+        "average": 10.36,
         "high": {
           "season": 2026,
           "week": 5,
@@ -71,11 +71,11 @@
         "points": 39.1,
         "fppg": 13.03,
         "nflStats": {
-          "rushAttempts": 110.0,
-          "rushYards": 458.0,
+          "rushAttempts": 115.0,
+          "rushYards": 474.0,
           "rushTD": 2.0,
-          "receptions": 15.0,
-          "recYards": 90.0,
+          "receptions": 16.0,
+          "recYards": 95.0,
           "recTD": 0
         },
         "participationComplete": true,
@@ -408,13 +408,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 5.0,
+            "rushYards": 16.0,
+            "rushTD": 0,
+            "receptions": 1.0,
+            "recYards": 5.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 9,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 3.1,
           "nflTeam": "MIN",
           "nflOpponent": "BUF",
           "rosters": [
@@ -425,9 +444,9 @@
                 "logo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg"
               },
               "slot": "BE",
-              "points": null,
+              "points": 3.1,
               "nflTeam": "MIN",
-              "nflOpponent": null
+              "nflOpponent": "BUF"
             }
           ]
         },
@@ -4775,9 +4794,9 @@
     }
   ],
   "career": {
-    "weeks": 92,
-    "points": 1052.6,
-    "average": 11.44,
+    "weeks": 93,
+    "points": 1055.7,
+    "average": 11.35,
     "high": {
       "season": 2021,
       "week": 2,
