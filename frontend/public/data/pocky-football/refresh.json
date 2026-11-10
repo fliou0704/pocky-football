@@ -1,13 +1,15 @@
 {
   "schemaVersion": 1,
-  "lastSuccessfulEspnFetchAt": "2026-11-09T23:16:51.811184+00:00",
+  "mode": "live",
+  "baseGenerationId": "85eb6728476f17853054d0ea5520bd0a2093807aa8c0d0df0c49e217d4a07c50",
+  "lastSuccessfulEspnFetchAt": "2026-11-10T00:15:38.508116+00:00",
   "season": 2026,
   "latestMatchupPeriod": 9,
   "lastCompletedWeek": 8,
-  "generationId": "85eb6728476f17853054d0ea5520bd0a2093807aa8c0d0df0c49e217d4a07c50",
+  "generationId": "1d38eac4cfa0a33a18a7cc6c15ecb230a4e5d59b0ff4d0fce9064d99f11c7b7c",
   "producedChanges": true,
-  "sourceRevision": "a612ef5db598c6fdd299eef0be8b3a830439e633",
-  "runId": "42719031853",
+  "sourceRevision": "a4bf41c64d2cf81869af9b70a91e5f50ecfffe66",
+  "runId": "42726866960",
   "dataHashes": {
     "pocky-football/2021/activity.json": "e151564904b4e31cf7068cb79849cfae8ae621d42be634e62e97a4bbdf3fdcd3",
     "pocky-football/2021/draft.json": "59467c151fc9a05dec1d2347e4d85ec00aec16d0a86118a47a9b362b9fe72c53",
@@ -753,7 +755,8 @@
     "pocky-football/players.json": "537d88f54437567ce445958bd9d8f28ad17bb129ddd5e4e63467ae3410258d8d",
     "pocky-football/record-book.json": "2c1023cdfd1ab524ba6e8d6713447e7a1a90d216ce9c2131fdc4390e8ec0fb0a",
     "pocky-football/team-logos.json": "cc739331acf89f5f671343ed725c25c1b1a536e8e59660e4a93875f9b0c929e7",
-    "site.json": "8e52dac1702cf152d547d8cc8a53823e6b4a1f93043b3681ae1295b407ce2bf4"
+    "site.json": "8e52dac1702cf152d547d8cc8a53823e6b4a1f93043b3681ae1295b407ce2bf4",
+    "pocky-football/live.json": "1e4a692d7a14af661c85b2456ee41174952eb04f19f6b13d2d51e276d9f3652d"
   },
   "assetHashes": {
     "pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp": "0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5",
@@ -799,5 +802,5 @@
     "pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp": "fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3",
     "pocky-football/team-logos/ff5bc13f2cd80a1a738fe3c4be4b9611967a0f556300460c1f44ffa34a7fc6bb.svg": "ff5bc13f2cd80a1a738fe3c4be4b9611967a0f556300460c1f44ffa34a7fc6bb"
   },
-  "mode": "full"
+  "liveContentHash": "58d5172c83796f9763f34e26687c6614779fd3493f537729f39455c40ddefcb5"
 }
