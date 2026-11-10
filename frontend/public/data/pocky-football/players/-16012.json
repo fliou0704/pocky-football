@@ -8,7 +8,7 @@
     "nflTeam": "KC",
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png"
   },
-  "metadataGeneratedAt": "2026-11-10T05:31:10.496791+00:00",
+  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -49,9 +49,9 @@
         "starterPoints": 50.0
       },
       "seasonStats": {
-        "gp": 7,
-        "points": 38.0,
-        "fppg": 5.43,
+        "gp": 8,
+        "points": 50.0,
+        "fppg": 6.25,
         "nflStats": {
           "sacks": 14.0,
           "defInterceptions": 6.0,
@@ -400,7 +400,7 @@
           },
           "season": 2026,
           "week": 9,
-          "fantasyStatus": "live",
+          "fantasyStatus": "final",
           "status": "final",
           "points": 12.0,
           "nflTeam": "KC",
@@ -429,7 +429,19 @@
           "points": null,
           "nflTeam": "KC",
           "nflOpponent": "ATL",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp"
+              },
+              "slot": "D/ST",
+              "points": null,
+              "nflTeam": "KC",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -543,7 +555,8 @@
             6,
             7,
             8,
-            9
+            9,
+            10
           ],
           "evidence": [
             "current_roster",

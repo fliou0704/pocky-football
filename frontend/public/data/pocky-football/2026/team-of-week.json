@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "algorithmVersion": 2,
   "season": 2026,
-  "sourceHash": "fbf90e254315571cbd39fecdae3c17d14a73e0f703c3fabda6f61d5a8b0deb70",
+  "sourceHash": "360afee3c7afdf312da7e710e53459d5bc13c8ffabf202d2479796f01d2fc976",
   "weeks": {
     "1": {
       "totalPoints": 273.56,
@@ -1069,6 +1069,139 @@
       "status": "available",
       "playerCount": 627,
       "excludedUnscoredPlayers": 24,
+      "pool": "Players with reliable recorded actual weekly scores, including benches and unrostered players."
+    },
+    "9": {
+      "totalPoints": 260.88,
+      "lineup": [
+        {
+          "playerId": 4036378,
+          "name": "Jordan Love",
+          "slot": "QB",
+          "nflTeam": "GB",
+          "position": "QB",
+          "points": 36.18,
+          "nflOpponent": "NE",
+          "teamId": 16,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/thz8stjkbjwddxqnozi5",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4567048,
+          "name": "Kenneth Walker III",
+          "slot": "RB",
+          "nflTeam": "KC",
+          "position": "RB",
+          "points": 36.3,
+          "nflOpponent": "NYJ",
+          "teamId": 2,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vk6nruaqdewdglofcwwg",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4596448,
+          "name": "Bucky Irving",
+          "slot": "RB",
+          "nflTeam": "TB",
+          "position": "RB",
+          "points": 28.5,
+          "nflOpponent": "CHI",
+          "teamId": 2,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vkc00rvnix3f2b96vkwo",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4241389,
+          "name": "CeeDee Lamb",
+          "slot": "WR",
+          "nflTeam": "DAL",
+          "position": "WR",
+          "points": 33.5,
+          "nflOpponent": "IND",
+          "teamId": 16,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mbblzwtynxr15ovzkevi",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4426515,
+          "name": "Puka Nacua",
+          "slot": "WR",
+          "nflTeam": "LAR",
+          "position": "WR",
+          "points": 35.0,
+          "nflOpponent": "WSH",
+          "teamId": 5,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ipy6qw7hdygdfc8k86ba",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 2576925,
+          "name": "Darren Waller",
+          "position": "TE",
+          "nflTeam": "CAR",
+          "points": 23.0,
+          "teamId": null,
+          "slot": "TE",
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/t0advoaoix6fvhu6zs5e",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": 4701936,
+          "name": "Matthew Golden",
+          "slot": "FLEX",
+          "nflTeam": "GB",
+          "position": "WR",
+          "points": 32.4,
+          "nflOpponent": "NE",
+          "teamId": 16,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dbjki6b0swksr7mk17wk",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        },
+        {
+          "playerId": -16025,
+          "name": "49ers D/ST",
+          "position": "D/ST",
+          "nflTeam": "SF",
+          "points": 19.0,
+          "teamId": null,
+          "slot": "D/ST",
+          "headshot": null,
+          "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+          "entityType": "team_defense",
+          "hasProfile": true
+        },
+        {
+          "playerId": 2971573,
+          "name": "Ka'imi Fairbairn",
+          "slot": "K",
+          "nflTeam": "HOU",
+          "position": "K",
+          "points": 17.0,
+          "nflOpponent": "LAC",
+          "teamId": 11,
+          "headshot": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nbrs7doetqydf2rzhjjl",
+          "logo": null,
+          "entityType": "player",
+          "hasProfile": true
+        }
+      ],
+      "status": "available",
+      "playerCount": 688,
+      "excludedUnscoredPlayers": 8,
       "pool": "Players with reliable recorded actual weekly scores, including benches and unrostered players."
     }
   }

@@ -22,7 +22,7 @@
       "team": "MIN"
     }
   },
-  "metadataGeneratedAt": "2026-11-10T05:31:10.496791+00:00",
+  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -59,9 +59,9 @@
         "starterPoints": 95.2
       },
       "seasonStats": {
-        "gp": 6,
-        "points": 86.4,
-        "fppg": 14.4,
+        "gp": 7,
+        "points": 95.2,
+        "fppg": 13.6,
         "nflStats": {
           "receptions": 31.0,
           "recYards": 393.0,
@@ -421,7 +421,7 @@
           },
           "season": 2026,
           "week": 9,
-          "fantasyStatus": "live",
+          "fantasyStatus": "final",
           "status": "final",
           "points": 8.8,
           "nflTeam": "MIN",
@@ -450,7 +450,19 @@
           "points": null,
           "nflTeam": "MIN",
           "nflOpponent": "GB",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
+              },
+              "slot": "WR",
+              "points": null,
+              "nflTeam": "MIN",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -565,7 +577,8 @@
             6,
             7,
             8,
-            9
+            9,
+            10
           ],
           "evidence": [
             "current_roster",

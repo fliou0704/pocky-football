@@ -3,58 +3,57 @@
   "season": 2026,
   "allPlay": {
     "1": {
-      "wins": 35,
-      "losses": 37,
+      "wins": 41,
+      "losses": 40,
       "ties": 0
     },
     "2": {
-      "wins": 46,
+      "wins": 55,
       "losses": 26,
       "ties": 0
     },
     "3": {
       "wins": 27,
-      "losses": 45,
+      "losses": 54,
       "ties": 0
     },
     "5": {
-      "wins": 31,
-      "losses": 41,
+      "wins": 39,
+      "losses": 42,
       "ties": 0
     },
     "6": {
-      "wins": 43,
-      "losses": 29,
-      "ties": 0
-    },
-    "11": {
-      "wins": 47,
-      "losses": 25,
-      "ties": 0
-    },
-    "12": {
-      "wins": 23,
-      "losses": 49,
-      "ties": 0
-    },
-    "13": {
-      "wins": 37,
+      "wins": 46,
       "losses": 35,
       "ties": 0
     },
+    "11": {
+      "wins": 49,
+      "losses": 32,
+      "ties": 0
+    },
+    "12": {
+      "wins": 24,
+      "losses": 57,
+      "ties": 0
+    },
+    "13": {
+      "wins": 44,
+      "losses": 37,
+      "ties": 0
+    },
     "15": {
-      "wins": 45,
-      "losses": 27,
+      "wins": 50,
+      "losses": 31,
       "ties": 0
     },
     "16": {
-      "wins": 26,
-      "losses": 46,
+      "wins": 30,
+      "losses": 51,
       "ties": 0
     }
   },
   "excludedAllPlayWeeks": [
-    9,
     10,
     11,
     12,
@@ -1301,6 +1300,153 @@
         }
       ],
       "stories": []
+    },
+    "9": {
+      "week": 9,
+      "phase": "regular",
+      "topTeam": {
+        "teamId": 2,
+        "points": 149.84,
+        "rank": 1
+      },
+      "leaderboard": [
+        {
+          "teamId": 2,
+          "points": 149.84,
+          "rank": 1
+        },
+        {
+          "teamId": 5,
+          "points": 147.22,
+          "rank": 2
+        },
+        {
+          "teamId": 13,
+          "points": 144.08,
+          "rank": 3
+        },
+        {
+          "teamId": 1,
+          "points": 122.76,
+          "rank": 4
+        },
+        {
+          "teamId": 15,
+          "points": 119.1,
+          "rank": 5
+        },
+        {
+          "teamId": 16,
+          "points": 114.38,
+          "rank": 6
+        },
+        {
+          "teamId": 6,
+          "points": 110.08,
+          "rank": 7
+        },
+        {
+          "teamId": 11,
+          "points": 103.36,
+          "rank": 8
+        },
+        {
+          "teamId": 12,
+          "points": 96.46,
+          "rank": 9
+        },
+        {
+          "teamId": 3,
+          "points": 93.56,
+          "rank": 10
+        }
+      ],
+      "topPlayers": [
+        {
+          "playerId": 4567048,
+          "name": "Kenneth Walker III",
+          "slot": "RB",
+          "nflTeam": "KC",
+          "position": "RB",
+          "points": 36.3,
+          "nflOpponent": "NYJ",
+          "teamId": 2,
+          "bench": false
+        },
+        {
+          "playerId": 4036378,
+          "name": "Jordan Love",
+          "slot": "QB",
+          "nflTeam": "GB",
+          "position": "QB",
+          "points": 36.18,
+          "nflOpponent": "NE",
+          "teamId": 16,
+          "bench": false
+        },
+        {
+          "playerId": 4432577,
+          "name": "C.J. Stroud",
+          "slot": "QB",
+          "nflTeam": "HOU",
+          "position": "QB",
+          "points": 35.36,
+          "nflOpponent": "LAC",
+          "teamId": 1,
+          "bench": false
+        },
+        {
+          "playerId": 4426515,
+          "name": "Puka Nacua",
+          "slot": "WR",
+          "nflTeam": "LAR",
+          "position": "WR",
+          "points": 35.0,
+          "nflOpponent": "WSH",
+          "teamId": 5,
+          "bench": false
+        },
+        {
+          "playerId": 4241389,
+          "name": "CeeDee Lamb",
+          "slot": "FLEX",
+          "nflTeam": "DAL",
+          "position": "WR",
+          "points": 33.5,
+          "nflOpponent": "IND",
+          "teamId": 16,
+          "bench": false
+        }
+      ],
+      "awards": [
+        {
+          "id": "2026-9-3-15",
+          "match": {
+            "week": 9,
+            "homeTeamId": 3,
+            "awayTeamId": 15,
+            "homeScore": 93.56,
+            "awayScore": 119.1,
+            "status": "final",
+            "winnerTeamId": 15,
+            "bracket": "regular",
+            "phase": "regular",
+            "roundLabel": null,
+            "isPlayoff": false,
+            "isBye": false
+          },
+          "labels": [
+            "Closest Matchup"
+          ]
+        }
+      ],
+      "stories": [
+        {
+          "teamId": 15,
+          "kind": "streak",
+          "count": 3
+        }
+      ]
     }
   },
   "previews": {
@@ -1312,11 +1458,7 @@
     "6": {},
     "7": {},
     "8": {},
-    "9": {
-      "2026-9-2-6": [
-        "Rivalry Tied 3–3"
-      ]
-    },
+    "9": {},
     "10": {
       "2026-10-2-11": [
         "Rivalry Tied 5–5"

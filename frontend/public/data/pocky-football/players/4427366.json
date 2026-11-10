@@ -22,7 +22,7 @@
       "team": "NYJ"
     }
   },
-  "metadataGeneratedAt": "2026-11-10T05:31:10.496791+00:00",
+  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -67,9 +67,9 @@
         "starterPoints": 54.2
       },
       "seasonStats": {
-        "gp": 4,
-        "points": 42.5,
-        "fppg": 10.62,
+        "gp": 5,
+        "points": 54.2,
+        "fppg": 10.84,
         "nflStats": {
           "rushAttempts": 66.0,
           "rushYards": 224.0,
@@ -450,7 +450,7 @@
           },
           "season": 2026,
           "week": 9,
-          "fantasyStatus": "live",
+          "fantasyStatus": "final",
           "status": "final",
           "points": 11.7,
           "nflTeam": "NYJ",
@@ -479,7 +479,19 @@
           "points": null,
           "nflTeam": "NYJ",
           "nflOpponent": "BUF",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
+              },
+              "slot": "RB",
+              "points": null,
+              "nflTeam": "NYJ",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -594,7 +606,8 @@
             6,
             7,
             8,
-            9
+            9,
+            10
           ],
           "evidence": [
             "current_roster",

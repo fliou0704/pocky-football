@@ -22,7 +22,7 @@
       "team": "TB"
     }
   },
-  "metadataGeneratedAt": "2026-11-10T05:31:10.496791+00:00",
+  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -67,9 +67,9 @@
         "starterPoints": 6.9
       },
       "seasonStats": {
-        "gp": 0,
-        "points": 0,
-        "fppg": null,
+        "gp": 1,
+        "points": 6.9,
+        "fppg": 6.9,
         "nflStats": {
           "rushAttempts": 54.0,
           "rushYards": 228.0,
@@ -431,7 +431,7 @@
           },
           "season": 2026,
           "week": 9,
-          "fantasyStatus": "live",
+          "fantasyStatus": "final",
           "status": "final",
           "points": 6.9,
           "nflTeam": "WSH",
@@ -460,7 +460,19 @@
           "points": null,
           "nflTeam": "WSH",
           "nflOpponent": "NYG",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp"
+              },
+              "slot": "FLEX",
+              "points": null,
+              "nflTeam": "WSH",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -589,7 +601,8 @@
             6,
             7,
             8,
-            9
+            9,
+            10
           ],
           "evidence": [
             "current_roster",

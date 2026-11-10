@@ -22,7 +22,7 @@
       "team": "LA"
     }
   },
-  "metadataGeneratedAt": "2026-11-10T05:31:10.496791+00:00",
+  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -378,7 +378,7 @@
           },
           "season": 2026,
           "week": 9,
-          "fantasyStatus": "live",
+          "fantasyStatus": "final",
           "status": "final",
           "points": 5.3,
           "nflTeam": "DET",
@@ -407,7 +407,19 @@
           "points": null,
           "nflTeam": "DET",
           "nflOpponent": "NE",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "DET",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -545,7 +557,8 @@
           "weeks": [
             7,
             8,
-            9
+            9,
+            10
           ],
           "evidence": [
             "current_roster",

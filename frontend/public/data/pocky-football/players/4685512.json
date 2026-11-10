@@ -22,7 +22,7 @@
       "team": "SEA"
     }
   },
-  "metadataGeneratedAt": "2026-11-10T05:31:10.496791+00:00",
+  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -450,7 +450,7 @@
           },
           "season": 2026,
           "week": 9,
-          "fantasyStatus": "live",
+          "fantasyStatus": "final",
           "status": "final",
           "points": 11.8,
           "nflTeam": "SEA",
@@ -479,7 +479,19 @@
           "points": null,
           "nflTeam": "SEA",
           "nflOpponent": "LV",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
+              },
+              "slot": "BE",
+              "points": null,
+              "nflTeam": "SEA",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "bye",
@@ -594,7 +606,8 @@
             6,
             7,
             8,
-            9
+            9,
+            10
           ],
           "evidence": [
             "current_roster",

@@ -22,7 +22,7 @@
       "team": "IND"
     }
   },
-  "metadataGeneratedAt": "2026-11-10T05:31:10.496791+00:00",
+  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -67,9 +67,9 @@
         "starterPoints": 153.6
       },
       "seasonStats": {
-        "gp": 8,
-        "points": 144.2,
-        "fppg": 18.02,
+        "gp": 9,
+        "points": 153.6,
+        "fppg": 17.07,
         "nflStats": {
           "rushAttempts": 161.0,
           "rushYards": 656.0,
@@ -450,7 +450,7 @@
           },
           "season": 2026,
           "week": 9,
-          "fantasyStatus": "live",
+          "fantasyStatus": "final",
           "status": "final",
           "points": 9.4,
           "nflTeam": "IND",
@@ -479,7 +479,19 @@
           "points": null,
           "nflTeam": "IND",
           "nflOpponent": "MIA",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 3,
+                "name": "Good Christians Hate Sinners",
+                "logo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp"
+              },
+              "slot": "RB",
+              "points": null,
+              "nflTeam": "IND",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -594,7 +606,8 @@
             6,
             7,
             8,
-            9
+            9,
+            10
           ],
           "evidence": [
             "current_roster",

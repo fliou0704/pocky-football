@@ -22,7 +22,7 @@
       "team": "DET"
     }
   },
-  "metadataGeneratedAt": "2026-11-10T05:31:10.496791+00:00",
+  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -59,9 +59,9 @@
         "starterPoints": 13.5
       },
       "seasonStats": {
-        "gp": 1,
-        "points": 8.5,
-        "fppg": 8.5,
+        "gp": 2,
+        "points": 13.5,
+        "fppg": 6.75,
         "nflStats": {
           "receptions": 28.0,
           "recYards": 468.0,
@@ -421,7 +421,7 @@
           },
           "season": 2026,
           "week": 9,
-          "fantasyStatus": "live",
+          "fantasyStatus": "final",
           "status": "final",
           "points": 5.0,
           "nflTeam": "DET",
@@ -450,7 +450,19 @@
           "points": null,
           "nflTeam": "DET",
           "nflOpponent": "NE",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 12,
+                "name": "semanto gay and kissed allen ",
+                "logo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp"
+              },
+              "slot": "WR",
+              "points": null,
+              "nflTeam": "DET",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -565,7 +577,8 @@
             6,
             7,
             8,
-            9
+            9,
+            10
           ],
           "evidence": [
             "current_roster",

@@ -22,7 +22,7 @@
       "team": "CLE"
     }
   },
-  "metadataGeneratedAt": "2026-11-10T05:31:10.496791+00:00",
+  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -67,9 +67,9 @@
         "starterPoints": 92.1
       },
       "seasonStats": {
-        "gp": 8,
-        "points": 86.6,
-        "fppg": 10.82,
+        "gp": 9,
+        "points": 92.1,
+        "fppg": 10.23,
         "nflStats": {
           "rushAttempts": 116.0,
           "rushYards": 385.0,
@@ -450,7 +450,7 @@
           },
           "season": 2026,
           "week": 9,
-          "fantasyStatus": "live",
+          "fantasyStatus": "final",
           "status": "final",
           "points": 5.5,
           "nflTeam": "CLE",
@@ -479,7 +479,19 @@
           "points": null,
           "nflTeam": "CLE",
           "nflOpponent": "HOU",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 13,
+                "name": "The Trenches PerryG",
+                "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
+              },
+              "slot": "RB",
+              "points": null,
+              "nflTeam": "CLE",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "bye",
@@ -594,7 +606,8 @@
             6,
             7,
             8,
-            9
+            9,
+            10
           ],
           "evidence": [
             "current_roster",

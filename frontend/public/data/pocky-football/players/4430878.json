@@ -22,7 +22,7 @@
       "team": "SEA"
     }
   },
-  "metadataGeneratedAt": "2026-11-10T05:31:10.496791+00:00",
+  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -59,9 +59,9 @@
         "starterPoints": 232.06
       },
       "seasonStats": {
-        "gp": 8,
-        "points": 219.96,
-        "fppg": 27.5,
+        "gp": 9,
+        "points": 232.06,
+        "fppg": 25.78,
         "nflStats": {
           "receptions": 71.0,
           "recYards": 1036.0,
@@ -440,7 +440,7 @@
           },
           "season": 2026,
           "week": 9,
-          "fantasyStatus": "live",
+          "fantasyStatus": "final",
           "status": "final",
           "points": 12.1,
           "nflTeam": "SEA",
@@ -469,7 +469,19 @@
           "points": null,
           "nflTeam": "SEA",
           "nflOpponent": "LV",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 2,
+                "name": "Juwan's Team",
+                "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
+              },
+              "slot": "WR",
+              "points": null,
+              "nflTeam": "SEA",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "bye",
@@ -584,7 +596,8 @@
             6,
             7,
             8,
-            9
+            9,
+            10
           ],
           "evidence": [
             "current_roster",

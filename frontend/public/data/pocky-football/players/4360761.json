@@ -22,7 +22,7 @@
       "team": "ARI"
     }
   },
-  "metadataGeneratedAt": "2026-11-10T05:31:10.496791+00:00",
+  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -59,9 +59,9 @@
         "starterPoints": 80.38
       },
       "seasonStats": {
-        "gp": 5,
-        "points": 68.38,
-        "fppg": 13.68,
+        "gp": 6,
+        "points": 80.38,
+        "fppg": 13.4,
         "nflStats": {
           "receptions": 51.0,
           "recYards": 546.0,
@@ -440,7 +440,7 @@
           },
           "season": 2026,
           "week": 9,
-          "fantasyStatus": "live",
+          "fantasyStatus": "final",
           "status": "final",
           "points": 12.0,
           "nflTeam": "ARI",
@@ -469,7 +469,19 @@
           "points": null,
           "nflTeam": "ARI",
           "nflOpponent": "LAR",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
+              },
+              "slot": "FLEX",
+              "points": null,
+              "nflTeam": "ARI",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -584,7 +596,8 @@
             6,
             7,
             8,
-            9
+            9,
+            10
           ],
           "evidence": [
             "current_roster",

@@ -22,7 +22,7 @@
       "team": "DET"
     }
   },
-  "metadataGeneratedAt": "2026-11-10T05:31:10.496791+00:00",
+  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -63,9 +63,9 @@
         "starterPoints": 142.86
       },
       "seasonStats": {
-        "gp": 8,
-        "points": 131.64,
-        "fppg": 16.45,
+        "gp": 9,
+        "points": 142.86,
+        "fppg": 15.87,
         "nflStats": {
           "passYards": 2374.0,
           "passTD": 16.0,
@@ -445,7 +445,7 @@
           },
           "season": 2026,
           "week": 9,
-          "fantasyStatus": "live",
+          "fantasyStatus": "final",
           "status": "final",
           "points": 11.22,
           "nflTeam": "LAR",
@@ -474,7 +474,19 @@
           "points": null,
           "nflTeam": "LAR",
           "nflOpponent": "ARI",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "The Concep",
+                "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
+              },
+              "slot": "QB",
+              "points": null,
+              "nflTeam": "LAR",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "bye",
@@ -589,7 +601,8 @@
             6,
             7,
             8,
-            9
+            9,
+            10
           ],
           "evidence": [
             "current_roster",

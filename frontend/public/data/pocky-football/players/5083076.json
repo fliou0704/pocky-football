@@ -22,7 +22,7 @@
       "team": "CLE"
     }
   },
-  "metadataGeneratedAt": "2026-11-10T05:31:10.496791+00:00",
+  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
         "starterPoints": 29.9
       },
       "seasonStats": {
-        "gp": 3,
-        "points": 17.7,
-        "fppg": 5.9,
+        "gp": 4,
+        "points": 29.9,
+        "fppg": 7.47,
         "nflStats": {
           "receptions": 37.0,
           "recYards": 453.0,
@@ -435,7 +435,7 @@
           },
           "season": 2026,
           "week": 9,
-          "fantasyStatus": "live",
+          "fantasyStatus": "final",
           "status": "final",
           "points": 12.2,
           "nflTeam": "CLE",
@@ -464,7 +464,19 @@
           "points": null,
           "nflTeam": "CLE",
           "nflOpponent": "HOU",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 11,
+                "name": "Choose Olave",
+                "logo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg"
+              },
+              "slot": "FLEX",
+              "points": null,
+              "nflTeam": "CLE",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "bye",
@@ -579,7 +591,8 @@
             6,
             7,
             8,
-            9
+            9,
+            10
           ],
           "evidence": [
             "current_roster",

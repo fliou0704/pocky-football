@@ -22,7 +22,7 @@
       "team": "HOU"
     }
   },
-  "metadataGeneratedAt": "2026-11-10T05:31:10.496791+00:00",
+  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -63,9 +63,9 @@
         "starterPoints": 51.88
       },
       "seasonStats": {
-        "gp": 1,
-        "points": 16.52,
-        "fppg": 16.52,
+        "gp": 2,
+        "points": 51.88,
+        "fppg": 25.94,
         "nflStats": {
           "passYards": 2251.0,
           "passTD": 16.0,
@@ -354,7 +354,7 @@
           },
           "season": 2026,
           "week": 9,
-          "fantasyStatus": "live",
+          "fantasyStatus": "final",
           "status": "final",
           "points": 35.36,
           "nflTeam": "HOU",
@@ -383,7 +383,19 @@
           "points": null,
           "nflTeam": "HOU",
           "nflOpponent": "CLE",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
+              },
+              "slot": "QB",
+              "points": null,
+              "nflTeam": "HOU",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -492,7 +504,8 @@
           "weeks": [
             7,
             8,
-            9
+            9,
+            10
           ],
           "evidence": [
             "current_roster",

@@ -441,12 +441,34 @@
       "teamAId": 13,
       "teamBId": 16,
       "summary": {
-        "wins": 28,
+        "wins": 29,
         "losses": 36,
         "ties": 0,
-        "total": 64
+        "total": 65
       },
       "rows": [
+        {
+          "season": 2026,
+          "week": 9,
+          "teamAId": 13,
+          "teamBId": 16,
+          "teamA": {
+            "teamId": 13,
+            "name": "The Trenches PerryG",
+            "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
+          },
+          "teamB": {
+            "teamId": 16,
+            "name": "Eat the Booty Like Groceries",
+            "logo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp"
+          },
+          "teamAScore": 144.08,
+          "teamBScore": 114.38,
+          "result": "W",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": false
+        },
         {
           "season": 2026,
           "week": 8,
@@ -1865,10 +1887,10 @@
       ],
       "seasonSummaries": {
         "2026": {
-          "wins": 6,
+          "wins": 7,
           "losses": 2,
           "ties": 0,
-          "total": 8
+          "total": 9
         },
         "2025": {
           "wins": 5,
@@ -1901,11 +1923,33 @@
       "teamBId": 13,
       "summary": {
         "wins": 36,
-        "losses": 28,
+        "losses": 29,
         "ties": 0,
-        "total": 64
+        "total": 65
       },
       "rows": [
+        {
+          "season": 2026,
+          "week": 9,
+          "teamAId": 16,
+          "teamBId": 13,
+          "teamA": {
+            "teamId": 16,
+            "name": "Eat the Booty Like Groceries",
+            "logo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp"
+          },
+          "teamB": {
+            "teamId": 13,
+            "name": "The Trenches PerryG",
+            "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
+          },
+          "teamAScore": 114.38,
+          "teamBScore": 144.08,
+          "result": "L",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": false
+        },
         {
           "season": 2026,
           "week": 8,
@@ -3325,9 +3369,9 @@
       "seasonSummaries": {
         "2026": {
           "wins": 2,
-          "losses": 6,
+          "losses": 7,
           "ties": 0,
-          "total": 8
+          "total": 9
         },
         "2025": {
           "wins": 9,

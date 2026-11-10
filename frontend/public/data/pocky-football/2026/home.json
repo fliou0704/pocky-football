@@ -3,118 +3,118 @@
   "season": 2026,
   "state": {
     "phase": "regular",
-    "currentWeek": 9,
-    "lastCompletedWeek": 8,
+    "currentWeek": 10,
+    "lastCompletedWeek": 9,
     "regularSeasonWeeks": 14
   },
   "currentMatchups": [
     {
-      "week": 9,
-      "homeTeamId": 2,
-      "awayTeamId": 6,
-      "homeScore": 149.84,
-      "awayScore": 110.08,
-      "status": "live",
+      "week": 10,
+      "homeTeamId": 11,
+      "awayTeamId": 2,
+      "homeScore": 0.0,
+      "awayScore": 0.0,
+      "status": "upcoming",
       "bracket": "regular",
       "winnerTeamId": null
     },
     {
-      "week": 9,
-      "homeTeamId": 1,
+      "week": 10,
+      "homeTeamId": 6,
+      "awayTeamId": 1,
+      "homeScore": 0.0,
+      "awayScore": 0.0,
+      "status": "upcoming",
+      "bracket": "regular",
+      "winnerTeamId": null
+    },
+    {
+      "week": 10,
+      "homeTeamId": 15,
       "awayTeamId": 12,
-      "homeScore": 122.76,
-      "awayScore": 96.46,
-      "status": "live",
+      "homeScore": 0.0,
+      "awayScore": 0.0,
+      "status": "upcoming",
       "bracket": "regular",
       "winnerTeamId": null
     },
     {
-      "week": 9,
-      "homeTeamId": 3,
-      "awayTeamId": 15,
-      "homeScore": 93.56,
-      "awayScore": 119.1,
-      "status": "live",
+      "week": 10,
+      "homeTeamId": 16,
+      "awayTeamId": 3,
+      "homeScore": 0.0,
+      "awayScore": 0.0,
+      "status": "upcoming",
       "bracket": "regular",
       "winnerTeamId": null
     },
     {
-      "week": 9,
+      "week": 10,
       "homeTeamId": 5,
-      "awayTeamId": 16,
-      "homeScore": 147.22,
-      "awayScore": 114.38,
-      "status": "live",
-      "bracket": "regular",
-      "winnerTeamId": null
-    },
-    {
-      "week": 9,
-      "homeTeamId": 13,
-      "awayTeamId": 11,
-      "homeScore": 144.08,
-      "awayScore": 103.36,
-      "status": "live",
+      "awayTeamId": 13,
+      "homeScore": 0.0,
+      "awayScore": 0.0,
+      "status": "upcoming",
       "bracket": "regular",
       "winnerTeamId": null
     }
   ],
   "recap": {
-    "week": 8,
+    "week": 9,
     "phase": "regular",
     "topTeam": {
       "teamId": 2,
-      "points": 174.18
+      "points": 149.84
     },
     "closestMatchup": {
-      "week": 8,
+      "week": 9,
       "homeTeamId": 3,
-      "awayTeamId": 1,
-      "homeScore": 97.66,
-      "awayScore": 108.1,
+      "awayTeamId": 15,
+      "homeScore": 93.56,
+      "awayScore": 119.1,
       "status": "final",
       "bracket": "regular",
-      "winnerTeamId": 1
+      "winnerTeamId": 15
     },
     "topPlayers": [
       {
-        "playerId": 3915511,
-        "name": "Joe Burrow",
+        "playerId": 4567048,
+        "name": "Kenneth Walker III",
         "teamId": 2,
-        "points": 39.48,
+        "points": 36.3,
+        "slot": "RB",
+        "bench": false
+      },
+      {
+        "playerId": 4036378,
+        "name": "Jordan Love",
+        "teamId": 16,
+        "points": 36.18,
         "slot": "QB",
         "bench": false
       },
       {
-        "playerId": 4239993,
-        "name": "Tee Higgins",
-        "teamId": 15,
-        "points": 37.5,
-        "slot": "WR",
+        "playerId": 4432577,
+        "name": "C.J. Stroud",
+        "teamId": 1,
+        "points": 35.36,
+        "slot": "QB",
         "bench": false
       },
       {
-        "playerId": 4373626,
-        "name": "Tyler Allgeier",
+        "playerId": 4426515,
+        "name": "Puka Nacua",
         "teamId": 5,
-        "points": 36.1,
-        "slot": "BE",
-        "bench": true
-      },
-      {
-        "playerId": 4362628,
-        "name": "Ja'Marr Chase",
-        "teamId": 13,
-        "points": 31.1,
+        "points": 35.0,
         "slot": "WR",
         "bench": false
       },
       {
-        "playerId": 4882093,
-        "name": "Bhayshul Tuten",
+        "playerId": 4241389,
+        "name": "CeeDee Lamb",
         "teamId": 16,
-        "points": 29.9,
-        "slot": "RB",
+        "points": 33.5,
+        "slot": "RB/WR/TE",
         "bench": false
       }
     ],

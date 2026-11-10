@@ -574,11 +574,33 @@
       "teamBId": 16,
       "summary": {
         "wins": 31,
-        "losses": 33,
+        "losses": 34,
         "ties": 0,
-        "total": 64
+        "total": 65
       },
       "rows": [
+        {
+          "season": 2026,
+          "week": 9,
+          "teamAId": 12,
+          "teamBId": 16,
+          "teamA": {
+            "teamId": 12,
+            "name": "semanto gay and kissed allen ",
+            "logo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp"
+          },
+          "teamB": {
+            "teamId": 16,
+            "name": "Eat the Booty Like Groceries",
+            "logo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp"
+          },
+          "teamAScore": 96.46,
+          "teamBScore": 114.38,
+          "result": "L",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": false
+        },
         {
           "season": 2026,
           "week": 8,
@@ -1998,9 +2020,9 @@
       "seasonSummaries": {
         "2026": {
           "wins": 2,
-          "losses": 6,
+          "losses": 7,
           "ties": 0,
-          "total": 8
+          "total": 9
         },
         "2025": {
           "wins": 7,
@@ -2032,12 +2054,34 @@
       "teamAId": 16,
       "teamBId": 12,
       "summary": {
-        "wins": 33,
+        "wins": 34,
         "losses": 31,
         "ties": 0,
-        "total": 64
+        "total": 65
       },
       "rows": [
+        {
+          "season": 2026,
+          "week": 9,
+          "teamAId": 16,
+          "teamBId": 12,
+          "teamA": {
+            "teamId": 16,
+            "name": "Eat the Booty Like Groceries",
+            "logo": "data/pocky-football/team-logos/7c30cee5c1a542353bcca998355a4b3d438014231f6543b7e11b8783f2acca91.webp"
+          },
+          "teamB": {
+            "teamId": 12,
+            "name": "semanto gay and kissed allen ",
+            "logo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp"
+          },
+          "teamAScore": 114.38,
+          "teamBScore": 96.46,
+          "result": "W",
+          "isPlayoff": false,
+          "roundLabel": null,
+          "actualMeeting": false
+        },
         {
           "season": 2026,
           "week": 8,
@@ -3456,10 +3500,10 @@
       ],
       "seasonSummaries": {
         "2026": {
-          "wins": 6,
+          "wins": 7,
           "losses": 2,
           "ties": 0,
-          "total": 8
+          "total": 9
         },
         "2025": {
           "wins": 7,

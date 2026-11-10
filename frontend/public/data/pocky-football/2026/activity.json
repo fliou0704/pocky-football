@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "season": 2026,
-  "generatedAt": "2026-11-10T05:31:02.881531+00:00",
+  "generatedAt": "2026-11-10T20:42:34.457661+00:00",
   "coverage": {
     "complete": true,
     "status": "independently_verified_counts",
@@ -12,7 +12,7 @@
       "mTeam.transactionCounter"
     ],
     "cardOnlyTradeExplanation": "Period feed acceptance placeholders have no executed status/items and distinct source IDs; executed playercard transfers supply the movement.",
-    "queriedThroughPeriod": 9,
+    "queriedThroughPeriod": 10,
     "requestedPeriods": [
       0,
       1,
@@ -24,7 +24,8 @@
       7,
       8,
       9,
-      10
+      10,
+      11
     ],
     "successfulPeriods": [
       0,
@@ -37,7 +38,8 @@
       7,
       8,
       9,
-      10
+      10,
+      11
     ],
     "failedPeriods": [],
     "sourceSweepCompleted": true,
@@ -49,19 +51,19 @@
     "missingPlayerCount": 0,
     "failedCardPlayerCount": 0,
     "unknownPlayerNames": 0,
-    "sourceEventCount": 568,
+    "sourceEventCount": 569,
     "sourceUniqueCounts": {
-      "period": 568,
+      "period": 569,
       "playercard": 266
     },
-    "sourceAppearances": 976,
-    "repeatedSourceIdAppearancesMerged": 408,
+    "sourceAppearances": 897,
+    "repeatedSourceIdAppearancesMerged": 328,
     "overlappingSourceIds": 266,
     "playercardOnlyExecutedCounts": {},
     "executedPayloadConflictCount": 0,
     "excludedSourceCounts": {
       "FUTURE_ROSTER:EXECUTED": 36,
-      "ROSTER:EXECUTED": 245,
+      "ROSTER:EXECUTED": 246,
       "TRADE_DECLINE:EXECUTED": 3,
       "TRADE_PROPOSAL:CANCELED": 1,
       "WAIVER:FAILED_INVALIDPLAYERSOURCE": 3,
@@ -264,7 +266,7 @@
       "activityAssignments": 160
     },
     "lineupWindows": {
-      "rosterEntriesChecked": 1492,
+      "rosterEntriesChecked": 1660,
       "weeksChecked": [
         1,
         2,
@@ -274,7 +276,8 @@
         6,
         7,
         8,
-        9
+        9,
+        10
       ],
       "anomalies": [],
       "scope": "Player ownership anywhere within scoring period; precise historical snapshot timestamps are unavailable."
