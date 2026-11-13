@@ -22,7 +22,7 @@
       "team": "TB"
     }
   },
-  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
+  "metadataGeneratedAt": "2026-11-13T05:21:15.003585+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 69.7,
-        "average": 8.71,
+        "weeks": 9,
+        "points": 75.9,
+        "average": 8.43,
         "high": {
           "season": 2026,
           "week": 6,
@@ -71,11 +71,11 @@
         "points": 6.9,
         "fppg": 6.9,
         "nflStats": {
-          "rushAttempts": 54.0,
-          "rushYards": 228.0,
+          "rushAttempts": 65.0,
+          "rushYards": 275.0,
           "rushTD": 1.0,
-          "receptions": 18.0,
-          "recYards": 129.0,
+          "receptions": 19.0,
+          "recYards": 134.0,
           "recTD": 2.0
         },
         "participationComplete": true,
@@ -451,13 +451,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 11.0,
+            "rushYards": 47.0,
+            "rushTD": 0,
+            "receptions": 1.0,
+            "recYards": 5.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "live",
+          "status": "final",
+          "points": 6.2,
           "nflTeam": "WSH",
           "nflOpponent": "NYG",
           "rosters": [
@@ -467,10 +486,10 @@
                 "name": "semanto gay and kissed allen ",
                 "logo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp"
               },
-              "slot": "FLEX",
-              "points": null,
+              "slot": "BE",
+              "points": 6.2,
               "nflTeam": "WSH",
-              "nflOpponent": null
+              "nflOpponent": "NYG"
             }
           ]
         },
@@ -4061,9 +4080,9 @@
     }
   ],
   "career": {
-    "weeks": 76,
-    "points": 819.3,
-    "average": 10.78,
+    "weeks": 77,
+    "points": 825.5,
+    "average": 10.72,
     "high": {
       "season": 2024,
       "week": 7,

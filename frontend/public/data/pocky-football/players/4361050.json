@@ -22,7 +22,7 @@
       "team": "BAL"
     }
   },
-  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
+  "metadataGeneratedAt": "2026-11-13T05:21:15.003585+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -43,25 +43,25 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 128.8,
-        "average": 16.1,
+        "weeks": 9,
+        "points": 156.5,
+        "average": 17.39,
         "high": {
           "season": 2026,
           "week": 5,
           "points": 32.4
         },
-        "starts": 4,
-        "starterPoints": 73.1
+        "starts": 5,
+        "starterPoints": 100.8
       },
       "seasonStats": {
         "gp": 4,
         "points": 73.1,
         "fppg": 18.27,
         "nflStats": {
-          "receptions": 46.0,
-          "recYards": 448.0,
-          "recTD": 6.0
+          "receptions": 55.0,
+          "recYards": 575.0,
+          "recTD": 7.0
         },
         "participationComplete": true,
         "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
@@ -436,13 +436,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 9.0,
+            "recYards": 127.0,
+            "recTD": 1.0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "live",
+          "status": "final",
+          "points": 27.7,
           "nflTeam": "NYG",
           "nflOpponent": "WSH",
           "rosters": [
@@ -452,10 +471,10 @@
                 "name": "The Trenches PerryG",
                 "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
               },
-              "slot": "BE",
-              "points": null,
+              "slot": "FLEX",
+              "points": 27.7,
               "nflTeam": "NYG",
-              "nflOpponent": null
+              "nflOpponent": "WSH"
             }
           ]
         },
@@ -2723,15 +2742,15 @@
     }
   ],
   "career": {
-    "weeks": 59,
-    "points": 444.9,
-    "average": 7.54,
+    "weeks": 60,
+    "points": 472.6,
+    "average": 7.88,
     "high": {
       "season": 2026,
       "week": 5,
       "points": 32.4
     },
-    "starts": 8,
-    "starterPoints": 98.2
+    "starts": 9,
+    "starterPoints": 125.9
   }
 }

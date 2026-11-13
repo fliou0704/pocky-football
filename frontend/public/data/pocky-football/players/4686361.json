@@ -22,7 +22,7 @@
       "team": "JAX"
     }
   },
-  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
+  "metadataGeneratedAt": "2026-11-13T05:21:15.003585+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -404,12 +404,24 @@
           "nflStats": {},
           "season": 2026,
           "week": 10,
-          "fantasyStatus": "upcoming",
+          "fantasyStatus": "live",
           "status": "upcoming",
           "points": null,
           "nflTeam": "JAX",
           "nflOpponent": "TEN",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 15,
+                "name": "Gibb me dak",
+                "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
+              },
+              "slot": "K",
+              "points": null,
+              "nflTeam": "JAX",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -528,9 +540,30 @@
             "transaction",
             "weekly_roster"
           ]
+        },
+        {
+          "team": {
+            "teamId": 15,
+            "name": "Gibb me dak",
+            "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
+          },
+          "weeks": [
+            10
+          ],
+          "evidence": [
+            "current_roster",
+            "transaction",
+            "weekly_roster"
+          ]
         }
       ],
-      "rosterSnapshot": [],
+      "rosterSnapshot": [
+        {
+          "teamId": 15,
+          "name": "Gibb me dak",
+          "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
+        }
+      ],
       "rosterSnapshotLabel": "Current roster",
       "draft": [
         {
@@ -547,6 +580,20 @@
         }
       ],
       "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2026-11-11T18:56:42.481000+00:00",
+          "timestampKind": "proposed",
+          "week": 10,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 15,
+              "name": "Gibb me dak",
+              "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
+            }
+          ]
+        },
         {
           "type": "drop",
           "timestamp": "2026-10-21T07:17:30.831000+00:00",

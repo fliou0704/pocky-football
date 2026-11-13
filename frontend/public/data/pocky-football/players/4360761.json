@@ -22,7 +22,7 @@
       "team": "ARI"
     }
   },
-  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
+  "metadataGeneratedAt": "2026-11-13T05:21:15.003585+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -464,24 +464,12 @@
           "nflStats": {},
           "season": 2026,
           "week": 10,
-          "fantasyStatus": "upcoming",
+          "fantasyStatus": "live",
           "status": "upcoming",
           "points": null,
           "nflTeam": "ARI",
           "nflOpponent": "LAR",
-          "rosters": [
-            {
-              "team": {
-                "teamId": 1,
-                "name": "Brian's Original Fried Haddock",
-                "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
-              },
-              "slot": "FLEX",
-              "points": null,
-              "nflTeam": "ARI",
-              "nflOpponent": null
-            }
-          ]
+          "rosters": []
         },
         {
           "gameState": "upcoming",
@@ -596,23 +584,16 @@
             6,
             7,
             8,
-            9,
-            10
+            9
           ],
           "evidence": [
-            "current_roster",
             "draft",
+            "transaction",
             "weekly_roster"
           ]
         }
       ],
-      "rosterSnapshot": [
-        {
-          "teamId": 1,
-          "name": "Brian's Original Fried Haddock",
-          "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
-        }
-      ],
+      "rosterSnapshot": [],
       "rosterSnapshotLabel": "Current roster",
       "draft": [
         {
@@ -628,7 +609,22 @@
           "keeper": false
         }
       ],
-      "transactions": [],
+      "transactions": [
+        {
+          "type": "drop",
+          "timestamp": "2026-11-11T19:39:44.785000+00:00",
+          "timestampKind": "proposed",
+          "week": 10,
+          "fromTeams": [
+            {
+              "teamId": 1,
+              "name": "Brian's Original Fried Haddock",
+              "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
+            }
+          ],
+          "toTeams": []
+        }
+      ],
       "activityCoverage": {
         "status": "independently_verified_counts",
         "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."

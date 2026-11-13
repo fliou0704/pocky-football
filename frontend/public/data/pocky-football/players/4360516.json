@@ -22,7 +22,7 @@
       "team": "NYG"
     }
   },
-  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
+  "metadataGeneratedAt": "2026-11-13T05:21:15.003585+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
+        "weeks": 9,
         "points": 31.9,
-        "average": 3.99,
+        "average": 3.54,
         "high": {
           "season": 2026,
           "week": 6,
@@ -355,13 +355,32 @@
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 10,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "live",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "NYG",
           "nflOpponent": "WSH",
           "rosters": []
@@ -2128,9 +2147,9 @@
     }
   ],
   "career": {
-    "weeks": 42,
+    "weeks": 43,
     "points": 375.0,
-    "average": 8.93,
+    "average": 8.72,
     "high": {
       "season": 2025,
       "week": 18,

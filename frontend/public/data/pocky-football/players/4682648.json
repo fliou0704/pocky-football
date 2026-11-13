@@ -22,7 +22,7 @@
       "team": "NYG"
     }
   },
-  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
+  "metadataGeneratedAt": "2026-11-13T05:21:15.003585+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,9 +47,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 53.8,
-        "average": 6.72,
+        "weeks": 9,
+        "points": 63.0,
+        "average": 7.0,
         "high": {
           "season": 2026,
           "week": 4,
@@ -63,8 +63,8 @@
         "points": 0,
         "fppg": null,
         "nflStats": {
-          "receptions": 19.0,
-          "recYards": 288.0,
+          "receptions": 22.0,
+          "recYards": 350.0,
           "recTD": 1.0,
           "rushYards": 0
         },
@@ -369,13 +369,32 @@
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 3.0,
+            "recYards": 62.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "live",
+          "status": "final",
+          "points": 9.2,
           "nflTeam": "NYG",
           "nflOpponent": "WSH",
           "rosters": []
@@ -535,9 +554,9 @@
     }
   ],
   "career": {
-    "weeks": 8,
-    "points": 53.8,
-    "average": 6.72,
+    "weeks": 9,
+    "points": 63.0,
+    "average": 7.0,
     "high": {
       "season": 2026,
       "week": 4,

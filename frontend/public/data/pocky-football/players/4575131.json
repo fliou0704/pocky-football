@@ -22,7 +22,7 @@
       "team": "WAS"
     }
   },
-  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
+  "metadataGeneratedAt": "2026-11-13T05:21:15.003585+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
+        "weeks": 9,
         "points": 44.9,
-        "average": 5.61,
+        "average": 4.99,
         "high": {
           "season": 2026,
           "week": 5,
@@ -451,13 +451,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 10,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "live",
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "WSH",
           "nflOpponent": "NYG",
           "rosters": [
@@ -468,9 +487,9 @@
                 "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
               },
               "slot": "IR",
-              "points": null,
+              "points": 0.0,
               "nflTeam": "WSH",
-              "nflOpponent": null
+              "nflOpponent": "NYG"
             }
           ]
         },
@@ -1433,9 +1452,9 @@
     }
   ],
   "career": {
-    "weeks": 25,
+    "weeks": 26,
     "points": 185.2,
-    "average": 7.41,
+    "average": 7.12,
     "high": {
       "season": 2025,
       "week": 5,

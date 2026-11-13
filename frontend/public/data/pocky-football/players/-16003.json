@@ -8,7 +8,7 @@
     "nflTeam": "CHI",
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png"
   },
-  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
+  "metadataGeneratedAt": "2026-11-13T05:21:15.003585+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -359,24 +359,12 @@
           "nflStats": {},
           "season": 2026,
           "week": 10,
-          "fantasyStatus": "upcoming",
+          "fantasyStatus": "live",
           "status": "upcoming",
           "points": null,
           "nflTeam": "CHI",
           "nflOpponent": null,
-          "rosters": [
-            {
-              "team": {
-                "teamId": 3,
-                "name": "Good Christians Hate Sinners",
-                "logo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp"
-              },
-              "slot": "D/ST",
-              "points": null,
-              "nflTeam": "CHI",
-              "nflOpponent": null
-            }
-          ]
+          "rosters": []
         },
         {
           "gameState": "upcoming",
@@ -483,26 +471,32 @@
             "logo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp"
           },
           "weeks": [
-            9,
-            10
+            9
           ],
           "evidence": [
-            "current_roster",
             "transaction",
             "weekly_roster"
           ]
         }
       ],
-      "rosterSnapshot": [
-        {
-          "teamId": 3,
-          "name": "Good Christians Hate Sinners",
-          "logo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp"
-        }
-      ],
+      "rosterSnapshot": [],
       "rosterSnapshotLabel": "Current roster",
       "draft": [],
       "transactions": [
+        {
+          "type": "drop",
+          "timestamp": "2026-11-12T15:02:51.151000+00:00",
+          "timestampKind": "proposed",
+          "week": 10,
+          "fromTeams": [
+            {
+              "teamId": 3,
+              "name": "Good Christians Hate Sinners",
+              "logo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp"
+            }
+          ],
+          "toTeams": []
+        },
         {
           "type": "waiver_add",
           "timestamp": "2026-11-04T08:13:22.957000+00:00",

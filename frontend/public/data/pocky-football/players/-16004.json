@@ -8,7 +8,7 @@
     "nflTeam": "CIN",
     "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png"
   },
-  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
+  "metadataGeneratedAt": "2026-11-13T05:21:15.003585+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -352,12 +352,24 @@
           "nflStats": {},
           "season": 2026,
           "week": 10,
-          "fantasyStatus": "upcoming",
+          "fantasyStatus": "live",
           "status": "upcoming",
           "points": null,
           "nflTeam": "CIN",
           "nflOpponent": "PIT",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 1,
+                "name": "Brian's Original Fried Haddock",
+                "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
+              },
+              "slot": "D/ST",
+              "points": null,
+              "nflTeam": "CIN",
+              "nflOpponent": null
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -464,9 +476,11 @@
             "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
           },
           "weeks": [
-            5
+            5,
+            10
           ],
           "evidence": [
+            "current_roster",
             "transaction",
             "weekly_roster"
           ]
@@ -486,10 +500,30 @@
           ]
         }
       ],
-      "rosterSnapshot": [],
+      "rosterSnapshot": [
+        {
+          "teamId": 1,
+          "name": "Brian's Original Fried Haddock",
+          "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
+        }
+      ],
       "rosterSnapshotLabel": "Current roster",
       "draft": [],
       "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2026-11-11T19:40:40.991000+00:00",
+          "timestampKind": "proposed",
+          "week": 10,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 1,
+              "name": "Brian's Original Fried Haddock",
+              "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
+            }
+          ]
+        },
         {
           "type": "drop",
           "timestamp": "2026-11-04T08:13:22.957000+00:00",

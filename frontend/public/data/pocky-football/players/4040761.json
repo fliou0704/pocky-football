@@ -22,7 +22,7 @@
       "team": "BUF"
     }
   },
-  "metadataGeneratedAt": "2026-11-10T20:42:40.904401+00:00",
+  "metadataGeneratedAt": "2026-11-13T05:21:15.003585+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,24 +55,24 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 39.4,
-        "average": 4.92,
+        "weeks": 9,
+        "points": 39.7,
+        "average": 4.41,
         "high": {
           "season": 2026,
           "week": 7,
           "points": 14.5
         },
-        "starts": 1,
-        "starterPoints": 5.9
+        "starts": 2,
+        "starterPoints": 6.2
       },
       "seasonStats": {
         "gp": 1,
         "points": 5.9,
         "fppg": 5.9,
         "nflStats": {
-          "rushAttempts": 39.0,
-          "rushYards": 111.0,
+          "rushAttempts": 40.0,
+          "rushYards": 114.0,
           "rushTD": 1.0,
           "receptions": 10.0,
           "recYards": 63.0,
@@ -355,13 +355,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 1.0,
+            "rushYards": 3.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
-          "fantasyStatus": "upcoming",
-          "status": "upcoming",
-          "points": null,
+          "fantasyStatus": "live",
+          "status": "final",
+          "points": 0.3,
           "nflTeam": "NYG",
           "nflOpponent": "WSH",
           "rosters": [
@@ -372,9 +391,9 @@
                 "logo": "data/pocky-football/team-logos/38167d4ce8f39daf2561a1c69d7ef150081b8e966ab4ebfb9dff6293fd26e598.svg"
               },
               "slot": "RB",
-              "points": null,
+              "points": 0.3,
               "nflTeam": "NYG",
-              "nflOpponent": null
+              "nflOpponent": "WSH"
             }
           ]
         },
@@ -3867,15 +3886,15 @@
     }
   ],
   "career": {
-    "weeks": 75,
-    "points": 679.04,
-    "average": 9.05,
+    "weeks": 76,
+    "points": 679.34,
+    "average": 8.94,
     "high": {
       "season": 2021,
       "week": 18,
       "points": 25.2
     },
-    "starts": 31,
-    "starterPoints": 359.5
+    "starts": 32,
+    "starterPoints": 359.8
   }
 }

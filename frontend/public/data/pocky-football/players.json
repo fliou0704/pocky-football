@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T20:42:40.904401+00:00",
+  "generatedAt": "2026-11-13T05:21:15.003585+00:00",
   "seasons": [
     2021,
     2022,
@@ -13,8 +13,8 @@
   "sources": {
     "nflverse": {
       "url": "https://github.com/nflverse/nflverse-data/releases/download/players/players.csv",
-      "sha256": "da58c285c9013d65bb517d687095e0970f3a4bb148bb81f6ed2aec2bf398b72e",
-      "cachedAt": "2026-11-10T20:42:40.283684+00:00"
+      "sha256": "f90a9d0009b8e5d50353b0013971b466534b25cc2f98b7ad14d39361356975d7",
+      "cachedAt": "2026-11-13T05:21:14.281694+00:00"
     }
   },
   "players": [
@@ -970,7 +970,6 @@
         "2024/lineups/10.json",
         "2024/teams.json",
         "2026/activity.json",
-        "2026/lineups/10.json",
         "2026/lineups/9.json",
         "2026/teams.json"
       ],
@@ -2120,6 +2119,7 @@
         "2024/lineups/7.json",
         "2024/teams.json",
         "2026/activity.json",
+        "2026/lineups/10.json",
         "2026/lineups/5.json",
         "2026/lineups/8.json",
         "2026/teams.json"
@@ -2166,7 +2166,6 @@
         "2022/teams.json",
         "2024/activity.json",
         "2026/activity.json",
-        "2026/lineups/10.json",
         "2026/lineups/9.json",
         "2026/teams.json"
       ],
@@ -2186,7 +2185,8 @@
         2022,
         2023,
         2024,
-        2025
+        2025,
+        2026
       ],
       "observedIn": [
         "2021/activity.json",
@@ -2266,7 +2266,10 @@
         "2025/activity.json",
         "2025/lineups/3.json",
         "2025/lineups/4.json",
-        "2025/teams.json"
+        "2025/teams.json",
+        "2026/activity.json",
+        "2026/lineups/10.json",
+        "2026/teams.json"
       ],
       "position": "D/ST",
       "nflTeam": "BUF",
@@ -4275,8 +4278,8 @@
       "weightPounds": 209,
       "birthDate": "1988-08-19",
       "college": "Michigan State",
-      "jerseyNumber": "8",
-      "nflTeam": "LV",
+      "jerseyNumber": null,
+      "nflTeam": "MIN",
       "rookieSeason": 2012,
       "lastSeason": 2026,
       "ids": {
@@ -4300,7 +4303,6 @@
         "weightPounds": "nflverse",
         "birthDate": "nflverse",
         "college": "nflverse",
-        "jerseyNumber": "nflverse",
         "nflTeam": "nflverse",
         "rookieSeason": "nflverse",
         "lastSeason": "nflverse",
@@ -5339,8 +5341,8 @@
       "weightPounds": 211,
       "birthDate": "1992-04-27",
       "college": "California",
-      "jerseyNumber": "10",
-      "nflTeam": "IND",
+      "jerseyNumber": null,
+      "nflTeam": "SF",
       "rookieSeason": 2013,
       "lastSeason": 2026,
       "ids": {
@@ -5364,7 +5366,6 @@
         "weightPounds": "nflverse",
         "birthDate": "nflverse",
         "college": "nflverse",
-        "jerseyNumber": "nflverse",
         "nflTeam": "nflverse",
         "rookieSeason": "nflverse",
         "lastSeason": "nflverse",
@@ -30542,7 +30543,6 @@
         "2026/activity.json",
         "2026/draft.json",
         "2026/lineups/1.json",
-        "2026/lineups/10.json",
         "2026/lineups/2.json",
         "2026/lineups/3.json",
         "2026/lineups/4.json",
@@ -33748,7 +33748,6 @@
         "2026/activity.json",
         "2026/draft.json",
         "2026/lineups/1.json",
-        "2026/lineups/10.json",
         "2026/lineups/2.json",
         "2026/lineups/3.json",
         "2026/lineups/4.json",
@@ -36938,7 +36937,7 @@
       "birthDate": "1999-11-23",
       "college": "Michigan",
       "jerseyNumber": null,
-      "nflTeam": "BAL",
+      "nflTeam": "ATL",
       "rookieSeason": 2023,
       "lastSeason": 2026,
       "ids": {
@@ -39130,7 +39129,8 @@
       "name": "DeMario Douglas",
       "seasons": [
         2023,
-        2024
+        2024,
+        2026
       ],
       "observedIn": [
         "2023/activity.json",
@@ -39143,7 +39143,10 @@
         "2024/lineups/1.json",
         "2024/lineups/2.json",
         "2024/lineups/7.json",
-        "2024/teams.json"
+        "2024/teams.json",
+        "2026/activity.json",
+        "2026/lineups/10.json",
+        "2026/teams.json"
       ],
       "match": {
         "method": "nflverse_espn_id",
@@ -44631,13 +44634,17 @@
       "entityType": "player",
       "name": "Audric Estime",
       "seasons": [
-        2024
+        2024,
+        2026
       ],
       "observedIn": [
         "2024/activity.json",
         "2024/lineups/11.json",
         "2024/lineups/12.json",
-        "2024/teams.json"
+        "2024/teams.json",
+        "2026/activity.json",
+        "2026/lineups/10.json",
+        "2026/teams.json"
       ],
       "match": {
         "method": "nflverse_espn_id",
@@ -45771,8 +45778,8 @@
       "weightPounds": 220,
       "birthDate": "2002-06-11",
       "college": "TCU",
-      "jerseyNumber": "5",
-      "nflTeam": "NO",
+      "jerseyNumber": null,
+      "nflTeam": "DAL",
       "rookieSeason": 2023,
       "lastSeason": 2026,
       "ids": {
@@ -45796,7 +45803,6 @@
         "weightPounds": "nflverse",
         "birthDate": "nflverse",
         "college": "nflverse",
-        "jerseyNumber": "nflverse",
         "nflTeam": "nflverse",
         "rookieSeason": "nflverse",
         "lastSeason": "nflverse",
@@ -47243,6 +47249,7 @@
         "2026/activity.json",
         "2026/draft.json",
         "2026/lineups/1.json",
+        "2026/lineups/10.json",
         "2026/lineups/2.json",
         "2026/lineups/3.json",
         "2026/lineups/4.json",
@@ -47435,8 +47442,8 @@
       "weightPounds": 171,
       "birthDate": "2001-08-12",
       "college": "North Carolina",
-      "jerseyNumber": "2",
-      "nflTeam": "IND",
+      "jerseyNumber": null,
+      "nflTeam": "KC",
       "rookieSeason": 2023,
       "lastSeason": 2026,
       "ids": {
@@ -47460,7 +47467,6 @@
         "weightPounds": "nflverse",
         "birthDate": "nflverse",
         "college": "nflverse",
-        "jerseyNumber": "nflverse",
         "nflTeam": "nflverse",
         "rookieSeason": "nflverse",
         "lastSeason": "nflverse",
