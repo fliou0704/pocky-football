@@ -82,9 +82,18 @@
     "teams": {
       "11": [
         {
+          "playerId": -16033,
+          "name": "Ravens D/ST",
+          "slot": "D/ST",
+          "position": "D/ST",
+          "nflTeam": "BAL",
+          "injuryStatus": null,
+          "points": 0.0
+        },
+        {
           "playerId": -16021,
           "name": "Eagles D/ST",
-          "slot": "D/ST",
+          "slot": "BE",
           "position": "D/ST",
           "nflTeam": "PHI",
           "injuryStatus": null,
@@ -124,15 +133,6 @@
           "position": "K",
           "nflTeam": "TB",
           "injuryStatus": "ACTIVE",
-          "points": 0.0
-        },
-        {
-          "playerId": 3917315,
-          "name": "Kyler Murray",
-          "slot": "BE",
-          "position": "QB",
-          "nflTeam": "MIN",
-          "injuryStatus": "OUT",
           "points": 0.0
         },
         {
@@ -780,7 +780,7 @@
           "position": "WR",
           "nflTeam": "NE",
           "injuryStatus": "ACTIVE",
-          "points": 0.0
+          "points": 1.6
         },
         {
           "playerId": 4239993,
@@ -834,7 +834,7 @@
           "position": "RB",
           "nflTeam": "NE",
           "injuryStatus": "ACTIVE",
-          "points": 1.4
+          "points": 1.5
         },
         {
           "playerId": 4686361,
@@ -1642,6 +1642,6 @@
     "pocky-football/2026/home.json": "6b4010742bd34fbfbdb1f8a3952e6592016f9eb7d3d699e2797b8204400154d8",
     "pocky-football/2026/teams.json": "48827507f128171af3b30fb4afbbfa924c54e9a5266e1ec173c6f0cb3a1d50ba"
   },
-  "snapshotId": "d3e9e53a287c6dd047900583e2a8997c1967634ac75c376a7693d126635cf037",
-  "fetchedAt": "2026-11-15T16:50:32.468388+00:00"
+  "snapshotId": "0d9c69a242c9b78ac5e0f3c0ded395f5800ef735cd746a3475d7536531a74f69",
+  "fetchedAt": "2026-11-15T16:55:33.264214+00:00"
 }
