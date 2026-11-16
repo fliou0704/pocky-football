@@ -22,7 +22,7 @@
       "team": "ATL"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,24 +47,24 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 9,
-        "points": 121.6,
-        "average": 13.51,
+        "weeks": 10,
+        "points": 138.5,
+        "average": 13.85,
         "high": {
           "season": 2026,
           "week": 3,
           "points": 28.4
         },
-        "starts": 9,
-        "starterPoints": 121.6
+        "starts": 10,
+        "starterPoints": 138.5
       },
       "seasonStats": {
         "gp": 9,
         "points": 121.6,
         "fppg": 13.51,
         "nflStats": {
-          "receptions": 44.0,
-          "recYards": 692.0,
+          "receptions": 50.0,
+          "recYards": 801.0,
           "recTD": 1.0,
           "rushYards": 4.0
         },
@@ -460,13 +460,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 6.0,
+            "recYards": 109.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 16.9,
           "nflTeam": "ATL",
           "nflOpponent": "KC",
           "rosters": [
@@ -477,9 +496,9 @@
                 "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
               },
               "slot": "WR",
-              "points": null,
+              "points": 16.9,
               "nflTeam": "ATL",
-              "nflOpponent": null
+              "nflOpponent": "KC"
             }
           ]
         },
@@ -3972,15 +3991,15 @@
     }
   ],
   "career": {
-    "weeks": 77,
-    "points": 957.28,
-    "average": 12.43,
+    "weeks": 78,
+    "points": 974.18,
+    "average": 12.49,
     "high": {
       "season": 2024,
       "week": 18,
       "points": 40.7
     },
-    "starts": 48,
-    "starterPoints": 658.3
+    "starts": 49,
+    "starterPoints": 675.2
   }
 }

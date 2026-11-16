@@ -22,7 +22,7 @@
       "team": "TEN"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,9 +47,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 9,
-        "points": 19.1,
-        "average": 2.12,
+        "weeks": 10,
+        "points": 23.8,
+        "average": 2.38,
         "high": {
           "season": 2026,
           "week": 7,
@@ -63,8 +63,8 @@
         "points": 19.1,
         "fppg": 6.37,
         "nflStats": {
-          "receptions": 9.0,
-          "recYards": 101.0,
+          "receptions": 11.0,
+          "recYards": 128.0,
           "recTD": 0,
           "rushYards": 0
         },
@@ -460,13 +460,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 2.0,
+            "recYards": 27.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 4.7,
           "nflTeam": "NE",
           "nflOpponent": "DET",
           "rosters": [
@@ -477,9 +496,9 @@
                 "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 4.7,
               "nflTeam": "NE",
-              "nflOpponent": null
+              "nflOpponent": "DET"
             }
           ]
         },
@@ -4839,9 +4858,9 @@
     }
   ],
   "career": {
-    "weeks": 94,
-    "points": 1226.4,
-    "average": 13.05,
+    "weeks": 95,
+    "points": 1231.1,
+    "average": 12.96,
     "high": {
       "season": 2022,
       "week": 8,

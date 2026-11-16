@@ -22,7 +22,7 @@
       "team": "LA"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,9 +51,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 147.36,
-        "average": 18.42,
+        "weeks": 9,
+        "points": 167.78,
+        "average": 18.64,
         "high": {
           "season": 2026,
           "week": 2,
@@ -67,10 +67,10 @@
         "points": 28.94,
         "fppg": 28.94,
         "nflStats": {
-          "passYards": 2134.0,
-          "passTD": 15.0,
-          "interceptions": 2.0,
-          "rushYards": 20.0,
+          "passYards": 2437.0,
+          "passTD": 18.0,
+          "interceptions": 4.0,
+          "rushYards": 23.0,
           "rushTD": 1.0
         },
         "participationComplete": true,
@@ -398,13 +398,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 31.0,
+            "passYards": 303.0,
+            "passTD": 3.0,
+            "interceptions": 2.0,
+            "rushAttempts": 1.0,
+            "rushYards": 3.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 20.42,
           "nflTeam": "DET",
           "nflOpponent": "NE",
           "rosters": [
@@ -415,9 +434,9 @@
                 "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 20.42,
               "nflTeam": "DET",
-              "nflOpponent": null
+              "nflOpponent": "NE"
             }
           ]
         },
@@ -3978,9 +3997,9 @@
     }
   ],
   "career": {
-    "weeks": 76,
-    "points": 1342.3,
-    "average": 17.66,
+    "weeks": 77,
+    "points": 1362.72,
+    "average": 17.7,
     "high": {
       "season": 2024,
       "week": 15,

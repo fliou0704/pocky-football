@@ -22,7 +22,7 @@
       "team": "DET"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -43,9 +43,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
+        "weeks": 9,
         "points": 85.8,
-        "average": 10.72,
+        "average": 9.53,
         "high": {
           "season": 2026,
           "week": 4,
@@ -364,13 +364,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "MIN",
           "nflOpponent": "GB",
           "rosters": [
@@ -380,10 +399,10 @@
                 "name": "Juwan's Team",
                 "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
               },
-              "slot": "TE",
-              "points": null,
+              "slot": "BE",
+              "points": 0.0,
               "nflTeam": "MIN",
-              "nflOpponent": null
+              "nflOpponent": "GB"
             }
           ]
         },
@@ -4742,9 +4761,9 @@
     }
   ],
   "career": {
-    "weeks": 93,
+    "weeks": 94,
     "points": 864.8,
-    "average": 9.3,
+    "average": 9.2,
     "high": {
       "season": 2022,
       "week": 4,

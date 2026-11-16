@@ -22,7 +22,7 @@
       "team": "GB"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 9,
-        "points": 51.8,
-        "average": 5.76,
+        "weeks": 10,
+        "points": 58.7,
+        "average": 5.87,
         "high": {
           "season": 2026,
           "week": 5,
@@ -71,11 +71,11 @@
         "points": 0,
         "fppg": null,
         "nflStats": {
-          "rushAttempts": 57.0,
-          "rushYards": 149.0,
+          "rushAttempts": 61.0,
+          "rushYards": 162.0,
           "rushTD": 2.0,
-          "receptions": 13.0,
-          "recYards": 79.0,
+          "receptions": 16.0,
+          "recYards": 105.0,
           "recTD": 1.0
         },
         "participationComplete": true,
@@ -458,13 +458,32 @@
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 4.0,
+            "rushYards": 13.0,
+            "rushTD": 0,
+            "receptions": 3.0,
+            "recYards": 26.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 6.9,
           "nflTeam": "GB",
           "nflOpponent": "MIN",
           "rosters": []
@@ -1266,9 +1285,9 @@
     }
   ],
   "career": {
-    "weeks": 26,
-    "points": 54.6,
-    "average": 2.1,
+    "weeks": 27,
+    "points": 61.5,
+    "average": 2.28,
     "high": {
       "season": 2026,
       "week": 5,

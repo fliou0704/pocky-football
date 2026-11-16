@@ -22,7 +22,7 @@
       "team": "WAS"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 54.4,
-        "average": 6.8,
+        "weeks": 9,
+        "points": 54.9,
+        "average": 6.1,
         "high": {
           "season": 2026,
           "week": 8,
@@ -71,8 +71,8 @@
         "points": 0,
         "fppg": null,
         "nflStats": {
-          "rushAttempts": 55.0,
-          "rushYards": 228.0,
+          "rushAttempts": 59.0,
+          "rushYards": 233.0,
           "rushTD": 4.0,
           "receptions": 4.0,
           "recYards": 36.0,
@@ -391,13 +391,32 @@
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 4.0,
+            "rushYards": 5.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 0.5,
           "nflTeam": "JAX",
           "nflOpponent": "TEN",
           "rosters": []
@@ -558,9 +577,9 @@
     }
   ],
   "career": {
-    "weeks": 8,
-    "points": 54.4,
-    "average": 6.8,
+    "weeks": 9,
+    "points": 54.9,
+    "average": 6.1,
     "high": {
       "season": 2026,
       "week": 8,

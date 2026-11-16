@@ -22,7 +22,7 @@
       "team": "IND"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,9 +47,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 9,
-        "points": 48.5,
-        "average": 5.39,
+        "weeks": 10,
+        "points": 57.4,
+        "average": 5.74,
         "high": {
           "season": 2026,
           "week": 8,
@@ -63,8 +63,8 @@
         "points": 0,
         "fppg": null,
         "nflStats": {
-          "receptions": 16.0,
-          "recYards": 265.0,
+          "receptions": 19.0,
+          "recYards": 324.0,
           "recTD": 1.0,
           "rushYards": 0
         },
@@ -364,13 +364,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 3.0,
+            "recYards": 59.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 8.9,
           "nflTeam": "NYJ",
           "nflOpponent": "BUF",
           "rosters": [
@@ -381,9 +400,9 @@
                 "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 8.9,
               "nflTeam": "NYJ",
-              "nflOpponent": null
+              "nflOpponent": "BUF"
             }
           ]
         },
@@ -1855,9 +1874,9 @@
     }
   ],
   "career": {
-    "weeks": 44,
-    "points": 190.16,
-    "average": 4.32,
+    "weeks": 45,
+    "points": 199.06,
+    "average": 4.42,
     "high": {
       "season": 2026,
       "week": 8,

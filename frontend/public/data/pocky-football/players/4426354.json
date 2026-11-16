@@ -22,7 +22,7 @@
       "team": "PIT"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,13 +47,13 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 9,
-        "points": 104.3,
-        "average": 11.59,
+        "weeks": 10,
+        "points": 147.8,
+        "average": 14.78,
         "high": {
           "season": 2026,
-          "week": 5,
-          "points": 28.0
+          "week": 10,
+          "points": 43.5
         },
         "starts": 8,
         "starterPoints": 104.3
@@ -63,9 +63,9 @@
         "points": 104.3,
         "fppg": 13.04,
         "nflStats": {
-          "receptions": 39.0,
-          "recYards": 533.0,
-          "recTD": 2.0,
+          "receptions": 50.0,
+          "recYards": 678.0,
+          "recTD": 5.0,
           "rushYards": 0
         },
         "participationComplete": true,
@@ -460,13 +460,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 11.0,
+            "recYards": 145.0,
+            "recTD": 3.0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 43.5,
           "nflTeam": "DAL",
           "nflOpponent": "SF",
           "rosters": [
@@ -476,10 +495,10 @@
                 "name": "semanto gay and kissed allen ",
                 "logo": "data/pocky-football/team-logos/0a20efde3717dcd8db96992a22e86aa980a352969235b575de6f86a7c3bd1de5.webp"
               },
-              "slot": "IR",
-              "points": null,
+              "slot": "BE",
+              "points": 43.5,
               "nflTeam": "DAL",
-              "nflOpponent": null
+              "nflOpponent": "SF"
             }
           ]
         },
@@ -4015,13 +4034,13 @@
     }
   ],
   "career": {
-    "weeks": 77,
-    "points": 935.9,
-    "average": 12.15,
+    "weeks": 78,
+    "points": 979.4,
+    "average": 12.56,
     "high": {
-      "season": 2023,
-      "week": 16,
-      "points": 35.5
+      "season": 2026,
+      "week": 10,
+      "points": 43.5
     },
     "starts": 52,
     "starterPoints": 726.0

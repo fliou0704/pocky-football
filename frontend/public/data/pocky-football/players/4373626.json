@@ -22,7 +22,7 @@
       "team": "ATL"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 9,
-        "points": 90.7,
-        "average": 10.08,
+        "weeks": 10,
+        "points": 92.1,
+        "average": 9.21,
         "high": {
           "season": 2026,
           "week": 8,
@@ -71,8 +71,8 @@
         "points": 0,
         "fppg": null,
         "nflStats": {
-          "rushAttempts": 89.0,
-          "rushYards": 369.0,
+          "rushAttempts": 94.0,
+          "rushYards": 383.0,
           "rushTD": 2.0,
           "receptions": 23.0,
           "recYards": 128.0,
@@ -422,13 +422,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 5.0,
+            "rushYards": 14.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 1.4,
           "nflTeam": "ARI",
           "nflOpponent": "LAR",
           "rosters": [
@@ -439,9 +458,9 @@
                 "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
               },
               "slot": "BE",
-              "points": null,
+              "points": 1.4,
               "nflTeam": "ARI",
-              "nflOpponent": null
+              "nflOpponent": "LAR"
             }
           ]
         },
@@ -3874,9 +3893,9 @@
     }
   ],
   "career": {
-    "weeks": 77,
-    "points": 616.9,
-    "average": 8.01,
+    "weeks": 78,
+    "points": 618.3,
+    "average": 7.93,
     "high": {
       "season": 2026,
       "week": 8,

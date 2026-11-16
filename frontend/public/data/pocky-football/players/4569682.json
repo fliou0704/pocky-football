@@ -22,7 +22,7 @@
       "team": "DEN"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 6,
-        "points": 22.6,
-        "average": 3.77,
+        "weeks": 7,
+        "points": 24.7,
+        "average": 3.53,
         "high": {
           "season": 2026,
           "week": 9,
@@ -71,11 +71,11 @@
         "points": 0,
         "fppg": null,
         "nflStats": {
-          "rushAttempts": 24.0,
-          "rushYards": 91.0,
+          "rushAttempts": 31.0,
+          "rushYards": 97.0,
           "rushTD": 2.0,
-          "receptions": 1.0,
-          "recYards": 5.0,
+          "receptions": 2.0,
+          "recYards": 10.0,
           "recTD": 0
         },
         "participationComplete": true,
@@ -305,13 +305,32 @@
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 7.0,
+            "rushYards": 6.0,
+            "rushTD": 0,
+            "receptions": 1.0,
+            "recYards": 5.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 2.1,
           "nflTeam": "NO",
           "nflOpponent": "CAR",
           "rosters": [
@@ -321,10 +340,10 @@
                 "name": "Brian's Original Fried Haddock",
                 "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
               },
-              "slot": "FLEX",
-              "points": null,
+              "slot": "BE",
+              "points": 2.1,
               "nflTeam": "NO",
-              "nflOpponent": null
+              "nflOpponent": "CAR"
             }
           ]
         },
@@ -1124,9 +1143,9 @@
     }
   ],
   "career": {
-    "weeks": 23,
-    "points": 71.3,
-    "average": 3.1,
+    "weeks": 24,
+    "points": 73.4,
+    "average": 3.06,
     "high": {
       "season": 2026,
       "week": 9,

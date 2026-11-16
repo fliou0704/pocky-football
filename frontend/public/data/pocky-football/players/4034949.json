@@ -22,7 +22,7 @@
       "team": null
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -43,9 +43,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 49.0,
-        "average": 6.12,
+        "weeks": 9,
+        "points": 57.0,
+        "average": 6.33,
         "high": {
           "season": 2026,
           "week": 1,
@@ -59,9 +59,9 @@
         "points": 15.0,
         "fppg": 7.5,
         "nflStats": {
-          "fgMade": 7.0,
-          "fgAttempts": 10.0,
-          "extraPoints": 26.0
+          "fgMade": 8.0,
+          "fgAttempts": 11.0,
+          "extraPoints": 31.0
         },
         "participationComplete": true,
         "scope": "Fantasy totals: completed active-slot starts; NFL stats: full regular season"
@@ -352,13 +352,32 @@
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 1.0,
+            "fgAttempts": 1.0,
+            "extraPoints": 5.0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 8.0,
           "nflTeam": "SF",
           "nflOpponent": "DAL",
           "rosters": []
@@ -1184,9 +1203,9 @@
     }
   ],
   "career": {
-    "weeks": 24,
-    "points": 188.0,
-    "average": 7.83,
+    "weeks": 25,
+    "points": 196.0,
+    "average": 7.84,
     "high": {
       "season": 2025,
       "week": 6,

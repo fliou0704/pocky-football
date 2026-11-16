@@ -22,7 +22,7 @@
       "team": "LA"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,27 +55,27 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 9,
-        "points": 94.6,
-        "average": 10.51,
+        "weeks": 10,
+        "points": 115.5,
+        "average": 11.55,
         "high": {
           "season": 2026,
-          "week": 7,
-          "points": 17.1
+          "week": 10,
+          "points": 20.9
         },
-        "starts": 2,
-        "starterPoints": 25.1
+        "starts": 3,
+        "starterPoints": 46.0
       },
       "seasonStats": {
         "gp": 2,
         "points": 25.1,
         "fppg": 12.55,
         "nflStats": {
-          "rushAttempts": 86.0,
-          "rushYards": 447.0,
-          "rushTD": 4.0,
-          "receptions": 10.0,
-          "recYards": 99.0,
+          "rushAttempts": 103.0,
+          "rushYards": 547.0,
+          "rushTD": 5.0,
+          "receptions": 13.0,
+          "recYards": 118.0,
           "recTD": 1.0
         },
         "participationComplete": true,
@@ -470,13 +470,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 17.0,
+            "rushYards": 100.0,
+            "rushTD": 1.0,
+            "receptions": 3.0,
+            "recYards": 19.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 20.9,
           "nflTeam": "LAR",
           "nflOpponent": "ARI",
           "rosters": [
@@ -487,9 +506,9 @@
                 "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
               },
               "slot": "RB",
-              "points": null,
+              "points": 20.9,
               "nflTeam": "LAR",
-              "nflOpponent": null
+              "nflOpponent": "ARI"
             }
           ]
         },
@@ -1939,15 +1958,15 @@
     }
   ],
   "career": {
-    "weeks": 43,
-    "points": 250.3,
-    "average": 5.82,
+    "weeks": 44,
+    "points": 271.2,
+    "average": 6.16,
     "high": {
       "season": 2025,
       "week": 14,
       "points": 26.1
     },
-    "starts": 2,
-    "starterPoints": 25.1
+    "starts": 3,
+    "starterPoints": 46.0
   }
 }

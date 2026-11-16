@@ -22,7 +22,7 @@
       "team": "JAX"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,9 +47,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 33.7,
-        "average": 4.21,
+        "weeks": 9,
+        "points": 39.6,
+        "average": 4.4,
         "high": {
           "season": 2026,
           "week": 4,
@@ -63,8 +63,8 @@
         "points": 0,
         "fppg": null,
         "nflStats": {
-          "receptions": 10.0,
-          "recYards": 117.0,
+          "receptions": 13.0,
+          "recYards": 146.0,
           "recTD": 2.0,
           "rushYards": 0
         },
@@ -393,13 +393,32 @@
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 3.0,
+            "recYards": 29.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 5.9,
           "nflTeam": "JAX",
           "nflOpponent": "TEN",
           "rosters": []
@@ -2264,9 +2283,9 @@
     }
   ],
   "career": {
-    "weeks": 42,
-    "points": 456.5,
-    "average": 10.87,
+    "weeks": 43,
+    "points": 462.4,
+    "average": 10.75,
     "high": {
       "season": 2024,
       "week": 15,

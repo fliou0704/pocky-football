@@ -22,7 +22,7 @@
       "team": "DEN"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,9 +47,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 89.5,
-        "average": 11.19,
+        "weeks": 9,
+        "points": 92.9,
+        "average": 10.32,
         "high": {
           "season": 2026,
           "week": 1,
@@ -63,8 +63,8 @@
         "points": 7.2,
         "fppg": 7.2,
         "nflStats": {
-          "receptions": 35.0,
-          "recYards": 365.0,
+          "receptions": 37.0,
+          "recYards": 379.0,
           "recTD": 3.0,
           "rushYards": 0
         },
@@ -429,13 +429,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 2.0,
+            "recYards": 14.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 3.4,
           "nflTeam": "NO",
           "nflOpponent": "CAR",
           "rosters": [
@@ -446,9 +465,9 @@
                 "logo": "data/pocky-football/team-logos/5fab3b832731a39a3558b5f2ef16465538bb9a79c9cb2bdc64fc7df9b13c2e68.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 3.4,
               "nflTeam": "NO",
-              "nflOpponent": null
+              "nflOpponent": "CAR"
             }
           ]
         },
@@ -1241,9 +1260,9 @@
     }
   ],
   "career": {
-    "weeks": 25,
-    "points": 155.8,
-    "average": 6.23,
+    "weeks": 26,
+    "points": 159.2,
+    "average": 6.12,
     "high": {
       "season": 2025,
       "week": 13,

@@ -22,7 +22,7 @@
       "team": "LV"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 9,
+        "weeks": 10,
         "points": 43.8,
-        "average": 4.87,
+        "average": 4.38,
         "high": {
           "season": 2026,
           "week": 8,
@@ -470,13 +470,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "GB",
           "nflOpponent": "MIN",
           "rosters": [
@@ -487,9 +506,9 @@
                 "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
               },
               "slot": "IR",
-              "points": null,
+              "points": 0.0,
               "nflTeam": "GB",
-              "nflOpponent": null
+              "nflOpponent": "MIN"
             }
           ]
         },
@@ -4859,9 +4878,9 @@
     }
   ],
   "career": {
-    "weeks": 94,
+    "weeks": 95,
     "points": 1309.4,
-    "average": 13.93,
+    "average": 13.78,
     "high": {
       "season": 2022,
       "week": 12,

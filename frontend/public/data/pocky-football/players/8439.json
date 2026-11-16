@@ -22,7 +22,7 @@
       "team": "GB"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,9 +51,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 117.14,
-        "average": 14.64,
+        "weeks": 9,
+        "points": 132.76,
+        "average": 14.75,
         "high": {
           "season": 2026,
           "week": 3,
@@ -67,10 +67,10 @@
         "points": 22.0,
         "fppg": 22.0,
         "nflStats": {
-          "passYards": 1871.0,
-          "passTD": 13.0,
+          "passYards": 2014.0,
+          "passTD": 15.0,
           "interceptions": 6.0,
-          "rushYards": 23.0,
+          "rushYards": 22.0,
           "rushTD": 0
         },
         "participationComplete": true,
@@ -350,13 +350,32 @@
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 29.0,
+            "passYards": 143.0,
+            "passTD": 2.0,
+            "interceptions": 0,
+            "rushAttempts": 2.0,
+            "rushYards": -1.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 15.62,
           "nflTeam": "PIT",
           "nflOpponent": "CIN",
           "rosters": []
@@ -3700,9 +3719,9 @@
     }
   ],
   "career": {
-    "weeks": 76,
-    "points": 946.22,
-    "average": 12.45,
+    "weeks": 77,
+    "points": 961.84,
+    "average": 12.49,
     "high": {
       "season": 2021,
       "week": 11,

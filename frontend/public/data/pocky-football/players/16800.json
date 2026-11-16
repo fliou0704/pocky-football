@@ -22,7 +22,7 @@
       "team": "GB"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,9 +47,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 9,
+        "weeks": 10,
         "points": 102.0,
-        "average": 11.33,
+        "average": 10.2,
         "high": {
           "season": 2026,
           "week": 2,
@@ -460,13 +460,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "did_not_play",
+          "nflStats": {
+            "passAttempts": null,
+            "passYards": null,
+            "passTD": null,
+            "interceptions": null,
+            "rushAttempts": null,
+            "rushYards": null,
+            "rushTD": null,
+            "receptions": null,
+            "recYards": null,
+            "recTD": null,
+            "fgMade": null,
+            "fgAttempts": null,
+            "extraPoints": null,
+            "sacks": null,
+            "defInterceptions": null,
+            "fumbleRecoveries": null,
+            "defTD": null,
+            "pointsAllowed": null
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 0.0,
           "nflTeam": "LAR",
           "nflOpponent": "ARI",
           "rosters": [
@@ -477,9 +496,9 @@
                 "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
               },
               "slot": "IR",
-              "points": null,
+              "points": 0.0,
               "nflTeam": "LAR",
-              "nflOpponent": null
+              "nflOpponent": "ARI"
             }
           ]
         },
@@ -4841,9 +4860,9 @@
     }
   ],
   "career": {
-    "weeks": 94,
+    "weeks": 95,
     "points": 1511.4,
-    "average": 16.08,
+    "average": 15.91,
     "high": {
       "season": 2024,
       "week": 15,

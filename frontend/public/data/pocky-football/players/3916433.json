@@ -22,7 +22,7 @@
       "team": null
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,9 +47,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 75.6,
-        "average": 9.45,
+        "weeks": 9,
+        "points": 82.0,
+        "average": 9.11,
         "high": {
           "season": 2026,
           "week": 3,
@@ -63,8 +63,8 @@
         "points": 0,
         "fppg": null,
         "nflStats": {
-          "receptions": 26.0,
-          "recYards": 374.0,
+          "receptions": 29.0,
+          "recYards": 408.0,
           "recTD": 2.0,
           "rushYards": 2.0
         },
@@ -441,13 +441,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 1.0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 3.0,
+            "recYards": 34.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 6.4,
           "nflTeam": "JAX",
           "nflOpponent": "TEN",
           "rosters": [
@@ -458,9 +477,9 @@
                 "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 6.4,
               "nflTeam": "JAX",
-              "nflOpponent": null
+              "nflOpponent": "TEN"
             }
           ]
         },
@@ -4772,9 +4791,9 @@
     }
   ],
   "career": {
-    "weeks": 93,
-    "points": 1054.58,
-    "average": 11.34,
+    "weeks": 94,
+    "points": 1060.98,
+    "average": 11.29,
     "high": {
       "season": 2023,
       "week": 1,

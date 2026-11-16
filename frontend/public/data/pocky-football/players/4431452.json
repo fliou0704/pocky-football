@@ -22,7 +22,7 @@
       "team": "NE"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,26 +51,26 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 9,
-        "points": 179.18,
-        "average": 19.91,
+        "weeks": 10,
+        "points": 182.2,
+        "average": 18.22,
         "high": {
           "season": 2026,
           "week": 5,
           "points": 39.46
         },
-        "starts": 5,
-        "starterPoints": 87.28
+        "starts": 6,
+        "starterPoints": 90.3
       },
       "seasonStats": {
         "gp": 5,
         "points": 87.28,
         "fppg": 17.46,
         "nflStats": {
-          "passYards": 2282.0,
+          "passYards": 2330.0,
           "passTD": 18.0,
           "interceptions": 11.0,
-          "rushYards": 219.0,
+          "rushYards": 230.0,
           "rushTD": 3.0
         },
         "participationComplete": true,
@@ -465,13 +465,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 4.0,
+            "passYards": 48.0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 1.0,
+            "rushYards": 11.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 3.02,
           "nflTeam": "NE",
           "nflOpponent": "DET",
           "rosters": [
@@ -482,9 +501,9 @@
                 "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
               },
               "slot": "QB",
-              "points": null,
+              "points": 3.02,
               "nflTeam": "NE",
-              "nflOpponent": null
+              "nflOpponent": "DET"
             }
           ]
         },
@@ -2112,15 +2131,15 @@
     }
   ],
   "career": {
-    "weeks": 43,
-    "points": 708.28,
-    "average": 16.47,
+    "weeks": 44,
+    "points": 711.3,
+    "average": 16.17,
     "high": {
       "season": 2026,
       "week": 5,
       "points": 39.46
     },
-    "starts": 12,
-    "starterPoints": 235.56
+    "starts": 13,
+    "starterPoints": 238.58
   }
 }

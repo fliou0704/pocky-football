@@ -22,7 +22,7 @@
       "team": "HOU"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 70.9,
-        "average": 8.86,
+        "weeks": 9,
+        "points": 78.4,
+        "average": 8.71,
         "high": {
           "season": 2026,
           "week": 5,
@@ -71,11 +71,11 @@
         "points": 19.2,
         "fppg": 9.6,
         "nflStats": {
-          "rushAttempts": 95.0,
-          "rushYards": 341.0,
+          "rushAttempts": 107.0,
+          "rushYards": 391.0,
           "rushTD": 2.0,
-          "receptions": 15.0,
-          "recYards": 98.0,
+          "receptions": 16.0,
+          "recYards": 113.0,
           "recTD": 0
         },
         "participationComplete": true,
@@ -451,13 +451,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 12.0,
+            "rushYards": 50.0,
+            "rushTD": 0,
+            "receptions": 1.0,
+            "recYards": 15.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 7.5,
           "nflTeam": "HOU",
           "nflOpponent": "CLE",
           "rosters": [
@@ -468,9 +487,9 @@
                 "logo": "data/pocky-football/team-logos/fedc1e351e468a6e76c32afb72de27909be5a33b270af41a734a296f49235fc3.webp"
               },
               "slot": "BE",
-              "points": null,
+              "points": 7.5,
               "nflTeam": "HOU",
-              "nflOpponent": null
+              "nflOpponent": "CLE"
             }
           ]
         },
@@ -1426,9 +1445,9 @@
     }
   ],
   "career": {
-    "weeks": 25,
-    "points": 222.0,
-    "average": 8.88,
+    "weeks": 26,
+    "points": 229.5,
+    "average": 8.83,
     "high": {
       "season": 2025,
       "week": 4,

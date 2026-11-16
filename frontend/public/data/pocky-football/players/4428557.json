@@ -22,7 +22,7 @@
       "team": "TEN"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,9 +55,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 27.1,
-        "average": 3.39,
+        "weeks": 9,
+        "points": 30.9,
+        "average": 3.43,
         "high": {
           "season": 2026,
           "week": 5,
@@ -71,10 +71,10 @@
         "points": 0,
         "fppg": null,
         "nflStats": {
-          "rushAttempts": 18.0,
-          "rushYards": 66.0,
+          "rushAttempts": 22.0,
+          "rushYards": 94.0,
           "rushTD": 0,
-          "receptions": 15.0,
+          "receptions": 16.0,
           "recYards": 75.0,
           "recTD": 0
         },
@@ -355,13 +355,32 @@
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 4.0,
+            "rushYards": 28.0,
+            "rushTD": 0,
+            "receptions": 1.0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 3.8,
           "nflTeam": "TEN",
           "nflOpponent": "JAX",
           "rosters": []
@@ -2998,9 +3017,9 @@
     }
   ],
   "career": {
-    "weeks": 59,
-    "points": 406.2,
-    "average": 6.88,
+    "weeks": 60,
+    "points": 410.0,
+    "average": 6.83,
     "high": {
       "season": 2024,
       "week": 15,

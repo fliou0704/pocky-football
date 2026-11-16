@@ -22,7 +22,7 @@
       "team": "CAR"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,9 +51,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 146.58,
-        "average": 18.32,
+        "weeks": 9,
+        "points": 154.68,
+        "average": 17.19,
         "high": {
           "season": 2026,
           "week": 1,
@@ -67,10 +67,10 @@
         "points": 70.72,
         "fppg": 14.14,
         "nflStats": {
-          "passYards": 2197.0,
+          "passYards": 2397.0,
           "passTD": 16.0,
           "interceptions": 6.0,
-          "rushYards": 47.0,
+          "rushYards": 48.0,
           "rushTD": 1.0
         },
         "participationComplete": true,
@@ -422,16 +422,47 @@
           "rosters": []
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 30.0,
+            "passYards": 200.0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 1.0,
+            "rushYards": 1.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 8.1,
           "nflTeam": "CAR",
           "nflOpponent": "NO",
-          "rosters": []
+          "rosters": [
+            {
+              "team": {
+                "teamId": 5,
+                "name": "The Concep",
+                "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
+              },
+              "slot": "BE",
+              "points": 8.1,
+              "nflTeam": "CAR",
+              "nflOpponent": "NO"
+            }
+          ]
         },
         {
           "gameState": "upcoming",
@@ -533,6 +564,21 @@
       "ownership": [
         {
           "team": {
+            "teamId": 5,
+            "name": "The Concep",
+            "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
+          },
+          "weeks": [
+            10
+          ],
+          "evidence": [
+            "current_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
             "teamId": 6,
             "name": "LOVE MEEEE",
             "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
@@ -552,10 +598,30 @@
           ]
         }
       ],
-      "rosterSnapshot": [],
+      "rosterSnapshot": [
+        {
+          "teamId": 5,
+          "name": "The Concep",
+          "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
+        }
+      ],
       "rosterSnapshotLabel": "Current roster",
       "draft": [],
       "transactions": [
+        {
+          "type": "free_agent_add",
+          "timestamp": "2026-11-15T02:45:45.561000+00:00",
+          "timestampKind": "proposed",
+          "week": 10,
+          "fromTeams": [],
+          "toTeams": [
+            {
+              "teamId": 5,
+              "name": "The Concep",
+              "logo": "data/pocky-football/team-logos/52961a8fa3c825dafddd4bbc1a77f78ae42496d74055855682046fe1d88e816e.svg"
+            }
+          ]
+        },
         {
           "type": "drop",
           "timestamp": "2026-11-07T08:56:47.867000+00:00",
@@ -1293,9 +1359,9 @@
     }
   ],
   "career": {
-    "weeks": 25,
-    "points": 302.96,
-    "average": 12.12,
+    "weeks": 26,
+    "points": 311.06,
+    "average": 11.96,
     "high": {
       "season": 2026,
       "week": 1,

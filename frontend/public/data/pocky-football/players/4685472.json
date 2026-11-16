@@ -22,7 +22,7 @@
       "team": "CAR"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,24 +47,24 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 124.5,
-        "average": 15.56,
+        "weeks": 9,
+        "points": 131.0,
+        "average": 14.56,
         "high": {
           "season": 2026,
           "week": 4,
           "points": 45.2
         },
-        "starts": 8,
-        "starterPoints": 124.5
+        "starts": 9,
+        "starterPoints": 131.0
       },
       "seasonStats": {
         "gp": 8,
         "points": 124.5,
         "fppg": 15.56,
         "nflStats": {
-          "receptions": 46.0,
-          "recYards": 625.0,
+          "receptions": 49.0,
+          "recYards": 660.0,
           "recTD": 3.0,
           "rushYards": 0
         },
@@ -441,26 +441,45 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 3.0,
+            "recYards": 35.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 6.5,
           "nflTeam": "CAR",
           "nflOpponent": "NO",
           "rosters": [
             {
               "team": {
-                "teamId": 6,
-                "name": "LOVE MEEEE",
-                "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
+                "teamId": 2,
+                "name": "Juwan's Team",
+                "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
               },
-              "slot": "WR",
-              "points": null,
+              "slot": "FLEX",
+              "points": 6.5,
               "nflTeam": "CAR",
-              "nflOpponent": null
+              "nflOpponent": "NO"
             }
           ]
         },
@@ -564,6 +583,21 @@
       "ownership": [
         {
           "team": {
+            "teamId": 2,
+            "name": "Juwan's Team",
+            "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
+          },
+          "weeks": [
+            10
+          ],
+          "evidence": [
+            "current_roster",
+            "transaction",
+            "weekly_roster"
+          ]
+        },
+        {
+          "team": {
             "teamId": 6,
             "name": "LOVE MEEEE",
             "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
@@ -577,21 +611,20 @@
             6,
             7,
             8,
-            9,
-            10
+            9
           ],
           "evidence": [
-            "current_roster",
             "draft",
+            "transaction",
             "weekly_roster"
           ]
         }
       ],
       "rosterSnapshot": [
         {
-          "teamId": 6,
-          "name": "LOVE MEEEE",
-          "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
+          "teamId": 2,
+          "name": "Juwan's Team",
+          "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
         }
       ],
       "rosterSnapshotLabel": "Current roster",
@@ -609,7 +642,28 @@
           "keeper": false
         }
       ],
-      "transactions": [],
+      "transactions": [
+        {
+          "type": "trade",
+          "timestamp": "2026-11-15T08:05:19.039000+00:00",
+          "timestampKind": "processed",
+          "week": 10,
+          "fromTeams": [
+            {
+              "teamId": 6,
+              "name": "LOVE MEEEE",
+              "logo": "data/pocky-football/team-logos/c41f792f8325aceefad8bc03b5cfcb8788440071a2130f5b5e6c63c9f106b37d.webp"
+            }
+          ],
+          "toTeams": [
+            {
+              "teamId": 2,
+              "name": "Juwan's Team",
+              "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
+            }
+          ]
+        }
+      ],
       "activityCoverage": {
         "status": "independently_verified_counts",
         "limitation": "Counts verify quantities, not every historical detail. Historical acquisition counters differ for some boundary-period moves; discrepancies remain explicit. No failed claims, private member IDs, or inferred historical waiver priority are published."
@@ -1451,15 +1505,15 @@
     }
   ],
   "career": {
-    "weeks": 25,
-    "points": 335.9,
-    "average": 13.44,
+    "weeks": 26,
+    "points": 342.4,
+    "average": 13.17,
     "high": {
       "season": 2026,
       "week": 4,
       "points": 45.2
     },
-    "starts": 18,
-    "starterPoints": 264.5
+    "starts": 19,
+    "starterPoints": 271.0
   }
 }

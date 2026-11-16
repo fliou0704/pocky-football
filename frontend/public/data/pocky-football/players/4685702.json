@@ -22,7 +22,7 @@
       "team": "CLE"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -55,27 +55,27 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 9,
-        "points": 92.1,
-        "average": 10.23,
+        "weeks": 10,
+        "points": 108.2,
+        "average": 10.82,
         "high": {
           "season": 2026,
           "week": 7,
           "points": 23.4
         },
-        "starts": 9,
-        "starterPoints": 92.1
+        "starts": 10,
+        "starterPoints": 108.2
       },
       "seasonStats": {
         "gp": 9,
         "points": 92.1,
         "fppg": 10.23,
         "nflStats": {
-          "rushAttempts": 116.0,
-          "rushYards": 385.0,
-          "rushTD": 3.0,
-          "receptions": 22.0,
-          "recYards": 136.0,
+          "rushAttempts": 126.0,
+          "rushYards": 423.0,
+          "rushTD": 4.0,
+          "receptions": 25.0,
+          "recYards": 169.0,
           "recTD": 0
         },
         "participationComplete": true,
@@ -470,13 +470,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 10.0,
+            "rushYards": 38.0,
+            "rushTD": 1.0,
+            "receptions": 3.0,
+            "recYards": 33.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 16.1,
           "nflTeam": "CLE",
           "nflOpponent": "HOU",
           "rosters": [
@@ -487,9 +506,9 @@
                 "logo": "data/pocky-football/team-logos/c1b27de868fc5c0a75c04b4dea5f725596864fd70a216c1a02f8e420e44bda6b.svg"
               },
               "slot": "RB",
-              "points": null,
+              "points": 16.1,
               "nflTeam": "CLE",
-              "nflOpponent": null
+              "nflOpponent": "HOU"
             }
           ]
         },
@@ -1471,15 +1490,15 @@
     }
   ],
   "career": {
-    "weeks": 26,
-    "points": 261.9,
-    "average": 10.07,
+    "weeks": 27,
+    "points": 278.0,
+    "average": 10.3,
     "high": {
       "season": 2025,
       "week": 7,
       "points": 26.4
     },
-    "starts": 23,
-    "starterPoints": 251.8
+    "starts": 24,
+    "starterPoints": 267.9
   }
 }

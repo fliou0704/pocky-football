@@ -22,7 +22,7 @@
       "team": null
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -43,24 +43,24 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 78.9,
-        "average": 9.86,
+        "weeks": 9,
+        "points": 83.7,
+        "average": 9.3,
         "high": {
           "season": 2026,
           "week": 3,
           "points": 23.3
         },
-        "starts": 6,
-        "starterPoints": 65.8
+        "starts": 7,
+        "starterPoints": 70.6
       },
       "seasonStats": {
         "gp": 6,
         "points": 65.8,
         "fppg": 10.97,
         "nflStats": {
-          "receptions": 28.0,
-          "recYards": 289.0,
+          "receptions": 30.0,
+          "recYards": 317.0,
           "recTD": 4.0
         },
         "participationComplete": true,
@@ -436,13 +436,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 2.0,
+            "recYards": 28.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 4.8,
           "nflTeam": "NO",
           "nflOpponent": "CAR",
           "rosters": [
@@ -452,10 +471,10 @@
                 "name": "Juwan's Team",
                 "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
               },
-              "slot": "BE",
-              "points": null,
+              "slot": "TE",
+              "points": 4.8,
               "nflTeam": "NO",
-              "nflOpponent": null
+              "nflOpponent": "CAR"
             }
           ]
         },
@@ -2790,15 +2809,15 @@
     }
   ],
   "career": {
-    "weeks": 59,
-    "points": 491.4,
-    "average": 8.33,
+    "weeks": 60,
+    "points": 496.2,
+    "average": 8.27,
     "high": {
       "season": 2026,
       "week": 3,
       "points": 23.3
     },
-    "starts": 18,
-    "starterPoints": 168.8
+    "starts": 19,
+    "starterPoints": 173.6
   }
 }

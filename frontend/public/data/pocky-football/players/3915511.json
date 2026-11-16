@@ -22,7 +22,7 @@
       "team": "CIN"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -51,9 +51,9 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 199.14,
-        "average": 24.89,
+        "weeks": 9,
+        "points": 232.3,
+        "average": 25.81,
         "high": {
           "season": 2026,
           "week": 8,
@@ -67,10 +67,10 @@
         "points": 123.96,
         "fppg": 24.79,
         "nflStats": {
-          "passYards": 2386.0,
-          "passTD": 23.0,
+          "passYards": 2795.0,
+          "passTD": 27.0,
           "interceptions": 6.0,
-          "rushYards": 77.0,
+          "rushYards": 85.0,
           "rushTD": 3.0
         },
         "participationComplete": true,
@@ -446,13 +446,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 44.0,
+            "passYards": 409.0,
+            "passTD": 4.0,
+            "interceptions": 0,
+            "rushAttempts": 1.0,
+            "rushYards": 8.0,
+            "rushTD": 0,
+            "receptions": 0,
+            "recYards": 0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 33.16,
           "nflTeam": "CIN",
           "nflOpponent": "PIT",
           "rosters": [
@@ -463,9 +482,9 @@
                 "logo": "data/pocky-football/team-logos/626168860accdf6d2d6c5f02f721befe421cce7dc6bc2a861d33fb358dfd0ef6.svg"
               },
               "slot": "BE",
-              "points": null,
+              "points": 33.16,
               "nflTeam": "CIN",
-              "nflOpponent": null
+              "nflOpponent": "PIT"
             }
           ]
         },
@@ -4778,9 +4797,9 @@
     }
   ],
   "career": {
-    "weeks": 92,
-    "points": 1518.52,
-    "average": 16.51,
+    "weeks": 93,
+    "points": 1551.68,
+    "average": 16.68,
     "high": {
       "season": 2026,
       "week": 8,

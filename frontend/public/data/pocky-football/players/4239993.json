@@ -22,7 +22,7 @@
       "team": "CIN"
     }
   },
-  "metadataGeneratedAt": "2026-11-13T20:45:44.553170+00:00",
+  "metadataGeneratedAt": "2026-11-16T05:26:00.299966+00:00",
   "currentSeason": 2026,
   "statColumns": [
     {
@@ -47,24 +47,24 @@
       "season": 2026,
       "complete": false,
       "summary": {
-        "weeks": 8,
-        "points": 159.8,
-        "average": 19.97,
+        "weeks": 9,
+        "points": 171.4,
+        "average": 19.04,
         "high": {
           "season": 2026,
           "week": 8,
           "points": 37.5
         },
-        "starts": 8,
-        "starterPoints": 159.8
+        "starts": 9,
+        "starterPoints": 171.4
       },
       "seasonStats": {
         "gp": 8,
         "points": 159.8,
         "fppg": 19.98,
         "nflStats": {
-          "receptions": 48.0,
-          "recYards": 758.0,
+          "receptions": 53.0,
+          "recYards": 824.0,
           "recTD": 6.0,
           "rushYards": 0
         },
@@ -441,13 +441,32 @@
           ]
         },
         {
-          "gameState": "upcoming",
-          "nflStats": {},
+          "gameState": "played",
+          "nflStats": {
+            "passAttempts": 0,
+            "passYards": 0,
+            "passTD": 0,
+            "interceptions": 0,
+            "rushAttempts": 0,
+            "rushYards": 0,
+            "rushTD": 0,
+            "receptions": 5.0,
+            "recYards": 66.0,
+            "recTD": 0,
+            "fgMade": 0,
+            "fgAttempts": 0,
+            "extraPoints": 0,
+            "sacks": 0,
+            "defInterceptions": 0,
+            "fumbleRecoveries": 0,
+            "defTD": 0,
+            "pointsAllowed": 0
+          },
           "season": 2026,
           "week": 10,
           "fantasyStatus": "live",
-          "status": "upcoming",
-          "points": null,
+          "status": "final",
+          "points": 11.6,
           "nflTeam": "CIN",
           "nflOpponent": "PIT",
           "rosters": [
@@ -458,9 +477,9 @@
                 "logo": "data/pocky-football/team-logos/6b6c4939f9e8ccf128fdc02b01b352c60b9ef0e94c3736c7dc5faf96ffa2b6d5.webp"
               },
               "slot": "WR",
-              "points": null,
+              "points": 11.6,
               "nflTeam": "CIN",
-              "nflOpponent": null
+              "nflOpponent": "PIT"
             }
           ]
         },
@@ -4768,15 +4787,15 @@
     }
   ],
   "career": {
-    "weeks": 92,
-    "points": 1171.1,
-    "average": 12.73,
+    "weeks": 93,
+    "points": 1182.7,
+    "average": 12.72,
     "high": {
       "season": 2021,
       "week": 16,
       "points": 43.4
     },
-    "starts": 59,
-    "starterPoints": 865.5
+    "starts": 60,
+    "starterPoints": 877.1
   }
 }
